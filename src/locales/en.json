@@ -119,6 +119,12 @@
             "text": "For privacy-related inquiries:"
           }
         }
+      },
+      "licenses": {
+        "metaDescription": "Third-party open source software licenses used in A.D.A - Artem D.",
+        "licenseLabel": "License:",
+        "repositoryLabel": "Repository:",
+        "disclaimer": "This page lists third-party open source software used in the app."
       }
     }
   }
