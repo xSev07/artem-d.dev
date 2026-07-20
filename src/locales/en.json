@@ -18,7 +18,39 @@
   "site": {
     "title": "A.D.A - Artem D",
     "developer": "A.D.A - Artem D",
-    "contactEmail": "contact@artem-d.dev"
+    "contactEmail": "contact@artem-d.dev",
+    "supportEmail": "support@artem-d.dev",
+    "help": {
+      "metaDescription": "Information about an operation error in the A.D.A app.",
+      "title": "Unable to complete the operation",
+      "intro": "The operation was not completed due to a technical error.",
+      "sections": {
+        "whatItMeans": {
+          "title": "What this means",
+          "text": "In rare cases, the local database or the device operating system may temporarily prevent data from being written."
+        },
+        "whatToTry": {
+          "title": "What you can try",
+          "items": [
+            "Close and reopen the app",
+            "Restart your device",
+            "Check that there is enough free storage on your device",
+            "Make sure the latest version of the app is installed"
+          ]
+        },
+        "ifPersists": {
+          "title": "If the problem persists",
+          "contactText": "Contact support:",
+          "emailIntro": "In your email, please include:",
+          "emailItems": [
+            "device model",
+            "Android version",
+            "app version",
+            "what you were doing before the error occurred"
+          ]
+        }
+      }
+    }
   },
   "apps": {
     "sixJarsFinance": {
