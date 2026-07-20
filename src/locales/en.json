@@ -1,0 +1,125 @@
+{
+  "common": {
+    "langSwitch": {
+      "en": "EN",
+      "ru": "RU"
+    },
+    "labels": {
+      "lastUpdated": "Last updated:",
+      "developer": "Developer:",
+      "contactAddress": "Contact address:"
+    },
+    "pages": {
+      "privacy": "Privacy Policy",
+      "help": "Error Information",
+      "licenses": "Open Source Licenses"
+    }
+  },
+  "site": {
+    "title": "A.D.A - Artem D",
+    "developer": "A.D.A - Artem D",
+    "contactEmail": "contact@artem-d.dev"
+  },
+  "apps": {
+    "sixJarsFinance": {
+      "common": {},
+      "privacy": {
+        "lastUpdated": "03.07.2026",
+        "metaDescription": "Privacy Policy for the application A.D.A - Artem D.",
+        "sections": {
+          "general": {
+            "title": "1. General Provisions",
+            "paragraphs": [
+              "This Privacy Policy describes how data is processed when using the mobile application. The app is designed with local data storage in mind (offline-first). Financial records and other user-created app data are stored locally on the user's device and are not transferred to the developer.",
+              "The app may use third-party services for technical purposes, such as crash and error reporting. These services may process technical diagnostic data needed to detect, diagnose, and fix errors."
+            ]
+          },
+          "dataProcessed": {
+            "title": "2. What data is processed"
+          },
+          "userData": {
+            "title": "2.1 Data entered by the user",
+            "intro": "The user enters the following into the app:",
+            "items": [
+              "financial records (transactions)",
+              "categories and tags",
+              "jar names, account names, notes, and other user settings"
+            ],
+            "outro": "This data is stored locally on the user's device, is not transferred to the developer, is not copied to the developer's servers, and is not shared with third parties. The developer has no technical ability to access this data."
+          },
+          "platformData": {
+            "title": "2.2 Platform technical data",
+            "paragraphs": [
+              "When installing and using the app, the Google Play platform may automatically process technical data such as device information, operating system version, diagnostic data, and crash reports.",
+              "Such data is processed by Google services in accordance with their own privacy policy. The developer does not receive the user's personal data from Google."
+            ]
+          },
+          "purchases": {
+            "title": "2.3 In-app purchases",
+            "paragraphs": [
+              "The app may use in-app purchases processed through Google Play. Payment processing is handled by Google's infrastructure. The developer does not receive bank card data, does not store payment information, and does not have access to the user's financial details."
+            ]
+          },
+          "crashes": {
+            "title": "2.4 Crash and error reporting",
+            "paragraphs": [
+              "The app uses Sentry, a third-party error monitoring service, to process crash reports and technical diagnostic data on behalf of the developer.",
+              "When an error occurs, the app may send technical diagnostic information to Sentry, such as crash logs, stack traces, app version, operating system version, device model, and other technical details related to the error.",
+              "Sentry is configured with default personal data collection disabled. The app does not intentionally send financial records, transaction data, jar names, tags, notes, account names, or other user-created financial content to Sentry.",
+              "The developer uses error reports only to improve app stability, diagnose technical issues, and fix bugs.",
+              "Because the app does not use accounts or assign user identifiers for error reporting, the developer may not be able to identify and delete a specific user's error reports."
+            ]
+          },
+          "storage": {
+            "title": "3. Data storage",
+            "paragraphs": [
+              "Financial records and other user-created app data are stored locally on the user's device in the app's database. Deleting the app results in deletion of locally stored data unless the user has created a backup beforehand. The developer does not store copies of this user-created app data and has no access to it.",
+              "Technical crash and diagnostic data may be processed by Sentry for error monitoring purposes."
+            ]
+          },
+          "thirdParties": {
+            "title": "4. Transfer of data to third parties",
+            "paragraphs": [
+              "The developer does not sell user data and does not transfer user-created financial data to third parties.",
+              "Financial records, transactions, tags, jar names, notes, settings, and backups are not transferred to the developer or to external servers by the app.",
+              "Technical crash and diagnostic data may be processed by Sentry on behalf of the developer for the purpose of detecting, diagnosing, and fixing errors."
+            ]
+          },
+          "backups": {
+            "title": "5. Backups",
+            "paragraphs": [
+              "If the app provides the ability to create a backup, the backup file is created by the user and saved at their discretion. The developer does not have access to backups."
+            ]
+          },
+          "rights": {
+            "title": "6. User rights",
+            "intro": "The user may:",
+            "items": [
+              "delete locally stored app data by deleting the app or clearing the app data in device settings",
+              "opt out of using in-app purchases",
+              "contact the developer regarding privacy"
+            ],
+            "outro": "Because the app does not use accounts or assign user identifiers for error reporting, the developer may not be able to identify and delete a specific user's error reports."
+          },
+          "security": {
+            "title": "7. Security",
+            "paragraphs": [
+              "The app does not transmit the user's financial data over the internet. Technical crash and diagnostic data, if sent, is transmitted through a secure connection.",
+              "The user is responsible for the security of their device and any backups created."
+            ]
+          },
+          "changes": {
+            "title": "8. Policy changes",
+            "paragraphs": [
+              "An updated version of the policy is published on the app's official page."
+            ]
+          },
+          "contact": {
+            "title": "9. Contact information",
+            "text": "For privacy-related inquiries:"
+          }
+        }
+      }
+    }
+  }
+}

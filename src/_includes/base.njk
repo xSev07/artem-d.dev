@@ -5,13 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>{{ title }}</title>
   <meta name="description" content="{{ description }}" />
-  <link rel="stylesheet" href="{{ assetPrefix }}assets/style.css" />
+  <link rel="stylesheet" href="/assets/style.css" />
 </head>
 <body>
   <div class="container">
 
     <header>
-      <div class="site-title">A.D.A - Artem D</div>
+      <div class="site-title">{{ "site.title" | t(lang) }}</div>
+      {% if showLangSwitch %}
+        {% include "lang-switch.njk" %}
+      {% endif %}
     </header>
 
     <main>
@@ -19,7 +22,7 @@
     </main>
 
     <footer>
-      © {{ year }} A.D.A - Artem D
+      © {{ year }} {{ "site.title" | t(lang) }}
     </footer>
 
   </div>
