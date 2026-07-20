@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ lang | default('en') }}">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>A.D.A - Artem D | Information</title>
-  <meta name="description" content="Official information pages for the A.D.A - Artem D application." />
-  <link rel="stylesheet" href="assets/style.css" />
+  <title>{{ title }}</title>
+  <meta name="description" content="{{ description }}" />
+  <link rel="stylesheet" href="{{ assetPrefix }}assets/style.css" />
 </head>
 <body>
   <div class="container">
@@ -15,14 +15,11 @@
     </header>
 
     <main>
-      
-<h1>Coming soon</h1>
-<p>Site is under construction.</p>
-
+      {{ content | safe }}
     </main>
 
     <footer>
-      © 2026 A.D.A - Artem D
+      © {{ year }} A.D.A - Artem D
     </footer>
 
   </div>
