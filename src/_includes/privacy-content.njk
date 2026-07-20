@@ -1,0 +1,79 @@
+{% set p = "apps.sixJarsFinance.privacy" %}
+{% set s = p ~ ".sections" %}
+
+<h1>{{ "common.pages.privacy" | t(lang) }}</h1>
+
+<p><strong>{{ "common.labels.lastUpdated" | t(lang) }}</strong> {{ (p ~ ".lastUpdated") | t(lang) }}</p>
+<p><strong>{{ "common.labels.developer" | t(lang) }}</strong> {{ "site.developer" | t(lang) }}</p>
+<p><strong>{{ "common.labels.contactAddress" | t(lang) }}</strong> <a href="mailto:{{ 'site.contactEmail' | t(lang) }}">{{ "site.contactEmail" | t(lang) }}</a></p>
+
+<h2>{{ (s ~ ".general.title") | t(lang) }}</h2>
+{% for paragraph in (s ~ ".general.paragraphs") | t(lang) %}
+<p>{{ paragraph }}</p>
+{% endfor %}
+
+<h2>{{ (s ~ ".dataProcessed.title") | t(lang) }}</h2>
+
+<h2>{{ (s ~ ".userData.title") | t(lang) }}</h2>
+<p>{{ (s ~ ".userData.intro") | t(lang) }}</p>
+<ul>
+  {% for item in (s ~ ".userData.items") | t(lang) %}
+  <li>{{ item }}</li>
+  {% endfor %}
+</ul>
+<p>{{ (s ~ ".userData.outro") | t(lang) }}</p>
+
+<h2>{{ (s ~ ".platformData.title") | t(lang) }}</h2>
+{% for paragraph in (s ~ ".platformData.paragraphs") | t(lang) %}
+<p>{{ paragraph }}</p>
+{% endfor %}
+
+<h2>{{ (s ~ ".purchases.title") | t(lang) }}</h2>
+{% for paragraph in (s ~ ".purchases.paragraphs") | t(lang) %}
+<p>{{ paragraph }}</p>
+{% endfor %}
+
+<h2>{{ (s ~ ".crashes.title") | t(lang) }}</h2>
+{% for paragraph in (s ~ ".crashes.paragraphs") | t(lang) %}
+<p>{{ paragraph }}</p>
+{% endfor %}
+
+<h2>{{ (s ~ ".storage.title") | t(lang) }}</h2>
+{% for paragraph in (s ~ ".storage.paragraphs") | t(lang) %}
+<p>{{ paragraph }}</p>
+{% endfor %}
+
+<h2>{{ (s ~ ".thirdParties.title") | t(lang) }}</h2>
+{% for paragraph in (s ~ ".thirdParties.paragraphs") | t(lang) %}
+<p>{{ paragraph }}</p>
+{% endfor %}
+
+<h2>{{ (s ~ ".backups.title") | t(lang) }}</h2>
+{% for paragraph in (s ~ ".backups.paragraphs") | t(lang) %}
+<p>{{ paragraph }}</p>
+{% endfor %}
+
+<h2>{{ (s ~ ".rights.title") | t(lang) }}</h2>
+<p>{{ (s ~ ".rights.intro") | t(lang) }}</p>
+<ul>
+  {% for item in (s ~ ".rights.items") | t(lang) %}
+  <li>{{ item }}</li>
+  {% endfor %}
+</ul>
+<p>{{ (s ~ ".rights.outro") | t(lang) }}</p>
+
+<h2>{{ (s ~ ".security.title") | t(lang) }}</h2>
+{% for paragraph in (s ~ ".security.paragraphs") | t(lang) %}
+<p>{{ paragraph }}</p>
+{% endfor %}
+
+<h2>{{ (s ~ ".changes.title") | t(lang) }}</h2>
+{% for paragraph in (s ~ ".changes.paragraphs") | t(lang) %}
+<p>{{ paragraph }}</p>
+{% endfor %}
+
+<h2>{{ (s ~ ".contact.title") | t(lang) }}</h2>
+<p>
+  {{ (s ~ ".contact.text") | t(lang) }}
+  <a href="mailto:{{ 'site.contactEmail' | t(lang) }}">{{ "site.contactEmail" | t(lang) }}</a>
+</p>
