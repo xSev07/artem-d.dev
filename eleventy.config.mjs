@@ -12,7 +12,7 @@ await i18next.init({
 
 /** @param {import("@11ty/eleventy").UserConfig} eleventyConfig */
 export default (eleventyConfig) => {
-  eleventyConfig.addPassthroughCopy("assets");
+  eleventyConfig.addPassthroughCopy({ "src/assets": "assets" });
 
   eleventyConfig.addFilter("t", (key, lang, options = {}) =>
     i18next.t(key, { lng: lang, returnObjects: true, ...options }),

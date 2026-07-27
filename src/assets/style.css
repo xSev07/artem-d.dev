@@ -256,6 +256,49 @@ a:hover {
   border-radius: var(--radius-lg);
 }
 
+.article strong {
+  font-weight: 600;
+}
+
+.article table {
+  width: 100%;
+  margin-block: 32px;
+  border-collapse: collapse;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.article thead th {
+  padding: 12px 16px;
+  border: 1px solid var(--color-border);
+  background: var(--color-surface-secondary);
+  font-weight: 600;
+  text-align: left;
+}
+
+.article tbody td {
+  padding: 12px 16px;
+  border: 1px solid var(--color-border);
+}
+
+.article tbody td:nth-child(2),
+.article tbody td:nth-child(3),
+.article thead th:nth-child(2),
+.article thead th:nth-child(3) {
+  text-align: right;
+  white-space: nowrap;
+}
+
+/* Footer */
+
+.site-footer {
+  margin-top: 64px;
+  padding-block: 24px;
+  border-top: 1px solid var(--color-border);
+  color: var(--color-text-secondary);
+  font-size: 14px;
+}
+
 /* Blocks */
 
 .card {
@@ -308,5 +351,11 @@ a:hover {
 
   .article h2 {
     margin-top: 64px;
+  }
+
+  .article table {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
   }
 }
