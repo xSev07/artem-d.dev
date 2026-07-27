@@ -15,6 +15,10 @@
       "licenses": "Лицензии открытого ПО"
     }
   },
+  "article": {
+    "tocTitle": "На этой странице",
+    "tocLabel": "Навигация по странице"
+  },
   "site": {
     "title": "A.D.A - Artem D",
     "developer": "A.D.A - Artem D",
