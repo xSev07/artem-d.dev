@@ -3,6 +3,8 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "clean": "node scripts/clean.mjs",
+    "prebuild": "npm run clean",
     "build": "eleventy",
     "start": "eleventy --serve"
   },

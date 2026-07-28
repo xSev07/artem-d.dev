@@ -13,7 +13,11 @@ await i18next.init({
 /** @param {import("@11ty/eleventy").UserConfig} eleventyConfig */
 export default (eleventyConfig) => {
   eleventyConfig.addPassthroughCopy({ "src/assets": "assets" });
-  eleventyConfig.addPassthroughCopy({ "content/articles": "content/articles" });
+  eleventyConfig.addPassthroughCopy({ "static/CNAME": "CNAME" });
+  eleventyConfig.addPassthroughCopy({ "static/health.txt": "health.txt" });
+  eleventyConfig.addPassthroughCopy("content/articles", {
+    filter: (path) => !path.endsWith(".md"),
+  });
 
   eleventyConfig.addFilter("t", (key, lang, options = {}) =>
     i18next.t(key, { lng: lang, returnObjects: true, ...options }),
