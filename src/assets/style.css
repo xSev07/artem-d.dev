@@ -23,6 +23,9 @@
   --radius-xl: 20px;
 
   --shadow-card: 0 2px 8px rgba(0, 0, 0, 0.035);
+  --shadow-elevated:
+    0 8px 24px rgba(0, 0, 0, 0.06),
+    0 2px 8px rgba(0, 0, 0, 0.04);
 }
 
 *,
@@ -303,6 +306,28 @@ a:hover {
 
 .article-section {
   margin: 0 0 48px;
+  display: flow-root;
+}
+
+.article-figure {
+  margin: 0 0 24px;
+}
+
+.article-figure img {
+  border-radius: var(--radius-lg);
+}
+
+.article-figure--elevated img {
+  border: 1px solid rgba(26, 26, 26, 0.06);
+  box-shadow: var(--shadow-elevated);
+}
+
+@media (min-width: 768px) {
+  .article-figure--float-end {
+    float: right;
+    width: min(42%, 280px);
+    margin: 0 0 24px 32px;
+  }
 }
 
 .article h2 {
@@ -339,11 +364,6 @@ a:hover {
 
 .article li + li {
   margin-top: 8px;
-}
-
-.article img {
-  margin-block: 32px;
-  border-radius: var(--radius-lg);
 }
 
 .article strong {
