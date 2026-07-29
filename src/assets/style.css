@@ -476,6 +476,218 @@ a:hover {
   box-shadow: var(--shadow-card);
 }
 
+/* Landing */
+
+.landing-section {
+  padding-block: 48px;
+}
+
+.hero--landing {
+  padding-block: 32px 48px;
+}
+
+.hero__eyebrow {
+  margin: 0 0 12px;
+  color: var(--color-brand);
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.hero__content .hero__title {
+  font-size: clamp(32px, 4.5vw, 48px);
+}
+
+.hero__content .hero__lead {
+  margin-top: 16px;
+  font-size: 18px;
+}
+
+.hero__preview--phone {
+  padding: 0;
+  background: transparent;
+}
+
+.hero__screenshot {
+  width: min(100%, 280px);
+  margin-inline: auto;
+  border: 1px solid rgba(26, 26, 26, 0.06);
+  border-radius: 24px;
+  box-shadow: var(--shadow-elevated);
+}
+
+.button-store {
+  display: inline-flex;
+  min-height: 44px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 20px;
+  border-radius: var(--radius-md);
+  background: #1a1a1a;
+  color: #ffffff;
+  font-weight: 500;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+.button-store--play:hover {
+  background: #333333;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.button-store--disabled {
+  opacity: 0.55;
+  cursor: default;
+}
+
+.button-store__icon {
+  flex-shrink: 0;
+}
+
+.benefits-grid {
+  display: grid;
+  gap: 16px;
+}
+
+@media (min-width: 768px) {
+  .benefits-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.benefit-card {
+  padding: 20px 24px;
+}
+
+.benefit-card__title {
+  margin: 0 0 8px;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.benefit-card__text {
+  margin: 0;
+  color: var(--color-text-secondary);
+  font-size: 15px;
+  line-height: 1.55;
+}
+
+.faq__title {
+  margin: 0 0 24px;
+  font-size: clamp(24px, 3vw, 32px);
+  font-weight: 600;
+  letter-spacing: -0.025em;
+  line-height: 1.2;
+}
+
+.faq {
+  max-width: 720px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  background: var(--color-surface);
+  box-shadow: var(--shadow-card);
+}
+
+.faq__item {
+  border-bottom: 1px solid var(--color-border);
+}
+
+.faq__item:last-child {
+  border-bottom: none;
+}
+
+.faq__question {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 18px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.35;
+  list-style: none;
+  cursor: pointer;
+  user-select: none;
+}
+
+.faq__question::-webkit-details-marker {
+  display: none;
+}
+
+.faq__question::after {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  background: currentColor;
+  content: "";
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E") center / contain no-repeat;
+  opacity: 0.45;
+  transition: transform 0.2s ease;
+}
+
+.faq__item[open] .faq__question::after {
+  transform: rotate(180deg);
+}
+
+.faq__question:hover,
+.faq__question:focus-visible {
+  color: var(--color-brand);
+}
+
+.faq__answer {
+  margin: 0;
+  padding: 0 20px 18px;
+  color: var(--color-text-secondary);
+  font-size: 15px;
+  line-height: 1.55;
+}
+
+.method-guide {
+  max-width: 720px;
+}
+
+.method-guide__title {
+  margin: 0 0 16px;
+  font-size: clamp(24px, 3vw, 32px);
+  font-weight: 600;
+  letter-spacing: -0.025em;
+  line-height: 1.2;
+}
+
+.method-guide__text {
+  margin: 0 0 12px;
+  color: var(--color-text-secondary);
+  font-size: 17px;
+  line-height: 1.65;
+}
+
+.method-guide__text:last-child {
+  margin-bottom: 0;
+}
+
+.method-guide__actions {
+  margin-top: 24px;
+}
+
+.app-cta__text {
+  margin: 0 0 24px;
+  max-width: 560px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.45;
+  letter-spacing: -0.02em;
+}
+
+.app-cta__actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px 24px;
+}
+
 /* Mobile */
 
 @media (max-width: 767px) {
@@ -491,7 +703,28 @@ a:hover {
     padding-block: 48px 64px;
   }
 
+  .hero--landing {
+    padding-block: 24px 40px;
+  }
+
+  .hero--landing .hero__grid {
+    gap: 32px;
+  }
+
+  .hero--landing .hero__content .hero__title {
+    font-size: 28px;
+  }
+
+  .hero--landing .hero__content .hero__lead {
+    font-size: 16px;
+  }
+
   .hero__actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .app-cta__actions {
     flex-direction: column;
     align-items: stretch;
   }
