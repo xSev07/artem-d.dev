@@ -257,6 +257,7 @@ a:hover {
 .hero__title {
   max-width: 760px;
   margin: 0;
+  margin-bottom: 24px;
   font-size: clamp(40px, 5vw, 56px);
   font-weight: 600;
   line-height: 1.08;
@@ -272,8 +273,10 @@ a:hover {
 }
 
 .hero__actions {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: fit-content;
+  max-width: 100%;
   gap: 12px;
   margin-top: 32px;
 }
@@ -486,12 +489,22 @@ a:hover {
   padding-block: 32px 48px;
 }
 
-.hero__eyebrow {
-  margin: 0 0 12px;
-  color: var(--color-brand);
-  font-size: 15px;
-  font-weight: 600;
-  letter-spacing: 0.02em;
+.hero__card {
+  padding-block: 42px;
+  padding-inline: clamp(32px, 5vw, 60px);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-xl);
+  background: var(--color-surface);
+}
+
+@media (min-width: 900px) {
+  .hero--landing .hero__grid {
+    grid-template-columns: minmax(0, 5fr) minmax(0, 3fr);
+  }
+}
+
+.hero__content {
+  transform: translateY(-20px);
 }
 
 .hero__content .hero__title {
@@ -499,8 +512,10 @@ a:hover {
 }
 
 .hero__content .hero__lead {
+  max-width: 95%;
   margin-top: 16px;
   font-size: 18px;
+  color: #5F5F67;
 }
 
 .hero__preview--phone {
@@ -523,6 +538,7 @@ a:hover {
   justify-content: center;
   gap: 10px;
   padding: 10px 20px;
+  border: 1px solid transparent;
   border-radius: var(--radius-md);
   background: #1a1a1a;
   color: #ffffff;
@@ -531,15 +547,15 @@ a:hover {
   text-decoration: none;
 }
 
-.button-store--play:hover {
+.hero__actions .button-store,
+.app-cta__actions .button-store {
+  width: 100%;
+}
+
+.button-store:hover {
   background: #333333;
   color: #ffffff;
   text-decoration: none;
-}
-
-.button-store--disabled {
-  opacity: 0.55;
-  cursor: default;
 }
 
 .button-store__icon {
@@ -682,9 +698,10 @@ a:hover {
 }
 
 .app-cta__actions {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: fit-content;
+  max-width: 100%;
   gap: 16px 24px;
 }
 
@@ -707,6 +724,11 @@ a:hover {
     padding-block: 24px 40px;
   }
 
+  .hero__card {
+    padding: 32px 24px;
+    border-radius: 24px;
+  }
+
   .hero--landing .hero__grid {
     gap: 32px;
   }
@@ -720,13 +742,13 @@ a:hover {
   }
 
   .hero__actions {
-    flex-direction: column;
-    align-items: stretch;
+    grid-template-columns: 1fr;
+    width: 100%;
   }
 
   .app-cta__actions {
-    flex-direction: column;
-    align-items: stretch;
+    grid-template-columns: 1fr;
+    width: 100%;
   }
 
   .article table {
