@@ -248,9 +248,13 @@ a:hover {
   align-items: center;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1024px) {
   .hero__grid {
     grid-template-columns: minmax(0, 1fr) minmax(320px, 0.8fr);
+  }
+
+  .hero__content {
+    transform: translateY(-20px);
   }
 }
 
@@ -325,7 +329,7 @@ a:hover {
   box-shadow: var(--shadow-elevated);
 }
 
-@media (min-width: 768px) {
+@media (min-width: 640px) {
   .article-figure--float-end {
     float: right;
     width: min(42%, 280px);
@@ -497,18 +501,14 @@ a:hover {
   background: var(--color-surface);
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1024px) {
   .hero--landing .hero__grid {
     grid-template-columns: minmax(0, 5fr) minmax(0, 3fr);
   }
 }
 
-.hero__content {
-  transform: translateY(-20px);
-}
-
 .hero__content .hero__title {
-  font-size: clamp(32px, 4.5vw, 48px);
+  font-size: clamp(32px, 4.5vw, 42px);
 }
 
 .hero__content .hero__lead {
@@ -521,6 +521,12 @@ a:hover {
 .hero__preview--phone {
   padding: 0;
   background: transparent;
+}
+
+@media (min-width: 640px) and (max-width: 1023px) {
+  .hero--landing .hero__preview--phone {
+    display: none;
+  }
 }
 
 .hero__screenshot {
@@ -567,7 +573,7 @@ a:hover {
   gap: 16px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 640px) {
   .benefits-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
@@ -707,7 +713,7 @@ a:hover {
 
 /* Mobile */
 
-@media (max-width: 767px) {
+@media (max-width: 639px) {
   body {
     font-size: 16px;
   }
