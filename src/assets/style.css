@@ -74,6 +74,11 @@ a:hover {
   margin-inline: auto;
 }
 
+.content-column {
+  max-width: 720px;
+  margin: auto;
+}
+
 .article-layout {
   width: min(calc(100% - 32px), var(--container-page));
   margin-inline: auto;
@@ -471,7 +476,6 @@ a:hover {
 }
 
 .app-cta {
-  margin-block: 64px;
   padding: clamp(24px, 5vw, 48px);
   border: 1px solid var(--color-border);
   border-radius: var(--radius-xl);
@@ -607,7 +611,6 @@ a:hover {
 }
 
 .faq {
-  max-width: 720px;
   border: 1px solid var(--color-border);
   border-radius: var(--radius-lg);
   background: var(--color-surface);
@@ -668,12 +671,7 @@ a:hover {
   line-height: 1.55;
 }
 
-.personal-experience {
-  max-width: 720px;
-  margin: auto;
-}
-
-.personal-experience__title {
+.text-section__title {
   margin: 0 0 16px;
   font-size: clamp(24px, 3vw, 32px);
   font-weight: 600;
@@ -681,28 +679,36 @@ a:hover {
   line-height: 1.2;
 }
 
-.personal-experience__text {
+.text-section__text {
   margin: 0 0 12px;
   color: var(--color-text-secondary);
   font-size: 17px;
   line-height: 1.65;
 }
 
-.personal-experience__text:last-child {
+.text-section__text:last-child {
   margin-bottom: 0;
 }
 
-.personal-experience__actions {
-  margin-top: 24px;
+.app-cta__content {
+  max-width: 780px;
+  margin-inline: auto;
+  text-align: left;
+}
+
+.app-cta__title {
+  margin: 0 0 12px;
+  font-size: clamp(24px, 3vw, 32px);
+  font-weight: 600;
+  letter-spacing: -0.025em;
+  line-height: 1.2;
 }
 
 .app-cta__text {
   margin: 0 0 24px;
-  max-width: 560px;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.45;
-  letter-spacing: -0.02em;
+  color: var(--color-text-secondary);
+  font-size: 17px;
+  line-height: 1.65;
 }
 
 .app-cta__actions {
@@ -748,6 +754,14 @@ a:hover {
 
   .app-cta__actions {
     grid-template-columns: 1fr;
+    width: 100%;
+  }
+
+  .text-section__actions {
+    margin-top: 12px;
+  }
+
+  .text-section__actions .button-secondary {
     width: 100%;
   }
 
