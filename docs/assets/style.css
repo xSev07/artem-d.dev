@@ -668,11 +668,12 @@ a:hover {
   line-height: 1.55;
 }
 
-.method-guide {
+.personal-experience {
   max-width: 720px;
+  margin: auto;
 }
 
-.method-guide__title {
+.personal-experience__title {
   margin: 0 0 16px;
   font-size: clamp(24px, 3vw, 32px);
   font-weight: 600;
@@ -680,18 +681,18 @@ a:hover {
   line-height: 1.2;
 }
 
-.method-guide__text {
+.personal-experience__text {
   margin: 0 0 12px;
   color: var(--color-text-secondary);
   font-size: 17px;
   line-height: 1.65;
 }
 
-.method-guide__text:last-child {
+.personal-experience__text:last-child {
   margin-bottom: 0;
 }
 
-.method-guide__actions {
+.personal-experience__actions {
   margin-top: 24px;
 }
 
