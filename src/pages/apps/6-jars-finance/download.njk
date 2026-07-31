@@ -1,19 +1,28 @@
 ---
 layout: base.njk
-permalink: "/ru/apps/6-jars-finance/download/"
-title: "6 Jars Finance — бюджет по методу шести кувшинов"
-description: "Распределяйте доход по финансовым целям до того, как начнёте тратить. Бюджет по методу 6 кувшинов на Android."
-lang: ru
+pagination:
+  data: languages
+  size: 1
+  alias: lang
+permalink: "/{{ lang.code }}/apps/6-jars-finance/download/"
+showLangSwitch: true
+langSwitchPath: "/apps/6-jars-finance/download/"
 year: 2026
+eleventyComputed:
+  title: "{{ 'apps.sixJarsFinance.download.title' | t(lang.code) }}"
+  description: "{{ 'apps.sixJarsFinance.download.metaDescription' | t(lang.code) }}"
+  lang: "{{ lang.code }}"
 ---
+
+{% set d = "apps.sixJarsFinance.download" %}
 
 <section class="hero landing-section">
   <div class="container">
     <div class="hero__card">
       <div class="hero__grid">
         <div class="hero__content">
-          <h1 class="hero__title">Контроль текущих трат и уверенность в завтрашнем дне</h1>
-          <p class="hero__lead">6 Jars Finance помогает заранее распределить зарплату: понять, сколько можно потратить на кафе и развлечения, отложить деньги на отпуск или крупную покупку и постепенно создать запас на непредвиденные расходы.</p>
+          <h1 class="hero__title">{{ (d ~ ".hero.title") | t(lang) }}</h1>
+          <p class="hero__lead">{{ (d ~ ".hero.lead") | t(lang) }}</p>
           <div class="hero__actions">
             <a
               class="button-store"
@@ -41,8 +50,8 @@ year: 2026
         <div class="hero__preview hero__preview--phone">
           <img
             class="hero__screenshot"
-            src="/content/articles/six-jars/screenshots/ru/main-screen.jpg"
-            alt="Главный экран приложения 6 Jars Finance с шестью кувшинами и балансами"
+            src="/content/articles/six-jars/screenshots/{{ lang }}/main-screen.jpg"
+            alt="{{ (d ~ '.hero.screenshotAlt') | t(lang) }}"
             width="1080"
             height="2265"
             fetchpriority="high"
@@ -56,18 +65,12 @@ year: 2026
 <section class="landing-section">
   <div class="container">
     <div class="benefits-grid">
+      {% for benefit in (d ~ ".benefits") | t(lang) %}
       <div class="card benefit-card">
-        <h2 class="benefit-card__title">Понятно, сколько можно потратить</h2>
-        <p class="benefit-card__text">Вы видите отдельные суммы на повседневные расходы, кафе, развлечения и другие категории. Не нужно каждый раз смотреть на общий баланс и гадать, можете ли вы позволить себе покупку.</p>
+        <h2 class="benefit-card__title">{{ benefit.title }}</h2>
+        <p class="benefit-card__text">{{ benefit.text }}</p>
       </div>
-      <div class="card benefit-card">
-        <h2 class="benefit-card__title">Накопления создаются заранее</h2>
-        <p class="benefit-card__text">Часть зарплаты можно сразу направить на отпуск, крупную покупку или другую цель. Эти деньги не смешиваются с повседневными тратами и не исчезают незаметно к концу месяца.</p>
-      </div>
-      <div class="card benefit-card">
-        <h2 class="benefit-card__title">Постепенно появляется запас денег</h2>
-        <p class="benefit-card__text">Регулярно откладывая даже небольшую часть зарплаты, можно создать запас на лечение, поломку техники, задержку выплаты и другие непредвиденные ситуации.</p>
-      </div>
+      {% endfor %}
     </div>
   </div>
 </section>
@@ -75,11 +78,10 @@ year: 2026
 <section class="landing-section">
   <div class="container">
     <div class="text-section content-column">
-      <h2 class="text-section__title">Создано на основе личного опыта</h2>
-      <p class="text-section__text">Меня зовут Артём Д. Я профессионально занимаюсь разработкой программного обеспечения с 2017 года и создал 6 Jars Finance.</p>
-      <p class="text-section__text">Методом шести кувшинов я пользуюсь более 10 лет. Благодаря ему мне не приходится каждый раз думать, могу ли я позволить себе купить настольную игру или сходить в кафе, хватит ли денег на отпуск и смогу ли я вовремя оплатить аренду в случае задержки зарплаты.</p>
-      <p class="text-section__text">За эти годы я пробовал разные приложения для метода шести кувшинов. Больше всего меня раздражало жёсткое ограничение количества кувшинов шестью штуками. Нельзя было добавить седьмой кувшин или удалить ненужный.</p>
-      <p class="text-section__text">Поэтому я создал 6 Jars Finance, где систему кувшинов можно менять по мере того, как меняются жизненные обстоятельства и финансовые приоритеты. Я сам регулярно пользуюсь приложением, поэтому продолжаю развивать его функционал и улучшать удобство использования.</p>
+      <h2 class="text-section__title">{{ (d ~ ".about.title") | t(lang) }}</h2>
+      {% for paragraph in (d ~ ".about.paragraphs") | t(lang) %}
+      <p class="text-section__text">{{ paragraph }}</p>
+      {% endfor %}
     </div>
   </div>
 </section>
@@ -87,28 +89,14 @@ year: 2026
 <section class="landing-section">
   <div class="container">
     <div class="content-column">
-      <h2 class="faq__title">Частые вопросы</h2>
+      <h2 class="faq__title">{{ (d ~ ".faq.title") | t(lang) }}</h2>
       <div class="faq">
+      {% for item in (d ~ ".faq.items") | t(lang) %}
       <details class="faq__item">
-        <summary class="faq__question">Нужно ли строго следовать классическому распределению по шести кувшинам?</summary>
-        <p class="faq__answer">Нет. Классическая схема — это готовая отправная точка, а не обязательный набор правил.</p>
+        <summary class="faq__question">{{ item.question }}</summary>
+        <p class="faq__answer">{{ item.answer }}</p>
       </details>
-      <details class="faq__item">
-        <summary class="faq__question">Можно ли настроить приложение под себя?</summary>
-        <p class="faq__answer">Да. Шесть базовых кувшинов — это готовая основа, которую можно изменить под свои задачи: переименовать кувшины, выбрать другие проценты или создать дополнительные кувшины для отдельных расходов и целей.</p>
-      </details>
-      <details class="faq__item">
-        <summary class="faq__question">Нужно ли записывать каждую покупку отдельно?</summary>
-        <p class="faq__answer">Нет. Несколько покупок из одного кувшина можно внести общей суммой. Например, необязательно отдельно записывать каждую покупку в супермаркете — можно указать общую сумму расходов на продукты.</p>
-      </details>
-      <details class="faq__item">
-        <summary class="faq__question">Что делать, если денег не хватает на накопления?</summary>
-        <p class="faq__answer">Вы сами решаете, сколько денег направлять на накопления. Можно начать с небольшой суммы или пока распределять всю зарплату между текущими расходами — приложение не требует откладывать установленный процент.</p>
-      </details>
-      <details class="faq__item">
-        <summary class="faq__question">Чем это отличается от обычного приложения для учёта расходов?</summary>
-        <p class="faq__answer">Обычные финансовые трекеры в основном помогают записывать траты и смотреть, куда уже ушли деньги. 6 Jars Finance автоматически распределяет зарплату по заранее заданным сферам жизни, чтобы вы всегда видели, сколько и на что можно потратить, не затрагивая деньги, отложенные на отпуск, крупную покупку или другие цели.</p>
-      </details>
+      {% endfor %}
     </div>
     </div>
   </div>
@@ -117,10 +105,10 @@ year: 2026
 <section class="landing-section">
   <div class="container">
     <div class="text-section content-column">
-      <h2 class="text-section__title">Хотите подробнее разобраться в методе?</h2>
-      <p class="text-section__text">Если вы сомневаетесь, что сможете применять метод шести кувшинов, или не до конца понимаете, как он работает, прочитайте подробное руководство. В нём я объясняю, как пользоваться методом в реальной жизни. На практических примерах и с опорой на собственный опыт.</p>
+      <h2 class="text-section__title">{{ (d ~ ".guide.title") | t(lang) }}</h2>
+      <p class="text-section__text">{{ (d ~ ".guide.text") | t(lang) }}</p>
       <div class="text-section__actions">
-        <a class="button-secondary" href="/ru/apps/6-jars-finance/articles/guide/">Подробнее о методе</a>
+        <a class="button-secondary" href="/{{ lang }}/apps/6-jars-finance/articles/guide/">{{ (d ~ ".guide.button") | t(lang) }}</a>
       </div>
     </div>
   </div>
@@ -130,8 +118,8 @@ year: 2026
   <div class="container">
     <div class="app-cta">
       <div class="app-cta__content">
-        <h2 class="app-cta__title">Начните пользоваться методом шести кувшинов</h2>
-        <p class="app-cta__text">Бесплатно и без рекламы.</p>
+        <h2 class="app-cta__title">{{ (d ~ ".cta.title") | t(lang) }}</h2>
+        <p class="app-cta__text">{{ (d ~ ".cta.text") | t(lang) }}</p>
         <div class="app-cta__actions">
         <a
           class="button-store"
@@ -172,10 +160,10 @@ year: 2026
     aria-labelledby="app-store-modal-title"
     aria-modal="true"
   >
-    <h2 class="modal__title" id="app-store-modal-title">Приложение пока недоступно в App Store</h2>
-    <p class="modal__text">Версия для iPhone находится в разработке.</p>
+    <h2 class="modal__title" id="app-store-modal-title">{{ (d ~ ".modal.title") | t(lang) }}</h2>
+    <p class="modal__text">{{ (d ~ ".modal.text") | t(lang) }}</p>
     <div class="modal__actions">
-      <button class="button-primary" type="button" data-close-app-store-modal>Понятно</button>
+      <button class="button-primary" type="button" data-close-app-store-modal>{{ (d ~ ".modal.button") | t(lang) }}</button>
     </div>
   </div>
 </div>
