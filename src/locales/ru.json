@@ -1,6 +1,7 @@
 {
   "common": {
     "langSwitch": {
+      "label": "Язык",
       "en": "EN",
       "ru": "RU"
     },

@@ -8,23 +8,25 @@
   <link rel="stylesheet" href="/assets/style.css" />
 </head>
 <body>
-  <div class="container">
-
-    <header>
-      <div class="site-title">{{ "site.title" | t(lang) }}</div>
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="site-header__brand" href="/">{{ "site.title" | t(lang) }}</a>
       {% if showLangSwitch %}
         {% include "lang-switch.njk" %}
       {% endif %}
-    </header>
+    </div>
+  </header>
 
-    <main>
+  <main>
+    <div class="container">
       {{ content | safe }}
-    </main>
+    </div>
+  </main>
 
-    <footer>
+  <footer class="site-footer">
+    <div class="container">
       © {{ year }} {{ "site.title" | t(lang) }}
-    </footer>
-
-  </div>
+    </div>
+  </footer>
 </body>
 </html>

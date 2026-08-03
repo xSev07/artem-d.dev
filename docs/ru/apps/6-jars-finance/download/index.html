@@ -8,24 +8,25 @@
   <link rel="stylesheet" href="/assets/style.css" />
 </head>
 <body>
-  <div class="container">
-
-    <header>
-      <div class="site-title">A.D.A - Artem D</div>
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="site-header__brand" href="/">A.D.A - Artem D</a>
       
-        <div class="lang-switch">
-  <a href="/en/apps/6-jars-finance/download/">
-    EN
-  </a>
-  <a href="/ru/apps/6-jars-finance/download/" class="active">
-    RU
-  </a>
-</div>
+        <nav class="lang-switch" aria-label="Язык">
+  
+    <a class="lang-switch__link" href="/en/apps/6-jars-finance/download/">EN</a>
+  
+  
+    <span class="lang-switch__current" aria-current="true">RU</span>
+  
+</nav>
 
       
-    </header>
+    </div>
+  </header>
 
-    <main>
+  <main>
+    <div class="container">
       
 
 
@@ -263,12 +264,13 @@
   });
 </script>
 
-    </main>
+    </div>
+  </main>
 
-    <footer>
+  <footer class="site-footer">
+    <div class="container">
       © 2026 A.D.A - Artem D
-    </footer>
-
-  </div>
+    </div>
+  </footer>
 </body>
 </html>

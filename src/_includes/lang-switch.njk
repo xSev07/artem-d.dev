@@ -1,8 +1,12 @@
-<div class="lang-switch">
-  <a href="/en{{ langSwitchPath }}"{% if lang == "en" %} class="active"{% endif %}>
-    {{ "common.langSwitch.en" | t(lang) }}
-  </a>
-  <a href="/ru{{ langSwitchPath }}"{% if lang == "ru" %} class="active"{% endif %}>
-    {{ "common.langSwitch.ru" | t(lang) }}
-  </a>
-</div>
+<nav class="lang-switch" aria-label="{{ 'common.langSwitch.label' | t(lang) }}">
+  {% if lang == "en" %}
+    <span class="lang-switch__current" aria-current="true">{{ "common.langSwitch.en" | t(lang) }}</span>
+  {% else %}
+    <a class="lang-switch__link" href="/en{{ langSwitchPath }}">{{ "common.langSwitch.en" | t(lang) }}</a>
+  {% endif %}
+  {% if lang == "ru" %}
+    <span class="lang-switch__current" aria-current="true">{{ "common.langSwitch.ru" | t(lang) }}</span>
+  {% else %}
+    <a class="lang-switch__link" href="/ru{{ langSwitchPath }}">{{ "common.langSwitch.ru" | t(lang) }}</a>
+  {% endif %}
+</nav>
