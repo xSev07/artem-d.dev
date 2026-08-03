@@ -1,0 +1,24 @@
+<header class="site-header">
+  <div class="container site-header__inner">
+    <a class="site-header__brand" href="/">{{ "site.title" | t(lang) }}</a>
+    <div class="site-header__aside">
+      {% set downloadUrl = "/" + lang + "/apps/6-jars-finance/download/" %}
+      {% set guideUrl = "/" + lang + "/apps/6-jars-finance/articles/guide/" %}
+      <nav class="site-header__nav" aria-label="{{ 'site.nav.label' | t(lang) }}">
+        <a
+          class="site-header__link"
+          href="{{ downloadUrl }}"
+          {% if page.url == downloadUrl %}aria-current="page"{% endif %}
+        >{{ "site.nav.download" | t(lang) }}</a>
+        <a
+          class="site-header__link"
+          href="{{ guideUrl }}"
+          {% if page.url == guideUrl %}aria-current="page"{% endif %}
+        >{{ "site.nav.guide" | t(lang) }}</a>
+      </nav>
+      {% if showLangSwitch %}
+        {% include "lang-switch.njk" %}
+      {% endif %}
+    </div>
+  </div>
+</header>

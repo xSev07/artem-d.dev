@@ -4,7 +4,7 @@ import { fileURLToPath } from "url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.join(__dirname, "..");
-const licensesPath = path.join(root, "docs", "oss-licenses.json");
+const licensesPath = path.join(root, "data", "oss-licenses.json");
 const outPath = path.join(root, "docs", "licenses", "index.html");
 
 const licenses = JSON.parse(fs.readFileSync(licensesPath, "utf8"));

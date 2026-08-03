@@ -1,0 +1,19 @@
+{% set l = "apps.sixJarsFinance.licenses" %}
+
+<h1>{{ "common.pages.licenses" | t("en") }}</h1>
+
+<div class="license-list">
+  {% for entry in ossLicenseEntries %}
+  {% set name = entry[0] %}
+  {% set info = entry[1] %}
+  <article class="license-entry">
+    <h2 class="license-name">{{ name }}</h2>
+    <p>{{ (l ~ ".licenseLabel") | t("en") }} {{ info.licenses | default("Unknown") }}</p>
+    {% if info.repository %}
+    <p>{{ (l ~ ".repositoryLabel") | t("en") }} <a href="{{ info.repository }}">{{ info.repository }}</a></p>
+    {% endif %}
+  </article>
+  {% endfor %}
+</div>
+
+<p class="license-disclaimer">{{ (l ~ ".disclaimer") | t("en") }}</p>

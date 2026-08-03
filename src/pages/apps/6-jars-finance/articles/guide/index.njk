@@ -1,0 +1,282 @@
+---
+layout: article.njk
+pagination:
+  data: languages
+  size: 1
+  alias: pageLang
+permalink: "/{{ pageLang.code }}/apps/6-jars-finance/articles/guide/"
+showLangSwitch: true
+langSwitchPath: "/apps/6-jars-finance/articles/guide/"
+year: 2026
+eleventyComputed:
+  title: "{{ 'apps.sixJarsFinance.articles.guide.title' | t(pageLang.code) }}"
+  description: "{{ 'apps.sixJarsFinance.articles.guide.metaDescription' | t(pageLang.code) }}"
+  lang: "{{ pageLang.code }}"
+---
+
+{% set langCode = pageLang.code %}
+{% set article = "apps.sixJarsFinance.articles.guide" | t(langCode) %}
+
+{% macro paragraphs(items) %}
+{% for item in items %}
+<p>{{ item | safe }}</p>
+{% endfor %}
+{% endmacro %}
+
+{% macro list(items) %}
+<ul>
+  {% for item in items %}
+  <li>{{ item | safe }}</li>
+  {% endfor %}
+</ul>
+{% endmacro %}
+
+<h1>{{ article.title }}</h1>
+{{ paragraphs(article.intro.paragraphs) }}
+
+<nav class="article-overview" aria-labelledby="article-overview-title">
+  <h2 id="article-overview-title">{{ article.overview.title }}</h2>
+  <ol>
+    <li><a href="#managing-money">{{ article.overview.managingMoney }}</a></li>
+    <li><a href="#how-it-works">{{ article.overview.howItWorks }}</a></li>
+    <li><a href="#adjust-percents">{{ article.overview.adjustPercents }}</a></li>
+    <li><a href="#misleading-balance">{{ article.overview.misleadingBalance }}</a></li>
+    <li><a href="#irregular-income">{{ article.overview.irregularIncome }}</a></li>
+    <li><a href="#physical-jars">{{ article.overview.physicalJarsProblem }}</a></li>
+    <li><a href="#in-app">{{ article.overview.appHowItWorks }}</a></li>
+  </ol>
+</nav>
+
+<div class="article-section">
+<h2 id="managing-money">{{ article.managingMoney.title }}</h2>
+{{ paragraphs(article.managingMoney.paragraphs) }}
+
+</div>
+<div class="article-section">
+<h2 id="how-it-works">{{ article.howItWorks.title }}</h2>
+<p>{{ article.howItWorks.lead }}</p>
+<figure class="article-figure article-figure--float-end article-figure--elevated">
+  <img
+    src="/content/articles/six-jars/screenshots/{{ langCode }}/main-screen.jpg"
+    alt="{{ article.howItWorks.screenshotAlt }}"
+    width="1080"
+    height="2265"
+    loading="lazy"
+  />
+</figure>
+
+<div class="article-subsection">
+<h3>{{ article.howItWorks.jars.essentialExpenses.title }}</h3>
+<p>{{ article.howItWorks.jars.essentialExpenses.intro }}</p>
+{{ list(article.howItWorks.jars.essentialExpenses.items) }}
+<p>{{ article.howItWorks.jars.essentialExpenses.outro }}</p>
+
+</div>
+<div class="article-subsection">
+<h3>{{ article.howItWorks.jars.financialIndependence.title }}</h3>
+{{ paragraphs(article.howItWorks.jars.financialIndependence.paragraphs) }}
+
+</div>
+<div class="article-subsection">
+<h3>{{ article.howItWorks.jars.longTermSavings.title }}</h3>
+<p>{{ article.howItWorks.jars.longTermSavings.intro }}</p>
+<p>{{ article.howItWorks.jars.longTermSavings.listIntro }}</p>
+{{ list(article.howItWorks.jars.longTermSavings.items) }}
+<p>{{ article.howItWorks.jars.longTermSavings.outro }}</p>
+
+</div>
+<div class="article-subsection">
+<h3>{{ article.howItWorks.jars.education.title }}</h3>
+<p>{{ article.howItWorks.jars.education.intro }}</p>
+<p>{{ article.howItWorks.jars.education.listIntro }}</p>
+{{ list(article.howItWorks.jars.education.items) }}
+<p>{{ article.howItWorks.jars.education.outro }}</p>
+
+</div>
+<div class="article-subsection">
+<h3>{{ article.howItWorks.jars.entertainment.title }}</h3>
+<p>{{ article.howItWorks.jars.entertainment.intro }}</p>
+<p>{{ article.howItWorks.jars.entertainment.listIntro }}</p>
+{{ list(article.howItWorks.jars.entertainment.items) }}
+<p>{{ article.howItWorks.jars.entertainment.outro }}</p>
+
+</div>
+<div class="article-subsection">
+<h3>{{ article.howItWorks.jars.giftsAndCharity.title }}</h3>
+<p>{{ article.howItWorks.jars.giftsAndCharity.intro }}</p>
+{{ list(article.howItWorks.jars.giftsAndCharity.items) }}
+<p>{{ article.howItWorks.jars.giftsAndCharity.outro }}</p>
+
+</div>
+</div>
+<div class="article-section">
+<h2 id="adjust-percents">{{ article.adjustPercents.title }}</h2>
+<figure class="article-figure article-figure--float-end article-figure--elevated">
+  <img
+    src="/content/articles/six-jars/screenshots/{{ langCode }}/percents-allocation.jpg"
+    alt="{{ article.adjustPercents.screenshotAlt }}"
+    width="1080"
+    height="2265"
+    loading="lazy"
+  />
+</figure>
+{{ paragraphs(article.adjustPercents.openingParagraphs) }}
+<p>{{ article.adjustPercents.listIntro }}</p>
+{{ list(article.adjustPercents.items) }}
+{{ paragraphs(article.adjustPercents.closingParagraphs) }}
+
+</div>
+<div class="article-section">
+<h2 id="same-purchase-different-jars">{{ article.samePurchaseDifferentJars.title }}</h2>
+{{ paragraphs(article.samePurchaseDifferentJars.openingParagraphs) }}
+<p>{{ article.samePurchaseDifferentJars.listIntro }}</p>
+{{ list(article.samePurchaseDifferentJars.items) }}
+{{ paragraphs(article.samePurchaseDifferentJars.closingParagraphs) }}
+
+</div>
+<div class="article-section">
+<h2 id="example">{{ article.example.title }}</h2>
+{{ paragraphs(article.example.openingParagraphs) }}
+<table>
+  <thead>
+    <tr>
+      {% for header in article.example.table.headers %}
+      <th>{{ header }}</th>
+      {% endfor %}
+    </tr>
+  </thead>
+  <tbody>
+    {% for row in article.example.table.rows %}
+    <tr>
+      {% for cell in row %}
+      <td>{{ cell }}</td>
+      {% endfor %}
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{{ paragraphs(article.example.closingParagraphs) }}
+
+</div>
+<div class="article-section">
+<h2 id="misleading-balance">{{ article.misleadingBalance.title }}</h2>
+<figure class="article-figure article-figure--float-end article-figure--elevated">
+  <img
+    src="/content/articles/six-jars/screenshots/{{ langCode }}/low-balance.jpg"
+    alt="{{ article.misleadingBalance.screenshotAlt }}"
+    width="1080"
+    height="2265"
+    loading="lazy"
+  />
+</figure>
+{{ paragraphs(article.misleadingBalance.paragraphs) }}
+
+</div>
+<div class="article-section">
+<h2 id="savings-first">{{ article.savingsFirst.title }}</h2>
+{{ paragraphs(article.savingsFirst.paragraphs) }}
+
+</div>
+<div class="article-section">
+<h2 id="easier-decisions">{{ article.easierDecisions.title }}</h2>
+{{ paragraphs(article.easierDecisions.paragraphs) }}
+
+</div>
+<div class="article-section">
+<h2 id="spend-without-guilt">{{ article.spendWithoutGuilt.title }}</h2>
+{{ paragraphs(article.spendWithoutGuilt.paragraphs) }}
+
+</div>
+<div class="article-section">
+<h2 id="borrow-from-yourself">{{ article.borrowFromYourself.title }}</h2>
+<figure class="article-figure article-figure--float-end article-figure--elevated">
+  <img
+    src="/content/articles/six-jars/screenshots/{{ langCode }}/negative-balance.jpg"
+    alt="{{ article.borrowFromYourself.screenshotAlt }}"
+    width="1080"
+    height="2265"
+    loading="lazy"
+  />
+</figure>
+{{ paragraphs(article.borrowFromYourself.paragraphs) }}
+
+</div>
+<div class="article-section">
+<h2 id="goals-no-longer-compete">{{ article.goalsNoLongerCompete.title }}</h2>
+<p>{{ article.goalsNoLongerCompete.listIntro }}</p>
+{{ list(article.goalsNoLongerCompete.items) }}
+{{ paragraphs(article.goalsNoLongerCompete.closingParagraphs) }}
+
+</div>
+<div class="article-section">
+<h2 id="financial-discipline">{{ article.financialDiscipline.title }}</h2>
+{{ paragraphs(article.financialDiscipline.openingParagraphs) }}
+<p>{{ article.financialDiscipline.listIntro }}</p>
+{{ list(article.financialDiscipline.items) }}
+{{ paragraphs(article.financialDiscipline.closingParagraphs) }}
+
+</div>
+<div class="article-section">
+<h2 id="irregular-income">{{ article.irregularIncome.title }}</h2>
+{{ paragraphs(article.irregularIncome.paragraphs) }}
+
+</div>
+<div class="article-section">
+<h2 id="not-enough-money">{{ article.notEnoughMoney.title }}</h2>
+{{ paragraphs(article.notEnoughMoney.paragraphs) }}
+
+</div>
+<div class="article-section">
+<h2 id="not-exactly-six-jars">{{ article.notExactlySixJars.title }}</h2>
+{{ paragraphs(article.notExactlySixJars.openingParagraphs) }}
+<p>{{ article.notExactlySixJars.listIntro }}</p>
+{{ list(article.notExactlySixJars.items) }}
+{{ paragraphs(article.notExactlySixJars.closingParagraphs) }}
+
+</div>
+<div class="article-section">
+<h2 id="physical-jars">{{ article.physicalJarsProblem.title }}</h2>
+{{ paragraphs(article.physicalJarsProblem.paragraphs) }}
+
+</div>
+<div class="article-section">
+<h2 id="digital-jars">{{ article.digitalJars.title }}</h2>
+{{ paragraphs(article.digitalJars.paragraphs) }}
+
+</div>
+<div class="article-section">
+<h2 id="in-app">{{ article.appHowItWorks.title }}</h2>
+{{ paragraphs(article.appHowItWorks.openingParagraphs) }}
+<p>{{ article.appHowItWorks.listIntro }}</p>
+{{ list(article.appHowItWorks.items) }}
+{{ paragraphs(article.appHowItWorks.closingParagraphs) }}
+
+</div>
+<div class="article-section">
+<h2 id="track-every-purchase">{{ article.trackEveryPurchase.title }}</h2>
+<figure class="article-figure article-figure--float-end article-figure--elevated">
+  <img
+    src="/content/articles/six-jars/screenshots/{{ langCode }}/withdraw.jpg"
+    alt="{{ article.trackEveryPurchase.screenshotAlt }}"
+    width="1080"
+    height="2265"
+    loading="lazy"
+  />
+</figure>
+{{ paragraphs(article.trackEveryPurchase.paragraphs) }}
+
+</div>
+<div class="article-section">
+<h2 id="adapt-system">{{ article.adaptSystem.title }}</h2>
+{{ paragraphs(article.adaptSystem.openingParagraphs) }}
+<p>{{ article.adaptSystem.listIntro }}</p>
+{{ list(article.adaptSystem.items) }}
+{{ paragraphs(article.adaptSystem.closingParagraphs) }}
+
+</div>
+<div class="article-section">
+<h2 id="start-with-next-income">{{ article.startWithNextIncome.title }}</h2>
+{{ paragraphs(article.startWithNextIncome.paragraphs) }}
+
+
+</div>

@@ -1,0 +1,672 @@
+{
+  "common": {
+    "langSwitch": {
+      "label": "Language",
+      "en": "EN",
+      "ru": "RU"
+    },
+    "labels": {
+      "lastUpdated": "Last updated:",
+      "developer": "Developer:",
+      "contactAddress": "Contact address:"
+    },
+    "pages": {
+      "privacy": "Privacy Policy",
+      "help": "Error Information",
+      "licenses": "Open Source Licenses"
+    }
+  },
+  "article": {
+    "tocTitle": "On this page",
+    "tocLabel": "Page navigation"
+  },
+  "site": {
+    "nav": {
+      "label": "Site navigation",
+      "download": "Get the App",
+      "guide": "Six Jars Method"
+    },
+    "footer": {
+      "label": "Site information"
+    },
+    "title": "A.D.A - Artem D",
+    "developer": "A.D.A - Artem D",
+    "contactEmail": "contact@artem-d.dev",
+    "supportEmail": "support@artem-d.dev",
+    "help": {
+      "metaDescription": "Information about an operation error in the A.D.A app.",
+      "title": "Unable to complete the operation",
+      "intro": "The operation was not completed due to a technical error.",
+      "sections": {
+        "whatItMeans": {
+          "title": "What this means",
+          "text": "In rare cases, the local database or the device operating system may temporarily prevent data from being written."
+        },
+        "whatToTry": {
+          "title": "What you can try",
+          "items": [
+            "Close and reopen the app",
+            "Restart your device",
+            "Check that there is enough free storage on your device",
+            "Make sure the latest version of the app is installed"
+          ]
+        },
+        "ifPersists": {
+          "title": "If the problem persists",
+          "contactText": "Contact support:",
+          "emailIntro": "In your email, please include:",
+          "emailItems": [
+            "device model",
+            "Android version",
+            "app version",
+            "what you were doing before the error occurred"
+          ]
+        }
+      }
+    }
+  },
+  "apps": {
+    "sixJarsFinance": {
+      "common": {},
+      "download": {
+        "title": "6 Jars Finance — Six Jars Budgeting App",
+        "metaDescription": "Allocate your salary between everyday spending, savings, and financial goals before you start spending.",
+        "hero": {
+          "title": "Stay in control of today’s spending and feel confident about tomorrow",
+          "lead": "6 Jars Finance helps you divide your salary in advance, so you know how much you can spend on cafes and entertainment, set money aside for a vacation or a major purchase, and gradually build an emergency fund.",
+          "screenshotAlt": "6 Jars Finance home screen showing six jars and their balances"
+        },
+        "benefits": [
+          {
+            "title": "Know how much you can spend",
+            "text": "You can see separate amounts for everyday expenses, cafes, entertainment, and other categories. There is no need to keep checking your total balance and wondering whether you can afford a purchase."
+          },
+          {
+            "title": "Save before you spend",
+            "text": "You can immediately set aside part of your salary for a vacation, a major purchase, or another goal. This money stays separate from everyday spending instead of quietly disappearing by the end of the month."
+          },
+          {
+            "title": "Build an emergency fund over time",
+            "text": "By regularly setting aside even a small part of your salary, you can build an emergency fund for illness, broken appliances, delayed salary payments, and other unexpected situations."
+          }
+        ],
+        "about": {
+          "title": "Built from personal experience",
+          "paragraphs": [
+            "My name is Artem D. I have worked as a professional software developer since 2017 and created 6 Jars Finance.",
+            "I have used the Six Jars budgeting method for more than 10 years. Thanks to it, I do not have to keep wondering whether I can afford a new board game or go to a cafe, whether I will have enough money for a vacation, or whether I will be able to pay the rent on time if my paycheck is delayed.",
+            "Over the years, I tried several apps based on the Six Jars method. What frustrated me most was that the number of jars was always strictly limited to six. There was no way to add a seventh jar or remove one I did not need.",
+            "That is why I created 6 Jars Finance, where you can adapt your jar system as your circumstances and financial priorities change. I use the app regularly myself, so I continue to add new features and make it easier to use."
+          ]
+        },
+        "faq": {
+          "title": "Frequently asked questions",
+          "items": [
+            {
+              "question": "Do I have to follow the traditional Six Jars allocation exactly?",
+              "answer": "No. The traditional allocation is a ready-made starting point, not a fixed set of rules."
+            },
+            {
+              "question": "Can I customize the app to suit my needs?",
+              "answer": "Yes. You can rename the six default jars, remove jars you do not need, and choose different percentages. You can also create additional jars if needed."
+            },
+            {
+              "question": "Do I need to record every purchase separately?",
+              "answer": "No. You can combine several purchases from the same jar into a single entry. For example, you do not have to record every supermarket purchase separately—you can simply enter the total amount spent on groceries."
+            },
+            {
+              "question": "What if I cannot afford to save right now?",
+              "answer": "You decide how much money to put toward savings. You can start with a small amount or, for now, allocate your entire salary to current expenses—the app does not require you to save a fixed percentage."
+            },
+            {
+              "question": "How is this different from a regular expense tracker?",
+              "answer": "Regular expense trackers mainly help you record purchases and see where your money has already gone. 6 Jars Finance automatically divides your salary between the spending and saving categories you set up in advance, so you can always see how much is available in each jar without dipping into money set aside for a vacation, a major purchase, or another goal."
+            }
+          ]
+        },
+        "guide": {
+          "title": "Want to understand the method in more detail?",
+          "text": "If you are unsure whether the Six Jars method will work for you or do not fully understand how it works, read the detailed guide. In it, I use practical examples and my own experience to explain how to apply the method in real life.",
+          "button": "Learn more about the method"
+        },
+        "cta": {
+          "title": "Start using the Six Jars budgeting method",
+          "text": "Free and ad-free"
+        },
+        "modal": {
+          "title": "The app is not yet available on the App Store",
+          "text": "The iPhone version is currently in development.",
+          "button": "Got it"
+        }
+      },
+     "privacy": {
+        "lastUpdated": "03.07.2026",
+        "metaDescription": "Privacy Policy for the application A.D.A - Artem D.",
+        "sections": {
+          "general": {
+            "title": "1. General Provisions",
+            "paragraphs": [
+              "This Privacy Policy describes how data is processed when using the mobile application. The app is designed with local data storage in mind (offline-first). Financial records and other user-created app data are stored locally on the user's device and are not transferred to the developer.",
+              "The app may use third-party services for technical purposes, such as crash and error reporting. These services may process technical diagnostic data needed to detect, diagnose, and fix errors."
+            ]
+          },
+          "dataProcessed": {
+            "title": "2. What data is processed"
+          },
+          "userData": {
+            "title": "2.1 Data entered by the user",
+            "intro": "The user enters the following into the app:",
+            "items": [
+              "financial records (transactions)",
+              "categories and tags",
+              "jar names, account names, notes, and other user settings"
+            ],
+            "outro": "This data is stored locally on the user's device, is not transferred to the developer, is not copied to the developer's servers, and is not shared with third parties. The developer has no technical ability to access this data."
+          },
+          "platformData": {
+            "title": "2.2 Platform technical data",
+            "paragraphs": [
+              "When installing and using the app, the Google Play platform may automatically process technical data such as device information, operating system version, diagnostic data, and crash reports.",
+              "Such data is processed by Google services in accordance with their own privacy policy. The developer does not receive the user's personal data from Google."
+            ]
+          },
+          "purchases": {
+            "title": "2.3 In-app purchases",
+            "paragraphs": [
+              "The app may use in-app purchases processed through Google Play. Payment processing is handled by Google's infrastructure. The developer does not receive bank card data, does not store payment information, and does not have access to the user's financial details."
+            ]
+          },
+          "crashes": {
+            "title": "2.4 Crash and error reporting",
+            "paragraphs": [
+              "The app uses Sentry, a third-party error monitoring service, to process crash reports and technical diagnostic data on behalf of the developer.",
+              "When an error occurs, the app may send technical diagnostic information to Sentry, such as crash logs, stack traces, app version, operating system version, device model, and other technical details related to the error.",
+              "Sentry is configured with default personal data collection disabled. The app does not intentionally send financial records, transaction data, jar names, tags, notes, account names, or other user-created financial content to Sentry.",
+              "The developer uses error reports only to improve app stability, diagnose technical issues, and fix bugs.",
+              "Because the app does not use accounts or assign user identifiers for error reporting, the developer may not be able to identify and delete a specific user's error reports."
+            ]
+          },
+          "storage": {
+            "title": "3. Data storage",
+            "paragraphs": [
+              "Financial records and other user-created app data are stored locally on the user's device in the app's database. Deleting the app results in deletion of locally stored data unless the user has created a backup beforehand. The developer does not store copies of this user-created app data and has no access to it.",
+              "Technical crash and diagnostic data may be processed by Sentry for error monitoring purposes."
+            ]
+          },
+          "thirdParties": {
+            "title": "4. Transfer of data to third parties",
+            "paragraphs": [
+              "The developer does not sell user data and does not transfer user-created financial data to third parties.",
+              "Financial records, transactions, tags, jar names, notes, settings, and backups are not transferred to the developer or to external servers by the app.",
+              "Technical crash and diagnostic data may be processed by Sentry on behalf of the developer for the purpose of detecting, diagnosing, and fixing errors."
+            ]
+          },
+          "backups": {
+            "title": "5. Backups",
+            "paragraphs": [
+              "If the app provides the ability to create a backup, the backup file is created by the user and saved at their discretion. The developer does not have access to backups."
+            ]
+          },
+          "rights": {
+            "title": "6. User rights",
+            "intro": "The user may:",
+            "items": [
+              "delete locally stored app data by deleting the app or clearing the app data in device settings",
+              "opt out of using in-app purchases",
+              "contact the developer regarding privacy"
+            ],
+            "outro": "Because the app does not use accounts or assign user identifiers for error reporting, the developer may not be able to identify and delete a specific user's error reports."
+          },
+          "security": {
+            "title": "7. Security",
+            "paragraphs": [
+              "The app does not transmit the user's financial data over the internet. Technical crash and diagnostic data, if sent, is transmitted through a secure connection.",
+              "The user is responsible for the security of their device and any backups created."
+            ]
+          },
+          "changes": {
+            "title": "8. Policy changes",
+            "paragraphs": [
+              "An updated version of the policy is published on the app's official page."
+            ]
+          },
+          "contact": {
+            "title": "9. Contact information",
+            "text": "For privacy-related inquiries:"
+          }
+        }
+      },
+      "articles": {
+        "guide": {
+        "title": "The Six Jars Method: A Simple Way to Manage Your Money",
+        "metaDescription": "The Six Jars Method helps you do more than track expenses. It lets you decide in advance how you want to use your income.",
+        "intro": {
+          "paragraphs": [
+            "The Six Jars Method helps you do more than track expenses. It lets you decide in advance how you want to use your income.",
+            "The idea is simple: whenever you receive money, you divide it among several financial priorities. One portion covers everyday living expenses, while the rest goes toward savings, education, enjoyment, building wealth, and helping others.",
+            "This way, your money is no longer treated as one large balance. Every part of it has a specific purpose."
+          ]
+        },
+        "overview": {
+          "title": "Table of Contents",
+          "managingMoney": "What the Six Jars Method is",
+          "howItWorks": "How to divide your income",
+          "adjustPercents": "How to adapt the method to your needs",
+          "misleadingBalance": "How the method helps in everyday life",
+          "irregularIncome": "How to use the method in different situations",
+          "physicalJarsProblem": "How to use the method without cash",
+          "appHowItWorks": "How to use the method in the app"
+        },
+        "managingMoney": {
+          "title": "More Than Expense Tracking",
+          "paragraphs": [
+            "Traditional expense tracking helps answer the question:",
+            "<strong>“Where did my money go?”</strong>",
+            "That is useful, but it is often not enough. Even if you regularly record your purchases, there is no guarantee that you will have money left at the end of the month for savings, education, or major goals.",
+            "The Six Jars Method takes a different approach. It helps you answer another question in advance:",
+            "<strong>“What do I want to use this money for?”</strong>",
+            "You divide your income before you start spending it. This means savings no longer depend on whatever happens to be left at the end of the month, and everyday expenses do not consume everything available."
+          ]
+        },
+        "howItWorks": {
+          "title": "How the Six Jars Method Works",
+          "lead": "In the classic version of the method, every amount of income is divided among six jars.",
+          "screenshotAlt": "The 6 Jars Finance home screen showing income divided among six jars",
+          "jars": {
+            "essentialExpenses": {
+              "title": "Necessities — 55%",
+              "intro": "This jar is intended for essential everyday expenses such as:",
+              "items": [
+                "housing;",
+                "groceries;",
+                "transportation;",
+                "utilities;",
+                "phone and internet services;",
+                "healthcare;",
+                "other regular needs."
+              ],
+              "outro": "This money covers your everyday needs."
+            },
+            "financialIndependence": {
+              "title": "Financial Freedom — 10%",
+              "paragraphs": [
+                "Money in this jar is intended to help you build capital and generate income in the future.",
+                "In the classic system, this money is not used for everyday purchases. Its purpose is to gradually create a source of long-term financial security.",
+                "How you use it depends on your knowledge, goals, and tolerance for risk. You might choose savings products, investments, or other ways of building capital."
+              ]
+            },
+            "longTermSavings": {
+              "title": "Long-Term Savings — 10%",
+              "intro": "This jar helps you prepare for major expenses in advance.",
+              "listIntro": "For example:",
+              "items": [
+                "building an emergency fund;",
+                "a vacation;",
+                "home improvements;",
+                "buying electronics or appliances;",
+                "a car;",
+                "moving;",
+                "other major goals."
+              ],
+              "outro": "These expenses are easier to handle because you save for them gradually."
+            },
+            "education": {
+              "title": "Education — 10%",
+              "intro": "This money is intended for developing your knowledge and skills.",
+              "listIntro": "You can use it for:",
+              "items": [
+                "books;",
+                "courses;",
+                "professional training;",
+                "language learning;",
+                "lessons with a teacher or tutor;",
+                "conferences;",
+                "other educational materials."
+              ],
+              "outro": "Education becomes a separate part of your budget instead of an expense you keep putting off."
+            },
+            "entertainment": {
+              "title": "Play — 10%",
+              "intro": "This jar is intended for recreation and enjoyable purchases.",
+              "listIntro": "For example:",
+              "items": [
+                "meeting friends;",
+                "cafés and restaurants;",
+                "games;",
+                "hobbies;",
+                "trips;",
+                "events;",
+                "small spontaneous purchases."
+              ],
+              "outro": "Having a separate budget for entertainment lets you enjoy yourself without constantly feeling guilty. You have already set this money aside specifically for things you enjoy."
+            },
+            "giftsAndCharity": {
+              "title": "Give — 5%",
+              "intro": "This jar can be used for:",
+              "items": [
+                "gifts;",
+                "charitable donations;",
+                "helping family and friends;",
+                "supporting projects and causes that matter to you."
+              ],
+              "outro": "These expenses also become a planned part of your budget and do not interfere with your other financial goals."
+            }
+          }
+        },
+        "adjustPercents": {
+          "title": "Adjust the Percentages to Fit Your Situation",
+          "screenshotAlt": "The screen for adjusting the percentage of income assigned to each jar",
+          "openingParagraphs": [
+            "The 55%, 10%, 10%, 10%, 10%, and 5% split is a starting point, not a mandatory rule.",
+            "People have different incomes, housing costs, family circumstances, goals, and obligations. For one person, 55% may be enough to cover necessities. For someone else, rent and groceries alone may take up most of their income.",
+            "That is why the percentages can and should be adapted to your actual situation."
+          ],
+          "listIntro": "For example, you can:",
+          "items": [
+            "increase the share assigned to necessities;",
+            "temporarily put more money into your emergency fund;",
+            "reduce entertainment spending;",
+            "reach a specific savings goal faster;",
+            "adjust the percentages after your income increases or decreases."
+          ],
+          "closingParagraphs": [
+            "The important part of the method is not following the classic percentages exactly. It is developing the habit of regularly dividing your money among different priorities.",
+            "The system should help you make decisions, not become another source of pressure."
+          ]
+        },
+        "samePurchaseDifferentJars": {
+          "title": "The Same Type of Purchase Can Come from Different Jars",
+          "openingParagraphs": [
+            "The Six Jars Method does not have a universal list that assigns every type of purchase to one specific jar. What matters is not only what you bought, but why you bought it."
+          ],
+          "listIntro": "For example, a visit to a café could come from different jars:",
+          "items": [
+            "Necessities, if it is your regular lunch during the workday;",
+            "Play, if you went there to relax or treat yourself;",
+            "Give, if you are paying for someone else."
+          ],
+          "closingParagraphs": [
+            "You decide what purpose the expense serves based on the situation and your own goals.",
+            "The method does not force you to follow rigid rules. It gives you a useful framework and helps you consciously decide which part of your budget should cover a particular purchase."
+          ]
+        },
+        "example": {
+          "title": "What It Looks Like in Practice",
+          "openingParagraphs": [
+            "Suppose you receive 3,000 in income.",
+            "Using the classic percentages, the money would be divided as follows:"
+          ],
+          "table": {
+            "headers": [
+              "Jar",
+              "Share",
+              "Amount"
+            ],
+            "rows": [
+              [
+                "Necessities",
+                "55%",
+                "1,650"
+              ],
+              [
+                "Financial Freedom",
+                "10%",
+                "300"
+              ],
+              [
+                "Long-Term Savings",
+                "10%",
+                "300"
+              ],
+              [
+                "Education",
+                "10%",
+                "300"
+              ],
+              [
+                "Play",
+                "10%",
+                "300"
+              ],
+              [
+                "Give",
+                "5%",
+                "150"
+              ]
+            ]
+          },
+          "closingParagraphs": [
+            "Once the money has been divided, every purchase comes from a specific jar.",
+            "Groceries come out of the Necessities jar. A course comes out of Education. A vacation comes out of Long-Term Savings, and meeting friends comes out of Play.",
+            "You can then see not only your total remaining balance, but also how much is available for each specific purpose."
+          ]
+        },
+        "misleadingBalance": {
+          "title": "Why Your Total Balance Can Be Misleading",
+          "screenshotAlt": "The app home screen showing a total balance of 1,720, with only 20 left in the Play jar",
+          "paragraphs": [
+            "When all your money is kept in one bank account, the available balance can look larger than it really is.",
+            "Suppose the account contains 1,720. Technically, all of that money is available. However, some of it may already be set aside for housing, some for a future vacation, and some for an emergency fund.",
+            "If you treat the entire balance as money you are free to spend, it is easy to use funds that were already needed for other purposes.",
+            "The Six Jars Method helps you mentally divide your total balance.",
+            "You may see 1,720 in your bank account, but only 20 of that amount is available for entertainment. The rest has already been set aside for other spending categories."
+          ]
+        },
+        "savingsFirst": {
+          "title": "Savings No Longer Depend on What Is Left Over",
+          "paragraphs": [
+            "One common approach to saving looks like this:",
+            "<strong>spend money throughout the month, then save whatever is left.</strong>",
+            "The problem is that there is often nothing left.",
+            "The Six Jars Method reverses the order. Money for savings, building capital, and other goals is set aside as soon as you receive income.",
+            "You do not have to wait until the end of the month to find out whether you managed to save anything. Savings become part of your budget from the beginning."
+          ]
+        },
+        "easierDecisions": {
+          "title": "Financial Decisions Become Easier",
+          "paragraphs": [
+            "Many purchases do not have one clearly right or wrong answer.",
+            "Can you buy a new device? Should you go to a restaurant? Is a course too expensive? Can you afford to take a vacation right now?",
+            "When all your money belongs to one general budget, you have to make each of these decisions from scratch.",
+            "The jars create clear boundaries.",
+            "If there is enough money in the appropriate jar, the purchase fits your plan. If there is not enough, you can postpone the purchase, reconsider the goal, or consciously use money from another jar.",
+            "The method does not prevent you from changing your decisions. It makes the consequences of those decisions visible."
+          ]
+        },
+        "spendWithoutGuilt": {
+          "title": "You Can Spend Without Constant Guilt",
+          "paragraphs": [
+            "Financial discipline is often mistaken for constantly denying yourself enjoyable purchases.",
+            "However, an overly strict system that allows only essential expenses usually does not work well in the long run. People need rest, entertainment, and the freedom to occasionally spend money simply for enjoyment.",
+            "That is why the method includes a separate Play jar.",
+            "When money has already been set aside for entertainment, you can use it for its intended purpose. The purchase does not interfere with your savings or take money away from essential expenses.",
+            "You are not breaking your budget—you are following it."
+          ]
+        },
+        "borrowFromYourself": {
+          "title": "Borrowing Money from Yourself",
+          "screenshotAlt": "The Play jar screen showing a negative balance of 25 and a history of expenses",
+          "paragraphs": [
+            "As you continue using the Six Jars Method, you gradually build up money that is set aside for different purposes. This means that a temporary shortage does not always require borrowing from other people or using credit.",
+            "If one jar does not contain enough money for an important purchase, you can temporarily let its balance go below zero. In effect, you are borrowing money from yourself: the purchase is covered by your total available funds, but the overspending is still recorded in the jar the purchase belongs to.",
+            "The next time you receive income, the negative balance is reduced or cleared. This means less money will be available in that jar during the next period. The system does not prevent an important purchase, but it clearly shows how that purchase affects your future budget.",
+            "Technically, you could transfer the required amount from another jar and return it after receiving more income. However, I do not recommend doing this unless necessary. Such a transfer hides the actual overspending in the original jar and makes your reports less useful. It becomes harder to see which areas regularly need more money than you have set aside for them.",
+            "Leaving the jar below zero keeps your expense history accurate. You can see where the overspending happened, how large it was, and whether it was covered after you received more income.",
+            "In my experience, this became one of the most noticeable benefits of using the method: I stopped borrowing money from other people because, when necessary, I could temporarily borrow it from myself.",
+            "If the same jar regularly falls below zero, it is no longer a temporary exception. It is a sign that you should reconsider how you divide your income. You can increase the percentage assigned to that jar by reducing the shares of jars that usually have money left over. This is what makes the method flexible: the system gradually adapts to your actual spending instead of forcing you to follow fixed percentages."
+          ]
+        },
+        "goalsNoLongerCompete": {
+          "title": "Financial Goals Stop Competing with One Another",
+          "listIntro": "Without a system, any unassigned money is expected to cover everything at once:",
+          "items": [
+            "an emergency fund;",
+            "a vacation;",
+            "education;",
+            "new electronics;",
+            "entertainment;",
+            "unexpected expenses."
+          ],
+          "closingParagraphs": [
+            "As a result, one goal often pushes the others aside. A large purchase can completely interrupt your savings, while an unexpected expense can cancel a planned vacation.",
+            "Dividing your money by purpose allows you to keep working toward several goals at the same time.",
+            "Even if the amounts are small at first, every important area receives a share whenever you receive income."
+          ]
+        },
+        "financialDiscipline": {
+          "title": "The Method Helps Build Financial Discipline",
+          "openingParagraphs": [
+            "The main value of the method lies not only in how the money is divided, but also in the habits you develop by using it.",
+            "Regularly dividing your income gradually changes the way you think about money. Instead of seeing each payment as one pool you can spend until it runs out, you begin to see it as a resource for different areas of your life."
+          ],
+          "listIntro": "You develop the habit of:",
+          "items": [
+            "dividing your money before spending it;",
+            "considering the consequences of each purchase;",
+            "regularly putting money toward future goals;",
+            "maintaining a balance between what you want today and your long-term plans;",
+            "making conscious financial decisions."
+          ],
+          "closingParagraphs": [
+            "The system does not require perfect behavior from day one. Financial discipline develops gradually through repeating the same simple actions.",
+            "In my own experience, this turned out to be the method’s main advantage. It did not simply help me track my money more effectively—it gradually changed the way I approached income, spending, and saving."
+          ]
+        },
+        "irregularIncome": {
+          "title": "What to Do If Your Income Is Irregular",
+          "paragraphs": [
+            "The method works even if you do not receive a fixed monthly salary.",
+            "If your income is irregular, divide each payment separately.",
+            "Whenever you receive payment for a project, freelance work, an order, or a sale, divide that amount among the jars using your chosen percentages.",
+            "With an unpredictable income, it can be especially useful to increase the share you put into your emergency fund. This helps you get through periods when less money is coming in.",
+            "The method does not require you to know your exact monthly income in advance. It works with money you have already received."
+          ]
+        },
+        "notEnoughMoney": {
+          "title": "What If Money Is Tight?",
+          "paragraphs": [
+            "The classic percentages may not work well for someone who spends almost all of their income on basic needs.",
+            "That does not mean the method is useless.",
+            "You can start with a more realistic split. For example, you could put 80–90% toward necessities and divide the remaining amount among the priorities that matter most to you.",
+            "Even a small amount regularly put into an emergency fund or toward a long-term goal helps you build the habit.",
+            "As your income and expenses change, you can adjust the percentages.",
+            "What matters is not the size of the first step, but taking it consistently."
+          ]
+        },
+        "notExactlySixJars": {
+          "title": "Do You Have to Use Exactly Six Jars?",
+          "openingParagraphs": [
+            "No.",
+            "Six jars form the foundation of the classic method. They cover the main financial priorities and provide a useful starting point.",
+            "Over time, however, you can adapt the system."
+          ],
+          "listIntro": "For example, you can create separate jars for:",
+          "items": [
+            "a vacation;",
+            "healthcare;",
+            "a car;",
+            "home improvements;",
+            "pets;",
+            "children;",
+            "taxes;",
+            "electronics;",
+            "a specific major purchase."
+          ],
+          "closingParagraphs": [
+            "You can also combine or rename some of the classic jars.",
+            "The important thing is to preserve the main principle: your money should be divided by purpose, and the structure should reflect your life."
+          ]
+        },
+        "physicalJarsProblem": {
+          "title": "The Problem with Physical Jars and Envelopes",
+          "paragraphs": [
+            "Systems like this were originally designed around cash.",
+            "You could physically divide your income among separate jars, boxes, or envelopes. This made the system easy to understand because money intended for different categories was actually kept apart.",
+            "Today, however, most financial transactions are digital.",
+            "We receive income in a bank account, pay by card, purchase services online, and transfer money using our phones.",
+            "Under these conditions, physical jars become inconvenient. Maintaining the system would require regularly withdrawing cash or manually recording every card and digital payment.",
+            "You could open several bank accounts, but managing a large number of accounts and transfers is not always convenient either. The number of available accounts and their terms also depend on your bank."
+          ]
+        },
+        "digitalJars": {
+          "title": "Digital Jars",
+          "paragraphs": [
+            "I ran into this problem myself.",
+            "I liked the idea behind the Six Jars Method, and using it regularly genuinely helped me develop a more disciplined approach to money.",
+            "However, physical jars and envelopes were inconvenient in a world where most payments are made digitally.",
+            "That is why I developed <strong>6 Jars Finance</strong>, a personal finance app based on the Six Jars Method.",
+            "The app preserves the main idea of the system without requiring you to physically separate your money.",
+            "You keep your money in your usual bank account, while the app shows a separate balance for each jar."
+          ]
+        },
+        "appHowItWorks": {
+          "title": "How 6 Jars Finance Works",
+          "openingParagraphs": [
+            "When you receive income, the app divides it among the jars according to your chosen percentages.",
+            "After making a purchase, you specify which jar the money came from. Only that jar’s balance decreases, while the money in the other jars remains set aside for its original purposes.",
+            "This gives your total bank balance a clear internal structure."
+          ],
+          "listIntro": "You can see:",
+          "items": [
+            "how much money is available for necessities;",
+            "how much you have saved for long-term goals;",
+            "how much you can spend on entertainment;",
+            "how much has been set aside for education;",
+            "how the balances of your jars change over time."
+          ],
+          "closingParagraphs": [
+            "The app does not move money between bank accounts and does not connect to your bank. It helps you keep a separate record and understand what each part of your money is intended for."
+          ]
+        },
+        "trackEveryPurchase": {
+          "title": "Do You Need to Enter Every Purchase Separately?",
+          "screenshotAlt": "The screen for adding an expense of 75 from the Necessities jar with the Groceries tag",
+          "paragraphs": [
+            "No. To use the method, you only need to enter the total expense and select the jar the money came from.",
+            "For example, you can record a regular trip to the store as a single expense of 105. If you want more detail, you can split it into several expenses: 75 for groceries and 30 for household supplies. You can also use tags for additional detail.",
+            "You decide how much detail is useful to you. The app does not require you to copy every item from a receipt. Tracking should help you understand where your money goes without taking too much time.",
+            "Manually entering an expense takes a small amount of effort, but it also helps you notice your spending and better understand where your money goes."
+          ]
+        },
+        "adaptSystem": {
+          "title": "Adapt the System to Your Needs",
+          "openingParagraphs": [
+            "6 Jars Finance is based on the classic method, but it does not limit you to the original structure."
+          ],
+          "listIntro": "You can:",
+          "items": [
+            "change the allocation percentages;",
+            "rename jars;",
+            "create your own jars;",
+            "use more or fewer than six jars;",
+            "change the order of the jars;",
+            "record income and expenses;",
+            "add recurring transactions;",
+            "analyze your cash flow using reports."
+          ],
+          "closingParagraphs": [
+            "The classic structure can provide a convenient starting point. From there, you can gradually adjust it to fit your own needs."
+          ]
+        },
+        "startWithNextIncome": {
+          "title": "Start with Your Next Income",
+          "paragraphs": [
+            "You do not need to immediately rebuild your entire financial system or follow the classic percentages perfectly.",
+            "Start with one simple step: divide your next income among several priorities that matter to you.",
+            "Decide how much you need for everyday living, how much you want to put toward savings, and how much you can reserve for entertainment, education, or other goals.",
+            "Even this first step will help you see your money not as one large balance, but as a tool for different areas of your life.",
+            "<strong>6 Jars Finance helps you use the Six Jars Method with bank cards and digital payments.</strong>",
+            "Download the app and create a system that fits your income, goals, and lifestyle."
+          ]
+        }
+        }
+      },
+      "licenses": {
+        "metaDescription": "Third-party open source software licenses used in A.D.A - Artem D.",
+        "licenseLabel": "License:",
+        "repositoryLabel": "Repository:",
+        "disclaimer": "This page lists third-party open source software used in the app."
+      }
+    }
+  }
+}

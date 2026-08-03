@@ -1,0 +1,30 @@
+{% set h = "site.help" %}
+{% set s = h ~ ".sections" %}
+
+<h1>{{ (h ~ ".title") | t(lang) }}</h1>
+
+<p>{{ (h ~ ".intro") | t(lang) }}</p>
+
+<h2>{{ (s ~ ".whatItMeans.title") | t(lang) }}</h2>
+<p>{{ (s ~ ".whatItMeans.text") | t(lang) }}</p>
+
+<h2>{{ (s ~ ".whatToTry.title") | t(lang) }}</h2>
+<ul>
+  {% for item in (s ~ ".whatToTry.items") | t(lang) %}
+  <li>{{ item }}</li>
+  {% endfor %}
+</ul>
+
+<h2>{{ (s ~ ".ifPersists.title") | t(lang) }}</h2>
+<p>
+  {{ (s ~ ".ifPersists.contactText") | t(lang) }}
+  <br />
+  <a href="mailto:{{ 'site.supportEmail' | t(lang) }}">{{ "site.supportEmail" | t(lang) }}</a>
+</p>
+
+<p>{{ (s ~ ".ifPersists.emailIntro") | t(lang) }}</p>
+<ul>
+  {% for item in (s ~ ".ifPersists.emailItems") | t(lang) %}
+  <li>{{ item }}</li>
+  {% endfor %}
+</ul>

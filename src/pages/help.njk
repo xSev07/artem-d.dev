@@ -1,0 +1,19 @@
+---
+layout: base.njk
+pagination:
+  data: languages
+  size: 1
+  alias: lang
+permalink: "/{{ lang.code }}/help/"
+showLangSwitch: true
+langSwitchPath: "/help/"
+year: 2026
+eleventyComputed:
+  title: "{{ 'site.help.title' | t(lang.code) }}"
+  description: "{{ 'site.help.metaDescription' | t(lang.code) }}"
+  lang: "{{ lang.code }}"
+---
+
+<div class="article-container">
+{% include "help-content.njk" %}
+</div>

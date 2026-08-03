@@ -1,0 +1,19 @@
+---
+layout: base.njk
+pagination:
+  data: languages
+  size: 1
+  alias: lang
+permalink: "/{{ lang.code }}/apps/6-jars-finance/help/"
+showLangSwitch: true
+langSwitchPath: "/apps/6-jars-finance/help/"
+year: 2026
+eleventyComputed:
+  title: "{{ 'common.pages.help' | t(lang.code) }}"
+  description: "{{ 'site.help.metaDescription' | t(lang.code) }}"
+  lang: "{{ lang.code }}"
+---
+
+<div class="article-container">
+{% include "help-content.njk" %}
+</div>

@@ -1,0 +1,19 @@
+---
+layout: base.njk
+pagination:
+  data: languages
+  size: 1
+  alias: lang
+permalink: "/{{ lang.code }}/apps/6-jars-finance/licenses/"
+showLangSwitch: true
+langSwitchPath: "/apps/6-jars-finance/licenses/"
+year: 2026
+eleventyComputed:
+  title: "{{ 'common.pages.licenses' | t('en') }}"
+  description: "{{ 'apps.sixJarsFinance.licenses.metaDescription' | t('en') }}"
+  lang: "{{ lang.code }}"
+---
+
+<div class="article-container">
+{% include "licenses-content.njk" %}
+</div>

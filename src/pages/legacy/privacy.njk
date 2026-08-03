@@ -1,0 +1,19 @@
+---
+layout: base.njk
+pagination:
+  data: languages
+  size: 1
+  alias: lang
+permalink: "/{{ lang.code }}/privacy/"
+showLangSwitch: true
+langSwitchPath: "/privacy/"
+year: 2026
+eleventyComputed:
+  title: "{{ 'common.pages.privacy' | t(lang.code) }}"
+  description: "{{ 'apps.sixJarsFinance.privacy.metaDescription' | t(lang.code) }}"
+  lang: "{{ lang.code }}"
+---
+
+<div class="article-container">
+{% include "privacy-content.njk" %}
+</div>
