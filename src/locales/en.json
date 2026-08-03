@@ -26,6 +26,9 @@
       "download": "Get the App",
       "guide": "Six Jars Method"
     },
+    "footer": {
+      "label": "Site information"
+    },
     "title": "A.D.A - Artem D",
     "developer": "A.D.A - Artem D",
     "contactEmail": "contact@artem-d.dev",

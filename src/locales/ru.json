@@ -26,6 +26,9 @@
       "download": "Скачать приложение",
       "guide": "Метод шести кувшинов"
     },
+    "footer": {
+      "label": "Информация о сайте"
+    },
     "title": "A.D.A - Artem D",
     "developer": "A.D.A - Artem D",
     "contactEmail": "contact@artem-d.dev",

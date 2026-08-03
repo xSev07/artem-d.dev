@@ -4,12 +4,12 @@ pagination:
   data: languages
   size: 1
   alias: lang
-permalink: "/{{ lang.code }}/help/"
+permalink: "/{{ lang.code }}/apps/6-jars-finance/help/"
 showLangSwitch: true
-langSwitchPath: "/help/"
+langSwitchPath: "/apps/6-jars-finance/help/"
 year: 2026
 eleventyComputed:
-  title: "{{ 'site.help.title' | t(lang.code) }}"
+  title: "{{ 'common.pages.help' | t(lang.code) }}"
   description: "{{ 'site.help.metaDescription' | t(lang.code) }}"
   lang: "{{ lang.code }}"
 ---
