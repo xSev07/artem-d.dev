@@ -80,12 +80,15 @@ a:hover {
 }
 
 .article-layout {
-  width: min(calc(100% - 32px), var(--container-page));
-  margin-inline: auto;
+  width: 100%;
 }
 
 .article-container {
   width: min(100%, var(--container-article));
+  max-width: var(--container-article);
+}
+
+.container > .article-container {
   margin-inline: auto;
 }
 

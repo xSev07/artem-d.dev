@@ -14,6 +14,7 @@ eleventyComputed:
   lang: "{{ lang.code }}"
 ---
 
+<div class="article-container">
 {% set h = "site.help" %}
 {% set s = h ~ ".sections" %}
 
@@ -44,3 +45,4 @@ eleventyComputed:
   <li>{{ item }}</li>
   {% endfor %}
 </ul>
+</div>
