@@ -21,6 +21,11 @@
     "tocLabel": "Навигация по странице"
   },
   "site": {
+    "nav": {
+      "label": "Навигация сайта",
+      "download": "Скачать приложение",
+      "guide": "Метод шести кувшинов"
+    },
     "title": "A.D.A - Artem D",
     "developer": "A.D.A - Artem D",
     "contactEmail": "contact@artem-d.dev",

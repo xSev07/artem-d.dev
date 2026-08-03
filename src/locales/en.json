@@ -21,6 +21,11 @@
     "tocLabel": "Page navigation"
   },
   "site": {
+    "nav": {
+      "label": "Site navigation",
+      "download": "Get the App",
+      "guide": "Six Jars Method"
+    },
     "title": "A.D.A - Artem D",
     "developer": "A.D.A - Artem D",
     "contactEmail": "contact@artem-d.dev",
