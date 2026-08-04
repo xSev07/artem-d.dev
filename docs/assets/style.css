@@ -360,6 +360,14 @@ a:hover {
   display: flow-root;
 }
 
+.article-cta {
+  display: flex;
+  max-width: fit-content;
+  margin: 24px auto 0;
+  font-weight: 600;
+  vertical-align: middle;
+}
+
 .article-figure {
   margin: 0 0 24px;
 }
