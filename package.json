@@ -5,8 +5,8 @@
   "scripts": {
     "clean": "node scripts/clean.mjs",
     "prebuild": "npm run clean",
-    "build": "eleventy",
-    "start": "eleventy --serve"
+    "build": "set ELEVENTY_ENV=production&& eleventy",
+    "start": "set ELEVENTY_ENV=development&& eleventy --serve"
   },
   "devDependencies": {
     "@11ty/eleventy": "^3.1.2",
