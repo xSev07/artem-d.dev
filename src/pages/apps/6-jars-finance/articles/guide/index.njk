@@ -125,7 +125,7 @@ eleventyComputed:
 {{ list(article.adjustPercents.items) }}
 {{ paragraphs(article.adjustPercents.closingParagraphs) }}
 
-<a class="article-cta button-primary" href="/{{ langCode }}/apps/6-jars-finance/download/">{{ article.adjustPercents.cta }}</a>
+<a class="article-cta button-primary" href="/{{ langCode }}/apps/6-jars-finance/download/" data-analytics-link="download" data-analytics-placement="guide_adjust_percents">{{ article.adjustPercents.cta }}</a>
 
 </div>
 <div class="article-section">
@@ -280,6 +280,6 @@ eleventyComputed:
 <h2 id="start-with-next-income">{{ article.startWithNextIncome.title }}</h2>
 {{ paragraphs(article.startWithNextIncome.paragraphs) }}
 
-<a class="article-cta button-primary" href="/{{ langCode }}/apps/6-jars-finance/download/">{{ article.startWithNextIncome.cta }}</a>
+<a class="article-cta button-primary" href="/{{ langCode }}/apps/6-jars-finance/download/" data-analytics-link="download" data-analytics-placement="guide_final_cta">{{ article.startWithNextIncome.cta }}</a>
 
 </div>

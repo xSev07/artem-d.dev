@@ -5,9 +5,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>The Six Jars Method: A Simple Way to Manage Your Money</title>
   <meta name="description" content="The Six Jars Method helps you do more than track expenses. It lets you decide in advance how you want to use your income." />
+  
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-F47WEEE9Q7"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-F47WEEE9Q7');
+  </script>
+  
+  
   <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  
   <link rel="stylesheet" href="/assets/style.css" />
 </head>
 <body>
@@ -21,6 +35,8 @@
         <a
           class="site-header__link"
           href="/en/apps/6-jars-finance/download/"
+          data-analytics-link="download"
+          data-analytics-placement="header"
           
         >Get the App</a>
         <a
@@ -48,8 +64,8 @@
   <main class="article">
     <div class="container">
       <div class="article-layout">
-        <div class="article-container">
-          
+  <div class="article-container">
+    
 
 
 
@@ -293,7 +309,7 @@
 
 
 
-<a class="article-cta button-primary" href="/en/apps/6-jars-finance/download/">Try the method with 6 Jars Finance →</a>
+<a class="article-cta button-primary" href="/en/apps/6-jars-finance/download/" data-analytics-link="download" data-analytics-placement="guide_adjust_percents">Try the method with 6 Jars Finance →</a>
 
 </div>
 <div class="article-section">
@@ -820,18 +836,19 @@
 
 
 
-<a class="article-cta button-primary" href="/en/apps/6-jars-finance/download/">Explore 6 Jars Finance →</a>
+<a class="article-cta button-primary" href="/en/apps/6-jars-finance/download/" data-analytics-link="download" data-analytics-placement="guide_final_cta">Explore 6 Jars Finance →</a>
 
 </div>
 
-        </div>
-        <aside class="article-toc" aria-label="Page navigation">
-          <nav class="article-toc__nav">
-            <p class="article-toc__title">On this page</p>
-            <ol class="article-toc__list"></ol>
-          </nav>
-        </aside>
-      </div>
+  </div>
+  <aside class="article-toc" aria-label="Page navigation">
+    <nav class="article-toc__nav">
+      <p class="article-toc__title">On this page</p>
+      <ol class="article-toc__list"></ol>
+    </nav>
+  </aside>
+</div>
+
     </div>
   </main>
 
@@ -846,6 +863,10 @@
   </div>
 </footer>
 
+  
   <script src="/assets/article-toc.js" defer></script>
+
+  
+  <script src="/assets/js/analytics.js" defer></script>
 </body>
 </html>
