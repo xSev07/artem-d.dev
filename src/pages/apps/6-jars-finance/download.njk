@@ -15,6 +15,7 @@ eleventyComputed:
 ---
 
 {% set d = "apps.sixJarsFinance.download" %}
+{% set playStoreUrl = "https://play.google.com/store/apps/details?id=com.artemd.jars_finance&utm_source=artem-d.dev&utm_campaign=website" %}
 
 <section class="hero landing-section">
   <div class="hero__card">
@@ -25,7 +26,7 @@ eleventyComputed:
         <div class="hero__actions">
           <a
             class="button-store"
-            href="https://play.google.com/store/apps/details?id=com.artemd.jars_finance"
+            href="{{ playStoreUrl }}"
             rel="noopener noreferrer"
             target="_blank"
             data-analytics-store="google_play"
@@ -116,7 +117,7 @@ eleventyComputed:
       <div class="app-cta__actions">
       <a
         class="button-store"
-        href="https://play.google.com/store/apps/details?id=com.artemd.jars_finance"
+        href="{{ playStoreUrl }}"
         rel="noopener noreferrer"
         target="_blank"
         data-analytics-store="google_play"
