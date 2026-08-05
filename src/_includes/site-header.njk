@@ -8,6 +8,8 @@
         <a
           class="site-header__link"
           href="{{ downloadUrl }}"
+          data-analytics-link="download"
+          data-analytics-placement="header"
           {% if page.url == downloadUrl %}aria-current="page"{% endif %}
         >{{ "site.nav.download" | t(lang) }}</a>
         <a
