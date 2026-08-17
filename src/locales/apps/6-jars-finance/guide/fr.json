@@ -1,0 +1,423 @@
+{
+  "title": "La méthode des 6 enveloppes : une façon simple de gérer son argent",
+  "metaDescription": "La méthode des 6 enveloppes vous aide non seulement à suivre vos dépenses, mais aussi à décider à l'avance comment utiliser vos revenus.",
+  "intro": {
+    "paragraphs": [
+      "La méthode des 6 enveloppes vous aide non seulement à suivre vos dépenses, mais aussi à décider à l'avance comment utiliser vos revenus.",
+      "Le principe est simple : chaque fois que vous recevez de l'argent, vous le répartissez entre plusieurs objectifs financiers. Une partie sert aux dépenses du quotidien, tandis que le reste est réparti entre l'épargne, l'éducation, les loisirs, la constitution d'un capital et l'aide aux autres.",
+      "Ainsi, votre argent n'est plus une seule somme globale sur votre compte. Chaque partie a une destination précise."
+    ]
+  },
+  "overview": {
+    "title": "Sommaire",
+    "managingMoney": "Qu'est-ce que la méthode des 6 enveloppes",
+    "howItWorks": "Comment fonctionne la répartition de l'argent",
+    "adjustPercents": "Comment adapter la méthode à vos besoins",
+    "misleadingBalance": "Comment la méthode aide au quotidien",
+    "irregularIncome": "Comment utiliser la méthode dans différentes situations",
+    "physicalJarsProblem": "Comment appliquer la méthode sans espèces",
+    "appHowItWorks": "Comment utiliser la méthode dans l'application"
+  },
+  "managingMoney": {
+    "title": "Ne pas seulement suivre ses dépenses, mais gérer son argent",
+    "paragraphs": [
+      "Le suivi classique des dépenses permet de répondre à la question :",
+      "<strong>« Où est déjà parti mon argent ? »</strong>",
+      "C'est utile, mais souvent insuffisant. Même si vous enregistrez régulièrement vos achats, rien ne garantit qu'il vous restera de l'argent à la fin du mois pour l'épargne, l'éducation ou des objectifs importants.",
+      "La méthode des 6 enveloppes propose une autre approche. Elle aide à répondre à l'avance à la question :",
+      "<strong>« À quoi est-ce que je veux consacrer l'argent que je reçois ? »</strong>",
+      "Vous répartissez vos revenus avant de commencer à les dépenser. Ainsi, l'épargne ne dépend plus de ce qui reste par hasard à la fin du mois et les dépenses quotidiennes n'absorbent pas tout l'argent disponible."
+    ]
+  },
+  "howItWorks": {
+    "title": "Comment fonctionne la méthode des 6 enveloppes",
+    "lead": "Dans la version classique de la méthode, chaque revenu est réparti entre six enveloppes.",
+    "screenshotAlt": "Écran d'accueil de 6 Jars Finance avec six enveloppes et le revenu réparti entre elles",
+    "jars": {
+      "essentialExpenses": {
+        "title": "Dépenses essentielles — 55%",
+        "intro": "Cette enveloppe est destinée aux dépenses quotidiennes indispensables :",
+        "items": [
+          "logement ;",
+          "alimentation ;",
+          "transport ;",
+          "charges et services ;",
+          "téléphone et Internet ;",
+          "soins de santé ;",
+          "autres besoins réguliers."
+        ],
+        "outro": "Cet argent couvre les dépenses nécessaires à votre vie quotidienne."
+      },
+      "financialIndependence": {
+        "title": "Indépendance financière — 10%",
+        "paragraphs": [
+          "L'argent de cette enveloppe sert à constituer un capital et à générer des revenus à l'avenir.",
+          "Dans le système classique, le capital principal n'est pas destiné aux achats du quotidien. Son rôle est de créer progressivement une base financière solide.",
+          "La façon d'utiliser cet argent dépend de vos connaissances, de vos objectifs et de votre rapport au risque. Il peut s'agir de produits d'épargne, d'investissements ou d'autres moyens de constituer un capital."
+        ]
+      },
+      "longTermSavings": {
+        "title": "Épargne à long terme — 10%",
+        "intro": "Cette enveloppe vous aide à préparer à l'avance les dépenses importantes.",
+        "listIntro": "Par exemple :",
+        "items": [
+          "constituer une réserve financière ;",
+          "partir en vacances ;",
+          "faire des travaux ;",
+          "acheter du matériel ou des appareils ;",
+          "acheter une voiture ;",
+          "déménager ;",
+          "atteindre d'autres objectifs importants."
+        ],
+        "outro": "Ces dépenses deviennent moins imprévues, car l'argent nécessaire est accumulé progressivement."
+      },
+      "education": {
+        "title": "Éducation — 10%",
+        "intro": "Cet argent est destiné au développement de vos connaissances et de vos compétences.",
+        "listIntro": "Vous pouvez l'utiliser pour :",
+        "items": [
+          "des livres ;",
+          "des cours ;",
+          "des formations professionnelles ;",
+          "l'apprentissage des langues ;",
+          "des cours avec un professeur ;",
+          "des conférences ;",
+          "d'autres supports éducatifs."
+        ],
+        "outro": "L'éducation devient une partie distincte du budget, au lieu d'être une dépense constamment remise à plus tard."
+      },
+      "entertainment": {
+        "title": "Loisirs — 10%",
+        "intro": "Cette enveloppe est destinée au repos et aux achats qui vous font plaisir.",
+        "listIntro": "Par exemple :",
+        "items": [
+          "des sorties avec des amis ;",
+          "des cafés et restaurants ;",
+          "des jeux ;",
+          "des loisirs et passions ;",
+          "des voyages et excursions ;",
+          "des événements ;",
+          "de petits achats spontanés."
+        ],
+        "outro": "Avoir un budget séparé pour les loisirs permet de profiter sans ressentir constamment de culpabilité. Vous avez réservé cet argent à l'avance précisément pour les choses qui vous font plaisir."
+      },
+      "giftsAndCharity": {
+        "title": "Cadeaux et aide — 5%",
+        "intro": "Cette enveloppe peut servir à :",
+        "items": [
+          "faire des cadeaux ;",
+          "faire des dons ;",
+          "aider vos proches ;",
+          "soutenir des projets et des initiatives qui comptent pour vous."
+        ],
+        "outro": "Ces dépenses deviennent elles aussi une partie planifiée du budget et n'empiètent pas sur vos autres objectifs financiers."
+      }
+    }
+  },
+  "adjustPercents": {
+    "title": "Les pourcentages peuvent être modifiés",
+    "screenshotAlt": "Écran de réglage des pourcentages de répartition du revenu entre les enveloppes",
+    "openingParagraphs": [
+      "La répartition de 55%, 10%, 10%, 10%, 10% et 5% est un point de départ, pas une règle obligatoire.",
+      "Les revenus, le coût du logement, la situation familiale, les objectifs et les obligations varient d'une personne à l'autre. Pour certains, 55% suffisent pour couvrir les dépenses essentielles, tandis que pour d'autres, le loyer et l'alimentation peuvent à eux seuls représenter la majeure partie du revenu.",
+      "Les pourcentages peuvent donc et doivent être adaptés à votre situation réelle."
+    ],
+    "listIntro": "Par exemple, vous pouvez :",
+    "items": [
+      "augmenter la part consacrée aux dépenses essentielles ;",
+      "verser temporairement davantage dans votre réserve financière ;",
+      "réduire les dépenses de loisirs ;",
+      "accélérer l'épargne pour un objectif précis ;",
+      "modifier les proportions après une hausse ou une baisse de revenus."
+    ],
+    "closingParagraphs": [
+      "L'essentiel de la méthode n'est pas de respecter exactement les pourcentages classiques, mais de prendre l'habitude de répartir régulièrement son argent entre différents objectifs.",
+      "Le système doit vous aider à prendre des décisions, pas devenir une nouvelle source de pression."
+    ],
+    "cta": "Essayer la méthode dans 6 Jars Finance →"
+  },
+  "samePurchaseDifferentJars": {
+    "title": "Un même achat peut appartenir à différentes enveloppes",
+    "openingParagraphs": [
+      "La méthode des 6 enveloppes ne comporte pas de liste universelle permettant d'attribuer chaque achat à une catégorie précise. Ce qui compte, ce n'est pas seulement ce que vous achetez, mais aussi pourquoi vous l'achetez."
+    ],
+    "listIntro": "Par exemple, une sortie au café peut correspondre à différentes enveloppes :",
+    "items": [
+      "aux dépenses essentielles, s'il s'agit de votre déjeuner habituel au travail ;",
+      "aux loisirs, si vous y allez pour vous détendre ou vous faire plaisir ;",
+      "aux cadeaux et à l'aide, si vous invitez quelqu'un."
+    ],
+    "closingParagraphs": [
+      "Vous déterminez vous-même la destination de la dépense en fonction de la situation et de vos objectifs.",
+      "La méthode ne vous oblige pas à suivre des règles rigides. Elle fournit un cadre et vous aide à décider consciemment quelle partie du budget doit financer un achat précis."
+    ]
+  },
+  "example": {
+    "title": "À quoi cela ressemble en pratique",
+    "openingParagraphs": [
+      "Supposons que vous receviez un revenu de 3 000.",
+      "Avec la répartition classique, l'argent sera divisé de la manière suivante :"
+    ],
+    "table": {
+      "headers": [
+        "Enveloppe",
+        "Part",
+        "Montant"
+      ],
+      "rows": [
+        [
+          "Dépenses essentielles",
+          "55%",
+          "1 650"
+        ],
+        [
+          "Indépendance financière",
+          "10%",
+          "300"
+        ],
+        [
+          "Épargne à long terme",
+          "10%",
+          "300"
+        ],
+        [
+          "Éducation",
+          "10%",
+          "300"
+        ],
+        [
+          "Loisirs",
+          "10%",
+          "300"
+        ],
+        [
+          "Cadeaux et aide",
+          "5%",
+          "150"
+        ]
+      ]
+    },
+    "closingParagraphs": [
+      "Après la répartition, chaque achat est rattaché à une enveloppe précise.",
+      "L'alimentation est payée avec les dépenses essentielles. Un cours avec l'enveloppe Éducation. Un voyage avec l'épargne à long terme. Une sortie entre amis avec les loisirs.",
+      "Vous voyez ainsi non seulement le montant total restant, mais aussi ce qui est disponible pour chaque objectif précis."
+    ]
+  },
+  "misleadingBalance": {
+    "title": "Pourquoi le solde total peut être trompeur",
+    "screenshotAlt": "Écran d'accueil de l'application affichant un solde total de 1 720, avec seulement 20 restants dans l'enveloppe « Loisirs »",
+    "paragraphs": [
+      "Lorsque tout votre argent se trouve sur un seul compte bancaire, le montant disponible peut sembler plus important qu'il ne l'est réellement.",
+      "Supposons que votre compte contienne 1 720. Techniquement, tout cet argent est disponible. Mais une partie peut déjà être destinée au logement, une autre à de futures vacances et une autre encore à votre réserve financière.",
+      "Si vous considérez l'ensemble du solde comme de l'argent librement disponible, il est facile de dépenser des fonds déjà destinés à d'autres objectifs.",
+      "La méthode des 6 enveloppes vous aide à diviser mentalement votre solde total.",
+      "Vous pouvez voir 1 720 sur votre compte bancaire, alors que seulement 20 sont réellement disponibles pour les loisirs. Le reste est déjà réparti entre d'autres catégories de dépenses."
+    ]
+  },
+  "savingsFirst": {
+    "title": "L'épargne ne dépend plus de ce qu'il reste",
+    "paragraphs": [
+      "Une stratégie d'épargne courante consiste à :",
+      "<strong>dépenser pendant le mois, puis mettre de côté ce qui reste.</strong>",
+      "Le problème, c'est qu'il ne reste souvent rien.",
+      "La méthode des 6 enveloppes inverse l'ordre. L'argent destiné à l'épargne, au capital et aux autres objectifs est mis de côté dès que le revenu est reçu.",
+      "Vous n'avez pas besoin d'attendre la fin du mois pour savoir si vous avez réussi à économiser quelque chose. L'épargne devient dès le départ une partie à part entière du budget."
+    ]
+  },
+  "easierDecisions": {
+    "title": "Les décisions deviennent plus simples",
+    "paragraphs": [
+      "De nombreux achats n'ont pas de réponse clairement bonne ou mauvaise.",
+      "Pouvez-vous acheter un nouvel appareil ? Faut-il aller au restaurant ? Ce cours est-il trop cher ? Pouvez-vous partir en vacances maintenant ?",
+      "Quand tout votre argent appartient à un seul budget global, chacune de ces décisions doit être prise à nouveau.",
+      "Les enveloppes créent des limites claires.",
+      "S'il y a assez d'argent dans l'enveloppe concernée, l'achat correspond à votre plan. S'il n'y en a pas assez, vous pouvez reporter l'achat, revoir votre objectif ou prendre consciemment de l'argent dans une autre enveloppe.",
+      "La méthode ne vous interdit pas de changer de décision. Elle rend simplement les conséquences de vos choix visibles."
+    ]
+  },
+  "spendWithoutGuilt": {
+    "title": "Vous pouvez dépenser sans culpabiliser constamment",
+    "paragraphs": [
+      "La discipline financière est souvent confondue avec le fait de se priver constamment des achats qui font plaisir.",
+      "Mais un système trop strict, dans lequel seules les dépenses indispensables sont autorisées, fonctionne généralement mal sur le long terme. Nous avons besoin de repos, de loisirs et de la possibilité de dépenser parfois simplement pour le plaisir.",
+      "C'est pourquoi la méthode prévoit une enveloppe distincte pour les loisirs.",
+      "Si l'argent a été réservé à l'avance pour vous détendre, vous pouvez l'utiliser à cette fin. Cet achat ne nuit pas à votre épargne et ne prend pas d'argent aux dépenses essentielles.",
+      "Vous ne dépassez pas votre budget — vous le respectez."
+    ]
+  },
+  "borrowFromYourself": {
+    "title": "La possibilité de vous emprunter de l'argent à vous-même",
+    "screenshotAlt": "Écran de l'enveloppe « Loisirs » avec un solde négatif de 25 et l'historique des dépenses",
+    "paragraphs": [
+      "En utilisant la méthode des 6 enveloppes, vous constituez progressivement une réserve d'argent répartie entre différents objectifs. En cas de manque temporaire, vous n'avez donc pas toujours besoin d'emprunter à d'autres personnes ou de recourir au crédit.",
+      "Si une enveloppe ne contient pas assez d'argent pour un achat important, vous pouvez temporairement laisser son solde passer en négatif. En pratique, vous vous empruntez de l'argent à vous-même : l'achat est payé avec l'ensemble de vos fonds disponibles, mais le dépassement reste enregistré dans l'enveloppe à laquelle appartient la dépense.",
+      "Lors du revenu suivant, le solde négatif est partiellement ou totalement compensé. Cela signifie que moins d'argent sera disponible dans cette enveloppe pour la période suivante. Le système n'interdit donc pas un achat nécessaire, mais montre clairement son impact sur votre futur budget.",
+      "Techniquement, vous pourriez transférer la somme nécessaire depuis une autre enveloppe, puis la remettre après avoir reçu le revenu suivant. Je ne recommande toutefois pas cette approche sans nécessité. Un tel transfert masque le véritable dépassement dans l'enveloppe d'origine et rend les rapports moins utiles : il devient plus difficile de comprendre pour quels objectifs le montant prévu est réellement insuffisant.",
+      "Si vous laissez l'enveloppe en négatif, l'historique des dépenses reste fidèle à la réalité. Vous voyez où le dépassement a eu lieu, son montant et s'il a été compensé après le revenu suivant.",
+      "Dans mon expérience personnelle, cela a été l'un des effets les plus marquants de la méthode : j'ai cessé d'emprunter de l'argent à d'autres personnes, car je pouvais temporairement m'en emprunter à moi-même lorsque c'était nécessaire.",
+      "Si une même enveloppe passe régulièrement en négatif, ce n'est plus une exception temporaire, mais un signal indiquant qu'il faut revoir la répartition du revenu. Vous pouvez augmenter le pourcentage de cette enveloppe en réduisant celui des enveloppes où il reste généralement de l'argent. C'est précisément ce qui rend la méthode flexible : le système s'adapte progressivement à vos dépenses réelles au lieu de vous imposer des proportions immuables."
+    ]
+  },
+  "goalsNoLongerCompete": {
+    "title": "Les objectifs financiers cessent de se concurrencer",
+    "listIntro": "Sans système, tout l'argent disponible est censé servir à tout à la fois :",
+    "items": [
+      "constituer une réserve financière ;",
+      "partir en vacances ;",
+      "se former ;",
+      "acheter du nouveau matériel ;",
+      "se divertir ;",
+      "faire face aux dépenses imprévues."
+    ],
+    "closingParagraphs": [
+      "Résultat : un objectif prend souvent le pas sur les autres. Un achat important peut interrompre complètement l'épargne, tandis qu'une dépense imprévue peut annuler des vacances prévues.",
+      "Répartir l'argent par objectif permet d'avancer sur plusieurs priorités en parallèle.",
+      "Même si les montants sont faibles au début, chaque domaine important reçoit sa part à chaque rentrée d'argent."
+    ]
+  },
+  "financialDiscipline": {
+    "title": "La méthode aide à développer la discipline financière",
+    "openingParagraphs": [
+      "La principale valeur de la méthode ne réside pas seulement dans la façon dont l'argent est réparti, mais aussi dans les habitudes qui se développent avec son utilisation.",
+      "Répartir régulièrement ses revenus change progressivement la façon de considérer l'argent. Vous ne voyez plus la somme reçue comme une réserve unique que vous pouvez dépenser jusqu'à épuisement, mais comme une ressource destinée à différents aspects de votre vie."
+    ],
+    "listIntro": "Vous prenez l'habitude de :",
+    "items": [
+      "répartir d'abord l'argent, puis le dépenser ;",
+      "tenir compte des conséquences de chaque achat ;",
+      "consacrer régulièrement de l'argent à des objectifs futurs ;",
+      "maintenir un équilibre entre vos envies actuelles et vos projets à long terme ;",
+      "prendre des décisions financières de manière consciente."
+    ],
+    "closingParagraphs": [
+      "Le système n'exige pas un comportement parfait dès le premier jour. La discipline financière se développe progressivement en répétant les mêmes gestes simples.",
+      "Dans mon expérience personnelle, c'est précisément ce qui s'est révélé être le principal avantage de la méthode. Elle ne m'a pas seulement aidé à mieux suivre mon argent : elle a progressivement changé mon approche des revenus, des dépenses et de l'épargne."
+    ]
+  },
+  "irregularIncome": {
+    "title": "Que faire avec des revenus irréguliers",
+    "paragraphs": [
+      "La méthode ne fonctionne pas uniquement avec un salaire mensuel fixe.",
+      "Si vos revenus sont irréguliers, répartissez chaque rentrée d'argent séparément.",
+      "Vous recevez un paiement pour un projet, un travail supplémentaire, une commande ou une vente : répartissez immédiatement cette somme entre les enveloppes selon les proportions choisies.",
+      "Avec des revenus instables, il peut être particulièrement utile d'augmenter la part consacrée à la réserve. Cela aide à traverser les périodes où les rentrées d'argent diminuent.",
+      "La méthode ne nécessite pas de connaître à l'avance le montant exact de vos revenus mensuels. Elle fonctionne avec l'argent que vous avez déjà reçu."
+    ]
+  },
+  "notEnoughMoney": {
+    "title": "Que faire si l'argent est encore insuffisant",
+    "paragraphs": [
+      "Les pourcentages classiques peuvent être mal adaptés à une personne qui consacre presque tous ses revenus aux besoins essentiels.",
+      "Cela ne signifie pas que la méthode est inutile.",
+      "Vous pouvez commencer par une répartition plus réaliste. Par exemple, consacrer 80–90% aux dépenses essentielles et répartir le reste entre les objectifs les plus importants pour vous.",
+      "Même une petite somme versée régulièrement dans une réserve ou vers un objectif à long terme aide à créer une habitude.",
+      "À mesure que vos revenus et vos dépenses évoluent, vous pouvez revoir les proportions.",
+      "Ce qui compte, ce n'est pas la taille du premier pas, mais sa régularité."
+    ]
+  },
+  "notExactlySixJars": {
+    "title": "Faut-il obligatoirement utiliser exactement six enveloppes ?",
+    "openingParagraphs": [
+      "Non.",
+      "Les six enveloppes constituent la base de la méthode classique. Elles couvrent les principaux objectifs financiers et offrent un bon point de départ.",
+      "Mais avec le temps, vous pouvez adapter le système."
+    ],
+    "listIntro": "Vous pouvez par exemple créer des enveloppes distinctes pour :",
+    "items": [
+      "les vacances ;",
+      "la santé ;",
+      "une voiture ;",
+      "des travaux ;",
+      "les animaux de compagnie ;",
+      "les enfants ;",
+      "les impôts ;",
+      "le matériel ;",
+      "un achat important précis."
+    ],
+    "closingParagraphs": [
+      "À l'inverse, certaines enveloppes classiques peuvent être fusionnées ou renommées.",
+      "L'essentiel est de conserver le principe de base : l'argent doit être réparti selon son usage, et la structure doit correspondre à votre vie."
+    ]
+  },
+  "physicalJarsProblem": {
+    "title": "Le problème des enveloppes et contenants physiques",
+    "paragraphs": [
+      "À l'origine, les systèmes de ce type reposaient sur l'utilisation d'espèces.",
+      "Il était possible de répartir physiquement les revenus dans différents bocaux, boîtes ou enveloppes. La séparation était ainsi très concrète : l'argent destiné à différentes catégories était réellement conservé séparément.",
+      "Aujourd'hui, cependant, la majorité des opérations financières se font sans espèces.",
+      "Nous recevons nos revenus sur un compte bancaire, payons par carte, réglons des services en ligne et transférons de l'argent depuis notre téléphone.",
+      "Dans ces conditions, les contenants physiques deviennent peu pratiques. Pour maintenir le système, il faudrait régulièrement retirer des espèces ou reproduire manuellement chaque opération dématérialisée.",
+      "Il est possible d'ouvrir plusieurs comptes bancaires, mais gérer de nombreux comptes et virements n'est pas toujours pratique non plus. De plus, le nombre de comptes disponibles et leurs conditions dépendent de chaque banque."
+    ]
+  },
+  "digitalJars": {
+    "title": "Enveloppes numériques",
+    "paragraphs": [
+      "J'ai moi-même rencontré ce problème.",
+      "J'aimais le principe de la méthode des 6 enveloppes, et son utilisation régulière m'a réellement aidé à développer une approche plus disciplinée de l'argent.",
+      "Mais utiliser des enveloppes ou des contenants physiques dans un monde de paiements dématérialisés s'est révélé peu pratique.",
+      "C'est pourquoi j'ai développé <strong>6 Jars Finance</strong> — une application de gestion des finances personnelles basée sur la méthode des 6 enveloppes.",
+      "L'application permet de conserver l'idée centrale du système sans avoir à séparer physiquement l'argent.",
+      "Vous continuez à garder votre argent sur votre compte bancaire habituel, tout en voyant dans l'application un solde distinct pour chaque enveloppe."
+    ]
+  },
+  "appHowItWorks": {
+    "title": "Comment fonctionne 6 Jars Finance",
+    "openingParagraphs": [
+      "Lorsque vous recevez un revenu, l'application le répartit entre les enveloppes selon les pourcentages choisis.",
+      "Après un achat, vous indiquez depuis quelle enveloppe l'argent a été dépensé. Seul le solde de cette enveloppe diminue — les autres fonds conservent leur destination.",
+      "Votre solde bancaire global obtient ainsi une structure interne claire."
+    ],
+    "listIntro": "Vous voyez :",
+    "items": [
+      "combien d'argent est disponible pour les dépenses essentielles ;",
+      "combien a été épargné pour les objectifs à long terme ;",
+      "combien vous pouvez dépenser pour les loisirs ;",
+      "quel budget est consacré à l'éducation ;",
+      "comment les soldes des enveloppes évoluent dans le temps."
+    ],
+    "closingParagraphs": [
+      "L'application ne déplace pas d'argent entre vos comptes bancaires et n'accède pas à votre banque. Elle vous aide à tenir un suivi séparé et à comprendre à quoi chaque partie de votre argent est destinée."
+    ]
+  },
+  "trackEveryPurchase": {
+    "title": "Faut-il enregistrer chaque achat séparément ?",
+    "screenshotAlt": "Écran d'ajout d'une dépense de 75 depuis l'enveloppe « Dépenses courantes » avec l'étiquette « Alimentation »",
+    "paragraphs": [
+      "Non. Pour utiliser la méthode, il suffit d'indiquer le montant total de la dépense et de choisir l'enveloppe depuis laquelle l'argent a été utilisé.",
+      "Par exemple, une visite ordinaire au magasin peut être enregistrée comme une seule opération de 105. Si vous souhaitez davantage de précision, vous pouvez répartir la somme entre plusieurs opérations : 75 pour l'alimentation et 30 pour les produits ménagers. Vous pouvez également utiliser des étiquettes pour davantage de détails.",
+      "Vous choisissez vous-même le niveau de précision qui vous convient. L'application ne vous demande pas de recopier chaque article du ticket de caisse — le suivi doit vous aider à comprendre les mouvements d'argent sans prendre trop de temps.",
+      "Ajouter manuellement une dépense demande une petite action supplémentaire, mais cela vous aide aussi à mieux remarquer vos dépenses et à comprendre où va votre argent."
+    ]
+  },
+  "adaptSystem": {
+    "title": "Adaptez le système à vos besoins",
+    "openingParagraphs": [
+      "6 Jars Finance repose sur la méthode classique, mais ne vous limite pas à sa structure d'origine."
+    ],
+    "listIntro": "Vous pouvez :",
+    "items": [
+      "modifier les pourcentages de répartition ;",
+      "renommer les enveloppes ;",
+      "créer vos propres enveloppes ;",
+      "utiliser plus ou moins de six enveloppes ;",
+      "modifier l'ordre des enveloppes ;",
+      "enregistrer les revenus et les dépenses ;",
+      "ajouter des opérations récurrentes ;",
+      "analyser les mouvements d'argent à l'aide des rapports."
+    ],
+    "closingParagraphs": [
+      "La structure classique peut constituer un point de départ pratique. Vous pouvez ensuite la modifier progressivement pour qu'elle corresponde précisément à vos besoins."
+    ]
+  },
+  "startWithNextIncome": {
+    "title": "Commencez avec votre prochain revenu",
+    "paragraphs": [
+      "Vous n'avez pas besoin de modifier immédiatement tout votre système financier ni de respecter parfaitement les pourcentages classiques.",
+      "Commencez simplement : répartissez votre prochain revenu entre quelques objectifs importants pour vous.",
+      "Ce premier pas suffit déjà à vous faire voir l'argent non plus comme une seule somme globale, mais comme un outil destiné à différents aspects de votre vie.",
+      "Dans 6 Jars Finance, <strong>les enveloppes classiques et leurs pourcentages sont déjà configurés.</strong> Vous pouvez commencer avec cette répartition, puis l'adapter à vos besoins si nécessaire."
+    ],
+    "cta": "Accéder à 6 Jars Finance →"
+  }
+}

@@ -1,0 +1,1200 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>6-pottsmetoden: ett enkelt sätt att hantera pengar</title>
+  <meta name="description" content="6-pottsmetoden hjälper dig att inte bara registrera utgifter, utan också bestämma i förväg vad du vill använda din inkomst till." />
+  
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-F47WEEE9Q7"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-F47WEEE9Q7');
+  </script>
+  
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  
+  <link rel="stylesheet" href="/assets/style.css" />
+</head>
+<body>
+  <header class="site-header">
+  <div class="container site-header__inner">
+    <a class="site-header__brand" href="/">Artem D Apps</a>
+    <div class="site-header__aside">
+      
+      
+      <nav class="site-header__nav" aria-label="Webbplatsnavigering">
+        <a
+          class="site-header__link"
+          href="/sv/apps/6-jars-finance/download/"
+          data-analytics-link="download"
+          data-analytics-placement="header"
+          
+        >Ladda ner appen</a>
+        <a
+          class="site-header__link"
+          href="/sv/apps/6-jars-finance/articles/guide/"
+          aria-current="page"
+        >Sex-pottarsmetoden</a>
+      </nav>
+      
+        
+
+<nav class="lang-switch" aria-label="Språk">
+  <label class="lang-switch__desktop">
+    <span class="lang-switch__visually-hidden">Språk</span>
+    <select class="lang-switch__select" data-lang-switch-select>
+      
+        <option
+          value="/en/apps/6-jars-finance/articles/guide/"
+          
+        >English</option>
+      
+        <option
+          value="/id/apps/6-jars-finance/articles/guide/"
+          
+        >Bahasa Indonesia</option>
+      
+        <option
+          value="/cs/apps/6-jars-finance/articles/guide/"
+          
+        >Čeština</option>
+      
+        <option
+          value="/de/apps/6-jars-finance/articles/guide/"
+          
+        >Deutsch</option>
+      
+        <option
+          value="/es/apps/6-jars-finance/articles/guide/"
+          
+        >Español</option>
+      
+        <option
+          value="/fr/apps/6-jars-finance/articles/guide/"
+          
+        >Français</option>
+      
+        <option
+          value="/it/apps/6-jars-finance/articles/guide/"
+          
+        >Italiano</option>
+      
+        <option
+          value="/nl/apps/6-jars-finance/articles/guide/"
+          
+        >Nederlands</option>
+      
+        <option
+          value="/pl/apps/6-jars-finance/articles/guide/"
+          
+        >Polski</option>
+      
+        <option
+          value="/pt-BR/apps/6-jars-finance/articles/guide/"
+          
+        >Português (Brasil)</option>
+      
+        <option
+          value="/ro/apps/6-jars-finance/articles/guide/"
+          
+        >Română</option>
+      
+        <option
+          value="/ru/apps/6-jars-finance/articles/guide/"
+          
+        >Русский</option>
+      
+        <option
+          value="/sv/apps/6-jars-finance/articles/guide/"
+          selected
+        >Svenska</option>
+      
+        <option
+          value="/tr/apps/6-jars-finance/articles/guide/"
+          
+        >Türkçe</option>
+      
+        <option
+          value="/uk/apps/6-jars-finance/articles/guide/"
+          
+        >Українська</option>
+      
+    </select>
+  </label>
+
+  <button
+    type="button"
+    class="lang-switch__trigger"
+    data-open-lang-switch-modal
+    aria-haspopup="dialog"
+    aria-expanded="false"
+    aria-controls="lang-switch-modal"
+  >
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        <span class="lang-switch__code">
+  SV
+</span>
+      
+    
+      
+    
+      
+    
+    <span class="lang-switch__arrow" aria-hidden="true">▾</span>
+  </button>
+
+  <div
+    class="modal-overlay lang-switch__modal-overlay"
+    id="lang-switch-modal"
+    hidden
+    aria-hidden="true"
+    data-lang-switch-modal
+  >
+    <div
+      class="modal lang-switch__modal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="lang-switch-modal-title"
+    >
+      <h2 class="modal__title" id="lang-switch-modal-title">Språk</h2>
+      <fieldset class="lang-switch__mobile" aria-label="Språk">
+        <div class="lang-switch__radio-list">
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/en/apps/6-jars-finance/articles/guide/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">English</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/id/apps/6-jars-finance/articles/guide/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Bahasa Indonesia</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/cs/apps/6-jars-finance/articles/guide/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Čeština</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/de/apps/6-jars-finance/articles/guide/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Deutsch</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/es/apps/6-jars-finance/articles/guide/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Español</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/fr/apps/6-jars-finance/articles/guide/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Français</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/it/apps/6-jars-finance/articles/guide/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Italiano</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/nl/apps/6-jars-finance/articles/guide/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Nederlands</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/pl/apps/6-jars-finance/articles/guide/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Polski</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/pt-BR/apps/6-jars-finance/articles/guide/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Português (Brasil)</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/ro/apps/6-jars-finance/articles/guide/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Română</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/ru/apps/6-jars-finance/articles/guide/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Русский</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/sv/apps/6-jars-finance/articles/guide/"
+                data-lang-switch-radio
+                checked
+              />
+              <span class="lang-switch__radio-text">Svenska</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/tr/apps/6-jars-finance/articles/guide/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Türkçe</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/uk/apps/6-jars-finance/articles/guide/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Українська</span>
+            </label>
+          
+        </div>
+      </fieldset>
+    </div>
+  </div>
+
+  <script src="/assets/js/lang-switch.js" defer></script>
+</nav>
+
+      
+    </div>
+  </div>
+</header>
+
+
+  <main class="article">
+    <div class="container">
+      <div class="article-layout">
+  <div class="article-container">
+    
+
+
+
+
+
+
+
+
+<h1>6-pottsmetoden: ett enkelt sätt att hantera pengar</h1>
+
+
+<p>6-pottsmetoden hjälper dig att inte bara registrera utgifter, utan också bestämma i förväg vad du vill använda din inkomst till.</p>
+
+<p>Principen är enkel: varje gång du får pengar fördelar du dem mellan flera ekonomiska uppgifter. En del går till vardagen, medan resten går till sparande, utbildning, nöjen, kapitalbyggande och hjälp till andra.</p>
+
+<p>På så sätt slutar pengarna att vara en enda totalsumma på kontot. Varje del får ett eget syfte.</p>
+
+
+
+<nav class="article-overview" aria-labelledby="article-overview-title">
+  <h2 id="article-overview-title">Innehåll</h2>
+  <ol>
+    <li><a href="#managing-money">Vad 6-pottsmetoden är</a></li>
+    <li><a href="#how-it-works">Hur pengarna fördelas</a></li>
+    <li><a href="#adjust-percents">Hur du anpassar metoden efter dig</a></li>
+    <li><a href="#misleading-balance">Hur metoden hjälper i vardagen</a></li>
+    <li><a href="#irregular-income">Hur du använder metoden i olika situationer</a></li>
+    <li><a href="#physical-jars">Hur du använder metoden utan kontanter</a></li>
+    <li><a href="#in-app">Hur du använder metoden i appen</a></li>
+  </ol>
+</nav>
+
+<div class="article-section">
+<h2 id="managing-money">Inte bara registrera utgifter, utan styra pengarna</h2>
+
+
+<p>Vanlig utgiftsspårning hjälper dig att svara på frågan:</p>
+
+<p><strong>”Vart har mina pengar redan tagit vägen?”</strong></p>
+
+<p>Det är användbart, men ofta inte tillräckligt. Även om du regelbundet registrerar dina köp finns det ingen garanti för att du har pengar kvar i slutet av månaden till sparande, utbildning eller större mål.</p>
+
+<p>6-pottsmetoden tar ett annat grepp. Den hjälper dig att i förväg svara på frågan:</p>
+
+<p><strong>”Vad vill jag använda pengarna jag får till?”</strong></p>
+
+<p>Du fördelar inkomsten innan du börjar spendera den. På så sätt blir sparandet inte beroende av vad som råkar vara kvar i slutet av månaden, och vardagsutgifterna förbrukar inte automatiskt allt som finns tillgängligt.</p>
+
+
+
+</div>
+<div class="article-section">
+<h2 id="how-it-works">Så fungerar 6-pottsmetoden</h2>
+<p>I den klassiska versionen av metoden fördelas varje inkomst mellan sex potter.</p>
+<figure class="article-figure article-figure--float-end article-figure--elevated">
+  <img
+    src="/content/articles/six-jars/screenshots/en/main-screen.jpg"
+    alt="Startsidan i 6 Jars Finance med sex potter och inkomsten fördelad mellan dem"
+    width="1080"
+    height="2265"
+    loading="lazy"
+  />
+</figure>
+
+<div class="article-subsection">
+<h3>Nödvändiga utgifter — 55%</h3>
+<p>Den här potten är avsedd för nödvändiga vardagsutgifter:</p>
+
+<ul>
+  
+  <li>boende;</li>
+  
+  <li>mat;</li>
+  
+  <li>transport;</li>
+  
+  <li>el, vatten och andra boendekostnader;</li>
+  
+  <li>telefon och internet;</li>
+  
+  <li>vård;</li>
+  
+  <li>andra återkommande behov.</li>
+  
+</ul>
+
+<p>Det här är pengarna som täcker din vanliga vardag.</p>
+
+</div>
+<div class="article-subsection">
+<h3>Ekonomisk frihet — 10%</h3>
+
+
+<p>Pengarna i den här potten används för att bygga kapital och skapa framtida inkomster.</p>
+
+<p>I det klassiska systemet är tanken att huvudsumman inte ska användas till vanliga köp. Dess uppgift är att gradvis bygga upp en ekonomisk grund.</p>
+
+<p>Hur du använder pengarna beror på dina kunskaper, mål och din inställning till risk. Det kan vara sparprodukter, investeringar eller andra sätt att bygga kapital.</p>
+
+
+
+</div>
+<div class="article-subsection">
+<h3>Långsiktigt sparande — 10%</h3>
+<p>Den här potten hjälper dig att förbereda dig i förväg för större utgifter.</p>
+<p>Till exempel för:</p>
+
+<ul>
+  
+  <li>att bygga upp en ekonomisk reserv;</li>
+  
+  <li>semester;</li>
+  
+  <li>renovering;</li>
+  
+  <li>köp av elektronik eller annan utrustning;</li>
+  
+  <li>bil;</li>
+  
+  <li>flytt;</li>
+  
+  <li>andra större mål.</li>
+  
+</ul>
+
+<p>Sådana utgifter blir mindre oväntade eftersom pengarna byggs upp gradvis.</p>
+
+</div>
+<div class="article-subsection">
+<h3>Utbildning — 10%</h3>
+<p>De här pengarna är avsedda för att utveckla kunskaper och färdigheter.</p>
+<p>Du kan använda dem till:</p>
+
+<ul>
+  
+  <li>böcker;</li>
+  
+  <li>kurser;</li>
+  
+  <li>yrkesutbildning;</li>
+  
+  <li>språkinlärning;</li>
+  
+  <li>lektioner med lärare;</li>
+  
+  <li>konferenser;</li>
+  
+  <li>andra utbildningsmaterial.</li>
+  
+</ul>
+
+<p>Utbildning blir en egen del av budgeten i stället för en utgift som hela tiden skjuts upp.</p>
+
+</div>
+<div class="article-subsection">
+<h3>Nöjen — 10%</h3>
+<p>Den här potten är avsedd för avkoppling och saker du tycker om.</p>
+<p>Till exempel:</p>
+
+<ul>
+  
+  <li>träffar med vänner;</li>
+  
+  <li>kaféer och restauranger;</li>
+  
+  <li>spel;</li>
+  
+  <li>hobbyer;</li>
+  
+  <li>utflykter;</li>
+  
+  <li>evenemang;</li>
+  
+  <li>mindre spontana köp.</li>
+  
+</ul>
+
+<p>En separat budget för nöjen gör det möjligt att koppla av utan att ständigt känna skuld. Du har redan avsatt pengarna just för sådant du tycker om.</p>
+
+</div>
+<div class="article-subsection">
+<h3>Gåvor och hjälp — 5%</h3>
+<p>Den här potten kan användas till:</p>
+
+<ul>
+  
+  <li>gåvor;</li>
+  
+  <li>välgörenhet;</li>
+  
+  <li>hjälp till familj och vänner;</li>
+  
+  <li>stöd till projekt och initiativ som är viktiga för dig.</li>
+  
+</ul>
+
+<p>Även sådana utgifter blir en planerad del av budgeten och stör inte dina övriga ekonomiska mål.</p>
+
+</div>
+</div>
+<div class="article-section">
+<h2 id="adjust-percents">Procentsatserna kan ändras</h2>
+<figure class="article-figure article-figure--float-end article-figure--elevated">
+  <img
+    src="/content/articles/six-jars/screenshots/en/percents-allocation.jpg"
+    alt="Skärmen för att ställa in hur inkomsten procentuellt fördelas mellan potterna"
+    width="1080"
+    height="2265"
+    loading="lazy"
+  />
+</figure>
+
+
+<p>Fördelningen 55%, 10%, 10%, 10%, 10% och 5% är en utgångspunkt, inte en obligatorisk regel.</p>
+
+<p>Människor har olika inkomster, boendekostnader, familjesituationer, mål och skyldigheter. För en person kan 55% räcka till nödvändiga utgifter, medan hyra och mat för en annan kan ta upp större delen av inkomsten.</p>
+
+<p>Därför kan och bör procentsatserna anpassas efter din verkliga situation.</p>
+
+
+<p>Du kan till exempel:</p>
+
+<ul>
+  
+  <li>öka andelen för nödvändiga utgifter;</li>
+  
+  <li>tillfälligt lägga mer pengar i din ekonomiska reserv;</li>
+  
+  <li>minska utgifterna för nöjen;</li>
+  
+  <li>nå ett visst sparmål snabbare;</li>
+  
+  <li>ändra fördelningen efter att inkomsten har ökat eller minskat.</li>
+  
+</ul>
+
+
+
+<p>Det viktigaste i metoden är inte att följa de klassiska procentsatserna exakt, utan att skapa vanan att regelbundet fördela pengar mellan olika uppgifter.</p>
+
+<p>Systemet ska hjälpa dig att fatta beslut, inte bli ännu en källa till press.</p>
+
+
+
+<a class="article-cta button-primary" href="/sv/apps/6-jars-finance/download/" data-analytics-link="download" data-analytics-placement="guide_adjust_percents">Prova metoden i 6 Jars Finance →</a>
+
+</div>
+<div class="article-section">
+<h2 id="same-purchase-different-jars">Samma köp kan höra till olika potter</h2>
+
+
+<p>I 6-pottsmetoden finns ingen universell lista som entydigt placerar varje köp i en viss kategori. Det viktiga är inte bara vad du köper, utan också varför.</p>
+
+
+<p>Ett kafébesök kan till exempel höra till olika potter:</p>
+
+<ul>
+  
+  <li>nödvändiga utgifter, om det är din vanliga lunch under arbetsdagen;</li>
+  
+  <li>nöjen, om du går dit för att koppla av eller unna dig något;</li>
+  
+  <li>gåvor och hjälp, om du bjuder någon annan.</li>
+  
+</ul>
+
+
+
+<p>Du bestämmer själv syftet med utgiften utifrån situationen och dina egna mål.</p>
+
+<p>Metoden tvingar dig inte att följa strikta regler. Den ger dig en ram och hjälper dig att medvetet bestämma vilken del av budgeten som ska täcka ett visst köp.</p>
+
+
+
+</div>
+<div class="article-section">
+<h2 id="example">Så ser det ut i praktiken</h2>
+
+
+<p>Anta att du får en inkomst på 3 000.</p>
+
+<p>Med den klassiska fördelningen delas pengarna upp så här:</p>
+
+
+<table>
+  <thead>
+    <tr>
+      
+      <th>Pott</th>
+      
+      <th>Andel</th>
+      
+      <th>Belopp</th>
+      
+    </tr>
+  </thead>
+  <tbody>
+    
+    <tr>
+      
+      <td>Nödvändiga utgifter</td>
+      
+      <td>55%</td>
+      
+      <td>1 650</td>
+      
+    </tr>
+    
+    <tr>
+      
+      <td>Ekonomisk frihet</td>
+      
+      <td>10%</td>
+      
+      <td>300</td>
+      
+    </tr>
+    
+    <tr>
+      
+      <td>Långsiktigt sparande</td>
+      
+      <td>10%</td>
+      
+      <td>300</td>
+      
+    </tr>
+    
+    <tr>
+      
+      <td>Utbildning</td>
+      
+      <td>10%</td>
+      
+      <td>300</td>
+      
+    </tr>
+    
+    <tr>
+      
+      <td>Nöjen</td>
+      
+      <td>10%</td>
+      
+      <td>300</td>
+      
+    </tr>
+    
+    <tr>
+      
+      <td>Gåvor och hjälp</td>
+      
+      <td>5%</td>
+      
+      <td>150</td>
+      
+    </tr>
+    
+  </tbody>
+</table>
+
+
+<p>Efter fördelningen hör varje köp till en viss pott.</p>
+
+<p>Mat betalas från nödvändiga utgifter. En kurs från utbildning. En resa från långsiktigt sparande. En träff med vänner från nöjen.</p>
+
+<p>Du ser då inte bara hur mycket pengar som finns kvar totalt, utan också hur mycket som är tillgängligt för varje specifikt ändamål.</p>
+
+
+
+</div>
+<div class="article-section">
+<h2 id="misleading-balance">Varför det totala saldot kan vara missvisande</h2>
+<figure class="article-figure article-figure--float-end article-figure--elevated">
+  <img
+    src="/content/articles/six-jars/screenshots/en/low-balance.jpg"
+    alt="Startsidan i appen som visar ett totalt saldo på 1 720, med endast 20 kvar i potten ”Nöjen”"
+    width="1080"
+    height="2265"
+    loading="lazy"
+  />
+</figure>
+
+
+<p>När alla pengar finns på ett enda bankkonto kan det tillgängliga beloppet se större ut än det egentligen är.</p>
+
+<p>Anta att det finns 1 720 på kontot. Formellt är hela beloppet tillgängligt. Men en del kan redan vara avsedd för boende, en del för en framtida semester och en del för din ekonomiska reserv.</p>
+
+<p>Om du ser hela saldot som fritt tillgängliga pengar är det lätt att spendera pengar som redan behövs till andra mål.</p>
+
+<p>6-pottsmetoden hjälper dig att mentalt dela upp det totala saldot.</p>
+
+<p>Du kan se 1 720 på bankkontot, men bara 20 av dem kan vara tillgängliga för nöjen. Resten av pengarna har redan fördelats mellan andra utgiftskategorier.</p>
+
+
+
+</div>
+<div class="article-section">
+<h2 id="savings-first">Sparandet slutar bero på vad som blir över</h2>
+
+
+<p>En vanlig sparstrategi ser ut så här:</p>
+
+<p><strong>först spendera pengar under månaden och sedan spara det som blir över.</strong></p>
+
+<p>Problemet är att det ofta inte blir något över.</p>
+
+<p>6-pottsmetoden vänder på ordningen. Pengar till sparande, kapitalbyggande och andra mål avsätts direkt när inkomsten kommer in.</p>
+
+<p>Du behöver inte vänta till slutet av månaden för att se om du lyckades spara något. Sparandet blir från början en fullvärdig del av budgeten.</p>
+
+
+
+</div>
+<div class="article-section">
+<h2 id="easier-decisions">Det blir enklare att fatta beslut</h2>
+
+
+<p>För många köp finns inget entydigt rätt eller fel svar.</p>
+
+<p>Kan du köpa ny elektronik? Bör du gå på restaurang? Är kursen för dyr? Har du råd att åka på semester just nu?</p>
+
+<p>När alla pengar ligger i en enda gemensam budget måste varje sådant beslut tas från början varje gång.</p>
+
+<p>Potterna skapar tydliga gränser.</p>
+
+<p>Om det finns tillräckligt med pengar i rätt pott passar köpet in i din plan. Om pengarna inte räcker kan du skjuta upp köpet, ompröva målet eller medvetet använda pengar från en annan pott.</p>
+
+<p>Metoden förbjuder dig inte att ändra beslut. Den gör bara konsekvenserna av dem synliga.</p>
+
+
+
+</div>
+<div class="article-section">
+<h2 id="spend-without-guilt">Du kan spendera utan ständig skuldkänsla</h2>
+
+
+<p>Ekonomisk disciplin misstolkas ofta som att man ständigt ska avstå från sådant man tycker om.</p>
+
+<p>Men ett alltför strikt system där bara nödvändiga utgifter är tillåtna fungerar vanligtvis dåligt på lång sikt. Människor behöver vila, nöjen och möjligheten att ibland spendera pengar bara för att det känns bra.</p>
+
+<p>Därför finns det en separat pott för nöjen i metoden.</p>
+
+<p>Om pengarna redan har avsatts för avkoppling kan du använda dem till det. Ett sådant köp stör inte sparandet och tar inte pengar från nödvändiga utgifter.</p>
+
+<p>Du bryter inte mot budgeten — du följer den.</p>
+
+
+
+</div>
+<div class="article-section">
+<h2 id="borrow-from-yourself">Möjligheten att låna pengar av dig själv</h2>
+<figure class="article-figure article-figure--float-end article-figure--elevated">
+  <img
+    src="/content/articles/six-jars/screenshots/en/negative-balance.jpg"
+    alt="Skärmen för potten ”Nöjen” med ett negativt saldo på 25 och en historik över utgifter"
+    width="1080"
+    height="2265"
+    loading="lazy"
+  />
+</figure>
+
+
+<p>När du använder 6-pottsmetoden bygger du gradvis upp ett kapital som är fördelat mellan olika uppgifter. Vid ett tillfälligt underskott behöver du därför inte alltid låna av andra eller använda kredit.</p>
+
+<p>Om en pott inte innehåller tillräckligt med pengar för ett viktigt köp kan du tillfälligt låta saldot gå under noll. I praktiken lånar du pengar av dig själv: köpet betalas från dina totala tillgängliga medel, men överskridandet registreras fortfarande i den pott som utgiften hör till.</p>
+
+<p>Nästa gång du får inkomst minskar eller försvinner det negativa saldot. Det innebär att mindre pengar blir tillgängliga i den potten under nästa period. Systemet förbjuder alltså inte ett viktigt köp, men visar tydligt hur det påverkar din framtida budget.</p>
+
+<p>Tekniskt kan du flytta det nödvändiga beloppet från en annan pott och sedan flytta tillbaka det efter nästa inkomst. Jag rekommenderar dock inte detta om det inte behövs. En sådan överföring döljer den verkliga överskridningen i den ursprungliga potten och gör rapporterna mindre användbara: det blir svårare att se vilka områden där den avsatta summan faktiskt inte räcker.</p>
+
+<p>Om du låter potten ligga på minus förblir utgiftshistoriken ärlig. Du ser var överskridandet skedde, hur stort det var och om det täcktes efter nästa inkomst.</p>
+
+<p>I min egen erfarenhet blev det här en av de tydligaste fördelarna med metoden: jag slutade låna pengar av andra eftersom jag vid behov kunde låna tillfälligt av mig själv.</p>
+
+<p>Om samma pott regelbundet går under noll är det inte längre ett tillfälligt undantag, utan ett tecken på att du bör se över inkomstfördelningen. Du kan öka procentandelen för den potten genom att minska andelarna för potter där pengar vanligtvis blir över. Det är just detta som gör metoden flexibel: systemet anpassar sig gradvis efter dina verkliga utgifter i stället för att tvinga dig att följa oföränderliga proportioner.</p>
+
+
+
+</div>
+<div class="article-section">
+<h2 id="goals-no-longer-compete">Ekonomiska mål slutar konkurrera med varandra</h2>
+<p>Utan ett system förväntas alla fria pengar samtidigt räcka till allt:</p>
+
+<ul>
+  
+  <li>ekonomisk reserv;</li>
+  
+  <li>semester;</li>
+  
+  <li>utbildning;</li>
+  
+  <li>ny elektronik;</li>
+  
+  <li>nöjen;</li>
+  
+  <li>oväntade utgifter.</li>
+  
+</ul>
+
+
+
+<p>Därför tränger ett mål ofta undan de andra. Ett stort köp kan helt stoppa sparandet, medan en oväntad utgift kan göra att en planerad semester måste ställas in.</p>
+
+<p>Genom att dela upp pengarna efter syfte kan du arbeta mot flera mål samtidigt.</p>
+
+<p>Även om beloppen är små i början får varje viktigt område sin andel varje gång du får inkomst.</p>
+
+
+
+</div>
+<div class="article-section">
+<h2 id="financial-discipline">Metoden hjälper dig att utveckla ekonomisk disciplin</h2>
+
+
+<p>Metodens viktigaste värde ligger inte bara i hur pengarna fördelas, utan också i de vanor som byggs upp under användningen.</p>
+
+<p>Regelbunden fördelning av inkomster förändrar gradvis hur du ser på pengar. Du börjar se det du får in inte som en enda pott som kan spenderas tills den är tom, utan som en resurs för olika delar av livet.</p>
+
+
+<p>Du utvecklar vanan att:</p>
+
+<ul>
+  
+  <li>först fördela pengarna och sedan spendera dem;</li>
+  
+  <li>ta hänsyn till konsekvenserna av varje köp;</li>
+  
+  <li>regelbundet avsätta pengar till framtida mål;</li>
+  
+  <li>hålla balans mellan dagens önskemål och långsiktiga planer;</li>
+  
+  <li>fatta ekonomiska beslut medvetet.</li>
+  
+</ul>
+
+
+
+<p>Systemet kräver inte perfekt beteende från första dagen. Ekonomisk disciplin utvecklas gradvis genom att samma enkla handlingar upprepas.</p>
+
+<p>I min egen erfarenhet visade sig just detta vara metodens största fördel. Den hjälpte mig inte bara att få bättre koll på pengarna, utan förändrade gradvis hela mitt sätt att se på inkomster, utgifter och sparande.</p>
+
+
+
+</div>
+<div class="article-section">
+<h2 id="irregular-income">Vad gör man vid oregelbunden inkomst?</h2>
+
+
+<p>Metoden fungerar inte bara om du har en fast månadslön.</p>
+
+<p>Om inkomsten kommer oregelbundet fördelar du varje inbetalning separat.</p>
+
+<p>Du får betalt för ett projekt, ett extrajobb, ett uppdrag eller en försäljning — fördela då beloppet direkt mellan potterna enligt dina valda procentsatser.</p>
+
+<p>Vid osäker inkomst kan det vara särskilt bra att öka den andel som går till reserven. Det hjälper dig att klara perioder när mindre pengar kommer in.</p>
+
+<p>Metoden kräver inte att du i förväg känner till exakt hur stor din månadsinkomst blir. Den arbetar med pengar du faktiskt redan har fått.</p>
+
+
+
+</div>
+<div class="article-section">
+<h2 id="not-enough-money">Vad gör man om pengarna inte räcker just nu?</h2>
+
+
+<p>De klassiska procentsatserna kan passa dåligt för någon som spenderar nästan hela inkomsten på grundläggande behov.</p>
+
+<p>Det betyder inte att metoden är meningslös.</p>
+
+<p>Du kan börja med en mer realistisk fördelning. Till exempel kan du lägga 80–90% på nödvändiga utgifter och fördela resten mellan de mål som är viktigast för dig.</p>
+
+<p>Även ett litet belopp som regelbundet går till en reserv eller ett långsiktigt mål hjälper till att bygga upp vanan.</p>
+
+<p>När inkomster och utgifter förändras kan procentsatserna justeras.</p>
+
+<p>Det viktiga är inte storleken på det första steget, utan regelbundenheten.</p>
+
+
+
+</div>
+<div class="article-section">
+<h2 id="not-exactly-six-jars">Måste man använda exakt sex potter?</h2>
+
+
+<p>Nej.</p>
+
+<p>Sex potter är grunden i den klassiska metoden. De täcker de viktigaste ekonomiska uppgifterna och fungerar bra som utgångspunkt.</p>
+
+<p>Med tiden kan du dock anpassa systemet.</p>
+
+
+<p>Du kan till exempel skapa separata potter för:</p>
+
+<ul>
+  
+  <li>semester;</li>
+  
+  <li>hälsa;</li>
+  
+  <li>bil;</li>
+  
+  <li>renovering;</li>
+  
+  <li>husdjur;</li>
+  
+  <li>barn;</li>
+  
+  <li>skatter;</li>
+  
+  <li>elektronik;</li>
+  
+  <li>ett specifikt större köp.</li>
+  
+</ul>
+
+
+
+<p>Vissa klassiska potter kan du i stället slå ihop eller byta namn på.</p>
+
+<p>Det viktiga är att behålla grundprincipen: pengarna ska delas upp efter syfte och strukturen ska passa ditt liv.</p>
+
+
+
+</div>
+<div class="article-section">
+<h2 id="physical-jars">Problemet med fysiska potter och kuvert</h2>
+
+
+<p>Ursprungligen byggde sådana system på kontanter.</p>
+
+<p>Inkomsten kunde bokstavligen delas upp mellan olika potter, lådor eller kuvert. Det gjorde fördelningen tydlig: pengar för olika kategorier låg faktiskt separat.</p>
+
+<p>I dag sker däremot de flesta ekonomiska transaktioner utan kontanter.</p>
+
+<p>Vi får inkomster till ett bankkonto, betalar med kort, köper tjänster på nätet och för över pengar med mobilen.</p>
+
+<p>Under sådana förhållanden blir fysiska potter opraktiska. För att upprätthålla systemet skulle du behöva ta ut kontanter regelbundet eller manuellt registrera varje kort- och digitalbetalning.</p>
+
+<p>Du kan öppna flera bankkonton, men det är inte alltid praktiskt att hantera många konton och överföringar heller. Antalet tillgängliga konton och deras villkor beror dessutom på banken.</p>
+
+
+
+</div>
+<div class="article-section">
+<h2 id="digital-jars">Digitala potter</h2>
+
+
+<p>Jag stötte själv på det här problemet.</p>
+
+<p>Jag gillade principen bakom 6-pottsmetoden, och regelbunden användning hjälpte mig faktiskt att utveckla ett mer disciplinerat förhållningssätt till pengar.</p>
+
+<p>Men fysiska potter och kuvert visade sig vara opraktiska i en värld där de flesta betalningar är digitala.</p>
+
+<p>Därför utvecklade jag <strong>6 Jars Finance</strong> — en app för privatekonomi baserad på 6-pottsmetoden.</p>
+
+<p>Appen behåller systemets grundidé utan att du behöver dela upp pengarna fysiskt.</p>
+
+<p>Du låter pengarna ligga kvar på ditt vanliga bankkonto, men i appen ser du ett separat saldo för varje pott.</p>
+
+
+
+</div>
+<div class="article-section">
+<h2 id="in-app">Så fungerar 6 Jars Finance</h2>
+
+
+<p>När du får inkomst fördelar appen den mellan potterna enligt de procentsatser du har valt.</p>
+
+<p>Efter ett köp anger du vilken pott pengarna togs från. Bara saldot i den potten minskar — pengarna i de andra potterna behåller sina ursprungliga syften.</p>
+
+<p>På så sätt får ditt totala banksaldo en tydlig intern struktur.</p>
+
+
+<p>Du ser:</p>
+
+<ul>
+  
+  <li>hur mycket pengar som finns tillgängligt för nödvändiga utgifter;</li>
+  
+  <li>hur mycket som har sparats till långsiktiga mål;</li>
+  
+  <li>hur mycket du kan spendera på nöjen;</li>
+  
+  <li>vilken budget som har avsatts för utbildning;</li>
+  
+  <li>hur saldona i potterna förändras över tid.</li>
+  
+</ul>
+
+
+
+<p>Appen flyttar inte pengar mellan bankkonton och får inte tillgång till din bank. Den hjälper dig att föra en separat översikt och förstå vad varje del av pengarna är avsedd för.</p>
+
+
+
+</div>
+<div class="article-section">
+<h2 id="track-every-purchase">Måste varje köp registreras separat?</h2>
+<figure class="article-figure article-figure--float-end article-figure--elevated">
+  <img
+    src="/content/articles/six-jars/screenshots/en/withdraw.jpg"
+    alt="Skärmen för att lägga till en utgift på 75 från potten ”Löpande utgifter” med taggen ”Mat”"
+    width="1080"
+    height="2265"
+    loading="lazy"
+  />
+</figure>
+
+
+<p>Nej. För att använda metoden räcker det att ange utgiftens totalsumma och välja vilken pott pengarna togs från.</p>
+
+<p>Ett vanligt butiksbesök kan till exempel registreras som en enda transaktion på 105. Om du vill ha mer detalj kan du dela upp summan i flera transaktioner: 75 för mat och 30 för hushållsvaror. För ytterligare detaljer kan du använda taggar.</p>
+
+<p>Du bestämmer själv vilken detaljnivå som är lagom. Appen kräver inte att du skriver av varje rad på kvittot — registreringen ska hjälpa dig att förstå pengarnas rörelse utan att ta för mycket tid.</p>
+
+<p>Att lägga till en utgift manuellt kräver en liten extra handling, men hjälper dig samtidigt att uppmärksamma dina utgifter och bättre förstå vart pengarna tar vägen.</p>
+
+
+
+</div>
+<div class="article-section">
+<h2 id="adapt-system">Anpassa systemet efter dig</h2>
+
+
+<p>6 Jars Finance bygger på den klassiska metoden, men begränsar dig inte till dess ursprungliga struktur.</p>
+
+
+<p>Du kan:</p>
+
+<ul>
+  
+  <li>ändra fördelningsprocenter;</li>
+  
+  <li>byta namn på potter;</li>
+  
+  <li>skapa egna potter;</li>
+  
+  <li>använda fler eller färre än sex potter;</li>
+  
+  <li>ändra ordningen på potterna;</li>
+  
+  <li>registrera inkomster och utgifter;</li>
+  
+  <li>lägga till återkommande transaktioner;</li>
+  
+  <li>analysera pengaflöden med hjälp av rapporter.</li>
+  
+</ul>
+
+
+
+<p>Den klassiska strukturen kan vara en praktisk utgångspunkt. Därefter kan du gradvis ändra den så att den passar just dina behov.</p>
+
+
+
+</div>
+<div class="article-section">
+<h2 id="start-with-next-income">Börja med din nästa inkomst</h2>
+
+
+<p>Du behöver inte direkt göra om hela ditt ekonomiska system eller följa de klassiska procentsatserna perfekt.</p>
+
+<p>Börja enkelt: fördela din nästa inkomst mellan några uppgifter som är viktiga för dig.</p>
+
+<p>Redan det hjälper dig att se pengar inte som en enda totalsumma, utan som ett verktyg för olika delar av ditt liv.</p>
+
+<p>I 6 Jars Finance är <strong>de klassiska potterna och procentsatserna redan inställda.</strong> Du kan börja med dem och sedan ändra fördelningen efter behov.</p>
+
+
+
+<a class="article-cta button-primary" href="/sv/apps/6-jars-finance/download/" data-analytics-link="download" data-analytics-placement="guide_final_cta">Gå till 6 Jars Finance →</a>
+
+</div>
+
+  </div>
+  <aside class="article-toc" aria-label="Sidnavigering">
+    <nav class="article-toc__nav">
+      <p class="article-toc__title">På den här sidan</p>
+      <ol class="article-toc__list"></ol>
+    </nav>
+  </aside>
+</div>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+  <div class="container site-footer__inner">
+    <p class="site-footer__copyright">© 2026 Artem D Apps</p>
+    <nav class="site-footer__nav" aria-label="Information om webbplatsen">
+      <a class="site-footer__link" href="/sv/apps/6-jars-finance/help/">Information om fel</a>
+      <a class="site-footer__link" href="/sv/apps/6-jars-finance/privacy/">Integritetspolicy</a>
+      <a class="site-footer__link" href="/sv/apps/6-jars-finance/licenses/">Licenser för öppen källkod</a>
+    </nav>
+  </div>
+</footer>
+
+  
+  <script src="/assets/article-toc.js" defer></script>
+
+  
+  <script src="/assets/js/analytics.js" defer></script>
+</body>
+</html>

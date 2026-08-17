@@ -1,0 +1,423 @@
+{
+  "title": "El método de los 6 fondos: una forma sencilla de gestionar tu dinero",
+  "metaDescription": "El método de los 6 fondos te ayuda no solo a registrar gastos, sino también a decidir de antemano a qué quieres destinar tus ingresos.",
+  "intro": {
+    "paragraphs": [
+      "El método de los 6 fondos te ayuda no solo a registrar gastos, sino también a decidir de antemano a qué quieres destinar tus ingresos.",
+      "La idea es sencilla: cada vez que recibes dinero, lo distribuyes entre varios objetivos financieros. Una parte se destina a la vida cotidiana y el resto se reparte entre ahorro, formación, ocio, creación de capital y ayuda a otras personas.",
+      "De este modo, el dinero deja de ser una única cantidad total en la cuenta. Cada parte adquiere una finalidad concreta."
+    ]
+  },
+  "overview": {
+    "title": "Índice",
+    "managingMoney": "Qué es el método de los 6 fondos",
+    "howItWorks": "Cómo funciona la distribución del dinero",
+    "adjustPercents": "Cómo adaptar el método a tus necesidades",
+    "misleadingBalance": "Cómo ayuda el método en la vida cotidiana",
+    "irregularIncome": "Cómo utilizar el método en distintas situaciones",
+    "physicalJarsProblem": "Cómo aplicar el método sin efectivo",
+    "appHowItWorks": "Cómo utilizar el método en la aplicación"
+  },
+  "managingMoney": {
+    "title": "No solo registrar gastos, sino gestionar tu dinero",
+    "paragraphs": [
+      "El control tradicional de gastos ayuda a responder a la pregunta:",
+      "<strong>«¿En qué se ha ido ya mi dinero?»</strong>",
+      "Es útil, pero a menudo no es suficiente. Aunque registres tus compras con regularidad, eso no garantiza que a final de mes quede dinero para ahorrar, formarte o alcanzar objetivos importantes.",
+      "El método de los 6 fondos propone otro enfoque. Te ayuda a responder de antemano a la pregunta:",
+      "<strong>«¿A qué quiero destinar el dinero que recibo?»</strong>",
+      "Distribuyes tus ingresos antes de empezar a gastarlos. Así, el ahorro deja de depender de lo que por casualidad quede a final de mes y los gastos cotidianos no consumen todo el dinero disponible."
+    ]
+  },
+  "howItWorks": {
+    "title": "Cómo funciona el método de los 6 fondos",
+    "lead": "En la versión clásica del método, cada ingreso se distribuye entre seis fondos.",
+    "screenshotAlt": "Pantalla principal de 6 Jars Finance con seis fondos y los ingresos distribuidos entre ellos",
+    "jars": {
+      "essentialExpenses": {
+        "title": "Gastos necesarios — 55%",
+        "intro": "Este fondo está destinado a los gastos cotidianos imprescindibles:",
+        "items": [
+          "vivienda;",
+          "alimentación;",
+          "transporte;",
+          "suministros y servicios;",
+          "teléfono e Internet;",
+          "atención médica;",
+          "otras necesidades habituales."
+        ],
+        "outro": "Es el dinero que cubre tus necesidades de la vida cotidiana."
+      },
+      "financialIndependence": {
+        "title": "Independencia financiera — 10%",
+        "paragraphs": [
+          "El dinero de este fondo se utiliza para crear capital y generar ingresos en el futuro.",
+          "En el sistema clásico, se supone que el capital principal no se utiliza para compras habituales. Su objetivo es crear gradualmente una base financiera.",
+          "La forma de utilizar estos fondos depende de tus conocimientos, objetivos y actitud frente al riesgo. Pueden ser productos de ahorro, inversiones u otras formas de crear capital."
+        ]
+      },
+      "longTermSavings": {
+        "title": "Ahorro a largo plazo — 10%",
+        "intro": "Este fondo te ayuda a prepararte de antemano para gastos importantes.",
+        "listIntro": "Por ejemplo:",
+        "items": [
+          "crear una reserva financiera;",
+          "unas vacaciones;",
+          "una reforma;",
+          "comprar tecnología o electrodomésticos;",
+          "un coche;",
+          "una mudanza;",
+          "otros objetivos importantes."
+        ],
+        "outro": "Estos gastos dejan de ser inesperados porque el dinero para ellos se acumula poco a poco."
+      },
+      "education": {
+        "title": "Formación — 10%",
+        "intro": "Este dinero está destinado a desarrollar tus conocimientos y habilidades.",
+        "listIntro": "Puedes utilizarlo para:",
+        "items": [
+          "libros;",
+          "cursos;",
+          "formación profesional;",
+          "aprendizaje de idiomas;",
+          "clases con un profesor;",
+          "conferencias;",
+          "otros materiales educativos."
+        ],
+        "outro": "La formación se convierte en una parte independiente del presupuesto, en lugar de ser un gasto que se aplaza constantemente."
+      },
+      "entertainment": {
+        "title": "Ocio — 10%",
+        "intro": "Este fondo está destinado al descanso y a compras agradables.",
+        "listIntro": "Por ejemplo:",
+        "items": [
+          "quedar con amigos;",
+          "cafeterías y restaurantes;",
+          "juegos;",
+          "aficiones;",
+          "viajes y excursiones;",
+          "eventos;",
+          "pequeñas compras espontáneas."
+        ],
+        "outro": "Tener un presupuesto separado para el ocio permite disfrutar sin sentir culpa constantemente. Ya has reservado este dinero precisamente para usarlo en cosas que te gustan."
+      },
+      "giftsAndCharity": {
+        "title": "Regalos y ayuda — 5%",
+        "intro": "Este fondo puede utilizarse para:",
+        "items": [
+          "regalos;",
+          "donaciones;",
+          "ayudar a familiares y amigos;",
+          "apoyar proyectos e iniciativas importantes para ti."
+        ],
+        "outro": "Estos gastos también pasan a formar parte del presupuesto planificado y no interfieren con tus demás objetivos financieros."
+      }
+    }
+  },
+  "adjustPercents": {
+    "title": "Los porcentajes se pueden cambiar",
+    "screenshotAlt": "Pantalla para configurar los porcentajes de distribución de los ingresos entre los fondos",
+    "openingParagraphs": [
+      "La distribución del 55%, 10%, 10%, 10%, 10% y 5% es un punto de partida, no una regla obligatoria.",
+      "Cada persona tiene ingresos, costes de vivienda, circunstancias familiares, objetivos y obligaciones diferentes. Para alguien, un 55% puede ser suficiente para cubrir los gastos necesarios, mientras que para otra persona solo el alquiler y la alimentación pueden consumir la mayor parte de sus ingresos.",
+      "Por eso los porcentajes pueden y deben adaptarse a tu situación real."
+    ],
+    "listIntro": "Por ejemplo, puedes:",
+    "items": [
+      "aumentar la parte destinada a los gastos necesarios;",
+      "destinar temporalmente más dinero a la reserva financiera;",
+      "reducir los gastos de ocio;",
+      "acelerar el ahorro para un objetivo concreto;",
+      "cambiar las proporciones después de un aumento o una reducción de ingresos."
+    ],
+    "closingParagraphs": [
+      "Lo importante del método no es respetar exactamente los porcentajes clásicos, sino desarrollar el hábito de distribuir regularmente el dinero entre distintos objetivos.",
+      "El sistema debe ayudarte a tomar decisiones, no convertirse en otra fuente de presión."
+    ],
+    "cta": "Prueba el método en 6 Jars Finance →"
+  },
+  "samePurchaseDifferentJars": {
+    "title": "Una misma compra puede pertenecer a fondos diferentes",
+    "openingParagraphs": [
+      "En el método de los 6 fondos no existe una lista universal que asigne cada compra de forma inequívoca a una categoría. No solo importa qué has comprado, sino también por qué lo has hecho."
+    ],
+    "listIntro": "Por ejemplo, una visita a una cafetería puede pertenecer a distintos fondos:",
+    "items": [
+      "a los gastos necesarios, si es tu almuerzo habitual durante el trabajo;",
+      "al ocio, si has ido para descansar o darte un capricho;",
+      "a regalos y ayuda, si estás invitando a otra persona."
+    ],
+    "closingParagraphs": [
+      "Tú decides la finalidad del gasto según la situación y tus propios objetivos.",
+      "El método no te obliga a seguir reglas rígidas. Te ofrece una referencia y te ayuda a decidir conscientemente qué parte del presupuesto debe cubrir una compra concreta."
+    ]
+  },
+  "example": {
+    "title": "Cómo funciona en la práctica",
+    "openingParagraphs": [
+      "Supongamos que recibes unos ingresos de 3 000.",
+      "Con la distribución clásica, el dinero se dividiría de la siguiente manera:"
+    ],
+    "table": {
+      "headers": [
+        "Fondo",
+        "Parte",
+        "Cantidad"
+      ],
+      "rows": [
+        [
+          "Gastos necesarios",
+          "55%",
+          "1 650"
+        ],
+        [
+          "Independencia financiera",
+          "10%",
+          "300"
+        ],
+        [
+          "Ahorro a largo plazo",
+          "10%",
+          "300"
+        ],
+        [
+          "Formación",
+          "10%",
+          "300"
+        ],
+        [
+          "Ocio",
+          "10%",
+          "300"
+        ],
+        [
+          "Regalos y ayuda",
+          "5%",
+          "150"
+        ]
+      ]
+    },
+    "closingParagraphs": [
+      "Después de la distribución, cada compra corresponde a un fondo determinado.",
+      "La alimentación se paga desde gastos necesarios. Un curso desde formación. Un viaje desde ahorro a largo plazo. Una quedada con amigos desde ocio.",
+      "Así puedes ver no solo cuánto dinero queda en total, sino también cuánto está disponible para cada objetivo concreto."
+    ]
+  },
+  "misleadingBalance": {
+    "title": "Por qué el saldo total puede ser engañoso",
+    "screenshotAlt": "Pantalla principal de la aplicación que muestra un saldo total de 1 720, con solo 20 restantes en el fondo «Ocio»",
+    "paragraphs": [
+      "Cuando todo el dinero está en una sola cuenta bancaria, la cantidad disponible puede parecer mayor de lo que realmente es.",
+      "Supongamos que hay 1 720 en la cuenta. Formalmente, todo ese dinero está disponible. Pero una parte puede estar destinada a la vivienda, otra a unas futuras vacaciones y otra a la reserva financiera.",
+      "Si percibes todo el saldo como dinero libre para gastar, es fácil utilizar fondos que ya estaban destinados a otros objetivos.",
+      "El método de los 6 fondos te ayuda a dividir mentalmente el saldo total.",
+      "Puedes ver 1 720 en tu cuenta bancaria, pero de esa cantidad quizá solo 20 estén disponibles para ocio. El resto ya está distribuido entre otras categorías de gasto."
+    ]
+  },
+  "savingsFirst": {
+    "title": "El ahorro deja de depender de lo que sobra",
+    "paragraphs": [
+      "Una estrategia de ahorro muy habitual funciona así:",
+      "<strong>primero gastar dinero durante el mes y después ahorrar lo que quede.</strong>",
+      "El problema es que a menudo no queda nada.",
+      "El método de los 6 fondos invierte el orden. El dinero para ahorrar, crear capital y otros objetivos se reserva en cuanto recibes ingresos.",
+      "No tienes que esperar hasta final de mes para descubrir si has conseguido ahorrar algo. El ahorro se convierte desde el principio en una parte completa del presupuesto."
+    ]
+  },
+  "easierDecisions": {
+    "title": "Tomar decisiones se vuelve más sencillo",
+    "paragraphs": [
+      "Muchas compras no tienen una respuesta claramente correcta o incorrecta.",
+      "¿Puedes comprar un dispositivo nuevo? ¿Deberías ir a un restaurante? ¿Es demasiado caro un curso? ¿Puedes irte de vacaciones ahora?",
+      "Cuando todo el dinero pertenece a un único presupuesto general, cada una de estas decisiones tiene que tomarse de nuevo.",
+      "Los fondos crean límites claros.",
+      "Si hay suficiente dinero en el fondo correspondiente, la compra encaja en tu plan. Si no hay suficiente, puedes aplazarla, revisar el objetivo o utilizar conscientemente dinero de otro fondo.",
+      "El método no te impide cambiar de decisión. Hace visibles las consecuencias de esas decisiones."
+    ]
+  },
+  "spendWithoutGuilt": {
+    "title": "Puedes gastar sin sentir culpa constantemente",
+    "paragraphs": [
+      "La disciplina financiera suele confundirse con renunciar constantemente a compras agradables.",
+      "Pero un sistema demasiado estricto, en el que solo se permiten gastos imprescindibles, suele funcionar mal a largo plazo. Las personas necesitan descansar, divertirse y tener la posibilidad de gastar dinero de vez en cuando simplemente por placer.",
+      "Por eso el método incluye un fondo separado para el ocio.",
+      "Si el dinero ya se ha reservado de antemano para descansar, puedes utilizarlo para eso. Esa compra no afecta a tus ahorros ni quita dinero a los gastos necesarios.",
+      "No estás rompiendo tu presupuesto — lo estás siguiendo."
+    ]
+  },
+  "borrowFromYourself": {
+    "title": "La posibilidad de pedirte dinero prestado a ti mismo",
+    "screenshotAlt": "Pantalla del fondo «Ocio» con un saldo negativo de 25 y el historial de gastos",
+    "paragraphs": [
+      "Al utilizar el método de los 6 fondos, vas creando poco a poco una reserva de dinero distribuida entre distintos objetivos. Gracias a eso, cuando falta dinero temporalmente, no siempre es necesario pedir prestado a otras personas o recurrir al crédito.",
+      "Si en un fondo no hay suficiente dinero para una compra importante, puedes dejar temporalmente que su saldo pase a negativo. En la práctica te estás prestando dinero a ti mismo: la compra se paga con tus fondos totales disponibles, pero el exceso queda registrado precisamente en el fondo al que pertenece el gasto.",
+      "Con el siguiente ingreso, el saldo negativo se compensa parcial o totalmente. Como resultado, durante el siguiente periodo habrá menos dinero disponible en ese fondo. El sistema no impide una compra necesaria, pero muestra claramente sus consecuencias para el presupuesto futuro.",
+      "Técnicamente puedes transferir la cantidad necesaria desde otro fondo y devolverla después del siguiente ingreso. Sin embargo, no recomiendo hacerlo si no es necesario. Esa transferencia oculta el exceso real del fondo original y hace que los informes sean menos útiles: resulta más difícil entender para qué objetivos la cantidad asignada es realmente insuficiente.",
+      "Si dejas el fondo en negativo, el historial de gastos sigue reflejando la realidad. Puedes ver dónde se produjo el exceso, cuánto fue y si se compensó después del siguiente ingreso.",
+      "En mi experiencia, este se convirtió en uno de los resultados más evidentes del método: dejé de pedir dinero prestado a otras personas porque, cuando era necesario, podía prestármelo temporalmente a mí mismo.",
+      "Si un mismo fondo entra en negativo con regularidad, ya no es una excepción temporal, sino una señal de que deberías revisar la distribución de tus ingresos. Puedes aumentar el porcentaje de ese fondo reduciendo la parte de aquellos en los que normalmente sobra dinero. En eso consiste la flexibilidad del método: el sistema se adapta poco a poco a tus gastos reales en lugar de obligarte a seguir proporciones invariables."
+    ]
+  },
+  "goalsNoLongerCompete": {
+    "title": "Los objetivos financieros dejan de competir entre sí",
+    "listIntro": "Sin un sistema, todo el dinero libre debe servir al mismo tiempo para todo:",
+    "items": [
+      "la reserva financiera;",
+      "las vacaciones;",
+      "la formación;",
+      "nueva tecnología;",
+      "el ocio;",
+      "los gastos inesperados."
+    ],
+    "closingParagraphs": [
+      "Por eso un objetivo suele desplazar a los demás. Una compra importante puede detener por completo el ahorro, mientras que un gasto imprevisto puede cancelar unas vacaciones.",
+      "Dividir el dinero según su finalidad permite mantener varios objetivos al mismo tiempo.",
+      "Aunque las cantidades sean pequeñas al principio, cada área importante recibe su parte cada vez que entran ingresos."
+    ]
+  },
+  "financialDiscipline": {
+    "title": "El método ayuda a desarrollar disciplina financiera",
+    "openingParagraphs": [
+      "El principal valor del método no está solo en cómo se distribuye el dinero, sino también en los hábitos que se desarrollan al utilizarlo.",
+      "Distribuir los ingresos regularmente cambia poco a poco la forma de ver el dinero. Empiezas a percibir la cantidad recibida no como una única reserva que puedes gastar hasta que se acabe, sino como un recurso para distintas partes de tu vida."
+    ],
+    "listIntro": "Desarrollas el hábito de:",
+    "items": [
+      "distribuir primero el dinero y gastarlo después;",
+      "tener en cuenta las consecuencias de cada compra;",
+      "destinar dinero regularmente a objetivos futuros;",
+      "mantener un equilibrio entre los deseos actuales y los planes a largo plazo;",
+      "tomar decisiones financieras de manera consciente."
+    ],
+    "closingParagraphs": [
+      "El sistema no exige un comportamiento perfecto desde el primer día. La disciplina financiera se desarrolla poco a poco repitiendo las mismas acciones sencillas.",
+      "En mi propia experiencia, precisamente esto resultó ser la principal ventaja del método. No solo me ayudó a gestionar mejor el dinero, sino que cambió gradualmente mi forma de abordar los ingresos, los gastos y el ahorro."
+    ]
+  },
+  "irregularIncome": {
+    "title": "Qué hacer con ingresos irregulares",
+    "paragraphs": [
+      "El método no solo sirve para quienes reciben un sueldo mensual fijo.",
+      "Si tus ingresos son irregulares, distribuye cada entrada de dinero por separado.",
+      "Has recibido un pago por un proyecto, un trabajo adicional, un encargo o una venta: divide inmediatamente esa cantidad entre los fondos según las proporciones elegidas.",
+      "Con ingresos inestables puede ser especialmente útil aumentar la parte destinada a la reserva. Esto ayuda a afrontar los periodos en los que entra menos dinero.",
+      "El método no requiere conocer de antemano tus ingresos exactos del mes. Funciona con el dinero que ya has recibido."
+    ]
+  },
+  "notEnoughMoney": {
+    "title": "Qué hacer si por ahora no hay suficiente dinero",
+    "paragraphs": [
+      "Los porcentajes clásicos pueden adaptarse mal a una persona que gasta casi todos sus ingresos en necesidades básicas.",
+      "Eso no significa que el método no sirva.",
+      "Puedes empezar con una distribución más realista. Por ejemplo, destinar el 80–90% a los gastos necesarios y dividir el resto entre los objetivos más importantes para ti.",
+      "Incluso una pequeña cantidad destinada regularmente a una reserva o a un objetivo a largo plazo ayuda a crear el hábito.",
+      "A medida que cambien tus ingresos y gastos, puedes revisar las proporciones.",
+      "Lo importante no es el tamaño del primer paso, sino la constancia."
+    ]
+  },
+  "notExactlySixJars": {
+    "title": "¿Es obligatorio utilizar exactamente seis fondos?",
+    "openingParagraphs": [
+      "No.",
+      "Los seis fondos son la base del método clásico. Cubren los principales objetivos financieros y son un buen punto de partida.",
+      "Pero con el tiempo puedes adaptar el sistema."
+    ],
+    "listIntro": "Por ejemplo, puedes crear fondos separados para:",
+    "items": [
+      "vacaciones;",
+      "salud;",
+      "un coche;",
+      "una reforma;",
+      "mascotas;",
+      "hijos;",
+      "impuestos;",
+      "tecnología;",
+      "una compra importante concreta."
+    ],
+    "closingParagraphs": [
+      "Algunos fondos clásicos, por el contrario, pueden combinarse o cambiar de nombre.",
+      "Lo importante es mantener el principio básico: el dinero debe estar dividido según su finalidad y la estructura debe adaptarse a tu vida."
+    ]
+  },
+  "physicalJarsProblem": {
+    "title": "El problema de los recipientes y sobres físicos",
+    "paragraphs": [
+      "Originalmente, los sistemas de este tipo estaban pensados para utilizar efectivo.",
+      "Los ingresos podían dividirse físicamente entre distintos recipientes, cajas o sobres. Esto hacía que la separación fuera muy clara: el dinero destinado a diferentes categorías estaba realmente guardado por separado.",
+      "Sin embargo, hoy en día la mayoría de las operaciones financieras se realizan sin efectivo.",
+      "Recibimos los ingresos en una cuenta bancaria, pagamos con tarjeta, contratamos servicios por Internet y transferimos dinero desde el teléfono.",
+      "En estas condiciones, los recipientes físicos resultan poco prácticos. Para mantener el sistema habría que retirar efectivo con regularidad o registrar manualmente cada operación digital.",
+      "También es posible abrir varias cuentas bancarias, pero gestionar muchas cuentas y transferencias tampoco siempre es cómodo. Además, la cantidad de cuentas disponibles y sus condiciones dependen de cada banco."
+    ]
+  },
+  "digitalJars": {
+    "title": "Fondos digitales",
+    "paragraphs": [
+      "Yo mismo me encontré con este problema.",
+      "Me gustaba el principio del método de los 6 fondos y utilizarlo con regularidad realmente me ayudó a desarrollar una actitud más disciplinada hacia el dinero.",
+      "Pero utilizar recipientes o sobres físicos en un mundo de pagos digitales resultó incómodo.",
+      "Por eso desarrollé <strong>6 Jars Finance</strong> — una aplicación para gestionar las finanzas personales basada en el método de los 6 fondos.",
+      "La aplicación permite mantener la idea principal del sistema sin necesidad de separar físicamente el dinero.",
+      "Sigues guardando el dinero en tu cuenta bancaria habitual, pero dentro de la aplicación ves un saldo independiente para cada fondo."
+    ]
+  },
+  "appHowItWorks": {
+    "title": "Cómo funciona 6 Jars Finance",
+    "openingParagraphs": [
+      "Cuando recibes ingresos, la aplicación los distribuye entre los fondos según los porcentajes elegidos.",
+      "Después de una compra, indicas desde qué fondo se gastó el dinero. Solo disminuye el saldo de ese fondo — los demás fondos mantienen su finalidad.",
+      "Así, el saldo bancario total adquiere una estructura interna clara."
+    ],
+    "listIntro": "Puedes ver:",
+    "items": [
+      "cuánto dinero está disponible para los gastos necesarios;",
+      "cuánto has ahorrado para objetivos a largo plazo;",
+      "cuánto puedes gastar en ocio;",
+      "qué presupuesto está destinado a la formación;",
+      "cómo cambian los saldos de los fondos con el tiempo."
+    ],
+    "closingParagraphs": [
+      "La aplicación no mueve dinero entre cuentas bancarias ni accede a tu banco. Te ayuda a mantener un registro separado y a entender para qué está destinada cada parte de tu dinero."
+    ]
+  },
+  "trackEveryPurchase": {
+    "title": "¿Es necesario introducir cada compra por separado?",
+    "screenshotAlt": "Pantalla para añadir un gasto de 75 desde el fondo «Gastos corrientes» con la etiqueta «Alimentación»",
+    "paragraphs": [
+      "No. Para utilizar el método basta con indicar el importe total del gasto y elegir el fondo desde el que se utilizó el dinero.",
+      "Por ejemplo, una visita normal al supermercado puede registrarse como una sola operación de 105. Si quieres más precisión, puedes dividir la cantidad en varias operaciones: 75 para alimentación y 30 para productos del hogar. Para añadir más detalle también puedes utilizar etiquetas.",
+      "Tú decides qué nivel de precisión te resulta útil. La aplicación no exige copiar cada línea del recibo — el registro debe ayudarte a entender el movimiento del dinero sin ocupar demasiado tiempo.",
+      "Añadir un gasto manualmente requiere una pequeña acción, pero también ayuda a prestar más atención a tus gastos y a entender mejor dónde va el dinero."
+    ]
+  },
+  "adaptSystem": {
+    "title": "Adapta el sistema a tus necesidades",
+    "openingParagraphs": [
+      "6 Jars Finance se basa en el método clásico, pero no te limita a su estructura original."
+    ],
+    "listIntro": "Puedes:",
+    "items": [
+      "cambiar los porcentajes de distribución;",
+      "cambiar el nombre de los fondos;",
+      "crear tus propios fondos;",
+      "utilizar más o menos de seis fondos;",
+      "cambiar el orden de los fondos;",
+      "registrar ingresos y gastos;",
+      "añadir operaciones recurrentes;",
+      "analizar el movimiento del dinero mediante informes."
+    ],
+    "closingParagraphs": [
+      "La estructura clásica puede ser un buen punto de partida. Después puedes modificarla poco a poco hasta adaptarla a tus propias necesidades."
+    ]
+  },
+  "startWithNextIncome": {
+    "title": "Empieza con tus próximos ingresos",
+    "paragraphs": [
+      "No tienes que cambiar inmediatamente todo tu sistema financiero ni seguir perfectamente los porcentajes clásicos.",
+      "Empieza con algo sencillo: distribuye tus próximos ingresos entre varios objetivos importantes para ti.",
+      "Solo este paso ya te ayudará a ver el dinero no como una única cantidad total, sino como una herramienta para distintas partes de tu vida.",
+      "En 6 Jars Finance <strong>los fondos clásicos y sus porcentajes ya están configurados.</strong> Puedes empezar con ellos y después adaptar la distribución a tus necesidades."
+    ],
+    "cta": "Ir a 6 Jars Finance →"
+  }
+}

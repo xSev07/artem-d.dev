@@ -1,0 +1,423 @@
+{
+  "title": "Metoda celor 6 fonduri: o modalitate simplă de a-ți gestiona banii",
+  "metaDescription": "Metoda celor 6 fonduri te ajută nu doar să înregistrezi cheltuielile, ci și să decizi din timp către ce vei direcționa veniturile.",
+  "intro": {
+    "paragraphs": [
+      "Metoda celor 6 fonduri te ajută nu doar să înregistrezi cheltuielile, ci și să decizi din timp către ce vei direcționa veniturile.",
+      "Principiul este simplu: de fiecare dată când primești bani, îi distribui între mai multe obiective financiare. O parte merge către viața de zi cu zi, iar restul se împarte între economii, educație, divertisment, construirea capitalului și ajutorarea altora.",
+      "Astfel, banii nu mai reprezintă o singură sumă totală în cont. Fiecare parte capătă un scop propriu."
+    ]
+  },
+  "overview": {
+    "title": "Cuprins",
+    "managingMoney": "Ce este metoda celor 6 fonduri",
+    "howItWorks": "Cum funcționează împărțirea banilor",
+    "adjustPercents": "Cum să adaptezi metoda la nevoile tale",
+    "misleadingBalance": "Cum te ajută metoda în viața de zi cu zi",
+    "irregularIncome": "Cum să folosești metoda în situații diferite",
+    "physicalJarsProblem": "Cum să aplici metoda fără numerar",
+    "appHowItWorks": "Cum să folosești metoda în aplicație"
+  },
+  "managingMoney": {
+    "title": "Nu doar să urmărești cheltuielile, ci să îți gestionezi banii",
+    "paragraphs": [
+      "Urmărirea obișnuită a cheltuielilor te ajută să răspunzi la întrebarea:",
+      "<strong>„Unde s-au dus deja banii mei?”</strong>",
+      "Este util, dar adesea nu suficient. Chiar dacă îți înregistrezi cumpărăturile în mod regulat, asta nu garantează că la sfârșitul lunii îți vor rămâne bani pentru economii, educație sau obiective importante.",
+      "Metoda celor 6 fonduri propune o abordare diferită. Te ajută să răspunzi din timp la întrebarea:",
+      "<strong>„Pentru ce vreau să folosesc banii pe care îi primesc?”</strong>",
+      "Îți distribui venitul înainte să începi să îl cheltuiești. Astfel, economiile nu mai depind de suma rămasă întâmplător la sfârșitul lunii, iar cheltuielile zilnice nu consumă toți banii disponibili."
+    ]
+  },
+  "howItWorks": {
+    "title": "Cum funcționează metoda celor 6 fonduri",
+    "lead": "În versiunea clasică a metodei, fiecare venit este împărțit între șase fonduri.",
+    "screenshotAlt": "Ecranul principal al aplicației 6 Jars Finance cu șase fonduri și venitul distribuit între ele",
+    "jars": {
+      "essentialExpenses": {
+        "title": "Cheltuieli necesare — 55%",
+        "intro": "Acest fond este destinat cheltuielilor zilnice obligatorii:",
+        "items": [
+          "locuință;",
+          "alimente;",
+          "transport;",
+          "utilități;",
+          "telefon și Internet;",
+          "îngrijire medicală;",
+          "alte nevoi regulate."
+        ],
+        "outro": "Aceștia sunt banii care acoperă costurile vieții tale obișnuite."
+      },
+      "financialIndependence": {
+        "title": "Independență financiară — 10%",
+        "paragraphs": [
+          "Banii din acest fond sunt folosiți pentru a construi capital și a genera venituri în viitor.",
+          "În sistemul clasic se presupune că suma principală nu este cheltuită pe cumpărături obișnuite. Rolul ei este să creeze treptat o bază financiară.",
+          "Modul în care folosești acești bani depinde de cunoștințele, obiectivele și atitudinea ta față de risc. Pot fi produse de economisire, investiții sau alte modalități de a construi capital."
+        ]
+      },
+      "longTermSavings": {
+        "title": "Economii pe termen lung — 10%",
+        "intro": "Acest fond te ajută să te pregătești din timp pentru cheltuieli importante.",
+        "listIntro": "De exemplu:",
+        "items": [
+          "crearea unei rezerve financiare;",
+          "o vacanță;",
+          "renovarea locuinței;",
+          "achiziția de electronice sau electrocasnice;",
+          "o mașină;",
+          "o mutare;",
+          "alte obiective importante."
+        ],
+        "outro": "Astfel de cheltuieli nu mai sunt neașteptate, deoarece banii pentru ele se acumulează treptat."
+      },
+      "education": {
+        "title": "Educație — 10%",
+        "intro": "Acești bani sunt destinați dezvoltării cunoștințelor și abilităților.",
+        "listIntro": "Îi poți folosi pentru:",
+        "items": [
+          "cărți;",
+          "cursuri;",
+          "formare profesională;",
+          "învățarea limbilor străine;",
+          "lecții cu un profesor;",
+          "conferințe;",
+          "alte materiale educaționale."
+        ],
+        "outro": "Educația devine o parte separată a bugetului, în loc să fie o cheltuială pe care o amâni constant."
+      },
+      "entertainment": {
+        "title": "Divertisment — 10%",
+        "intro": "Acest fond este destinat relaxării și cumpărăturilor care îți fac plăcere.",
+        "listIntro": "De exemplu:",
+        "items": [
+          "întâlniri cu prietenii;",
+          "cafenele și restaurante;",
+          "jocuri;",
+          "hobby-uri;",
+          "excursii și călătorii;",
+          "evenimente;",
+          "mici cumpărături spontane."
+        ],
+        "outro": "Un buget separat pentru divertisment îți permite să te relaxezi fără să te simți vinovat în permanență. Ai alocat acești bani dinainte tocmai pentru lucrurile care îți fac plăcere."
+      },
+      "giftsAndCharity": {
+        "title": "Cadouri și ajutor — 5%",
+        "intro": "Acest fond poate fi folosit pentru:",
+        "items": [
+          "cadouri;",
+          "donații;",
+          "ajutor pentru familie și prieteni;",
+          "susținerea proiectelor și inițiativelor importante pentru tine."
+        ],
+        "outro": "Și aceste cheltuieli devin o parte planificată a bugetului și nu afectează celelalte obiective financiare."
+      }
+    }
+  },
+  "adjustPercents": {
+    "title": "Procentele pot fi modificate",
+    "screenshotAlt": "Ecranul de configurare a procentelor de distribuire a venitului între fonduri",
+    "openingParagraphs": [
+      "Împărțirea de 55%, 10%, 10%, 10%, 10% și 5% este un punct de plecare, nu o regulă obligatorie.",
+      "Oamenii au venituri, costuri ale locuinței, situații familiale, obiective și obligații diferite. Pentru o persoană, 55% poate fi suficient pentru cheltuielile necesare, în timp ce pentru alta doar chiria și alimentele pot consuma cea mai mare parte din venit.",
+      "De aceea, procentele pot și trebuie adaptate la situația ta reală."
+    ],
+    "listIntro": "De exemplu, poți:",
+    "items": [
+      "mări partea destinată cheltuielilor necesare;",
+      "direcționa temporar mai mulți bani către rezerva financiară;",
+      "reduce cheltuielile pentru divertisment;",
+      "accelera economisirea pentru un obiectiv concret;",
+      "modifica proporțiile după o creștere sau o scădere a venitului."
+    ],
+    "closingParagraphs": [
+      "Important în această metodă nu este să respecți exact procentele clasice, ci să îți formezi obiceiul de a distribui regulat banii între obiective diferite.",
+      "Sistemul trebuie să te ajute să iei decizii, nu să devină încă o sursă de presiune."
+    ],
+    "cta": "Încearcă metoda în 6 Jars Finance →"
+  },
+  "samePurchaseDifferentJars": {
+    "title": "Aceeași cumpărătură poate aparține unor fonduri diferite",
+    "openingParagraphs": [
+      "În metoda celor 6 fonduri nu există o listă universală care să stabilească în mod clar categoria fiecărei cumpărături. Contează nu doar ce ai cumpărat, ci și de ce ai făcut acea cumpărătură."
+    ],
+    "listIntro": "De exemplu, o vizită la cafenea poate aparține unor fonduri diferite:",
+    "items": [
+      "cheltuielilor necesare, dacă este prânzul tău obișnuit la serviciu;",
+      "divertismentului, dacă ai mers să te relaxezi sau să îți faci o plăcere;",
+      "cadourilor și ajutorului, dacă plătești pentru altcineva."
+    ],
+    "closingParagraphs": [
+      "Tu stabilești scopul cheltuielii în funcție de situație și de obiectivele tale.",
+      "Metoda nu te obligă să urmezi reguli rigide. Îți oferă un reper și te ajută să decizi în mod conștient din ce parte a bugetului să plătești o anumită cumpărătură."
+    ]
+  },
+  "example": {
+    "title": "Cum arată în practică",
+    "openingParagraphs": [
+      "Să presupunem că primești un venit de 3 000.",
+      "Cu împărțirea clasică, banii vor fi distribuiți astfel:"
+    ],
+    "table": {
+      "headers": [
+        "Fond",
+        "Pondere",
+        "Sumă"
+      ],
+      "rows": [
+        [
+          "Cheltuieli necesare",
+          "55%",
+          "1 650"
+        ],
+        [
+          "Independență financiară",
+          "10%",
+          "300"
+        ],
+        [
+          "Economii pe termen lung",
+          "10%",
+          "300"
+        ],
+        [
+          "Educație",
+          "10%",
+          "300"
+        ],
+        [
+          "Divertisment",
+          "10%",
+          "300"
+        ],
+        [
+          "Cadouri și ajutor",
+          "5%",
+          "150"
+        ]
+      ]
+    },
+    "closingParagraphs": [
+      "După distribuire, fiecare cumpărătură aparține unui anumit fond.",
+      "Alimentele sunt plătite din cheltuielile necesare. Un curs din educație. O călătorie din economiile pe termen lung. O întâlnire cu prietenii din divertisment.",
+      "Astfel vezi nu doar soldul total rămas, ci și cât este disponibil pentru fiecare scop concret."
+    ]
+  },
+  "misleadingBalance": {
+    "title": "De ce soldul total poate fi înșelător",
+    "screenshotAlt": "Ecranul principal al aplicației care arată un sold total de 1 720, cu doar 20 rămași în fondul „Divertisment”",
+    "paragraphs": [
+      "Când toți banii se află într-un singur cont bancar, suma disponibilă poate părea mai mare decât este în realitate.",
+      "Să presupunem că în cont sunt 1 720. Formal, toți acești bani sunt disponibili. Dar o parte poate fi deja destinată locuinței, o parte unei vacanțe viitoare și o parte rezervei financiare.",
+      "Dacă percepi întregul sold drept bani disponibili pentru orice, este ușor să cheltuiești fonduri care erau deja necesare pentru alte obiective.",
+      "Metoda celor 6 fonduri te ajută să împarți mental soldul total.",
+      "Poți vedea 1 720 în contul bancar, dar numai 20 din această sumă pot fi disponibili pentru divertisment. Restul banilor sunt deja distribuiți între alte categorii de cheltuieli."
+    ]
+  },
+  "savingsFirst": {
+    "title": "Economiile nu mai depind de ceea ce rămâne",
+    "paragraphs": [
+      "O strategie financiară frecventă arată astfel:",
+      "<strong>mai întâi cheltuiești banii în timpul lunii, apoi pui deoparte ceea ce rămâne.</strong>",
+      "Problema este că de multe ori nu mai rămâne nimic.",
+      "Metoda celor 6 fonduri schimbă ordinea. Banii pentru economii, construirea capitalului și alte obiective sunt alocați imediat după primirea venitului.",
+      "Nu trebuie să aștepți sfârșitul lunii ca să afli dacă ai reușit să economisești ceva. Economiile devin de la început o parte deplină a bugetului."
+    ]
+  },
+  "easierDecisions": {
+    "title": "Devine mai ușor să iei decizii",
+    "paragraphs": [
+      "Pentru multe cumpărături nu există un răspuns clar corect sau greșit.",
+      "Poți cumpăra un dispozitiv nou? Merită să mergi la restaurant? Este un curs prea scump? Îți poți permite acum o vacanță?",
+      "Când toți banii fac parte dintr-un singur buget general, fiecare astfel de decizie trebuie luată din nou.",
+      "Fondurile creează limite clare.",
+      "Dacă există suficienți bani în fondul potrivit, cumpărătura se încadrează în planul tău. Dacă nu sunt suficienți, poți amâna cumpărătura, reconsidera obiectivul sau folosi în mod conștient bani din alt fond.",
+      "Metoda nu îți interzice să îți schimbi deciziile. Ea face vizibile consecințele acestor decizii."
+    ]
+  },
+  "spendWithoutGuilt": {
+    "title": "Poți cheltui fără un sentiment permanent de vinovăție",
+    "paragraphs": [
+      "Disciplina financiară este adesea confundată cu renunțarea constantă la cumpărăturile care îți fac plăcere.",
+      "Însă un sistem prea strict, în care sunt permise doar cheltuielile obligatorii, funcționează de obicei prost pe termen lung. Oamenii au nevoie de odihnă, divertisment și posibilitatea de a cheltui uneori bani pur și simplu pentru plăcere.",
+      "De aceea, metoda include un fond separat pentru divertisment.",
+      "Dacă banii au fost alocați din timp pentru relaxare, îi poți folosi în acest scop. O astfel de cumpărătură nu afectează economiile și nu ia bani din cheltuielile necesare.",
+      "Nu încalci bugetul — îl respecți."
+    ]
+  },
+  "borrowFromYourself": {
+    "title": "Posibilitatea de a împrumuta bani de la tine însuți",
+    "screenshotAlt": "Ecranul fondului „Divertisment” cu un sold negativ de 25 și istoricul cheltuielilor",
+    "paragraphs": [
+      "Pe măsură ce folosești metoda celor 6 fonduri, îți formezi treptat o rezervă de bani distribuită între diferite obiective. Astfel, atunci când apare un deficit temporar, nu este întotdeauna necesar să împrumuți de la alte persoane sau să apelezi la credit.",
+      "Dacă într-un fond nu sunt suficienți bani pentru o cumpărătură importantă, poți lăsa temporar soldul să devină negativ. Practic, împrumuți bani de la tine însuți: cumpărătura este plătită din totalul fondurilor disponibile, dar depășirea rămâne înregistrată în fondul căruia îi aparține cheltuiala.",
+      "La următorul venit, soldul negativ este compensat parțial sau integral. Drept urmare, în perioada următoare vei avea mai puțini bani disponibili în acel fond. Sistemul nu interzice o cumpărătură necesară, dar arată clar efectul ei asupra bugetului viitor.",
+      "Din punct de vedere tehnic, poți transfera suma necesară din alt fond și o poți returna după următorul venit. Totuși, nu recomand această abordare dacă nu este necesară. Un astfel de transfer ascunde depășirea reală din fondul inițial și face rapoartele mai puțin utile: devine mai greu să înțelegi pentru ce obiective suma alocată nu este în realitate suficientă.",
+      "Dacă lași fondul pe minus, istoricul cheltuielilor rămâne fidel realității. Vezi unde a avut loc depășirea, cât de mare a fost și dacă a fost compensată după următorul venit.",
+      "Din experiența mea, acesta a devenit unul dintre cele mai vizibile rezultate ale utilizării metodei: am încetat să împrumut bani de la alte persoane, deoarece, atunci când era necesar, puteam să îi împrumut temporar de la mine însumi.",
+      "Dacă același fond ajunge regulat pe minus, nu mai este o excepție temporară, ci un semnal că ar trebui să reconsideri distribuirea venitului. Poți crește procentul acestui fond reducând cotele fondurilor în care de obicei rămân bani. Tocmai aceasta este flexibilitatea metodei: sistemul se adaptează treptat la cheltuielile tale reale în loc să te oblige să urmezi proporții neschimbate."
+    ]
+  },
+  "goalsNoLongerCompete": {
+    "title": "Obiectivele financiare nu mai concurează între ele",
+    "listIntro": "Fără un sistem, orice bani disponibili trebuie să acopere simultan totul:",
+    "items": [
+      "rezerva financiară;",
+      "vacanța;",
+      "educația;",
+      "electronice noi;",
+      "divertismentul;",
+      "cheltuielile neașteptate."
+    ],
+    "closingParagraphs": [
+      "Din această cauză, un obiectiv le înlocuiește adesea pe celelalte. O cumpărătură importantă poate opri complet economisirea, iar o cheltuială neplanificată poate anula o vacanță.",
+      "Împărțirea banilor după scop îți permite să continui să lucrezi la mai multe obiective simultan.",
+      "Chiar dacă la început sumele sunt mici, fiecare domeniu important primește partea sa la fiecare venit."
+    ]
+  },
+  "financialDiscipline": {
+    "title": "Metoda ajută la dezvoltarea disciplinei financiare",
+    "openingParagraphs": [
+      "Valoarea principală a metodei nu constă doar în modul în care sunt împărțiți banii, ci și în obiceiurile care se formează în timpul utilizării.",
+      "Distribuirea regulată a veniturilor schimbă treptat modul în care privești banii. Începi să vezi suma primită nu ca pe o singură rezervă pe care o poți cheltui până se termină, ci ca pe o resursă pentru diferite părți ale vieții tale."
+    ],
+    "listIntro": "Îți formezi obiceiul de a:",
+    "items": [
+      "distribui mai întâi banii și abia apoi să îi cheltuiești;",
+      "ține cont de consecințele fiecărei cumpărături;",
+      "direcționa regulat bani către obiectivele viitoare;",
+      "menține un echilibru între dorințele de astăzi și planurile pe termen lung;",
+      "lua decizii financiare în mod conștient."
+    ],
+    "closingParagraphs": [
+      "Sistemul nu cere un comportament perfect din prima zi. Disciplina financiară se formează treptat prin repetarea acelorași acțiuni simple.",
+      "Din propria mea experiență, tocmai acesta s-a dovedit a fi principalul avantaj al metodei. Nu doar că m-a ajutat să îmi urmăresc mai bine banii, ci mi-a schimbat treptat întreaga abordare față de venituri, cheltuieli și economii."
+    ]
+  },
+  "irregularIncome": {
+    "title": "Ce să faci dacă ai venituri neregulate",
+    "paragraphs": [
+      "Metoda poate fi folosită chiar dacă nu primești un salariu lunar fix.",
+      "Dacă venitul vine neregulat, distribuie fiecare încasare separat.",
+      "Ai primit bani pentru un proiect, un job suplimentar, o comandă sau o vânzare — împarte imediat suma între fonduri în proporțiile alese.",
+      "În cazul unui venit instabil, poate fi deosebit de util să mărești partea direcționată către rezervă. Acest lucru te ajută să treci mai ușor prin perioadele în care încasările sunt mai mici.",
+      "Metoda nu cere să știi dinainte venitul lunar exact. Ea funcționează cu banii pe care i-ai primit deja."
+    ]
+  },
+  "notEnoughMoney": {
+    "title": "Ce să faci dacă deocamdată banii nu sunt suficienți",
+    "paragraphs": [
+      "Procentele clasice pot fi nepotrivite pentru cineva care cheltuie aproape întregul venit pe nevoile de bază.",
+      "Asta nu înseamnă că metoda este inutilă.",
+      "Poți începe cu o distribuire mai realistă. De exemplu, să aloci 80–90% cheltuielilor necesare și să împarți restul între obiectivele cele mai importante pentru tine.",
+      "Chiar și o sumă mică direcționată regulat către o rezervă sau un obiectiv pe termen lung ajută la formarea obiceiului.",
+      "Pe măsură ce veniturile și cheltuielile se schimbă, poți ajusta proporțiile.",
+      "Importantă nu este mărimea primului pas, ci regularitatea."
+    ]
+  },
+  "notExactlySixJars": {
+    "title": "Este obligatoriu să folosești exact șase fonduri?",
+    "openingParagraphs": [
+      "Nu.",
+      "Cele șase fonduri sunt baza metodei clasice. Ele acoperă principalele obiective financiare și sunt un bun punct de plecare.",
+      "Cu timpul însă, poți adapta sistemul."
+    ],
+    "listIntro": "De exemplu, poți crea fonduri separate pentru:",
+    "items": [
+      "vacanță;",
+      "sănătate;",
+      "mașină;",
+      "renovare;",
+      "animale de companie;",
+      "copii;",
+      "taxe;",
+      "electronice;",
+      "o anumită cumpărătură importantă."
+    ],
+    "closingParagraphs": [
+      "Unele fonduri clasice pot fi, dimpotrivă, unite sau redenumite.",
+      "Important este să păstrezi principiul de bază: banii trebuie împărțiți după destinație, iar structura trebuie să corespundă vieții tale."
+    ]
+  },
+  "physicalJarsProblem": {
+    "title": "Problema recipientelor și plicurilor fizice",
+    "paragraphs": [
+      "Inițial, astfel de sisteme presupuneau folosirea numerarului.",
+      "Venitul putea fi împărțit fizic între recipiente, cutii sau plicuri separate. Astfel, separarea era foarte clară: banii destinați diferitelor categorii erau efectiv păstrați separat.",
+      "Astăzi însă, majoritatea operațiunilor financiare se desfășoară fără numerar.",
+      "Primim veniturile într-un cont bancar, plătim cu cardul, achităm servicii online și transferăm bani de pe telefon.",
+      "În aceste condiții, recipientele fizice devin incomode. Pentru a menține sistemul, ar trebui să retragi numerar în mod regulat sau să înregistrezi manual fiecare operațiune digitală.",
+      "Poți deschide mai multe conturi bancare, dar nici gestionarea unui număr mare de conturi și transferuri nu este întotdeauna comodă. În plus, numărul conturilor disponibile și condițiile acestora depind de bancă."
+    ]
+  },
+  "digitalJars": {
+    "title": "Fonduri digitale",
+    "paragraphs": [
+      "M-am confruntat și eu cu această problemă.",
+      "Îmi plăcea principiul metodei celor 6 fonduri, iar folosirea ei regulată chiar m-a ajutat să dezvolt o abordare mai disciplinată față de bani.",
+      "Însă folosirea recipientelor sau plicurilor fizice într-o lume a plăților digitale s-a dovedit incomodă.",
+      "De aceea am dezvoltat <strong>6 Jars Finance</strong> — o aplicație de gestionare a finanțelor personale bazată pe metoda celor 6 fonduri.",
+      "Aplicația păstrează ideea principală a sistemului fără să fie nevoie să separi fizic banii.",
+      "Continui să îți păstrezi banii în contul bancar obișnuit, iar în aplicație vezi un sold separat pentru fiecare fond."
+    ]
+  },
+  "appHowItWorks": {
+    "title": "Cum funcționează 6 Jars Finance",
+    "openingParagraphs": [
+      "Când primești un venit, aplicația îl distribuie între fonduri în funcție de procentele alese.",
+      "După o cumpărătură, indici din ce fond au fost cheltuiți banii. Scade doar soldul acelui fond — ceilalți bani își păstrează destinația.",
+      "Astfel, soldul bancar total capătă o structură internă clară."
+    ],
+    "listIntro": "Poți vedea:",
+    "items": [
+      "câți bani sunt disponibili pentru cheltuielile necesare;",
+      "cât ai economisit pentru obiectivele pe termen lung;",
+      "cât poți cheltui pentru divertisment;",
+      "ce buget este alocat educației;",
+      "cum se schimbă soldurile fondurilor în timp."
+    ],
+    "closingParagraphs": [
+      "Aplicația nu mută bani între conturi bancare și nu are acces la banca ta. Te ajută să ții o evidență separată și să înțelegi pentru ce este destinată fiecare parte a banilor."
+    ]
+  },
+  "trackEveryPurchase": {
+    "title": "Trebuie să introduci fiecare cumpărătură separat?",
+    "screenshotAlt": "Ecranul pentru adăugarea unei cheltuieli de 75 din fondul „Cheltuieli curente” cu eticheta „Alimente”",
+    "paragraphs": [
+      "Nu. Pentru a folosi metoda este suficient să indici suma totală a cheltuielii și să alegi fondul din care au fost cheltuiți banii.",
+      "De exemplu, o cumpărătură obișnuită la magazin poate fi înregistrată ca o singură operațiune de 105. Dacă vrei mai multe detalii, poți împărți suma în mai multe operațiuni: 75 pentru alimente și 30 pentru produse de uz casnic. Pentru o detaliere suplimentară poți folosi etichete.",
+      "Tu alegi nivelul de precizie care îți este util. Aplicația nu îți cere să copiezi fiecare poziție de pe bon — evidența trebuie să te ajute să înțelegi mișcarea banilor fără să îți consume prea mult timp.",
+      "Adăugarea manuală a unei cheltuieli necesită un mic efort, dar te ajută în același timp să îți observi mai bine cheltuielile și să înțelegi unde se duc banii."
+    ]
+  },
+  "adaptSystem": {
+    "title": "Adaptează sistemul la nevoile tale",
+    "openingParagraphs": [
+      "6 Jars Finance se bazează pe metoda clasică, dar nu te limitează la structura ei inițială."
+    ],
+    "listIntro": "Poți:",
+    "items": [
+      "modifica procentele de distribuire;",
+      "redenumi fondurile;",
+      "crea propriile fonduri;",
+      "folosi mai mult sau mai puțin de șase fonduri;",
+      "schimba ordinea fondurilor;",
+      "înregistra venituri și cheltuieli;",
+      "adăuga operațiuni recurente;",
+      "analiza mișcarea banilor cu ajutorul rapoartelor."
+    ],
+    "closingParagraphs": [
+      "Structura clasică poate fi un punct de plecare convenabil. Apoi o poți modifica treptat astfel încât să corespundă exact nevoilor tale."
+    ]
+  },
+  "startWithNextIncome": {
+    "title": "Începe cu următorul venit",
+    "paragraphs": [
+      "Nu trebuie să îți schimbi imediat întregul sistem financiar sau să respecți perfect procentele clasice.",
+      "Începe simplu: distribuie următorul venit între câteva obiective importante pentru tine.",
+      "Chiar și acest prim pas te va ajuta să vezi banii nu ca pe o singură sumă totală, ci ca pe un instrument pentru diferite părți ale vieții tale.",
+      "În 6 Jars Finance, <strong>fondurile clasice și procentele lor sunt deja configurate.</strong> Poți începe cu ele și apoi adapta distribuirea în funcție de nevoile tale."
+    ],
+    "cta": "Mergi la 6 Jars Finance →"
+  }
+}

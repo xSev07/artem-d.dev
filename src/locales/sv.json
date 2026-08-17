@@ -1,0 +1,169 @@
+{
+  "common": {
+    "langSwitch": {
+      "label": "Språk"
+    },
+    "labels": {
+      "lastUpdated": "Senast uppdaterad:",
+      "developer": "Utvecklare:",
+      "contactAddress": "Kontaktadress:"
+    },
+    "pages": {
+      "privacy": "Integritetspolicy",
+      "help": "Information om fel",
+      "licenses": "Licenser för öppen källkod"
+    }
+  },
+  "article": {
+    "tocTitle": "På den här sidan",
+    "tocLabel": "Sidnavigering"
+  },
+  "site": {
+    "nav": {
+      "label": "Webbplatsnavigering",
+      "download": "Ladda ner appen",
+      "guide": "Sex-pottarsmetoden"
+    },
+    "footer": {
+      "label": "Information om webbplatsen"
+    },
+    "help": {
+      "metaDescription": "Information om ett fel vid utförande av en åtgärd i A.D.A-appen.",
+      "title": "Det gick inte att slutföra åtgärden",
+      "intro": "Åtgärden kunde inte slutföras på grund av ett tekniskt fel.",
+      "sections": {
+        "whatItMeans": {
+          "title": "Vad det innebär",
+          "text": "I sällsynta fall kan den lokala databasen eller enhetens operativsystem tillfälligt förhindra att data sparas."
+        },
+        "whatToTry": {
+          "title": "Vad du kan prova",
+          "items": [
+            "Stäng appen och öppna den igen",
+            "Starta om enheten",
+            "Kontrollera att det finns tillräckligt med ledigt lagringsutrymme på enheten",
+            "Kontrollera att den senaste versionen av appen är installerad"
+          ]
+        },
+        "ifPersists": {
+          "title": "Om problemet kvarstår",
+          "contactText": "Kontakta supporten:",
+          "emailIntro": "Ange gärna följande i ditt e-postmeddelande:",
+          "emailItems": [
+            "enhetsmodell",
+            "Android-version",
+            "appversion",
+            "vilken åtgärd du utförde innan felet uppstod"
+          ]
+        }
+      }
+    }
+  },
+  "apps": {
+    "sixJarsFinance": {
+      "privacy": {
+        "lastUpdated": "03.07.2026",
+        "metaDescription": "Integritetspolicy för appen från Artem D Apps.",
+        "sections": {
+          "general": {
+            "title": "1. Allmänna bestämmelser",
+            "paragraphs": [
+              "Denna integritetspolicy beskriver hur data behandlas när mobilappen används. Appen är utformad enligt principen om lokal datalagring (offline-first). Finansiella uppgifter och andra data som användaren skapar i appen lagras lokalt på användarens enhet och överförs inte till utvecklaren.",
+              "Appen kan använda tredjepartstjänster för tekniska ändamål, till exempel för rapportering av krascher och fel. Dessa tjänster kan behandla tekniska diagnostikdata som behövs för att upptäcka, analysera och åtgärda fel."
+            ]
+          },
+          "dataProcessed": {
+            "title": "2. Vilka data som behandlas"
+          },
+          "userData": {
+            "title": "2.1 Data som anges av användaren",
+            "intro": "Användaren anger själv följande i appen:",
+            "items": [
+              "finansiella uppgifter (transaktioner)",
+              "kategorier och taggar",
+              "namn på potter, kontonamn, anteckningar och andra användarinställningar"
+            ],
+            "outro": "Dessa data lagras lokalt på användarens enhet, överförs inte till utvecklaren, kopieras inte till utvecklarens servrar och delas inte med tredje part. Utvecklaren har ingen teknisk möjlighet att komma åt dessa data."
+          },
+          "platformData": {
+            "title": "2.2 Tekniska data från plattformen",
+            "paragraphs": [
+              "När appen installeras och används kan Google Play-plattformen automatiskt behandla tekniska data, till exempel information om enheten, operativsystemets version, diagnostikdata och information om krascher.",
+              "Dessa data behandlas av Googles tjänster i enlighet med deras egen integritetspolicy. Utvecklaren får inga personuppgifter om användaren från Google."
+            ]
+          },
+          "purchases": {
+            "title": "2.3 Köp i appen",
+            "paragraphs": [
+              "Appen kan använda köp i appen som behandlas via Google Play. Betalningar behandlas av Googles infrastruktur. Utvecklaren får inga bankkortsuppgifter, lagrar ingen betalningsinformation och har ingen tillgång till användarens finansiella uppgifter."
+            ]
+          },
+          "crashes": {
+            "title": "2.4 Rapportering av krascher och fel",
+            "paragraphs": [
+              "Appen använder Sentry, en tredjepartstjänst för felövervakning som behandlar kraschrapporter och tekniska diagnostikdata på uppdrag av utvecklaren.",
+              "När ett fel uppstår kan appen skicka teknisk diagnostikinformation till Sentry, till exempel kraschrapporter, stack traces, appversion, operativsystemets version, enhetsmodell och annan teknisk information som är relaterad till felet.",
+              "Sentry är konfigurerat så att insamling av personuppgifter är inaktiverad som standard. Appen skickar inte avsiktligt finansiella uppgifter, transaktionsdata, namn på potter, taggar, anteckningar, kontonamn eller annat finansiellt innehåll som skapats av användaren till Sentry.",
+              "Utvecklaren använder felrapporter endast för att förbättra appens stabilitet, diagnostisera tekniska problem och åtgärda fel.",
+              "Eftersom appen inte använder konton och inte tilldelar användaridentifierare för felrapportering kanske utvecklaren inte kan hitta och radera felrapporter för en viss användare."
+            ]
+          },
+          "storage": {
+            "title": "3. Datalagring",
+            "paragraphs": [
+              "Finansiella uppgifter och andra data som användaren skapar i appen lagras lokalt på användarens enhet i appens databas. Om appen tas bort raderas lokalt lagrade data, om användaren inte har skapat en säkerhetskopia i förväg. Utvecklaren lagrar inga kopior av dessa användardata och har ingen tillgång till dem.",
+              "Tekniska krasch- och diagnostikdata kan behandlas av Sentry för felövervakning."
+            ]
+          },
+          "thirdParties": {
+            "title": "4. Överföring av data till tredje part",
+            "paragraphs": [
+              "Utvecklaren säljer inte användardata och överför inte finansiella data som användaren skapat i appen till tredje part.",
+              "Finansiella uppgifter, transaktioner, taggar, namn på potter, anteckningar, inställningar och säkerhetskopior överförs inte av appen till utvecklaren eller till externa servrar.",
+              "Tekniska krasch- och diagnostikdata kan behandlas av Sentry på uppdrag av utvecklaren i syfte att upptäcka, diagnostisera och åtgärda fel."
+            ]
+          },
+          "backups": {
+            "title": "5. Säkerhetskopior",
+            "paragraphs": [
+              "Om appen erbjuder möjlighet att skapa en säkerhetskopia skapas säkerhetskopian av användaren och sparas på en plats som användaren själv väljer. Utvecklaren har ingen tillgång till säkerhetskopior."
+            ]
+          },
+          "rights": {
+            "title": "6. Användarens rättigheter",
+            "intro": "Användaren kan:",
+            "items": [
+              "radera lokalt lagrade appdata genom att ta bort appen eller rensa appens data i enhetens inställningar",
+              "avstå från att använda köp i appen",
+              "kontakta utvecklaren i frågor som rör integritet"
+            ],
+            "outro": "Eftersom appen inte använder konton och inte tilldelar användaridentifierare för felrapportering kanske utvecklaren inte kan hitta och radera felrapporter för en viss användare."
+          },
+          "security": {
+            "title": "7. Säkerhet",
+            "paragraphs": [
+              "Appen överför inte användarens finansiella data via internet. Tekniska krasch- och diagnostikdata överförs, om de skickas, via en säker anslutning.",
+              "Användaren ansvarar själv för säkerheten på sin enhet och för skapade säkerhetskopior."
+            ]
+          },
+          "changes": {
+            "title": "8. Ändringar i policyn",
+            "paragraphs": [
+              "En uppdaterad version av policyn publiceras på appens officiella sida."
+            ]
+          },
+          "contact": {
+            "title": "9. Kontaktinformation",
+            "text": "För frågor som rör integritet:"
+          }
+        }
+      },
+      "licenses": {
+        "metaDescription": "Licenser för programvara med öppen källkod från tredje part som används i appen från Artem D Apps.",
+        "licenseLabel": "Licens:",
+        "repositoryLabel": "Kodförråd:",
+        "disclaimer": "På den här sidan listas programvara med öppen källkod från tredje part som används i appen."
+      }
+    }
+  }
+}

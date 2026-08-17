@@ -1,0 +1,169 @@
+{
+  "common": {
+    "langSwitch": {
+      "label": "Lingua"
+    },
+    "labels": {
+      "lastUpdated": "Ultimo aggiornamento:",
+      "developer": "Sviluppatore:",
+      "contactAddress": "Indirizzo di contatto:"
+    },
+    "pages": {
+      "privacy": "Informativa sulla privacy",
+      "help": "Informazioni sull’errore",
+      "licenses": "Licenze open source"
+    }
+  },
+  "article": {
+    "tocTitle": "In questa pagina",
+    "tocLabel": "Navigazione della pagina"
+  },
+  "site": {
+    "nav": {
+      "label": "Navigazione del sito",
+      "download": "Scarica l’app",
+      "guide": "Metodo dei sei fondi"
+    },
+    "footer": {
+      "label": "Informazioni sul sito"
+    },
+    "help": {
+      "metaDescription": "Informazioni su un errore durante l’esecuzione di un’operazione nell’app A.D.A.",
+      "title": "Impossibile completare l’operazione",
+      "intro": "L’operazione non è stata completata a causa di un errore tecnico.",
+      "sections": {
+        "whatItMeans": {
+          "title": "Cosa significa",
+          "text": "In rari casi, il database locale o il sistema operativo del dispositivo possono impedire temporaneamente la scrittura dei dati."
+        },
+        "whatToTry": {
+          "title": "Cosa puoi provare",
+          "items": [
+            "Chiudi e riapri l’app",
+            "Riavvia il dispositivo",
+            "Controlla che ci sia spazio di archiviazione libero sufficiente sul dispositivo",
+            "Assicurati di aver installato l’ultima versione dell’app"
+          ]
+        },
+        "ifPersists": {
+          "title": "Se il problema persiste",
+          "contactText": "Contatta l’assistenza:",
+          "emailIntro": "Nell’e-mail è consigliabile indicare:",
+          "emailItems": [
+            "modello del dispositivo",
+            "versione di Android",
+            "versione dell’app",
+            "quale azione stavi eseguendo prima che si verificasse l’errore"
+          ]
+        }
+      }
+    }
+  },
+  "apps": {
+    "sixJarsFinance": {
+      "privacy": {
+        "lastUpdated": "03.07.2026",
+        "metaDescription": "Informativa sulla privacy dell’app Artem D Apps.",
+        "sections": {
+          "general": {
+            "title": "1. Disposizioni generali",
+            "paragraphs": [
+              "La presente Informativa sulla privacy descrive come vengono trattati i dati durante l’utilizzo dell’app mobile. L’app è progettata secondo il principio dell’archiviazione locale dei dati (offline-first). I dati finanziari e gli altri dati creati dall’utente nell’app vengono archiviati localmente sul dispositivo dell’utente e non vengono trasmessi allo sviluppatore.",
+              "L’app può utilizzare servizi di terze parti per finalità tecniche, ad esempio per la segnalazione di arresti anomali ed errori. Tali servizi possono trattare dati tecnici diagnostici necessari per rilevare, analizzare e correggere gli errori."
+            ]
+          },
+          "dataProcessed": {
+            "title": "2. Quali dati vengono trattati"
+          },
+          "userData": {
+            "title": "2.1 Dati inseriti dall’utente",
+            "intro": "L’utente inserisce autonomamente nell’app:",
+            "items": [
+              "dati finanziari (transazioni)",
+              "categorie e tag",
+              "nomi dei fondi, nomi dei conti, note e altre impostazioni dell’utente"
+            ],
+            "outro": "Questi dati vengono archiviati localmente sul dispositivo dell’utente, non vengono trasmessi allo sviluppatore, non vengono copiati sui server dello sviluppatore e non vengono condivisi con terze parti. Lo sviluppatore non dispone di alcuna possibilità tecnica di accedere a questi dati."
+          },
+          "platformData": {
+            "title": "2.2 Dati tecnici della piattaforma",
+            "paragraphs": [
+              "Durante l’installazione e l’utilizzo dell’app, la piattaforma Google Play può trattare automaticamente dati tecnici come informazioni sul dispositivo, versione del sistema operativo, dati diagnostici e informazioni sugli arresti anomali.",
+              "Tali dati vengono trattati dai servizi Google in conformità con la propria informativa sulla privacy. Lo sviluppatore non riceve da Google i dati personali dell’utente."
+            ]
+          },
+          "purchases": {
+            "title": "2.3 Acquisti in-app",
+            "paragraphs": [
+              "L’app può utilizzare acquisti in-app elaborati tramite Google Play. L’elaborazione dei pagamenti viene gestita dall’infrastruttura di Google. Lo sviluppatore non riceve i dati delle carte bancarie, non conserva le informazioni di pagamento e non ha accesso ai dati finanziari dell’utente."
+            ]
+          },
+          "crashes": {
+            "title": "2.4 Segnalazioni di arresti anomali ed errori",
+            "paragraphs": [
+              "L’app utilizza Sentry, un servizio di terze parti per il monitoraggio degli errori che tratta le segnalazioni di arresti anomali e i dati tecnici diagnostici per conto dello sviluppatore.",
+              "Quando si verifica un errore, l’app può inviare a Sentry informazioni tecniche diagnostiche, come segnalazioni di arresti anomali, stack trace, versione dell’app, versione del sistema operativo, modello del dispositivo e altre informazioni tecniche correlate all’errore.",
+              "Sentry è configurato in modo che la raccolta dei dati personali sia disattivata per impostazione predefinita. L’app non invia intenzionalmente a Sentry dati finanziari, dati delle transazioni, nomi dei fondi, tag, note, nomi dei conti o altri contenuti finanziari creati dall’utente.",
+              "Lo sviluppatore utilizza le segnalazioni di errore esclusivamente per migliorare la stabilità dell’app, diagnosticare problemi tecnici e correggere gli errori.",
+              "Poiché l’app non utilizza account e non assegna identificatori utente per le segnalazioni di errore, lo sviluppatore potrebbe non essere in grado di individuare ed eliminare le segnalazioni di errore di uno specifico utente."
+            ]
+          },
+          "storage": {
+            "title": "3. Archiviazione dei dati",
+            "paragraphs": [
+              "I dati finanziari e gli altri dati creati dall’utente nell’app vengono archiviati localmente sul dispositivo dell’utente nel database dell’app. La disinstallazione dell’app comporta l’eliminazione dei dati archiviati localmente, a meno che l’utente non abbia creato in precedenza un backup. Lo sviluppatore non conserva copie di questi dati dell’utente e non vi ha accesso.",
+              "I dati tecnici relativi agli arresti anomali e i dati diagnostici possono essere trattati da Sentry per finalità di monitoraggio degli errori."
+            ]
+          },
+          "thirdParties": {
+            "title": "4. Trasmissione dei dati a terze parti",
+            "paragraphs": [
+              "Lo sviluppatore non vende i dati degli utenti e non trasmette a terze parti i dati finanziari creati dall’utente nell’app.",
+              "Dati finanziari, transazioni, tag, nomi dei fondi, note, impostazioni e backup non vengono trasmessi dall’app allo sviluppatore né a server esterni.",
+              "I dati tecnici relativi agli arresti anomali e i dati diagnostici possono essere trattati da Sentry per conto dello sviluppatore allo scopo di rilevare, diagnosticare e correggere gli errori."
+            ]
+          },
+          "backups": {
+            "title": "5. Backup",
+            "paragraphs": [
+              "Se l’app offre la possibilità di creare un backup, il file di backup viene creato dall’utente e salvato nella posizione scelta dall’utente. Lo sviluppatore non ha accesso ai backup."
+            ]
+          },
+          "rights": {
+            "title": "6. Diritti dell’utente",
+            "intro": "L’utente può:",
+            "items": [
+              "eliminare i dati dell’app archiviati localmente disinstallando l’app o cancellando i dati dell’app nelle impostazioni del dispositivo",
+              "scegliere di non utilizzare gli acquisti in-app",
+              "contattare lo sviluppatore per questioni relative alla privacy"
+            ],
+            "outro": "Poiché l’app non utilizza account e non assegna identificatori utente per le segnalazioni di errore, lo sviluppatore potrebbe non essere in grado di individuare ed eliminare le segnalazioni di errore di uno specifico utente."
+          },
+          "security": {
+            "title": "7. Sicurezza",
+            "paragraphs": [
+              "L’app non trasmette i dati finanziari dell’utente tramite Internet. I dati tecnici relativi agli arresti anomali e i dati diagnostici, se inviati, vengono trasmessi tramite una connessione sicura.",
+              "L’utente è responsabile della sicurezza del proprio dispositivo e dei backup creati."
+            ]
+          },
+          "changes": {
+            "title": "8. Modifiche all’informativa",
+            "paragraphs": [
+              "Una versione aggiornata dell’informativa viene pubblicata sulla pagina ufficiale dell’app."
+            ]
+          },
+          "contact": {
+            "title": "9. Informazioni di contatto",
+            "text": "Per domande relative alla privacy:"
+          }
+        }
+      },
+      "licenses": {
+        "metaDescription": "Licenze del software open source di terze parti utilizzato nell’app Artem D Apps.",
+        "licenseLabel": "Licenza:",
+        "repositoryLabel": "Repository:",
+        "disclaimer": "Questa pagina elenca il software open source di terze parti utilizzato nell’app."
+      }
+    }
+  }
+}

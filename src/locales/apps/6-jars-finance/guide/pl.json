@@ -1,0 +1,423 @@
+{
+  "title": "Metoda 6 słoików: prosty sposób na zarządzanie pieniędzmi",
+  "metaDescription": "Metoda 6 słoików pomaga nie tylko zapisywać wydatki, ale też z góry zdecydować, na co przeznaczyć swoje dochody.",
+  "intro": {
+    "paragraphs": [
+      "Metoda 6 słoików pomaga nie tylko zapisywać wydatki, ale też z góry zdecydować, na co przeznaczyć swoje dochody.",
+      "Zasada jest prosta: za każdym razem, gdy otrzymujesz pieniądze, dzielisz je między kilka celów finansowych. Jedna część jest przeznaczona na codzienne życie, a pozostałe na oszczędności, edukację, rozrywkę, budowanie kapitału i pomoc innym.",
+      "Dzięki temu pieniądze przestają być jedną wspólną kwotą na koncie. Każda ich część ma określone przeznaczenie."
+    ]
+  },
+  "overview": {
+    "title": "Spis treści",
+    "managingMoney": "Czym jest metoda 6 słoików",
+    "howItWorks": "Jak działa podział pieniędzy",
+    "adjustPercents": "Jak dostosować metodę do siebie",
+    "misleadingBalance": "Jak metoda pomaga w codziennym życiu",
+    "irregularIncome": "Jak korzystać z metody w różnych sytuacjach",
+    "physicalJarsProblem": "Jak stosować metodę bez gotówki",
+    "appHowItWorks": "Jak korzystać z metody w aplikacji"
+  },
+  "managingMoney": {
+    "title": "Nie tylko śledzenie wydatków, ale zarządzanie pieniędzmi",
+    "paragraphs": [
+      "Zwykłe śledzenie wydatków pomaga odpowiedzieć na pytanie:",
+      "<strong>„Na co już wydałem pieniądze?”</strong>",
+      "To przydatne, ale często niewystarczające. Nawet jeśli regularnie zapisujesz zakupy, nie ma gwarancji, że pod koniec miesiąca zostaną Ci pieniądze na oszczędności, edukację czy większe cele.",
+      "Metoda 6 słoików proponuje inne podejście. Pomaga z góry odpowiedzieć na pytanie:",
+      "<strong>„Na co chcę przeznaczyć otrzymane pieniądze?”</strong>",
+      "Dzielisz dochód, zanim zaczniesz go wydawać. Dzięki temu oszczędności nie zależą od przypadkowej kwoty pozostałej pod koniec miesiąca, a codzienne wydatki nie pochłaniają wszystkich dostępnych środków."
+    ]
+  },
+  "howItWorks": {
+    "title": "Jak działa metoda 6 słoików",
+    "lead": "W klasycznej wersji metody każdy dochód jest dzielony między sześć słoików.",
+    "screenshotAlt": "Ekran główny aplikacji 6 Jars Finance z sześcioma słoikami i podzielonym między nie dochodem",
+    "jars": {
+      "essentialExpenses": {
+        "title": "Niezbędne wydatki — 55%",
+        "intro": "Ten słoik jest przeznaczony na codzienne niezbędne wydatki:",
+        "items": [
+          "mieszkanie;",
+          "żywność;",
+          "transport;",
+          "rachunki za media;",
+          "telefon i internet;",
+          "leczenie;",
+          "inne regularne potrzeby."
+        ],
+        "outro": "To pieniądze, które pokrywają koszty codziennego życia."
+      },
+      "financialIndependence": {
+        "title": "Niezależność finansowa — 10%",
+        "paragraphs": [
+          "Pieniądze z tego słoika służą do budowania kapitału i generowania dochodu w przyszłości.",
+          "W klasycznym systemie zakłada się, że główna kwota nie jest wydawana na zwykłe zakupy. Jej zadaniem jest stopniowe budowanie finansowego zabezpieczenia.",
+          "Sposób wykorzystania tych środków zależy od Twojej wiedzy, celów i podejścia do ryzyka. Mogą to być produkty oszczędnościowe, inwestycje lub inne sposoby budowania kapitału."
+        ]
+      },
+      "longTermSavings": {
+        "title": "Oszczędności długoterminowe — 10%",
+        "intro": "Ten słoik pomaga z wyprzedzeniem przygotować się na większe wydatki.",
+        "listIntro": "Na przykład na:",
+        "items": [
+          "zbudowanie rezerwy finansowej;",
+          "wakacje;",
+          "remont;",
+          "zakup sprzętu;",
+          "samochód;",
+          "przeprowadzkę;",
+          "inne duże cele."
+        ],
+        "outro": "Takie wydatki przestają być niespodziewane, ponieważ pieniądze na nie są odkładane stopniowo."
+      },
+      "education": {
+        "title": "Edukacja — 10%",
+        "intro": "Te pieniądze są przeznaczone na rozwój wiedzy i umiejętności.",
+        "listIntro": "Możesz je przeznaczyć na:",
+        "items": [
+          "książki;",
+          "kursy;",
+          "szkolenia zawodowe;",
+          "naukę języków;",
+          "lekcje z nauczycielem;",
+          "konferencje;",
+          "inne materiały edukacyjne."
+        ],
+        "outro": "Edukacja staje się osobną częścią budżetu, a nie wydatkiem, który ciągle odkładasz na później."
+      },
+      "entertainment": {
+        "title": "Rozrywka — 10%",
+        "intro": "Ten słoik jest przeznaczony na odpoczynek i przyjemne zakupy.",
+        "listIntro": "Na przykład na:",
+        "items": [
+          "spotkania ze znajomymi;",
+          "kawiarnie i restauracje;",
+          "gry;",
+          "hobby;",
+          "wyjazdy;",
+          "wydarzenia;",
+          "drobne spontaniczne zakupy."
+        ],
+        "outro": "Osobny budżet na rozrywkę pozwala odpoczywać bez ciągłego poczucia winy. Te pieniądze zostały z góry przeznaczone właśnie na rzeczy, które sprawiają Ci przyjemność."
+      },
+      "giftsAndCharity": {
+        "title": "Prezenty i pomoc — 5%",
+        "intro": "Ten słoik można wykorzystać na:",
+        "items": [
+          "prezenty;",
+          "darowizny na cele charytatywne;",
+          "pomoc bliskim;",
+          "wspieranie ważnych dla Ciebie projektów i inicjatyw."
+        ],
+        "outro": "Takie wydatki również stają się zaplanowaną częścią budżetu i nie kolidują z pozostałymi celami finansowymi."
+      }
+    }
+  },
+  "adjustPercents": {
+    "title": "Procenty można zmieniać",
+    "screenshotAlt": "Ekran ustawiania procentowego podziału dochodu między słoiki",
+    "openingParagraphs": [
+      "Podział 55%, 10%, 10%, 10%, 10% i 5% to punkt wyjścia, a nie obowiązkowa zasada.",
+      "Ludzie mają różne dochody, koszty mieszkania, sytuacje rodzinne, cele i zobowiązania. Dla jednej osoby 55% na niezbędne wydatki będzie wystarczające, a u innej sama renta lub kredyt mieszkaniowy i żywność mogą pochłaniać większość dochodu.",
+      "Dlatego procenty można i warto dostosować do swojej rzeczywistej sytuacji."
+    ],
+    "listIntro": "Na przykład możesz:",
+    "items": [
+      "zwiększyć udział niezbędnych wydatków;",
+      "tymczasowo przeznaczać więcej pieniędzy na rezerwę finansową;",
+      "ograniczyć wydatki na rozrywkę;",
+      "szybciej zgromadzić pieniądze na konkretny cel;",
+      "zmienić proporcje po wzroście lub spadku dochodów."
+    ],
+    "closingParagraphs": [
+      "Najważniejsze w tej metodzie nie jest dokładne przestrzeganie klasycznych procentów, lecz wyrobienie nawyku regularnego dzielenia pieniędzy między różne cele.",
+      "System ma pomagać w podejmowaniu decyzji, a nie stawać się kolejnym źródłem presji."
+    ],
+    "cta": "Wypróbuj metodę w 6 Jars Finance →"
+  },
+  "samePurchaseDifferentJars": {
+    "title": "Ten sam zakup może należeć do różnych słoików",
+    "openingParagraphs": [
+      "W metodzie 6 słoików nie istnieje uniwersalna lista, która jednoznacznie przypisuje każdy zakup do określonej kategorii. Ważne jest nie tylko to, co kupujesz, ale również po co."
+    ],
+    "listIntro": "Na przykład wizytę w kawiarni można przypisać do różnych słoików:",
+    "items": [
+      "do niezbędnych wydatków, jeśli jest to Twój zwykły lunch w pracy;",
+      "do rozrywki, jeśli idziesz tam odpocząć lub sprawić sobie przyjemność;",
+      "do prezentów i pomocy, jeśli płacisz za inną osobę."
+    ],
+    "closingParagraphs": [
+      "Sam określasz przeznaczenie wydatku w zależności od sytuacji i swoich celów.",
+      "Metoda nie zmusza do przestrzegania sztywnych zasad. Daje punkt odniesienia i pomaga świadomie zdecydować, z której części budżetu opłacić konkretny zakup."
+    ]
+  },
+  "example": {
+    "title": "Jak to wygląda w praktyce",
+    "openingParagraphs": [
+      "Załóżmy, że otrzymujesz dochód w wysokości 3 000.",
+      "Przy klasycznym podziale pieniądze zostaną rozdzielone w następujący sposób:"
+    ],
+    "table": {
+      "headers": [
+        "Słoik",
+        "Udział",
+        "Kwota"
+      ],
+      "rows": [
+        [
+          "Niezbędne wydatki",
+          "55%",
+          "1 650"
+        ],
+        [
+          "Niezależność finansowa",
+          "10%",
+          "300"
+        ],
+        [
+          "Oszczędności długoterminowe",
+          "10%",
+          "300"
+        ],
+        [
+          "Edukacja",
+          "10%",
+          "300"
+        ],
+        [
+          "Rozrywka",
+          "10%",
+          "300"
+        ],
+        [
+          "Prezenty i pomoc",
+          "5%",
+          "150"
+        ]
+      ]
+    },
+    "closingParagraphs": [
+      "Po podziale każdy zakup jest przypisywany do określonego słoika.",
+      "Zakupy spożywcze pokrywasz z niezbędnych wydatków. Kurs z edukacji. Wyjazd z oszczędności długoterminowych. Spotkanie ze znajomymi z rozrywki.",
+      "Widzisz więc nie tylko całkowitą kwotę pozostałych pieniędzy, ale również to, ile jest dostępne na każdy konkretny cel."
+    ]
+  },
+  "misleadingBalance": {
+    "title": "Dlaczego całkowite saldo może wprowadzać w błąd",
+    "screenshotAlt": "Ekran główny aplikacji z całkowitym saldem 1 720, w którym w słoiku „Rozrywka” zostało tylko 20",
+    "paragraphs": [
+      "Gdy wszystkie pieniądze znajdują się na jednym koncie bankowym, dostępna kwota może wydawać się większa, niż jest w rzeczywistości.",
+      "Załóżmy, że na koncie znajduje się 1 720. Formalnie cała ta kwota jest dostępna. Jednak część może być już przeznaczona na mieszkanie, część na przyszłe wakacje, a część na rezerwę finansową.",
+      "Jeśli traktujesz całe saldo jako wolne środki, łatwo wydać pieniądze, które były już potrzebne do innych celów.",
+      "Metoda 6 słoików pomaga mentalnie podzielić całkowite saldo.",
+      "Na koncie bankowym możesz widzieć 1 720, ale na rozrywkę dostępne jest z tego tylko 20. Pozostałe pieniądze zostały już przydzielone do innych kategorii wydatków."
+    ]
+  },
+  "savingsFirst": {
+    "title": "Oszczędności przestają zależeć od tego, co zostanie",
+    "paragraphs": [
+      "Jedna z popularnych strategii oszczędzania wygląda tak:",
+      "<strong>najpierw wydawać pieniądze przez cały miesiąc, a później odłożyć to, co zostanie.</strong>",
+      "Problem polega na tym, że często nie zostaje nic.",
+      "Metoda 6 słoików odwraca tę kolejność. Pieniądze na oszczędności, budowanie kapitału i inne cele są odkładane od razu po otrzymaniu dochodu.",
+      "Nie musisz czekać do końca miesiąca, żeby sprawdzić, czy udało się coś zaoszczędzić. Oszczędności od początku stają się pełnoprawną częścią budżetu."
+    ]
+  },
+  "easierDecisions": {
+    "title": "Podejmowanie decyzji staje się łatwiejsze",
+    "paragraphs": [
+      "W przypadku wielu zakupów nie ma jednej jednoznacznie dobrej lub złej odpowiedzi.",
+      "Czy można kupić nowy sprzęt? Czy warto pójść do restauracji? Czy kurs nie jest za drogi? Czy można teraz pojechać na wakacje?",
+      "Kiedy wszystkie pieniądze należą do jednego wspólnego budżetu, każdą taką decyzję trzeba podejmować od nowa.",
+      "Słoiki tworzą czytelne granice.",
+      "Jeśli w odpowiednim słoiku jest wystarczająco dużo pieniędzy, zakup mieści się w Twoim planie. Jeśli środków brakuje, możesz go odłożyć, przemyśleć cel albo świadomie skorzystać z pieniędzy z innego słoika.",
+      "Metoda nie zabrania zmieniać decyzji. Sprawia jedynie, że ich konsekwencje stają się widoczne."
+    ]
+  },
+  "spendWithoutGuilt": {
+    "title": "Możesz wydawać bez ciągłego poczucia winy",
+    "paragraphs": [
+      "Dyscyplina finansowa jest często błędnie utożsamiana z ciągłym odmawianiem sobie przyjemnych zakupów.",
+      "Jednak zbyt rygorystyczny system, w którym dozwolone są wyłącznie niezbędne wydatki, zazwyczaj źle sprawdza się na dłuższą metę. Człowiek potrzebuje odpoczynku, rozrywki i możliwości wydawania od czasu do czasu pieniędzy po prostu dla przyjemności.",
+      "Dlatego metoda obejmuje osobny słoik na rozrywkę.",
+      "Jeśli pieniądze zostały z góry przeznaczone na odpoczynek, możesz wykorzystać je zgodnie z ich przeznaczeniem. Taki zakup nie przeszkadza w oszczędzaniu ani nie zabiera pieniędzy z niezbędnych wydatków.",
+      "Nie łamiesz budżetu — realizujesz go."
+    ]
+  },
+  "borrowFromYourself": {
+    "title": "Możliwość pożyczenia pieniędzy od samego siebie",
+    "screenshotAlt": "Ekran słoika „Rozrywka” z ujemnym saldem 25 i historią wydatków",
+    "paragraphs": [
+      "Po przejściu na metodę 6 słoików stopniowo budujesz zapas pieniędzy rozdzielony między różne cele. Dzięki temu przy chwilowym braku środków nie zawsze trzeba pożyczać od innych osób lub korzystać z kredytu.",
+      "Jeśli w jednym słoiku nie ma wystarczająco dużo pieniędzy na ważny zakup, możesz tymczasowo dopuścić do ujemnego salda. W praktyce pożyczasz pieniądze od samego siebie: zakup jest pokrywany z całkowitej dostępnej kwoty, ale przekroczenie budżetu pozostaje zapisane właśnie w słoiku, do którego należy ten wydatek.",
+      "Przy kolejnym dochodzie ujemne saldo zostaje częściowo lub całkowicie wyrównane. W rezultacie w następnym okresie w tym słoiku będzie dostępnych mniej pieniędzy. System nie zabrania więc ważnego zakupu, ale wyraźnie pokazuje jego wpływ na przyszły budżet.",
+      "Technicznie można przenieść potrzebną kwotę z innego słoika, a po otrzymaniu kolejnego dochodu oddać ją z powrotem. Nie polecam jednak robić tego bez potrzeby. Taki transfer ukrywa rzeczywiste przekroczenie budżetu w pierwotnym słoiku i zmniejsza użyteczność raportów: trudniej wtedy ocenić, na które cele regularnie przeznaczasz zbyt mało pieniędzy.",
+      "Pozostawienie ujemnego salda zachowuje prawdziwą historię wydatków. Widzisz, gdzie nastąpiło przekroczenie budżetu, jak duże było i czy zostało pokryte po otrzymaniu kolejnego dochodu.",
+      "W moim przypadku stało się to jedną z najbardziej zauważalnych korzyści korzystania z metody: przestałem pożyczać pieniądze od innych osób, ponieważ w razie potrzeby mogłem tymczasowo pożyczyć je od samego siebie.",
+      "Jeśli ten sam słoik regularnie schodzi poniżej zera, nie jest to już chwilowy wyjątek, lecz sygnał, że warto zmienić sposób podziału dochodu. Możesz zwiększyć procent przypisany do tego słoika kosztem tych, w których zwykle zostają niewykorzystane pieniądze. Na tym polega elastyczność metody: system stopniowo dopasowuje się do Twoich rzeczywistych wydatków, zamiast zmuszać Cię do przestrzegania niezmiennych proporcji."
+    ]
+  },
+  "goalsNoLongerCompete": {
+    "title": "Cele finansowe przestają ze sobą konkurować",
+    "listIntro": "Bez systemu wszystkie wolne pieniądze mają jednocześnie pokrywać wszystko:",
+    "items": [
+      "rezerwę finansową;",
+      "wakacje;",
+      "edukację;",
+      "nowy sprzęt;",
+      "rozrywkę;",
+      "niespodziewane wydatki."
+    ],
+    "closingParagraphs": [
+      "Przez to jeden cel często wypiera pozostałe. Duży zakup może całkowicie zatrzymać oszczędzanie, a nieplanowany wydatek — przekreślić wakacje.",
+      "Podział pieniędzy według przeznaczenia pozwala realizować kilka celów jednocześnie.",
+      "Nawet jeśli na początku kwoty są niewielkie, każdy ważny obszar otrzymuje swoją część przy każdym wpływie dochodu."
+    ]
+  },
+  "financialDiscipline": {
+    "title": "Metoda pomaga rozwijać dyscyplinę finansową",
+    "openingParagraphs": [
+      "Główna wartość metody polega nie tylko na sposobie podziału pieniędzy, ale również na nawykach, które wykształcają się podczas jej stosowania.",
+      "Regularne dzielenie dochodów stopniowo zmienia sposób myślenia o pieniądzach. Zaczynasz postrzegać otrzymaną kwotę nie jako jedną pulę, którą można wydawać aż do jej wyczerpania, lecz jako zasób przeznaczony na różne obszary życia."
+    ],
+    "listIntro": "Wyrabiasz nawyk:",
+    "items": [
+      "najpierw dzielenia pieniędzy, a dopiero potem ich wydawania;",
+      "uwzględniania konsekwencji każdego zakupu;",
+      "regularnego przeznaczania środków na przyszłe cele;",
+      "zachowywania równowagi między dzisiejszymi pragnieniami a długoterminowymi planami;",
+      "świadomego podejmowania decyzji finansowych."
+    ],
+    "closingParagraphs": [
+      "System nie wymaga idealnego zachowania od pierwszego dnia. Dyscyplina finansowa rozwija się stopniowo dzięki powtarzaniu tych samych prostych działań.",
+      "Z mojego własnego doświadczenia właśnie to okazało się największą zaletą metody. Nie tylko pomogła mi lepiej kontrolować pieniądze, ale stopniowo zmieniła całe moje podejście do dochodów, wydatków i oszczędzania."
+    ]
+  },
+  "irregularIncome": {
+    "title": "Co zrobić przy nieregularnych dochodach",
+    "paragraphs": [
+      "Metodę można stosować nie tylko przy stałej miesięcznej pensji.",
+      "Jeśli dochody wpływają nieregularnie, dziel każdą otrzymaną kwotę osobno.",
+      "Otrzymujesz zapłatę za projekt, dodatkową pracę, zlecenie lub sprzedaż — od razu podziel tę kwotę między słoiki w wybranych proporcjach.",
+      "Przy niestabilnych dochodach szczególnie warto zwiększyć część przeznaczaną na rezerwę. Pomoże to przejść przez okresy, w których wpływy są mniejsze.",
+      "Metoda nie wymaga znajomości dokładnego miesięcznego dochodu z wyprzedzeniem. Działa na pieniądzach, które już otrzymałeś."
+    ]
+  },
+  "notEnoughMoney": {
+    "title": "Co zrobić, jeśli na razie brakuje pieniędzy",
+    "paragraphs": [
+      "Klasyczne procenty mogą nie sprawdzić się u osoby, która przeznacza niemal cały dochód na podstawowe potrzeby.",
+      "Nie oznacza to, że metoda jest bezużyteczna.",
+      "Możesz zacząć od bardziej realistycznego podziału. Na przykład przeznaczać 80–90% na niezbędne wydatki, a pozostałą część dzielić między najważniejsze dla Ciebie cele.",
+      "Nawet niewielka kwota regularnie odkładana do rezerwy lub na długoterminowy cel pomaga wyrobić nawyk.",
+      "Wraz ze zmianą dochodów i wydatków proporcje można korygować.",
+      "Liczy się nie wielkość pierwszego kroku, lecz regularność."
+    ]
+  },
+  "notExactlySixJars": {
+    "title": "Czy trzeba korzystać dokładnie z sześciu słoików",
+    "openingParagraphs": [
+      "Nie.",
+      "Sześć słoików stanowi podstawę klasycznej metody. Obejmuje najważniejsze cele finansowe i jest dobrym punktem wyjścia.",
+      "Z czasem system można jednak dostosować."
+    ],
+    "listIntro": "Na przykład możesz utworzyć osobne słoiki na:",
+    "items": [
+      "wakacje;",
+      "zdrowie;",
+      "samochód;",
+      "remont;",
+      "zwierzęta domowe;",
+      "dzieci;",
+      "podatki;",
+      "sprzęt;",
+      "konkretny duży zakup."
+    ],
+    "closingParagraphs": [
+      "Niektóre klasyczne słoiki można z kolei połączyć lub zmienić ich nazwy.",
+      "Najważniejsze jest zachowanie podstawowej zasady: pieniądze powinny być podzielone według przeznaczenia, a struktura powinna odpowiadać Twojemu życiu."
+    ]
+  },
+  "physicalJarsProblem": {
+    "title": "Problem fizycznych słoików i kopert",
+    "paragraphs": [
+      "Pierwotnie tego rodzaju systemy zakładały korzystanie z gotówki.",
+      "Dochód można było fizycznie rozdzielić między osobne słoiki, pudełka lub koperty. Dzięki temu podział był bardzo czytelny: pieniądze przeznaczone na różne kategorie rzeczywiście znajdowały się osobno.",
+      "Dziś jednak większość operacji finansowych odbywa się bezgotówkowo.",
+      "Otrzymujemy dochód na konto bankowe, płacimy kartą, kupujemy usługi przez internet i przelewamy pieniądze telefonem.",
+      "W takich warunkach fizyczne słoiki stają się niewygodne. Utrzymanie systemu wymagałoby regularnego wypłacania gotówki albo ręcznego odwzorowywania każdej transakcji bezgotówkowej.",
+      "Można otworzyć kilka kont bankowych, ale zarządzanie dużą liczbą kont i przelewów również nie zawsze jest wygodne. Poza tym liczba dostępnych kont i ich warunki zależą od konkretnego banku."
+    ]
+  },
+  "digitalJars": {
+    "title": "Cyfrowe słoiki",
+    "paragraphs": [
+      "Sam zetknąłem się z tym problemem.",
+      "Podobała mi się idea metody 6 słoików, a jej regularne stosowanie rzeczywiście pomogło mi wyrobić bardziej zdyscyplinowane podejście do pieniędzy.",
+      "Korzystanie z fizycznych słoików lub kopert okazało się jednak niewygodne w świecie płatności bezgotówkowych.",
+      "Dlatego stworzyłem <strong>6 Jars Finance</strong> — aplikację do zarządzania finansami osobistymi opartą na metodzie 6 słoików.",
+      "Aplikacja pozwala zachować główną ideę systemu bez konieczności fizycznego rozdzielania pieniędzy.",
+      "Nadal trzymasz środki na swoim zwykłym koncie bankowym, ale w aplikacji widzisz osobne saldo każdego słoika."
+    ]
+  },
+  "appHowItWorks": {
+    "title": "Jak działa 6 Jars Finance",
+    "openingParagraphs": [
+      "Gdy otrzymujesz dochód, aplikacja dzieli go między słoiki zgodnie z wybranymi procentami.",
+      "Po zakupie wskazujesz, z którego słoika zostały wydane pieniądze. Zmniejsza się tylko jego saldo — pozostałe środki zachowują swoje przeznaczenie.",
+      "W ten sposób całkowite saldo bankowe zyskuje czytelną wewnętrzną strukturę."
+    ],
+    "listIntro": "Widzisz:",
+    "items": [
+      "ile pieniędzy jest dostępnych na niezbędne wydatki;",
+      "ile zgromadzono na cele długoterminowe;",
+      "ile można wydać na rozrywkę;",
+      "jaki budżet przeznaczono na edukację;",
+      "jak zmieniają się salda słoików w czasie."
+    ],
+    "closingParagraphs": [
+      "Aplikacja nie przenosi pieniędzy między kontami bankowymi i nie uzyskuje dostępu do Twojego banku. Pomaga prowadzić osobną ewidencję i rozumieć przeznaczenie środków."
+    ]
+  },
+  "trackEveryPurchase": {
+    "title": "Czy trzeba wpisywać każdy zakup osobno?",
+    "screenshotAlt": "Ekran dodawania wydatku 75 ze słoika „Bieżące wydatki” z tagiem „Produkty”",
+    "paragraphs": [
+      "Nie. Do korzystania z metody wystarczy podać łączną kwotę wydatku i wybrać słoik, z którego zostały wydane pieniądze.",
+      "Na przykład zwykłe zakupy w sklepie możesz zapisać jako jedną operację na 105. Jeśli zależy Ci na większej dokładności, możesz rozbić tę kwotę na kilka operacji: 75 na żywność i 30 na artykuły gospodarstwa domowego. Do dodatkowego uszczegółowienia możesz używać tagów.",
+      "Sam wybierasz odpowiedni poziom dokładności. Aplikacja nie wymaga przepisywania każdej pozycji z paragonu — ewidencja ma pomagać rozumieć przepływ pieniędzy, a nie zajmować zbyt dużo czasu.",
+      "Ręczne dodanie wydatku wymaga niewielkiego działania, ale jednocześnie pomaga zauważać swoje wydatki i lepiej rozumieć, na co trafiają pieniądze."
+    ]
+  },
+  "adaptSystem": {
+    "title": "Dostosuj system do siebie",
+    "openingParagraphs": [
+      "6 Jars Finance opiera się na klasycznej metodzie, ale nie ogranicza Cię do jej pierwotnej struktury."
+    ],
+    "listIntro": "Możesz:",
+    "items": [
+      "zmieniać procenty podziału;",
+      "zmieniać nazwy słoików;",
+      "tworzyć własne słoiki;",
+      "korzystać z większej lub mniejszej liczby niż sześć słoików;",
+      "zmieniać kolejność słoików;",
+      "rejestrować dochody i wydatki;",
+      "dodawać operacje cykliczne;",
+      "analizować przepływ pieniędzy za pomocą raportów."
+    ],
+    "closingParagraphs": [
+      "Klasyczna struktura może być wygodnym punktem wyjścia. Później możesz stopniowo zmieniać ją tak, aby odpowiadała właśnie Twoim potrzebom."
+    ]
+  },
+  "startWithNextIncome": {
+    "title": "Zacznij od następnego dochodu",
+    "paragraphs": [
+      "Nie musisz od razu zmieniać całego systemu finansowego ani idealnie trzymać się klasycznych procentów.",
+      "Zacznij od prostego kroku: podziel następny dochód między kilka ważnych dla Ciebie celów.",
+      "Już to pomoże Ci spojrzeć na pieniądze nie jak na jedną wspólną kwotę, lecz jak na narzędzie dla różnych obszarów życia.",
+      "W 6 Jars Finance <strong>klasyczne słoiki i procenty są już skonfigurowane.</strong> Możesz zacząć od nich, a później w razie potrzeby dostosować podział do siebie."
+    ],
+    "cta": "Przejdź do 6 Jars Finance →"
+  }
+}

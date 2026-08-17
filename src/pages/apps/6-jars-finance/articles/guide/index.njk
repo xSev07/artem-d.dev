@@ -16,6 +16,7 @@ eleventyComputed:
 
 {% set langCode = pageLang.code %}
 {% set article = "apps.sixJarsFinance.articles.guide" | t(langCode) %}
+{% set screenshotsPath = "articles/six-jars/screenshots" %}
 
 {% macro paragraphs(items) %}
 {% for item in items %}
@@ -57,7 +58,7 @@ eleventyComputed:
 <p>{{ article.howItWorks.lead }}</p>
 <figure class="article-figure article-figure--float-end article-figure--elevated">
   <img
-    src="/content/articles/six-jars/screenshots/{{ langCode }}/main-screen.jpg"
+    src="{{ langCode | localizedScreenshot(screenshotsPath, 'main-screen.jpg') }}"
     alt="{{ article.howItWorks.screenshotAlt }}"
     width="1080"
     height="2265"
@@ -113,7 +114,7 @@ eleventyComputed:
 <h2 id="adjust-percents">{{ article.adjustPercents.title }}</h2>
 <figure class="article-figure article-figure--float-end article-figure--elevated">
   <img
-    src="/content/articles/six-jars/screenshots/{{ langCode }}/percents-allocation.jpg"
+    src="{{ langCode | localizedScreenshot(screenshotsPath, 'percents-allocation.jpg') }}"
     alt="{{ article.adjustPercents.screenshotAlt }}"
     width="1080"
     height="2265"
@@ -164,7 +165,7 @@ eleventyComputed:
 <h2 id="misleading-balance">{{ article.misleadingBalance.title }}</h2>
 <figure class="article-figure article-figure--float-end article-figure--elevated">
   <img
-    src="/content/articles/six-jars/screenshots/{{ langCode }}/low-balance.jpg"
+    src="{{ langCode | localizedScreenshot(screenshotsPath, 'low-balance.jpg') }}"
     alt="{{ article.misleadingBalance.screenshotAlt }}"
     width="1080"
     height="2265"
@@ -193,7 +194,7 @@ eleventyComputed:
 <h2 id="borrow-from-yourself">{{ article.borrowFromYourself.title }}</h2>
 <figure class="article-figure article-figure--float-end article-figure--elevated">
   <img
-    src="/content/articles/six-jars/screenshots/{{ langCode }}/negative-balance.jpg"
+    src="{{ langCode | localizedScreenshot(screenshotsPath, 'negative-balance.jpg') }}"
     alt="{{ article.borrowFromYourself.screenshotAlt }}"
     width="1080"
     height="2265"
@@ -258,7 +259,7 @@ eleventyComputed:
 <h2 id="track-every-purchase">{{ article.trackEveryPurchase.title }}</h2>
 <figure class="article-figure article-figure--float-end article-figure--elevated">
   <img
-    src="/content/articles/six-jars/screenshots/{{ langCode }}/withdraw.jpg"
+    src="{{ langCode | localizedScreenshot(screenshotsPath, 'withdraw.jpg') }}"
     alt="{{ article.trackEveryPurchase.screenshotAlt }}"
     width="1080"
     height="2265"

@@ -1,0 +1,169 @@
+{
+  "common": {
+    "langSwitch": {
+      "label": "Bahasa"
+    },
+    "labels": {
+      "lastUpdated": "Terakhir diperbarui:",
+      "developer": "Pengembang:",
+      "contactAddress": "Alamat kontak:"
+    },
+    "pages": {
+      "privacy": "Kebijakan Privasi",
+      "help": "Informasi Kesalahan",
+      "licenses": "Lisensi Sumber Terbuka"
+    }
+  },
+  "article": {
+    "tocTitle": "Di halaman ini",
+    "tocLabel": "Navigasi halaman"
+  },
+  "site": {
+    "nav": {
+      "label": "Navigasi situs",
+      "download": "Unduh aplikasi",
+      "guide": "Metode Enam Pos"
+    },
+    "footer": {
+      "label": "Informasi situs"
+    },
+    "help": {
+      "metaDescription": "Informasi tentang kesalahan saat menjalankan operasi di aplikasi A.D.A.",
+      "title": "Operasi tidak dapat diselesaikan",
+      "intro": "Operasi tidak dapat diselesaikan karena kesalahan teknis.",
+      "sections": {
+        "whatItMeans": {
+          "title": "Apa artinya",
+          "text": "Dalam kasus yang jarang terjadi, basis data lokal atau sistem operasi perangkat dapat sementara waktu mencegah data disimpan."
+        },
+        "whatToTry": {
+          "title": "Yang dapat Anda coba",
+          "items": [
+            "Tutup lalu buka kembali aplikasi",
+            "Mulai ulang perangkat",
+            "Periksa apakah tersedia cukup ruang penyimpanan kosong di perangkat",
+            "Pastikan versi terbaru aplikasi telah terpasang"
+          ]
+        },
+        "ifPersists": {
+          "title": "Jika masalah terus terjadi",
+          "contactText": "Hubungi dukungan:",
+          "emailIntro": "Sebaiknya sertakan informasi berikut dalam email:",
+          "emailItems": [
+            "model perangkat",
+            "versi Android",
+            "versi aplikasi",
+            "tindakan yang dilakukan sebelum kesalahan muncul"
+          ]
+        }
+      }
+    }
+  },
+  "apps": {
+    "sixJarsFinance": {
+      "privacy": {
+        "lastUpdated": "03.07.2026",
+        "metaDescription": "Kebijakan Privasi untuk aplikasi Artem D Apps.",
+        "sections": {
+          "general": {
+            "title": "1. Ketentuan umum",
+            "paragraphs": [
+              "Kebijakan Privasi ini menjelaskan bagaimana data diproses saat menggunakan aplikasi seluler. Aplikasi dirancang dengan prinsip penyimpanan data secara lokal (offline-first). Catatan keuangan dan data lain yang dibuat pengguna di dalam aplikasi disimpan secara lokal di perangkat pengguna dan tidak dikirimkan kepada pengembang.",
+              "Aplikasi dapat menggunakan layanan pihak ketiga untuk tujuan teknis, misalnya untuk pelaporan crash dan kesalahan. Layanan tersebut dapat memproses data diagnostik teknis yang diperlukan untuk mendeteksi, menganalisis, dan memperbaiki kesalahan."
+            ]
+          },
+          "dataProcessed": {
+            "title": "2. Data apa yang diproses"
+          },
+          "userData": {
+            "title": "2.1 Data yang dimasukkan oleh pengguna",
+            "intro": "Pengguna memasukkan sendiri data berikut ke dalam aplikasi:",
+            "items": [
+              "catatan keuangan (transaksi)",
+              "kategori dan tag",
+              "nama pos, nama akun, catatan, dan pengaturan pengguna lainnya"
+            ],
+            "outro": "Data ini disimpan secara lokal di perangkat pengguna, tidak dikirimkan kepada pengembang, tidak disalin ke server pengembang, dan tidak dibagikan kepada pihak ketiga. Pengembang tidak memiliki kemampuan teknis untuk mengakses data ini."
+          },
+          "platformData": {
+            "title": "2.2 Data teknis platform",
+            "paragraphs": [
+              "Saat aplikasi dipasang dan digunakan, platform Google Play dapat secara otomatis memproses data teknis seperti informasi perangkat, versi sistem operasi, data diagnostik, dan informasi tentang crash.",
+              "Data tersebut diproses oleh layanan Google sesuai dengan kebijakan privasi mereka sendiri. Pengembang tidak menerima data pribadi pengguna dari Google."
+            ]
+          },
+          "purchases": {
+            "title": "2.3 Pembelian dalam aplikasi",
+            "paragraphs": [
+              "Aplikasi dapat menggunakan pembelian dalam aplikasi yang diproses melalui Google Play. Pemrosesan pembayaran dilakukan melalui infrastruktur Google. Pengembang tidak menerima data kartu bank, tidak menyimpan informasi pembayaran, dan tidak memiliki akses ke rincian keuangan pengguna."
+            ]
+          },
+          "crashes": {
+            "title": "2.4 Pelaporan crash dan kesalahan",
+            "paragraphs": [
+              "Aplikasi menggunakan Sentry, layanan pemantauan kesalahan pihak ketiga yang memproses laporan crash dan data diagnostik teknis atas nama pengembang.",
+              "Saat terjadi kesalahan, aplikasi dapat mengirimkan informasi diagnostik teknis ke Sentry, seperti laporan crash, stack trace, versi aplikasi, versi sistem operasi, model perangkat, dan informasi teknis lain yang berkaitan dengan kesalahan tersebut.",
+              "Sentry dikonfigurasi agar pengumpulan data pribadi dinonaktifkan secara default. Aplikasi tidak dengan sengaja mengirimkan catatan keuangan, data transaksi, nama pos, tag, catatan, nama akun, atau konten keuangan lain yang dibuat pengguna ke Sentry.",
+              "Pengembang menggunakan laporan kesalahan hanya untuk meningkatkan stabilitas aplikasi, mendiagnosis masalah teknis, dan memperbaiki kesalahan.",
+              "Karena aplikasi tidak menggunakan akun dan tidak menetapkan pengenal pengguna untuk pelaporan kesalahan, pengembang mungkin tidak dapat menemukan dan menghapus laporan kesalahan milik pengguna tertentu."
+            ]
+          },
+          "storage": {
+            "title": "3. Penyimpanan data",
+            "paragraphs": [
+              "Catatan keuangan dan data lain yang dibuat pengguna di dalam aplikasi disimpan secara lokal di perangkat pengguna dalam basis data aplikasi. Menghapus aplikasi akan menghapus data yang tersimpan secara lokal, kecuali pengguna telah membuat cadangan sebelumnya. Pengembang tidak menyimpan salinan data pengguna ini dan tidak memiliki akses terhadapnya.",
+              "Data teknis mengenai crash dan data diagnostik dapat diproses oleh Sentry untuk tujuan pemantauan kesalahan."
+            ]
+          },
+          "thirdParties": {
+            "title": "4. Pembagian data kepada pihak ketiga",
+            "paragraphs": [
+              "Pengembang tidak menjual data pengguna dan tidak membagikan data keuangan yang dibuat pengguna di dalam aplikasi kepada pihak ketiga.",
+              "Catatan keuangan, transaksi, tag, nama pos, catatan, pengaturan, dan cadangan tidak dikirimkan oleh aplikasi kepada pengembang maupun ke server eksternal.",
+              "Data teknis mengenai crash dan data diagnostik dapat diproses oleh Sentry atas nama pengembang untuk mendeteksi, mendiagnosis, dan memperbaiki kesalahan."
+            ]
+          },
+          "backups": {
+            "title": "5. Cadangan",
+            "paragraphs": [
+              "Jika aplikasi menyediakan kemampuan untuk membuat cadangan, file cadangan dibuat oleh pengguna dan disimpan di lokasi yang dipilih pengguna. Pengembang tidak memiliki akses ke cadangan."
+            ]
+          },
+          "rights": {
+            "title": "6. Hak pengguna",
+            "intro": "Pengguna dapat:",
+            "items": [
+              "menghapus data aplikasi yang tersimpan secara lokal dengan menghapus aplikasi atau membersihkan data aplikasi di pengaturan perangkat",
+              "memilih untuk tidak menggunakan pembelian dalam aplikasi",
+              "menghubungi pengembang terkait masalah privasi"
+            ],
+            "outro": "Karena aplikasi tidak menggunakan akun dan tidak menetapkan pengenal pengguna untuk pelaporan kesalahan, pengembang mungkin tidak dapat menemukan dan menghapus laporan kesalahan milik pengguna tertentu."
+          },
+          "security": {
+            "title": "7. Keamanan",
+            "paragraphs": [
+              "Aplikasi tidak mengirimkan data keuangan pengguna melalui internet. Data teknis mengenai crash dan data diagnostik, jika dikirimkan, ditransmisikan melalui koneksi yang aman.",
+              "Pengguna bertanggung jawab atas keamanan perangkatnya sendiri dan cadangan yang dibuat."
+            ]
+          },
+          "changes": {
+            "title": "8. Perubahan kebijakan",
+            "paragraphs": [
+              "Versi terbaru kebijakan dipublikasikan di halaman resmi aplikasi."
+            ]
+          },
+          "contact": {
+            "title": "9. Informasi kontak",
+            "text": "Untuk pertanyaan terkait privasi:"
+          }
+        }
+      },
+      "licenses": {
+        "metaDescription": "Lisensi perangkat lunak sumber terbuka pihak ketiga yang digunakan dalam aplikasi Artem D Apps.",
+        "licenseLabel": "Lisensi:",
+        "repositoryLabel": "Repositori:",
+        "disclaimer": "Halaman ini mencantumkan perangkat lunak sumber terbuka pihak ketiga yang digunakan dalam aplikasi."
+      }
+    }
+  }
+}

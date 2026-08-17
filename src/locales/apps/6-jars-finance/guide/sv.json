@@ -1,0 +1,423 @@
+{
+  "title": "6-pottsmetoden: ett enkelt sätt att hantera pengar",
+  "metaDescription": "6-pottsmetoden hjälper dig att inte bara registrera utgifter, utan också bestämma i förväg vad du vill använda din inkomst till.",
+  "intro": {
+    "paragraphs": [
+      "6-pottsmetoden hjälper dig att inte bara registrera utgifter, utan också bestämma i förväg vad du vill använda din inkomst till.",
+      "Principen är enkel: varje gång du får pengar fördelar du dem mellan flera ekonomiska uppgifter. En del går till vardagen, medan resten går till sparande, utbildning, nöjen, kapitalbyggande och hjälp till andra.",
+      "På så sätt slutar pengarna att vara en enda totalsumma på kontot. Varje del får ett eget syfte."
+    ]
+  },
+  "overview": {
+    "title": "Innehåll",
+    "managingMoney": "Vad 6-pottsmetoden är",
+    "howItWorks": "Hur pengarna fördelas",
+    "adjustPercents": "Hur du anpassar metoden efter dig",
+    "misleadingBalance": "Hur metoden hjälper i vardagen",
+    "irregularIncome": "Hur du använder metoden i olika situationer",
+    "physicalJarsProblem": "Hur du använder metoden utan kontanter",
+    "appHowItWorks": "Hur du använder metoden i appen"
+  },
+  "managingMoney": {
+    "title": "Inte bara registrera utgifter, utan styra pengarna",
+    "paragraphs": [
+      "Vanlig utgiftsspårning hjälper dig att svara på frågan:",
+      "<strong>”Vart har mina pengar redan tagit vägen?”</strong>",
+      "Det är användbart, men ofta inte tillräckligt. Även om du regelbundet registrerar dina köp finns det ingen garanti för att du har pengar kvar i slutet av månaden till sparande, utbildning eller större mål.",
+      "6-pottsmetoden tar ett annat grepp. Den hjälper dig att i förväg svara på frågan:",
+      "<strong>”Vad vill jag använda pengarna jag får till?”</strong>",
+      "Du fördelar inkomsten innan du börjar spendera den. På så sätt blir sparandet inte beroende av vad som råkar vara kvar i slutet av månaden, och vardagsutgifterna förbrukar inte automatiskt allt som finns tillgängligt."
+    ]
+  },
+  "howItWorks": {
+    "title": "Så fungerar 6-pottsmetoden",
+    "lead": "I den klassiska versionen av metoden fördelas varje inkomst mellan sex potter.",
+    "screenshotAlt": "Startsidan i 6 Jars Finance med sex potter och inkomsten fördelad mellan dem",
+    "jars": {
+      "essentialExpenses": {
+        "title": "Nödvändiga utgifter — 55%",
+        "intro": "Den här potten är avsedd för nödvändiga vardagsutgifter:",
+        "items": [
+          "boende;",
+          "mat;",
+          "transport;",
+          "el, vatten och andra boendekostnader;",
+          "telefon och internet;",
+          "vård;",
+          "andra återkommande behov."
+        ],
+        "outro": "Det här är pengarna som täcker din vanliga vardag."
+      },
+      "financialIndependence": {
+        "title": "Ekonomisk frihet — 10%",
+        "paragraphs": [
+          "Pengarna i den här potten används för att bygga kapital och skapa framtida inkomster.",
+          "I det klassiska systemet är tanken att huvudsumman inte ska användas till vanliga köp. Dess uppgift är att gradvis bygga upp en ekonomisk grund.",
+          "Hur du använder pengarna beror på dina kunskaper, mål och din inställning till risk. Det kan vara sparprodukter, investeringar eller andra sätt att bygga kapital."
+        ]
+      },
+      "longTermSavings": {
+        "title": "Långsiktigt sparande — 10%",
+        "intro": "Den här potten hjälper dig att förbereda dig i förväg för större utgifter.",
+        "listIntro": "Till exempel för:",
+        "items": [
+          "att bygga upp en ekonomisk reserv;",
+          "semester;",
+          "renovering;",
+          "köp av elektronik eller annan utrustning;",
+          "bil;",
+          "flytt;",
+          "andra större mål."
+        ],
+        "outro": "Sådana utgifter blir mindre oväntade eftersom pengarna byggs upp gradvis."
+      },
+      "education": {
+        "title": "Utbildning — 10%",
+        "intro": "De här pengarna är avsedda för att utveckla kunskaper och färdigheter.",
+        "listIntro": "Du kan använda dem till:",
+        "items": [
+          "böcker;",
+          "kurser;",
+          "yrkesutbildning;",
+          "språkinlärning;",
+          "lektioner med lärare;",
+          "konferenser;",
+          "andra utbildningsmaterial."
+        ],
+        "outro": "Utbildning blir en egen del av budgeten i stället för en utgift som hela tiden skjuts upp."
+      },
+      "entertainment": {
+        "title": "Nöjen — 10%",
+        "intro": "Den här potten är avsedd för avkoppling och saker du tycker om.",
+        "listIntro": "Till exempel:",
+        "items": [
+          "träffar med vänner;",
+          "kaféer och restauranger;",
+          "spel;",
+          "hobbyer;",
+          "utflykter;",
+          "evenemang;",
+          "mindre spontana köp."
+        ],
+        "outro": "En separat budget för nöjen gör det möjligt att koppla av utan att ständigt känna skuld. Du har redan avsatt pengarna just för sådant du tycker om."
+      },
+      "giftsAndCharity": {
+        "title": "Gåvor och hjälp — 5%",
+        "intro": "Den här potten kan användas till:",
+        "items": [
+          "gåvor;",
+          "välgörenhet;",
+          "hjälp till familj och vänner;",
+          "stöd till projekt och initiativ som är viktiga för dig."
+        ],
+        "outro": "Även sådana utgifter blir en planerad del av budgeten och stör inte dina övriga ekonomiska mål."
+      }
+    }
+  },
+  "adjustPercents": {
+    "title": "Procentsatserna kan ändras",
+    "screenshotAlt": "Skärmen för att ställa in hur inkomsten procentuellt fördelas mellan potterna",
+    "openingParagraphs": [
+      "Fördelningen 55%, 10%, 10%, 10%, 10% och 5% är en utgångspunkt, inte en obligatorisk regel.",
+      "Människor har olika inkomster, boendekostnader, familjesituationer, mål och skyldigheter. För en person kan 55% räcka till nödvändiga utgifter, medan hyra och mat för en annan kan ta upp större delen av inkomsten.",
+      "Därför kan och bör procentsatserna anpassas efter din verkliga situation."
+    ],
+    "listIntro": "Du kan till exempel:",
+    "items": [
+      "öka andelen för nödvändiga utgifter;",
+      "tillfälligt lägga mer pengar i din ekonomiska reserv;",
+      "minska utgifterna för nöjen;",
+      "nå ett visst sparmål snabbare;",
+      "ändra fördelningen efter att inkomsten har ökat eller minskat."
+    ],
+    "closingParagraphs": [
+      "Det viktigaste i metoden är inte att följa de klassiska procentsatserna exakt, utan att skapa vanan att regelbundet fördela pengar mellan olika uppgifter.",
+      "Systemet ska hjälpa dig att fatta beslut, inte bli ännu en källa till press."
+    ],
+    "cta": "Prova metoden i 6 Jars Finance →"
+  },
+  "samePurchaseDifferentJars": {
+    "title": "Samma köp kan höra till olika potter",
+    "openingParagraphs": [
+      "I 6-pottsmetoden finns ingen universell lista som entydigt placerar varje köp i en viss kategori. Det viktiga är inte bara vad du köper, utan också varför."
+    ],
+    "listIntro": "Ett kafébesök kan till exempel höra till olika potter:",
+    "items": [
+      "nödvändiga utgifter, om det är din vanliga lunch under arbetsdagen;",
+      "nöjen, om du går dit för att koppla av eller unna dig något;",
+      "gåvor och hjälp, om du bjuder någon annan."
+    ],
+    "closingParagraphs": [
+      "Du bestämmer själv syftet med utgiften utifrån situationen och dina egna mål.",
+      "Metoden tvingar dig inte att följa strikta regler. Den ger dig en ram och hjälper dig att medvetet bestämma vilken del av budgeten som ska täcka ett visst köp."
+    ]
+  },
+  "example": {
+    "title": "Så ser det ut i praktiken",
+    "openingParagraphs": [
+      "Anta att du får en inkomst på 3 000.",
+      "Med den klassiska fördelningen delas pengarna upp så här:"
+    ],
+    "table": {
+      "headers": [
+        "Pott",
+        "Andel",
+        "Belopp"
+      ],
+      "rows": [
+        [
+          "Nödvändiga utgifter",
+          "55%",
+          "1 650"
+        ],
+        [
+          "Ekonomisk frihet",
+          "10%",
+          "300"
+        ],
+        [
+          "Långsiktigt sparande",
+          "10%",
+          "300"
+        ],
+        [
+          "Utbildning",
+          "10%",
+          "300"
+        ],
+        [
+          "Nöjen",
+          "10%",
+          "300"
+        ],
+        [
+          "Gåvor och hjälp",
+          "5%",
+          "150"
+        ]
+      ]
+    },
+    "closingParagraphs": [
+      "Efter fördelningen hör varje köp till en viss pott.",
+      "Mat betalas från nödvändiga utgifter. En kurs från utbildning. En resa från långsiktigt sparande. En träff med vänner från nöjen.",
+      "Du ser då inte bara hur mycket pengar som finns kvar totalt, utan också hur mycket som är tillgängligt för varje specifikt ändamål."
+    ]
+  },
+  "misleadingBalance": {
+    "title": "Varför det totala saldot kan vara missvisande",
+    "screenshotAlt": "Startsidan i appen som visar ett totalt saldo på 1 720, med endast 20 kvar i potten ”Nöjen”",
+    "paragraphs": [
+      "När alla pengar finns på ett enda bankkonto kan det tillgängliga beloppet se större ut än det egentligen är.",
+      "Anta att det finns 1 720 på kontot. Formellt är hela beloppet tillgängligt. Men en del kan redan vara avsedd för boende, en del för en framtida semester och en del för din ekonomiska reserv.",
+      "Om du ser hela saldot som fritt tillgängliga pengar är det lätt att spendera pengar som redan behövs till andra mål.",
+      "6-pottsmetoden hjälper dig att mentalt dela upp det totala saldot.",
+      "Du kan se 1 720 på bankkontot, men bara 20 av dem kan vara tillgängliga för nöjen. Resten av pengarna har redan fördelats mellan andra utgiftskategorier."
+    ]
+  },
+  "savingsFirst": {
+    "title": "Sparandet slutar bero på vad som blir över",
+    "paragraphs": [
+      "En vanlig sparstrategi ser ut så här:",
+      "<strong>först spendera pengar under månaden och sedan spara det som blir över.</strong>",
+      "Problemet är att det ofta inte blir något över.",
+      "6-pottsmetoden vänder på ordningen. Pengar till sparande, kapitalbyggande och andra mål avsätts direkt när inkomsten kommer in.",
+      "Du behöver inte vänta till slutet av månaden för att se om du lyckades spara något. Sparandet blir från början en fullvärdig del av budgeten."
+    ]
+  },
+  "easierDecisions": {
+    "title": "Det blir enklare att fatta beslut",
+    "paragraphs": [
+      "För många köp finns inget entydigt rätt eller fel svar.",
+      "Kan du köpa ny elektronik? Bör du gå på restaurang? Är kursen för dyr? Har du råd att åka på semester just nu?",
+      "När alla pengar ligger i en enda gemensam budget måste varje sådant beslut tas från början varje gång.",
+      "Potterna skapar tydliga gränser.",
+      "Om det finns tillräckligt med pengar i rätt pott passar köpet in i din plan. Om pengarna inte räcker kan du skjuta upp köpet, ompröva målet eller medvetet använda pengar från en annan pott.",
+      "Metoden förbjuder dig inte att ändra beslut. Den gör bara konsekvenserna av dem synliga."
+    ]
+  },
+  "spendWithoutGuilt": {
+    "title": "Du kan spendera utan ständig skuldkänsla",
+    "paragraphs": [
+      "Ekonomisk disciplin misstolkas ofta som att man ständigt ska avstå från sådant man tycker om.",
+      "Men ett alltför strikt system där bara nödvändiga utgifter är tillåtna fungerar vanligtvis dåligt på lång sikt. Människor behöver vila, nöjen och möjligheten att ibland spendera pengar bara för att det känns bra.",
+      "Därför finns det en separat pott för nöjen i metoden.",
+      "Om pengarna redan har avsatts för avkoppling kan du använda dem till det. Ett sådant köp stör inte sparandet och tar inte pengar från nödvändiga utgifter.",
+      "Du bryter inte mot budgeten — du följer den."
+    ]
+  },
+  "borrowFromYourself": {
+    "title": "Möjligheten att låna pengar av dig själv",
+    "screenshotAlt": "Skärmen för potten ”Nöjen” med ett negativt saldo på 25 och en historik över utgifter",
+    "paragraphs": [
+      "När du använder 6-pottsmetoden bygger du gradvis upp ett kapital som är fördelat mellan olika uppgifter. Vid ett tillfälligt underskott behöver du därför inte alltid låna av andra eller använda kredit.",
+      "Om en pott inte innehåller tillräckligt med pengar för ett viktigt köp kan du tillfälligt låta saldot gå under noll. I praktiken lånar du pengar av dig själv: köpet betalas från dina totala tillgängliga medel, men överskridandet registreras fortfarande i den pott som utgiften hör till.",
+      "Nästa gång du får inkomst minskar eller försvinner det negativa saldot. Det innebär att mindre pengar blir tillgängliga i den potten under nästa period. Systemet förbjuder alltså inte ett viktigt köp, men visar tydligt hur det påverkar din framtida budget.",
+      "Tekniskt kan du flytta det nödvändiga beloppet från en annan pott och sedan flytta tillbaka det efter nästa inkomst. Jag rekommenderar dock inte detta om det inte behövs. En sådan överföring döljer den verkliga överskridningen i den ursprungliga potten och gör rapporterna mindre användbara: det blir svårare att se vilka områden där den avsatta summan faktiskt inte räcker.",
+      "Om du låter potten ligga på minus förblir utgiftshistoriken ärlig. Du ser var överskridandet skedde, hur stort det var och om det täcktes efter nästa inkomst.",
+      "I min egen erfarenhet blev det här en av de tydligaste fördelarna med metoden: jag slutade låna pengar av andra eftersom jag vid behov kunde låna tillfälligt av mig själv.",
+      "Om samma pott regelbundet går under noll är det inte längre ett tillfälligt undantag, utan ett tecken på att du bör se över inkomstfördelningen. Du kan öka procentandelen för den potten genom att minska andelarna för potter där pengar vanligtvis blir över. Det är just detta som gör metoden flexibel: systemet anpassar sig gradvis efter dina verkliga utgifter i stället för att tvinga dig att följa oföränderliga proportioner."
+    ]
+  },
+  "goalsNoLongerCompete": {
+    "title": "Ekonomiska mål slutar konkurrera med varandra",
+    "listIntro": "Utan ett system förväntas alla fria pengar samtidigt räcka till allt:",
+    "items": [
+      "ekonomisk reserv;",
+      "semester;",
+      "utbildning;",
+      "ny elektronik;",
+      "nöjen;",
+      "oväntade utgifter."
+    ],
+    "closingParagraphs": [
+      "Därför tränger ett mål ofta undan de andra. Ett stort köp kan helt stoppa sparandet, medan en oväntad utgift kan göra att en planerad semester måste ställas in.",
+      "Genom att dela upp pengarna efter syfte kan du arbeta mot flera mål samtidigt.",
+      "Även om beloppen är små i början får varje viktigt område sin andel varje gång du får inkomst."
+    ]
+  },
+  "financialDiscipline": {
+    "title": "Metoden hjälper dig att utveckla ekonomisk disciplin",
+    "openingParagraphs": [
+      "Metodens viktigaste värde ligger inte bara i hur pengarna fördelas, utan också i de vanor som byggs upp under användningen.",
+      "Regelbunden fördelning av inkomster förändrar gradvis hur du ser på pengar. Du börjar se det du får in inte som en enda pott som kan spenderas tills den är tom, utan som en resurs för olika delar av livet."
+    ],
+    "listIntro": "Du utvecklar vanan att:",
+    "items": [
+      "först fördela pengarna och sedan spendera dem;",
+      "ta hänsyn till konsekvenserna av varje köp;",
+      "regelbundet avsätta pengar till framtida mål;",
+      "hålla balans mellan dagens önskemål och långsiktiga planer;",
+      "fatta ekonomiska beslut medvetet."
+    ],
+    "closingParagraphs": [
+      "Systemet kräver inte perfekt beteende från första dagen. Ekonomisk disciplin utvecklas gradvis genom att samma enkla handlingar upprepas.",
+      "I min egen erfarenhet visade sig just detta vara metodens största fördel. Den hjälpte mig inte bara att få bättre koll på pengarna, utan förändrade gradvis hela mitt sätt att se på inkomster, utgifter och sparande."
+    ]
+  },
+  "irregularIncome": {
+    "title": "Vad gör man vid oregelbunden inkomst?",
+    "paragraphs": [
+      "Metoden fungerar inte bara om du har en fast månadslön.",
+      "Om inkomsten kommer oregelbundet fördelar du varje inbetalning separat.",
+      "Du får betalt för ett projekt, ett extrajobb, ett uppdrag eller en försäljning — fördela då beloppet direkt mellan potterna enligt dina valda procentsatser.",
+      "Vid osäker inkomst kan det vara särskilt bra att öka den andel som går till reserven. Det hjälper dig att klara perioder när mindre pengar kommer in.",
+      "Metoden kräver inte att du i förväg känner till exakt hur stor din månadsinkomst blir. Den arbetar med pengar du faktiskt redan har fått."
+    ]
+  },
+  "notEnoughMoney": {
+    "title": "Vad gör man om pengarna inte räcker just nu?",
+    "paragraphs": [
+      "De klassiska procentsatserna kan passa dåligt för någon som spenderar nästan hela inkomsten på grundläggande behov.",
+      "Det betyder inte att metoden är meningslös.",
+      "Du kan börja med en mer realistisk fördelning. Till exempel kan du lägga 80–90% på nödvändiga utgifter och fördela resten mellan de mål som är viktigast för dig.",
+      "Även ett litet belopp som regelbundet går till en reserv eller ett långsiktigt mål hjälper till att bygga upp vanan.",
+      "När inkomster och utgifter förändras kan procentsatserna justeras.",
+      "Det viktiga är inte storleken på det första steget, utan regelbundenheten."
+    ]
+  },
+  "notExactlySixJars": {
+    "title": "Måste man använda exakt sex potter?",
+    "openingParagraphs": [
+      "Nej.",
+      "Sex potter är grunden i den klassiska metoden. De täcker de viktigaste ekonomiska uppgifterna och fungerar bra som utgångspunkt.",
+      "Med tiden kan du dock anpassa systemet."
+    ],
+    "listIntro": "Du kan till exempel skapa separata potter för:",
+    "items": [
+      "semester;",
+      "hälsa;",
+      "bil;",
+      "renovering;",
+      "husdjur;",
+      "barn;",
+      "skatter;",
+      "elektronik;",
+      "ett specifikt större köp."
+    ],
+    "closingParagraphs": [
+      "Vissa klassiska potter kan du i stället slå ihop eller byta namn på.",
+      "Det viktiga är att behålla grundprincipen: pengarna ska delas upp efter syfte och strukturen ska passa ditt liv."
+    ]
+  },
+  "physicalJarsProblem": {
+    "title": "Problemet med fysiska potter och kuvert",
+    "paragraphs": [
+      "Ursprungligen byggde sådana system på kontanter.",
+      "Inkomsten kunde bokstavligen delas upp mellan olika potter, lådor eller kuvert. Det gjorde fördelningen tydlig: pengar för olika kategorier låg faktiskt separat.",
+      "I dag sker däremot de flesta ekonomiska transaktioner utan kontanter.",
+      "Vi får inkomster till ett bankkonto, betalar med kort, köper tjänster på nätet och för över pengar med mobilen.",
+      "Under sådana förhållanden blir fysiska potter opraktiska. För att upprätthålla systemet skulle du behöva ta ut kontanter regelbundet eller manuellt registrera varje kort- och digitalbetalning.",
+      "Du kan öppna flera bankkonton, men det är inte alltid praktiskt att hantera många konton och överföringar heller. Antalet tillgängliga konton och deras villkor beror dessutom på banken."
+    ]
+  },
+  "digitalJars": {
+    "title": "Digitala potter",
+    "paragraphs": [
+      "Jag stötte själv på det här problemet.",
+      "Jag gillade principen bakom 6-pottsmetoden, och regelbunden användning hjälpte mig faktiskt att utveckla ett mer disciplinerat förhållningssätt till pengar.",
+      "Men fysiska potter och kuvert visade sig vara opraktiska i en värld där de flesta betalningar är digitala.",
+      "Därför utvecklade jag <strong>6 Jars Finance</strong> — en app för privatekonomi baserad på 6-pottsmetoden.",
+      "Appen behåller systemets grundidé utan att du behöver dela upp pengarna fysiskt.",
+      "Du låter pengarna ligga kvar på ditt vanliga bankkonto, men i appen ser du ett separat saldo för varje pott."
+    ]
+  },
+  "appHowItWorks": {
+    "title": "Så fungerar 6 Jars Finance",
+    "openingParagraphs": [
+      "När du får inkomst fördelar appen den mellan potterna enligt de procentsatser du har valt.",
+      "Efter ett köp anger du vilken pott pengarna togs från. Bara saldot i den potten minskar — pengarna i de andra potterna behåller sina ursprungliga syften.",
+      "På så sätt får ditt totala banksaldo en tydlig intern struktur."
+    ],
+    "listIntro": "Du ser:",
+    "items": [
+      "hur mycket pengar som finns tillgängligt för nödvändiga utgifter;",
+      "hur mycket som har sparats till långsiktiga mål;",
+      "hur mycket du kan spendera på nöjen;",
+      "vilken budget som har avsatts för utbildning;",
+      "hur saldona i potterna förändras över tid."
+    ],
+    "closingParagraphs": [
+      "Appen flyttar inte pengar mellan bankkonton och får inte tillgång till din bank. Den hjälper dig att föra en separat översikt och förstå vad varje del av pengarna är avsedd för."
+    ]
+  },
+  "trackEveryPurchase": {
+    "title": "Måste varje köp registreras separat?",
+    "screenshotAlt": "Skärmen för att lägga till en utgift på 75 från potten ”Löpande utgifter” med taggen ”Mat”",
+    "paragraphs": [
+      "Nej. För att använda metoden räcker det att ange utgiftens totalsumma och välja vilken pott pengarna togs från.",
+      "Ett vanligt butiksbesök kan till exempel registreras som en enda transaktion på 105. Om du vill ha mer detalj kan du dela upp summan i flera transaktioner: 75 för mat och 30 för hushållsvaror. För ytterligare detaljer kan du använda taggar.",
+      "Du bestämmer själv vilken detaljnivå som är lagom. Appen kräver inte att du skriver av varje rad på kvittot — registreringen ska hjälpa dig att förstå pengarnas rörelse utan att ta för mycket tid.",
+      "Att lägga till en utgift manuellt kräver en liten extra handling, men hjälper dig samtidigt att uppmärksamma dina utgifter och bättre förstå vart pengarna tar vägen."
+    ]
+  },
+  "adaptSystem": {
+    "title": "Anpassa systemet efter dig",
+    "openingParagraphs": [
+      "6 Jars Finance bygger på den klassiska metoden, men begränsar dig inte till dess ursprungliga struktur."
+    ],
+    "listIntro": "Du kan:",
+    "items": [
+      "ändra fördelningsprocenter;",
+      "byta namn på potter;",
+      "skapa egna potter;",
+      "använda fler eller färre än sex potter;",
+      "ändra ordningen på potterna;",
+      "registrera inkomster och utgifter;",
+      "lägga till återkommande transaktioner;",
+      "analysera pengaflöden med hjälp av rapporter."
+    ],
+    "closingParagraphs": [
+      "Den klassiska strukturen kan vara en praktisk utgångspunkt. Därefter kan du gradvis ändra den så att den passar just dina behov."
+    ]
+  },
+  "startWithNextIncome": {
+    "title": "Börja med din nästa inkomst",
+    "paragraphs": [
+      "Du behöver inte direkt göra om hela ditt ekonomiska system eller följa de klassiska procentsatserna perfekt.",
+      "Börja enkelt: fördela din nästa inkomst mellan några uppgifter som är viktiga för dig.",
+      "Redan det hjälper dig att se pengar inte som en enda totalsumma, utan som ett verktyg för olika delar av ditt liv.",
+      "I 6 Jars Finance är <strong>de klassiska potterna och procentsatserna redan inställda.</strong> Du kan börja med dem och sedan ändra fördelningen efter behov."
+    ],
+    "cta": "Gå till 6 Jars Finance →"
+  }
+}

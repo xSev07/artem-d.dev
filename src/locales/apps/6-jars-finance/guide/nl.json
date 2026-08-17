@@ -1,0 +1,423 @@
+{
+  "title": "De 6-pottenmethode: een eenvoudige manier om je geld te beheren",
+  "metaDescription": "De 6-pottenmethode helpt je niet alleen om uitgaven bij te houden, maar ook om vooraf te bepalen waarvoor je je inkomen wilt gebruiken.",
+  "intro": {
+    "paragraphs": [
+      "De 6-pottenmethode helpt je niet alleen om uitgaven bij te houden, maar ook om vooraf te bepalen waarvoor je je inkomen wilt gebruiken.",
+      "Het principe is eenvoudig: elke keer dat je geld ontvangt, verdeel je het over verschillende financiële doelen. Eén deel is bedoeld voor het dagelijks leven en de rest voor sparen, educatie, ontspanning, vermogensopbouw en het helpen van anderen.",
+      "Daardoor is je geld niet langer één groot bedrag op je rekening. Elk deel krijgt een eigen bestemming."
+    ]
+  },
+  "overview": {
+    "title": "Inhoudsopgave",
+    "managingMoney": "Wat de 6-pottenmethode is",
+    "howItWorks": "Hoe de verdeling van geld werkt",
+    "adjustPercents": "Hoe je de methode aan jezelf aanpast",
+    "misleadingBalance": "Hoe de methode helpt in het dagelijks leven",
+    "irregularIncome": "Hoe je de methode gebruikt in verschillende situaties",
+    "physicalJarsProblem": "Hoe je de methode zonder contant geld gebruikt",
+    "appHowItWorks": "Hoe je de methode in de app gebruikt"
+  },
+  "managingMoney": {
+    "title": "Niet alleen uitgaven bijhouden, maar je geld beheren",
+    "paragraphs": [
+      "Gewone uitgavenregistratie helpt antwoord te geven op de vraag:",
+      "<strong>“Waar is mijn geld al naartoe gegaan?”</strong>",
+      "Dat is nuttig, maar vaak niet genoeg. Zelfs als je je aankopen regelmatig bijhoudt, betekent dat niet automatisch dat er aan het einde van de maand geld overblijft voor sparen, educatie of grote doelen.",
+      "De 6-pottenmethode kiest een andere aanpak. Ze helpt je vooraf antwoord te geven op de vraag:",
+      "<strong>“Waar wil ik het geld dat ik ontvang voor gebruiken?”</strong>",
+      "Je verdeelt je inkomen voordat je het begint uit te geven. Daardoor hangen je spaargelden niet af van wat er toevallig aan het einde van de maand overblijft en slokken dagelijkse uitgaven niet al het beschikbare geld op."
+    ]
+  },
+  "howItWorks": {
+    "title": "Hoe de 6-pottenmethode werkt",
+    "lead": "In de klassieke versie van de methode wordt elk inkomen verdeeld over zes potten.",
+    "screenshotAlt": "Startscherm van 6 Jars Finance met zes potten en het inkomen dat erover is verdeeld",
+    "jars": {
+      "essentialExpenses": {
+        "title": "Noodzakelijke uitgaven — 55%",
+        "intro": "Deze pot is bedoeld voor dagelijkse noodzakelijke uitgaven:",
+        "items": [
+          "wonen;",
+          "boodschappen;",
+          "vervoer;",
+          "nutsvoorzieningen;",
+          "telefoon en internet;",
+          "zorg;",
+          "andere vaste behoeften."
+        ],
+        "outro": "Dit is het geld waarmee je je gewone dagelijkse leven betaalt."
+      },
+      "financialIndependence": {
+        "title": "Financiële onafhankelijkheid — 10%",
+        "paragraphs": [
+          "Het geld uit deze pot is bedoeld om vermogen op te bouwen en in de toekomst inkomen te genereren.",
+          "In het klassieke systeem is het de bedoeling dat het hoofdbedrag niet wordt gebruikt voor gewone aankopen. Het doel is om geleidelijk een financiële basis op te bouwen.",
+          "Hoe je dit geld gebruikt, hangt af van je kennis, doelen en houding tegenover risico. Denk bijvoorbeeld aan spaarproducten, beleggingen of andere manieren om vermogen op te bouwen."
+        ]
+      },
+      "longTermSavings": {
+        "title": "Langetermijnsparen — 10%",
+        "intro": "Deze pot helpt je om je vooraf voor te bereiden op grotere uitgaven.",
+        "listIntro": "Bijvoorbeeld voor:",
+        "items": [
+          "het opbouwen van een financiële reserve;",
+          "een vakantie;",
+          "een verbouwing;",
+          "de aankoop van apparatuur;",
+          "een auto;",
+          "een verhuizing;",
+          "andere grote doelen."
+        ],
+        "outro": "Zulke uitgaven komen minder onverwacht, omdat je het geld ervoor geleidelijk opbouwt."
+      },
+      "education": {
+        "title": "Educatie — 10%",
+        "intro": "Dit geld is bedoeld voor de ontwikkeling van kennis en vaardigheden.",
+        "listIntro": "Je kunt het gebruiken voor:",
+        "items": [
+          "boeken;",
+          "cursussen;",
+          "professionele opleidingen;",
+          "taallessen;",
+          "lessen met een docent;",
+          "conferenties;",
+          "andere educatieve materialen."
+        ],
+        "outro": "Educatie wordt zo een apart onderdeel van je budget in plaats van een uitgave die je steeds uitstelt."
+      },
+      "entertainment": {
+        "title": "Ontspanning — 10%",
+        "intro": "Deze pot is bedoeld voor ontspanning en leuke aankopen.",
+        "listIntro": "Bijvoorbeeld voor:",
+        "items": [
+          "afspreken met vrienden;",
+          "cafés en restaurants;",
+          "games;",
+          "hobby's;",
+          "uitstapjes;",
+          "evenementen;",
+          "kleine spontane aankopen."
+        ],
+        "outro": "Een apart budget voor ontspanning maakt het mogelijk om geld uit te geven aan leuke dingen zonder voortdurend schuldgevoel. Je hebt dit geld vooraf juist voor dit soort dingen gereserveerd."
+      },
+      "giftsAndCharity": {
+        "title": "Cadeaus en hulp — 5%",
+        "intro": "Deze pot kun je gebruiken voor:",
+        "items": [
+          "cadeaus;",
+          "goede doelen;",
+          "hulp aan familie en vrienden;",
+          "steun aan projecten en initiatieven die je belangrijk vindt."
+        ],
+        "outro": "Ook deze uitgaven worden zo een gepland onderdeel van je budget en verstoren je andere financiële doelen niet."
+      }
+    }
+  },
+  "adjustPercents": {
+    "title": "De percentages kunnen worden aangepast",
+    "screenshotAlt": "Scherm voor het instellen van de procentuele verdeling van inkomen over de potten",
+    "openingParagraphs": [
+      "De verdeling van 55%, 10%, 10%, 10%, 10% en 5% is een uitgangspunt, geen verplichte regel.",
+      "Mensen hebben verschillende inkomens, woonkosten, gezinssituaties, doelen en verplichtingen. Voor de ene persoon kan 55% voor noodzakelijke uitgaven genoeg zijn, terwijl bij iemand anders alleen huur en boodschappen al het grootste deel van het inkomen opslokken.",
+      "Daarom kun en moet je de percentages aanpassen aan je werkelijke situatie."
+    ],
+    "listIntro": "Je kunt bijvoorbeeld:",
+    "items": [
+      "het aandeel voor noodzakelijke uitgaven verhogen;",
+      "tijdelijk meer geld naar je financiële reserve sturen;",
+      "minder uitgeven aan ontspanning;",
+      "sneller sparen voor een specifiek doel;",
+      "de verhoudingen aanpassen nadat je inkomen stijgt of daalt."
+    ],
+    "closingParagraphs": [
+      "Het belangrijkste van de methode is niet dat je de klassieke percentages exact volgt, maar dat je de gewoonte ontwikkelt om je geld regelmatig over verschillende doelen te verdelen.",
+      "Het systeem moet je helpen beslissingen te nemen en geen extra bron van druk worden."
+    ],
+    "cta": "Probeer de methode in 6 Jars Finance →"
+  },
+  "samePurchaseDifferentJars": {
+    "title": "Dezelfde aankoop kan uit verschillende potten komen",
+    "openingParagraphs": [
+      "Binnen de 6-pottenmethode bestaat geen universele lijst die elke aankoop automatisch aan één bepaalde categorie koppelt. Niet alleen wat je koopt is belangrijk, maar ook waarom je het koopt."
+    ],
+    "listIntro": "Een bezoek aan een café kan bijvoorbeeld uit verschillende potten komen:",
+    "items": [
+      "uit noodzakelijke uitgaven als het je gewone lunch tijdens het werk is;",
+      "uit ontspanning als je erheen gaat om te ontspannen of jezelf iets te gunnen;",
+      "uit cadeaus en hulp als je voor iemand anders betaalt."
+    ],
+    "closingParagraphs": [
+      "Je bepaalt zelf wat het doel van een uitgave is op basis van de situatie en je eigen doelen.",
+      "De methode verplicht je niet om strikte regels te volgen. Ze geeft je een kader en helpt je bewust te beslissen welk deel van je budget een bepaalde aankoop moet betalen."
+    ]
+  },
+  "example": {
+    "title": "Hoe dit er in de praktijk uitziet",
+    "openingParagraphs": [
+      "Stel dat je een inkomen van 3 000 ontvangt.",
+      "Bij de klassieke verdeling wordt het geld als volgt verdeeld:"
+    ],
+    "table": {
+      "headers": [
+        "Pot",
+        "Aandeel",
+        "Bedrag"
+      ],
+      "rows": [
+        [
+          "Noodzakelijke uitgaven",
+          "55%",
+          "1 650"
+        ],
+        [
+          "Financiële onafhankelijkheid",
+          "10%",
+          "300"
+        ],
+        [
+          "Langetermijnsparen",
+          "10%",
+          "300"
+        ],
+        [
+          "Educatie",
+          "10%",
+          "300"
+        ],
+        [
+          "Ontspanning",
+          "10%",
+          "300"
+        ],
+        [
+          "Cadeaus en hulp",
+          "5%",
+          "150"
+        ]
+      ]
+    },
+    "closingParagraphs": [
+      "Na de verdeling hoort elke aankoop bij een bepaalde pot.",
+      "Boodschappen betaal je uit noodzakelijke uitgaven. Een cursus uit educatie. Een reis uit langetermijnsparen. Afspreken met vrienden uit ontspanning.",
+      "Je ziet zo niet alleen hoeveel geld je in totaal nog hebt, maar ook hoeveel er voor elk specifiek doel beschikbaar is."
+    ]
+  },
+  "misleadingBalance": {
+    "title": "Waarom je totale saldo misleidend kan zijn",
+    "screenshotAlt": "Startscherm van de app met een totaal saldo van 1 720, waarbij in de pot „Ontspanning” nog maar 20 over is",
+    "paragraphs": [
+      "Als al je geld op één bankrekening staat, kan het beschikbare bedrag groter lijken dan het in werkelijkheid is.",
+      "Stel dat er 1 720 op je rekening staat. Formeel is al dat geld beschikbaar. Maar een deel kan al bedoeld zijn voor woonkosten, een deel voor een toekomstige vakantie en een deel voor je financiële reserve.",
+      "Als je het volledige saldo als vrij besteedbaar geld ziet, is het gemakkelijk om geld uit te geven dat eigenlijk al voor andere doelen nodig was.",
+      "De 6-pottenmethode helpt je om je totale saldo mentaal op te delen.",
+      "Je kunt 1 720 op je bankrekening zien, terwijl daarvan maar 20 beschikbaar is voor ontspanning. De rest van het geld is al verdeeld over andere uitgavencategorieën."
+    ]
+  },
+  "savingsFirst": {
+    "title": "Sparen hangt niet meer af van wat er overblijft",
+    "paragraphs": [
+      "Een veelgebruikte spaarstrategie ziet er zo uit:",
+      "<strong>eerst gedurende de maand geld uitgeven en daarna sparen wat er overblijft.</strong>",
+      "Het probleem is dat er vaak niets overblijft.",
+      "De 6-pottenmethode draait deze volgorde om. Geld voor sparen, vermogensopbouw en andere doelen wordt direct na ontvangst van je inkomen gereserveerd.",
+      "Je hoeft niet tot het einde van de maand te wachten om te ontdekken of het gelukt is iets te sparen. Sparen wordt vanaf het begin een volwaardig onderdeel van je budget."
+    ]
+  },
+  "easierDecisions": {
+    "title": "Beslissingen nemen wordt eenvoudiger",
+    "paragraphs": [
+      "Voor veel aankopen bestaat geen duidelijk goed of fout antwoord.",
+      "Kun je een nieuw apparaat kopen? Is het verstandig om naar een restaurant te gaan? Is een cursus te duur? Kun je nu op vakantie?",
+      "Als al je geld in één algemeen budget zit, moet je elke dergelijke beslissing steeds opnieuw nemen.",
+      "De potten geven duidelijke grenzen.",
+      "Als er genoeg geld in de juiste pot zit, past de aankoop binnen je plan. Als er niet genoeg is, kun je de aankoop uitstellen, het doel heroverwegen of bewust geld uit een andere pot gebruiken.",
+      "De methode verbiedt je niet om van gedachten te veranderen. Ze maakt alleen de gevolgen van je keuzes zichtbaar."
+    ]
+  },
+  "spendWithoutGuilt": {
+    "title": "Je kunt geld uitgeven zonder voortdurend schuldgevoel",
+    "paragraphs": [
+      "Financiële discipline wordt vaak ten onrechte gezien als jezelf voortdurend leuke aankopen ontzeggen.",
+      "Maar een te streng systeem waarin alleen noodzakelijke uitgaven zijn toegestaan, werkt meestal slecht op de lange termijn. Mensen hebben rust, ontspanning en de mogelijkheid nodig om af en toe gewoon voor hun plezier geld uit te geven.",
+      "Daarom bevat de methode een aparte pot voor ontspanning.",
+      "Als geld vooraf voor ontspanning is gereserveerd, kun je het daarvoor gebruiken. Zo'n aankoop gaat niet ten koste van je spaargeld en neemt geen geld weg van noodzakelijke uitgaven.",
+      "Je breekt je budget niet — je volgt het."
+    ]
+  },
+  "borrowFromYourself": {
+    "title": "De mogelijkheid om geld van jezelf te lenen",
+    "screenshotAlt": "Scherm van de pot „Ontspanning” met een negatief saldo van 25 en een overzicht van uitgaven",
+    "paragraphs": [
+      "Wanneer je de 6-pottenmethode langere tijd gebruikt, bouw je geleidelijk een geldreserve op die over verschillende doelen is verdeeld. Daardoor hoef je bij een tijdelijk tekort niet altijd geld van anderen te lenen of krediet te gebruiken.",
+      "Als er in één pot niet genoeg geld zit voor een belangrijke aankoop, kun je het saldo tijdelijk onder nul laten gaan. In feite leen je geld van jezelf: de aankoop wordt betaald uit je totale beschikbare middelen, maar de overschrijding blijft geregistreerd in de pot waar de uitgave bij hoort.",
+      "Bij je volgende inkomen wordt het negatieve saldo gedeeltelijk of volledig aangevuld. Daardoor is er in de volgende periode minder geld beschikbaar in die pot. Het systeem verbiedt een noodzakelijke aankoop dus niet, maar laat wel duidelijk zien wat de gevolgen ervan zijn voor je toekomstige budget.",
+      "Technisch kun je het benodigde bedrag uit een andere pot overzetten en het na je volgende inkomen weer terugzetten. Ik raad dit echter niet aan als het niet nodig is. Zo'n overboeking verbergt de werkelijke overschrijding in de oorspronkelijke pot en maakt rapportages minder nuttig: het wordt moeilijker om te zien voor welke doelen het gereserveerde bedrag structureel niet genoeg is.",
+      "Als je de pot onder nul laat staan, blijft je uitgavenhistorie eerlijk. Je ziet waar de overschrijding plaatsvond, hoe groot die was en of ze na het volgende inkomen weer werd aangevuld.",
+      "In mijn eigen ervaring werd dit een van de duidelijkste voordelen van de methode: ik stopte met geld lenen van andere mensen, omdat ik indien nodig tijdelijk van mezelf kon lenen.",
+      "Als dezelfde pot regelmatig onder nul komt, is het geen tijdelijke uitzondering meer maar een signaal dat je de verdeling van je inkomen moet herzien. Je kunt het percentage van deze pot verhogen door het aandeel te verlagen van potten waarin meestal geld overblijft. Dat is precies de flexibiliteit van de methode: het systeem past zich geleidelijk aan je werkelijke uitgaven aan, in plaats van je te dwingen vaste verhoudingen te blijven volgen."
+    ]
+  },
+  "goalsNoLongerCompete": {
+    "title": "Financiële doelen concurreren niet langer met elkaar",
+    "listIntro": "Zonder systeem moet vrij geld tegelijkertijd voor alles dienen:",
+    "items": [
+      "een financiële reserve;",
+      "een vakantie;",
+      "educatie;",
+      "nieuwe apparatuur;",
+      "ontspanning;",
+      "onverwachte uitgaven."
+    ],
+    "closingParagraphs": [
+      "Daardoor verdringt het ene doel vaak het andere. Een grote aankoop kan het sparen volledig stilleggen, terwijl een onverwachte uitgave een vakantie kan laten vervallen.",
+      "Door geld per doel te verdelen, kun je aan meerdere richtingen tegelijk blijven werken.",
+      "Zelfs als de bedragen in het begin klein zijn, krijgt elk belangrijk gebied bij elk inkomen een eigen aandeel."
+    ]
+  },
+  "financialDiscipline": {
+    "title": "De methode helpt financiële discipline op te bouwen",
+    "openingParagraphs": [
+      "De belangrijkste waarde van de methode zit niet alleen in de manier waarop het geld wordt verdeeld, maar ook in de gewoontes die je tijdens het gebruik ontwikkelt.",
+      "Door je inkomen regelmatig te verdelen, verandert geleidelijk de manier waarop je naar geld kijkt. Je ziet een ontvangen bedrag niet langer als één grote voorraad die je kunt uitgeven totdat hij op is, maar als een middel voor verschillende onderdelen van je leven."
+    ],
+    "listIntro": "Je ontwikkelt de gewoonte om:",
+    "items": [
+      "eerst geld te verdelen en het daarna pas uit te geven;",
+      "rekening te houden met de gevolgen van elke aankoop;",
+      "regelmatig geld naar toekomstige doelen te sturen;",
+      "een evenwicht te bewaren tussen wat je vandaag wilt en je plannen voor de lange termijn;",
+      "bewuste financiële beslissingen te nemen."
+    ],
+    "closingParagraphs": [
+      "Het systeem vereist niet dat je vanaf de eerste dag alles perfect doet. Financiële discipline ontstaat geleidelijk door dezelfde eenvoudige handelingen telkens te herhalen.",
+      "In mijn eigen ervaring bleek juist dit het grootste voordeel van de methode. Ze hielp me niet alleen mijn geld beter bij te houden, maar veranderde geleidelijk mijn hele kijk op inkomen, uitgaven en sparen."
+    ]
+  },
+  "irregularIncome": {
+    "title": "Wat te doen bij een onregelmatig inkomen",
+    "paragraphs": [
+      "De methode werkt niet alleen als je een vast maandsalaris ontvangt.",
+      "Als je inkomen onregelmatig binnenkomt, verdeel je elke betaling afzonderlijk.",
+      "Je krijgt betaald voor een project, bijbaan, opdracht of verkoop — verdeel dat bedrag dan direct over je potten volgens de percentages die je hebt gekozen.",
+      "Bij een wisselend inkomen kan het extra nuttig zijn om een groter deel naar je reserve te sturen. Dat helpt om perioden met minder inkomsten op te vangen.",
+      "De methode vereist niet dat je vooraf precies weet hoeveel je die maand zult verdienen. Ze werkt met geld dat je daadwerkelijk al hebt ontvangen."
+    ]
+  },
+  "notEnoughMoney": {
+    "title": "Wat als er voorlopig niet genoeg geld is?",
+    "paragraphs": [
+      "De klassieke percentages kunnen slecht passen bij iemand die bijna het volledige inkomen aan basisbehoeften uitgeeft.",
+      "Dat betekent niet dat de methode nutteloos is.",
+      "Je kunt beginnen met een realistischere verdeling. Je kunt bijvoorbeeld 80–90% aan noodzakelijke uitgaven besteden en het resterende bedrag verdelen over de doelen die voor jou het belangrijkst zijn.",
+      "Zelfs een klein bedrag dat je regelmatig naar een reserve of langetermijndoel stuurt, helpt om de gewoonte op te bouwen.",
+      "Wanneer je inkomen en uitgaven veranderen, kun je de verhoudingen opnieuw aanpassen.",
+      "Niet de grootte van de eerste stap is belangrijk, maar de regelmaat."
+    ]
+  },
+  "notExactlySixJars": {
+    "title": "Moet je precies zes potten gebruiken?",
+    "openingParagraphs": [
+      "Nee.",
+      "Zes potten vormen de basis van de klassieke methode. Ze dekken de belangrijkste financiële doelen en zijn een handig uitgangspunt.",
+      "Na verloop van tijd kun je het systeem echter aanpassen."
+    ],
+    "listIntro": "Je kunt bijvoorbeeld aparte potten maken voor:",
+    "items": [
+      "vakantie;",
+      "gezondheid;",
+      "een auto;",
+      "een verbouwing;",
+      "huisdieren;",
+      "kinderen;",
+      "belastingen;",
+      "apparatuur;",
+      "een specifieke grote aankoop."
+    ],
+    "closingParagraphs": [
+      "Sommige klassieke potten kun je juist samenvoegen of hernoemen.",
+      "Het belangrijkste is dat het basisprincipe behouden blijft: geld wordt verdeeld op basis van bestemming en de structuur past bij jouw leven."
+    ]
+  },
+  "physicalJarsProblem": {
+    "title": "Het probleem met fysieke potten en enveloppen",
+    "paragraphs": [
+      "Oorspronkelijk waren dit soort systemen gebaseerd op contant geld.",
+      "Je kon je inkomen letterlijk verdelen over afzonderlijke potten, dozen of enveloppen. Daardoor was de verdeling heel duidelijk: geld voor verschillende categorieën werd echt apart bewaard.",
+      "Tegenwoordig zijn de meeste financiële transacties echter digitaal.",
+      "We ontvangen inkomen op een bankrekening, betalen met een kaart, betalen diensten online en maken geld over via onze telefoon.",
+      "In zulke omstandigheden worden fysieke potten onpraktisch. Om het systeem vol te houden, zou je regelmatig contant geld moeten opnemen of elke digitale betaling handmatig moeten bijhouden.",
+      "Je kunt meerdere bankrekeningen openen, maar het beheren van veel rekeningen en overboekingen is ook niet altijd handig. Bovendien hangt het aantal beschikbare rekeningen en de voorwaarden ervan af van de bank."
+    ]
+  },
+  "digitalJars": {
+    "title": "Digitale potten",
+    "paragraphs": [
+      "Ik liep zelf tegen dit probleem aan.",
+      "Ik vond het principe van de 6-pottenmethode prettig en regelmatig gebruik hielp me daadwerkelijk om een gedisciplineerdere houding tegenover geld te ontwikkelen.",
+      "Maar fysieke potten of enveloppen bleken onhandig in een wereld waarin de meeste betalingen digitaal zijn.",
+      "Daarom heb ik <strong>6 Jars Finance</strong> ontwikkeld — een app voor persoonlijke financiën op basis van de 6-pottenmethode.",
+      "De app behoudt het belangrijkste idee van het systeem zonder dat je je geld fysiek hoeft te scheiden.",
+      "Je geld blijft gewoon op je gebruikelijke bankrekening staan, terwijl je in de app voor elke pot een apart saldo ziet."
+    ]
+  },
+  "appHowItWorks": {
+    "title": "Hoe 6 Jars Finance werkt",
+    "openingParagraphs": [
+      "Wanneer je inkomen ontvangt, verdeelt de app het over de potten volgens de percentages die je hebt ingesteld.",
+      "Na een aankoop geef je aan uit welke pot het geld is uitgegeven. Alleen het saldo van die pot daalt — het geld in de andere potten behoudt zijn bestemming.",
+      "Zo krijgt je totale banksaldo een duidelijke interne structuur."
+    ],
+    "listIntro": "Je ziet:",
+    "items": [
+      "hoeveel geld beschikbaar is voor noodzakelijke uitgaven;",
+      "hoeveel is opgebouwd voor langetermijndoelen;",
+      "hoeveel je aan ontspanning kunt uitgeven;",
+      "welk budget is gereserveerd voor educatie;",
+      "hoe de saldi van je potten in de loop van de tijd veranderen."
+    ],
+    "closingParagraphs": [
+      "De app verplaatst geen geld tussen bankrekeningen en heeft geen toegang tot je bank. Ze helpt je om afzonderlijk bij te houden waarvoor elk deel van je geld bedoeld is."
+    ]
+  },
+  "trackEveryPurchase": {
+    "title": "Moet je elke aankoop afzonderlijk invoeren?",
+    "screenshotAlt": "Scherm voor het toevoegen van een uitgave van 75 uit de pot „Dagelijkse uitgaven” met de tag „Boodschappen”",
+    "paragraphs": [
+      "Nee. Voor de methode hoef je alleen het totale bedrag van een uitgave in te voeren en de pot te kiezen waaruit het geld is uitgegeven.",
+      "Een gewone winkeltrip kun je bijvoorbeeld als één uitgave van 105 registreren. Als je meer detail wilt, kun je het bedrag opsplitsen in meerdere transacties: 75 voor boodschappen en 30 voor huishoudelijke artikelen. Voor extra detaillering kun je tags gebruiken.",
+      "Je bepaalt zelf welk detailniveau voor jou nuttig is. De app vereist niet dat je elk artikel van een kassabon overneemt — bijhouden moet je helpen om geldstromen te begrijpen en niet te veel tijd kosten.",
+      "Een uitgave handmatig invoeren kost een kleine extra handeling, maar helpt je tegelijkertijd om je uitgaven bewuster op te merken en beter te begrijpen waar je geld naartoe gaat."
+    ]
+  },
+  "adaptSystem": {
+    "title": "Pas het systeem aan jezelf aan",
+    "openingParagraphs": [
+      "6 Jars Finance is gebaseerd op de klassieke methode, maar beperkt je niet tot de oorspronkelijke structuur."
+    ],
+    "listIntro": "Je kunt:",
+    "items": [
+      "de verdelingspercentages aanpassen;",
+      "potten hernoemen;",
+      "je eigen potten maken;",
+      "meer of minder dan zes potten gebruiken;",
+      "de volgorde van de potten veranderen;",
+      "inkomsten en uitgaven registreren;",
+      "terugkerende transacties toevoegen;",
+      "geldstromen analyseren met rapporten."
+    ],
+    "closingParagraphs": [
+      "De klassieke structuur kan een handig uitgangspunt zijn. Daarna kun je die geleidelijk aanpassen totdat ze bij jouw eigen doelen past."
+    ]
+  },
+  "startWithNextIncome": {
+    "title": "Begin met je volgende inkomen",
+    "paragraphs": [
+      "Je hoeft niet meteen je hele financiële systeem om te gooien of de klassieke percentages perfect te volgen.",
+      "Begin eenvoudig: verdeel je volgende inkomen over een paar doelen die voor jou belangrijk zijn.",
+      "Alleen deze stap helpt al om geld niet langer als één groot bedrag te zien, maar als een hulpmiddel voor verschillende onderdelen van je leven.",
+      "In 6 Jars Finance zijn <strong>de klassieke potten en percentages al ingesteld.</strong> Je kunt daarmee beginnen en de verdeling later aanpassen als dat nodig is."
+    ],
+    "cta": "Ga naar 6 Jars Finance →"
+  }
+}

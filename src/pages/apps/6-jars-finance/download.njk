@@ -15,6 +15,7 @@ eleventyComputed:
 ---
 
 {% set d = "apps.sixJarsFinance.download" %}
+{% set screenshotsPath = "articles/six-jars/screenshots" %}
 {% set playStoreUrl = "https://play.google.com/store/apps/details?id=com.artemd.jars_finance&utm_source=artem-d.dev&utm_campaign=website" %}
 
 <section class="hero landing-section">
@@ -54,7 +55,7 @@ eleventyComputed:
       <div class="hero__preview hero__preview--phone">
         <img
           class="hero__screenshot"
-          src="/content/articles/six-jars/screenshots/{{ lang }}/main-screen.jpg"
+          src="{{ lang | localizedScreenshot(screenshotsPath, 'main-screen.jpg') }}"
           alt="{{ (d ~ '.hero.screenshotAlt') | t(lang) }}"
           width="1080"
           height="2265"

@@ -1,0 +1,169 @@
+{
+  "common": {
+    "langSwitch": {
+      "label": "Taal"
+    },
+    "labels": {
+      "lastUpdated": "Laatst bijgewerkt:",
+      "developer": "Ontwikkelaar:",
+      "contactAddress": "Contactadres:"
+    },
+    "pages": {
+      "privacy": "Privacybeleid",
+      "help": "Informatie over fouten",
+      "licenses": "Open-sourcelicenties"
+    }
+  },
+  "article": {
+    "tocTitle": "Op deze pagina",
+    "tocLabel": "Paginanavigatie"
+  },
+  "site": {
+    "nav": {
+      "label": "Sitenavigatie",
+      "download": "App downloaden",
+      "guide": "Zes-pottenmethode"
+    },
+    "footer": {
+      "label": "Informatie over de site"
+    },
+    "help": {
+      "metaDescription": "Informatie over een fout bij het uitvoeren van een bewerking in de A.D.A-app.",
+      "title": "Kan de bewerking niet voltooien",
+      "intro": "De bewerking is niet voltooid vanwege een technische fout.",
+      "sections": {
+        "whatItMeans": {
+          "title": "Wat dit betekent",
+          "text": "In zeldzame gevallen kunnen de lokale database of het besturingssysteem van het apparaat tijdelijk voorkomen dat gegevens worden opgeslagen."
+        },
+        "whatToTry": {
+          "title": "Wat je kunt proberen",
+          "items": [
+            "Sluit de app en open deze opnieuw",
+            "Start je apparaat opnieuw op",
+            "Controleer of er voldoende vrije opslagruimte op je apparaat is",
+            "Controleer of de nieuwste versie van de app is geïnstalleerd"
+          ]
+        },
+        "ifPersists": {
+          "title": "Als het probleem blijft bestaan",
+          "contactText": "Neem contact op met de ondersteuning:",
+          "emailIntro": "Vermeld indien mogelijk het volgende in je e-mail:",
+          "emailItems": [
+            "model van het apparaat",
+            "Android-versie",
+            "appversie",
+            "welke handeling je uitvoerde voordat de fout optrad"
+          ]
+        }
+      }
+    }
+  },
+  "apps": {
+    "sixJarsFinance": {
+      "privacy": {
+        "lastUpdated": "03.07.2026",
+        "metaDescription": "Privacybeleid voor de app van Artem D Apps.",
+        "sections": {
+          "general": {
+            "title": "1. Algemene bepalingen",
+            "paragraphs": [
+              "Dit Privacybeleid beschrijft hoe gegevens worden verwerkt bij het gebruik van de mobiele app. De app is ontworpen volgens het principe van lokale gegevensopslag (offline-first). Financiële gegevens en andere door de gebruiker in de app aangemaakte gegevens worden lokaal op het apparaat van de gebruiker opgeslagen en niet naar de ontwikkelaar verzonden.",
+              "De app kan diensten van derden gebruiken voor technische doeleinden, bijvoorbeeld voor rapportage van crashes en fouten. Deze diensten kunnen technische diagnostische gegevens verwerken die nodig zijn om fouten te detecteren, analyseren en verhelpen."
+            ]
+          },
+          "dataProcessed": {
+            "title": "2. Welke gegevens worden verwerkt"
+          },
+          "userData": {
+            "title": "2.1 Door de gebruiker ingevoerde gegevens",
+            "intro": "De gebruiker voert zelf de volgende gegevens in de app in:",
+            "items": [
+              "financiële gegevens (transacties)",
+              "categorieën en tags",
+              "namen van potten, rekeningnamen, notities en andere gebruikersinstellingen"
+            ],
+            "outro": "Deze gegevens worden lokaal op het apparaat van de gebruiker opgeslagen, niet naar de ontwikkelaar verzonden, niet naar de servers van de ontwikkelaar gekopieerd en niet met derden gedeeld. De ontwikkelaar heeft technisch geen mogelijkheid om toegang tot deze gegevens te krijgen."
+          },
+          "platformData": {
+            "title": "2.2 Technische gegevens van het platform",
+            "paragraphs": [
+              "Bij het installeren en gebruiken van de app kan het Google Play-platform automatisch technische gegevens verwerken, zoals apparaatinformatie, de versie van het besturingssysteem, diagnostische gegevens en informatie over crashes.",
+              "Deze gegevens worden door Google-diensten verwerkt in overeenstemming met hun eigen privacybeleid. De ontwikkelaar ontvangt geen persoonsgegevens van de gebruiker van Google."
+            ]
+          },
+          "purchases": {
+            "title": "2.3 In-app-aankopen",
+            "paragraphs": [
+              "De app kan gebruikmaken van in-app-aankopen die via Google Play worden verwerkt. Betalingen worden verwerkt via de infrastructuur van Google. De ontwikkelaar ontvangt geen bankkaartgegevens, bewaart geen betalingsgegevens en heeft geen toegang tot de financiële gegevens van de gebruiker."
+            ]
+          },
+          "crashes": {
+            "title": "2.4 Crash- en foutrapportage",
+            "paragraphs": [
+              "De app gebruikt Sentry, een externe dienst voor foutmonitoring die namens de ontwikkelaar crashrapporten en technische diagnostische gegevens verwerkt.",
+              "Wanneer er een fout optreedt, kan de app technische diagnostische informatie naar Sentry sturen, zoals crashrapporten, stack traces, de appversie, de versie van het besturingssysteem, het apparaatmodel en andere technische informatie die verband houdt met de fout.",
+              "Sentry is zo geconfigureerd dat het verzamelen van persoonsgegevens standaard is uitgeschakeld. De app stuurt niet opzettelijk financiële gegevens, transactiegegevens, namen van potten, tags, notities, rekeningnamen of andere door de gebruiker aangemaakte financiële inhoud naar Sentry.",
+              "De ontwikkelaar gebruikt foutrapporten uitsluitend om de stabiliteit van de app te verbeteren, technische problemen te diagnosticeren en fouten op te lossen.",
+              "Omdat de app geen accounts gebruikt en geen gebruikers-ID's toewijst voor foutrapportage, kan de ontwikkelaar mogelijk de foutrapporten van een specifieke gebruiker niet vinden en verwijderen."
+            ]
+          },
+          "storage": {
+            "title": "3. Gegevensopslag",
+            "paragraphs": [
+              "Financiële gegevens en andere door de gebruiker in de app aangemaakte gegevens worden lokaal op het apparaat van de gebruiker opgeslagen in de database van de app. Als de app wordt verwijderd, worden de lokaal opgeslagen gegevens verwijderd, tenzij de gebruiker vooraf een back-up heeft gemaakt. De ontwikkelaar bewaart geen kopieën van deze gebruikersgegevens en heeft er geen toegang toe.",
+              "Technische crash- en diagnostische gegevens kunnen door Sentry worden verwerkt voor foutmonitoring."
+            ]
+          },
+          "thirdParties": {
+            "title": "4. Verstrekking van gegevens aan derden",
+            "paragraphs": [
+              "De ontwikkelaar verkoopt geen gebruikersgegevens en verstrekt geen door de gebruiker in de app aangemaakte financiële gegevens aan derden.",
+              "Financiële gegevens, transacties, tags, namen van potten, notities, instellingen en back-ups worden door de app niet naar de ontwikkelaar of externe servers verzonden.",
+              "Technische crash- en diagnostische gegevens kunnen namens de ontwikkelaar door Sentry worden verwerkt om fouten te detecteren, diagnosticeren en verhelpen."
+            ]
+          },
+          "backups": {
+            "title": "5. Back-ups",
+            "paragraphs": [
+              "Als de app de mogelijkheid biedt om een back-up te maken, wordt het back-upbestand door de gebruiker aangemaakt en op een door de gebruiker gekozen locatie opgeslagen. De ontwikkelaar heeft geen toegang tot back-ups."
+            ]
+          },
+          "rights": {
+            "title": "6. Rechten van de gebruiker",
+            "intro": "De gebruiker kan:",
+            "items": [
+              "lokaal opgeslagen appgegevens verwijderen door de app te verwijderen of de appgegevens in de apparaatinstellingen te wissen",
+              "ervoor kiezen geen in-app-aankopen te gebruiken",
+              "contact opnemen met de ontwikkelaar over privacy"
+            ],
+            "outro": "Omdat de app geen accounts gebruikt en geen gebruikers-ID's toewijst voor foutrapportage, kan de ontwikkelaar mogelijk de foutrapporten van een specifieke gebruiker niet vinden en verwijderen."
+          },
+          "security": {
+            "title": "7. Beveiliging",
+            "paragraphs": [
+              "De app verzendt de financiële gegevens van de gebruiker niet via internet. Technische crash- en diagnostische gegevens worden, indien verzonden, via een beveiligde verbinding verstuurd.",
+              "De gebruiker is zelf verantwoordelijk voor de beveiliging van het apparaat en de gemaakte back-ups."
+            ]
+          },
+          "changes": {
+            "title": "8. Wijzigingen in het beleid",
+            "paragraphs": [
+              "Een bijgewerkte versie van het beleid wordt gepubliceerd op de officiële pagina van de app."
+            ]
+          },
+          "contact": {
+            "title": "9. Contactgegevens",
+            "text": "Voor vragen over privacy:"
+          }
+        }
+      },
+      "licenses": {
+        "metaDescription": "Licenties van open-sourcesoftware van derden die wordt gebruikt in de app van Artem D Apps.",
+        "licenseLabel": "Licentie:",
+        "repositoryLabel": "Repository:",
+        "disclaimer": "Op deze pagina staat de open-sourcesoftware van derden die in de app wordt gebruikt."
+      }
+    }
+  }
+}

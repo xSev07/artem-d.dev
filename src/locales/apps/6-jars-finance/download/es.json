@@ -1,0 +1,71 @@
+{
+  "title": "6 Jars Finance — presupuesto con el método de los seis fondos",
+  "metaDescription": "Distribuye tu sueldo entre gastos cotidianos, ahorros y objetivos financieros antes de empezar a gastarlo.",
+  "hero": {
+    "title": "Controla tus gastos de hoy y afronta el futuro con más tranquilidad",
+    "lead": "6 Jars Finance te ayuda a distribuir tu sueldo por adelantado: sabes cuánto puedes gastar en cafeterías y ocio, apartar dinero para unas vacaciones o una compra importante y crear poco a poco una reserva para gastos imprevistos.",
+    "screenshotAlt": "Pantalla principal de 6 Jars Finance con seis fondos y sus saldos"
+  },
+  "benefits": [
+    {
+      "title": "Sabes cuánto puedes gastar",
+      "text": "Ves cantidades separadas para los gastos cotidianos, cafeterías, ocio y otras categorías. No tienes que consultar constantemente tu saldo total y preguntarte si puedes permitirte una compra."
+    },
+    {
+      "title": "El ahorro se separa por adelantado",
+      "text": "Puedes destinar inmediatamente una parte de tu sueldo a unas vacaciones, una compra importante u otro objetivo. Ese dinero se mantiene separado de los gastos cotidianos y no desaparece poco a poco sin que te des cuenta antes de acabar el mes."
+    },
+    {
+      "title": "Creas poco a poco una reserva de dinero",
+      "text": "Ahorrando regularmente incluso una pequeña parte de tu sueldo, puedes crear una reserva para una enfermedad, una avería, un retraso en el pago del sueldo y otras situaciones imprevistas."
+    }
+  ],
+  "about": {
+    "title": "Creada a partir de la experiencia personal",
+    "paragraphs": [
+      "Me llamo Artem D. Trabajo profesionalmente en desarrollo de software desde 2017 y creé 6 Jars Finance.",
+      "Llevo más de 10 años utilizando el método de los seis fondos. Gracias a él, no tengo que preguntarme cada vez si puedo permitirme comprar un juego de mesa nuevo o ir a una cafetería, si tendré suficiente dinero para unas vacaciones o si podré pagar el alquiler a tiempo si se retrasa mi sueldo.",
+      "A lo largo de los años probé distintas aplicaciones basadas en el método de los seis fondos. Lo que más me molestaba era que el número de fondos siempre estuviera estrictamente limitado a seis. No se podía añadir un séptimo fondo ni eliminar uno que no fuera necesario.",
+      "Por eso creé 6 Jars Finance, donde puedes adaptar el sistema de fondos a medida que cambian tus circunstancias y tus prioridades financieras. Yo mismo utilizo la aplicación con regularidad, así que sigo añadiendo nuevas funciones y mejorando su facilidad de uso."
+    ]
+  },
+  "faq": {
+    "title": "Preguntas frecuentes",
+    "items": [
+      {
+        "question": "¿Tengo que seguir estrictamente la distribución clásica entre seis fondos?",
+        "answer": "No. La distribución clásica es un punto de partida ya preparado, no un conjunto de reglas obligatorias."
+      },
+      {
+        "question": "¿Puedo adaptar la aplicación a mis necesidades?",
+        "answer": "Sí. Puedes cambiar el nombre de los seis fondos básicos, eliminar los que no necesites y elegir otros porcentajes. Si lo necesitas, también puedes crear fondos adicionales."
+      },
+      {
+        "question": "¿Tengo que registrar cada compra por separado?",
+        "answer": "No. Puedes registrar varias compras realizadas desde el mismo fondo como una sola cantidad total. Por ejemplo, no es necesario registrar por separado cada compra del supermercado: puedes indicar simplemente el importe total gastado en alimentación."
+      },
+      {
+        "question": "¿Qué hago si ahora mismo no puedo ahorrar?",
+        "answer": "Tú decides cuánto dinero destinar al ahorro. Puedes empezar con una pequeña cantidad o, por ahora, distribuir todo tu sueldo entre los gastos corrientes. La aplicación no te obliga a ahorrar un porcentaje determinado."
+      },
+      {
+        "question": "¿En qué se diferencia de una aplicación normal para controlar gastos?",
+        "answer": "Las aplicaciones financieras habituales sirven principalmente para registrar gastos y ver en qué se ha gastado ya el dinero. 6 Jars Finance distribuye automáticamente tu sueldo entre los ámbitos de la vida que hayas definido de antemano, para que siempre sepas cuánto puedes gastar y en qué, sin tocar el dinero reservado para unas vacaciones, una compra importante u otros objetivos."
+      }
+    ]
+  },
+  "guide": {
+    "title": "¿Quieres entender mejor el método?",
+    "text": "Si no estás seguro de poder aplicar el método de los seis fondos o todavía no entiendes del todo cómo funciona, consulta la guía detallada. En ella explico, con ejemplos prácticos y basándome en mi propia experiencia, cómo utilizar el método en la vida real.",
+    "button": "Más información sobre el método"
+  },
+  "cta": {
+    "title": "Empieza a utilizar el método de los seis fondos",
+    "text": "Gratis y sin publicidad"
+  },
+  "modal": {
+    "title": "La aplicación todavía no está disponible en el App Store",
+    "text": "La versión para iPhone está en desarrollo.",
+    "button": "Entendido"
+  }
+}

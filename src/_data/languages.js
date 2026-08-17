@@ -1,1 +1,17 @@
-export default [{ code: "en" }, { code: "ru" }];
+export default [
+  { code: "en" },
+  { code: "id" },
+  { code: "cs" },
+  { code: "de" },
+  { code: "es" },
+  { code: "fr" },
+  { code: "it" },
+  { code: "nl" },
+  { code: "pl" },
+  { code: "pt-BR" },
+  { code: "ro" },
+  { code: "ru" },
+  { code: "sv" },
+  { code: "tr" },
+  { code: "uk" },
+];

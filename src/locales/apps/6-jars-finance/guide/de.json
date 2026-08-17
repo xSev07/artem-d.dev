@@ -1,0 +1,423 @@
+{
+  "title": "Die 6-Töpfe-Methode: eine einfache Art, mit Geld umzugehen",
+  "metaDescription": "Die 6-Töpfe-Methode hilft Ihnen nicht nur dabei, Ausgaben zu erfassen, sondern im Voraus festzulegen, wofür Sie Ihr Einkommen verwenden möchten.",
+  "intro": {
+    "paragraphs": [
+      "Die 6-Töpfe-Methode hilft Ihnen nicht nur dabei, Ausgaben zu erfassen, sondern im Voraus festzulegen, wofür Sie Ihr Einkommen verwenden möchten.",
+      "Das Prinzip ist einfach: Jedes Mal, wenn Sie Geld erhalten, verteilen Sie es auf mehrere finanzielle Aufgaben. Ein Teil ist für den Alltag bestimmt, die übrigen Teile für Ersparnisse, Weiterbildung, Freizeit, Vermögensaufbau und die Unterstützung anderer.",
+      "Dadurch ist Ihr Geld nicht mehr einfach nur eine einzige Gesamtsumme auf dem Konto. Jeder Teil davon bekommt einen eigenen Zweck."
+    ]
+  },
+  "overview": {
+    "title": "Inhaltsverzeichnis",
+    "managingMoney": "Was die 6-Töpfe-Methode ist",
+    "howItWorks": "Wie die Geldverteilung funktioniert",
+    "adjustPercents": "Wie Sie die Methode an Ihre Situation anpassen",
+    "misleadingBalance": "Wie die Methode im Alltag hilft",
+    "irregularIncome": "Wie Sie die Methode in unterschiedlichen Situationen nutzen",
+    "physicalJarsProblem": "Wie Sie die Methode ohne Bargeld anwenden",
+    "appHowItWorks": "Wie Sie die Methode in der App nutzen"
+  },
+  "managingMoney": {
+    "title": "Nicht nur Ausgaben erfassen, sondern Geld steuern",
+    "paragraphs": [
+      "Eine klassische Ausgabenerfassung hilft bei der Frage:",
+      "<strong>„Wofür habe ich mein Geld bereits ausgegeben?“</strong>",
+      "Das ist nützlich, reicht aber oft nicht aus. Selbst wenn Sie Ihre Einkäufe regelmäßig erfassen, ist nicht garantiert, dass am Monatsende noch Geld für Ersparnisse, Bildung oder größere Ziele übrig bleibt.",
+      "Die 6-Töpfe-Methode verfolgt einen anderen Ansatz. Sie hilft Ihnen, im Voraus eine andere Frage zu beantworten:",
+      "<strong>„Wofür möchte ich das erhaltene Geld verwenden?“</strong>",
+      "Sie verteilen Ihr Einkommen, bevor Sie anfangen, es auszugeben. Dadurch hängen Ersparnisse nicht davon ab, was zufällig am Monatsende übrig bleibt, und alltägliche Ausgaben verbrauchen nicht automatisch alles verfügbare Geld."
+    ]
+  },
+  "howItWorks": {
+    "title": "Wie die 6-Töpfe-Methode funktioniert",
+    "lead": "In der klassischen Variante der Methode wird jedes Einkommen auf sechs Töpfe verteilt.",
+    "screenshotAlt": "Startbildschirm von 6 Jars Finance mit sechs Töpfen und dem zwischen ihnen verteilten Einkommen",
+    "jars": {
+      "essentialExpenses": {
+        "title": "Notwendige Ausgaben — 55%",
+        "intro": "Dieser Topf ist für notwendige alltägliche Ausgaben vorgesehen:",
+        "items": [
+          "Wohnen;",
+          "Lebensmittel;",
+          "Verkehr;",
+          "Nebenkosten;",
+          "Telefon und Internet;",
+          "medizinische Versorgung;",
+          "andere regelmäßige Bedürfnisse."
+        ],
+        "outro": "Dieses Geld deckt die Kosten Ihres normalen Alltags."
+      },
+      "financialIndependence": {
+        "title": "Finanzielle Unabhängigkeit — 10%",
+        "paragraphs": [
+          "Das Geld aus diesem Topf dient dazu, Kapital aufzubauen und in Zukunft Einkommen zu erzielen.",
+          "Im klassischen System ist vorgesehen, dass der Hauptbetrag nicht für gewöhnliche Einkäufe ausgegeben wird. Seine Aufgabe ist es, nach und nach eine finanzielle Grundlage aufzubauen.",
+          "Wie Sie dieses Geld verwenden, hängt von Ihrem Wissen, Ihren Zielen und Ihrer Risikobereitschaft ab. Möglich sind Sparprodukte, Investitionen oder andere Wege zum Vermögensaufbau."
+        ]
+      },
+      "longTermSavings": {
+        "title": "Langfristige Ersparnisse — 10%",
+        "intro": "Dieser Topf hilft Ihnen dabei, sich im Voraus auf größere Ausgaben vorzubereiten.",
+        "listIntro": "Zum Beispiel auf:",
+        "items": [
+          "den Aufbau einer finanziellen Reserve;",
+          "einen Urlaub;",
+          "Renovierungen;",
+          "den Kauf von Technik oder Haushaltsgeräten;",
+          "ein Auto;",
+          "einen Umzug;",
+          "andere größere Ziele."
+        ],
+        "outro": "Solche Ausgaben kommen weniger überraschend, weil das Geld dafür nach und nach angespart wird."
+      },
+      "education": {
+        "title": "Bildung — 10%",
+        "intro": "Dieses Geld ist für die Weiterentwicklung von Wissen und Fähigkeiten gedacht.",
+        "listIntro": "Sie können es verwenden für:",
+        "items": [
+          "Bücher;",
+          "Kurse;",
+          "berufliche Weiterbildung;",
+          "Sprachunterricht;",
+          "Unterricht mit Lehrkräften;",
+          "Konferenzen;",
+          "andere Lernmaterialien."
+        ],
+        "outro": "Weiterbildung wird dadurch zu einem eigenen Bestandteil des Budgets und nicht zu einer Ausgabe, die immer wieder auf später verschoben wird."
+      },
+      "entertainment": {
+        "title": "Freizeit — 10%",
+        "intro": "Dieser Topf ist für Erholung und schöne Dinge vorgesehen.",
+        "listIntro": "Zum Beispiel für:",
+        "items": [
+          "Treffen mit Freunden;",
+          "Cafés und Restaurants;",
+          "Spiele;",
+          "Hobbys;",
+          "Ausflüge;",
+          "Veranstaltungen;",
+          "kleinere spontane Käufe."
+        ],
+        "outro": "Ein eigener Freizeitetat ermöglicht es Ihnen, Geld für schöne Dinge auszugeben, ohne sich ständig schuldig zu fühlen. Sie haben dieses Geld bewusst genau dafür eingeplant."
+      },
+      "giftsAndCharity": {
+        "title": "Geschenke und Hilfe — 5%",
+        "intro": "Dieser Topf kann verwendet werden für:",
+        "items": [
+          "Geschenke;",
+          "Spenden;",
+          "Unterstützung von Familie und Freunden;",
+          "Projekte und Initiativen, die Ihnen wichtig sind."
+        ],
+        "outro": "Auch diese Ausgaben werden so zu einem geplanten Teil des Budgets und beeinträchtigen Ihre übrigen finanziellen Ziele nicht."
+      }
+    }
+  },
+  "adjustPercents": {
+    "title": "Die Prozentsätze können angepasst werden",
+    "screenshotAlt": "Bildschirm zum Einstellen der prozentualen Einkommensverteilung auf die Töpfe",
+    "openingParagraphs": [
+      "Die Aufteilung von 55%, 10%, 10%, 10%, 10% und 5% ist ein Ausgangspunkt und keine verpflichtende Regel.",
+      "Menschen haben unterschiedliche Einkommen, Wohnkosten, familiäre Situationen, Ziele und Verpflichtungen. Für eine Person können 55% für notwendige Ausgaben ausreichen, während bei einer anderen bereits Miete und Lebensmittel den größten Teil des Einkommens beanspruchen.",
+      "Deshalb können und sollten Sie die Prozentsätze an Ihre tatsächliche Situation anpassen."
+    ],
+    "listIntro": "Zum Beispiel können Sie:",
+    "items": [
+      "den Anteil für notwendige Ausgaben erhöhen;",
+      "vorübergehend mehr Geld in die finanzielle Reserve legen;",
+      "die Freizeitausgaben reduzieren;",
+      "schneller für ein bestimmtes Ziel sparen;",
+      "die Verteilung nach einer Erhöhung oder Verringerung des Einkommens ändern."
+    ],
+    "closingParagraphs": [
+      "Entscheidend ist nicht, die klassischen Prozentsätze exakt einzuhalten, sondern die Gewohnheit, Geld regelmäßig auf verschiedene Aufgaben zu verteilen.",
+      "Das System soll Ihnen Entscheidungen erleichtern und nicht zu einer weiteren Quelle von Druck werden."
+    ],
+    "cta": "Die Methode in 6 Jars Finance ausprobieren →"
+  },
+  "samePurchaseDifferentJars": {
+    "title": "Derselbe Kauf kann zu unterschiedlichen Töpfen gehören",
+    "openingParagraphs": [
+      "In der 6-Töpfe-Methode gibt es keine allgemeingültige Liste, die jeden Kauf eindeutig einer Kategorie zuordnet. Entscheidend ist nicht nur, was Sie kaufen, sondern auch warum."
+    ],
+    "listIntro": "Ein Cafébesuch kann zum Beispiel aus unterschiedlichen Töpfen bezahlt werden:",
+    "items": [
+      "aus den notwendigen Ausgaben, wenn es Ihr gewöhnliches Mittagessen während der Arbeit ist;",
+      "aus Freizeit, wenn Sie entspannen oder sich etwas gönnen möchten;",
+      "aus Geschenke und Hilfe, wenn Sie eine andere Person einladen."
+    ],
+    "closingParagraphs": [
+      "Sie selbst bestimmen den Zweck einer Ausgabe abhängig von der Situation und Ihren Zielen.",
+      "Die Methode zwingt Sie nicht zu starren Regeln. Sie bietet einen Rahmen und hilft Ihnen bewusst zu entscheiden, welcher Teil Ihres Budgets einen bestimmten Kauf abdecken soll."
+    ]
+  },
+  "example": {
+    "title": "So sieht es in der Praxis aus",
+    "openingParagraphs": [
+      "Angenommen, Sie erhalten ein Einkommen von 3 000.",
+      "Bei der klassischen Aufteilung wird das Geld folgendermaßen verteilt:"
+    ],
+    "table": {
+      "headers": [
+        "Topf",
+        "Anteil",
+        "Betrag"
+      ],
+      "rows": [
+        [
+          "Notwendige Ausgaben",
+          "55%",
+          "1 650"
+        ],
+        [
+          "Finanzielle Unabhängigkeit",
+          "10%",
+          "300"
+        ],
+        [
+          "Langfristige Ersparnisse",
+          "10%",
+          "300"
+        ],
+        [
+          "Bildung",
+          "10%",
+          "300"
+        ],
+        [
+          "Freizeit",
+          "10%",
+          "300"
+        ],
+        [
+          "Geschenke und Hilfe",
+          "5%",
+          "150"
+        ]
+      ]
+    },
+    "closingParagraphs": [
+      "Nach der Verteilung gehört jeder Kauf zu einem bestimmten Topf.",
+      "Lebensmittel werden aus den notwendigen Ausgaben bezahlt. Ein Kurs aus Bildung. Eine Reise aus den langfristigen Ersparnissen. Ein Treffen mit Freunden aus Freizeit.",
+      "Sie sehen dadurch nicht nur Ihren gesamten verbleibenden Kontostand, sondern auch, wie viel Geld für jeden einzelnen Zweck verfügbar ist."
+    ]
+  },
+  "misleadingBalance": {
+    "title": "Warum der Gesamtkontostand irreführend sein kann",
+    "screenshotAlt": "Startbildschirm der App mit einem Gesamtkontostand von 1 720, wobei im Topf „Freizeit“ nur noch 20 verbleiben",
+    "paragraphs": [
+      "Wenn Ihr gesamtes Geld auf einem einzigen Bankkonto liegt, kann der verfügbare Betrag größer wirken, als er tatsächlich ist.",
+      "Angenommen, auf dem Konto befinden sich 1 720. Formal steht Ihnen das gesamte Geld zur Verfügung. Ein Teil davon kann aber bereits für Wohnkosten vorgesehen sein, ein anderer für einen zukünftigen Urlaub und ein weiterer für die finanzielle Reserve.",
+      "Wenn Sie den gesamten Kontostand als frei verfügbares Geld betrachten, können Sie leicht Mittel ausgeben, die eigentlich bereits für andere Zwecke benötigt werden.",
+      "Die 6-Töpfe-Methode hilft dabei, den Gesamtkontostand gedanklich aufzuteilen.",
+      "Auf Ihrem Bankkonto können 1 720 liegen, aber davon stehen Ihnen vielleicht nur 20 für Freizeit zur Verfügung. Das übrige Geld ist bereits anderen Ausgabenkategorien zugeordnet."
+    ]
+  },
+  "savingsFirst": {
+    "title": "Ersparnisse hängen nicht mehr davon ab, was übrig bleibt",
+    "paragraphs": [
+      "Eine verbreitete Sparstrategie sieht so aus:",
+      "<strong>erst im Laufe des Monats Geld ausgeben und anschließend sparen, was übrig bleibt.</strong>",
+      "Das Problem ist, dass häufig nichts übrig bleibt.",
+      "Die 6-Töpfe-Methode dreht die Reihenfolge um. Geld für Ersparnisse, Vermögensaufbau und andere Ziele wird direkt nach Eingang des Einkommens eingeplant.",
+      "Sie müssen nicht bis zum Monatsende warten, um herauszufinden, ob Sie etwas sparen konnten. Ersparnisse sind von Anfang an ein fester Bestandteil Ihres Budgets."
+    ]
+  },
+  "easierDecisions": {
+    "title": "Entscheidungen werden einfacher",
+    "paragraphs": [
+      "Bei vielen Käufen gibt es keine eindeutig richtige oder falsche Antwort.",
+      "Können Sie ein neues Gerät kaufen? Sollten Sie ins Restaurant gehen? Ist ein Kurs zu teuer? Können Sie sich gerade einen Urlaub leisten?",
+      "Wenn Ihr gesamtes Geld zu einem einzigen allgemeinen Budget gehört, müssen Sie jede solche Entscheidung immer wieder neu treffen.",
+      "Die Töpfe schaffen klare Grenzen.",
+      "Wenn im passenden Topf genug Geld vorhanden ist, entspricht der Kauf Ihrem Plan. Wenn das Geld nicht reicht, können Sie den Kauf verschieben, das Ziel überdenken oder bewusst Geld aus einem anderen Topf verwenden.",
+      "Die Methode verbietet Ihnen nicht, Entscheidungen zu ändern. Sie macht lediglich die Folgen dieser Entscheidungen sichtbar."
+    ]
+  },
+  "spendWithoutGuilt": {
+    "title": "Sie können Geld ausgeben, ohne sich ständig schuldig zu fühlen",
+    "paragraphs": [
+      "Finanzielle Disziplin wird häufig fälschlicherweise damit gleichgesetzt, sich angenehme Ausgaben ständig zu verbieten.",
+      "Ein zu strenges System, in dem nur notwendige Ausgaben erlaubt sind, funktioniert langfristig jedoch meist schlecht. Menschen brauchen Erholung, Unterhaltung und die Möglichkeit, gelegentlich einfach aus Freude Geld auszugeben.",
+      "Deshalb gibt es in der Methode einen eigenen Topf für Freizeit.",
+      "Wenn das Geld bereits im Voraus für Erholung vorgesehen wurde, können Sie es dafür verwenden. Ein solcher Kauf beeinträchtigt Ihre Ersparnisse nicht und nimmt auch kein Geld von notwendigen Ausgaben weg.",
+      "Sie verletzen Ihr Budget nicht — Sie halten sich daran."
+    ]
+  },
+  "borrowFromYourself": {
+    "title": "Die Möglichkeit, sich selbst Geld zu leihen",
+    "screenshotAlt": "Bildschirm des Topfs „Freizeit“ mit einem negativen Kontostand von 25 und der Ausgabenhistorie",
+    "paragraphs": [
+      "Wenn Sie die 6-Töpfe-Methode eine Zeit lang verwenden, baut sich nach und nach ein Geldpolster auf, das auf verschiedene Aufgaben verteilt ist. Dadurch müssen Sie bei einem kurzfristigen Engpass nicht immer andere Menschen um Geld bitten oder einen Kredit nutzen.",
+      "Wenn in einem Topf nicht genug Geld für einen wichtigen Kauf vorhanden ist, können Sie seinen Kontostand vorübergehend ins Minus gehen lassen. Im Grunde leihen Sie sich Geld von sich selbst: Der Kauf wird aus Ihrem gesamten verfügbaren Geld bezahlt, aber die Überschreitung bleibt genau in dem Topf vermerkt, zu dem die Ausgabe gehört.",
+      "Beim nächsten Einkommen wird der negative Kontostand teilweise oder vollständig ausgeglichen. Dadurch steht Ihnen in diesem Topf im nächsten Zeitraum weniger Geld zur Verfügung. Das System verhindert einen notwendigen Kauf also nicht, zeigt aber seine Folgen für Ihr zukünftiges Budget.",
+      "Technisch könnten Sie den benötigten Betrag aus einem anderen Topf übertragen und nach dem nächsten Einkommen wieder zurückgeben. Ich empfehle diesen Ansatz jedoch nicht, wenn er nicht notwendig ist. Eine solche Übertragung verdeckt die tatsächliche Überschreitung im ursprünglichen Topf und macht Ihre Auswertungen weniger hilfreich: Es wird schwieriger zu erkennen, für welche Aufgaben das eingeplante Geld tatsächlich regelmäßig nicht ausreicht.",
+      "Wenn Sie den Topf im Minus lassen, bleibt Ihre Ausgabenhistorie ehrlich. Sie sehen, wo die Überschreitung stattgefunden hat, wie groß sie war und ob sie nach dem nächsten Einkommen wieder ausgeglichen wurde.",
+      "In meiner eigenen Erfahrung wurde das zu einem der deutlichsten Vorteile der Methode: Ich hörte auf, mir Geld von anderen Menschen zu leihen, weil ich mir bei Bedarf vorübergehend selbst Geld leihen konnte.",
+      "Wenn derselbe Topf regelmäßig ins Minus gerät, handelt es sich nicht mehr um eine vorübergehende Ausnahme, sondern um ein Signal, die Einkommensverteilung zu überdenken. Sie können den Prozentsatz dieses Topfs erhöhen und dafür die Anteile der Töpfe reduzieren, in denen normalerweise Geld übrig bleibt. Genau darin liegt die Flexibilität der Methode: Das System passt sich nach und nach Ihren tatsächlichen Ausgaben an, anstatt Sie zu unveränderlichen Verhältnissen zu zwingen."
+    ]
+  },
+  "goalsNoLongerCompete": {
+    "title": "Finanzielle Ziele konkurrieren nicht mehr miteinander",
+    "listIntro": "Ohne ein System soll frei verfügbares Geld gleichzeitig für alles reichen:",
+    "items": [
+      "die finanzielle Reserve;",
+      "einen Urlaub;",
+      "Weiterbildung;",
+      "neue Technik;",
+      "Freizeit;",
+      "unerwartete Ausgaben."
+    ],
+    "closingParagraphs": [
+      "Dadurch verdrängt ein Ziel oft die anderen. Eine größere Anschaffung kann das Sparen vollständig unterbrechen, und eine ungeplante Ausgabe kann einen geplanten Urlaub zunichtemachen.",
+      "Die Aufteilung des Geldes nach Zweck hilft Ihnen, mehrere Ziele gleichzeitig weiterzuverfolgen.",
+      "Auch wenn die Beträge anfangs klein sind, erhält jeder wichtige Bereich bei jedem Einkommen seinen Anteil."
+    ]
+  },
+  "financialDiscipline": {
+    "title": "Die Methode hilft dabei, finanzielle Disziplin zu entwickeln",
+    "openingParagraphs": [
+      "Der wichtigste Wert der Methode liegt nicht nur darin, wie das Geld verteilt wird, sondern auch in den Gewohnheiten, die dabei entstehen.",
+      "Die regelmäßige Verteilung des Einkommens verändert nach und nach Ihren Umgang mit Geld. Sie sehen eine eingegangene Summe nicht mehr als einen einzigen Vorrat, den Sie ausgeben können, bis er aufgebraucht ist, sondern als Ressource für verschiedene Bereiche Ihres Lebens."
+    ],
+    "listIntro": "Sie entwickeln die Gewohnheit:",
+    "items": [
+      "Geld zuerst zu verteilen und erst danach auszugeben;",
+      "die Folgen jedes Kaufs zu berücksichtigen;",
+      "regelmäßig Geld für zukünftige Ziele einzuplanen;",
+      "ein Gleichgewicht zwischen heutigen Wünschen und langfristigen Plänen zu bewahren;",
+      "finanzielle Entscheidungen bewusst zu treffen."
+    ],
+    "closingParagraphs": [
+      "Das System verlangt nicht, dass Sie sich vom ersten Tag an perfekt verhalten. Finanzielle Disziplin entsteht nach und nach durch die Wiederholung derselben einfachen Handlungen.",
+      "In meiner eigenen Erfahrung war genau das der größte Vorteil der Methode. Sie half mir nicht nur dabei, mein Geld besser im Blick zu behalten, sondern veränderte nach und nach meine gesamte Herangehensweise an Einkommen, Ausgaben und Ersparnisse."
+    ]
+  },
+  "irregularIncome": {
+    "title": "Was tun bei unregelmäßigem Einkommen?",
+    "paragraphs": [
+      "Die Methode funktioniert nicht nur bei einem festen monatlichen Gehalt.",
+      "Wenn Ihr Einkommen unregelmäßig eingeht, verteilen Sie jede Zahlung einzeln.",
+      "Sie erhalten Geld für ein Projekt, einen Nebenjob, einen Auftrag oder einen Verkauf — verteilen Sie diesen Betrag direkt nach Ihren gewählten Prozentsätzen auf die Töpfe.",
+      "Bei schwankendem Einkommen kann es besonders sinnvoll sein, den Anteil für Ihre Reserve zu erhöhen. Das hilft, Zeiten mit geringeren Einnahmen abzufedern.",
+      "Die Methode setzt nicht voraus, dass Sie Ihr genaues Monatseinkommen im Voraus kennen. Sie arbeitet mit dem Geld, das Sie bereits tatsächlich erhalten haben."
+    ]
+  },
+  "notEnoughMoney": {
+    "title": "Was tun, wenn das Geld momentan nicht reicht?",
+    "paragraphs": [
+      "Die klassischen Prozentsätze passen möglicherweise schlecht zu jemandem, der fast sein gesamtes Einkommen für grundlegende Bedürfnisse ausgeben muss.",
+      "Das bedeutet nicht, dass die Methode nutzlos ist.",
+      "Sie können mit einer realistischeren Aufteilung beginnen. Zum Beispiel können Sie 80–90% für notwendige Ausgaben einplanen und den Rest auf die Aufgaben verteilen, die für Sie am wichtigsten sind.",
+      "Selbst ein kleiner Betrag, den Sie regelmäßig in Ihre Reserve oder für ein langfristiges Ziel zurücklegen, hilft dabei, eine Gewohnheit aufzubauen.",
+      "Wenn sich Einkommen und Ausgaben verändern, können Sie die Verteilung jederzeit anpassen.",
+      "Entscheidend ist nicht die Größe des ersten Schritts, sondern die Regelmäßigkeit."
+    ]
+  },
+  "notExactlySixJars": {
+    "title": "Müssen es genau sechs Töpfe sein?",
+    "openingParagraphs": [
+      "Nein.",
+      "Sechs Töpfe bilden die Grundlage der klassischen Methode. Sie decken die wichtigsten finanziellen Aufgaben ab und eignen sich gut als Ausgangspunkt.",
+      "Mit der Zeit können Sie das System jedoch anpassen."
+    ],
+    "listIntro": "Sie können zum Beispiel eigene Töpfe anlegen für:",
+    "items": [
+      "Urlaub;",
+      "Gesundheit;",
+      "ein Auto;",
+      "Renovierungen;",
+      "Haustiere;",
+      "Kinder;",
+      "Steuern;",
+      "Technik;",
+      "eine bestimmte größere Anschaffung."
+    ],
+    "closingParagraphs": [
+      "Einige klassische Töpfe können Sie umgekehrt auch zusammenlegen oder umbenennen.",
+      "Wichtig ist nur, das Grundprinzip zu bewahren: Das Geld sollte nach Zweck aufgeteilt werden, und die Struktur sollte zu Ihrem Leben passen."
+    ]
+  },
+  "physicalJarsProblem": {
+    "title": "Das Problem mit physischen Töpfen und Umschlägen",
+    "paragraphs": [
+      "Ursprünglich waren solche Systeme auf Bargeld ausgelegt.",
+      "Das Einkommen konnte physisch auf verschiedene Töpfe, Boxen oder Umschläge verteilt werden. Dadurch war die Aufteilung sehr anschaulich: Geld für unterschiedliche Kategorien wurde tatsächlich getrennt aufbewahrt.",
+      "Heute finden jedoch die meisten Finanztransaktionen bargeldlos statt.",
+      "Wir erhalten Einkommen auf ein Bankkonto, bezahlen mit Karte, begleichen Dienstleistungen online und überweisen Geld mit dem Smartphone.",
+      "Unter diesen Bedingungen sind physische Töpfe unpraktisch. Um das System aufrechtzuerhalten, müssten Sie regelmäßig Bargeld abheben oder jede bargeldlose Transaktion manuell nachtragen.",
+      "Sie könnten mehrere Bankkonten eröffnen, aber auch die Verwaltung vieler Konten und Überweisungen ist nicht immer bequem. Außerdem hängen Anzahl und Bedingungen verfügbarer Konten von der jeweiligen Bank ab."
+    ]
+  },
+  "digitalJars": {
+    "title": "Digitale Töpfe",
+    "paragraphs": [
+      "Ich bin selbst auf dieses Problem gestoßen.",
+      "Mir gefiel das Prinzip der 6-Töpfe-Methode, und ihre regelmäßige Anwendung half mir tatsächlich dabei, einen disziplinierteren Umgang mit Geld zu entwickeln.",
+      "Physische Töpfe oder Umschläge erwiesen sich in einer Welt bargeldloser Zahlungen jedoch als unpraktisch.",
+      "Deshalb habe ich <strong>6 Jars Finance</strong> entwickelt — eine App zur Verwaltung persönlicher Finanzen auf Grundlage der 6-Töpfe-Methode.",
+      "Die App bewahrt die Grundidee des Systems, ohne dass Sie Ihr Geld physisch voneinander trennen müssen.",
+      "Sie lassen Ihr Geld weiterhin auf Ihrem gewohnten Bankkonto, sehen in der App aber für jeden Topf einen eigenen Kontostand."
+    ]
+  },
+  "appHowItWorks": {
+    "title": "So funktioniert 6 Jars Finance",
+    "openingParagraphs": [
+      "Wenn Sie Einkommen erhalten, verteilt die App es entsprechend den gewählten Prozentsätzen auf Ihre Töpfe.",
+      "Nach einem Kauf geben Sie an, aus welchem Topf das Geld ausgegeben wurde. Nur dessen Kontostand sinkt — die übrigen Mittel behalten ihren vorgesehenen Zweck.",
+      "So bekommt Ihr gesamter Bankkontostand eine klare innere Struktur."
+    ],
+    "listIntro": "Sie sehen:",
+    "items": [
+      "wie viel Geld für notwendige Ausgaben verfügbar ist;",
+      "wie viel für langfristige Ziele angespart wurde;",
+      "wie viel Sie für Freizeit ausgeben können;",
+      "welches Budget für Bildung vorgesehen ist;",
+      "wie sich die Kontostände Ihrer Töpfe im Laufe der Zeit verändern."
+    ],
+    "closingParagraphs": [
+      "Die App verschiebt kein Geld zwischen Bankkonten und greift nicht auf Ihre Bank zu. Sie hilft Ihnen dabei, eine separate Übersicht zu führen und den Zweck Ihrer Mittel zu verstehen."
+    ]
+  },
+  "trackEveryPurchase": {
+    "title": "Müssen Sie jeden Einkauf einzeln eintragen?",
+    "screenshotAlt": "Bildschirm zum Hinzufügen einer Ausgabe von 75 aus dem Topf „Laufende Ausgaben“ mit dem Tag „Lebensmittel“",
+    "paragraphs": [
+      "Nein. Für die Anwendung der Methode reicht es aus, den Gesamtbetrag einer Ausgabe einzugeben und den Topf auszuwählen, aus dem das Geld stammt.",
+      "Einen normalen Einkauf können Sie zum Beispiel als eine einzige Ausgabe von 105 erfassen. Wenn Sie genauer unterscheiden möchten, können Sie den Betrag auf mehrere Ausgaben aufteilen: 75 für Lebensmittel und 30 für Haushaltswaren. Für zusätzliche Details können Sie Tags verwenden.",
+      "Sie entscheiden selbst, welcher Detailgrad für Sie sinnvoll ist. Die App verlangt nicht, jede einzelne Position eines Kassenbons abzuschreiben — die Erfassung soll Ihnen helfen, Geldbewegungen zu verstehen, und nicht zu viel Zeit kosten.",
+      "Eine Ausgabe manuell einzutragen erfordert einen kleinen zusätzlichen Schritt, hilft Ihnen aber gleichzeitig dabei, Ihre Ausgaben bewusster wahrzunehmen und besser zu verstehen, wohin Ihr Geld fließt."
+    ]
+  },
+  "adaptSystem": {
+    "title": "Passen Sie das System an Ihre Bedürfnisse an",
+    "openingParagraphs": [
+      "6 Jars Finance basiert auf der klassischen Methode, beschränkt Sie aber nicht auf deren ursprüngliche Struktur."
+    ],
+    "listIntro": "Sie können:",
+    "items": [
+      "die Prozentsätze der Verteilung ändern;",
+      "Töpfe umbenennen;",
+      "eigene Töpfe erstellen;",
+      "mehr oder weniger als sechs Töpfe verwenden;",
+      "die Reihenfolge der Töpfe ändern;",
+      "Einnahmen und Ausgaben erfassen;",
+      "wiederkehrende Transaktionen hinzufügen;",
+      "Geldbewegungen mithilfe von Berichten analysieren."
+    ],
+    "closingParagraphs": [
+      "Die klassische Struktur kann ein praktischer Ausgangspunkt sein. Anschließend können Sie sie nach und nach so verändern, dass sie zu Ihren eigenen Aufgaben passt."
+    ]
+  },
+  "startWithNextIncome": {
+    "title": "Beginnen Sie mit Ihrem nächsten Einkommen",
+    "paragraphs": [
+      "Sie müssen nicht sofort Ihr gesamtes Finanzsystem umstellen oder die klassischen Prozentsätze perfekt einhalten.",
+      "Beginnen Sie einfach: Verteilen Sie Ihr nächstes Einkommen auf einige Aufgaben, die für Sie wichtig sind.",
+      "Schon dieser erste Schritt hilft Ihnen dabei, Geld nicht mehr als eine einzige Gesamtsumme zu betrachten, sondern als Werkzeug für unterschiedliche Bereiche Ihres Lebens.",
+      "In 6 Jars Finance sind <strong>die klassischen Töpfe und Prozentsätze bereits eingerichtet.</strong> Sie können direkt damit beginnen und die Verteilung später bei Bedarf anpassen."
+    ],
+    "cta": "Zu 6 Jars Finance →"
+  }
+}

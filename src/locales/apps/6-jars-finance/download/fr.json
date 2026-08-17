@@ -1,0 +1,71 @@
+{
+  "title": "6 Jars Finance — budget avec la méthode des six enveloppes",
+  "metaDescription": "Répartissez votre salaire entre les dépenses du quotidien, l'épargne et vos objectifs financiers avant de commencer à le dépenser.",
+  "hero": {
+    "title": "Gardez le contrôle sur vos dépenses d'aujourd'hui et avancez plus sereinement vers demain",
+    "lead": "6 Jars Finance vous aide à répartir votre salaire à l'avance : vous savez combien vous pouvez dépenser dans les cafés et pour vos loisirs, mettre de côté pour des vacances ou un achat important et constituer progressivement une réserve pour les dépenses imprévues.",
+    "screenshotAlt": "Écran d'accueil de 6 Jars Finance avec six enveloppes et leurs soldes"
+  },
+  "benefits": [
+    {
+      "title": "Vous savez combien vous pouvez dépenser",
+      "text": "Vous voyez des montants distincts pour les dépenses du quotidien, les cafés, les loisirs et d'autres catégories. Vous n'avez pas besoin de consulter constamment votre solde total et de vous demander si vous pouvez vous permettre un achat."
+    },
+    {
+      "title": "L'épargne est mise de côté à l'avance",
+      "text": "Vous pouvez immédiatement réserver une partie de votre salaire pour des vacances, un achat important ou un autre objectif. Cet argent reste séparé des dépenses du quotidien et ne disparaît pas discrètement avant la fin du mois."
+    },
+    {
+      "title": "Vous constituez progressivement une réserve",
+      "text": "En mettant régulièrement de côté même une petite partie de votre salaire, vous pouvez constituer une réserve en cas de maladie, de panne d'un appareil, de retard de salaire ou d'autres situations imprévues."
+    }
+  ],
+  "about": {
+    "title": "Créée à partir d'une expérience personnelle",
+    "paragraphs": [
+      "Je m'appelle Artem D. Je travaille professionnellement dans le développement logiciel depuis 2017 et j'ai créé 6 Jars Finance.",
+      "J'utilise la méthode des six enveloppes depuis plus de 10 ans. Grâce à elle, je n'ai pas besoin de me demander à chaque fois si je peux m'acheter un jeu de société ou aller au café, si j'aurai assez d'argent pour partir en vacances ou si je pourrai payer mon loyer à temps en cas de retard de salaire.",
+      "Au fil des années, j'ai essayé différentes applications basées sur la méthode des six enveloppes. Ce qui m'agaçait le plus, c'est que le nombre d'enveloppes était toujours strictement limité à six. Il était impossible d'en ajouter une septième ou de supprimer celles dont je n'avais pas besoin.",
+      "C'est pour cela que j'ai créé 6 Jars Finance, où le système d'enveloppes peut évoluer avec vos changements de situation et de priorités financières. J'utilise moi-même régulièrement l'application, donc je continue à ajouter de nouvelles fonctionnalités et à la rendre plus pratique."
+    ]
+  },
+  "faq": {
+    "title": "Questions fréquentes",
+    "items": [
+      {
+        "question": "Faut-il suivre strictement la répartition classique entre six enveloppes ?",
+        "answer": "Non. La répartition classique est un point de départ prêt à l'emploi, pas un ensemble de règles obligatoires."
+      },
+      {
+        "question": "Puis-je adapter l'application à mes besoins ?",
+        "answer": "Oui. Vous pouvez renommer les six enveloppes de base, supprimer celles dont vous n'avez pas besoin et choisir d'autres pourcentages. Vous pouvez également créer des enveloppes supplémentaires si nécessaire."
+      },
+      {
+        "question": "Dois-je enregistrer chaque achat séparément ?",
+        "answer": "Non. Vous pouvez regrouper plusieurs achats effectués depuis la même enveloppe en un seul montant. Par exemple, vous n'avez pas besoin d'enregistrer chaque achat au supermarché séparément : vous pouvez simplement saisir le montant total dépensé pour les courses."
+      },
+      {
+        "question": "Que faire si je n'ai pas assez d'argent pour épargner ?",
+        "answer": "Vous décidez vous-même du montant à consacrer à l'épargne. Vous pouvez commencer par une petite somme ou, pour le moment, répartir l'ensemble de votre salaire entre vos dépenses courantes. L'application ne vous impose pas d'épargner un pourcentage fixe."
+      },
+      {
+        "question": "En quoi est-ce différent d'une application classique de suivi des dépenses ?",
+        "answer": "Les applications financières classiques servent surtout à enregistrer les dépenses et à voir où l'argent est déjà parti. 6 Jars Finance répartit automatiquement votre salaire entre des domaines de vie définis à l'avance, afin que vous sachiez toujours combien vous pouvez dépenser et pour quoi, sans toucher à l'argent mis de côté pour des vacances, un achat important ou d'autres objectifs."
+      }
+    ]
+  },
+  "guide": {
+    "title": "Vous voulez mieux comprendre la méthode ?",
+    "text": "Si vous doutez de pouvoir appliquer la méthode des six enveloppes ou si vous ne comprenez pas encore parfaitement son fonctionnement, consultez le guide détaillé. J'y explique, à l'aide d'exemples concrets et de mon expérience personnelle, comment utiliser la méthode dans la vie quotidienne.",
+    "button": "En savoir plus sur la méthode"
+  },
+  "cta": {
+    "title": "Commencez à utiliser la méthode des six enveloppes",
+    "text": "Gratuit et sans publicité"
+  },
+  "modal": {
+    "title": "L'application n'est pas encore disponible sur l'App Store",
+    "text": "La version pour iPhone est en cours de développement.",
+    "button": "Compris"
+  }
+}
