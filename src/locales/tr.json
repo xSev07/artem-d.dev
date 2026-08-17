@@ -2,6 +2,168 @@
   "common": {
     "langSwitch": {
       "label": "Dil"
+    },
+    "labels": {
+      "lastUpdated": "Son güncelleme:",
+      "developer": "Geliştirici:",
+      "contactAddress": "İletişim adresi:"
+    },
+    "pages": {
+      "privacy": "Gizlilik Politikası",
+      "help": "Hata Bilgileri",
+      "licenses": "Açık Kaynak Lisansları"
+    }
+  },
+  "article": {
+    "tocTitle": "Bu sayfada",
+    "tocLabel": "Sayfa navigasyonu"
+  },
+  "site": {
+    "nav": {
+      "label": "Site navigasyonu",
+      "download": "Uygulamayı indir",
+      "guide": "Altı Kavanoz Yöntemi"
+    },
+    "footer": {
+      "label": "Site bilgileri"
+    },
+    "help": {
+      "metaDescription": "A.D.A uygulamasında bir işlem yürütülürken oluşan hata hakkında bilgi.",
+      "title": "İşlem tamamlanamadı",
+      "intro": "İşlem teknik bir hata nedeniyle tamamlanamadı.",
+      "sections": {
+        "whatItMeans": {
+          "title": "Bu ne anlama geliyor",
+          "text": "Nadir durumlarda, yerel veritabanı veya cihazın işletim sistemi veri yazımını geçici olarak engelleyebilir."
+        },
+        "whatToTry": {
+          "title": "Neler deneyebilirsiniz",
+          "items": [
+            "Uygulamayı kapatıp yeniden açın",
+            "Cihazı yeniden başlatın",
+            "Cihazda yeterli boş depolama alanı olup olmadığını kontrol edin",
+            "Uygulamanın en son sürümünün yüklü olduğundan emin olun"
+          ]
+        },
+        "ifPersists": {
+          "title": "Sorun devam ederse",
+          "contactText": "Destek ekibiyle iletişime geçin:",
+          "emailIntro": "E-postanızda mümkünse şunları belirtin:",
+          "emailItems": [
+            "cihaz modeli",
+            "Android sürümü",
+            "uygulama sürümü",
+            "hata oluşmadan önce hangi işlemi yaptığınız"
+          ]
+        }
+      }
+    }
+  },
+  "apps": {
+    "sixJarsFinance": {
+      "privacy": {
+        "lastUpdated": "03.07.2026",
+        "metaDescription": "Artem D Apps uygulamasının Gizlilik Politikası.",
+        "sections": {
+          "general": {
+            "title": "1. Genel hükümler",
+            "paragraphs": [
+              "Bu Gizlilik Politikası, mobil uygulama kullanılırken verilerin nasıl işlendiğini açıklar. Uygulama, verilerin yerel olarak saklanması ilkesiyle (offline-first) tasarlanmıştır. Finansal kayıtlar ve kullanıcı tarafından uygulamada oluşturulan diğer veriler kullanıcının cihazında yerel olarak saklanır ve geliştiriciye aktarılmaz.",
+              "Uygulama, teknik amaçlarla üçüncü taraf hizmetleri kullanabilir; örneğin çökme ve hata raporlaması için. Bu hizmetler, hataların tespit edilmesi, analiz edilmesi ve düzeltilmesi için gerekli teknik tanılama verilerini işleyebilir."
+            ]
+          },
+          "dataProcessed": {
+            "title": "2. Hangi veriler işlenir"
+          },
+          "userData": {
+            "title": "2.1 Kullanıcı tarafından girilen veriler",
+            "intro": "Kullanıcı uygulamaya kendisi şu verileri girer:",
+            "items": [
+              "finansal kayıtlar (işlemler)",
+              "kategoriler ve etiketler",
+              "kavanoz adları, hesap adları, notlar ve diğer kullanıcı ayarları"
+            ],
+            "outro": "Bu veriler kullanıcının cihazında yerel olarak saklanır, geliştiriciye aktarılmaz, geliştiricinin sunucularına kopyalanmaz ve üçüncü taraflarla paylaşılmaz. Geliştiricinin bu verilere erişmek için teknik bir imkânı yoktur."
+          },
+          "platformData": {
+            "title": "2.2 Platformun teknik verileri",
+            "paragraphs": [
+              "Uygulama yüklenirken ve kullanılırken Google Play platformu cihaz bilgileri, işletim sistemi sürümü, tanılama verileri ve çökme bilgileri gibi teknik verileri otomatik olarak işleyebilir.",
+              "Bu veriler Google hizmetleri tarafından kendi gizlilik politikalarına uygun olarak işlenir. Geliştirici, Google'dan kullanıcının kişisel verilerini almaz."
+            ]
+          },
+          "purchases": {
+            "title": "2.3 Uygulama içi satın alımlar",
+            "paragraphs": [
+              "Uygulama, Google Play üzerinden işlenen uygulama içi satın alımları kullanabilir. Ödeme işlemleri Google altyapısı tarafından gerçekleştirilir. Geliştirici banka kartı verilerini almaz, ödeme bilgilerini saklamaz ve kullanıcının finansal bilgilerine erişemez."
+            ]
+          },
+          "crashes": {
+            "title": "2.4 Çökme ve hata raporları",
+            "paragraphs": [
+              "Uygulama, geliştirici adına çökme raporlarını ve teknik tanılama verilerini işleyen üçüncü taraf hata izleme hizmeti Sentry'yi kullanır.",
+              "Bir hata oluştuğunda uygulama Sentry'ye çökme raporları, stack trace, uygulama sürümü, işletim sistemi sürümü, cihaz modeli ve hatayla ilgili diğer teknik bilgiler gibi teknik tanılama bilgileri gönderebilir.",
+              "Sentry, kişisel veri toplama özelliği varsayılan olarak devre dışı olacak şekilde yapılandırılmıştır. Uygulama, finansal kayıtları, işlem verilerini, kavanoz adlarını, etiketleri, notları, hesap adlarını veya kullanıcı tarafından oluşturulan diğer finansal içerikleri kasıtlı olarak Sentry'ye göndermez.",
+              "Geliştirici hata raporlarını yalnızca uygulamanın kararlılığını artırmak, teknik sorunları teşhis etmek ve hataları düzeltmek amacıyla kullanır.",
+              "Uygulama hesap kullanmadığı ve hata raporları için kullanıcı tanımlayıcıları atamadığı için geliştirici belirli bir kullanıcıya ait hata raporlarını bulamayabilir ve silemeyebilir."
+            ]
+          },
+          "storage": {
+            "title": "3. Veri saklama",
+            "paragraphs": [
+              "Finansal kayıtlar ve kullanıcı tarafından uygulamada oluşturulan diğer veriler, uygulamanın veritabanında kullanıcının cihazında yerel olarak saklanır. Kullanıcı önceden bir yedek oluşturmamışsa uygulamanın kaldırılması yerel olarak saklanan verilerin silinmesine neden olur. Geliştirici bu kullanıcı verilerinin kopyalarını saklamaz ve bunlara erişemez.",
+              "Teknik çökme ve tanılama verileri hata izleme amacıyla Sentry tarafından işlenebilir."
+            ]
+          },
+          "thirdParties": {
+            "title": "4. Verilerin üçüncü taraflara aktarılması",
+            "paragraphs": [
+              "Geliştirici kullanıcı verilerini satmaz ve kullanıcı tarafından uygulamada oluşturulan finansal verileri üçüncü taraflara aktarmaz.",
+              "Finansal kayıtlar, işlemler, etiketler, kavanoz adları, notlar, ayarlar ve yedekler uygulama tarafından geliştiriciye veya harici sunuculara aktarılmaz.",
+              "Teknik çökme ve tanılama verileri, hataların tespit edilmesi, teşhis edilmesi ve düzeltilmesi amacıyla geliştirici adına Sentry tarafından işlenebilir."
+            ]
+          },
+          "backups": {
+            "title": "5. Yedeklemeler",
+            "paragraphs": [
+              "Uygulama yedek oluşturma imkânı sunuyorsa yedek dosyası kullanıcı tarafından oluşturulur ve kullanıcının seçtiği konuma kaydedilir. Geliştiricinin yedeklere erişimi yoktur."
+            ]
+          },
+          "rights": {
+            "title": "6. Kullanıcı hakları",
+            "intro": "Kullanıcı şunları yapabilir:",
+            "items": [
+              "uygulamayı kaldırarak veya cihaz ayarlarından uygulama verilerini temizleyerek yerel olarak saklanan uygulama verilerini silmek",
+              "uygulama içi satın alımları kullanmamayı tercih etmek",
+              "gizlilikla ilgili konularda geliştiriciyle iletişime geçmek"
+            ],
+            "outro": "Uygulama hesap kullanmadığı ve hata raporları için kullanıcı tanımlayıcıları atamadığı için geliştirici belirli bir kullanıcıya ait hata raporlarını bulamayabilir ve silemeyebilir."
+          },
+          "security": {
+            "title": "7. Güvenlik",
+            "paragraphs": [
+              "Uygulama kullanıcının finansal verilerini internet üzerinden iletmez. Teknik çökme ve tanılama verileri gönderilirse güvenli bir bağlantı üzerinden iletilir.",
+              "Kullanıcı, cihazının ve oluşturduğu yedeklerin güvenliğinden kendisi sorumludur."
+            ]
+          },
+          "changes": {
+            "title": "8. Politikadaki değişiklikler",
+            "paragraphs": [
+              "Politikanın güncellenmiş sürümü uygulamanın resmi sayfasında yayımlanır."
+            ]
+          },
+          "contact": {
+            "title": "9. İletişim bilgileri",
+            "text": "Gizlilikla ilgili sorular için:"
+          }
+        }
+      },
+      "licenses": {
+        "metaDescription": "Artem D Apps uygulamasında kullanılan üçüncü taraf açık kaynak yazılımlarının lisansları.",
+        "licenseLabel": "Lisans:",
+        "repositoryLabel": "Depo:",
+        "disclaimer": "Bu sayfada uygulamada kullanılan üçüncü taraf açık kaynak yazılımları listelenmektedir."
+      }
     }
   }
 }

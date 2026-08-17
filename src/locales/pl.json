@@ -2,6 +2,168 @@
   "common": {
     "langSwitch": {
       "label": "Język"
+    },
+    "labels": {
+      "lastUpdated": "Ostatnia aktualizacja:",
+      "developer": "Deweloper:",
+      "contactAddress": "Adres kontaktowy:"
+    },
+    "pages": {
+      "privacy": "Polityka prywatności",
+      "help": "Informacje o błędzie",
+      "licenses": "Licencje oprogramowania open source"
+    }
+  },
+  "article": {
+    "tocTitle": "Na tej stronie",
+    "tocLabel": "Nawigacja po stronie"
+  },
+  "site": {
+    "nav": {
+      "label": "Nawigacja strony",
+      "download": "Pobierz aplikację",
+      "guide": "Metoda sześciu słoików"
+    },
+    "footer": {
+      "label": "Informacje o stronie"
+    },
+    "help": {
+      "metaDescription": "Informacje o błędzie podczas wykonywania operacji w aplikacji A.D.A.",
+      "title": "Nie udało się wykonać operacji",
+      "intro": "Operacja nie została wykonana z powodu błędu technicznego.",
+      "sections": {
+        "whatItMeans": {
+          "title": "Co to oznacza",
+          "text": "W rzadkich przypadkach lokalna baza danych lub system operacyjny urządzenia mogą tymczasowo uniemożliwić zapis danych."
+        },
+        "whatToTry": {
+          "title": "Co możesz zrobić",
+          "items": [
+            "Zamknij i ponownie otwórz aplikację",
+            "Uruchom ponownie urządzenie",
+            "Sprawdź, czy na urządzeniu jest wystarczająco dużo wolnego miejsca",
+            "Upewnij się, że masz zainstalowaną najnowszą wersję aplikacji"
+          ]
+        },
+        "ifPersists": {
+          "title": "Jeśli problem się powtarza",
+          "contactText": "Skontaktuj się z pomocą techniczną:",
+          "emailIntro": "W wiadomości warto podać:",
+          "emailItems": [
+            "model urządzenia",
+            "wersję Androida",
+            "wersję aplikacji",
+            "czynność wykonywaną przed wystąpieniem błędu"
+          ]
+        }
+      }
+    }
+  },
+  "apps": {
+    "sixJarsFinance": {
+      "privacy": {
+        "lastUpdated": "03.07.2026",
+        "metaDescription": "Polityka prywatności aplikacji Artem D Apps.",
+        "sections": {
+          "general": {
+            "title": "1. Postanowienia ogólne",
+            "paragraphs": [
+              "Niniejsza Polityka prywatności opisuje sposób przetwarzania danych podczas korzystania z aplikacji mobilnej. Aplikacja została zaprojektowana z myślą o lokalnym przechowywaniu danych (offline-first). Dane finansowe i inne dane utworzone przez użytkownika w aplikacji są przechowywane lokalnie na urządzeniu użytkownika i nie są przekazywane deweloperowi.",
+              "Aplikacja może korzystać z usług stron trzecich w celach technicznych, na przykład do raportowania awarii i błędów. Usługi te mogą przetwarzać techniczne dane diagnostyczne niezbędne do wykrywania, analizowania i naprawiania błędów."
+            ]
+          },
+          "dataProcessed": {
+            "title": "2. Jakie dane są przetwarzane"
+          },
+          "userData": {
+            "title": "2.1 Dane wprowadzane przez użytkownika",
+            "intro": "Użytkownik samodzielnie wprowadza do aplikacji:",
+            "items": [
+              "dane finansowe (transakcje)",
+              "kategorie i tagi",
+              "nazwy słoików, nazwy kont, notatki i inne ustawienia użytkownika"
+            ],
+            "outro": "Dane te są przechowywane lokalnie na urządzeniu użytkownika, nie są przekazywane deweloperowi, kopiowane na serwery dewelopera ani udostępniane stronom trzecim. Deweloper nie ma technicznej możliwości uzyskania dostępu do tych danych."
+          },
+          "platformData": {
+            "title": "2.2 Dane techniczne platformy",
+            "paragraphs": [
+              "Podczas instalowania i korzystania z aplikacji platforma Google Play może automatycznie przetwarzać dane techniczne, takie jak informacje o urządzeniu, wersja systemu operacyjnego, dane diagnostyczne oraz informacje o awariach.",
+              "Dane te są przetwarzane przez usługi Google zgodnie z ich własną polityką prywatności. Deweloper nie otrzymuje od Google danych osobowych użytkownika."
+            ]
+          },
+          "purchases": {
+            "title": "2.3 Zakupy w aplikacji",
+            "paragraphs": [
+              "Aplikacja może umożliwiać zakupy w aplikacji przetwarzane za pośrednictwem Google Play. Płatności są obsługiwane przez infrastrukturę Google. Deweloper nie otrzymuje danych kart bankowych, nie przechowuje informacji o płatnościach i nie ma dostępu do danych finansowych użytkownika."
+            ]
+          },
+          "crashes": {
+            "title": "2.4 Raportowanie awarii i błędów",
+            "paragraphs": [
+              "Aplikacja korzysta z Sentry, zewnętrznej usługi monitorowania błędów, która przetwarza raporty o awariach i techniczne dane diagnostyczne w imieniu dewelopera.",
+              "W przypadku wystąpienia błędu aplikacja może przesyłać do Sentry techniczne informacje diagnostyczne, takie jak raporty o awariach, stack trace, wersja aplikacji, wersja systemu operacyjnego, model urządzenia oraz inne informacje techniczne związane z błędem.",
+              "Sentry jest skonfigurowane tak, aby domyślnie nie zbierać danych osobowych. Aplikacja celowo nie przesyła do Sentry danych finansowych, danych transakcji, nazw słoików, tagów, notatek, nazw kont ani innych treści finansowych utworzonych przez użytkownika.",
+              "Deweloper wykorzystuje raporty o błędach wyłącznie w celu poprawy stabilności aplikacji, diagnozowania problemów technicznych i usuwania błędów.",
+              "Ponieważ aplikacja nie korzysta z kont i nie przypisuje identyfikatorów użytkowników do raportowania błędów, deweloper może nie mieć możliwości odnalezienia i usunięcia raportów o błędach konkretnego użytkownika."
+            ]
+          },
+          "storage": {
+            "title": "3. Przechowywanie danych",
+            "paragraphs": [
+              "Dane finansowe i inne dane utworzone przez użytkownika w aplikacji są przechowywane lokalnie na urządzeniu użytkownika w bazie danych aplikacji. Usunięcie aplikacji powoduje usunięcie danych przechowywanych lokalnie, chyba że użytkownik wcześniej utworzył kopię zapasową. Deweloper nie przechowuje kopii tych danych i nie ma do nich dostępu.",
+              "Techniczne dane dotyczące awarii i dane diagnostyczne mogą być przetwarzane przez Sentry w celu monitorowania błędów."
+            ]
+          },
+          "thirdParties": {
+            "title": "4. Przekazywanie danych stronom trzecim",
+            "paragraphs": [
+              "Deweloper nie sprzedaje danych użytkowników ani nie przekazuje stronom trzecim danych finansowych utworzonych przez użytkownika w aplikacji.",
+              "Dane finansowe, transakcje, tagi, nazwy słoików, notatki, ustawienia i kopie zapasowe nie są przesyłane przez aplikację do dewelopera ani na zewnętrzne serwery.",
+              "Techniczne dane dotyczące awarii i dane diagnostyczne mogą być przetwarzane przez Sentry w imieniu dewelopera w celu wykrywania, diagnozowania i naprawiania błędów."
+            ]
+          },
+          "backups": {
+            "title": "5. Kopie zapasowe",
+            "paragraphs": [
+              "Jeśli aplikacja umożliwia utworzenie kopii zapasowej, plik kopii zapasowej jest tworzony przez użytkownika i zapisywany w wybranym przez niego miejscu. Deweloper nie ma dostępu do kopii zapasowych."
+            ]
+          },
+          "rights": {
+            "title": "6. Prawa użytkownika",
+            "intro": "Użytkownik może:",
+            "items": [
+              "usunąć lokalnie przechowywane dane aplikacji poprzez usunięcie aplikacji lub wyczyszczenie jej danych w ustawieniach urządzenia",
+              "zrezygnować z korzystania z zakupów w aplikacji",
+              "skontaktować się z deweloperem w sprawach dotyczących prywatności"
+            ],
+            "outro": "Ponieważ aplikacja nie korzysta z kont i nie przypisuje identyfikatorów użytkowników do raportowania błędów, deweloper może nie mieć możliwości odnalezienia i usunięcia raportów o błędach konkretnego użytkownika."
+          },
+          "security": {
+            "title": "7. Bezpieczeństwo",
+            "paragraphs": [
+              "Aplikacja nie przesyła danych finansowych użytkownika przez internet. Techniczne dane dotyczące awarii i dane diagnostyczne, jeśli są wysyłane, są przesyłane za pośrednictwem bezpiecznego połączenia.",
+              "Użytkownik sam odpowiada za bezpieczeństwo swojego urządzenia i utworzonych kopii zapasowych."
+            ]
+          },
+          "changes": {
+            "title": "8. Zmiany w polityce",
+            "paragraphs": [
+              "Zaktualizowana wersja polityki jest publikowana na oficjalnej stronie aplikacji."
+            ]
+          },
+          "contact": {
+            "title": "9. Dane kontaktowe",
+            "text": "W sprawach dotyczących prywatności:"
+          }
+        }
+      },
+      "licenses": {
+        "metaDescription": "Licencje zewnętrznego oprogramowania open source używanego w Artem D Apps.",
+        "licenseLabel": "Licencja:",
+        "repositoryLabel": "Repozytorium:",
+        "disclaimer": "Na tej stronie wymieniono zewnętrzne oprogramowanie open source używane w aplikacji."
+      }
     }
   }
 }

@@ -2,6 +2,168 @@
   "common": {
     "langSwitch": {
       "label": "Jazyk"
+    },
+    "labels": {
+      "lastUpdated": "Poslední aktualizace:",
+      "developer": "Vývojář:",
+      "contactAddress": "Kontaktní adresa:"
+    },
+    "pages": {
+      "privacy": "Zásady ochrany osobních údajů",
+      "help": "Informace o chybě",
+      "licenses": "Licence open source softwaru"
+    }
+  },
+  "article": {
+    "tocTitle": "Na této stránce",
+    "tocLabel": "Navigace na stránce"
+  },
+  "site": {
+    "nav": {
+      "label": "Navigace webu",
+      "download": "Stáhnout aplikaci",
+      "guide": "Metoda šesti fondů"
+    },
+    "footer": {
+      "label": "Informace o webu"
+    },
+    "help": {
+      "metaDescription": "Informace o chybě při provádění operace v aplikaci A.D.A.",
+      "title": "Operaci se nepodařilo dokončit",
+      "intro": "Operace nebyla dokončena kvůli technické chybě.",
+      "sections": {
+        "whatItMeans": {
+          "title": "Co to znamená",
+          "text": "Ve vzácných případech může místní databáze nebo operační systém zařízení dočasně zabránit zápisu dat."
+        },
+        "whatToTry": {
+          "title": "Co můžete zkusit",
+          "items": [
+            "Zavřete a znovu otevřete aplikaci",
+            "Restartujte zařízení",
+            "Zkontrolujte, zda je v zařízení dostatek volného místa",
+            "Ujistěte se, že máte nainstalovanou nejnovější verzi aplikace"
+          ]
+        },
+        "ifPersists": {
+          "title": "Pokud problém přetrvává",
+          "contactText": "Kontaktujte podporu:",
+          "emailIntro": "V e-mailu doporučujeme uvést:",
+          "emailItems": [
+            "model zařízení",
+            "verzi systému Android",
+            "verzi aplikace",
+            "jakou činnost jste prováděli před vznikem chyby"
+          ]
+        }
+      }
+    }
+  },
+  "apps": {
+    "sixJarsFinance": {
+      "privacy": {
+        "lastUpdated": "03.07.2026",
+        "metaDescription": "Zásady ochrany osobních údajů aplikace Artem D Apps.",
+        "sections": {
+          "general": {
+            "title": "1. Obecná ustanovení",
+            "paragraphs": [
+              "Tyto Zásady ochrany osobních údajů popisují způsob zpracování dat při používání mobilní aplikace. Aplikace je navržena s důrazem na místní ukládání dat (offline-first). Finanční záznamy a další data vytvořená uživatelem v aplikaci jsou ukládána místně v zařízení uživatele a nejsou předávána vývojáři.",
+              "Aplikace může pro technické účely využívat služby třetích stran, například pro hlášení pádů a chyb. Tyto služby mohou zpracovávat technická diagnostická data potřebná k odhalování, analýze a opravě chyb."
+            ]
+          },
+          "dataProcessed": {
+            "title": "2. Jaká data jsou zpracovávána"
+          },
+          "userData": {
+            "title": "2.1 Data zadaná uživatelem",
+            "intro": "Uživatel do aplikace sám zadává:",
+            "items": [
+              "finanční záznamy (transakce)",
+              "kategorie a štítky",
+              "názvy fondů, názvy účtů, poznámky a další uživatelská nastavení"
+            ],
+            "outro": "Tato data jsou uložena místně v zařízení uživatele, nejsou předávána vývojáři, kopírována na servery vývojáře ani sdílena s třetími stranami. Vývojář nemá technickou možnost k těmto datům přistupovat."
+          },
+          "platformData": {
+            "title": "2.2 Technická data platformy",
+            "paragraphs": [
+              "Při instalaci a používání aplikace může platforma Google Play automaticky zpracovávat technická data, jako jsou informace o zařízení, verze operačního systému, diagnostická data a informace o pádech.",
+              "Tato data jsou zpracovávána službami Google v souladu s jejich vlastními zásadami ochrany osobních údajů. Vývojář od společnosti Google nezískává osobní údaje uživatele."
+            ]
+          },
+          "purchases": {
+            "title": "2.3 Nákupy v aplikaci",
+            "paragraphs": [
+              "Aplikace může využívat nákupy v aplikaci zpracovávané prostřednictvím Google Play. Platby jsou zpracovávány prostřednictvím infrastruktury Google. Vývojář nezískává údaje o platebních kartách, neukládá platební informace a nemá přístup k finančním údajům uživatele."
+            ]
+          },
+          "crashes": {
+            "title": "2.4 Hlášení pádů a chyb",
+            "paragraphs": [
+              "Aplikace používá Sentry, službu třetí strany pro monitorování chyb, která jménem vývojáře zpracovává hlášení o pádech a technická diagnostická data.",
+              "Pokud dojde k chybě, aplikace může do Sentry odeslat technické diagnostické informace, například hlášení o pádu, stack trace, verzi aplikace, verzi operačního systému, model zařízení a další technické informace související s chybou.",
+              "Sentry je nakonfigurováno tak, aby byl ve výchozím nastavení sběr osobních údajů vypnutý. Aplikace záměrně neodesílá do Sentry finanční záznamy, údaje o transakcích, názvy fondů, štítky, poznámky, názvy účtů ani jiný finanční obsah vytvořený uživatelem.",
+              "Vývojář používá hlášení o chybách pouze ke zlepšování stability aplikace, diagnostice technických problémů a opravě chyb.",
+              "Protože aplikace nepoužívá účty ani nepřiřazuje uživatelské identifikátory pro hlášení chyb, vývojář nemusí být schopen vyhledat a odstranit hlášení o chybách konkrétního uživatele."
+            ]
+          },
+          "storage": {
+            "title": "3. Ukládání dat",
+            "paragraphs": [
+              "Finanční záznamy a další data vytvořená uživatelem v aplikaci jsou ukládána místně v zařízení uživatele v databázi aplikace. Odstraněním aplikace dojde k odstranění místně uložených dat, pokud uživatel předem nevytvořil zálohu. Vývojář neuchovává kopie těchto uživatelských dat a nemá k nim přístup.",
+              "Technická data o pádech a diagnostická data mohou být zpracovávána službou Sentry za účelem monitorování chyb."
+            ]
+          },
+          "thirdParties": {
+            "title": "4. Předávání dat třetím stranám",
+            "paragraphs": [
+              "Vývojář neprodává uživatelská data ani nepředává třetím stranám finanční data vytvořená uživatelem v aplikaci.",
+              "Finanční záznamy, transakce, štítky, názvy fondů, poznámky, nastavení a zálohy nejsou aplikací předávány vývojáři ani odesílány na externí servery.",
+              "Technická data o pádech a diagnostická data mohou být službou Sentry zpracovávána jménem vývojáře za účelem odhalování, diagnostiky a opravy chyb."
+            ]
+          },
+          "backups": {
+            "title": "5. Zálohování",
+            "paragraphs": [
+              "Pokud aplikace umožňuje vytvořit zálohu, soubor zálohy vytváří uživatel a ukládá jej podle svého výběru. Vývojář nemá k zálohám přístup."
+            ]
+          },
+          "rights": {
+            "title": "6. Práva uživatele",
+            "intro": "Uživatel může:",
+            "items": [
+              "odstranit místně uložená data aplikace odinstalováním aplikace nebo vymazáním jejích dat v nastavení zařízení",
+              "nevyužívat nákupy v aplikaci",
+              "kontaktovat vývojáře v otázkách ochrany osobních údajů"
+            ],
+            "outro": "Protože aplikace nepoužívá účty ani nepřiřazuje uživatelské identifikátory pro hlášení chyb, vývojář nemusí být schopen vyhledat a odstranit hlášení o chybách konkrétního uživatele."
+          },
+          "security": {
+            "title": "7. Zabezpečení",
+            "paragraphs": [
+              "Aplikace nepřenáší finanční data uživatele přes internet. Technická data o pádech a diagnostická data jsou v případě odesílání přenášena prostřednictvím zabezpečeného připojení.",
+              "Uživatel sám odpovídá za zabezpečení svého zařízení a vytvořených záloh."
+            ]
+          },
+          "changes": {
+            "title": "8. Změny zásad",
+            "paragraphs": [
+              "Aktualizovaná verze zásad je zveřejněna na oficiální stránce aplikace."
+            ]
+          },
+          "contact": {
+            "title": "9. Kontaktní údaje",
+            "text": "V otázkách týkajících se ochrany osobních údajů:"
+          }
+        }
+      },
+      "licenses": {
+        "metaDescription": "Licence open source softwaru třetích stran používaného v Artem D Apps.",
+        "licenseLabel": "Licence:",
+        "repositoryLabel": "Repozitář:",
+        "disclaimer": "Na této stránce je uveden open source software třetích stran používaný v aplikaci."
+      }
     }
   }
 }

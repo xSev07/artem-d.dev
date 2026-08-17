@@ -2,6 +2,168 @@
   "common": {
     "langSwitch": {
       "label": "Sprache"
+    },
+    "labels": {
+      "lastUpdated": "Zuletzt aktualisiert:",
+      "developer": "Entwickler:",
+      "contactAddress": "Kontaktadresse:"
+    },
+    "pages": {
+      "privacy": "Datenschutzerklärung",
+      "help": "Fehlerinformationen",
+      "licenses": "Open-Source-Lizenzen"
+    }
+  },
+  "article": {
+    "tocTitle": "Auf dieser Seite",
+    "tocLabel": "Seitennavigation"
+  },
+  "site": {
+    "nav": {
+      "label": "Seitennavigation",
+      "download": "App herunterladen",
+      "guide": "Sechs-Töpfe-Methode"
+    },
+    "footer": {
+      "label": "Informationen zur Website"
+    },
+    "help": {
+      "metaDescription": "Informationen zu einem Fehler bei der Ausführung eines Vorgangs in der A.D.A-App.",
+      "title": "Vorgang konnte nicht abgeschlossen werden",
+      "intro": "Der Vorgang konnte aufgrund eines technischen Fehlers nicht abgeschlossen werden.",
+      "sections": {
+        "whatItMeans": {
+          "title": "Was das bedeutet",
+          "text": "In seltenen Fällen können die lokale Datenbank oder das Betriebssystem des Geräts das Schreiben von Daten vorübergehend verhindern."
+        },
+        "whatToTry": {
+          "title": "Was Sie versuchen können",
+          "items": [
+            "Die App schließen und erneut öffnen",
+            "Das Gerät neu starten",
+            "Prüfen, ob auf dem Gerät ausreichend freier Speicherplatz vorhanden ist",
+            "Sicherstellen, dass die neueste Version der App installiert ist"
+          ]
+        },
+        "ifPersists": {
+          "title": "Wenn das Problem weiterhin besteht",
+          "contactText": "Kontaktieren Sie den Support:",
+          "emailIntro": "Geben Sie in Ihrer E-Mail nach Möglichkeit Folgendes an:",
+          "emailItems": [
+            "Gerätemodell",
+            "Android-Version",
+            "App-Version",
+            "welche Aktion Sie ausgeführt haben, bevor der Fehler auftrat"
+          ]
+        }
+      }
+    }
+  },
+  "apps": {
+    "sixJarsFinance": {
+      "privacy": {
+        "lastUpdated": "03.07.2026",
+        "metaDescription": "Datenschutzerklärung für die App von Artem D Apps.",
+        "sections": {
+          "general": {
+            "title": "1. Allgemeine Bestimmungen",
+            "paragraphs": [
+              "Diese Datenschutzerklärung beschreibt, wie Daten bei der Nutzung der mobilen App verarbeitet werden. Die App ist nach dem Prinzip der lokalen Datenspeicherung (offline-first) konzipiert. Finanzaufzeichnungen und andere vom Nutzer in der App erstellte Daten werden lokal auf dem Gerät des Nutzers gespeichert und nicht an den Entwickler übertragen.",
+              "Die App kann Dienste von Drittanbietern zu technischen Zwecken nutzen, beispielsweise für Absturz- und Fehlerberichte. Diese Dienste können technische Diagnosedaten verarbeiten, die zur Erkennung, Analyse und Behebung von Fehlern erforderlich sind."
+            ]
+          },
+          "dataProcessed": {
+            "title": "2. Welche Daten verarbeitet werden"
+          },
+          "userData": {
+            "title": "2.1 Vom Nutzer eingegebene Daten",
+            "intro": "Der Nutzer gibt selbst folgende Daten in die App ein:",
+            "items": [
+              "Finanzaufzeichnungen (Transaktionen)",
+              "Kategorien und Tags",
+              "Namen der Töpfe, Kontonamen, Notizen und andere Nutzereinstellungen"
+            ],
+            "outro": "Diese Daten werden lokal auf dem Gerät des Nutzers gespeichert, nicht an den Entwickler übertragen, nicht auf die Server des Entwicklers kopiert und nicht an Dritte weitergegeben. Der Entwickler hat technisch keine Möglichkeit, auf diese Daten zuzugreifen."
+          },
+          "platformData": {
+            "title": "2.2 Technische Daten der Plattform",
+            "paragraphs": [
+              "Bei der Installation und Nutzung der App kann die Google-Play-Plattform automatisch technische Daten verarbeiten, beispielsweise Geräteinformationen, die Version des Betriebssystems, Diagnosedaten und Absturzinformationen.",
+              "Diese Daten werden von Google-Diensten gemäß deren eigener Datenschutzerklärung verarbeitet. Der Entwickler erhält von Google keine personenbezogenen Daten des Nutzers."
+            ]
+          },
+          "purchases": {
+            "title": "2.3 In-App-Käufe",
+            "paragraphs": [
+              "Die App kann In-App-Käufe verwenden, die über Google Play abgewickelt werden. Die Zahlungsabwicklung erfolgt über die Infrastruktur von Google. Der Entwickler erhält keine Bankkartendaten, speichert keine Zahlungsinformationen und hat keinen Zugriff auf die Finanzdaten des Nutzers."
+            ]
+          },
+          "crashes": {
+            "title": "2.4 Absturz- und Fehlerberichte",
+            "paragraphs": [
+              "Die App verwendet Sentry, einen Drittanbieterdienst zur Fehlerüberwachung, der im Auftrag des Entwicklers Absturzberichte und technische Diagnosedaten verarbeitet.",
+              "Wenn ein Fehler auftritt, kann die App technische Diagnoseinformationen an Sentry senden, beispielsweise Absturzberichte, Stack Traces, die App-Version, die Betriebssystemversion, das Gerätemodell und andere technische Informationen im Zusammenhang mit dem Fehler.",
+              "Sentry ist so konfiguriert, dass die Erfassung personenbezogener Daten standardmäßig deaktiviert ist. Die App sendet nicht absichtlich Finanzaufzeichnungen, Transaktionsdaten, Namen der Töpfe, Tags, Notizen, Kontonamen oder andere vom Nutzer erstellte Finanzinhalte an Sentry.",
+              "Der Entwickler verwendet Fehlerberichte ausschließlich, um die Stabilität der App zu verbessern, technische Probleme zu diagnostizieren und Fehler zu beheben.",
+              "Da die App keine Konten verwendet und für Fehlerberichte keine Nutzerkennungen vergibt, kann der Entwickler möglicherweise die Fehlerberichte eines bestimmten Nutzers nicht identifizieren und löschen."
+            ]
+          },
+          "storage": {
+            "title": "3. Datenspeicherung",
+            "paragraphs": [
+              "Finanzaufzeichnungen und andere vom Nutzer in der App erstellte Daten werden lokal auf dem Gerät des Nutzers in der Datenbank der App gespeichert. Beim Löschen der App werden die lokal gespeicherten Daten gelöscht, sofern der Nutzer zuvor keine Sicherungskopie erstellt hat. Der Entwickler speichert keine Kopien dieser Nutzerdaten und hat keinen Zugriff darauf.",
+              "Technische Absturz- und Diagnosedaten können von Sentry zum Zweck der Fehlerüberwachung verarbeitet werden."
+            ]
+          },
+          "thirdParties": {
+            "title": "4. Weitergabe von Daten an Dritte",
+            "paragraphs": [
+              "Der Entwickler verkauft keine Nutzerdaten und gibt keine vom Nutzer in der App erstellten Finanzdaten an Dritte weiter.",
+              "Finanzaufzeichnungen, Transaktionen, Tags, Namen der Töpfe, Notizen, Einstellungen und Sicherungskopien werden von der App weder an den Entwickler noch an externe Server übertragen.",
+              "Technische Absturz- und Diagnosedaten können von Sentry im Auftrag des Entwicklers zum Zweck der Erkennung, Diagnose und Behebung von Fehlern verarbeitet werden."
+            ]
+          },
+          "backups": {
+            "title": "5. Sicherungskopien",
+            "paragraphs": [
+              "Wenn die App die Möglichkeit bietet, eine Sicherungskopie zu erstellen, wird die Sicherungsdatei vom Nutzer erstellt und an einem von ihm gewählten Ort gespeichert. Der Entwickler hat keinen Zugriff auf Sicherungskopien."
+            ]
+          },
+          "rights": {
+            "title": "6. Rechte des Nutzers",
+            "intro": "Der Nutzer kann:",
+            "items": [
+              "lokal gespeicherte App-Daten löschen, indem er die App deinstalliert oder die App-Daten in den Geräteeinstellungen löscht",
+              "auf die Nutzung von In-App-Käufen verzichten",
+              "den Entwickler bei Fragen zum Datenschutz kontaktieren"
+            ],
+            "outro": "Da die App keine Konten verwendet und für Fehlerberichte keine Nutzerkennungen vergibt, kann der Entwickler möglicherweise die Fehlerberichte eines bestimmten Nutzers nicht identifizieren und löschen."
+          },
+          "security": {
+            "title": "7. Sicherheit",
+            "paragraphs": [
+              "Die App überträgt die Finanzdaten des Nutzers nicht über das Internet. Technische Absturz- und Diagnosedaten werden, sofern sie gesendet werden, über eine sichere Verbindung übertragen.",
+              "Der Nutzer ist selbst für die Sicherheit seines Geräts und der erstellten Sicherungskopien verantwortlich."
+            ]
+          },
+          "changes": {
+            "title": "8. Änderungen der Datenschutzerklärung",
+            "paragraphs": [
+              "Eine aktualisierte Version der Datenschutzerklärung wird auf der offiziellen Seite der App veröffentlicht."
+            ]
+          },
+          "contact": {
+            "title": "9. Kontaktinformationen",
+            "text": "Bei Fragen zum Datenschutz:"
+          }
+        }
+      },
+      "licenses": {
+        "metaDescription": "Lizenzen für Open-Source-Software von Drittanbietern, die in der App von Artem D Apps verwendet wird.",
+        "licenseLabel": "Lizenz:",
+        "repositoryLabel": "Repository:",
+        "disclaimer": "Auf dieser Seite wird die in der App verwendete Open-Source-Software von Drittanbietern aufgeführt."
+      }
     }
   }
 }

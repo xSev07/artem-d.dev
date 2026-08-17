@@ -2,6 +2,168 @@
   "common": {
     "langSwitch": {
       "label": "Limbă"
+    },
+    "labels": {
+      "lastUpdated": "Ultima actualizare:",
+      "developer": "Dezvoltator:",
+      "contactAddress": "Adresă de contact:"
+    },
+    "pages": {
+      "privacy": "Politica de confidențialitate",
+      "help": "Informații despre eroare",
+      "licenses": "Licențe open source"
+    }
+  },
+  "article": {
+    "tocTitle": "Pe această pagină",
+    "tocLabel": "Navigarea în pagină"
+  },
+  "site": {
+    "nav": {
+      "label": "Navigarea pe site",
+      "download": "Descarcă aplicația",
+      "guide": "Metoda celor șase fonduri"
+    },
+    "footer": {
+      "label": "Informații despre site"
+    },
+    "help": {
+      "metaDescription": "Informații despre o eroare la efectuarea unei operațiuni în aplicația A.D.A.",
+      "title": "Operațiunea nu a putut fi finalizată",
+      "intro": "Operațiunea nu a fost finalizată din cauza unei erori tehnice.",
+      "sections": {
+        "whatItMeans": {
+          "title": "Ce înseamnă acest lucru",
+          "text": "În cazuri rare, baza de date locală sau sistemul de operare al dispozitivului pot împiedica temporar scrierea datelor."
+        },
+        "whatToTry": {
+          "title": "Ce puteți încerca",
+          "items": [
+            "Închideți și redeschideți aplicația",
+            "Reporniți dispozitivul",
+            "Verificați dacă există suficient spațiu de stocare liber pe dispozitiv",
+            "Asigurați-vă că este instalată cea mai recentă versiune a aplicației"
+          ]
+        },
+        "ifPersists": {
+          "title": "Dacă problema persistă",
+          "contactText": "Contactați serviciul de asistență:",
+          "emailIntro": "În e-mail este recomandat să indicați:",
+          "emailItems": [
+            "modelul dispozitivului",
+            "versiunea Android",
+            "versiunea aplicației",
+            "ce acțiune efectuați înainte de apariția erorii"
+          ]
+        }
+      }
+    }
+  },
+  "apps": {
+    "sixJarsFinance": {
+      "privacy": {
+        "lastUpdated": "03.07.2026",
+        "metaDescription": "Politica de confidențialitate a aplicației Artem D Apps.",
+        "sections": {
+          "general": {
+            "title": "1. Dispoziții generale",
+            "paragraphs": [
+              "Prezenta Politică de confidențialitate descrie modul în care sunt prelucrate datele în timpul utilizării aplicației mobile. Aplicația este proiectată conform principiului stocării locale a datelor (offline-first). Înregistrările financiare și alte date create de utilizator în aplicație sunt stocate local pe dispozitivul utilizatorului și nu sunt transmise dezvoltatorului.",
+              "Aplicația poate utiliza servicii terțe în scopuri tehnice, de exemplu pentru raportarea blocărilor și a erorilor. Aceste servicii pot prelucra date tehnice de diagnostic necesare pentru detectarea, analizarea și remedierea erorilor."
+            ]
+          },
+          "dataProcessed": {
+            "title": "2. Ce date sunt prelucrate"
+          },
+          "userData": {
+            "title": "2.1 Date introduse de utilizator",
+            "intro": "Utilizatorul introduce personal în aplicație:",
+            "items": [
+              "înregistrări financiare (tranzacții)",
+              "categorii și etichete",
+              "denumirile fondurilor, denumirile conturilor, notițe și alte setări ale utilizatorului"
+            ],
+            "outro": "Aceste date sunt stocate local pe dispozitivul utilizatorului, nu sunt transmise dezvoltatorului, nu sunt copiate pe serverele dezvoltatorului și nu sunt partajate cu terți. Dezvoltatorul nu are posibilitatea tehnică de a accesa aceste date."
+          },
+          "platformData": {
+            "title": "2.2 Date tehnice ale platformei",
+            "paragraphs": [
+              "La instalarea și utilizarea aplicației, platforma Google Play poate prelucra automat date tehnice, precum informații despre dispozitiv, versiunea sistemului de operare, date de diagnostic și informații despre blocări.",
+              "Aceste date sunt prelucrate de serviciile Google în conformitate cu propria politică de confidențialitate. Dezvoltatorul nu primește de la Google datele cu caracter personal ale utilizatorului."
+            ]
+          },
+          "purchases": {
+            "title": "2.3 Achiziții în aplicație",
+            "paragraphs": [
+              "Aplicația poate utiliza achiziții în aplicație procesate prin Google Play. Procesarea plăților este realizată prin infrastructura Google. Dezvoltatorul nu primește datele cardurilor bancare, nu stochează informații de plată și nu are acces la datele financiare ale utilizatorului."
+            ]
+          },
+          "crashes": {
+            "title": "2.4 Raportarea blocărilor și a erorilor",
+            "paragraphs": [
+              "Aplicația utilizează Sentry, un serviciu terț de monitorizare a erorilor care prelucrează rapoartele de blocare și datele tehnice de diagnostic în numele dezvoltatorului.",
+              "Atunci când apare o eroare, aplicația poate trimite către Sentry informații tehnice de diagnostic, precum rapoarte de blocare, stack trace-uri, versiunea aplicației, versiunea sistemului de operare, modelul dispozitivului și alte informații tehnice legate de eroare.",
+              "Sentry este configurat astfel încât colectarea datelor cu caracter personal să fie dezactivată în mod implicit. Aplicația nu trimite în mod intenționat către Sentry înregistrări financiare, date despre tranzacții, denumiri de fonduri, etichete, notițe, denumiri de conturi sau alt conținut financiar creat de utilizator.",
+              "Dezvoltatorul utilizează rapoartele de erori exclusiv pentru îmbunătățirea stabilității aplicației, diagnosticarea problemelor tehnice și remedierea erorilor.",
+              "Deoarece aplicația nu utilizează conturi și nu atribuie identificatori de utilizator pentru raportarea erorilor, este posibil ca dezvoltatorul să nu poată identifica și șterge rapoartele de erori ale unui anumit utilizator."
+            ]
+          },
+          "storage": {
+            "title": "3. Stocarea datelor",
+            "paragraphs": [
+              "Înregistrările financiare și alte date create de utilizator în aplicație sunt stocate local pe dispozitivul utilizatorului, în baza de date a aplicației. Ștergerea aplicației duce la ștergerea datelor stocate local, cu excepția cazului în care utilizatorul a creat în prealabil o copie de siguranță. Dezvoltatorul nu păstrează copii ale acestor date ale utilizatorului și nu are acces la ele.",
+              "Datele tehnice privind blocările și datele de diagnostic pot fi prelucrate de Sentry în scopul monitorizării erorilor."
+            ]
+          },
+          "thirdParties": {
+            "title": "4. Transferul datelor către terți",
+            "paragraphs": [
+              "Dezvoltatorul nu vinde datele utilizatorilor și nu transferă către terți datele financiare create de utilizator în aplicație.",
+              "Înregistrările financiare, tranzacțiile, etichetele, denumirile fondurilor, notițele, setările și copiile de siguranță nu sunt transmise de aplicație dezvoltatorului sau către servere externe.",
+              "Datele tehnice privind blocările și datele de diagnostic pot fi prelucrate de Sentry în numele dezvoltatorului în scopul detectării, diagnosticării și remedierii erorilor."
+            ]
+          },
+          "backups": {
+            "title": "5. Copii de siguranță",
+            "paragraphs": [
+              "Dacă aplicația oferă posibilitatea de a crea o copie de siguranță, fișierul de backup este creat de utilizator și salvat în locația aleasă de acesta. Dezvoltatorul nu are acces la copiile de siguranță."
+            ]
+          },
+          "rights": {
+            "title": "6. Drepturile utilizatorului",
+            "intro": "Utilizatorul poate:",
+            "items": [
+              "șterge datele aplicației stocate local prin ștergerea aplicației sau prin ștergerea datelor aplicației din setările dispozitivului",
+              "renunța la utilizarea achizițiilor în aplicație",
+              "contacta dezvoltatorul pentru întrebări legate de confidențialitate"
+            ],
+            "outro": "Deoarece aplicația nu utilizează conturi și nu atribuie identificatori de utilizator pentru raportarea erorilor, este posibil ca dezvoltatorul să nu poată identifica și șterge rapoartele de erori ale unui anumit utilizator."
+          },
+          "security": {
+            "title": "7. Securitate",
+            "paragraphs": [
+              "Aplicația nu transmite datele financiare ale utilizatorului prin internet. Datele tehnice privind blocările și datele de diagnostic, dacă sunt trimise, sunt transmise printr-o conexiune securizată.",
+              "Utilizatorul este responsabil pentru securitatea propriului dispozitiv și a copiilor de siguranță create."
+            ]
+          },
+          "changes": {
+            "title": "8. Modificări ale politicii",
+            "paragraphs": [
+              "O versiune actualizată a politicii este publicată pe pagina oficială a aplicației."
+            ]
+          },
+          "contact": {
+            "title": "9. Informații de contact",
+            "text": "Pentru întrebări legate de confidențialitate:"
+          }
+        }
+      },
+      "licenses": {
+        "metaDescription": "Licențe pentru software-ul open source al terților utilizat în aplicația Artem D Apps.",
+        "licenseLabel": "Licență:",
+        "repositoryLabel": "Depozit:",
+        "disclaimer": "Această pagină enumeră software-ul open source al terților utilizat în aplicație."
+      }
     }
   }
 }

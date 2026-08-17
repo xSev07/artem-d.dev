@@ -2,6 +2,168 @@
   "common": {
     "langSwitch": {
       "label": "Langue"
+    },
+    "labels": {
+      "lastUpdated": "Dernière mise à jour :",
+      "developer": "Développeur :",
+      "contactAddress": "Adresse de contact :"
+    },
+    "pages": {
+      "privacy": "Politique de confidentialité",
+      "help": "Informations sur l’erreur",
+      "licenses": "Licences open source"
+    }
+  },
+  "article": {
+    "tocTitle": "Sur cette page",
+    "tocLabel": "Navigation dans la page"
+  },
+  "site": {
+    "nav": {
+      "label": "Navigation du site",
+      "download": "Télécharger l’application",
+      "guide": "Méthode des six enveloppes"
+    },
+    "footer": {
+      "label": "Informations sur le site"
+    },
+    "help": {
+      "metaDescription": "Informations sur une erreur lors de l’exécution d’une opération dans l’application A.D.A.",
+      "title": "Impossible d’effectuer l’opération",
+      "intro": "L’opération n’a pas pu être effectuée en raison d’une erreur technique.",
+      "sections": {
+        "whatItMeans": {
+          "title": "Ce que cela signifie",
+          "text": "Dans de rares cas, la base de données locale ou le système d’exploitation de l’appareil peut temporairement empêcher l’enregistrement des données."
+        },
+        "whatToTry": {
+          "title": "Ce que vous pouvez essayer",
+          "items": [
+            "Fermer puis rouvrir l’application",
+            "Redémarrer l’appareil",
+            "Vérifier qu’il reste suffisamment d’espace de stockage libre sur l’appareil",
+            "Vérifier que la dernière version de l’application est installée"
+          ]
+        },
+        "ifPersists": {
+          "title": "Si le problème persiste",
+          "contactText": "Contactez l’assistance :",
+          "emailIntro": "Dans votre e-mail, indiquez de préférence :",
+          "emailItems": [
+            "le modèle de l’appareil",
+            "la version d’Android",
+            "la version de l’application",
+            "l’action effectuée avant l’apparition de l’erreur"
+          ]
+        }
+      }
+    }
+  },
+  "apps": {
+    "sixJarsFinance": {
+      "privacy": {
+        "lastUpdated": "03.07.2026",
+        "metaDescription": "Politique de confidentialité de l’application Artem D Apps.",
+        "sections": {
+          "general": {
+            "title": "1. Dispositions générales",
+            "paragraphs": [
+              "La présente Politique de confidentialité décrit la manière dont les données sont traitées lors de l’utilisation de l’application mobile. L’application est conçue selon le principe du stockage local des données (offline-first). Les données financières et les autres données créées par l’utilisateur dans l’application sont stockées localement sur son appareil et ne sont pas transmises au développeur.",
+              "L’application peut utiliser des services tiers à des fins techniques, par exemple pour signaler les plantages et les erreurs. Ces services peuvent traiter les données techniques de diagnostic nécessaires pour détecter, analyser et corriger les erreurs."
+            ]
+          },
+          "dataProcessed": {
+            "title": "2. Données traitées"
+          },
+          "userData": {
+            "title": "2.1 Données saisies par l’utilisateur",
+            "intro": "L’utilisateur saisit lui-même dans l’application :",
+            "items": [
+              "les données financières (transactions)",
+              "les catégories et les tags",
+              "les noms des enveloppes, les noms des comptes, les notes et les autres paramètres utilisateur"
+            ],
+            "outro": "Ces données sont stockées localement sur l’appareil de l’utilisateur, ne sont pas transmises au développeur, ne sont pas copiées sur les serveurs du développeur et ne sont pas partagées avec des tiers. Le développeur n’a techniquement aucun moyen d’accéder à ces données."
+          },
+          "platformData": {
+            "title": "2.2 Données techniques de la plateforme",
+            "paragraphs": [
+              "Lors de l’installation et de l’utilisation de l’application, la plateforme Google Play peut traiter automatiquement des données techniques telles que les informations sur l’appareil, la version du système d’exploitation, les données de diagnostic et les informations relatives aux plantages.",
+              "Ces données sont traitées par les services Google conformément à leur propre politique de confidentialité. Le développeur ne reçoit aucune donnée personnelle de l’utilisateur de la part de Google."
+            ]
+          },
+          "purchases": {
+            "title": "2.3 Achats intégrés",
+            "paragraphs": [
+              "L’application peut proposer des achats intégrés traités via Google Play. Le traitement des paiements est assuré par l’infrastructure de Google. Le développeur ne reçoit pas les données des cartes bancaires, ne conserve aucune information de paiement et n’a pas accès aux informations financières de l’utilisateur."
+            ]
+          },
+          "crashes": {
+            "title": "2.4 Rapports de plantage et d’erreur",
+            "paragraphs": [
+              "L’application utilise Sentry, un service tiers de surveillance des erreurs qui traite les rapports de plantage et les données techniques de diagnostic pour le compte du développeur.",
+              "Lorsqu’une erreur se produit, l’application peut envoyer à Sentry des informations techniques de diagnostic, telles que des rapports de plantage, des stack traces, la version de l’application, la version du système d’exploitation, le modèle de l’appareil et d’autres informations techniques liées à l’erreur.",
+              "Sentry est configuré de manière à désactiver par défaut la collecte de données personnelles. L’application n’envoie pas intentionnellement à Sentry de données financières, de données de transaction, de noms d’enveloppes, de tags, de notes, de noms de comptes ou d’autres contenus financiers créés par l’utilisateur.",
+              "Le développeur utilise les rapports d’erreur uniquement pour améliorer la stabilité de l’application, diagnostiquer les problèmes techniques et corriger les erreurs.",
+              "Comme l’application n’utilise pas de comptes et n’attribue pas d’identifiants utilisateur aux rapports d’erreur, le développeur peut ne pas être en mesure d’identifier et de supprimer les rapports d’erreur d’un utilisateur spécifique."
+            ]
+          },
+          "storage": {
+            "title": "3. Stockage des données",
+            "paragraphs": [
+              "Les données financières et les autres données créées par l’utilisateur dans l’application sont stockées localement sur l’appareil de l’utilisateur dans la base de données de l’application. La suppression de l’application entraîne la suppression des données stockées localement, sauf si l’utilisateur a préalablement créé une sauvegarde. Le développeur ne conserve aucune copie de ces données utilisateur et n’y a pas accès.",
+              "Les données techniques relatives aux plantages et les données de diagnostic peuvent être traitées par Sentry à des fins de surveillance des erreurs."
+            ]
+          },
+          "thirdParties": {
+            "title": "4. Transmission des données à des tiers",
+            "paragraphs": [
+              "Le développeur ne vend pas les données des utilisateurs et ne transmet pas à des tiers les données financières créées par l’utilisateur dans l’application.",
+              "Les données financières, transactions, tags, noms d’enveloppes, notes, paramètres et sauvegardes ne sont transmis par l’application ni au développeur ni à des serveurs externes.",
+              "Les données techniques relatives aux plantages et les données de diagnostic peuvent être traitées par Sentry pour le compte du développeur afin de détecter, diagnostiquer et corriger les erreurs."
+            ]
+          },
+          "backups": {
+            "title": "5. Sauvegardes",
+            "paragraphs": [
+              "Si l’application permet de créer une sauvegarde, le fichier de sauvegarde est créé par l’utilisateur et enregistré à l’emplacement de son choix. Le développeur n’a pas accès aux sauvegardes."
+            ]
+          },
+          "rights": {
+            "title": "6. Droits de l’utilisateur",
+            "intro": "L’utilisateur peut :",
+            "items": [
+              "supprimer les données de l’application stockées localement en supprimant l’application ou en effaçant ses données dans les paramètres de l’appareil",
+              "choisir de ne pas utiliser les achats intégrés",
+              "contacter le développeur pour toute question relative à la confidentialité"
+            ],
+            "outro": "Comme l’application n’utilise pas de comptes et n’attribue pas d’identifiants utilisateur aux rapports d’erreur, le développeur peut ne pas être en mesure d’identifier et de supprimer les rapports d’erreur d’un utilisateur spécifique."
+          },
+          "security": {
+            "title": "7. Sécurité",
+            "paragraphs": [
+              "L’application ne transmet pas les données financières de l’utilisateur via Internet. Les données techniques relatives aux plantages et les données de diagnostic, lorsqu’elles sont envoyées, sont transmises via une connexion sécurisée.",
+              "L’utilisateur est responsable de la sécurité de son appareil et des sauvegardes qu’il crée."
+            ]
+          },
+          "changes": {
+            "title": "8. Modifications de la politique",
+            "paragraphs": [
+              "Une version mise à jour de la politique est publiée sur la page officielle de l’application."
+            ]
+          },
+          "contact": {
+            "title": "9. Coordonnées",
+            "text": "Pour toute question relative à la confidentialité :"
+          }
+        }
+      },
+      "licenses": {
+        "metaDescription": "Licences des logiciels open source tiers utilisés dans l’application Artem D Apps.",
+        "licenseLabel": "Licence :",
+        "repositoryLabel": "Dépôt :",
+        "disclaimer": "Cette page répertorie les logiciels open source tiers utilisés dans l’application."
+      }
     }
   }
 }

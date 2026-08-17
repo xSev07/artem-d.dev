@@ -2,6 +2,168 @@
   "common": {
     "langSwitch": {
       "label": "Idioma"
+    },
+    "labels": {
+      "lastUpdated": "Última actualización:",
+      "developer": "Desarrollador:",
+      "contactAddress": "Dirección de contacto:"
+    },
+    "pages": {
+      "privacy": "Política de privacidad",
+      "help": "Información sobre el error",
+      "licenses": "Licencias de código abierto"
+    }
+  },
+  "article": {
+    "tocTitle": "En esta página",
+    "tocLabel": "Navegación de la página"
+  },
+  "site": {
+    "nav": {
+      "label": "Navegación del sitio",
+      "download": "Descargar la app",
+      "guide": "Método de los seis fondos"
+    },
+    "footer": {
+      "label": "Información del sitio"
+    },
+    "help": {
+      "metaDescription": "Información sobre un error al realizar una operación en la aplicación A.D.A.",
+      "title": "No se pudo completar la operación",
+      "intro": "La operación no se completó debido a un error técnico.",
+      "sections": {
+        "whatItMeans": {
+          "title": "Qué significa",
+          "text": "En casos poco frecuentes, la base de datos local o el sistema operativo del dispositivo pueden impedir temporalmente que se guarden los datos."
+        },
+        "whatToTry": {
+          "title": "Qué puedes intentar",
+          "items": [
+            "Cerrar y volver a abrir la aplicación",
+            "Reiniciar el dispositivo",
+            "Comprobar que haya suficiente espacio de almacenamiento libre en el dispositivo",
+            "Asegurarte de que esté instalada la última versión de la aplicación"
+          ]
+        },
+        "ifPersists": {
+          "title": "Si el problema persiste",
+          "contactText": "Contacta con el soporte:",
+          "emailIntro": "En el correo, es recomendable indicar:",
+          "emailItems": [
+            "modelo del dispositivo",
+            "versión de Android",
+            "versión de la aplicación",
+            "qué acción estabas realizando antes de que apareciera el error"
+          ]
+        }
+      }
+    }
+  },
+  "apps": {
+    "sixJarsFinance": {
+      "privacy": {
+        "lastUpdated": "03.07.2026",
+        "metaDescription": "Política de privacidad de la aplicación Artem D Apps.",
+        "sections": {
+          "general": {
+            "title": "1. Disposiciones generales",
+            "paragraphs": [
+              "Esta Política de privacidad describe cómo se procesan los datos al utilizar la aplicación móvil. La aplicación está diseñada según el principio de almacenamiento local de datos (offline-first). Los registros financieros y otros datos creados por el usuario en la aplicación se almacenan localmente en el dispositivo del usuario y no se transfieren al desarrollador.",
+              "La aplicación puede utilizar servicios de terceros con fines técnicos, por ejemplo, para informar de fallos y errores. Estos servicios pueden procesar datos técnicos de diagnóstico necesarios para detectar, analizar y corregir errores."
+            ]
+          },
+          "dataProcessed": {
+            "title": "2. Qué datos se procesan"
+          },
+          "userData": {
+            "title": "2.1 Datos introducidos por el usuario",
+            "intro": "El usuario introduce por sí mismo en la aplicación:",
+            "items": [
+              "registros financieros (transacciones)",
+              "categorías y etiquetas",
+              "nombres de los fondos, nombres de las cuentas, notas y otros ajustes del usuario"
+            ],
+            "outro": "Estos datos se almacenan localmente en el dispositivo del usuario, no se transfieren al desarrollador, no se copian en los servidores del desarrollador y no se comparten con terceros. El desarrollador no tiene capacidad técnica para acceder a estos datos."
+          },
+          "platformData": {
+            "title": "2.2 Datos técnicos de la plataforma",
+            "paragraphs": [
+              "Al instalar y utilizar la aplicación, la plataforma Google Play puede procesar automáticamente datos técnicos, como información del dispositivo, versión del sistema operativo, datos de diagnóstico e información sobre fallos.",
+              "Estos datos son procesados por los servicios de Google de acuerdo con su propia política de privacidad. El desarrollador no recibe de Google datos personales del usuario."
+            ]
+          },
+          "purchases": {
+            "title": "2.3 Compras dentro de la aplicación",
+            "paragraphs": [
+              "La aplicación puede utilizar compras dentro de la aplicación procesadas a través de Google Play. El procesamiento de los pagos se realiza mediante la infraestructura de Google. El desarrollador no recibe datos de tarjetas bancarias, no almacena información de pago y no tiene acceso a los datos financieros del usuario."
+            ]
+          },
+          "crashes": {
+            "title": "2.4 Informes de fallos y errores",
+            "paragraphs": [
+              "La aplicación utiliza Sentry, un servicio externo de supervisión de errores que procesa informes de fallos y datos técnicos de diagnóstico en nombre del desarrollador.",
+              "Cuando se produce un error, la aplicación puede enviar a Sentry información técnica de diagnóstico, como informes de fallos, stack traces, la versión de la aplicación, la versión del sistema operativo, el modelo del dispositivo y otros datos técnicos relacionados con el error.",
+              "Sentry está configurado para que la recopilación de datos personales esté desactivada de forma predeterminada. La aplicación no envía intencionadamente a Sentry registros financieros, datos de transacciones, nombres de fondos, etiquetas, notas, nombres de cuentas u otro contenido financiero creado por el usuario.",
+              "El desarrollador utiliza los informes de errores únicamente para mejorar la estabilidad de la aplicación, diagnosticar problemas técnicos y corregir errores.",
+              "Dado que la aplicación no utiliza cuentas ni asigna identificadores de usuario para los informes de errores, es posible que el desarrollador no pueda localizar y eliminar los informes de errores de un usuario concreto."
+            ]
+          },
+          "storage": {
+            "title": "3. Almacenamiento de datos",
+            "paragraphs": [
+              "Los registros financieros y otros datos creados por el usuario en la aplicación se almacenan localmente en el dispositivo del usuario, en la base de datos de la aplicación. Al eliminar la aplicación, se eliminan los datos almacenados localmente, salvo que el usuario haya creado previamente una copia de seguridad. El desarrollador no almacena copias de estos datos del usuario ni tiene acceso a ellos.",
+              "Los datos técnicos sobre fallos y los datos de diagnóstico pueden ser procesados por Sentry con fines de supervisión de errores."
+            ]
+          },
+          "thirdParties": {
+            "title": "4. Transferencia de datos a terceros",
+            "paragraphs": [
+              "El desarrollador no vende datos de los usuarios ni transfiere a terceros los datos financieros creados por el usuario en la aplicación.",
+              "Los registros financieros, las transacciones, las etiquetas, los nombres de los fondos, las notas, los ajustes y las copias de seguridad no son transferidos por la aplicación al desarrollador ni a servidores externos.",
+              "Los datos técnicos sobre fallos y los datos de diagnóstico pueden ser procesados por Sentry en nombre del desarrollador con el fin de detectar, diagnosticar y corregir errores."
+            ]
+          },
+          "backups": {
+            "title": "5. Copias de seguridad",
+            "paragraphs": [
+              "Si la aplicación ofrece la posibilidad de crear una copia de seguridad, el archivo de copia de seguridad lo crea el usuario y se guarda en la ubicación que este elija. El desarrollador no tiene acceso a las copias de seguridad."
+            ]
+          },
+          "rights": {
+            "title": "6. Derechos del usuario",
+            "intro": "El usuario puede:",
+            "items": [
+              "eliminar los datos de la aplicación almacenados localmente eliminando la aplicación o borrando sus datos en los ajustes del dispositivo",
+              "optar por no utilizar las compras dentro de la aplicación",
+              "contactar con el desarrollador para cuestiones relacionadas con la privacidad"
+            ],
+            "outro": "Dado que la aplicación no utiliza cuentas ni asigna identificadores de usuario para los informes de errores, es posible que el desarrollador no pueda localizar y eliminar los informes de errores de un usuario concreto."
+          },
+          "security": {
+            "title": "7. Seguridad",
+            "paragraphs": [
+              "La aplicación no transmite los datos financieros del usuario a través de Internet. Los datos técnicos sobre fallos y los datos de diagnóstico, si se envían, se transmiten mediante una conexión segura.",
+              "El usuario es responsable de la seguridad de su dispositivo y de las copias de seguridad que cree."
+            ]
+          },
+          "changes": {
+            "title": "8. Cambios en la política",
+            "paragraphs": [
+              "La versión actualizada de la política se publica en la página oficial de la aplicación."
+            ]
+          },
+          "contact": {
+            "title": "9. Información de contacto",
+            "text": "Para consultas relacionadas con la privacidad:"
+          }
+        }
+      },
+      "licenses": {
+        "metaDescription": "Licencias del software de código abierto de terceros utilizado en la aplicación Artem D Apps.",
+        "licenseLabel": "Licencia:",
+        "repositoryLabel": "Repositorio:",
+        "disclaimer": "Esta página enumera el software de código abierto de terceros utilizado en la aplicación."
+      }
     }
   }
 }
