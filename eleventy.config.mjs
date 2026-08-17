@@ -39,29 +39,46 @@ const withSharedLocale = (locale, lang) =>
     lang,
   );
 
-await i18next.init({
-  lng: "en",
-  resources: {
-    en: { translation: withSharedLocale(en, "en") },
-    ru: { translation: withSharedLocale(ru, "ru") },
-    uk: { translation: withSharedLocale(uk, "uk") },
-    pl: { translation: withSharedLocale(pl, "pl") },
-    cs: { translation: withSharedLocale(cs, "cs") },
-    de: { translation: withSharedLocale(de, "de") },
-    nl: { translation: withSharedLocale(nl, "nl") },
-    sv: { translation: withSharedLocale(sv, "sv") },
-    fr: { translation: withSharedLocale(fr, "fr") },
-    it: { translation: withSharedLocale(it, "it") },
-    es: { translation: withSharedLocale(es, "es") },
-    "pt-BR": { translation: withSharedLocale(ptBR, "pt-BR") },
-    ro: { translation: withSharedLocale(ro, "ro") },
-    tr: { translation: withSharedLocale(tr, "tr") },
-    id: { translation: withSharedLocale(id, "id") },
-  },
-});
+const baseLocales = {
+  en,
+  ru,
+  uk,
+  pl,
+  cs,
+  de,
+  nl,
+  sv,
+  fr,
+  it,
+  es,
+  "pt-BR": ptBR,
+  ro,
+  tr,
+  id,
+};
+
+const buildResources = () =>
+  Object.fromEntries(
+    Object.entries(baseLocales).map(([lang, locale]) => [
+      lang,
+      { translation: withSharedLocale(locale, lang) },
+    ]),
+  );
+
+const initI18next = async () => {
+  await i18next.init({
+    lng: "en",
+    resources: buildResources(),
+  });
+};
+
+await initI18next();
 
 /** @param {import("@11ty/eleventy").UserConfig} eleventyConfig */
 export default (eleventyConfig) => {
+  eleventyConfig.addWatchTarget("src/locales/apps/");
+  eleventyConfig.on("eleventy.before", initI18next);
+
   eleventyConfig.addPassthroughCopy({ "src/assets": "assets" });
   eleventyConfig.addPassthroughCopy({ "static/CNAME": "CNAME" });
   eleventyConfig.addPassthroughCopy({ "static/health.txt": "health.txt" });

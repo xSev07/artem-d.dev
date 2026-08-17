@@ -1,0 +1,423 @@
+{
+  "title": "Metoda 6 fondů: jednoduchý způsob, jak spravovat peníze",
+  "metaDescription": "Metoda 6 fondů vám pomáhá nejen zaznamenávat výdaje, ale předem rozhodnout, na co svůj příjem použijete.",
+  "intro": {
+    "paragraphs": [
+      "Metoda 6 fondů vám pomáhá nejen zaznamenávat výdaje, ale předem rozhodnout, na co svůj příjem použijete.",
+      "Princip je jednoduchý: pokaždé, když dostanete peníze, rozdělíte je mezi několik finančních priorit. Jedna část jde na každodenní život a ostatní na úspory, vzdělávání, zábavu, budování kapitálu a pomoc ostatním.",
+      "Peníze tak přestávají být jednou společnou částkou na účtu. Každá jejich část dostává svůj vlastní účel."
+    ]
+  },
+  "overview": {
+    "title": "Obsah",
+    "managingMoney": "Co je metoda 6 fondů",
+    "howItWorks": "Jak funguje rozdělení peněz",
+    "adjustPercents": "Jak si metodu přizpůsobit",
+    "misleadingBalance": "Jak metoda pomáhá v běžném životě",
+    "irregularIncome": "Jak metodu používat v různých situacích",
+    "physicalJarsProblem": "Jak metodu používat bez hotovosti",
+    "appHowItWorks": "Jak metodu používat v aplikaci"
+  },
+  "managingMoney": {
+    "title": "Nejen sledovat výdaje, ale řídit své peníze",
+    "paragraphs": [
+      "Běžné sledování výdajů pomáhá odpovědět na otázku:",
+      "<strong>„Kam už moje peníze odešly?“</strong>",
+      "To je užitečné, ale často to nestačí. Ani pravidelné zapisování nákupů nezaručuje, že vám na konci měsíce zůstanou peníze na úspory, vzdělávání nebo větší cíle.",
+      "Metoda 6 fondů nabízí jiný přístup. Pomáhá předem odpovědět na otázku:",
+      "<strong>„Na co chci získané peníze použít?“</strong>",
+      "Příjem rozdělíte ještě předtím, než ho začnete utrácet. Úspory tak nezávisí na náhodném zbytku na konci měsíce a běžné výdaje nespotřebují všechny dostupné peníze."
+    ]
+  },
+  "howItWorks": {
+    "title": "Jak funguje metoda 6 fondů",
+    "lead": "V klasické verzi metody se každý příjem rozděluje mezi šest fondů.",
+    "screenshotAlt": "Hlavní obrazovka aplikace 6 Jars Finance se šesti fondy a příjmem rozděleným mezi ně",
+    "jars": {
+      "essentialExpenses": {
+        "title": "Nezbytné výdaje — 55%",
+        "intro": "Tento fond je určen na každodenní nezbytné výdaje:",
+        "items": [
+          "bydlení;",
+          "potraviny;",
+          "dopravu;",
+          "energie a služby;",
+          "telefon a internet;",
+          "zdravotní péči;",
+          "další pravidelné potřeby."
+        ],
+        "outro": "Jsou to peníze, které pokrývají váš běžný život."
+      },
+      "financialIndependence": {
+        "title": "Finanční nezávislost — 10%",
+        "paragraphs": [
+          "Peníze z tohoto fondu slouží k vytváření kapitálu a budoucího příjmu.",
+          "V klasickém systému se počítá s tím, že hlavní část těchto peněz nebude utracena za běžné nákupy. Jejím úkolem je postupně vytvářet dlouhodobou finanční oporu.",
+          "Způsob využití těchto prostředků závisí na vašich znalostech, cílech a vztahu k riziku. Mohou to být spořicí produkty, investice nebo jiné způsoby budování kapitálu."
+        ]
+      },
+      "longTermSavings": {
+        "title": "Dlouhodobé úspory — 10%",
+        "intro": "Tento fond vám pomáhá připravit se předem na větší výdaje.",
+        "listIntro": "Například na:",
+        "items": [
+          "vytvoření finanční rezervy;",
+          "dovolenou;",
+          "rekonstrukci;",
+          "nákup elektroniky nebo spotřebičů;",
+          "auto;",
+          "stěhování;",
+          "další velké cíle."
+        ],
+        "outro": "Takové výdaje přestanou být nečekané, protože na ně peníze odkládáte postupně."
+      },
+      "education": {
+        "title": "Vzdělávání — 10%",
+        "intro": "Tyto peníze jsou určeny na rozvoj znalostí a dovedností.",
+        "listIntro": "Můžete je použít na:",
+        "items": [
+          "knihy;",
+          "kurzy;",
+          "profesní vzdělávání;",
+          "studium jazyků;",
+          "výuku s lektorem;",
+          "konference;",
+          "další vzdělávací materiály."
+        ],
+        "outro": "Vzdělávání se stává samostatnou součástí rozpočtu, nikoli výdajem, který neustále odkládáte na později."
+      },
+      "entertainment": {
+        "title": "Zábava — 10%",
+        "intro": "Tento fond je určen na odpočinek a příjemné nákupy.",
+        "listIntro": "Například na:",
+        "items": [
+          "setkání s přáteli;",
+          "kavárny a restaurace;",
+          "hry;",
+          "koníčky;",
+          "výlety;",
+          "akce;",
+          "menší spontánní nákupy."
+        ],
+        "outro": "Samostatný rozpočet na zábavu vám umožňuje užívat si volný čas bez neustálého pocitu viny. Tyto peníze jste si předem vyhradili právě na věci, které vám dělají radost."
+      },
+      "giftsAndCharity": {
+        "title": "Dárky a pomoc — 5%",
+        "intro": "Tento fond můžete použít na:",
+        "items": [
+          "dárky;",
+          "charitu;",
+          "pomoc blízkým;",
+          "podporu projektů a iniciativ, které jsou pro vás důležité."
+        ],
+        "outro": "I tyto výdaje se stanou plánovanou součástí rozpočtu a nebudou narušovat ostatní finanční cíle."
+      }
+    }
+  },
+  "adjustPercents": {
+    "title": "Procenta můžete měnit",
+    "screenshotAlt": "Obrazovka pro nastavení procentního rozdělení příjmu mezi fondy",
+    "openingParagraphs": [
+      "Rozdělení 55%, 10%, 10%, 10%, 10% a 5% je výchozí bod, nikoli povinné pravidlo.",
+      "Lidé mají různé příjmy, náklady na bydlení, rodinné situace, cíle a závazky. Jednomu člověku může 55% na nezbytné výdaje stačit, zatímco jinému mohou samotný nájem a potraviny zabrat většinu příjmu.",
+      "Proto lze a je vhodné procenta přizpůsobit vaší skutečné situaci."
+    ],
+    "listIntro": "Můžete například:",
+    "items": [
+      "zvýšit podíl nezbytných výdajů;",
+      "dočasně posílat více peněz do finanční rezervy;",
+      "snížit výdaje na zábavu;",
+      "rychleji naspořit na konkrétní cíl;",
+      "upravit poměry po zvýšení nebo snížení příjmu."
+    ],
+    "closingParagraphs": [
+      "Podstatou metody není přesné dodržování klasických procent, ale návyk pravidelně rozdělovat peníze mezi různé priority.",
+      "Systém vám má pomáhat při rozhodování, ne se stát dalším zdrojem tlaku."
+    ],
+    "cta": "Vyzkoušet metodu v 6 Jars Finance →"
+  },
+  "samePurchaseDifferentJars": {
+    "title": "Stejný nákup může patřit do různých fondů",
+    "openingParagraphs": [
+      "Metoda 6 fondů nemá univerzální seznam, který by každému nákupu jednoznačně určoval kategorii. Důležité není jen to, co jste koupili, ale také proč."
+    ],
+    "listIntro": "Například návštěva kavárny může patřit do různých fondů:",
+    "items": [
+      "do nezbytných výdajů, pokud jde o váš běžný oběd během pracovního dne;",
+      "do zábavy, pokud jste si šli odpočinout nebo udělat radost;",
+      "do dárků a pomoci, pokud platíte za někoho jiného."
+    ],
+    "closingParagraphs": [
+      "Účel výdaje si určujete sami podle situace a vlastních cílů.",
+      "Metoda vás nenutí dodržovat přísná pravidla. Poskytuje orientační rámec a pomáhá vědomě rozhodnout, která část rozpočtu má konkrétní nákup pokrýt."
+    ]
+  },
+  "example": {
+    "title": "Jak to vypadá v praxi",
+    "openingParagraphs": [
+      "Představme si, že jste získali příjem ve výši 100 000.",
+      "Při klasickém rozdělení se peníze rozdělí následovně:"
+    ],
+    "table": {
+      "headers": [
+        "Fond",
+        "Podíl",
+        "Částka"
+      ],
+      "rows": [
+        [
+          "Nezbytné výdaje",
+          "55%",
+          "55 000"
+        ],
+        [
+          "Finanční nezávislost",
+          "10%",
+          "10 000"
+        ],
+        [
+          "Dlouhodobé úspory",
+          "10%",
+          "10 000"
+        ],
+        [
+          "Vzdělávání",
+          "10%",
+          "10 000"
+        ],
+        [
+          "Zábava",
+          "10%",
+          "10 000"
+        ],
+        [
+          "Dárky a pomoc",
+          "5%",
+          "5 000"
+        ]
+      ]
+    },
+    "closingParagraphs": [
+      "Po rozdělení patří každý nákup do určitého fondu.",
+      "Potraviny se platí z nezbytných výdajů. Kurz ze vzdělávání. Výlet z dlouhodobých úspor. Setkání s přáteli ze zábavy.",
+      "Vidíte tak nejen celkový zůstatek peněz, ale také kolik je dostupné na každý konkrétní účel."
+    ]
+  },
+  "misleadingBalance": {
+    "title": "Proč může být celkový zůstatek zavádějící",
+    "screenshotAlt": "Hlavní obrazovka aplikace, kde zbývá na zábavu 700 rublů a ostatní peníze jsou rozděleny mezi další fondy",
+    "paragraphs": [
+      "Když máte všechny peníze na jednom bankovním účtu, dostupná částka může působit větší, než ve skutečnosti je.",
+      "Představte si, že je na účtu 57 350. Technicky jsou všechny tyto peníze dostupné. Část z nich ale může být určena na bydlení, část na budoucí dovolenou a část do finanční rezervy.",
+      "Pokud celý zůstatek vnímáte jako volné peníze, snadno utratíte prostředky, které už byly určeny pro jiné účely.",
+      "Metoda 6 fondů vám pomáhá celkový zůstatek pomyslně rozdělit.",
+      "Na bankovním účtu můžete vidět 57 350, ale na zábavu je z této částky k dispozici pouze 700. Zbytek už byl rozdělen mezi jiné kategorie výdajů."
+    ]
+  },
+  "savingsFirst": {
+    "title": "Úspory přestanou záviset na tom, co zbude",
+    "paragraphs": [
+      "Jedna z běžných strategií spoření vypadá takto:",
+      "<strong>nejdřív během měsíce peníze utratit a potom odložit to, co zbude.</strong>",
+      "Problém je, že často nezbude nic.",
+      "Metoda 6 fondů pořadí obrací. Peníze na úspory, budování kapitálu a další cíle se odkládají hned po obdržení příjmu.",
+      "Nemusíte čekat do konce měsíce, abyste zjistili, zda se vám podařilo něco ušetřit. Úspory se od začátku stávají plnohodnotnou součástí rozpočtu."
+    ]
+  },
+  "easierDecisions": {
+    "title": "Rozhodování je jednodušší",
+    "paragraphs": [
+      "U mnoha nákupů neexistuje jednoznačně správná nebo špatná odpověď.",
+      "Můžete si koupit novou elektroniku? Máte jít do restaurace? Není kurz příliš drahý? Můžete si teď dovolit dovolenou?",
+      "Když všechny peníze patří do jednoho společného rozpočtu, musíte každé takové rozhodnutí řešit znovu.",
+      "Fondy vytvářejí jasné hranice.",
+      "Pokud je v příslušném fondu dost peněz, nákup odpovídá vašemu plánu. Pokud peníze nestačí, můžete nákup odložit, přehodnotit cíl nebo vědomě použít peníze z jiného fondu.",
+      "Metoda vám nezakazuje rozhodnutí měnit. Jen zviditelňuje jejich důsledky."
+    ]
+  },
+  "spendWithoutGuilt": {
+    "title": "Můžete utrácet bez neustálého pocitu viny",
+    "paragraphs": [
+      "Finanční disciplína bývá často mylně chápána jako neustálé odpírání příjemných nákupů.",
+      "Příliš přísný systém, který dovoluje pouze nezbytné výdaje, ale obvykle dlouhodobě nefunguje dobře. Člověk potřebuje odpočinek, zábavu a možnost občas utratit peníze jednoduše pro radost.",
+      "Proto metoda obsahuje samostatný fond na zábavu.",
+      "Pokud jste peníze na odpočinek vyhradili předem, můžete je použít k jejich účelu. Takový nákup nenarušuje úspory ani nebere peníze z nezbytných výdajů.",
+      "Rozpočet neporušujete — řídíte se jím."
+    ]
+  },
+  "borrowFromYourself": {
+    "title": "Možnost půjčit si peníze od sebe",
+    "screenshotAlt": "Obrazovka fondu „Zábava“ se záporným zůstatkem 800 rublů a historií výdajů",
+    "paragraphs": [
+      "Při používání metody 6 fondů si postupně vytváříte zásobu peněz rozdělenou mezi různé účely. Díky tomu při dočasném nedostatku prostředků nemusíte vždy půjčovat od jiných lidí nebo využívat úvěr.",
+      "Pokud v jednom fondu není dost peněz na důležitý nákup, můžete jeho zůstatek dočasně nechat klesnout pod nulu. Ve skutečnosti si půjčujete sami od sebe: nákup je zaplacen z celkových dostupných prostředků, ale překročení rozpočtu zůstává zaznamenáno právě ve fondu, do kterého výdaj patří.",
+      "Při dalším příjmu se záporný zůstatek částečně nebo úplně vyrovná. V příštím období tak bude v tomto fondu k dispozici méně peněz. Systém důležitý nákup nezakazuje, ale jasně ukazuje jeho dopad na budoucí rozpočet.",
+      "Technicky můžete potřebnou částku převést z jiného fondu a po dalším příjmu ji vrátit zpět. Bez nutnosti ale tento postup nedoporučuji. Takový převod skrývá skutečné překročení rozpočtu v původním fondu a snižuje užitečnost reportů: hůře pak poznáte, na které účely vám pravidelně nestačí částka, kterou jste jim vyhradili.",
+      "Pokud necháte fond v minusu, historie výdajů zůstává věrná skutečnosti. Vidíte, kde k překročení rozpočtu došlo, jak velké bylo a zda se po dalším příjmu vyrovnalo.",
+      "Z mé vlastní zkušenosti se to stalo jedním z nejvýraznějších přínosů metody: přestal jsem si půjčovat peníze od ostatních, protože jsem si je v případě potřeby mohl dočasně půjčit sám od sebe.",
+      "Pokud se jeden fond dostává do minusu pravidelně, už nejde o dočasnou výjimku, ale o signál, že byste měli přehodnotit rozdělení příjmu. Můžete zvýšit procento tohoto fondu na úkor těch, ve kterých vám obvykle peníze zbývají. Právě v tom spočívá flexibilita metody: systém se postupně přizpůsobuje vašim skutečným výdajům, místo aby vás nutil držet se neměnných poměrů."
+    ]
+  },
+  "goalsNoLongerCompete": {
+    "title": "Finanční cíle si přestanou navzájem konkurovat",
+    "listIntro": "Bez systému jsou všechny volné peníze současně určeny na všechno:",
+    "items": [
+      "finanční rezervu;",
+      "dovolenou;",
+      "vzdělávání;",
+      "novou elektroniku;",
+      "zábavu;",
+      "nečekané výdaje."
+    ],
+    "closingParagraphs": [
+      "Kvůli tomu jeden cíl často vytlačí ostatní. Velký nákup může úplně zastavit spoření a neplánovaný výdaj může zrušit dovolenou.",
+      "Rozdělení peněz podle účelu pomáhá pracovat na několika směrech současně.",
+      "I když jsou částky zpočátku malé, každá důležitá oblast získá svůj podíl při každém příjmu."
+    ]
+  },
+  "financialDiscipline": {
+    "title": "Metoda pomáhá rozvíjet finanční disciplínu",
+    "openingParagraphs": [
+      "Hlavní hodnota metody nespočívá pouze v tom, jak jsou peníze rozděleny, ale také v návycích, které při jejím používání vznikají.",
+      "Pravidelné rozdělování příjmů postupně mění váš pohled na peníze. Přestanete vnímat každou získanou částku jako jeden společný balík, který lze utrácet, dokud nedojde, a začnete ji chápat jako zdroj pro různé oblasti života."
+    ],
+    "listIntro": "Vytváříte si návyk:",
+    "items": [
+      "nejprve peníze rozdělit a až potom je utrácet;",
+      "zvažovat důsledky každého nákupu;",
+      "pravidelně směřovat peníze k budoucím cílům;",
+      "udržovat rovnováhu mezi dnešními přáními a dlouhodobými plány;",
+      "dělat finanční rozhodnutí vědomě."
+    ],
+    "closingParagraphs": [
+      "Systém nevyžaduje dokonalé chování od prvního dne. Finanční disciplína se vytváří postupně opakováním stejných jednoduchých kroků.",
+      "Z mé vlastní zkušenosti se právě toto ukázalo jako hlavní výhoda metody. Nepomohla mi jen lépe sledovat peníze, ale postupně změnila samotný způsob, jakým přemýšlím o příjmech, výdajích a úsporách."
+    ]
+  },
+  "irregularIncome": {
+    "title": "Co dělat při nepravidelném příjmu",
+    "paragraphs": [
+      "Metodu můžete používat i v případě, že nemáte pevný měsíční plat.",
+      "Pokud příjem přichází nepravidelně, rozdělte každou přijatou částku zvlášť.",
+      "Dostanete zaplaceno za projekt, brigádu, zakázku nebo prodej — tuto částku hned rozdělte mezi fondy podle zvolených procent.",
+      "Při nestabilním příjmu může být obzvlášť užitečné zvýšit podíl směřující do rezervy. Pomůže vám to překlenout období, kdy přichází méně peněz.",
+      "Metoda nevyžaduje znát přesný měsíční příjem předem. Pracuje s penězi, které jste už skutečně dostali."
+    ]
+  },
+  "notEnoughMoney": {
+    "title": "Co dělat, když peněz zatím není dost",
+    "paragraphs": [
+      "Klasická procenta nemusí dobře vyhovovat člověku, který téměř celý příjem utratí za základní potřeby.",
+      "To ale neznamená, že je metoda zbytečná.",
+      "Můžete začít realističtějším rozdělením. Například dát 80–90% na nezbytné výdaje a zbytek rozdělit mezi priority, které jsou pro vás nejdůležitější.",
+      "I malá částka pravidelně ukládaná do rezervy nebo na dlouhodobý cíl pomáhá vytvářet návyk.",
+      "Jak se mění vaše příjmy a výdaje, můžete měnit i poměry.",
+      "Důležitá není velikost prvního kroku, ale jeho pravidelnost."
+    ]
+  },
+  "notExactlySixJars": {
+    "title": "Musíte používat přesně šest fondů?",
+    "openingParagraphs": [
+      "Ne.",
+      "Šest fondů tvoří základ klasické metody. Pokrývají hlavní finanční priority a jsou dobrým výchozím bodem.",
+      "Postupem času ale můžete systém přizpůsobit."
+    ],
+    "listIntro": "Můžete například vytvořit samostatné fondy na:",
+    "items": [
+      "dovolenou;",
+      "zdraví;",
+      "auto;",
+      "rekonstrukci;",
+      "domácí mazlíčky;",
+      "děti;",
+      "daně;",
+      "elektroniku;",
+      "konkrétní velký nákup."
+    ],
+    "closingParagraphs": [
+      "Některé klasické fondy můžete naopak spojit nebo přejmenovat.",
+      "Důležité je zachovat hlavní princip: peníze mají být rozděleny podle účelu a struktura má odpovídat vašemu životu."
+    ]
+  },
+  "physicalJarsProblem": {
+    "title": "Problém fyzických nádob a obálek",
+    "paragraphs": [
+      "Podobné systémy byly původně založeny na používání hotovosti.",
+      "Příjem bylo možné fyzicky rozdělit do samostatných nádob, krabiček nebo obálek. Rozdělení tak bylo názorné: peníze určené pro různé kategorie byly skutečně uložené odděleně.",
+      "Dnes ale většina finančních operací probíhá bezhotovostně.",
+      "Příjem dostáváme na bankovní účet, platíme kartou, služby hradíme přes internet a peníze posíláme z telefonu.",
+      "V takových podmínkách jsou fyzické nádoby nepraktické. Abyste systém udrželi, museli byste pravidelně vybírat hotovost nebo ručně zaznamenávat každou bezhotovostní transakci.",
+      "Můžete si otevřít několik bankovních účtů, ale ani správa velkého počtu účtů a převodů není vždy pohodlná. Počet dostupných účtů a jejich podmínky navíc závisí na konkrétní bance."
+    ]
+  },
+  "digitalJars": {
+    "title": "Digitální fondy",
+    "paragraphs": [
+      "Sám jsem na tento problém narazil.",
+      "Princip metody 6 fondů se mi líbil a její pravidelné používání mi skutečně pomohlo vytvořit si disciplinovanější přístup k penězům.",
+      "Používat fyzické nádoby nebo obálky ve světě bezhotovostních plateb ale bylo nepohodlné.",
+      "Proto jsem vytvořil <strong>6 Jars Finance</strong> — aplikaci pro správu osobních financí založenou na metodě 6 fondů.",
+      "Aplikace zachovává hlavní myšlenku systému, aniž byste museli peníze fyzicky oddělovat.",
+      "Peníze dál zůstávají na vašem běžném bankovním účtu, ale v aplikaci vidíte samostatný zůstatek každého fondu."
+    ]
+  },
+  "appHowItWorks": {
+    "title": "Jak funguje 6 Jars Finance",
+    "openingParagraphs": [
+      "Když získáte příjem, aplikace ho rozdělí mezi fondy podle zvolených procent.",
+      "Po nákupu uvedete, ze kterého fondu byly peníze utraceny. Sníží se pouze jeho zůstatek — ostatní prostředky si zachovají svůj původní účel.",
+      "Celkový bankovní zůstatek tak získá jasnou vnitřní strukturu."
+    ],
+    "listIntro": "Vidíte:",
+    "items": [
+      "kolik peněz je k dispozici na nezbytné výdaje;",
+      "kolik jste naspořili na dlouhodobé cíle;",
+      "kolik můžete utratit za zábavu;",
+      "jaký rozpočet je vyhrazen na vzdělávání;",
+      "jak se zůstatky fondů v průběhu času mění."
+    ],
+    "closingParagraphs": [
+      "Aplikace nepřesouvá peníze mezi bankovními účty a nezískává přístup k vaší bance. Pomáhá vést samostatnou evidenci a chápat, k čemu jsou jednotlivé části vašich peněz určeny."
+    ]
+  },
+  "trackEveryPurchase": {
+    "title": "Musíte zadávat každý nákup zvlášť?",
+    "screenshotAlt": "Obrazovka pro přidání výdaje 2500 rublů z fondu „Běžné výdaje“ se štítkem „Potraviny“",
+    "paragraphs": [
+      "Ne. Pro používání metody stačí zadat celkovou částku výdaje a vybrat fond, ze kterého byly peníze utraceny.",
+      "Například běžný nákup v obchodě můžete zaznamenat jako jednu transakci za 3 500. Pokud chcete výdaje rozdělit přesněji, můžete částku rozdělit do několika transakcí: 2 500 za potraviny a 1 000 za domácí potřeby. Pro další podrobnosti můžete používat štítky.",
+      "Sami si zvolíte úroveň podrobnosti, která vám vyhovuje. Aplikace po vás nechce přepisovat každou položku z účtenky — evidence má pomáhat chápat pohyb peněz, ne zabírat příliš mnoho času.",
+      "Ruční přidání výdaje vyžaduje malý krok, zároveň vám ale pomáhá výdaje více vnímat a lépe chápat, kam peníze odcházejí."
+    ]
+  },
+  "adaptSystem": {
+    "title": "Přizpůsobte si systém",
+    "openingParagraphs": [
+      "6 Jars Finance vychází z klasické metody, ale neomezuje vás její původní strukturou."
+    ],
+    "listIntro": "Můžete:",
+    "items": [
+      "měnit procenta rozdělení;",
+      "přejmenovávat fondy;",
+      "vytvářet vlastní fondy;",
+      "používat více nebo méně než šest fondů;",
+      "měnit pořadí fondů;",
+      "zaznamenávat příjmy a výdaje;",
+      "přidávat pravidelné transakce;",
+      "analyzovat pohyb peněz pomocí reportů."
+    ],
+    "closingParagraphs": [
+      "Klasická struktura může posloužit jako pohodlný výchozí bod. Potom ji můžete postupně měnit tak, aby odpovídala právě vašim potřebám."
+    ]
+  },
+  "startWithNextIncome": {
+    "title": "Začněte s příštím příjmem",
+    "paragraphs": [
+      "Nemusíte hned měnit celý svůj finanční systém ani dokonale dodržovat klasická procenta.",
+      "Začněte jednoduše: rozdělte svůj příští příjem mezi několik priorit, které jsou pro vás důležité.",
+      "Už tento krok vám pomůže vnímat peníze ne jako jednu společnou částku, ale jako nástroj pro různé oblasti vašeho života.",
+      "V 6 Jars Finance jsou <strong>klasické fondy a procenta už nastavené.</strong> Můžete s nimi začít a později si rozdělení podle potřeby upravit."
+    ],
+    "cta": "Přejít na 6 Jars Finance →"
+  }
+}

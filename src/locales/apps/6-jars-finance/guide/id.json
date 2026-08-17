@@ -1,0 +1,423 @@
+{
+  "title": "Metode 6 pos: cara sederhana untuk mengelola uang",
+  "metaDescription": "Metode 6 pos membantu Anda bukan hanya mencatat pengeluaran, tetapi juga menentukan sejak awal ke mana pendapatan akan dialokasikan.",
+  "intro": {
+    "paragraphs": [
+      "Metode 6 pos membantu Anda bukan hanya mencatat pengeluaran, tetapi juga menentukan sejak awal ke mana pendapatan akan dialokasikan.",
+      "Prinsipnya sederhana: setiap kali menerima uang, Anda membaginya ke beberapa tujuan keuangan. Satu bagian digunakan untuk kebutuhan sehari-hari, sementara sisanya dibagi untuk tabungan, pendidikan, hiburan, membangun modal, dan membantu orang lain.",
+      "Dengan begitu, uang tidak lagi menjadi satu jumlah besar di rekening. Setiap bagiannya memiliki tujuan tersendiri."
+    ]
+  },
+  "overview": {
+    "title": "Daftar isi",
+    "managingMoney": "Apa itu metode 6 pos",
+    "howItWorks": "Cara pembagian uang bekerja",
+    "adjustPercents": "Cara menyesuaikan metode dengan kebutuhan Anda",
+    "misleadingBalance": "Bagaimana metode ini membantu dalam kehidupan sehari-hari",
+    "irregularIncome": "Cara menggunakan metode ini dalam berbagai situasi",
+    "physicalJarsProblem": "Cara menggunakan metode ini tanpa uang tunai",
+    "appHowItWorks": "Cara menggunakan metode ini di aplikasi"
+  },
+  "managingMoney": {
+    "title": "Bukan sekadar mencatat pengeluaran, tetapi mengelola uang",
+    "paragraphs": [
+      "Pencatatan pengeluaran biasa membantu menjawab pertanyaan:",
+      "<strong>“Ke mana uang saya sudah digunakan?”</strong>",
+      "Ini berguna, tetapi sering kali belum cukup. Meskipun Anda rutin mencatat pembelian, tidak ada jaminan bahwa pada akhir bulan masih ada uang untuk tabungan, pendidikan, atau tujuan besar.",
+      "Metode 6 pos menggunakan pendekatan yang berbeda. Metode ini membantu Anda menjawab sejak awal pertanyaan:",
+      "<strong>“Untuk apa saya ingin menggunakan uang yang saya terima?”</strong>",
+      "Anda membagi pendapatan sebelum mulai membelanjakannya. Dengan begitu, tabungan tidak bergantung pada sisa uang yang kebetulan masih ada di akhir bulan, dan pengeluaran sehari-hari tidak menghabiskan seluruh uang yang tersedia."
+    ]
+  },
+  "howItWorks": {
+    "title": "Cara kerja metode 6 pos",
+    "lead": "Dalam versi klasik metode ini, setiap pendapatan dibagi ke enam pos.",
+    "screenshotAlt": "Layar utama 6 Jars Finance dengan enam pos dan pendapatan yang dibagi di antara pos tersebut",
+    "jars": {
+      "essentialExpenses": {
+        "title": "Kebutuhan pokok — 55%",
+        "intro": "Pos ini digunakan untuk pengeluaran wajib sehari-hari:",
+        "items": [
+          "tempat tinggal;",
+          "makanan;",
+          "transportasi;",
+          "tagihan rumah tangga;",
+          "telepon dan Internet;",
+          "biaya kesehatan;",
+          "kebutuhan rutin lainnya."
+        ],
+        "outro": "Uang ini digunakan untuk memenuhi kebutuhan kehidupan sehari-hari Anda."
+      },
+      "financialIndependence": {
+        "title": "Kebebasan finansial — 10%",
+        "paragraphs": [
+          "Uang dalam pos ini digunakan untuk membangun modal dan menghasilkan pendapatan di masa depan.",
+          "Dalam sistem klasik, dana pokoknya tidak digunakan untuk pembelian sehari-hari. Tujuannya adalah membangun fondasi finansial secara bertahap.",
+          "Cara menggunakan dana ini bergantung pada pengetahuan, tujuan, dan toleransi risiko Anda. Pilihannya bisa berupa produk tabungan, investasi, atau cara lain untuk membangun modal."
+        ]
+      },
+      "longTermSavings": {
+        "title": "Tabungan jangka panjang — 10%",
+        "intro": "Pos ini membantu Anda mempersiapkan pengeluaran besar sejak awal.",
+        "listIntro": "Misalnya untuk:",
+        "items": [
+          "membangun dana cadangan;",
+          "liburan;",
+          "renovasi;",
+          "membeli perangkat elektronik atau peralatan rumah tangga;",
+          "mobil;",
+          "pindah tempat tinggal;",
+          "tujuan besar lainnya."
+        ],
+        "outro": "Pengeluaran seperti ini tidak lagi terasa mendadak karena uangnya dikumpulkan sedikit demi sedikit."
+      },
+      "education": {
+        "title": "Pendidikan — 10%",
+        "intro": "Uang ini digunakan untuk mengembangkan pengetahuan dan keterampilan.",
+        "listIntro": "Anda dapat menggunakannya untuk:",
+        "items": [
+          "buku;",
+          "kursus;",
+          "pelatihan profesional;",
+          "belajar bahasa;",
+          "les dengan pengajar;",
+          "konferensi;",
+          "materi pendidikan lainnya."
+        ],
+        "outro": "Pendidikan menjadi bagian tersendiri dari anggaran, bukan pengeluaran yang terus ditunda."
+      },
+      "entertainment": {
+        "title": "Hiburan — 10%",
+        "intro": "Pos ini digunakan untuk beristirahat dan membeli hal-hal yang menyenangkan.",
+        "listIntro": "Misalnya:",
+        "items": [
+          "bertemu teman;",
+          "kafe dan restoran;",
+          "game;",
+          "hobi;",
+          "perjalanan;",
+          "acara;",
+          "pembelian spontan dalam jumlah kecil."
+        ],
+        "outro": "Memiliki anggaran khusus untuk hiburan memungkinkan Anda menikmati sesuatu tanpa terus merasa bersalah. Uang ini memang sudah Anda sisihkan sejak awal untuk hal-hal yang menyenangkan."
+      },
+      "giftsAndCharity": {
+        "title": "Hadiah dan bantuan — 5%",
+        "intro": "Pos ini dapat digunakan untuk:",
+        "items": [
+          "hadiah;",
+          "donasi;",
+          "membantu keluarga dan teman;",
+          "mendukung proyek dan inisiatif yang penting bagi Anda."
+        ],
+        "outro": "Pengeluaran seperti ini juga menjadi bagian yang sudah direncanakan dalam anggaran dan tidak mengganggu tujuan keuangan lainnya."
+      }
+    }
+  },
+  "adjustPercents": {
+    "title": "Persentase dapat diubah",
+    "screenshotAlt": "Layar untuk mengatur persentase pembagian pendapatan di antara pos",
+    "openingParagraphs": [
+      "Pembagian 55%, 10%, 10%, 10%, 10%, dan 5% adalah titik awal, bukan aturan wajib.",
+      "Setiap orang memiliki pendapatan, biaya tempat tinggal, kondisi keluarga, tujuan, dan kewajiban yang berbeda. Bagi seseorang, 55% mungkin cukup untuk kebutuhan pokok, sementara bagi orang lain biaya sewa dan makanan saja bisa menghabiskan sebagian besar pendapatan.",
+      "Karena itu, persentasenya dapat dan sebaiknya disesuaikan dengan kondisi nyata Anda."
+    ],
+    "listIntro": "Misalnya, Anda dapat:",
+    "items": [
+      "meningkatkan bagian untuk kebutuhan pokok;",
+      "sementara waktu mengalokasikan lebih banyak uang ke dana cadangan;",
+      "mengurangi pengeluaran untuk hiburan;",
+      "mempercepat tabungan untuk tujuan tertentu;",
+      "mengubah pembagian setelah pendapatan naik atau turun."
+    ],
+    "closingParagraphs": [
+      "Hal terpenting dalam metode ini bukan mengikuti persentase klasik secara tepat, melainkan membangun kebiasaan membagi uang secara rutin ke berbagai tujuan.",
+      "Sistem ini seharusnya membantu Anda mengambil keputusan, bukan menjadi sumber tekanan baru."
+    ],
+    "cta": "Coba metode ini di 6 Jars Finance →"
+  },
+  "samePurchaseDifferentJars": {
+    "title": "Pembelian yang sama dapat masuk ke pos yang berbeda",
+    "openingParagraphs": [
+      "Dalam metode 6 pos tidak ada daftar universal yang secara mutlak menentukan kategori setiap pembelian. Yang penting bukan hanya apa yang Anda beli, tetapi juga mengapa Anda membelinya."
+    ],
+    "listIntro": "Misalnya, pergi ke kafe dapat masuk ke pos yang berbeda:",
+    "items": [
+      "kebutuhan pokok, jika itu adalah makan siang rutin Anda saat bekerja;",
+      "hiburan, jika Anda pergi untuk bersantai atau memanjakan diri;",
+      "hadiah dan bantuan, jika Anda mentraktir orang lain."
+    ],
+    "closingParagraphs": [
+      "Anda sendiri yang menentukan tujuan suatu pengeluaran berdasarkan situasi dan tujuan pribadi.",
+      "Metode ini tidak memaksa Anda mengikuti aturan yang kaku. Metode ini memberi kerangka dan membantu Anda memutuskan secara sadar bagian anggaran mana yang sebaiknya digunakan untuk suatu pembelian."
+    ]
+  },
+  "example": {
+    "title": "Seperti apa penerapannya dalam praktik",
+    "openingParagraphs": [
+      "Misalkan Anda menerima pendapatan sebesar 100 000.",
+      "Dengan pembagian klasik, uang tersebut akan dibagi sebagai berikut:"
+    ],
+    "table": {
+      "headers": [
+        "Pos",
+        "Porsi",
+        "Jumlah"
+      ],
+      "rows": [
+        [
+          "Kebutuhan pokok",
+          "55%",
+          "55 000"
+        ],
+        [
+          "Kebebasan finansial",
+          "10%",
+          "10 000"
+        ],
+        [
+          "Tabungan jangka panjang",
+          "10%",
+          "10 000"
+        ],
+        [
+          "Pendidikan",
+          "10%",
+          "10 000"
+        ],
+        [
+          "Hiburan",
+          "10%",
+          "10 000"
+        ],
+        [
+          "Hadiah dan bantuan",
+          "5%",
+          "5 000"
+        ]
+      ]
+    },
+    "closingParagraphs": [
+      "Setelah dibagi, setiap pembelian masuk ke pos tertentu.",
+      "Belanja makanan dibayar dari kebutuhan pokok. Kursus dari pendidikan. Perjalanan dari tabungan jangka panjang. Bertemu teman dari hiburan.",
+      "Dengan demikian, Anda tidak hanya melihat sisa uang secara keseluruhan, tetapi juga berapa banyak yang tersedia untuk setiap tujuan tertentu."
+    ]
+  },
+  "misleadingBalance": {
+    "title": "Mengapa saldo total bisa menyesatkan",
+    "screenshotAlt": "Layar utama aplikasi yang menunjukkan 700 rubel tersisa untuk hiburan, sementara uang lainnya telah dibagi ke pos lain",
+    "paragraphs": [
+      "Ketika semua uang disimpan dalam satu rekening bank, jumlah yang terlihat tersedia bisa terasa lebih besar daripada yang sebenarnya.",
+      "Misalkan ada 57 350 di rekening. Secara teknis, semua uang tersebut tersedia. Namun sebagian mungkin sudah ditujukan untuk tempat tinggal, sebagian untuk liburan mendatang, dan sebagian untuk dana cadangan.",
+      "Jika seluruh saldo dianggap sebagai uang bebas untuk dibelanjakan, mudah sekali menggunakan dana yang sebenarnya sudah dibutuhkan untuk tujuan lain.",
+      "Metode 6 pos membantu Anda membagi saldo total secara mental.",
+      "Anda mungkin melihat 57 350 di rekening bank, tetapi hanya 700 dari jumlah itu yang tersedia untuk hiburan. Sisanya sudah dialokasikan ke kategori pengeluaran lain."
+    ]
+  },
+  "savingsFirst": {
+    "title": "Tabungan tidak lagi bergantung pada sisa uang",
+    "paragraphs": [
+      "Salah satu strategi menabung yang umum adalah:",
+      "<strong>menghabiskan uang sepanjang bulan terlebih dahulu, lalu menabung apa pun yang tersisa.</strong>",
+      "Masalahnya, sering kali tidak ada yang tersisa.",
+      "Metode 6 pos membalik urutan ini. Uang untuk tabungan, membangun modal, dan tujuan lainnya dialokasikan begitu pendapatan diterima.",
+      "Anda tidak perlu menunggu akhir bulan untuk mengetahui apakah berhasil menabung. Tabungan sejak awal menjadi bagian penuh dari anggaran."
+    ]
+  },
+  "easierDecisions": {
+    "title": "Mengambil keputusan menjadi lebih mudah",
+    "paragraphs": [
+      "Banyak pembelian tidak memiliki jawaban yang jelas benar atau salah.",
+      "Apakah Anda bisa membeli perangkat baru? Perlukah pergi ke restoran? Apakah kursus terlalu mahal? Apakah sekarang saat yang tepat untuk liburan?",
+      "Ketika semua uang berada dalam satu anggaran umum, setiap keputusan seperti ini harus dipikirkan kembali dari awal.",
+      "Pos-pos menciptakan batas yang jelas.",
+      "Jika ada cukup uang di pos yang sesuai, pembelian tersebut cocok dengan rencana Anda. Jika tidak cukup, Anda dapat menunda pembelian, meninjau kembali tujuan, atau secara sadar menggunakan uang dari pos lain.",
+      "Metode ini tidak melarang Anda mengubah keputusan. Metode ini hanya membuat konsekuensi dari keputusan tersebut terlihat."
+    ]
+  },
+  "spendWithoutGuilt": {
+    "title": "Anda bisa membelanjakan uang tanpa terus merasa bersalah",
+    "paragraphs": [
+      "Disiplin finansial sering disalahartikan sebagai terus-menerus menolak pembelian yang menyenangkan.",
+      "Namun sistem yang terlalu ketat dan hanya mengizinkan pengeluaran wajib biasanya sulit dipertahankan dalam jangka panjang. Orang membutuhkan istirahat, hiburan, dan kesempatan sesekali untuk membelanjakan uang hanya demi kesenangan.",
+      "Karena itu, metode ini memiliki pos khusus untuk hiburan.",
+      "Jika uang sudah dialokasikan sejak awal untuk bersantai, Anda dapat menggunakannya sesuai tujuan tersebut. Pembelian seperti itu tidak mengganggu tabungan dan tidak mengambil uang dari kebutuhan pokok.",
+      "Anda tidak melanggar anggaran — Anda justru mengikutinya."
+    ]
+  },
+  "borrowFromYourself": {
+    "title": "Kemampuan meminjam uang dari diri sendiri",
+    "screenshotAlt": "Layar pos «Hiburan» dengan saldo negatif 800 rubel dan riwayat pengeluaran",
+    "paragraphs": [
+      "Saat menggunakan metode 6 pos, Anda secara bertahap membentuk cadangan uang yang tersebar di berbagai tujuan. Karena itu, ketika terjadi kekurangan sementara, Anda tidak selalu harus meminjam dari orang lain atau menggunakan kredit.",
+      "Jika satu pos tidak memiliki cukup uang untuk pembelian penting, Anda dapat membiarkan saldonya sementara menjadi negatif. Pada dasarnya Anda meminjam uang dari diri sendiri: pembelian dibayar dari total dana yang tersedia, tetapi kelebihan pengeluaran tetap tercatat di pos yang berkaitan dengan pengeluaran tersebut.",
+      "Saat pendapatan berikutnya masuk, saldo negatif akan berkurang atau tertutup sepenuhnya. Akibatnya, pada periode berikutnya akan tersedia lebih sedikit uang di pos itu. Sistem tidak menghalangi pembelian penting, tetapi menunjukkan dengan jelas dampaknya pada anggaran berikutnya.",
+      "Secara teknis, Anda dapat memindahkan jumlah yang diperlukan dari pos lain dan mengembalikannya setelah menerima pendapatan berikutnya. Namun saya tidak menyarankan cara ini jika tidak perlu. Pemindahan seperti itu menyembunyikan kelebihan pengeluaran yang sebenarnya di pos awal dan membuat laporan kurang berguna: menjadi lebih sulit untuk melihat tujuan mana yang secara nyata membutuhkan lebih banyak uang daripada yang sudah dialokasikan.",
+      "Jika Anda membiarkan pos tetap negatif, riwayat pengeluaran tetap sesuai dengan kenyataan. Anda dapat melihat di mana kelebihan pengeluaran terjadi, seberapa besar, dan apakah sudah tertutup setelah pendapatan berikutnya.",
+      "Dalam pengalaman saya, ini menjadi salah satu hasil paling terasa dari penggunaan metode ini: saya berhenti meminjam uang dari orang lain karena bila perlu saya bisa meminjamnya sementara dari diri sendiri.",
+      "Jika pos yang sama sering menjadi negatif, itu bukan lagi pengecualian sementara, melainkan tanda bahwa pembagian pendapatan perlu ditinjau ulang. Anda dapat meningkatkan persentase pos tersebut dengan mengurangi porsi pos yang biasanya masih memiliki sisa uang. Di sinilah fleksibilitas metode ini: sistem secara bertahap menyesuaikan diri dengan pengeluaran nyata Anda, bukan memaksa Anda mengikuti proporsi yang tidak berubah."
+    ]
+  },
+  "goalsNoLongerCompete": {
+    "title": "Tujuan keuangan tidak lagi saling bersaing",
+    "listIntro": "Tanpa sistem, semua uang yang belum dialokasikan sekaligus harus digunakan untuk semuanya:",
+    "items": [
+      "dana cadangan;",
+      "liburan;",
+      "pendidikan;",
+      "perangkat baru;",
+      "hiburan;",
+      "pengeluaran tak terduga."
+    ],
+    "closingParagraphs": [
+      "Akibatnya, satu tujuan sering menggeser tujuan lainnya. Pembelian besar dapat menghentikan tabungan sepenuhnya, sementara pengeluaran tak terduga dapat membatalkan rencana liburan.",
+      "Membagi uang berdasarkan tujuan memungkinkan Anda terus bergerak menuju beberapa tujuan sekaligus.",
+      "Meskipun jumlahnya kecil pada awalnya, setiap area penting tetap mendapatkan bagiannya setiap kali Anda menerima pendapatan."
+    ]
+  },
+  "financialDiscipline": {
+    "title": "Metode ini membantu membangun disiplin finansial",
+    "openingParagraphs": [
+      "Nilai utama metode ini bukan hanya terletak pada bagaimana uang dibagi, tetapi juga pada kebiasaan yang terbentuk selama penggunaannya.",
+      "Membagi pendapatan secara rutin perlahan mengubah cara Anda memandang uang. Anda mulai melihat uang yang diterima bukan sebagai satu kumpulan besar yang bisa dibelanjakan sampai habis, melainkan sebagai sumber daya untuk berbagai bagian kehidupan."
+    ],
+    "listIntro": "Anda membangun kebiasaan untuk:",
+    "items": [
+      "membagi uang terlebih dahulu, baru kemudian membelanjakannya;",
+      "mempertimbangkan konsekuensi setiap pembelian;",
+      "secara rutin mengalokasikan uang untuk tujuan masa depan;",
+      "menjaga keseimbangan antara keinginan saat ini dan rencana jangka panjang;",
+      "mengambil keputusan finansial secara sadar."
+    ],
+    "closingParagraphs": [
+      "Sistem ini tidak menuntut perilaku sempurna sejak hari pertama. Disiplin finansial terbentuk secara bertahap melalui pengulangan tindakan sederhana yang sama.",
+      "Dalam pengalaman saya sendiri, justru inilah keuntungan utama metode ini. Metode ini bukan hanya membantu saya mengelola uang dengan lebih baik, tetapi juga secara bertahap mengubah cara saya memandang pendapatan, pengeluaran, dan tabungan."
+    ]
+  },
+  "irregularIncome": {
+    "title": "Apa yang dilakukan jika pendapatan tidak teratur",
+    "paragraphs": [
+      "Metode ini tidak hanya cocok untuk orang yang menerima gaji bulanan tetap.",
+      "Jika pendapatan Anda tidak teratur, bagi setiap pemasukan secara terpisah.",
+      "Saat menerima pembayaran dari proyek, pekerjaan tambahan, pesanan, atau penjualan, langsung bagi jumlah tersebut ke pos-pos sesuai persentase yang Anda pilih.",
+      "Jika pendapatan tidak stabil, menaikkan porsi yang dialokasikan ke dana cadangan bisa sangat berguna. Hal ini membantu menghadapi periode ketika pemasukan lebih sedikit.",
+      "Metode ini tidak mengharuskan Anda mengetahui jumlah pendapatan bulanan secara pasti sebelumnya. Metode ini bekerja dengan uang yang sudah benar-benar Anda terima."
+    ]
+  },
+  "notEnoughMoney": {
+    "title": "Apa yang dilakukan jika uang saat ini belum cukup",
+    "paragraphs": [
+      "Persentase klasik mungkin kurang cocok bagi seseorang yang menggunakan hampir seluruh pendapatannya untuk kebutuhan dasar.",
+      "Itu tidak berarti metode ini tidak berguna.",
+      "Anda dapat memulai dengan pembagian yang lebih realistis. Misalnya, mengalokasikan 80–90% untuk kebutuhan pokok dan membagi sisanya di antara tujuan yang paling penting bagi Anda.",
+      "Bahkan jumlah kecil yang secara rutin dialokasikan ke dana cadangan atau tujuan jangka panjang membantu membangun kebiasaan.",
+      "Seiring perubahan pendapatan dan pengeluaran, pembagiannya dapat ditinjau kembali.",
+      "Yang penting bukan besar langkah pertama, tetapi konsistensinya."
+    ]
+  },
+  "notExactlySixJars": {
+    "title": "Apakah harus menggunakan tepat enam pos?",
+    "openingParagraphs": [
+      "Tidak.",
+      "Enam pos merupakan dasar dari metode klasik. Pos-pos tersebut mencakup tujuan keuangan utama dan merupakan titik awal yang baik.",
+      "Namun seiring waktu, sistem ini dapat Anda sesuaikan."
+    ],
+    "listIntro": "Misalnya, Anda dapat membuat pos terpisah untuk:",
+    "items": [
+      "liburan;",
+      "kesehatan;",
+      "mobil;",
+      "renovasi;",
+      "hewan peliharaan;",
+      "anak;",
+      "pajak;",
+      "perangkat elektronik;",
+      "pembelian besar tertentu."
+    ],
+    "closingParagraphs": [
+      "Sebaliknya, beberapa pos klasik juga dapat digabungkan atau diganti namanya.",
+      "Yang penting adalah mempertahankan prinsip dasarnya: uang harus dibagi berdasarkan tujuan, dan strukturnya harus sesuai dengan kehidupan Anda."
+    ]
+  },
+  "physicalJarsProblem": {
+    "title": "Masalah dengan wadah fisik dan amplop",
+    "paragraphs": [
+      "Pada awalnya, sistem seperti ini dirancang untuk menggunakan uang tunai.",
+      "Pendapatan dapat dibagi secara fisik ke dalam wadah, kotak, atau amplop yang berbeda. Pembagiannya menjadi sangat jelas karena uang untuk kategori yang berbeda benar-benar disimpan secara terpisah.",
+      "Namun saat ini, sebagian besar transaksi keuangan dilakukan tanpa uang tunai.",
+      "Kita menerima pendapatan melalui rekening bank, membayar dengan kartu, membayar layanan melalui Internet, dan mengirim uang menggunakan ponsel.",
+      "Dalam kondisi seperti ini, wadah fisik menjadi tidak praktis. Untuk mempertahankan sistem, Anda harus rutin menarik uang tunai atau mencatat secara manual setiap transaksi digital.",
+      "Anda juga dapat membuka beberapa rekening bank, tetapi mengelola banyak rekening dan transfer juga tidak selalu nyaman. Selain itu, jumlah rekening yang tersedia dan ketentuannya bergantung pada bank."
+    ]
+  },
+  "digitalJars": {
+    "title": "Pos digital",
+    "paragraphs": [
+      "Saya sendiri menghadapi masalah ini.",
+      "Saya menyukai prinsip metode 6 pos, dan menggunakannya secara rutin benar-benar membantu saya mengembangkan pendekatan yang lebih disiplin terhadap uang.",
+      "Namun menggunakan wadah atau amplop fisik di dunia yang sebagian besar pembayarannya dilakukan secara digital ternyata tidak praktis.",
+      "Karena itu saya mengembangkan <strong>6 Jars Finance</strong> — aplikasi keuangan pribadi yang didasarkan pada metode 6 pos.",
+      "Aplikasi ini mempertahankan gagasan utama sistem tanpa mengharuskan Anda memisahkan uang secara fisik.",
+      "Anda tetap menyimpan uang di rekening bank yang biasa digunakan, tetapi di dalam aplikasi Anda dapat melihat saldo terpisah untuk setiap pos."
+    ]
+  },
+  "appHowItWorks": {
+    "title": "Cara kerja 6 Jars Finance",
+    "openingParagraphs": [
+      "Ketika menerima pendapatan, aplikasi membaginya ke berbagai pos berdasarkan persentase yang Anda pilih.",
+      "Setelah melakukan pembelian, Anda menentukan dari pos mana uang digunakan. Hanya saldo pos tersebut yang berkurang — dana lainnya tetap memiliki tujuan masing-masing.",
+      "Dengan begitu, saldo bank secara keseluruhan memiliki struktur internal yang jelas."
+    ],
+    "listIntro": "Anda dapat melihat:",
+    "items": [
+      "berapa banyak uang yang tersedia untuk kebutuhan pokok;",
+      "berapa banyak yang sudah terkumpul untuk tujuan jangka panjang;",
+      "berapa banyak yang dapat dibelanjakan untuk hiburan;",
+      "berapa besar anggaran yang dialokasikan untuk pendidikan;",
+      "bagaimana saldo setiap pos berubah dari waktu ke waktu."
+    ],
+    "closingParagraphs": [
+      "Aplikasi tidak memindahkan uang antar rekening bank dan tidak mengakses bank Anda. Aplikasi membantu Anda membuat pencatatan terpisah dan memahami tujuan setiap bagian dari uang Anda."
+    ]
+  },
+  "trackEveryPurchase": {
+    "title": "Apakah setiap pembelian harus dicatat secara terpisah?",
+    "screenshotAlt": "Layar untuk menambahkan pengeluaran sebesar 2500 rubel dari pos «Pengeluaran harian» dengan tag «Makanan»",
+    "paragraphs": [
+      "Tidak. Untuk menggunakan metode ini, Anda hanya perlu memasukkan jumlah total pengeluaran dan memilih pos asal uang tersebut.",
+      "Misalnya, belanja biasa di supermarket dapat dicatat sebagai satu transaksi sebesar 3 500. Jika ingin lebih rinci, Anda dapat membaginya menjadi beberapa transaksi: 2 500 untuk makanan dan 1 000 untuk kebutuhan rumah tangga. Untuk detail tambahan, Anda juga dapat menggunakan tag.",
+      "Anda sendiri yang menentukan tingkat ketelitian yang sesuai. Aplikasi tidak mengharuskan Anda menyalin setiap item dari struk — pencatatan harus membantu memahami pergerakan uang tanpa menghabiskan terlalu banyak waktu.",
+      "Menambahkan pengeluaran secara manual memang membutuhkan sedikit tindakan tambahan, tetapi sekaligus membantu Anda lebih menyadari pengeluaran dan memahami ke mana uang digunakan."
+    ]
+  },
+  "adaptSystem": {
+    "title": "Sesuaikan sistem dengan kebutuhan Anda",
+    "openingParagraphs": [
+      "6 Jars Finance didasarkan pada metode klasik, tetapi tidak membatasi Anda pada struktur awalnya."
+    ],
+    "listIntro": "Anda dapat:",
+    "items": [
+      "mengubah persentase pembagian;",
+      "mengganti nama pos;",
+      "membuat pos sendiri;",
+      "menggunakan lebih banyak atau lebih sedikit dari enam pos;",
+      "mengubah urutan pos;",
+      "mencatat pendapatan dan pengeluaran;",
+      "menambahkan transaksi rutin;",
+      "menganalisis pergerakan uang melalui laporan."
+    ],
+    "closingParagraphs": [
+      "Struktur klasik dapat menjadi titik awal yang praktis. Setelah itu, Anda dapat mengubahnya secara bertahap agar sesuai dengan kebutuhan pribadi."
+    ]
+  },
+  "startWithNextIncome": {
+    "title": "Mulai dari pendapatan berikutnya",
+    "paragraphs": [
+      "Anda tidak perlu langsung mengubah seluruh sistem keuangan atau mengikuti persentase klasik secara sempurna.",
+      "Mulailah dari langkah sederhana: bagi pendapatan berikutnya ke beberapa tujuan yang penting bagi Anda.",
+      "Langkah ini saja sudah membantu Anda melihat uang bukan sebagai satu jumlah besar, tetapi sebagai alat untuk berbagai bagian kehidupan.",
+      "Di 6 Jars Finance, <strong>enam pos klasik beserta persentasenya sudah disiapkan.</strong> Anda dapat mulai dari sana, lalu menyesuaikan pembagiannya sesuai kebutuhan."
+    ],
+    "cta": "Buka 6 Jars Finance →"
+  }
+}

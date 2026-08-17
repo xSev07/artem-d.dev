@@ -1,0 +1,423 @@
+{
+  "title": "Il metodo dei 6 fondi: un modo semplice per gestire il denaro",
+  "metaDescription": "Il metodo dei 6 fondi ti aiuta non solo a registrare le spese, ma anche a decidere in anticipo come utilizzare il tuo reddito.",
+  "intro": {
+    "paragraphs": [
+      "Il metodo dei 6 fondi ti aiuta non solo a registrare le spese, ma anche a decidere in anticipo come utilizzare il tuo reddito.",
+      "Il principio è semplice: ogni volta che ricevi denaro, lo dividi tra diversi obiettivi finanziari. Una parte va alle necessità quotidiane, mentre il resto viene distribuito tra risparmi, formazione, svago, creazione di capitale e aiuto agli altri.",
+      "In questo modo il denaro smette di essere un'unica somma complessiva sul conto. Ogni parte acquisisce uno scopo preciso."
+    ]
+  },
+  "overview": {
+    "title": "Indice",
+    "managingMoney": "Cos'è il metodo dei 6 fondi",
+    "howItWorks": "Come funziona la suddivisione del denaro",
+    "adjustPercents": "Come adattare il metodo alle proprie esigenze",
+    "misleadingBalance": "Come il metodo aiuta nella vita quotidiana",
+    "irregularIncome": "Come usare il metodo in situazioni diverse",
+    "physicalJarsProblem": "Come applicare il metodo senza contanti",
+    "appHowItWorks": "Come usare il metodo nell'app"
+  },
+  "managingMoney": {
+    "title": "Non solo registrare le spese, ma gestire il denaro",
+    "paragraphs": [
+      "Il normale monitoraggio delle spese aiuta a rispondere alla domanda:",
+      "<strong>«Dove sono già finiti i miei soldi?»</strong>",
+      "È utile, ma spesso non basta. Anche se registri regolarmente gli acquisti, non è detto che alla fine del mese rimangano soldi per i risparmi, la formazione o obiettivi importanti.",
+      "Il metodo dei 6 fondi propone un approccio diverso. Ti aiuta a rispondere in anticipo alla domanda:",
+      "<strong>«A cosa voglio destinare il denaro che ricevo?»</strong>",
+      "Dividi il reddito prima di iniziare a spenderlo. In questo modo i risparmi non dipendono da ciò che per caso rimane alla fine del mese e le spese quotidiane non assorbono tutto il denaro disponibile."
+    ]
+  },
+  "howItWorks": {
+    "title": "Come funziona il metodo dei 6 fondi",
+    "lead": "Nella versione classica del metodo, ogni entrata viene suddivisa tra sei fondi.",
+    "screenshotAlt": "Schermata principale di 6 Jars Finance con sei fondi e il reddito distribuito tra di essi",
+    "jars": {
+      "essentialExpenses": {
+        "title": "Spese necessarie — 55%",
+        "intro": "Questo fondo è destinato alle spese quotidiane indispensabili:",
+        "items": [
+          "casa;",
+          "alimentari;",
+          "trasporti;",
+          "utenze;",
+          "telefono e Internet;",
+          "cure mediche;",
+          "altre necessità ricorrenti."
+        ],
+        "outro": "Sono i soldi che coprono le spese della vita quotidiana."
+      },
+      "financialIndependence": {
+        "title": "Indipendenza finanziaria — 10%",
+        "paragraphs": [
+          "Il denaro di questo fondo serve a creare capitale e generare reddito in futuro.",
+          "Nel sistema classico si presume che il capitale principale non venga utilizzato per acquisti ordinari. Il suo compito è costruire gradualmente una base finanziaria.",
+          "Il modo in cui utilizzi questi fondi dipende dalle tue conoscenze, dai tuoi obiettivi e dalla tua propensione al rischio. Può trattarsi di strumenti di risparmio, investimenti o altri modi per creare capitale."
+        ]
+      },
+      "longTermSavings": {
+        "title": "Risparmi a lungo termine — 10%",
+        "intro": "Questo fondo ti aiuta a prepararti in anticipo per le spese più importanti.",
+        "listIntro": "Ad esempio:",
+        "items": [
+          "creare una riserva finanziaria;",
+          "una vacanza;",
+          "una ristrutturazione;",
+          "l'acquisto di dispositivi o elettrodomestici;",
+          "un'auto;",
+          "un trasloco;",
+          "altri grandi obiettivi."
+        ],
+        "outro": "Queste spese diventano meno impreviste perché il denaro necessario viene accumulato gradualmente."
+      },
+      "education": {
+        "title": "Formazione — 10%",
+        "intro": "Questo denaro è destinato allo sviluppo delle conoscenze e delle competenze.",
+        "listIntro": "Puoi utilizzarlo per:",
+        "items": [
+          "libri;",
+          "corsi;",
+          "formazione professionale;",
+          "studio delle lingue;",
+          "lezioni con un insegnante;",
+          "conferenze;",
+          "altri materiali formativi."
+        ],
+        "outro": "La formazione diventa una parte separata del budget, invece di essere una spesa che continui a rimandare."
+      },
+      "entertainment": {
+        "title": "Svago — 10%",
+        "intro": "Questo fondo è destinato al riposo e agli acquisti piacevoli.",
+        "listIntro": "Ad esempio:",
+        "items": [
+          "incontri con gli amici;",
+          "bar e ristoranti;",
+          "giochi;",
+          "hobby;",
+          "viaggi e gite;",
+          "eventi;",
+          "piccoli acquisti spontanei."
+        ],
+        "outro": "Avere un budget separato per lo svago permette di divertirsi senza sentirsi continuamente in colpa. Hai già destinato questi soldi proprio alle cose che ti fanno piacere."
+      },
+      "giftsAndCharity": {
+        "title": "Regali e aiuto — 5%",
+        "intro": "Questo fondo può essere utilizzato per:",
+        "items": [
+          "regali;",
+          "beneficenza;",
+          "aiutare familiari e amici;",
+          "sostenere progetti e iniziative importanti per te."
+        ],
+        "outro": "Anche queste spese diventano una parte pianificata del budget e non interferiscono con gli altri obiettivi finanziari."
+      }
+    }
+  },
+  "adjustPercents": {
+    "title": "Le percentuali possono essere modificate",
+    "screenshotAlt": "Schermata per impostare le percentuali di distribuzione del reddito tra i fondi",
+    "openingParagraphs": [
+      "La suddivisione 55%, 10%, 10%, 10%, 10% e 5% è un punto di partenza, non una regola obbligatoria.",
+      "Le persone hanno redditi, costi dell'abitazione, situazioni familiari, obiettivi e obblighi diversi. Per qualcuno il 55% può essere sufficiente per le spese necessarie, mentre per un'altra persona affitto e alimentari possono già assorbire la maggior parte del reddito.",
+      "Per questo le percentuali possono e devono essere adattate alla tua situazione reale."
+    ],
+    "listIntro": "Ad esempio, puoi:",
+    "items": [
+      "aumentare la quota destinata alle spese necessarie;",
+      "destinare temporaneamente più denaro alla riserva finanziaria;",
+      "ridurre le spese per lo svago;",
+      "raggiungere più velocemente un obiettivo di risparmio specifico;",
+      "modificare le proporzioni dopo un aumento o una diminuzione del reddito."
+    ],
+    "closingParagraphs": [
+      "L'aspetto fondamentale del metodo non è rispettare esattamente le percentuali classiche, ma sviluppare l'abitudine di distribuire regolarmente il denaro tra obiettivi diversi.",
+      "Il sistema deve aiutarti a prendere decisioni, non diventare un'ulteriore fonte di pressione."
+    ],
+    "cta": "Prova il metodo in 6 Jars Finance →"
+  },
+  "samePurchaseDifferentJars": {
+    "title": "Lo stesso acquisto può appartenere a fondi diversi",
+    "openingParagraphs": [
+      "Nel metodo dei 6 fondi non esiste un elenco universale che assegni in modo univoco ogni acquisto a una categoria. Non conta solo cosa hai comprato, ma anche perché lo hai fatto."
+    ],
+    "listIntro": "Ad esempio, una visita al bar può appartenere a fondi diversi:",
+    "items": [
+      "alle spese necessarie, se si tratta del tuo pranzo abituale durante il lavoro;",
+      "allo svago, se ci vai per rilassarti o concederti qualcosa;",
+      "ai regali e all'aiuto, se offri a un'altra persona."
+    ],
+    "closingParagraphs": [
+      "Sei tu a stabilire lo scopo della spesa in base alla situazione e ai tuoi obiettivi.",
+      "Il metodo non ti obbliga a seguire regole rigide. Offre un punto di riferimento e ti aiuta a decidere consapevolmente quale parte del budget deve coprire un determinato acquisto."
+    ]
+  },
+  "example": {
+    "title": "Come funziona nella pratica",
+    "openingParagraphs": [
+      "Supponiamo che tu riceva un reddito di 100 000.",
+      "Con la distribuzione classica, il denaro viene suddiviso nel modo seguente:"
+    ],
+    "table": {
+      "headers": [
+        "Fondo",
+        "Quota",
+        "Importo"
+      ],
+      "rows": [
+        [
+          "Spese necessarie",
+          "55%",
+          "55 000"
+        ],
+        [
+          "Indipendenza finanziaria",
+          "10%",
+          "10 000"
+        ],
+        [
+          "Risparmi a lungo termine",
+          "10%",
+          "10 000"
+        ],
+        [
+          "Formazione",
+          "10%",
+          "10 000"
+        ],
+        [
+          "Svago",
+          "10%",
+          "10 000"
+        ],
+        [
+          "Regali e aiuto",
+          "5%",
+          "5 000"
+        ]
+      ]
+    },
+    "closingParagraphs": [
+      "Dopo la distribuzione, ogni acquisto appartiene a un fondo specifico.",
+      "Gli alimentari vengono pagati dalle spese necessarie. Un corso dalla formazione. Un viaggio dai risparmi a lungo termine. Un incontro con gli amici dallo svago.",
+      "In questo modo non vedi solo il denaro totale rimasto, ma anche quanto è disponibile per ogni singolo obiettivo."
+    ]
+  },
+  "misleadingBalance": {
+    "title": "Perché il saldo totale può essere fuorviante",
+    "screenshotAlt": "Schermata principale dell'app in cui rimangono 700 rubli per lo svago e il resto del denaro è distribuito tra altri fondi",
+    "paragraphs": [
+      "Quando tutto il denaro si trova su un unico conto bancario, la somma disponibile può sembrare maggiore di quanto sia in realtà.",
+      "Supponiamo che sul conto ci siano 57 350. Formalmente tutto questo denaro è disponibile. Una parte, però, può essere già destinata alla casa, una parte a una futura vacanza e una parte alla riserva finanziaria.",
+      "Se consideri l'intero saldo come denaro liberamente spendibile, è facile utilizzare fondi che erano già necessari per altri obiettivi.",
+      "Il metodo dei 6 fondi ti aiuta a dividere mentalmente il saldo totale.",
+      "Puoi vedere 57 350 sul conto bancario, ma solo 700 di questi possono essere disponibili per lo svago. Il resto è già stato distribuito tra altre categorie di spesa."
+    ]
+  },
+  "savingsFirst": {
+    "title": "I risparmi non dipendono più da ciò che rimane",
+    "paragraphs": [
+      "Una strategia di risparmio molto comune funziona così:",
+      "<strong>prima si spende durante il mese e poi si mette da parte ciò che rimane.</strong>",
+      "Il problema è che spesso non rimane nulla.",
+      "Il metodo dei 6 fondi inverte l'ordine. Il denaro per i risparmi, la creazione di capitale e gli altri obiettivi viene messo da parte subito dopo aver ricevuto il reddito.",
+      "Non devi aspettare la fine del mese per scoprire se sei riuscito a risparmiare qualcosa. I risparmi diventano fin dall'inizio una parte integrante del budget."
+    ]
+  },
+  "easierDecisions": {
+    "title": "Diventa più facile prendere decisioni",
+    "paragraphs": [
+      "Per molti acquisti non esiste una risposta chiaramente giusta o sbagliata.",
+      "Puoi comprare un nuovo dispositivo? Vale la pena andare al ristorante? Il corso costa troppo? Puoi permetterti una vacanza adesso?",
+      "Quando tutto il denaro appartiene a un unico budget generale, ogni decisione del genere deve essere presa di nuovo da zero.",
+      "I fondi creano limiti chiari.",
+      "Se nel fondo appropriato c'è abbastanza denaro, l'acquisto rientra nel tuo piano. Se non basta, puoi rimandare l'acquisto, rivedere l'obiettivo o utilizzare consapevolmente il denaro di un altro fondo.",
+      "Il metodo non ti impedisce di cambiare decisione. Rende semplicemente visibili le conseguenze delle tue scelte."
+    ]
+  },
+  "spendWithoutGuilt": {
+    "title": "Puoi spendere senza sentirti continuamente in colpa",
+    "paragraphs": [
+      "La disciplina finanziaria viene spesso erroneamente interpretata come il continuo rifiuto di acquisti piacevoli.",
+      "Ma un sistema troppo rigido, in cui sono consentite solo le spese indispensabili, di solito funziona male nel lungo periodo. Le persone hanno bisogno di riposo, svago e della possibilità di spendere ogni tanto semplicemente per piacere.",
+      "Per questo il metodo prevede un fondo separato per lo svago.",
+      "Se il denaro è stato destinato in anticipo al tempo libero, puoi utilizzarlo per quello scopo. Un acquisto del genere non ostacola i risparmi e non sottrae denaro alle spese necessarie.",
+      "Non stai violando il budget — lo stai seguendo."
+    ]
+  },
+  "borrowFromYourself": {
+    "title": "La possibilità di prendere in prestito denaro da te stesso",
+    "screenshotAlt": "Schermata del fondo «Svago» con un saldo negativo di 800 rubli e la cronologia delle spese",
+    "paragraphs": [
+      "Con il metodo dei 6 fondi, nel tempo crei una riserva di denaro distribuita tra diversi obiettivi. In caso di temporanea mancanza di fondi, quindi, non è sempre necessario chiedere denaro ad altre persone o ricorrere al credito.",
+      "Se in un fondo non c'è abbastanza denaro per un acquisto importante, puoi temporaneamente lasciare che il suo saldo vada in negativo. In pratica prendi in prestito denaro da te stesso: l'acquisto viene pagato con i fondi complessivi disponibili, ma lo sforamento rimane registrato nel fondo a cui appartiene la spesa.",
+      "Al successivo ingresso di denaro, il saldo negativo viene parzialmente o completamente compensato. Di conseguenza, nel periodo successivo ci sarà meno denaro disponibile in quel fondo. Il sistema non impedisce quindi un acquisto necessario, ma mostra chiaramente le sue conseguenze sul budget futuro.",
+      "Tecnicamente puoi trasferire la somma necessaria da un altro fondo e poi restituirla dopo il reddito successivo. Tuttavia, non consiglio questo approccio se non è necessario. Un trasferimento del genere nasconde il vero sforamento nel fondo originale e rende i report meno utili: diventa più difficile capire per quali obiettivi il denaro assegnato non è davvero sufficiente.",
+      "Lasciando il fondo in negativo, la cronologia delle spese rimane fedele alla realtà. Puoi vedere dove si è verificato lo sforamento, quanto è stato grande e se è stato compensato dopo il reddito successivo.",
+      "Nella mia esperienza, questo è diventato uno dei risultati più evidenti dell'uso del metodo: ho smesso di chiedere denaro in prestito ad altre persone perché, quando necessario, potevo prenderlo temporaneamente in prestito da me stesso.",
+      "Se lo stesso fondo va regolarmente in negativo, non si tratta più di un'eccezione temporanea, ma di un segnale che indica la necessità di rivedere la distribuzione del reddito. Puoi aumentare la percentuale destinata a quel fondo riducendo quelle dei fondi in cui di solito rimane denaro. È proprio questa la flessibilità del metodo: il sistema si adatta gradualmente alle tue spese reali invece di costringerti a seguire proporzioni immutabili."
+    ]
+  },
+  "goalsNoLongerCompete": {
+    "title": "Gli obiettivi finanziari smettono di competere tra loro",
+    "listIntro": "Senza un sistema, tutto il denaro libero dovrebbe servire contemporaneamente a tutto:",
+    "items": [
+      "riserva finanziaria;",
+      "vacanze;",
+      "formazione;",
+      "nuova tecnologia;",
+      "svago;",
+      "spese impreviste."
+    ],
+    "closingParagraphs": [
+      "Di conseguenza, un obiettivo spesso finisce per sostituire gli altri. Un acquisto importante può interrompere completamente i risparmi, mentre una spesa imprevista può far saltare una vacanza.",
+      "Dividere il denaro per destinazione permette di portare avanti più obiettivi contemporaneamente.",
+      "Anche se all'inizio le somme sono piccole, ogni area importante riceve la propria quota ogni volta che entra del denaro."
+    ]
+  },
+  "financialDiscipline": {
+    "title": "Il metodo aiuta a sviluppare disciplina finanziaria",
+    "openingParagraphs": [
+      "Il valore principale del metodo non sta soltanto nel modo in cui il denaro viene distribuito, ma anche nelle abitudini che si formano durante il suo utilizzo.",
+      "Distribuire regolarmente il reddito cambia gradualmente il modo in cui pensi al denaro. Inizi a vedere la somma ricevuta non come un'unica riserva da spendere fino a esaurimento, ma come una risorsa destinata a diverse parti della tua vita."
+    ],
+    "listIntro": "Sviluppi l'abitudine di:",
+    "items": [
+      "prima distribuire il denaro e poi spenderlo;",
+      "considerare le conseguenze di ogni acquisto;",
+      "destinare regolarmente denaro agli obiettivi futuri;",
+      "mantenere un equilibrio tra i desideri di oggi e i piani a lungo termine;",
+      "prendere decisioni finanziarie in modo consapevole."
+    ],
+    "closingParagraphs": [
+      "Il sistema non richiede un comportamento perfetto fin dal primo giorno. La disciplina finanziaria si sviluppa gradualmente ripetendo le stesse semplici azioni.",
+      "Nella mia esperienza personale, proprio questo si è rivelato il principale vantaggio del metodo. Non mi ha soltanto aiutato a gestire meglio il denaro, ma ha gradualmente cambiato il mio stesso approccio a redditi, spese e risparmi."
+    ]
+  },
+  "irregularIncome": {
+    "title": "Cosa fare con un reddito irregolare",
+    "paragraphs": [
+      "Il metodo può essere utilizzato anche senza uno stipendio mensile fisso.",
+      "Se il reddito arriva in modo irregolare, distribuisci ogni entrata separatamente.",
+      "Hai ricevuto un pagamento per un progetto, un lavoro extra, un incarico o una vendita: dividi subito quella somma tra i fondi secondo le percentuali scelte.",
+      "Con un reddito instabile può essere particolarmente utile aumentare la quota destinata alla riserva. Questo aiuta ad affrontare i periodi in cui entrano meno soldi.",
+      "Il metodo non richiede di conoscere in anticipo il reddito mensile esatto. Funziona con il denaro che hai già ricevuto."
+    ]
+  },
+  "notEnoughMoney": {
+    "title": "Cosa fare se per ora i soldi non bastano",
+    "paragraphs": [
+      "Le percentuali classiche possono adattarsi male a chi spende quasi tutto il proprio reddito per le necessità di base.",
+      "Questo non significa che il metodo sia inutile.",
+      "Puoi iniziare con una distribuzione più realistica. Ad esempio, destinare l'80–90% alle spese necessarie e dividere il resto tra gli obiettivi più importanti per te.",
+      "Anche una piccola somma destinata regolarmente a una riserva o a un obiettivo a lungo termine aiuta a sviluppare l'abitudine.",
+      "Quando reddito e spese cambiano, puoi rivedere le proporzioni.",
+      "Non conta la dimensione del primo passo, ma la regolarità."
+    ]
+  },
+  "notExactlySixJars": {
+    "title": "È necessario usare esattamente sei fondi?",
+    "openingParagraphs": [
+      "No.",
+      "I sei fondi costituiscono la base del metodo classico. Coprono i principali obiettivi finanziari e sono un buon punto di partenza.",
+      "Con il tempo, però, puoi adattare il sistema."
+    ],
+    "listIntro": "Ad esempio, puoi creare fondi separati per:",
+    "items": [
+      "vacanze;",
+      "salute;",
+      "auto;",
+      "ristrutturazione;",
+      "animali domestici;",
+      "figli;",
+      "tasse;",
+      "tecnologia;",
+      "uno specifico acquisto importante."
+    ],
+    "closingParagraphs": [
+      "Alcuni fondi classici possono invece essere uniti o rinominati.",
+      "L'importante è mantenere il principio fondamentale: il denaro deve essere suddiviso in base alla destinazione e la struttura deve rispecchiare la tua vita."
+    ]
+  },
+  "physicalJarsProblem": {
+    "title": "Il problema dei contenitori e delle buste fisiche",
+    "paragraphs": [
+      "In origine, sistemi di questo tipo prevedevano l'uso di contanti.",
+      "Il reddito poteva essere fisicamente diviso tra diversi contenitori, scatole o buste. Questo rendeva la suddivisione molto chiara: il denaro destinato a categorie diverse era realmente tenuto separato.",
+      "Oggi, però, la maggior parte delle operazioni finanziarie avviene senza contanti.",
+      "Riceviamo il reddito su un conto bancario, paghiamo con la carta, acquistiamo servizi online e trasferiamo denaro dal telefono.",
+      "In queste condizioni i contenitori fisici diventano scomodi. Per mantenere il sistema sarebbe necessario prelevare regolarmente contanti oppure registrare manualmente ogni operazione senza contanti.",
+      "È possibile aprire più conti bancari, ma anche gestire molti conti e trasferimenti non è sempre comodo. Inoltre, il numero di conti disponibili e le loro condizioni dipendono dalla banca."
+    ]
+  },
+  "digitalJars": {
+    "title": "Fondi digitali",
+    "paragraphs": [
+      "Anch'io mi sono trovato davanti a questo problema.",
+      "Mi piaceva il principio del metodo dei 6 fondi e utilizzarlo regolarmente mi ha realmente aiutato a sviluppare un rapporto più disciplinato con il denaro.",
+      "Ma usare contenitori o buste fisiche in un mondo di pagamenti digitali si è rivelato scomodo.",
+      "Per questo ho sviluppato <strong>6 Jars Finance</strong> — un'app per la gestione delle finanze personali basata sul metodo dei 6 fondi.",
+      "L'app mantiene l'idea principale del sistema senza richiedere di separare fisicamente il denaro.",
+      "Continui a tenere i soldi sul tuo normale conto bancario, ma nell'app vedi un saldo separato per ogni fondo."
+    ]
+  },
+  "appHowItWorks": {
+    "title": "Come funziona 6 Jars Finance",
+    "openingParagraphs": [
+      "Quando ricevi un reddito, l'app lo distribuisce tra i fondi secondo le percentuali scelte.",
+      "Dopo un acquisto indichi da quale fondo sono stati spesi i soldi. Diminuisce soltanto il saldo di quel fondo — gli altri soldi mantengono la loro destinazione.",
+      "In questo modo il saldo bancario complessivo acquisisce una struttura interna chiara."
+    ],
+    "listIntro": "Puoi vedere:",
+    "items": [
+      "quanto denaro è disponibile per le spese necessarie;",
+      "quanto hai accumulato per gli obiettivi a lungo termine;",
+      "quanto puoi spendere per lo svago;",
+      "quale budget è stato destinato alla formazione;",
+      "come cambiano nel tempo i saldi dei fondi."
+    ],
+    "closingParagraphs": [
+      "L'app non sposta denaro tra conti bancari e non accede alla tua banca. Ti aiuta a tenere una contabilità separata e a capire a cosa è destinata ogni parte del tuo denaro."
+    ]
+  },
+  "trackEveryPurchase": {
+    "title": "È necessario inserire ogni acquisto separatamente?",
+    "screenshotAlt": "Schermata per aggiungere una spesa di 2500 rubli dal fondo «Spese correnti» con il tag «Alimentari»",
+    "paragraphs": [
+      "No. Per utilizzare il metodo basta indicare l'importo totale della spesa e scegliere il fondo da cui sono stati utilizzati i soldi.",
+      "Ad esempio, una normale spesa al supermercato può essere registrata come un'unica operazione da 3 500. Se vuoi una maggiore precisione, puoi dividere la somma in più operazioni: 2 500 per gli alimentari e 1 000 per i prodotti per la casa. Per un'ulteriore suddivisione puoi usare i tag.",
+      "Sei tu a scegliere il livello di precisione più adatto. L'app non richiede di copiare ogni voce dello scontrino — il monitoraggio deve aiutarti a capire il movimento del denaro senza richiedere troppo tempo.",
+      "Aggiungere manualmente una spesa richiede una piccola azione, ma allo stesso tempo aiuta a prestare maggiore attenzione alle spese e a capire meglio dove vanno i soldi."
+    ]
+  },
+  "adaptSystem": {
+    "title": "Adatta il sistema alle tue esigenze",
+    "openingParagraphs": [
+      "6 Jars Finance si basa sul metodo classico, ma non ti limita alla sua struttura originale."
+    ],
+    "listIntro": "Puoi:",
+    "items": [
+      "modificare le percentuali di distribuzione;",
+      "rinominare i fondi;",
+      "creare fondi personalizzati;",
+      "utilizzare più o meno di sei fondi;",
+      "cambiare l'ordine dei fondi;",
+      "registrare entrate e spese;",
+      "aggiungere operazioni ricorrenti;",
+      "analizzare il movimento del denaro tramite i report."
+    ],
+    "closingParagraphs": [
+      "La struttura classica può essere un comodo punto di partenza. Successivamente puoi modificarla gradualmente in modo che corrisponda alle tue esigenze."
+    ]
+  },
+  "startWithNextIncome": {
+    "title": "Inizia dal prossimo reddito",
+    "paragraphs": [
+      "Non è necessario cambiare subito tutto il tuo sistema finanziario o rispettare perfettamente le percentuali classiche.",
+      "Inizia da una cosa semplice: distribuisci il prossimo reddito tra alcuni obiettivi importanti per te.",
+      "Già questo ti aiuterà a vedere il denaro non come un'unica somma complessiva, ma come uno strumento per diverse parti della tua vita.",
+      "In 6 Jars Finance <strong>i fondi classici e le relative percentuali sono già impostati.</strong> Puoi iniziare da quelli e modificare in seguito la distribuzione in base alle tue esigenze."
+    ],
+    "cta": "Vai a 6 Jars Finance →"
+  }
+}

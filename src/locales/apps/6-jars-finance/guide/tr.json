@@ -1,0 +1,423 @@
+{
+  "title": "6 kavanoz yöntemi: paranızı yönetmenin basit bir yolu",
+  "metaDescription": "6 kavanoz yöntemi yalnızca harcamalarınızı kaydetmenize değil, gelirinizi ne için kullanacağınıza önceden karar vermenize de yardımcı olur.",
+  "intro": {
+    "paragraphs": [
+      "6 kavanoz yöntemi yalnızca harcamalarınızı kaydetmenize değil, gelirinizi ne için kullanacağınıza önceden karar vermenize de yardımcı olur.",
+      "Sistemin mantığı basittir: Her para aldığınızda, bu parayı birkaç finansal amaç arasında dağıtırsınız. Bir kısmı günlük yaşam için ayrılır, kalan kısım ise birikim, eğitim, eğlence, sermaye oluşturma ve başkalarına yardım etme gibi amaçlara dağıtılır.",
+      "Böylece para, hesabınızdaki tek bir toplam bakiye olmaktan çıkar. Her kısmın ayrı bir amacı olur."
+    ]
+  },
+  "overview": {
+    "title": "İçindekiler",
+    "managingMoney": "6 kavanoz yöntemi nedir",
+    "howItWorks": "Para dağılımı nasıl çalışır",
+    "adjustPercents": "Yöntemi kendinize nasıl uyarlarsınız",
+    "misleadingBalance": "Yöntem günlük hayatta nasıl yardımcı olur",
+    "irregularIncome": "Yöntem farklı durumlarda nasıl kullanılır",
+    "physicalJarsProblem": "Yöntem nakit kullanmadan nasıl uygulanır",
+    "appHowItWorks": "Yöntem uygulamada nasıl kullanılır"
+  },
+  "managingMoney": {
+    "title": "Sadece harcamaları takip etmek değil, parayı yönetmek",
+    "paragraphs": [
+      "Klasik harcama takibi şu soruya cevap vermeye yardımcı olur:",
+      "<strong>“Param nereye gitti?”</strong>",
+      "Bu faydalıdır, ancak çoğu zaman yeterli değildir. Harcamalarınızı düzenli olarak kaydetseniz bile ay sonunda birikim, eğitim veya büyük hedefler için para kalacağının garantisi yoktur.",
+      "6 kavanoz yöntemi farklı bir yaklaşım sunar. Şu soruya önceden cevap vermenize yardımcı olur:",
+      "<strong>“Aldığım parayı ne için kullanmak istiyorum?”</strong>",
+      "Gelirinizi harcamaya başlamadan önce dağıtırsınız. Böylece birikimler ay sonunda tesadüfen kalan paraya bağlı olmaz ve günlük harcamalar tüm kullanılabilir parayı tüketmez."
+    ]
+  },
+  "howItWorks": {
+    "title": "6 kavanoz yöntemi nasıl çalışır",
+    "lead": "Yöntemin klasik sürümünde her gelir altı kavanoz arasında dağıtılır.",
+    "screenshotAlt": "Gelirin altı kavanoz arasında dağıtıldığı 6 Jars Finance ana ekranı",
+    "jars": {
+      "essentialExpenses": {
+        "title": "Zorunlu giderler — 55%",
+        "intro": "Bu kavanoz günlük zorunlu giderler için ayrılır:",
+        "items": [
+          "konut;",
+          "gıda;",
+          "ulaşım;",
+          "faturalar;",
+          "telefon ve internet;",
+          "sağlık giderleri;",
+          "diğer düzenli ihtiyaçlar."
+        ],
+        "outro": "Bu para, günlük yaşamınızın temel giderlerini karşılar."
+      },
+      "financialIndependence": {
+        "title": "Finansal bağımsızlık — 10%",
+        "paragraphs": [
+          "Bu kavanozdaki para sermaye oluşturmak ve gelecekte gelir elde etmek için kullanılır.",
+          "Klasik sistemde ana tutarın günlük alışverişlerde kullanılmaması öngörülür. Amacı zaman içinde finansal bir dayanak oluşturmaktır.",
+          "Bu parayı nasıl kullanacağınız bilginize, hedeflerinize ve risk yaklaşımınıza bağlıdır. Tasarruf araçları, yatırımlar veya sermaye oluşturmanın başka yolları tercih edilebilir."
+        ]
+      },
+      "longTermSavings": {
+        "title": "Uzun vadeli birikimler — 10%",
+        "intro": "Bu kavanoz büyük harcamalara önceden hazırlanmanıza yardımcı olur.",
+        "listIntro": "Örneğin:",
+        "items": [
+          "finansal bir rezerv oluşturmak;",
+          "tatil;",
+          "tadilat;",
+          "elektronik veya ev aleti almak;",
+          "araba;",
+          "taşınma;",
+          "diğer büyük hedefler."
+        ],
+        "outro": "Bu tür harcamalar için para zaman içinde biriktiğinden, artık beklenmedik olmaktan çıkar."
+      },
+      "education": {
+        "title": "Eğitim — 10%",
+        "intro": "Bu para bilgi ve becerilerinizi geliştirmek için ayrılır.",
+        "listIntro": "Şunlar için kullanılabilir:",
+        "items": [
+          "kitaplar;",
+          "kurslar;",
+          "mesleki eğitim;",
+          "dil öğrenimi;",
+          "öğretmenle dersler;",
+          "konferanslar;",
+          "diğer eğitim materyalleri."
+        ],
+        "outro": "Eğitim, sürekli ertelenen bir gider olmaktan çıkar ve bütçenin ayrı bir parçası haline gelir."
+      },
+      "entertainment": {
+        "title": "Eğlence — 10%",
+        "intro": "Bu kavanoz dinlenmek ve keyif veren harcamalar için ayrılır.",
+        "listIntro": "Örneğin:",
+        "items": [
+          "arkadaşlarla buluşmak;",
+          "kafe ve restoranlar;",
+          "oyunlar;",
+          "hobiler;",
+          "geziler;",
+          "etkinlikler;",
+          "küçük spontane alışverişler."
+        ],
+        "outro": "Eğlence için ayrı bir bütçe olması, sürekli suçluluk hissetmeden keyif almanızı sağlar. Bu parayı zaten baştan tam da hoşunuza giden şeyler için ayırdınız."
+      },
+      "giftsAndCharity": {
+        "title": "Hediyeler ve yardım — 5%",
+        "intro": "Bu kavanoz şu amaçlarla kullanılabilir:",
+        "items": [
+          "hediyeler;",
+          "bağışlar;",
+          "yakınlarınıza yardım etmek;",
+          "sizin için önemli proje ve girişimleri desteklemek."
+        ],
+        "outro": "Bu harcamalar da bütçenin planlı bir parçası haline gelir ve diğer finansal hedeflerinizi bozmaz."
+      }
+    }
+  },
+  "adjustPercents": {
+    "title": "Yüzdeler değiştirilebilir",
+    "screenshotAlt": "Gelirin kavanozlar arasında yüzde olarak dağıtımını ayarlama ekranı",
+    "openingParagraphs": [
+      "55%, 10%, 10%, 10%, 10% ve 5% dağılımı bir başlangıç noktasıdır, zorunlu bir kural değildir.",
+      "İnsanların gelirleri, konut giderleri, aile koşulları, hedefleri ve yükümlülükleri farklıdır. Bir kişi için zorunlu giderlere 55% ayırmak yeterli olabilirken, başka biri için yalnızca kira ve gıda bile gelirin büyük kısmını oluşturabilir.",
+      "Bu nedenle yüzdeler gerçek durumunuza göre değiştirilebilir ve değiştirilmelidir."
+    ],
+    "listIntro": "Örneğin şunları yapabilirsiniz:",
+    "items": [
+      "zorunlu giderlerin payını artırmak;",
+      "geçici olarak finansal rezerve daha fazla para ayırmak;",
+      "eğlence harcamalarını azaltmak;",
+      "belirli bir hedef için birikimi hızlandırmak;",
+      "gelir arttığında veya azaldığında oranları değiştirmek."
+    ],
+    "closingParagraphs": [
+      "Yöntemde önemli olan klasik yüzdelere tam olarak uymak değil, parayı düzenli olarak farklı amaçlar arasında dağıtma alışkanlığı kazanmaktır.",
+      "Sistem karar vermenize yardımcı olmalı, yeni bir baskı kaynağına dönüşmemelidir."
+    ],
+    "cta": "Yöntemi 6 Jars Finance'te deneyin →"
+  },
+  "samePurchaseDifferentJars": {
+    "title": "Aynı alışveriş farklı kavanozlara ait olabilir",
+    "openingParagraphs": [
+      "6 kavanoz yönteminde her alışverişi kesin olarak belirli bir kategoriye yerleştiren evrensel bir liste yoktur. Önemli olan yalnızca ne satın aldığınız değil, neden satın aldığınızdır."
+    ],
+    "listIntro": "Örneğin bir kafeye gitmek farklı kavanozlara ait olabilir:",
+    "items": [
+      "işteki normal öğle yemeğinizse zorunlu giderlere;",
+      "dinlenmek veya kendinizi ödüllendirmek için gittiyseniz eğlenceye;",
+      "başka birine ikram ediyorsanız hediyeler ve yardıma."
+    ],
+    "closingParagraphs": [
+      "Harcamayı hangi amaçla yaptığınızı duruma ve kendi hedeflerinize göre siz belirlersiniz.",
+      "Yöntem katı kurallara uymanızı zorunlu kılmaz. Size bir çerçeve sunar ve belirli bir alışverişin bütçenin hangi bölümünden karşılanacağına bilinçli şekilde karar vermenize yardımcı olur."
+    ]
+  },
+  "example": {
+    "title": "Pratikte nasıl görünür",
+    "openingParagraphs": [
+      "100 000 tutarında gelir elde ettiğinizi varsayalım.",
+      "Klasik dağılıma göre para şu şekilde bölünür:"
+    ],
+    "table": {
+      "headers": [
+        "Kavanoz",
+        "Pay",
+        "Tutar"
+      ],
+      "rows": [
+        [
+          "Zorunlu giderler",
+          "55%",
+          "55 000"
+        ],
+        [
+          "Finansal bağımsızlık",
+          "10%",
+          "10 000"
+        ],
+        [
+          "Uzun vadeli birikimler",
+          "10%",
+          "10 000"
+        ],
+        [
+          "Eğitim",
+          "10%",
+          "10 000"
+        ],
+        [
+          "Eğlence",
+          "10%",
+          "10 000"
+        ],
+        [
+          "Hediyeler ve yardım",
+          "5%",
+          "5 000"
+        ]
+      ]
+    },
+    "closingParagraphs": [
+      "Dağıtımdan sonra her alışveriş belirli bir kavanoza ait olur.",
+      "Gıda zorunlu giderlerden ödenir. Bir kurs eğitimden. Bir gezi uzun vadeli birikimlerden. Arkadaşlarla buluşmak eğlenceden.",
+      "Böylece yalnızca toplam kalan paranızı değil, her bir amaç için ne kadar para bulunduğunu da görürsünüz."
+    ]
+  },
+  "misleadingBalance": {
+    "title": "Toplam bakiye neden yanıltıcı olabilir",
+    "screenshotAlt": "Eğlence için 700 ruble kaldığını, kalan paranın ise diğer kavanozlara dağıtıldığını gösteren uygulama ana ekranı",
+    "paragraphs": [
+      "Tüm paranız tek bir banka hesabında durduğunda, kullanılabilir tutar gerçekte olduğundan daha fazla görünebilir.",
+      "Hesabınızda 57 350 olduğunu varsayalım. Teknik olarak bu paranın tamamı kullanılabilir. Ancak bir kısmı konut giderleri, bir kısmı gelecekteki bir tatil ve bir kısmı da finansal rezerv için ayrılmış olabilir.",
+      "Tüm bakiyeyi serbestçe harcanabilecek para olarak görürseniz, aslında başka amaçlar için gerekli olan parayı kolayca harcayabilirsiniz.",
+      "6 kavanoz yöntemi toplam bakiyeyi zihinsel olarak bölmenize yardımcı olur.",
+      "Banka hesabınızda 57 350 görebilirsiniz, ancak bunun yalnızca 700'ü eğlence için kullanılabilir olabilir. Kalan para zaten diğer harcama kategorilerine ayrılmıştır."
+    ]
+  },
+  "savingsFirst": {
+    "title": "Birikim artık kalan paraya bağlı değildir",
+    "paragraphs": [
+      "Yaygın bir birikim yaklaşımı şöyledir:",
+      "<strong>önce ay boyunca para harcamak, sonra kalan kısmı biriktirmek.</strong>",
+      "Sorun, çoğu zaman geriye hiçbir şey kalmamasıdır.",
+      "6 kavanoz yöntemi bu sırayı değiştirir. Birikim, sermaye oluşturma ve diğer hedefler için para, gelir elde edilir edilmez ayrılır.",
+      "Bir şey biriktirip biriktiremediğinizi görmek için ay sonunu beklemeniz gerekmez. Birikim en baştan bütçenin tam bir parçası haline gelir."
+    ]
+  },
+  "easierDecisions": {
+    "title": "Karar vermek kolaylaşır",
+    "paragraphs": [
+      "Birçok alışveriş için açıkça doğru ya da yanlış tek bir cevap yoktur.",
+      "Yeni bir cihaz alabilir misiniz? Restorana gitmeli misiniz? Kurs fazla mı pahalı? Şu anda tatile çıkabilir misiniz?",
+      "Tüm para tek bir genel bütçede olduğunda, bu kararların her birini baştan vermek gerekir.",
+      "Kavanozlar net sınırlar oluşturur.",
+      "Doğru kavanozda yeterli para varsa alışveriş planınıza uygundur. Para yetmiyorsa alışverişi erteleyebilir, hedefi yeniden değerlendirebilir veya başka bir kavanozdan bilinçli olarak para kullanabilirsiniz.",
+      "Yöntem kararlarınızı değiştirmenizi yasaklamaz. Bu kararların sonuçlarını görünür hale getirir."
+    ]
+  },
+  "spendWithoutGuilt": {
+    "title": "Sürekli suçluluk hissetmeden para harcayabilirsiniz",
+    "paragraphs": [
+      "Finansal disiplin çoğu zaman keyif veren alışverişlerden sürekli vazgeçmek olarak yanlış anlaşılır.",
+      "Ancak yalnızca zorunlu giderlere izin veren fazla katı bir sistem uzun vadede genellikle iyi çalışmaz. İnsanların dinlenmeye, eğlenmeye ve zaman zaman sırf keyif için para harcamaya ihtiyacı vardır.",
+      "Bu nedenle yöntemde eğlence için ayrı bir kavanoz bulunur.",
+      "Para dinlenmek ve eğlenmek için önceden ayrılmışsa, bu amaçla kullanılabilir. Böyle bir alışveriş birikimlerinize zarar vermez ve zorunlu giderlerden para almaz.",
+      "Bütçenizi bozmuyorsunuz — bütçenize uyuyorsunuz."
+    ]
+  },
+  "borrowFromYourself": {
+    "title": "Kendinizden borç alma imkânı",
+    "screenshotAlt": "800 ruble negatif bakiye ve harcama geçmişi gösteren «Eğlence» kavanozu ekranı",
+    "paragraphs": [
+      "6 kavanoz yöntemini kullandıkça, farklı amaçlara dağıtılmış bir para rezervi zaman içinde oluşur. Bu sayede geçici para sıkıntısında her zaman başkalarından borç almanız veya kredi kullanmanız gerekmez.",
+      "Bir kavanozda önemli bir alışveriş için yeterli para yoksa bakiyesinin geçici olarak negatife düşmesine izin verebilirsiniz. Aslında kendinizden borç alırsınız: alışveriş toplam kullanılabilir paranızdan karşılanır, ancak fazla harcama ilgili harcamanın ait olduğu kavanozda kayıtlı kalır.",
+      "Bir sonraki gelir geldiğinde negatif bakiye kısmen veya tamamen kapanır. Bunun sonucunda yeni dönemde o kavanozda daha az para kullanılabilir olur. Böylece sistem gerekli bir alışverişi engellemez, ancak gelecekteki bütçenize etkisini açıkça gösterir.",
+      "Teknik olarak gerekli tutarı başka bir kavanozdan aktarabilir ve bir sonraki gelirden sonra geri koyabilirsiniz. Ancak gerekmedikçe bu yaklaşımı önermiyorum. Böyle bir aktarım, ilk kavanozdaki gerçek fazla harcamayı gizler ve raporları daha az yararlı hale getirir: hangi amaçlar için ayırdığınız tutarın gerçekten yetersiz olduğunu anlamak zorlaşır.",
+      "Kavanozu negatifte bırakırsanız harcama geçmişi gerçeği yansıtmaya devam eder. Fazla harcamanın nerede olduğunu, ne kadar olduğunu ve sonraki gelirden sonra kapanıp kapanmadığını görürsünüz.",
+      "Benim deneyimimde bu, yöntemi kullanmanın en belirgin sonuçlarından biri oldu: gerektiğinde geçici olarak kendimden borç alabildiğim için başkalarından para istemeyi bıraktım.",
+      "Aynı kavanoz düzenli olarak negatife düşüyorsa bu artık geçici bir istisna değil, gelir dağılımını yeniden gözden geçirmeniz gerektiğinin işaretidir. Genellikle para artan kavanozların payını azaltarak bu kavanozun yüzdesini artırabilirsiniz. Yöntemin esnekliği tam olarak buradadır: sistem sizi değişmeyen oranlara uymaya zorlamak yerine gerçek harcamalarınıza göre zaman içinde uyum sağlar."
+    ]
+  },
+  "goalsNoLongerCompete": {
+    "title": "Finansal hedefler birbiriyle rekabet etmeyi bırakır",
+    "listIntro": "Bir sistem olmadan, serbest durumdaki para aynı anda her şey için kullanılmak zorundadır:",
+    "items": [
+      "finansal rezerv;",
+      "tatil;",
+      "eğitim;",
+      "yeni teknoloji;",
+      "eğlence;",
+      "beklenmedik giderler."
+    ],
+    "closingParagraphs": [
+      "Bu nedenle bir hedef çoğu zaman diğerlerini geri plana iter. Büyük bir alışveriş birikimi tamamen durdurabilir, beklenmedik bir gider ise planlanan tatili iptal ettirebilir.",
+      "Parayı amacına göre ayırmak, aynı anda birkaç hedef üzerinde ilerlemenizi sağlar.",
+      "Başlangıçta tutarlar küçük olsa bile her önemli alan, her gelir geldiğinde kendi payını alır."
+    ]
+  },
+  "financialDiscipline": {
+    "title": "Yöntem finansal disiplin geliştirmeye yardımcı olur",
+    "openingParagraphs": [
+      "Yöntemin temel değeri yalnızca paranın nasıl dağıtıldığında değil, kullanırken geliştirdiğiniz alışkanlıklarda da yatar.",
+      "Geliri düzenli olarak dağıtmak, paraya bakışınızı zaman içinde değiştirir. Aldığınız tutarı bitene kadar harcanabilecek tek bir para havuzu olarak değil, hayatınızın farklı alanlarına hizmet eden bir kaynak olarak görmeye başlarsınız."
+    ],
+    "listIntro": "Şu alışkanlıkları geliştirirsiniz:",
+    "items": [
+      "önce parayı dağıtıp sonra harcamak;",
+      "her alışverişin sonuçlarını düşünmek;",
+      "gelecekteki hedeflere düzenli olarak para ayırmak;",
+      "bugünkü isteklerle uzun vadeli planlar arasında denge kurmak;",
+      "finansal kararları bilinçli vermek."
+    ],
+    "closingParagraphs": [
+      "Sistem ilk günden mükemmel davranmanızı gerektirmez. Finansal disiplin, aynı basit adımları tekrar ederek zaman içinde oluşur.",
+      "Kendi deneyimimde yöntemin en büyük avantajı tam da bu oldu. Yalnızca paramı daha iyi takip etmeme yardımcı olmadı, gelir, harcama ve birikime yaklaşımımı da zaman içinde değiştirdi."
+    ]
+  },
+  "irregularIncome": {
+    "title": "Düzensiz gelirde ne yapılmalı",
+    "paragraphs": [
+      "Yöntem yalnızca sabit aylık maaşı olan kişiler için değildir.",
+      "Geliriniz düzensiz geliyorsa her ödemeyi ayrı ayrı dağıtın.",
+      "Bir proje, ek iş, sipariş veya satış için ödeme aldığınızda bu tutarı seçtiğiniz oranlarda hemen kavanozlara bölün.",
+      "Gelirin istikrarsız olduğu durumlarda rezerve ayrılan payı artırmak özellikle faydalı olabilir. Bu, daha az gelir elde ettiğiniz dönemleri daha rahat geçirmenize yardımcı olur.",
+      "Yöntem aylık gelirinizi önceden tam olarak bilmenizi gerektirmez. Zaten elde ettiğiniz parayla çalışır."
+    ]
+  },
+  "notEnoughMoney": {
+    "title": "Şimdilik yeterli para yoksa ne yapılmalı",
+    "paragraphs": [
+      "Klasik yüzdeler, gelirinin neredeyse tamamını temel ihtiyaçlara harcayan biri için uygun olmayabilir.",
+      "Bu, yöntemin işe yaramadığı anlamına gelmez.",
+      "Daha gerçekçi bir dağılımla başlayabilirsiniz. Örneğin zorunlu giderlere 80–90% ayırıp kalan kısmı sizin için en önemli amaçlar arasında bölebilirsiniz.",
+      "Düzenli olarak rezerve veya uzun vadeli bir hedefe ayrılan küçük bir tutar bile alışkanlık oluşturmanıza yardımcı olur.",
+      "Gelir ve giderleriniz değiştikçe oranları yeniden ayarlayabilirsiniz.",
+      "Önemli olan ilk adımın büyüklüğü değil, düzenli olmasıdır."
+    ]
+  },
+  "notExactlySixJars": {
+    "title": "Tam olarak altı kavanoz kullanmak zorunlu mu?",
+    "openingParagraphs": [
+      "Hayır.",
+      "Altı kavanoz klasik yöntemin temelini oluşturur. Ana finansal amaçları kapsar ve başlamak için iyi bir noktadır.",
+      "Ancak zaman içinde sistemi uyarlayabilirsiniz."
+    ],
+    "listIntro": "Örneğin ayrı kavanozlar oluşturabilirsiniz:",
+    "items": [
+      "tatil;",
+      "sağlık;",
+      "araba;",
+      "tadilat;",
+      "evcil hayvanlar;",
+      "çocuklar;",
+      "vergiler;",
+      "teknoloji;",
+      "belirli bir büyük alışveriş."
+    ],
+    "closingParagraphs": [
+      "Bazı klasik kavanozları ise birleştirebilir veya yeniden adlandırabilirsiniz.",
+      "Önemli olan temel ilkedir: para amacına göre bölünmeli ve yapı yaşamınıza uygun olmalıdır."
+    ]
+  },
+  "physicalJarsProblem": {
+    "title": "Fiziksel kavanozların ve zarfların sorunu",
+    "paragraphs": [
+      "Başlangıçta bu tür sistemler nakit kullanımına dayanıyordu.",
+      "Gelir fiziksel olarak ayrı kavanozlara, kutulara veya zarflara bölünebiliyordu. Bu, ayrımı çok görünür hale getiriyordu: farklı kategoriler için ayrılan para gerçekten ayrı tutuluyordu.",
+      "Ancak günümüzde finansal işlemlerin büyük kısmı nakitsiz gerçekleşiyor.",
+      "Geliri banka hesabımıza alıyor, kartla ödeme yapıyor, hizmetleri internet üzerinden ödüyor ve telefondan para transfer ediyoruz.",
+      "Bu koşullarda fiziksel kavanozlar kullanışsız hale geliyor. Sistemi sürdürmek için düzenli olarak nakit çekmek veya her nakitsiz işlemi elle kaydetmek gerekir.",
+      "Birden fazla banka hesabı açmak mümkündür, ancak çok sayıda hesabı ve transferi yönetmek de her zaman kullanışlı değildir. Ayrıca kullanılabilecek hesapların sayısı ve koşulları bankaya bağlıdır."
+    ]
+  },
+  "digitalJars": {
+    "title": "Dijital kavanozlar",
+    "paragraphs": [
+      "Ben de bu sorunla karşılaştım.",
+      "6 kavanoz yönteminin temel fikrini seviyordum ve düzenli kullanmak gerçekten de para konusunda daha disiplinli bir yaklaşım geliştirmeme yardımcı oldu.",
+      "Ancak ödemelerin büyük ölçüde dijital olduğu bir dünyada fiziksel kavanoz veya zarf kullanmak pratik değildi.",
+      "Bu nedenle 6 kavanoz yöntemine dayanan bir kişisel finans uygulaması olan <strong>6 Jars Finance</strong>'i geliştirdim.",
+      "Uygulama, parayı fiziksel olarak ayırmanıza gerek kalmadan sistemin temel fikrini korur.",
+      "Paranızı normal banka hesabınızda tutmaya devam ederken uygulama içinde her kavanoz için ayrı bir bakiye görürsünüz."
+    ]
+  },
+  "appHowItWorks": {
+    "title": "6 Jars Finance nasıl çalışır",
+    "openingParagraphs": [
+      "Gelir elde ettiğinizde uygulama bunu seçtiğiniz yüzdelere göre kavanozlar arasında dağıtır.",
+      "Bir alışverişten sonra paranın hangi kavanozdan harcandığını belirtirsiniz. Yalnızca o kavanozun bakiyesi azalır — diğer paralar kendi amaçlarını korur.",
+      "Böylece toplam banka bakiyeniz anlaşılır bir iç yapıya sahip olur."
+    ],
+    "listIntro": "Şunları görebilirsiniz:",
+    "items": [
+      "zorunlu giderler için ne kadar para bulunduğunu;",
+      "uzun vadeli hedefler için ne kadar biriktiğini;",
+      "eğlence için ne kadar harcayabileceğinizi;",
+      "eğitim için ne kadar bütçe ayrıldığını;",
+      "kavanoz bakiyelerinin zaman içinde nasıl değiştiğini."
+    ],
+    "closingParagraphs": [
+      "Uygulama banka hesapları arasında para taşımaz ve bankanıza erişmez. Ayrı bir kayıt tutmanıza ve paranızın her bölümünün ne için ayrıldığını anlamanıza yardımcı olur."
+    ]
+  },
+  "trackEveryPurchase": {
+    "title": "Her alışverişi ayrı ayrı girmek gerekir mi?",
+    "screenshotAlt": "«Günlük giderler» kavanozundan «Gıda» etiketiyle 2500 ruble tutarında harcama ekleme ekranı",
+    "paragraphs": [
+      "Hayır. Yöntemi kullanmak için harcamanın toplam tutarını girmeniz ve paranın hangi kavanozdan harcandığını seçmeniz yeterlidir.",
+      "Örneğin normal bir market alışverişini tek bir 3 500 işlemi olarak kaydedebilirsiniz. Daha ayrıntılı takip etmek isterseniz tutarı birkaç işleme bölebilirsiniz: gıda için 2 500 ve ev ürünleri için 1 000. Ek ayrıntı için etiketleri de kullanabilirsiniz.",
+      "Size uygun ayrıntı seviyesini siz seçersiniz. Uygulama fişteki her ürünü tek tek girmenizi istemez — takip, paranın hareketini anlamanıza yardımcı olmalı ve fazla zaman almamalıdır.",
+      "Bir harcamayı elle eklemek küçük bir işlem gerektirir, ancak aynı zamanda harcamalarınızı daha fazla fark etmenize ve paranın nereye gittiğini daha iyi anlamanıza yardımcı olur."
+    ]
+  },
+  "adaptSystem": {
+    "title": "Sistemi kendinize uyarlayın",
+    "openingParagraphs": [
+      "6 Jars Finance klasik yönteme dayanır, ancak sizi başlangıçtaki yapıyla sınırlamaz."
+    ],
+    "listIntro": "Şunları yapabilirsiniz:",
+    "items": [
+      "dağıtım yüzdelerini değiştirmek;",
+      "kavanozları yeniden adlandırmak;",
+      "kendi kavanozlarınızı oluşturmak;",
+      "altıdan fazla veya daha az kavanoz kullanmak;",
+      "kavanozların sırasını değiştirmek;",
+      "gelir ve giderleri kaydetmek;",
+      "tekrarlayan işlemler eklemek;",
+      "raporlarla para hareketlerini analiz etmek."
+    ],
+    "closingParagraphs": [
+      "Klasik yapı iyi bir başlangıç noktası olabilir. Daha sonra bunu kendi ihtiyaçlarınıza uyacak şekilde adım adım değiştirebilirsiniz."
+    ]
+  },
+  "startWithNextIncome": {
+    "title": "Bir sonraki gelirinizle başlayın",
+    "paragraphs": [
+      "Tüm finansal sisteminizi hemen değiştirmeniz veya klasik yüzdelere kusursuz şekilde uymanız gerekmez.",
+      "Basit bir adımla başlayın: bir sonraki gelirinizi sizin için önemli birkaç amaç arasında dağıtın.",
+      "Bu ilk adım bile parayı tek bir toplam bakiye olarak değil, hayatınızın farklı alanları için kullanılabilecek bir araç olarak görmenize yardımcı olur.",
+      "6 Jars Finance'te <strong>klasik kavanozlar ve yüzdeleri zaten ayarlanmıştır.</strong> Bunlarla başlayabilir ve daha sonra dağılımı ihtiyaçlarınıza göre değiştirebilirsiniz."
+    ],
+    "cta": "6 Jars Finance'e git →"
+  }
+}

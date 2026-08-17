@@ -12,6 +12,14 @@ const APP_FOLDER_KEYS = {
   "6-jars-finance": "sixJarsFinance",
 };
 
+/** Maps page folder names to nested i18n key segments under each app key. */
+const PAGE_FOLDER_KEYS = {
+  "6-jars-finance": {
+    download: ["download"],
+    guide: ["articles", "guide"],
+  },
+};
+
 const setDeep = (obj, keys, value) => {
   let current = obj;
 
@@ -76,7 +84,9 @@ const loadAppLocalesForLang = (lang) => {
       }
 
       const content = JSON.parse(fs.readFileSync(localeFile, "utf8"));
-      setDeep(result, ["apps", appKey, pageDir.name], content);
+      const pageKeys =
+        PAGE_FOLDER_KEYS[appDir.name]?.[pageDir.name] ?? [pageDir.name];
+      setDeep(result, ["apps", appKey, ...pageKeys], content);
     }
   }
 

@@ -1,0 +1,423 @@
+{
+  "title": "Método das 6 reservas: uma forma simples de gerenciar seu dinheiro",
+  "metaDescription": "O método das 6 reservas ajuda você não apenas a registrar despesas, mas também a decidir com antecedência para onde direcionar sua renda.",
+  "intro": {
+    "paragraphs": [
+      "O método das 6 reservas ajuda você não apenas a registrar despesas, mas também a decidir com antecedência para onde direcionar sua renda.",
+      "A ideia é simples: sempre que você recebe dinheiro, distribui esse valor entre diferentes objetivos financeiros. Uma parte vai para as despesas do dia a dia, enquanto o restante é dividido entre economia, educação, lazer, construção de patrimônio e ajuda a outras pessoas.",
+      "Assim, o dinheiro deixa de ser apenas um único saldo na conta. Cada parte passa a ter uma finalidade própria."
+    ]
+  },
+  "overview": {
+    "title": "Índice",
+    "managingMoney": "O que é o método das 6 reservas",
+    "howItWorks": "Como funciona a divisão do dinheiro",
+    "adjustPercents": "Como adaptar o método às suas necessidades",
+    "misleadingBalance": "Como o método ajuda no dia a dia",
+    "irregularIncome": "Como usar o método em diferentes situações",
+    "physicalJarsProblem": "Como aplicar o método sem dinheiro em espécie",
+    "appHowItWorks": "Como usar o método no aplicativo"
+  },
+  "managingMoney": {
+    "title": "Não apenas registrar despesas, mas gerenciar o dinheiro",
+    "paragraphs": [
+      "O controle tradicional de despesas ajuda a responder à pergunta:",
+      "<strong>“Para onde meu dinheiro já foi?”</strong>",
+      "Isso é útil, mas muitas vezes não é suficiente. Mesmo que você registre suas compras regularmente, não há garantia de que no fim do mês sobrará dinheiro para economizar, estudar ou alcançar objetivos maiores.",
+      "O método das 6 reservas propõe outra abordagem. Ele ajuda você a responder com antecedência à pergunta:",
+      "<strong>“Para que quero usar o dinheiro que recebi?”</strong>",
+      "Você distribui sua renda antes de começar a gastar. Assim, a economia não depende do que por acaso sobrar no fim do mês, e as despesas do dia a dia não consomem todo o dinheiro disponível."
+    ]
+  },
+  "howItWorks": {
+    "title": "Como funciona o método das 6 reservas",
+    "lead": "Na versão clássica do método, cada valor recebido é distribuído entre seis reservas.",
+    "screenshotAlt": "Tela inicial do 6 Jars Finance com seis reservas e a renda distribuída entre elas",
+    "jars": {
+      "essentialExpenses": {
+        "title": "Despesas essenciais — 55%",
+        "intro": "Esta reserva é destinada às despesas essenciais do dia a dia:",
+        "items": [
+          "moradia;",
+          "alimentação;",
+          "transporte;",
+          "contas e serviços;",
+          "telefone e Internet;",
+          "cuidados de saúde;",
+          "outras necessidades recorrentes."
+        ],
+        "outro": "Esse é o dinheiro que cobre as necessidades da sua vida cotidiana."
+      },
+      "financialIndependence": {
+        "title": "Independência financeira — 10%",
+        "paragraphs": [
+          "O dinheiro desta reserva é usado para construir patrimônio e gerar renda no futuro.",
+          "No sistema clássico, a ideia é que o valor principal não seja usado em compras comuns. Sua função é criar gradualmente uma base financeira.",
+          "A forma de utilizar esses recursos depende do seu conhecimento, dos seus objetivos e da sua tolerância ao risco. Podem ser produtos de poupança, investimentos ou outras formas de construir patrimônio."
+        ]
+      },
+      "longTermSavings": {
+        "title": "Economia de longo prazo — 10%",
+        "intro": "Esta reserva ajuda você a se preparar com antecedência para despesas maiores.",
+        "listIntro": "Por exemplo:",
+        "items": [
+          "criar uma reserva financeira;",
+          "viajar;",
+          "fazer uma reforma;",
+          "comprar eletrônicos ou eletrodomésticos;",
+          "comprar um carro;",
+          "se mudar;",
+          "alcançar outros objetivos importantes."
+        ],
+        "outro": "Essas despesas deixam de ser inesperadas porque o dinheiro para elas é acumulado gradualmente."
+      },
+      "education": {
+        "title": "Educação — 10%",
+        "intro": "Este dinheiro é destinado ao desenvolvimento de conhecimentos e habilidades.",
+        "listIntro": "Você pode usá-lo para:",
+        "items": [
+          "livros;",
+          "cursos;",
+          "formação profissional;",
+          "estudo de idiomas;",
+          "aulas com professores;",
+          "conferências;",
+          "outros materiais educacionais."
+        ],
+        "outro": "A educação passa a ser uma parte separada do orçamento, em vez de uma despesa que é constantemente adiada."
+      },
+      "entertainment": {
+        "title": "Lazer — 10%",
+        "intro": "Esta reserva é destinada ao descanso e a compras que trazem prazer.",
+        "listIntro": "Por exemplo:",
+        "items": [
+          "encontros com amigos;",
+          "cafés e restaurantes;",
+          "jogos;",
+          "hobbies;",
+          "passeios e viagens;",
+          "eventos;",
+          "pequenas compras por impulso."
+        ],
+        "outro": "Ter um orçamento separado para lazer permite aproveitar sem sentir culpa o tempo todo. Você já reservou esse dinheiro justamente para coisas que lhe dão prazer."
+      },
+      "giftsAndCharity": {
+        "title": "Presentes e ajuda — 5%",
+        "intro": "Esta reserva pode ser usada para:",
+        "items": [
+          "presentes;",
+          "doações;",
+          "ajudar familiares e amigos;",
+          "apoiar projetos e iniciativas importantes para você."
+        ],
+        "outro": "Essas despesas também passam a fazer parte do orçamento planejado e não atrapalham seus outros objetivos financeiros."
+      }
+    }
+  },
+  "adjustPercents": {
+    "title": "Os percentuais podem ser alterados",
+    "screenshotAlt": "Tela para configurar os percentuais de distribuição da renda entre as reservas",
+    "openingParagraphs": [
+      "A divisão de 55%, 10%, 10%, 10%, 10% e 5% é um ponto de partida, não uma regra obrigatória.",
+      "As pessoas têm rendas, custos de moradia, situações familiares, objetivos e compromissos diferentes. Para uma pessoa, 55% pode ser suficiente para cobrir as despesas essenciais, enquanto para outra só o aluguel e a alimentação podem consumir a maior parte da renda.",
+      "Por isso, os percentuais podem e devem ser adaptados à sua situação real."
+    ],
+    "listIntro": "Por exemplo, você pode:",
+    "items": [
+      "aumentar a parcela destinada às despesas essenciais;",
+      "direcionar temporariamente mais dinheiro para a reserva financeira;",
+      "reduzir os gastos com lazer;",
+      "acelerar a economia para um objetivo específico;",
+      "alterar as proporções depois de um aumento ou uma redução da renda."
+    ],
+    "closingParagraphs": [
+      "O mais importante no método não é seguir exatamente os percentuais clássicos, mas criar o hábito de distribuir regularmente o dinheiro entre diferentes objetivos.",
+      "O sistema deve ajudar você a tomar decisões, não se tornar mais uma fonte de pressão."
+    ],
+    "cta": "Experimente o método no 6 Jars Finance →"
+  },
+  "samePurchaseDifferentJars": {
+    "title": "A mesma compra pode pertencer a reservas diferentes",
+    "openingParagraphs": [
+      "No método das 6 reservas não existe uma lista universal que determine de forma definitiva a categoria de cada compra. Não importa apenas o que você comprou, mas também por que fez aquela compra."
+    ],
+    "listIntro": "Por exemplo, uma ida a um café pode pertencer a reservas diferentes:",
+    "items": [
+      "às despesas essenciais, se for seu almoço habitual durante o trabalho;",
+      "ao lazer, se você foi para relaxar ou se dar um agrado;",
+      "a presentes e ajuda, se estiver pagando para outra pessoa."
+    ],
+    "closingParagraphs": [
+      "Você mesmo define a finalidade da despesa de acordo com a situação e seus objetivos.",
+      "O método não obriga você a seguir regras rígidas. Ele oferece uma referência e ajuda a decidir conscientemente qual parte do orçamento deve pagar uma determinada compra."
+    ]
+  },
+  "example": {
+    "title": "Como isso funciona na prática",
+    "openingParagraphs": [
+      "Suponha que você receba uma renda de 100 000.",
+      "Com a divisão clássica, o dinheiro seria distribuído da seguinte forma:"
+    ],
+    "table": {
+      "headers": [
+        "Reserva",
+        "Parcela",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "Despesas essenciais",
+          "55%",
+          "55 000"
+        ],
+        [
+          "Independência financeira",
+          "10%",
+          "10 000"
+        ],
+        [
+          "Economia de longo prazo",
+          "10%",
+          "10 000"
+        ],
+        [
+          "Educação",
+          "10%",
+          "10 000"
+        ],
+        [
+          "Lazer",
+          "10%",
+          "10 000"
+        ],
+        [
+          "Presentes e ajuda",
+          "5%",
+          "5 000"
+        ]
+      ]
+    },
+    "closingParagraphs": [
+      "Depois da divisão, cada compra pertence a uma reserva específica.",
+      "A alimentação sai das despesas essenciais. Um curso sai de educação. Uma viagem sai da economia de longo prazo. Um encontro com amigos sai de lazer.",
+      "Assim, você vê não apenas o dinheiro total restante, mas também quanto está disponível para cada objetivo específico."
+    ]
+  },
+  "misleadingBalance": {
+    "title": "Por que o saldo total pode enganar",
+    "screenshotAlt": "Tela inicial do aplicativo mostrando 700 rublos restantes para lazer, enquanto o restante do dinheiro está distribuído entre outras reservas",
+    "paragraphs": [
+      "Quando todo o dinheiro fica em uma única conta bancária, o valor disponível pode parecer maior do que realmente é.",
+      "Suponha que haja 57 350 na conta. Formalmente, todo esse dinheiro está disponível. Mas uma parte pode já estar destinada à moradia, outra a uma futura viagem e outra à reserva financeira.",
+      "Se você considerar o saldo inteiro como dinheiro livre para gastar, é fácil usar recursos que já eram necessários para outros objetivos.",
+      "O método das 6 reservas ajuda você a dividir mentalmente o saldo total.",
+      "Você pode ver 57 350 na conta bancária, mas apenas 700 desse valor podem estar disponíveis para lazer. O restante já foi distribuído entre outras categorias de despesas."
+    ]
+  },
+  "savingsFirst": {
+    "title": "A economia deixa de depender do que sobra",
+    "paragraphs": [
+      "Uma estratégia financeira comum funciona assim:",
+      "<strong>primeiro gastar dinheiro durante o mês e depois guardar o que sobrar.</strong>",
+      "O problema é que muitas vezes não sobra nada.",
+      "O método das 6 reservas inverte essa ordem. O dinheiro para economia, construção de patrimônio e outros objetivos é separado assim que a renda é recebida.",
+      "Você não precisa esperar até o fim do mês para descobrir se conseguiu guardar alguma coisa. A economia passa a ser parte do orçamento desde o início."
+    ]
+  },
+  "easierDecisions": {
+    "title": "Fica mais fácil tomar decisões",
+    "paragraphs": [
+      "Muitas compras não têm uma resposta claramente certa ou errada.",
+      "Você pode comprar um aparelho novo? Vale a pena ir a um restaurante? Um curso está caro demais? Dá para viajar agora?",
+      "Quando todo o dinheiro faz parte de um único orçamento geral, cada uma dessas decisões precisa ser tomada novamente.",
+      "As reservas criam limites claros.",
+      "Se há dinheiro suficiente na reserva correspondente, a compra está de acordo com seu plano. Se não há, você pode adiar a compra, rever o objetivo ou usar conscientemente dinheiro de outra reserva.",
+      "O método não proíbe você de mudar de decisão. Ele torna as consequências dessas decisões visíveis."
+    ]
+  },
+  "spendWithoutGuilt": {
+    "title": "Você pode gastar sem sentir culpa o tempo todo",
+    "paragraphs": [
+      "Disciplina financeira muitas vezes é confundida com abrir mão constantemente de compras agradáveis.",
+      "Mas um sistema rígido demais, em que apenas despesas obrigatórias são permitidas, costuma funcionar mal no longo prazo. As pessoas precisam descansar, se divertir e ter a possibilidade de gastar dinheiro de vez em quando simplesmente por prazer.",
+      "Por isso, o método inclui uma reserva separada para lazer.",
+      "Se o dinheiro já foi reservado antecipadamente para descanso e diversão, você pode usá-lo para isso. Essa compra não atrapalha sua economia nem tira dinheiro das despesas essenciais.",
+      "Você não está quebrando o orçamento — está seguindo o orçamento."
+    ]
+  },
+  "borrowFromYourself": {
+    "title": "A possibilidade de pegar dinheiro emprestado de você mesmo",
+    "screenshotAlt": "Tela da reserva «Lazer» com saldo negativo de 800 rublos e histórico de despesas",
+    "paragraphs": [
+      "Ao usar o método das 6 reservas, você vai formando gradualmente um estoque de dinheiro distribuído entre diferentes objetivos. Por isso, quando há uma falta temporária de recursos, nem sempre é necessário pedir dinheiro emprestado a outras pessoas ou recorrer ao crédito.",
+      "Se uma reserva não tiver dinheiro suficiente para uma compra importante, você pode deixar o saldo dela ficar temporariamente negativo. Na prática, você pega dinheiro emprestado de você mesmo: a compra é paga com seus recursos totais disponíveis, mas o excesso continua registrado justamente na reserva à qual a despesa pertence.",
+      "Quando a próxima renda entrar, o saldo negativo será parcial ou totalmente compensado. Como resultado, haverá menos dinheiro disponível nessa reserva no período seguinte. O sistema não impede uma compra necessária, mas mostra claramente suas consequências para o orçamento futuro.",
+      "Tecnicamente, você pode transferir o valor necessário de outra reserva e devolvê-lo depois da próxima renda. No entanto, não recomendo fazer isso sem necessidade. Essa transferência esconde o excesso real da reserva original e torna os relatórios menos úteis: fica mais difícil entender para quais objetivos o valor reservado realmente não é suficiente.",
+      "Se você mantiver a reserva negativa, o histórico de despesas continua fiel à realidade. Você vê onde ocorreu o excesso, qual foi o tamanho dele e se foi compensado depois da próxima renda.",
+      "Na minha experiência, esse se tornou um dos resultados mais perceptíveis do método: parei de pedir dinheiro emprestado a outras pessoas porque, quando necessário, podia pegá-lo temporariamente emprestado de mim mesmo.",
+      "Se a mesma reserva fica negativa com frequência, isso deixa de ser uma exceção temporária e passa a ser um sinal de que você deve rever a divisão da renda. Você pode aumentar o percentual dessa reserva reduzindo a parcela das reservas em que costuma sobrar dinheiro. Essa é a flexibilidade do método: o sistema se adapta gradualmente aos seus gastos reais em vez de obrigar você a seguir proporções imutáveis."
+    ]
+  },
+  "goalsNoLongerCompete": {
+    "title": "Os objetivos financeiros deixam de competir entre si",
+    "listIntro": "Sem um sistema, todo o dinheiro livre precisa servir para tudo ao mesmo tempo:",
+    "items": [
+      "reserva financeira;",
+      "viagens;",
+      "educação;",
+      "novos eletrônicos;",
+      "lazer;",
+      "despesas inesperadas."
+    ],
+    "closingParagraphs": [
+      "Com isso, um objetivo muitas vezes acaba substituindo os outros. Uma compra grande pode interromper completamente a economia, enquanto uma despesa inesperada pode cancelar uma viagem.",
+      "Dividir o dinheiro por finalidade permite manter vários objetivos ao mesmo tempo.",
+      "Mesmo que os valores sejam pequenos no início, cada área importante recebe sua parte sempre que entra dinheiro."
+    ]
+  },
+  "financialDiscipline": {
+    "title": "O método ajuda a desenvolver disciplina financeira",
+    "openingParagraphs": [
+      "O principal valor do método não está apenas em como o dinheiro é distribuído, mas também nos hábitos que se formam durante o uso.",
+      "Distribuir a renda regularmente muda aos poucos a forma como você enxerga o dinheiro. Você começa a ver o valor recebido não como uma única reserva que pode ser gasta até acabar, mas como um recurso para diferentes partes da sua vida."
+    ],
+    "listIntro": "Você cria o hábito de:",
+    "items": [
+      "primeiro distribuir o dinheiro e só depois gastar;",
+      "considerar as consequências de cada compra;",
+      "direcionar dinheiro regularmente para objetivos futuros;",
+      "manter um equilíbrio entre os desejos de hoje e os planos de longo prazo;",
+      "tomar decisões financeiras de forma consciente."
+    ],
+    "closingParagraphs": [
+      "O sistema não exige comportamento perfeito desde o primeiro dia. A disciplina financeira se desenvolve gradualmente pela repetição das mesmas ações simples.",
+      "Na minha experiência pessoal, justamente isso se mostrou a principal vantagem do método. Ele não apenas me ajudou a controlar melhor o dinheiro, mas gradualmente mudou minha própria forma de lidar com renda, despesas e economia."
+    ]
+  },
+  "irregularIncome": {
+    "title": "O que fazer com uma renda irregular",
+    "paragraphs": [
+      "O método pode ser usado mesmo por quem não recebe um salário mensal fixo.",
+      "Se a renda entra de forma irregular, distribua cada recebimento separadamente.",
+      "Você recebeu por um projeto, trabalho extra, pedido ou venda — divida imediatamente esse valor entre as reservas nas proporções escolhidas.",
+      "Com uma renda instável, pode ser especialmente útil aumentar a parcela destinada à reserva. Isso ajuda a atravessar períodos em que entra menos dinheiro.",
+      "O método não exige que você saiba antecipadamente o valor exato da renda mensal. Ele funciona com o dinheiro que você já recebeu."
+    ]
+  },
+  "notEnoughMoney": {
+    "title": "O que fazer se o dinheiro ainda não for suficiente",
+    "paragraphs": [
+      "Os percentuais clássicos podem não funcionar bem para alguém que gasta quase toda a renda com necessidades básicas.",
+      "Isso não significa que o método seja inútil.",
+      "Você pode começar com uma distribuição mais realista. Por exemplo, destinar 80–90% às despesas essenciais e dividir o restante entre os objetivos mais importantes para você.",
+      "Mesmo um pequeno valor destinado regularmente a uma reserva ou a um objetivo de longo prazo ajuda a criar o hábito.",
+      "Conforme sua renda e suas despesas mudam, você pode rever as proporções.",
+      "O mais importante não é o tamanho do primeiro passo, mas a regularidade."
+    ]
+  },
+  "notExactlySixJars": {
+    "title": "É obrigatório usar exatamente seis reservas?",
+    "openingParagraphs": [
+      "Não.",
+      "As seis reservas são a base do método clássico. Elas cobrem os principais objetivos financeiros e são um bom ponto de partida.",
+      "Com o tempo, porém, você pode adaptar o sistema."
+    ],
+    "listIntro": "Por exemplo, você pode criar reservas separadas para:",
+    "items": [
+      "viagens;",
+      "saúde;",
+      "carro;",
+      "reforma;",
+      "animais de estimação;",
+      "filhos;",
+      "impostos;",
+      "eletrônicos;",
+      "uma compra grande específica."
+    ],
+    "closingParagraphs": [
+      "Algumas reservas clássicas também podem ser combinadas ou renomeadas.",
+      "O importante é manter o princípio básico: o dinheiro deve ser dividido de acordo com sua finalidade, e a estrutura deve refletir sua vida."
+    ]
+  },
+  "physicalJarsProblem": {
+    "title": "O problema das reservas físicas e dos envelopes",
+    "paragraphs": [
+      "Originalmente, sistemas desse tipo eram pensados para dinheiro em espécie.",
+      "A renda podia ser fisicamente distribuída entre potes, caixas ou envelopes separados. Isso tornava a divisão muito clara: o dinheiro destinado a categorias diferentes realmente ficava separado.",
+      "Hoje, porém, a maior parte das operações financeiras acontece sem dinheiro em espécie.",
+      "Recebemos renda em uma conta bancária, pagamos com cartão, contratamos serviços pela Internet e transferimos dinheiro pelo celular.",
+      "Nessas condições, recipientes físicos se tornam pouco práticos. Para manter o sistema, seria necessário sacar dinheiro regularmente ou registrar manualmente cada operação digital.",
+      "Também é possível abrir várias contas bancárias, mas administrar muitas contas e transferências nem sempre é conveniente. Além disso, a quantidade de contas disponíveis e suas condições dependem de cada banco."
+    ]
+  },
+  "digitalJars": {
+    "title": "Reservas digitais",
+    "paragraphs": [
+      "Eu mesmo enfrentei esse problema.",
+      "Gostava do princípio do método das 6 reservas, e utilizá-lo regularmente realmente me ajudou a desenvolver uma relação mais disciplinada com o dinheiro.",
+      "Mas usar recipientes físicos ou envelopes em um mundo de pagamentos digitais se mostrou pouco prático.",
+      "Por isso desenvolvi o <strong>6 Jars Finance</strong> — um aplicativo de finanças pessoais baseado no método das 6 reservas.",
+      "O aplicativo mantém a ideia principal do sistema sem exigir que você separe fisicamente o dinheiro.",
+      "Você continua mantendo seus recursos na conta bancária habitual, mas dentro do aplicativo vê um saldo separado para cada reserva."
+    ]
+  },
+  "appHowItWorks": {
+    "title": "Como funciona o 6 Jars Finance",
+    "openingParagraphs": [
+      "Quando você recebe uma renda, o aplicativo a distribui entre as reservas de acordo com os percentuais escolhidos.",
+      "Depois de uma compra, você informa de qual reserva o dinheiro foi usado. Apenas o saldo daquela reserva diminui — os demais recursos mantêm sua finalidade.",
+      "Assim, o saldo bancário total ganha uma estrutura interna clara."
+    ],
+    "listIntro": "Você vê:",
+    "items": [
+      "quanto dinheiro está disponível para despesas essenciais;",
+      "quanto foi acumulado para objetivos de longo prazo;",
+      "quanto pode ser gasto com lazer;",
+      "qual orçamento foi destinado à educação;",
+      "como os saldos das reservas mudam com o tempo."
+    ],
+    "closingParagraphs": [
+      "O aplicativo não movimenta dinheiro entre contas bancárias e não acessa seu banco. Ele ajuda você a manter um controle separado e entender a finalidade de cada parte do seu dinheiro."
+    ]
+  },
+  "trackEveryPurchase": {
+    "title": "É preciso registrar cada compra separadamente?",
+    "screenshotAlt": "Tela para adicionar uma despesa de 2500 rublos da reserva «Despesas atuais» com a tag «Alimentação»",
+    "paragraphs": [
+      "Não. Para usar o método, basta informar o valor total da despesa e escolher a reserva da qual o dinheiro foi usado.",
+      "Por exemplo, uma ida comum ao supermercado pode ser registrada como uma única operação de 3 500. Se você quiser mais detalhes, pode dividir o valor em várias operações: 2 500 para alimentos e 1 000 para produtos domésticos. Para detalhar ainda mais, você pode usar tags.",
+      "Você escolhe o nível de precisão que faz sentido para você. O aplicativo não exige que você copie cada item do recibo — o controle deve ajudar a entender o movimento do dinheiro sem consumir tempo demais.",
+      "Adicionar uma despesa manualmente exige uma pequena ação, mas ao mesmo tempo ajuda você a perceber melhor seus gastos e entender para onde o dinheiro está indo."
+    ]
+  },
+  "adaptSystem": {
+    "title": "Adapte o sistema às suas necessidades",
+    "openingParagraphs": [
+      "O 6 Jars Finance é baseado no método clássico, mas não limita você à estrutura original."
+    ],
+    "listIntro": "Você pode:",
+    "items": [
+      "alterar os percentuais de distribuição;",
+      "renomear as reservas;",
+      "criar suas próprias reservas;",
+      "usar mais ou menos de seis reservas;",
+      "mudar a ordem das reservas;",
+      "registrar rendas e despesas;",
+      "adicionar operações recorrentes;",
+      "analisar o movimento do dinheiro por meio de relatórios."
+    ],
+    "closingParagraphs": [
+      "A estrutura clássica pode ser um ponto de partida prático. Depois disso, você pode alterá-la gradualmente até que ela corresponda às suas necessidades."
+    ]
+  },
+  "startWithNextIncome": {
+    "title": "Comece com sua próxima renda",
+    "paragraphs": [
+      "Você não precisa mudar imediatamente todo o seu sistema financeiro nem seguir perfeitamente os percentuais clássicos.",
+      "Comece de forma simples: distribua sua próxima renda entre alguns objetivos importantes para você.",
+      "Só esse primeiro passo já ajuda a enxergar o dinheiro não como um único saldo, mas como uma ferramenta para diferentes partes da sua vida.",
+      "No 6 Jars Finance, <strong>as reservas clássicas e seus percentuais já estão configurados.</strong> Você pode começar com eles e depois adaptar a distribuição às suas necessidades."
+    ],
+    "cta": "Ir para o 6 Jars Finance →"
+  }
+}
