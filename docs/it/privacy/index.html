@@ -31,68 +31,340 @@
         >site.nav.guide</a>
       </nav>
       
-        <nav class="lang-switch" aria-label="Lingua">
-  
+        
+
+<nav class="lang-switch" aria-label="Lingua">
+  <label class="lang-switch__desktop">
+    <span class="lang-switch__visually-hidden">Lingua</span>
+    <select class="lang-switch__select" data-lang-switch-select>
+      
+        <option
+          value="/en/privacy/"
+          
+        >English</option>
+      
+        <option
+          value="/ru/privacy/"
+          
+        >Русский</option>
+      
+        <option
+          value="/uk/privacy/"
+          
+        >Українська</option>
+      
+        <option
+          value="/pl/privacy/"
+          
+        >Polski</option>
+      
+        <option
+          value="/cs/privacy/"
+          
+        >Čeština</option>
+      
+        <option
+          value="/de/privacy/"
+          
+        >Deutsch</option>
+      
+        <option
+          value="/nl/privacy/"
+          
+        >Nederlands</option>
+      
+        <option
+          value="/sv/privacy/"
+          
+        >Svenska</option>
+      
+        <option
+          value="/fr/privacy/"
+          
+        >Français</option>
+      
+        <option
+          value="/it/privacy/"
+          selected
+        >Italiano</option>
+      
+        <option
+          value="/es/privacy/"
+          
+        >Español</option>
+      
+        <option
+          value="/pt-BR/privacy/"
+          
+        >Português (Brasil)</option>
+      
+        <option
+          value="/ro/privacy/"
+          
+        >Română</option>
+      
+        <option
+          value="/tr/privacy/"
+          
+        >Türkçe</option>
+      
+        <option
+          value="/id/privacy/"
+          
+        >Bahasa Indonesia</option>
+      
+    </select>
+  </label>
+
+  <button
+    type="button"
+    class="lang-switch__trigger"
+    data-open-lang-switch-modal
+    aria-haspopup="dialog"
+    aria-expanded="false"
+    aria-controls="lang-switch-modal"
+  >
     
-      <a class="lang-switch__link" href="/en/privacy/">English</a>
+      
     
-  
+      
     
-      <a class="lang-switch__link" href="/ru/privacy/">Русский</a>
+      
     
-  
+      
     
-      <a class="lang-switch__link" href="/uk/privacy/">Українська</a>
+      
     
-  
+      
     
-      <a class="lang-switch__link" href="/pl/privacy/">Polski</a>
+      
     
-  
+      
     
-      <a class="lang-switch__link" href="/cs/privacy/">Čeština</a>
+      
     
-  
+      
+        <span class="lang-switch__code">
+  IT
+</span>
+      
     
-      <a class="lang-switch__link" href="/de/privacy/">Deutsch</a>
+      
     
-  
+      
     
-      <a class="lang-switch__link" href="/nl/privacy/">Nederlands</a>
+      
     
-  
+      
     
-      <a class="lang-switch__link" href="/sv/privacy/">Svenska</a>
+      
     
-  
-    
-      <a class="lang-switch__link" href="/fr/privacy/">Français</a>
-    
-  
-    
-      <span class="lang-switch__current" aria-current="true">Italiano</span>
-    
-  
-    
-      <a class="lang-switch__link" href="/es/privacy/">Español</a>
-    
-  
-    
-      <a class="lang-switch__link" href="/pt-BR/privacy/">Português (Brasil)</a>
-    
-  
-    
-      <a class="lang-switch__link" href="/ro/privacy/">Română</a>
-    
-  
-    
-      <a class="lang-switch__link" href="/tr/privacy/">Türkçe</a>
-    
-  
-    
-      <a class="lang-switch__link" href="/id/privacy/">Bahasa Indonesia</a>
-    
-  
+    <span class="lang-switch__arrow" aria-hidden="true">▾</span>
+  </button>
+
+  <div
+    class="modal-overlay lang-switch__modal-overlay"
+    id="lang-switch-modal"
+    hidden
+    aria-hidden="true"
+    data-lang-switch-modal
+  >
+    <div
+      class="modal lang-switch__modal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="lang-switch-modal-title"
+    >
+      <h2 class="modal__title" id="lang-switch-modal-title">Lingua</h2>
+      <fieldset class="lang-switch__mobile" aria-label="Lingua">
+        <div class="lang-switch__radio-list">
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/en/privacy/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">English</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/ru/privacy/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Русский</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/uk/privacy/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Українська</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/pl/privacy/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Polski</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/cs/privacy/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Čeština</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/de/privacy/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Deutsch</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/nl/privacy/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Nederlands</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/sv/privacy/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Svenska</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/fr/privacy/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Français</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/it/privacy/"
+                data-lang-switch-radio
+                checked
+              />
+              <span class="lang-switch__radio-text">Italiano</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/es/privacy/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Español</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/pt-BR/privacy/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Português (Brasil)</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/ro/privacy/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Română</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/tr/privacy/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Türkçe</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/id/privacy/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Bahasa Indonesia</span>
+            </label>
+          
+        </div>
+      </fieldset>
+    </div>
+  </div>
+
+  <script src="/assets/js/lang-switch.js" defer></script>
 </nav>
 
       

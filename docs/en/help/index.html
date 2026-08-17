@@ -31,68 +31,340 @@
         >Six Jars Method</a>
       </nav>
       
-        <nav class="lang-switch" aria-label="Language">
-  
+        
+
+<nav class="lang-switch" aria-label="Language">
+  <label class="lang-switch__desktop">
+    <span class="lang-switch__visually-hidden">Language</span>
+    <select class="lang-switch__select" data-lang-switch-select>
+      
+        <option
+          value="/en/help/"
+          selected
+        >English</option>
+      
+        <option
+          value="/ru/help/"
+          
+        >Русский</option>
+      
+        <option
+          value="/uk/help/"
+          
+        >Українська</option>
+      
+        <option
+          value="/pl/help/"
+          
+        >Polski</option>
+      
+        <option
+          value="/cs/help/"
+          
+        >Čeština</option>
+      
+        <option
+          value="/de/help/"
+          
+        >Deutsch</option>
+      
+        <option
+          value="/nl/help/"
+          
+        >Nederlands</option>
+      
+        <option
+          value="/sv/help/"
+          
+        >Svenska</option>
+      
+        <option
+          value="/fr/help/"
+          
+        >Français</option>
+      
+        <option
+          value="/it/help/"
+          
+        >Italiano</option>
+      
+        <option
+          value="/es/help/"
+          
+        >Español</option>
+      
+        <option
+          value="/pt-BR/help/"
+          
+        >Português (Brasil)</option>
+      
+        <option
+          value="/ro/help/"
+          
+        >Română</option>
+      
+        <option
+          value="/tr/help/"
+          
+        >Türkçe</option>
+      
+        <option
+          value="/id/help/"
+          
+        >Bahasa Indonesia</option>
+      
+    </select>
+  </label>
+
+  <button
+    type="button"
+    class="lang-switch__trigger"
+    data-open-lang-switch-modal
+    aria-haspopup="dialog"
+    aria-expanded="false"
+    aria-controls="lang-switch-modal"
+  >
     
-      <span class="lang-switch__current" aria-current="true">English</span>
+      
+        <span class="lang-switch__code">
+  EN
+</span>
+      
     
-  
+      
     
-      <a class="lang-switch__link" href="/ru/help/">Русский</a>
+      
     
-  
+      
     
-      <a class="lang-switch__link" href="/uk/help/">Українська</a>
+      
     
-  
+      
     
-      <a class="lang-switch__link" href="/pl/help/">Polski</a>
+      
     
-  
+      
     
-      <a class="lang-switch__link" href="/cs/help/">Čeština</a>
+      
     
-  
+      
     
-      <a class="lang-switch__link" href="/de/help/">Deutsch</a>
+      
     
-  
+      
     
-      <a class="lang-switch__link" href="/nl/help/">Nederlands</a>
+      
     
-  
+      
     
-      <a class="lang-switch__link" href="/sv/help/">Svenska</a>
+      
     
-  
-    
-      <a class="lang-switch__link" href="/fr/help/">Français</a>
-    
-  
-    
-      <a class="lang-switch__link" href="/it/help/">Italiano</a>
-    
-  
-    
-      <a class="lang-switch__link" href="/es/help/">Español</a>
-    
-  
-    
-      <a class="lang-switch__link" href="/pt-BR/help/">Português (Brasil)</a>
-    
-  
-    
-      <a class="lang-switch__link" href="/ro/help/">Română</a>
-    
-  
-    
-      <a class="lang-switch__link" href="/tr/help/">Türkçe</a>
-    
-  
-    
-      <a class="lang-switch__link" href="/id/help/">Bahasa Indonesia</a>
-    
-  
+    <span class="lang-switch__arrow" aria-hidden="true">▾</span>
+  </button>
+
+  <div
+    class="modal-overlay lang-switch__modal-overlay"
+    id="lang-switch-modal"
+    hidden
+    aria-hidden="true"
+    data-lang-switch-modal
+  >
+    <div
+      class="modal lang-switch__modal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="lang-switch-modal-title"
+    >
+      <h2 class="modal__title" id="lang-switch-modal-title">Language</h2>
+      <fieldset class="lang-switch__mobile" aria-label="Language">
+        <div class="lang-switch__radio-list">
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/en/help/"
+                data-lang-switch-radio
+                checked
+              />
+              <span class="lang-switch__radio-text">English</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/ru/help/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Русский</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/uk/help/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Українська</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/pl/help/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Polski</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/cs/help/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Čeština</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/de/help/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Deutsch</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/nl/help/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Nederlands</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/sv/help/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Svenska</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/fr/help/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Français</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/it/help/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Italiano</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/es/help/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Español</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/pt-BR/help/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Português (Brasil)</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/ro/help/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Română</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/tr/help/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Türkçe</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/id/help/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Bahasa Indonesia</span>
+            </label>
+          
+        </div>
+      </fieldset>
+    </div>
+  </div>
+
+  <script src="/assets/js/lang-switch.js" defer></script>
 </nav>
 
       

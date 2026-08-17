@@ -225,28 +225,149 @@ a:hover {
   text-underline-offset: 4px;
 }
 
-.lang-switch {
+.lang-switch__visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+}
+
+.lang-switch__desktop {
+  display: none;
+}
+
+.lang-switch__trigger {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  min-height: 44px;
+  padding: 8px 4px;
+  border: none;
+  background: transparent;
+  color: var(--color-text);
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.lang-switch__trigger:hover,
+.lang-switch__trigger:focus-visible {
+  color: var(--color-brand);
+  outline: none;
+}
+
+.lang-switch__code {
+  letter-spacing: 0.04em;
+}
+
+.lang-switch__arrow {
+  font-size: 13px;
+  opacity: 0.65;
+}
+
+.lang-switch__mobile {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.lang-switch__select {
+  min-height: 44px;
+  min-width: 180px;
+  padding: 8px 36px 8px 12px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  background-color: var(--color-surface);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%236d6d6d' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
+  background-position: right 10px center;
+  background-repeat: no-repeat;
+  background-size: 18px;
+  color: var(--color-text);
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.2;
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+.lang-switch__select:hover,
+.lang-switch__select:focus-visible {
+  border-color: var(--color-brand);
+  outline: none;
+}
+
+.lang-switch__radio-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.lang-switch__modal {
+  width: min(100%, 420px);
+  padding: 24px;
+}
+
+.lang-switch__modal .modal__title {
+  margin-bottom: 16px;
+}
+
+.lang-switch__radio-label {
   display: flex;
   align-items: center;
-  gap: 20px;
-}
-
-.lang-switch__current {
-  color: var(--color-text);
-  font-size: 15px;
+  padding: 8px 12px;
+  border-radius: var(--radius-md);
+  color: var(--color-text-secondary);
+  font-size: 16px;
   font-weight: 500;
+  line-height: 1.2;
+  cursor: pointer;
 }
 
-.lang-switch__link {
+.lang-switch__radio-label:hover {
+  background: var(--color-brand-soft);
   color: var(--color-brand);
-  font-size: 15px;
-  font-weight: 500;
-  text-decoration: underline;
 }
 
-.lang-switch__link:hover,
-.lang-switch__link:focus-visible {
-  text-decoration-thickness: 2px;
+.lang-switch__radio-label:has(.lang-switch__radio:checked) {
+  background: var(--color-brand-soft);
+  color: var(--color-brand);
+}
+
+.lang-switch__radio {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+}
+
+.lang-switch__radio:focus-visible + .lang-switch__radio-text {
+  outline: 2px solid var(--color-brand);
+  outline-offset: 2px;
+}
+
+@media (min-width: 1024px) {
+  .lang-switch__desktop {
+    display: block;
+  }
+
+  .lang-switch__trigger,
+  .lang-switch__modal-overlay {
+    display: none;
+  }
 }
 
 /* Buttons */

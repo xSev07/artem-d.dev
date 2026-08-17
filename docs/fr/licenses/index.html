@@ -31,68 +31,340 @@
         >site.nav.guide</a>
       </nav>
       
-        <nav class="lang-switch" aria-label="Langue">
-  
+        
+
+<nav class="lang-switch" aria-label="Langue">
+  <label class="lang-switch__desktop">
+    <span class="lang-switch__visually-hidden">Langue</span>
+    <select class="lang-switch__select" data-lang-switch-select>
+      
+        <option
+          value="/en/licenses/"
+          
+        >English</option>
+      
+        <option
+          value="/ru/licenses/"
+          
+        >Русский</option>
+      
+        <option
+          value="/uk/licenses/"
+          
+        >Українська</option>
+      
+        <option
+          value="/pl/licenses/"
+          
+        >Polski</option>
+      
+        <option
+          value="/cs/licenses/"
+          
+        >Čeština</option>
+      
+        <option
+          value="/de/licenses/"
+          
+        >Deutsch</option>
+      
+        <option
+          value="/nl/licenses/"
+          
+        >Nederlands</option>
+      
+        <option
+          value="/sv/licenses/"
+          
+        >Svenska</option>
+      
+        <option
+          value="/fr/licenses/"
+          selected
+        >Français</option>
+      
+        <option
+          value="/it/licenses/"
+          
+        >Italiano</option>
+      
+        <option
+          value="/es/licenses/"
+          
+        >Español</option>
+      
+        <option
+          value="/pt-BR/licenses/"
+          
+        >Português (Brasil)</option>
+      
+        <option
+          value="/ro/licenses/"
+          
+        >Română</option>
+      
+        <option
+          value="/tr/licenses/"
+          
+        >Türkçe</option>
+      
+        <option
+          value="/id/licenses/"
+          
+        >Bahasa Indonesia</option>
+      
+    </select>
+  </label>
+
+  <button
+    type="button"
+    class="lang-switch__trigger"
+    data-open-lang-switch-modal
+    aria-haspopup="dialog"
+    aria-expanded="false"
+    aria-controls="lang-switch-modal"
+  >
     
-      <a class="lang-switch__link" href="/en/licenses/">English</a>
+      
     
-  
+      
     
-      <a class="lang-switch__link" href="/ru/licenses/">Русский</a>
+      
     
-  
+      
     
-      <a class="lang-switch__link" href="/uk/licenses/">Українська</a>
+      
     
-  
+      
     
-      <a class="lang-switch__link" href="/pl/licenses/">Polski</a>
+      
     
-  
+      
     
-      <a class="lang-switch__link" href="/cs/licenses/">Čeština</a>
+      
+        <span class="lang-switch__code">
+  FR
+</span>
+      
     
-  
+      
     
-      <a class="lang-switch__link" href="/de/licenses/">Deutsch</a>
+      
     
-  
+      
     
-      <a class="lang-switch__link" href="/nl/licenses/">Nederlands</a>
+      
     
-  
+      
     
-      <a class="lang-switch__link" href="/sv/licenses/">Svenska</a>
+      
     
-  
-    
-      <span class="lang-switch__current" aria-current="true">Français</span>
-    
-  
-    
-      <a class="lang-switch__link" href="/it/licenses/">Italiano</a>
-    
-  
-    
-      <a class="lang-switch__link" href="/es/licenses/">Español</a>
-    
-  
-    
-      <a class="lang-switch__link" href="/pt-BR/licenses/">Português (Brasil)</a>
-    
-  
-    
-      <a class="lang-switch__link" href="/ro/licenses/">Română</a>
-    
-  
-    
-      <a class="lang-switch__link" href="/tr/licenses/">Türkçe</a>
-    
-  
-    
-      <a class="lang-switch__link" href="/id/licenses/">Bahasa Indonesia</a>
-    
-  
+    <span class="lang-switch__arrow" aria-hidden="true">▾</span>
+  </button>
+
+  <div
+    class="modal-overlay lang-switch__modal-overlay"
+    id="lang-switch-modal"
+    hidden
+    aria-hidden="true"
+    data-lang-switch-modal
+  >
+    <div
+      class="modal lang-switch__modal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="lang-switch-modal-title"
+    >
+      <h2 class="modal__title" id="lang-switch-modal-title">Langue</h2>
+      <fieldset class="lang-switch__mobile" aria-label="Langue">
+        <div class="lang-switch__radio-list">
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/en/licenses/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">English</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/ru/licenses/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Русский</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/uk/licenses/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Українська</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/pl/licenses/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Polski</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/cs/licenses/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Čeština</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/de/licenses/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Deutsch</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/nl/licenses/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Nederlands</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/sv/licenses/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Svenska</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/fr/licenses/"
+                data-lang-switch-radio
+                checked
+              />
+              <span class="lang-switch__radio-text">Français</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/it/licenses/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Italiano</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/es/licenses/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Español</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/pt-BR/licenses/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Português (Brasil)</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/ro/licenses/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Română</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/tr/licenses/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Türkçe</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/id/licenses/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Bahasa Indonesia</span>
+            </label>
+          
+        </div>
+      </fieldset>
+    </div>
+  </div>
+
+  <script src="/assets/js/lang-switch.js" defer></script>
 </nav>
 
       

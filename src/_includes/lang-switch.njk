@@ -1,9 +1,69 @@
+{% macro langCode(code) %}
+  {% if code == "pt-BR" %}BR{% else %}{{ code | upper }}{% endif %}
+{% endmacro %}
+
 <nav class="lang-switch" aria-label="{{ 'common.langSwitch.label' | t(lang) }}">
-  {% for language in languages %}
-    {% if lang == language.code %}
-      <span class="lang-switch__current" aria-current="true">{{ ("common.langSwitch." ~ language.code) | t(lang) }}</span>
-    {% else %}
-      <a class="lang-switch__link" href="/{{ language.code }}{{ langSwitchPath }}">{{ ("common.langSwitch." ~ language.code) | t(lang) }}</a>
-    {% endif %}
-  {% endfor %}
+  <label class="lang-switch__desktop">
+    <span class="lang-switch__visually-hidden">{{ 'common.langSwitch.label' | t(lang) }}</span>
+    <select class="lang-switch__select" data-lang-switch-select>
+      {% for language in languages %}
+        <option
+          value="/{{ language.code }}{{ langSwitchPath }}"
+          {% if lang == language.code %}selected{% endif %}
+        >{{ ("common.langSwitch." ~ language.code) | t(lang) }}</option>
+      {% endfor %}
+    </select>
+  </label>
+
+  <button
+    type="button"
+    class="lang-switch__trigger"
+    data-open-lang-switch-modal
+    aria-haspopup="dialog"
+    aria-expanded="false"
+    aria-controls="lang-switch-modal"
+  >
+    {% for language in languages %}
+      {% if lang == language.code %}
+        <span class="lang-switch__code">{{ langCode(language.code) }}</span>
+      {% endif %}
+    {% endfor %}
+    <span class="lang-switch__arrow" aria-hidden="true">▾</span>
+  </button>
+
+  <div
+    class="modal-overlay lang-switch__modal-overlay"
+    id="lang-switch-modal"
+    hidden
+    aria-hidden="true"
+    data-lang-switch-modal
+  >
+    <div
+      class="modal lang-switch__modal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="lang-switch-modal-title"
+    >
+      <h2 class="modal__title" id="lang-switch-modal-title">{{ 'common.langSwitch.label' | t(lang) }}</h2>
+      <fieldset class="lang-switch__mobile" aria-label="{{ 'common.langSwitch.label' | t(lang) }}">
+        <div class="lang-switch__radio-list">
+          {% for language in languages %}
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/{{ language.code }}{{ langSwitchPath }}"
+                data-lang-switch-radio
+                {% if lang == language.code %}checked{% endif %}
+              />
+              <span class="lang-switch__radio-text">{{ ("common.langSwitch." ~ language.code) | t(lang) }}</span>
+            </label>
+          {% endfor %}
+        </div>
+      </fieldset>
+    </div>
+  </div>
+
+  <script src="/assets/js/lang-switch.js" defer></script>
 </nav>
