@@ -155,7 +155,7 @@
   "example": {
     "title": "Como isso funciona na prática",
     "openingParagraphs": [
-      "Suponha que você receba uma renda de 100 000.",
+      "Suponha que você receba uma renda de 3 000.",
       "Com a divisão clássica, o dinheiro seria distribuído da seguinte forma:"
     ],
     "table": {
@@ -168,32 +168,32 @@
         [
           "Despesas essenciais",
           "55%",
-          "55 000"
+          "1 650"
         ],
         [
           "Independência financeira",
           "10%",
-          "10 000"
+          "300"
         ],
         [
           "Economia de longo prazo",
           "10%",
-          "10 000"
+          "300"
         ],
         [
           "Educação",
           "10%",
-          "10 000"
+          "300"
         ],
         [
           "Lazer",
           "10%",
-          "10 000"
+          "300"
         ],
         [
           "Presentes e ajuda",
           "5%",
-          "5 000"
+          "150"
         ]
       ]
     },
@@ -205,13 +205,13 @@
   },
   "misleadingBalance": {
     "title": "Por que o saldo total pode enganar",
-    "screenshotAlt": "Tela inicial do aplicativo mostrando 700 rublos restantes para lazer, enquanto o restante do dinheiro está distribuído entre outras reservas",
+    "screenshotAlt": "Tela inicial do aplicativo mostrando um saldo total de 1 720, com apenas 20 restantes na reserva «Lazer»",
     "paragraphs": [
       "Quando todo o dinheiro fica em uma única conta bancária, o valor disponível pode parecer maior do que realmente é.",
-      "Suponha que haja 57 350 na conta. Formalmente, todo esse dinheiro está disponível. Mas uma parte pode já estar destinada à moradia, outra a uma futura viagem e outra à reserva financeira.",
+      "Suponha que haja 1 720 na conta. Formalmente, todo esse dinheiro está disponível. Mas uma parte pode já estar destinada à moradia, outra a uma futura viagem e outra à reserva financeira.",
       "Se você considerar o saldo inteiro como dinheiro livre para gastar, é fácil usar recursos que já eram necessários para outros objetivos.",
       "O método das 6 reservas ajuda você a dividir mentalmente o saldo total.",
-      "Você pode ver 57 350 na conta bancária, mas apenas 700 desse valor podem estar disponíveis para lazer. O restante já foi distribuído entre outras categorias de despesas."
+      "Você pode ver 1 720 na conta bancária, mas apenas 20 desse valor podem estar disponíveis para lazer. O restante já foi distribuído entre outras categorias de despesas."
     ]
   },
   "savingsFirst": {
@@ -247,7 +247,7 @@
   },
   "borrowFromYourself": {
     "title": "A possibilidade de pegar dinheiro emprestado de você mesmo",
-    "screenshotAlt": "Tela da reserva «Lazer» com saldo negativo de 800 rublos e histórico de despesas",
+    "screenshotAlt": "Tela da reserva «Lazer» com saldo negativo de 25 e histórico de despesas",
     "paragraphs": [
       "Ao usar o método das 6 reservas, você vai formando gradualmente um estoque de dinheiro distribuído entre diferentes objetivos. Por isso, quando há uma falta temporária de recursos, nem sempre é necessário pedir dinheiro emprestado a outras pessoas ou recorrer ao crédito.",
       "Se uma reserva não tiver dinheiro suficiente para uma compra importante, você pode deixar o saldo dela ficar temporariamente negativo. Na prática, você pega dinheiro emprestado de você mesmo: a compra é paga com seus recursos totais disponíveis, mas o excesso continua registrado justamente na reserva à qual a despesa pertence.",
@@ -382,10 +382,10 @@
   },
   "trackEveryPurchase": {
     "title": "É preciso registrar cada compra separadamente?",
-    "screenshotAlt": "Tela para adicionar uma despesa de 2500 rublos da reserva «Despesas atuais» com a tag «Alimentação»",
+    "screenshotAlt": "Tela para adicionar uma despesa de 75 da reserva «Despesas atuais» com a tag «Alimentação»",
     "paragraphs": [
       "Não. Para usar o método, basta informar o valor total da despesa e escolher a reserva da qual o dinheiro foi usado.",
-      "Por exemplo, uma ida comum ao supermercado pode ser registrada como uma única operação de 3 500. Se você quiser mais detalhes, pode dividir o valor em várias operações: 2 500 para alimentos e 1 000 para produtos domésticos. Para detalhar ainda mais, você pode usar tags.",
+      "Por exemplo, uma ida comum ao supermercado pode ser registrada como uma única operação de 105. Se você quiser mais detalhes, pode dividir o valor em várias operações: 75 para alimentos e 30 para produtos domésticos. Para detalhar ainda mais, você pode usar tags.",
       "Você escolhe o nível de precisão que faz sentido para você. O aplicativo não exige que você copie cada item do recibo — o controle deve ajudar a entender o movimento do dinheiro sem consumir tempo demais.",
       "Adicionar uma despesa manualmente exige uma pequena ação, mas ao mesmo tempo ajuda você a perceber melhor seus gastos e entender para onde o dinheiro está indo."
     ]

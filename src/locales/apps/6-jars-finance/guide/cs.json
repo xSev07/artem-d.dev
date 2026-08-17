@@ -155,7 +155,7 @@
   "example": {
     "title": "Jak to vypadá v praxi",
     "openingParagraphs": [
-      "Představme si, že jste získali příjem ve výši 100 000.",
+      "Představme si, že jste získali příjem ve výši 3 000.",
       "Při klasickém rozdělení se peníze rozdělí následovně:"
     ],
     "table": {
@@ -168,32 +168,32 @@
         [
           "Nezbytné výdaje",
           "55%",
-          "55 000"
+          "1 650"
         ],
         [
           "Finanční nezávislost",
           "10%",
-          "10 000"
+          "300"
         ],
         [
           "Dlouhodobé úspory",
           "10%",
-          "10 000"
+          "300"
         ],
         [
           "Vzdělávání",
           "10%",
-          "10 000"
+          "300"
         ],
         [
           "Zábava",
           "10%",
-          "10 000"
+          "300"
         ],
         [
           "Dárky a pomoc",
           "5%",
-          "5 000"
+          "150"
         ]
       ]
     },
@@ -205,13 +205,13 @@
   },
   "misleadingBalance": {
     "title": "Proč může být celkový zůstatek zavádějící",
-    "screenshotAlt": "Hlavní obrazovka aplikace, kde zbývá na zábavu 700 rublů a ostatní peníze jsou rozděleny mezi další fondy",
+    "screenshotAlt": "Hlavní obrazovka aplikace s celkovým zůstatkem 1 720, kde ve fondu „Zábava“ zbývá pouze 20",
     "paragraphs": [
       "Když máte všechny peníze na jednom bankovním účtu, dostupná částka může působit větší, než ve skutečnosti je.",
-      "Představte si, že je na účtu 57 350. Technicky jsou všechny tyto peníze dostupné. Část z nich ale může být určena na bydlení, část na budoucí dovolenou a část do finanční rezervy.",
+      "Představte si, že je na účtu 1 720. Technicky jsou všechny tyto peníze dostupné. Část z nich ale může být určena na bydlení, část na budoucí dovolenou a část do finanční rezervy.",
       "Pokud celý zůstatek vnímáte jako volné peníze, snadno utratíte prostředky, které už byly určeny pro jiné účely.",
       "Metoda 6 fondů vám pomáhá celkový zůstatek pomyslně rozdělit.",
-      "Na bankovním účtu můžete vidět 57 350, ale na zábavu je z této částky k dispozici pouze 700. Zbytek už byl rozdělen mezi jiné kategorie výdajů."
+      "Na bankovním účtu můžete vidět 1 720, ale na zábavu je z této částky k dispozici pouze 20. Zbytek už byl rozdělen mezi jiné kategorie výdajů."
     ]
   },
   "savingsFirst": {
@@ -247,7 +247,7 @@
   },
   "borrowFromYourself": {
     "title": "Možnost půjčit si peníze od sebe",
-    "screenshotAlt": "Obrazovka fondu „Zábava“ se záporným zůstatkem 800 rublů a historií výdajů",
+    "screenshotAlt": "Obrazovka fondu „Zábava“ se záporným zůstatkem 25 a historií výdajů",
     "paragraphs": [
       "Při používání metody 6 fondů si postupně vytváříte zásobu peněz rozdělenou mezi různé účely. Díky tomu při dočasném nedostatku prostředků nemusíte vždy půjčovat od jiných lidí nebo využívat úvěr.",
       "Pokud v jednom fondu není dost peněz na důležitý nákup, můžete jeho zůstatek dočasně nechat klesnout pod nulu. Ve skutečnosti si půjčujete sami od sebe: nákup je zaplacen z celkových dostupných prostředků, ale překročení rozpočtu zůstává zaznamenáno právě ve fondu, do kterého výdaj patří.",
@@ -382,10 +382,10 @@
   },
   "trackEveryPurchase": {
     "title": "Musíte zadávat každý nákup zvlášť?",
-    "screenshotAlt": "Obrazovka pro přidání výdaje 2500 rublů z fondu „Běžné výdaje“ se štítkem „Potraviny“",
+    "screenshotAlt": "Obrazovka pro přidání výdaje 75 z fondu „Běžné výdaje“ se štítkem „Potraviny“",
     "paragraphs": [
       "Ne. Pro používání metody stačí zadat celkovou částku výdaje a vybrat fond, ze kterého byly peníze utraceny.",
-      "Například běžný nákup v obchodě můžete zaznamenat jako jednu transakci za 3 500. Pokud chcete výdaje rozdělit přesněji, můžete částku rozdělit do několika transakcí: 2 500 za potraviny a 1 000 za domácí potřeby. Pro další podrobnosti můžete používat štítky.",
+      "Například běžný nákup v obchodě můžete zaznamenat jako jednu transakci za 105. Pokud chcete výdaje rozdělit přesněji, můžete částku rozdělit do několika transakcí: 75 za potraviny a 30 za domácí potřeby. Pro další podrobnosti můžete používat štítky.",
       "Sami si zvolíte úroveň podrobnosti, která vám vyhovuje. Aplikace po vás nechce přepisovat každou položku z účtenky — evidence má pomáhat chápat pohyb peněz, ne zabírat příliš mnoho času.",
       "Ruční přidání výdaje vyžaduje malý krok, zároveň vám ale pomáhá výdaje více vnímat a lépe chápat, kam peníze odcházejí."
     ]

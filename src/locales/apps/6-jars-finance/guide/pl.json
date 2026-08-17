@@ -155,7 +155,7 @@
   "example": {
     "title": "Jak to wygląda w praktyce",
     "openingParagraphs": [
-      "Załóżmy, że otrzymujesz dochód w wysokości 100 000.",
+      "Załóżmy, że otrzymujesz dochód w wysokości 3 000.",
       "Przy klasycznym podziale pieniądze zostaną rozdzielone w następujący sposób:"
     ],
     "table": {
@@ -168,32 +168,32 @@
         [
           "Niezbędne wydatki",
           "55%",
-          "55 000"
+          "1 650"
         ],
         [
           "Niezależność finansowa",
           "10%",
-          "10 000"
+          "300"
         ],
         [
           "Oszczędności długoterminowe",
           "10%",
-          "10 000"
+          "300"
         ],
         [
           "Edukacja",
           "10%",
-          "10 000"
+          "300"
         ],
         [
           "Rozrywka",
           "10%",
-          "10 000"
+          "300"
         ],
         [
           "Prezenty i pomoc",
           "5%",
-          "5 000"
+          "150"
         ]
       ]
     },
@@ -205,13 +205,13 @@
   },
   "misleadingBalance": {
     "title": "Dlaczego całkowite saldo może wprowadzać w błąd",
-    "screenshotAlt": "Ekran główny aplikacji, na którym na rozrywkę zostało 700 rubli, a pozostałe pieniądze są podzielone między inne słoiki",
+    "screenshotAlt": "Ekran główny aplikacji z całkowitym saldem 1 720, w którym w słoiku „Rozrywka” zostało tylko 20",
     "paragraphs": [
       "Gdy wszystkie pieniądze znajdują się na jednym koncie bankowym, dostępna kwota może wydawać się większa, niż jest w rzeczywistości.",
-      "Załóżmy, że na koncie znajduje się 57 350. Formalnie cała ta kwota jest dostępna. Jednak część może być już przeznaczona na mieszkanie, część na przyszłe wakacje, a część na rezerwę finansową.",
+      "Załóżmy, że na koncie znajduje się 1 720. Formalnie cała ta kwota jest dostępna. Jednak część może być już przeznaczona na mieszkanie, część na przyszłe wakacje, a część na rezerwę finansową.",
       "Jeśli traktujesz całe saldo jako wolne środki, łatwo wydać pieniądze, które były już potrzebne do innych celów.",
       "Metoda 6 słoików pomaga mentalnie podzielić całkowite saldo.",
-      "Na koncie bankowym możesz widzieć 57 350, ale na rozrywkę dostępne jest z tego tylko 700. Pozostałe pieniądze zostały już przydzielone do innych kategorii wydatków."
+      "Na koncie bankowym możesz widzieć 1 720, ale na rozrywkę dostępne jest z tego tylko 20. Pozostałe pieniądze zostały już przydzielone do innych kategorii wydatków."
     ]
   },
   "savingsFirst": {
@@ -247,7 +247,7 @@
   },
   "borrowFromYourself": {
     "title": "Możliwość pożyczenia pieniędzy od samego siebie",
-    "screenshotAlt": "Ekran słoika „Rozrywka” z ujemnym saldem 800 rubli i historią wydatków",
+    "screenshotAlt": "Ekran słoika „Rozrywka” z ujemnym saldem 25 i historią wydatków",
     "paragraphs": [
       "Po przejściu na metodę 6 słoików stopniowo budujesz zapas pieniędzy rozdzielony między różne cele. Dzięki temu przy chwilowym braku środków nie zawsze trzeba pożyczać od innych osób lub korzystać z kredytu.",
       "Jeśli w jednym słoiku nie ma wystarczająco dużo pieniędzy na ważny zakup, możesz tymczasowo dopuścić do ujemnego salda. W praktyce pożyczasz pieniądze od samego siebie: zakup jest pokrywany z całkowitej dostępnej kwoty, ale przekroczenie budżetu pozostaje zapisane właśnie w słoiku, do którego należy ten wydatek.",
@@ -382,10 +382,10 @@
   },
   "trackEveryPurchase": {
     "title": "Czy trzeba wpisywać każdy zakup osobno?",
-    "screenshotAlt": "Ekran dodawania wydatku 2500 rubli ze słoika „Bieżące wydatki” z tagiem „Produkty”",
+    "screenshotAlt": "Ekran dodawania wydatku 75 ze słoika „Bieżące wydatki” z tagiem „Produkty”",
     "paragraphs": [
       "Nie. Do korzystania z metody wystarczy podać łączną kwotę wydatku i wybrać słoik, z którego zostały wydane pieniądze.",
-      "Na przykład zwykłe zakupy w sklepie możesz zapisać jako jedną operację na 3 500. Jeśli zależy Ci na większej dokładności, możesz rozbić tę kwotę na kilka operacji: 2 500 na żywność i 1 000 na artykuły gospodarstwa domowego. Do dodatkowego uszczegółowienia możesz używać tagów.",
+      "Na przykład zwykłe zakupy w sklepie możesz zapisać jako jedną operację na 105. Jeśli zależy Ci na większej dokładności, możesz rozbić tę kwotę na kilka operacji: 75 na żywność i 30 na artykuły gospodarstwa domowego. Do dodatkowego uszczegółowienia możesz używać tagów.",
       "Sam wybierasz odpowiedni poziom dokładności. Aplikacja nie wymaga przepisywania każdej pozycji z paragonu — ewidencja ma pomagać rozumieć przepływ pieniędzy, a nie zajmować zbyt dużo czasu.",
       "Ręczne dodanie wydatku wymaga niewielkiego działania, ale jednocześnie pomaga zauważać swoje wydatki i lepiej rozumieć, na co trafiają pieniądze."
     ]

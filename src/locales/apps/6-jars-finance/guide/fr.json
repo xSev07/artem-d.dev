@@ -155,7 +155,7 @@
   "example": {
     "title": "À quoi cela ressemble en pratique",
     "openingParagraphs": [
-      "Supposons que vous receviez un revenu de 100 000.",
+      "Supposons que vous receviez un revenu de 3 000.",
       "Avec la répartition classique, l'argent sera divisé de la manière suivante :"
     ],
     "table": {
@@ -168,32 +168,32 @@
         [
           "Dépenses essentielles",
           "55%",
-          "55 000"
+          "1 650"
         ],
         [
           "Indépendance financière",
           "10%",
-          "10 000"
+          "300"
         ],
         [
           "Épargne à long terme",
           "10%",
-          "10 000"
+          "300"
         ],
         [
           "Éducation",
           "10%",
-          "10 000"
+          "300"
         ],
         [
           "Loisirs",
           "10%",
-          "10 000"
+          "300"
         ],
         [
           "Cadeaux et aide",
           "5%",
-          "5 000"
+          "150"
         ]
       ]
     },
@@ -205,13 +205,13 @@
   },
   "misleadingBalance": {
     "title": "Pourquoi le solde total peut être trompeur",
-    "screenshotAlt": "Écran d'accueil de l'application indiquant qu'il reste 700 roubles pour les loisirs, tandis que le reste de l'argent est réparti entre d'autres enveloppes",
+    "screenshotAlt": "Écran d'accueil de l'application affichant un solde total de 1 720, avec seulement 20 restants dans l'enveloppe « Loisirs »",
     "paragraphs": [
       "Lorsque tout votre argent se trouve sur un seul compte bancaire, le montant disponible peut sembler plus important qu'il ne l'est réellement.",
-      "Supposons que votre compte contienne 57 350. Techniquement, tout cet argent est disponible. Mais une partie peut déjà être destinée au logement, une autre à de futures vacances et une autre encore à votre réserve financière.",
+      "Supposons que votre compte contienne 1 720. Techniquement, tout cet argent est disponible. Mais une partie peut déjà être destinée au logement, une autre à de futures vacances et une autre encore à votre réserve financière.",
       "Si vous considérez l'ensemble du solde comme de l'argent librement disponible, il est facile de dépenser des fonds déjà destinés à d'autres objectifs.",
       "La méthode des 6 enveloppes vous aide à diviser mentalement votre solde total.",
-      "Vous pouvez voir 57 350 sur votre compte bancaire, alors que seulement 700 sont réellement disponibles pour les loisirs. Le reste est déjà réparti entre d'autres catégories de dépenses."
+      "Vous pouvez voir 1 720 sur votre compte bancaire, alors que seulement 20 sont réellement disponibles pour les loisirs. Le reste est déjà réparti entre d'autres catégories de dépenses."
     ]
   },
   "savingsFirst": {
@@ -247,7 +247,7 @@
   },
   "borrowFromYourself": {
     "title": "La possibilité de vous emprunter de l'argent à vous-même",
-    "screenshotAlt": "Écran de l'enveloppe « Loisirs » avec un solde négatif de 800 roubles et l'historique des dépenses",
+    "screenshotAlt": "Écran de l'enveloppe « Loisirs » avec un solde négatif de 25 et l'historique des dépenses",
     "paragraphs": [
       "En utilisant la méthode des 6 enveloppes, vous constituez progressivement une réserve d'argent répartie entre différents objectifs. En cas de manque temporaire, vous n'avez donc pas toujours besoin d'emprunter à d'autres personnes ou de recourir au crédit.",
       "Si une enveloppe ne contient pas assez d'argent pour un achat important, vous pouvez temporairement laisser son solde passer en négatif. En pratique, vous vous empruntez de l'argent à vous-même : l'achat est payé avec l'ensemble de vos fonds disponibles, mais le dépassement reste enregistré dans l'enveloppe à laquelle appartient la dépense.",
@@ -382,10 +382,10 @@
   },
   "trackEveryPurchase": {
     "title": "Faut-il enregistrer chaque achat séparément ?",
-    "screenshotAlt": "Écran d'ajout d'une dépense de 2500 roubles depuis l'enveloppe « Dépenses courantes » avec l'étiquette « Alimentation »",
+    "screenshotAlt": "Écran d'ajout d'une dépense de 75 depuis l'enveloppe « Dépenses courantes » avec l'étiquette « Alimentation »",
     "paragraphs": [
       "Non. Pour utiliser la méthode, il suffit d'indiquer le montant total de la dépense et de choisir l'enveloppe depuis laquelle l'argent a été utilisé.",
-      "Par exemple, une visite ordinaire au magasin peut être enregistrée comme une seule opération de 3 500. Si vous souhaitez davantage de précision, vous pouvez répartir la somme entre plusieurs opérations : 2 500 pour l'alimentation et 1 000 pour les produits ménagers. Vous pouvez également utiliser des étiquettes pour davantage de détails.",
+      "Par exemple, une visite ordinaire au magasin peut être enregistrée comme une seule opération de 105. Si vous souhaitez davantage de précision, vous pouvez répartir la somme entre plusieurs opérations : 75 pour l'alimentation et 30 pour les produits ménagers. Vous pouvez également utiliser des étiquettes pour davantage de détails.",
       "Vous choisissez vous-même le niveau de précision qui vous convient. L'application ne vous demande pas de recopier chaque article du ticket de caisse — le suivi doit vous aider à comprendre les mouvements d'argent sans prendre trop de temps.",
       "Ajouter manuellement une dépense demande une petite action supplémentaire, mais cela vous aide aussi à mieux remarquer vos dépenses et à comprendre où va votre argent."
     ]

@@ -155,7 +155,7 @@
   "example": {
     "title": "Cómo funciona en la práctica",
     "openingParagraphs": [
-      "Supongamos que recibes unos ingresos de 100 000.",
+      "Supongamos que recibes unos ingresos de 3 000.",
       "Con la distribución clásica, el dinero se dividiría de la siguiente manera:"
     ],
     "table": {
@@ -168,32 +168,32 @@
         [
           "Gastos necesarios",
           "55%",
-          "55 000"
+          "1 650"
         ],
         [
           "Independencia financiera",
           "10%",
-          "10 000"
+          "300"
         ],
         [
           "Ahorro a largo plazo",
           "10%",
-          "10 000"
+          "300"
         ],
         [
           "Formación",
           "10%",
-          "10 000"
+          "300"
         ],
         [
           "Ocio",
           "10%",
-          "10 000"
+          "300"
         ],
         [
           "Regalos y ayuda",
           "5%",
-          "5 000"
+          "150"
         ]
       ]
     },
@@ -205,13 +205,13 @@
   },
   "misleadingBalance": {
     "title": "Por qué el saldo total puede ser engañoso",
-    "screenshotAlt": "Pantalla principal de la aplicación donde quedan 700 rublos para ocio y el resto del dinero está distribuido entre otros fondos",
+    "screenshotAlt": "Pantalla principal de la aplicación que muestra un saldo total de 1 720, con solo 20 restantes en el fondo «Ocio»",
     "paragraphs": [
       "Cuando todo el dinero está en una sola cuenta bancaria, la cantidad disponible puede parecer mayor de lo que realmente es.",
-      "Supongamos que hay 57 350 en la cuenta. Formalmente, todo ese dinero está disponible. Pero una parte puede estar destinada a la vivienda, otra a unas futuras vacaciones y otra a la reserva financiera.",
+      "Supongamos que hay 1 720 en la cuenta. Formalmente, todo ese dinero está disponible. Pero una parte puede estar destinada a la vivienda, otra a unas futuras vacaciones y otra a la reserva financiera.",
       "Si percibes todo el saldo como dinero libre para gastar, es fácil utilizar fondos que ya estaban destinados a otros objetivos.",
       "El método de los 6 fondos te ayuda a dividir mentalmente el saldo total.",
-      "Puedes ver 57 350 en tu cuenta bancaria, pero de esa cantidad quizá solo 700 estén disponibles para ocio. El resto ya está distribuido entre otras categorías de gasto."
+      "Puedes ver 1 720 en tu cuenta bancaria, pero de esa cantidad quizá solo 20 estén disponibles para ocio. El resto ya está distribuido entre otras categorías de gasto."
     ]
   },
   "savingsFirst": {
@@ -247,7 +247,7 @@
   },
   "borrowFromYourself": {
     "title": "La posibilidad de pedirte dinero prestado a ti mismo",
-    "screenshotAlt": "Pantalla del fondo «Ocio» con un saldo negativo de 800 rublos y el historial de gastos",
+    "screenshotAlt": "Pantalla del fondo «Ocio» con un saldo negativo de 25 y el historial de gastos",
     "paragraphs": [
       "Al utilizar el método de los 6 fondos, vas creando poco a poco una reserva de dinero distribuida entre distintos objetivos. Gracias a eso, cuando falta dinero temporalmente, no siempre es necesario pedir prestado a otras personas o recurrir al crédito.",
       "Si en un fondo no hay suficiente dinero para una compra importante, puedes dejar temporalmente que su saldo pase a negativo. En la práctica te estás prestando dinero a ti mismo: la compra se paga con tus fondos totales disponibles, pero el exceso queda registrado precisamente en el fondo al que pertenece el gasto.",
@@ -382,10 +382,10 @@
   },
   "trackEveryPurchase": {
     "title": "¿Es necesario introducir cada compra por separado?",
-    "screenshotAlt": "Pantalla para añadir un gasto de 2500 rublos desde el fondo «Gastos corrientes» con la etiqueta «Alimentación»",
+    "screenshotAlt": "Pantalla para añadir un gasto de 75 desde el fondo «Gastos corrientes» con la etiqueta «Alimentación»",
     "paragraphs": [
       "No. Para utilizar el método basta con indicar el importe total del gasto y elegir el fondo desde el que se utilizó el dinero.",
-      "Por ejemplo, una visita normal al supermercado puede registrarse como una sola operación de 3 500. Si quieres más precisión, puedes dividir la cantidad en varias operaciones: 2 500 para alimentación y 1 000 para productos del hogar. Para añadir más detalle también puedes utilizar etiquetas.",
+      "Por ejemplo, una visita normal al supermercado puede registrarse como una sola operación de 105. Si quieres más precisión, puedes dividir la cantidad en varias operaciones: 75 para alimentación y 30 para productos del hogar. Para añadir más detalle también puedes utilizar etiquetas.",
       "Tú decides qué nivel de precisión te resulta útil. La aplicación no exige copiar cada línea del recibo — el registro debe ayudarte a entender el movimiento del dinero sin ocupar demasiado tiempo.",
       "Añadir un gasto manualmente requiere una pequeña acción, pero también ayuda a prestar más atención a tus gastos y a entender mejor dónde va el dinero."
     ]

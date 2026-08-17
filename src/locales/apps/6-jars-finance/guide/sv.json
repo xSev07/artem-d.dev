@@ -155,7 +155,7 @@
   "example": {
     "title": "Så ser det ut i praktiken",
     "openingParagraphs": [
-      "Anta att du får en inkomst på 100 000.",
+      "Anta att du får en inkomst på 3 000.",
       "Med den klassiska fördelningen delas pengarna upp så här:"
     ],
     "table": {
@@ -168,32 +168,32 @@
         [
           "Nödvändiga utgifter",
           "55%",
-          "55 000"
+          "1 650"
         ],
         [
           "Ekonomisk frihet",
           "10%",
-          "10 000"
+          "300"
         ],
         [
           "Långsiktigt sparande",
           "10%",
-          "10 000"
+          "300"
         ],
         [
           "Utbildning",
           "10%",
-          "10 000"
+          "300"
         ],
         [
           "Nöjen",
           "10%",
-          "10 000"
+          "300"
         ],
         [
           "Gåvor och hjälp",
           "5%",
-          "5 000"
+          "150"
         ]
       ]
     },
@@ -205,13 +205,13 @@
   },
   "misleadingBalance": {
     "title": "Varför det totala saldot kan vara missvisande",
-    "screenshotAlt": "Startsidan i appen där 700 rubel finns kvar för nöjen och resten av pengarna är fördelade mellan andra potter",
+    "screenshotAlt": "Startsidan i appen som visar ett totalt saldo på 1 720, med endast 20 kvar i potten ”Nöjen”",
     "paragraphs": [
       "När alla pengar finns på ett enda bankkonto kan det tillgängliga beloppet se större ut än det egentligen är.",
-      "Anta att det finns 57 350 på kontot. Formellt är hela beloppet tillgängligt. Men en del kan redan vara avsedd för boende, en del för en framtida semester och en del för din ekonomiska reserv.",
+      "Anta att det finns 1 720 på kontot. Formellt är hela beloppet tillgängligt. Men en del kan redan vara avsedd för boende, en del för en framtida semester och en del för din ekonomiska reserv.",
       "Om du ser hela saldot som fritt tillgängliga pengar är det lätt att spendera pengar som redan behövs till andra mål.",
       "6-pottsmetoden hjälper dig att mentalt dela upp det totala saldot.",
-      "Du kan se 57 350 på bankkontot, men bara 700 av dem kan vara tillgängliga för nöjen. Resten av pengarna har redan fördelats mellan andra utgiftskategorier."
+      "Du kan se 1 720 på bankkontot, men bara 20 av dem kan vara tillgängliga för nöjen. Resten av pengarna har redan fördelats mellan andra utgiftskategorier."
     ]
   },
   "savingsFirst": {
@@ -247,7 +247,7 @@
   },
   "borrowFromYourself": {
     "title": "Möjligheten att låna pengar av dig själv",
-    "screenshotAlt": "Skärmen för potten ”Nöjen” med ett negativt saldo på 800 rubel och en historik över utgifter",
+    "screenshotAlt": "Skärmen för potten ”Nöjen” med ett negativt saldo på 25 och en historik över utgifter",
     "paragraphs": [
       "När du använder 6-pottsmetoden bygger du gradvis upp ett kapital som är fördelat mellan olika uppgifter. Vid ett tillfälligt underskott behöver du därför inte alltid låna av andra eller använda kredit.",
       "Om en pott inte innehåller tillräckligt med pengar för ett viktigt köp kan du tillfälligt låta saldot gå under noll. I praktiken lånar du pengar av dig själv: köpet betalas från dina totala tillgängliga medel, men överskridandet registreras fortfarande i den pott som utgiften hör till.",
@@ -382,10 +382,10 @@
   },
   "trackEveryPurchase": {
     "title": "Måste varje köp registreras separat?",
-    "screenshotAlt": "Skärmen för att lägga till en utgift på 2500 rubel från potten ”Löpande utgifter” med taggen ”Mat”",
+    "screenshotAlt": "Skärmen för att lägga till en utgift på 75 från potten ”Löpande utgifter” med taggen ”Mat”",
     "paragraphs": [
       "Nej. För att använda metoden räcker det att ange utgiftens totalsumma och välja vilken pott pengarna togs från.",
-      "Ett vanligt butiksbesök kan till exempel registreras som en enda transaktion på 3 500. Om du vill ha mer detalj kan du dela upp summan i flera transaktioner: 2 500 för mat och 1 000 för hushållsvaror. För ytterligare detaljer kan du använda taggar.",
+      "Ett vanligt butiksbesök kan till exempel registreras som en enda transaktion på 105. Om du vill ha mer detalj kan du dela upp summan i flera transaktioner: 75 för mat och 30 för hushållsvaror. För ytterligare detaljer kan du använda taggar.",
       "Du bestämmer själv vilken detaljnivå som är lagom. Appen kräver inte att du skriver av varje rad på kvittot — registreringen ska hjälpa dig att förstå pengarnas rörelse utan att ta för mycket tid.",
       "Att lägga till en utgift manuellt kräver en liten extra handling, men hjälper dig samtidigt att uppmärksamma dina utgifter och bättre förstå vart pengarna tar vägen."
     ]

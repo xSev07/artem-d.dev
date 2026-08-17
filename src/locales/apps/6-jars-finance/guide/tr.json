@@ -155,7 +155,7 @@
   "example": {
     "title": "Pratikte nasıl görünür",
     "openingParagraphs": [
-      "100 000 tutarında gelir elde ettiğinizi varsayalım.",
+      "3 000 tutarında gelir elde ettiğinizi varsayalım.",
       "Klasik dağılıma göre para şu şekilde bölünür:"
     ],
     "table": {
@@ -168,32 +168,32 @@
         [
           "Zorunlu giderler",
           "55%",
-          "55 000"
+          "1 650"
         ],
         [
           "Finansal bağımsızlık",
           "10%",
-          "10 000"
+          "300"
         ],
         [
           "Uzun vadeli birikimler",
           "10%",
-          "10 000"
+          "300"
         ],
         [
           "Eğitim",
           "10%",
-          "10 000"
+          "300"
         ],
         [
           "Eğlence",
           "10%",
-          "10 000"
+          "300"
         ],
         [
           "Hediyeler ve yardım",
           "5%",
-          "5 000"
+          "150"
         ]
       ]
     },
@@ -205,13 +205,13 @@
   },
   "misleadingBalance": {
     "title": "Toplam bakiye neden yanıltıcı olabilir",
-    "screenshotAlt": "Eğlence için 700 ruble kaldığını, kalan paranın ise diğer kavanozlara dağıtıldığını gösteren uygulama ana ekranı",
+    "screenshotAlt": "Toplam bakiyesi 1 720 olan uygulama ana ekranı; «Eğlence» kavanozunda yalnızca 20 kaldı",
     "paragraphs": [
       "Tüm paranız tek bir banka hesabında durduğunda, kullanılabilir tutar gerçekte olduğundan daha fazla görünebilir.",
-      "Hesabınızda 57 350 olduğunu varsayalım. Teknik olarak bu paranın tamamı kullanılabilir. Ancak bir kısmı konut giderleri, bir kısmı gelecekteki bir tatil ve bir kısmı da finansal rezerv için ayrılmış olabilir.",
+      "Hesabınızda 1 720 olduğunu varsayalım. Teknik olarak bu paranın tamamı kullanılabilir. Ancak bir kısmı konut giderleri, bir kısmı gelecekteki bir tatil ve bir kısmı da finansal rezerv için ayrılmış olabilir.",
       "Tüm bakiyeyi serbestçe harcanabilecek para olarak görürseniz, aslında başka amaçlar için gerekli olan parayı kolayca harcayabilirsiniz.",
       "6 kavanoz yöntemi toplam bakiyeyi zihinsel olarak bölmenize yardımcı olur.",
-      "Banka hesabınızda 57 350 görebilirsiniz, ancak bunun yalnızca 700'ü eğlence için kullanılabilir olabilir. Kalan para zaten diğer harcama kategorilerine ayrılmıştır."
+      "Banka hesabınızda 1 720 görebilirsiniz, ancak bunun yalnızca 20'si eğlence için kullanılabilir olabilir. Kalan para zaten diğer harcama kategorilerine ayrılmıştır."
     ]
   },
   "savingsFirst": {
@@ -247,7 +247,7 @@
   },
   "borrowFromYourself": {
     "title": "Kendinizden borç alma imkânı",
-    "screenshotAlt": "800 ruble negatif bakiye ve harcama geçmişi gösteren «Eğlence» kavanozu ekranı",
+    "screenshotAlt": "«Eğlence» kavanozu ekranı; 25 negatif bakiye ve harcama geçmişi",
     "paragraphs": [
       "6 kavanoz yöntemini kullandıkça, farklı amaçlara dağıtılmış bir para rezervi zaman içinde oluşur. Bu sayede geçici para sıkıntısında her zaman başkalarından borç almanız veya kredi kullanmanız gerekmez.",
       "Bir kavanozda önemli bir alışveriş için yeterli para yoksa bakiyesinin geçici olarak negatife düşmesine izin verebilirsiniz. Aslında kendinizden borç alırsınız: alışveriş toplam kullanılabilir paranızdan karşılanır, ancak fazla harcama ilgili harcamanın ait olduğu kavanozda kayıtlı kalır.",
@@ -382,10 +382,10 @@
   },
   "trackEveryPurchase": {
     "title": "Her alışverişi ayrı ayrı girmek gerekir mi?",
-    "screenshotAlt": "«Günlük giderler» kavanozundan «Gıda» etiketiyle 2500 ruble tutarında harcama ekleme ekranı",
+    "screenshotAlt": "«Günlük giderler» kavanozundan «Gıda» etiketiyle 75 tutarında harcama ekleme ekranı",
     "paragraphs": [
       "Hayır. Yöntemi kullanmak için harcamanın toplam tutarını girmeniz ve paranın hangi kavanozdan harcandığını seçmeniz yeterlidir.",
-      "Örneğin normal bir market alışverişini tek bir 3 500 işlemi olarak kaydedebilirsiniz. Daha ayrıntılı takip etmek isterseniz tutarı birkaç işleme bölebilirsiniz: gıda için 2 500 ve ev ürünleri için 1 000. Ek ayrıntı için etiketleri de kullanabilirsiniz.",
+      "Örneğin normal bir market alışverişini tek bir 105 işlemi olarak kaydedebilirsiniz. Daha ayrıntılı takip etmek isterseniz tutarı birkaç işleme bölebilirsiniz: gıda için 75 ve ev ürünleri için 30. Ek ayrıntı için etiketleri de kullanabilirsiniz.",
       "Size uygun ayrıntı seviyesini siz seçersiniz. Uygulama fişteki her ürünü tek tek girmenizi istemez — takip, paranın hareketini anlamanıza yardımcı olmalı ve fazla zaman almamalıdır.",
       "Bir harcamayı elle eklemek küçük bir işlem gerektirir, ancak aynı zamanda harcamalarınızı daha fazla fark etmenize ve paranın nereye gittiğini daha iyi anlamanıza yardımcı olur."
     ]

@@ -155,7 +155,7 @@
   "example": {
     "title": "Cum arată în practică",
     "openingParagraphs": [
-      "Să presupunem că primești un venit de 100 000.",
+      "Să presupunem că primești un venit de 3 000.",
       "Cu împărțirea clasică, banii vor fi distribuiți astfel:"
     ],
     "table": {
@@ -168,32 +168,32 @@
         [
           "Cheltuieli necesare",
           "55%",
-          "55 000"
+          "1 650"
         ],
         [
           "Independență financiară",
           "10%",
-          "10 000"
+          "300"
         ],
         [
           "Economii pe termen lung",
           "10%",
-          "10 000"
+          "300"
         ],
         [
           "Educație",
           "10%",
-          "10 000"
+          "300"
         ],
         [
           "Divertisment",
           "10%",
-          "10 000"
+          "300"
         ],
         [
           "Cadouri și ajutor",
           "5%",
-          "5 000"
+          "150"
         ]
       ]
     },
@@ -205,13 +205,13 @@
   },
   "misleadingBalance": {
     "title": "De ce soldul total poate fi înșelător",
-    "screenshotAlt": "Ecranul principal al aplicației, unde au rămas 700 de ruble pentru divertisment, iar restul banilor sunt distribuiți între alte fonduri",
+    "screenshotAlt": "Ecranul principal al aplicației care arată un sold total de 1 720, cu doar 20 rămași în fondul „Divertisment”",
     "paragraphs": [
       "Când toți banii se află într-un singur cont bancar, suma disponibilă poate părea mai mare decât este în realitate.",
-      "Să presupunem că în cont sunt 57 350. Formal, toți acești bani sunt disponibili. Dar o parte poate fi deja destinată locuinței, o parte unei vacanțe viitoare și o parte rezervei financiare.",
+      "Să presupunem că în cont sunt 1 720. Formal, toți acești bani sunt disponibili. Dar o parte poate fi deja destinată locuinței, o parte unei vacanțe viitoare și o parte rezervei financiare.",
       "Dacă percepi întregul sold drept bani disponibili pentru orice, este ușor să cheltuiești fonduri care erau deja necesare pentru alte obiective.",
       "Metoda celor 6 fonduri te ajută să împarți mental soldul total.",
-      "Poți vedea 57 350 în contul bancar, dar numai 700 din această sumă pot fi disponibili pentru divertisment. Restul banilor sunt deja distribuiți între alte categorii de cheltuieli."
+      "Poți vedea 1 720 în contul bancar, dar numai 20 din această sumă pot fi disponibili pentru divertisment. Restul banilor sunt deja distribuiți între alte categorii de cheltuieli."
     ]
   },
   "savingsFirst": {
@@ -247,7 +247,7 @@
   },
   "borrowFromYourself": {
     "title": "Posibilitatea de a împrumuta bani de la tine însuți",
-    "screenshotAlt": "Ecranul fondului „Divertisment” cu un sold negativ de 800 de ruble și istoricul cheltuielilor",
+    "screenshotAlt": "Ecranul fondului „Divertisment” cu un sold negativ de 25 și istoricul cheltuielilor",
     "paragraphs": [
       "Pe măsură ce folosești metoda celor 6 fonduri, îți formezi treptat o rezervă de bani distribuită între diferite obiective. Astfel, atunci când apare un deficit temporar, nu este întotdeauna necesar să împrumuți de la alte persoane sau să apelezi la credit.",
       "Dacă într-un fond nu sunt suficienți bani pentru o cumpărătură importantă, poți lăsa temporar soldul să devină negativ. Practic, împrumuți bani de la tine însuți: cumpărătura este plătită din totalul fondurilor disponibile, dar depășirea rămâne înregistrată în fondul căruia îi aparține cheltuiala.",
@@ -382,10 +382,10 @@
   },
   "trackEveryPurchase": {
     "title": "Trebuie să introduci fiecare cumpărătură separat?",
-    "screenshotAlt": "Ecranul pentru adăugarea unei cheltuieli de 2500 de ruble din fondul „Cheltuieli curente” cu eticheta „Alimente”",
+    "screenshotAlt": "Ecranul pentru adăugarea unei cheltuieli de 75 din fondul „Cheltuieli curente” cu eticheta „Alimente”",
     "paragraphs": [
       "Nu. Pentru a folosi metoda este suficient să indici suma totală a cheltuielii și să alegi fondul din care au fost cheltuiți banii.",
-      "De exemplu, o cumpărătură obișnuită la magazin poate fi înregistrată ca o singură operațiune de 3 500. Dacă vrei mai multe detalii, poți împărți suma în mai multe operațiuni: 2 500 pentru alimente și 1 000 pentru produse de uz casnic. Pentru o detaliere suplimentară poți folosi etichete.",
+      "De exemplu, o cumpărătură obișnuită la magazin poate fi înregistrată ca o singură operațiune de 105. Dacă vrei mai multe detalii, poți împărți suma în mai multe operațiuni: 75 pentru alimente și 30 pentru produse de uz casnic. Pentru o detaliere suplimentară poți folosi etichete.",
       "Tu alegi nivelul de precizie care îți este util. Aplicația nu îți cere să copiezi fiecare poziție de pe bon — evidența trebuie să te ajute să înțelegi mișcarea banilor fără să îți consume prea mult timp.",
       "Adăugarea manuală a unei cheltuieli necesită un mic efort, dar te ajută în același timp să îți observi mai bine cheltuielile și să înțelegi unde se duc banii."
     ]

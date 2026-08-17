@@ -155,7 +155,7 @@
   "example": {
     "title": "Hoe dit er in de praktijk uitziet",
     "openingParagraphs": [
-      "Stel dat je een inkomen van 100 000 ontvangt.",
+      "Stel dat je een inkomen van 3 000 ontvangt.",
       "Bij de klassieke verdeling wordt het geld als volgt verdeeld:"
     ],
     "table": {
@@ -168,32 +168,32 @@
         [
           "Noodzakelijke uitgaven",
           "55%",
-          "55 000"
+          "1 650"
         ],
         [
           "Financiële onafhankelijkheid",
           "10%",
-          "10 000"
+          "300"
         ],
         [
           "Langetermijnsparen",
           "10%",
-          "10 000"
+          "300"
         ],
         [
           "Educatie",
           "10%",
-          "10 000"
+          "300"
         ],
         [
           "Ontspanning",
           "10%",
-          "10 000"
+          "300"
         ],
         [
           "Cadeaus en hulp",
           "5%",
-          "5 000"
+          "150"
         ]
       ]
     },
@@ -205,13 +205,13 @@
   },
   "misleadingBalance": {
     "title": "Waarom je totale saldo misleidend kan zijn",
-    "screenshotAlt": "Startscherm van de app waarop nog 700 roebel beschikbaar is voor ontspanning en het overige geld over andere potten is verdeeld",
+    "screenshotAlt": "Startscherm van de app met een totaal saldo van 1 720, waarbij in de pot „Ontspanning” nog maar 20 over is",
     "paragraphs": [
       "Als al je geld op één bankrekening staat, kan het beschikbare bedrag groter lijken dan het in werkelijkheid is.",
-      "Stel dat er 57 350 op je rekening staat. Formeel is al dat geld beschikbaar. Maar een deel kan al bedoeld zijn voor woonkosten, een deel voor een toekomstige vakantie en een deel voor je financiële reserve.",
+      "Stel dat er 1 720 op je rekening staat. Formeel is al dat geld beschikbaar. Maar een deel kan al bedoeld zijn voor woonkosten, een deel voor een toekomstige vakantie en een deel voor je financiële reserve.",
       "Als je het volledige saldo als vrij besteedbaar geld ziet, is het gemakkelijk om geld uit te geven dat eigenlijk al voor andere doelen nodig was.",
       "De 6-pottenmethode helpt je om je totale saldo mentaal op te delen.",
-      "Je kunt 57 350 op je bankrekening zien, terwijl daarvan maar 700 beschikbaar is voor ontspanning. De rest van het geld is al verdeeld over andere uitgavencategorieën."
+      "Je kunt 1 720 op je bankrekening zien, terwijl daarvan maar 20 beschikbaar is voor ontspanning. De rest van het geld is al verdeeld over andere uitgavencategorieën."
     ]
   },
   "savingsFirst": {
@@ -247,7 +247,7 @@
   },
   "borrowFromYourself": {
     "title": "De mogelijkheid om geld van jezelf te lenen",
-    "screenshotAlt": "Scherm van de pot „Ontspanning” met een negatief saldo van 800 roebel en een overzicht van uitgaven",
+    "screenshotAlt": "Scherm van de pot „Ontspanning” met een negatief saldo van 25 en een overzicht van uitgaven",
     "paragraphs": [
       "Wanneer je de 6-pottenmethode langere tijd gebruikt, bouw je geleidelijk een geldreserve op die over verschillende doelen is verdeeld. Daardoor hoef je bij een tijdelijk tekort niet altijd geld van anderen te lenen of krediet te gebruiken.",
       "Als er in één pot niet genoeg geld zit voor een belangrijke aankoop, kun je het saldo tijdelijk onder nul laten gaan. In feite leen je geld van jezelf: de aankoop wordt betaald uit je totale beschikbare middelen, maar de overschrijding blijft geregistreerd in de pot waar de uitgave bij hoort.",
@@ -382,10 +382,10 @@
   },
   "trackEveryPurchase": {
     "title": "Moet je elke aankoop afzonderlijk invoeren?",
-    "screenshotAlt": "Scherm voor het toevoegen van een uitgave van 2500 roebel uit de pot „Dagelijkse uitgaven” met de tag „Boodschappen”",
+    "screenshotAlt": "Scherm voor het toevoegen van een uitgave van 75 uit de pot „Dagelijkse uitgaven” met de tag „Boodschappen”",
     "paragraphs": [
       "Nee. Voor de methode hoef je alleen het totale bedrag van een uitgave in te voeren en de pot te kiezen waaruit het geld is uitgegeven.",
-      "Een gewone winkeltrip kun je bijvoorbeeld als één uitgave van 3 500 registreren. Als je meer detail wilt, kun je het bedrag opsplitsen in meerdere transacties: 2 500 voor boodschappen en 1 000 voor huishoudelijke artikelen. Voor extra detaillering kun je tags gebruiken.",
+      "Een gewone winkeltrip kun je bijvoorbeeld als één uitgave van 105 registreren. Als je meer detail wilt, kun je het bedrag opsplitsen in meerdere transacties: 75 voor boodschappen en 30 voor huishoudelijke artikelen. Voor extra detaillering kun je tags gebruiken.",
       "Je bepaalt zelf welk detailniveau voor jou nuttig is. De app vereist niet dat je elk artikel van een kassabon overneemt — bijhouden moet je helpen om geldstromen te begrijpen en niet te veel tijd kosten.",
       "Een uitgave handmatig invoeren kost een kleine extra handeling, maar helpt je tegelijkertijd om je uitgaven bewuster op te merken en beter te begrijpen waar je geld naartoe gaat."
     ]
