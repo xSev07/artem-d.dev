@@ -1,0 +1,82 @@
+{
+  "common": {
+    "langSwitch": {
+      "label": "Lingua"
+    }
+  },
+  "apps": {
+    "sixJarsFinance": {
+      "download": {
+  "title": "6 Jars Finance — budget con il metodo dei sei fondi",
+  "metaDescription": "Dividi lo stipendio tra spese quotidiane, risparmi e obiettivi finanziari prima di iniziare a spenderlo.",
+  "hero": {
+    "title": "Tieni sotto controllo le spese di oggi e affronta il futuro con più tranquillità",
+    "lead": "6 Jars Finance ti aiuta a dividere lo stipendio in anticipo: sai quanto puoi spendere per bar e svago, puoi mettere da parte denaro per una vacanza o un acquisto importante e creare gradualmente una riserva per le spese impreviste.",
+    "screenshotAlt": "Schermata principale di 6 Jars Finance con sei fondi e i relativi saldi"
+  },
+  "benefits": [
+    {
+      "title": "Sai quanto puoi spendere",
+      "text": "Vedi importi separati per le spese quotidiane, i bar, lo svago e altre categorie. Non devi controllare ogni volta il saldo totale e chiederti se puoi permetterti un acquisto."
+    },
+    {
+      "title": "I risparmi vengono messi da parte in anticipo",
+      "text": "Puoi destinare subito una parte dello stipendio a una vacanza, un acquisto importante o un altro obiettivo. Questi soldi restano separati dalle spese quotidiane e non scompaiono senza che te ne accorga entro la fine del mese."
+    },
+    {
+      "title": "Crei gradualmente una riserva di denaro",
+      "text": "Mettendo da parte regolarmente anche solo una piccola parte dello stipendio, puoi creare una riserva per malattie, guasti agli elettrodomestici, ritardi nel pagamento dello stipendio e altre situazioni impreviste."
+    }
+  ],
+  "about": {
+    "title": "Creata sulla base dell'esperienza personale",
+    "paragraphs": [
+      "Mi chiamo Artem D. Lavoro professionalmente nello sviluppo software dal 2017 e ho creato 6 Jars Finance.",
+      "Uso il metodo dei sei fondi da più di 10 anni. Grazie a questo metodo non devo chiedermi ogni volta se posso permettermi un nuovo gioco da tavolo o andare al bar, se avrò abbastanza soldi per una vacanza o se riuscirò a pagare l'affitto in tempo in caso di ritardo dello stipendio.",
+      "Nel corso degli anni ho provato diverse app basate sul metodo dei sei fondi. Quello che mi infastidiva di più era che il numero di fondi fosse sempre rigidamente limitato a sei. Non era possibile aggiungerne un settimo o eliminare quelli inutili.",
+      "Per questo ho creato 6 Jars Finance, dove il sistema dei fondi può essere adattato quando cambiano le circostanze della vita e le priorità finanziarie. Uso regolarmente l'app in prima persona, quindi continuo ad aggiungere nuove funzionalità e a renderla più comoda da usare."
+    ]
+  },
+  "faq": {
+    "title": "Domande frequenti",
+    "items": [
+      {
+        "question": "Devo seguire rigorosamente la suddivisione classica in sei fondi?",
+        "answer": "No. La suddivisione classica è un punto di partenza già pronto, non un insieme di regole obbligatorie."
+      },
+      {
+        "question": "Posso personalizzare l'app in base alle mie esigenze?",
+        "answer": "Sì. Puoi rinominare i sei fondi di base, eliminare quelli che non ti servono e scegliere percentuali diverse. Se necessario, puoi anche creare fondi aggiuntivi."
+      },
+      {
+        "question": "Devo registrare ogni acquisto separatamente?",
+        "answer": "No. Puoi inserire più acquisti effettuati dallo stesso fondo come un unico importo complessivo. Per esempio, non devi registrare separatamente ogni acquisto al supermercato: puoi indicare semplicemente la somma totale spesa per la spesa alimentare."
+      },
+      {
+        "question": "Cosa posso fare se al momento non riesco a risparmiare?",
+        "answer": "Decidi tu quanto denaro destinare ai risparmi. Puoi iniziare con una piccola somma oppure, per il momento, distribuire tutto lo stipendio tra le spese correnti. L'app non richiede di mettere da parte una percentuale prestabilita."
+      },
+      {
+        "question": "In cosa si differenzia da una normale app per tenere traccia delle spese?",
+        "answer": "Le normali app finanziarie servono soprattutto a registrare le spese e vedere dove sono già finiti i soldi. 6 Jars Finance divide automaticamente lo stipendio tra gli ambiti della vita impostati in anticipo, così puoi sempre vedere quanto puoi spendere e per cosa, senza utilizzare il denaro messo da parte per una vacanza, un acquisto importante o altri obiettivi."
+      }
+    ]
+  },
+  "guide": {
+    "title": "Vuoi capire meglio il metodo?",
+    "text": "Se non sei sicuro di riuscire ad applicare il metodo dei sei fondi o non hai ancora capito bene come funziona, leggi la guida dettagliata. Al suo interno spiego, con esempi pratici e sulla base della mia esperienza personale, come utilizzare il metodo nella vita reale.",
+    "button": "Scopri di più sul metodo"
+  },
+  "cta": {
+    "title": "Inizia a usare il metodo dei sei fondi",
+    "text": "Gratis e senza pubblicità"
+  },
+  "modal": {
+    "title": "L'app non è ancora disponibile sull'App Store",
+    "text": "La versione per iPhone è in fase di sviluppo.",
+    "button": "Ho capito"
+  }
+}
+    }
+  }
+}

@@ -1,9 +1,7 @@
 {
   "common": {
     "langSwitch": {
-      "label": "Language",
-      "en": "EN",
-      "ru": "RU"
+      "label": "Language"
     },
     "labels": {
       "lastUpdated": "Last updated:",

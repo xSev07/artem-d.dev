@@ -1,0 +1,82 @@
+{
+  "common": {
+    "langSwitch": {
+      "label": "Jazyk"
+    }
+  },
+  "apps": {
+    "sixJarsFinance": {
+      "download": {
+  "title": "6 Jars Finance — rozpočet podle metody šesti fondů",
+  "metaDescription": "Rozdělte svou výplatu mezi každodenní výdaje, úspory a finanční cíle ještě předtím, než začnete utrácet.",
+  "hero": {
+    "title": "Mějte pod kontrolou dnešní výdaje a jistotu do budoucna",
+    "lead": "6 Jars Finance vám pomáhá rozdělit výplatu předem, abyste věděli, kolik můžete utratit za kavárny a zábavu, odložit si peníze na dovolenou nebo větší nákup a postupně si vytvořit rezervu na nečekané výdaje.",
+    "screenshotAlt": "Hlavní obrazovka aplikace 6 Jars Finance se šesti fondy a jejich zůstatky"
+  },
+  "benefits": [
+    {
+      "title": "Víte, kolik můžete utratit",
+      "text": "Vidíte samostatné částky na každodenní výdaje, kavárny, zábavu a další kategorie. Nemusíte pokaždé kontrolovat celkový zůstatek a přemýšlet, zda si daný nákup můžete dovolit."
+    },
+    {
+      "title": "Úspory vznikají předem",
+      "text": "Část výplaty můžete hned odložit na dovolenou, větší nákup nebo jiný cíl. Tyto peníze se nemíchají s každodenními výdaji a do konce měsíce nenápadně nezmizí."
+    },
+    {
+      "title": "Postupně si vytváříte finanční rezervu",
+      "text": "Pravidelným odkládáním i malé části výplaty si můžete vytvořit rezervu pro případ nemoci, poruchy spotřebičů, zpožděné výplaty nebo jiných nečekaných situací."
+    }
+  ],
+  "about": {
+    "title": "Vytvořeno na základě osobní zkušenosti",
+    "paragraphs": [
+      "Jmenuji se Artem D. Od roku 2017 se profesionálně věnuji vývoji softwaru a vytvořil jsem 6 Jars Finance.",
+      "Metodu šesti fondů používám více než 10 let. Díky ní nemusím pokaždé přemýšlet, zda si mohu dovolit koupit deskovou hru nebo zajít do kavárny, zda budu mít dost peněz na dovolenou nebo zda zvládnu včas zaplatit nájem, pokud se výplata opozdí.",
+      "Za ty roky jsem vyzkoušel různé aplikace založené na metodě šesti fondů. Nejvíc mi vadilo, že počet fondů byl vždy pevně omezen na šest. Nebylo možné přidat sedmý fond ani odstranit ten, který jsem nepotřeboval.",
+      "Proto jsem vytvořil 6 Jars Finance, kde můžete systém fondů upravovat podle toho, jak se mění vaše životní situace a finanční priority. Aplikaci sám pravidelně používám, takže do ní dál přidávám nové funkce a zlepšuji její používání."
+    ]
+  },
+  "faq": {
+    "title": "Časté dotazy",
+    "items": [
+      {
+        "question": "Musím přesně dodržovat klasické rozdělení do šesti fondů?",
+        "answer": "Ne. Klasické rozdělení je připravený výchozí bod, ne povinný soubor pravidel."
+      },
+      {
+        "question": "Mohu si aplikaci přizpůsobit podle sebe?",
+        "answer": "Ano. Šest základních fondů můžete přejmenovat, nepotřebné odstranit a nastavit jiné procentní podíly. V případě potřeby můžete také vytvářet další fondy."
+      },
+      {
+        "question": "Musím zapisovat každý nákup zvlášť?",
+        "answer": "Ne. Několik nákupů z jednoho fondu můžete zadat jako jednu celkovou částku. Například nemusíte zvlášť zapisovat každý nákup v supermarketu — stačí zadat celkovou částku utracenou za potraviny."
+      },
+      {
+        "question": "Co když si teď nemohu dovolit spořit?",
+        "answer": "Sami rozhodujete, kolik peněz chcete odkládat. Můžete začít malou částkou nebo zatím celou výplatu rozdělit mezi běžné výdaje — aplikace nevyžaduje, abyste spořili pevně stanovené procento."
+      },
+      {
+        "question": "V čem se to liší od běžné aplikace na sledování výdajů?",
+        "answer": "Běžné finanční aplikace vám především pomáhají zapisovat výdaje a sledovat, kam už peníze odešly. 6 Jars Finance automaticky rozděluje výplatu mezi předem nastavené oblasti života, takže vždy vidíte, kolik a na co můžete utratit, aniž byste sahali na peníze odložené na dovolenou, větší nákup nebo jiné cíle."
+      }
+    ]
+  },
+  "guide": {
+    "title": "Chcete metodě porozumět podrobněji?",
+    "text": "Pokud si nejste jistí, zda pro vás bude metoda šesti fondů fungovat, nebo úplně nerozumíte tomu, jak funguje, přečtěte si podrobný průvodce. Na praktických příkladech a na základě vlastní zkušenosti v něm vysvětluji, jak tuto metodu používat v reálném životě.",
+    "button": "Více o metodě"
+  },
+  "cta": {
+    "title": "Začněte používat metodu šesti fondů",
+    "text": "Zdarma a bez reklam"
+  },
+  "modal": {
+    "title": "Aplikace zatím není dostupná v App Store",
+    "text": "Verze pro iPhone je ve vývoji.",
+    "button": "Rozumím"
+  }
+}
+    }
+  }
+}
