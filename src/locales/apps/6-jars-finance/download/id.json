@@ -1,0 +1,71 @@
+{
+  "title": "6 Jars Finance — anggaran dengan metode enam pos",
+  "metaDescription": "Bagi gaji Anda untuk kebutuhan sehari-hari, tabungan, dan tujuan keuangan sebelum mulai membelanjakannya.",
+  "hero": {
+    "title": "Kendalikan pengeluaran hari ini dan hadapi masa depan dengan lebih tenang",
+    "lead": "6 Jars Finance membantu Anda membagi gaji sejak awal: mengetahui berapa banyak yang bisa digunakan untuk kafe dan hiburan, menyisihkan uang untuk liburan atau pembelian besar, serta secara bertahap membangun dana cadangan untuk pengeluaran tak terduga.",
+    "screenshotAlt": "Layar utama 6 Jars Finance dengan enam pos dan saldonya"
+  },
+  "benefits": [
+    {
+      "title": "Anda tahu berapa banyak yang bisa dibelanjakan",
+      "text": "Anda melihat jumlah yang terpisah untuk kebutuhan sehari-hari, kafe, hiburan, dan kategori lainnya. Anda tidak perlu terus memeriksa saldo total dan bertanya-tanya apakah Anda mampu membeli sesuatu."
+    },
+    {
+      "title": "Tabungan disisihkan sejak awal",
+      "text": "Sebagian gaji dapat langsung dialokasikan untuk liburan, pembelian besar, atau tujuan lainnya. Uang ini tetap terpisah dari pengeluaran sehari-hari dan tidak habis tanpa disadari menjelang akhir bulan."
+    },
+    {
+      "title": "Dana cadangan terbentuk secara bertahap",
+      "text": "Dengan rutin menyisihkan bahkan sebagian kecil dari gaji, Anda dapat membangun dana cadangan untuk sakit, kerusakan peralatan, keterlambatan pembayaran gaji, dan situasi tak terduga lainnya."
+    }
+  ],
+  "about": {
+    "title": "Dibuat berdasarkan pengalaman pribadi",
+    "paragraphs": [
+      "Nama saya Artem D. Saya bekerja secara profesional di bidang pengembangan perangkat lunak sejak 2017 dan membuat 6 Jars Finance.",
+      "Saya telah menggunakan metode enam pos selama lebih dari 10 tahun. Berkat metode ini, saya tidak perlu terus memikirkan apakah saya mampu membeli permainan papan baru atau pergi ke kafe, apakah uang saya cukup untuk liburan, atau apakah saya dapat membayar sewa tepat waktu jika gaji terlambat.",
+      "Selama bertahun-tahun, saya mencoba berbagai aplikasi yang menggunakan metode enam pos. Hal yang paling mengganggu saya adalah jumlah pos selalu dibatasi secara kaku menjadi enam. Tidak ada cara untuk menambahkan pos ketujuh atau menghapus pos yang tidak dibutuhkan.",
+      "Karena itu saya membuat 6 Jars Finance, tempat sistem pos dapat disesuaikan seiring perubahan keadaan hidup dan prioritas keuangan Anda. Saya sendiri menggunakan aplikasi ini secara rutin, jadi saya terus menambahkan fitur baru dan membuatnya lebih mudah digunakan."
+    ]
+  },
+  "faq": {
+    "title": "Pertanyaan yang sering diajukan",
+    "items": [
+      {
+        "question": "Apakah saya harus mengikuti pembagian klasik enam pos secara ketat?",
+        "answer": "Tidak. Pembagian klasik adalah titik awal yang siap digunakan, bukan seperangkat aturan wajib."
+      },
+      {
+        "question": "Apakah aplikasi bisa disesuaikan dengan kebutuhan saya?",
+        "answer": "Ya. Anda dapat mengganti nama enam pos dasar, menghapus pos yang tidak diperlukan, dan memilih persentase yang berbeda. Jika perlu, Anda juga dapat membuat pos tambahan."
+      },
+      {
+        "question": "Apakah saya harus mencatat setiap pembelian secara terpisah?",
+        "answer": "Tidak. Beberapa pembelian dari pos yang sama dapat dicatat sebagai satu jumlah total. Misalnya, Anda tidak perlu mencatat setiap pembelian di supermarket secara terpisah — cukup masukkan total pengeluaran untuk bahan makanan."
+      },
+      {
+        "question": "Bagaimana jika saat ini saya belum mampu menabung?",
+        "answer": "Anda sendiri yang menentukan berapa banyak uang yang ingin dialokasikan untuk tabungan. Anda bisa mulai dengan jumlah kecil atau, untuk sementara, membagi seluruh gaji untuk kebutuhan saat ini. Aplikasi tidak mengharuskan Anda menabung dengan persentase tertentu."
+      },
+      {
+        "question": "Apa bedanya dengan aplikasi pencatat pengeluaran biasa?",
+        "answer": "Aplikasi keuangan biasa terutama membantu Anda mencatat pengeluaran dan melihat ke mana uang sudah digunakan. 6 Jars Finance secara otomatis membagi gaji Anda ke berbagai kebutuhan hidup yang telah ditentukan sebelumnya, sehingga Anda selalu tahu berapa banyak yang bisa dibelanjakan dan untuk apa, tanpa menggunakan uang yang sudah disisihkan untuk liburan, pembelian besar, atau tujuan lainnya."
+      }
+    ]
+  },
+  "guide": {
+    "title": "Ingin memahami metode ini lebih dalam?",
+    "text": "Jika Anda ragu apakah bisa menerapkan metode enam pos atau belum sepenuhnya memahami cara kerjanya, baca panduan lengkapnya. Di sana saya menjelaskan cara menggunakan metode ini dalam kehidupan nyata melalui contoh praktis dan berdasarkan pengalaman saya sendiri.",
+    "button": "Pelajari metode lebih lanjut"
+  },
+  "cta": {
+    "title": "Mulai gunakan metode enam pos",
+    "text": "Gratis dan tanpa iklan"
+  },
+  "modal": {
+    "title": "Aplikasi belum tersedia di App Store",
+    "text": "Versi iPhone sedang dalam pengembangan.",
+    "button": "Mengerti"
+  }
+}

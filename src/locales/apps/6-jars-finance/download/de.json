@@ -1,0 +1,71 @@
+{
+  "title": "6 Jars Finance — Budget nach der Sechs-Töpfe-Methode",
+  "metaDescription": "Teilen Sie Ihr Gehalt auf alltägliche Ausgaben, Ersparnisse und finanzielle Ziele auf, bevor Sie anfangen, Geld auszugeben.",
+  "hero": {
+    "title": "Behalten Sie Ihre aktuellen Ausgaben im Griff und blicken Sie sicherer in die Zukunft",
+    "lead": "6 Jars Finance hilft Ihnen, Ihr Gehalt im Voraus aufzuteilen: Sie sehen, wie viel Sie für Cafés und Freizeit ausgeben können, legen Geld für einen Urlaub oder eine größere Anschaffung zurück und bauen nach und nach eine Reserve für unerwartete Ausgaben auf.",
+    "screenshotAlt": "Startbildschirm von 6 Jars Finance mit sechs Töpfen und ihren Guthaben"
+  },
+  "benefits": [
+    {
+      "title": "Sie wissen, wie viel Sie ausgeben können",
+      "text": "Sie sehen getrennte Beträge für alltägliche Ausgaben, Cafés, Freizeit und andere Kategorien. So müssen Sie nicht jedes Mal auf Ihr Gesamtguthaben schauen und überlegen, ob Sie sich einen Kauf leisten können."
+    },
+    {
+      "title": "Ersparnisse werden von Anfang an eingeplant",
+      "text": "Einen Teil Ihres Gehalts können Sie sofort für einen Urlaub, eine größere Anschaffung oder ein anderes Ziel zurücklegen. Dieses Geld bleibt von den alltäglichen Ausgaben getrennt und verschwindet nicht unbemerkt bis zum Monatsende."
+    },
+    {
+      "title": "Nach und nach entsteht eine finanzielle Reserve",
+      "text": "Wenn Sie regelmäßig auch nur einen kleinen Teil Ihres Gehalts zurücklegen, können Sie eine Reserve für Krankheit, kaputte Geräte, verspätete Gehaltszahlungen und andere unerwartete Situationen aufbauen."
+    }
+  ],
+  "about": {
+    "title": "Aus persönlicher Erfahrung entstanden",
+    "paragraphs": [
+      "Mein Name ist Artem D. Ich arbeite seit 2017 professionell als Softwareentwickler und habe 6 Jars Finance entwickelt.",
+      "Ich nutze die Sechs-Töpfe-Methode seit mehr als 10 Jahren. Dank dieser Methode muss ich nicht jedes Mal überlegen, ob ich mir ein neues Brettspiel oder einen Cafébesuch leisten kann, ob das Geld für einen Urlaub reicht oder ob ich bei einer verspäteten Gehaltszahlung die Miete rechtzeitig bezahlen kann.",
+      "Im Laufe der Jahre habe ich verschiedene Apps für die Sechs-Töpfe-Methode ausprobiert. Am meisten störte mich, dass die Anzahl der Töpfe immer strikt auf sechs begrenzt war. Man konnte weder einen siebten Topf hinzufügen noch einen nicht benötigten entfernen.",
+      "Deshalb habe ich 6 Jars Finance entwickelt. Hier lässt sich das System der Töpfe an veränderte Lebensumstände und finanzielle Prioritäten anpassen. Ich nutze die App selbst regelmäßig und füge deshalb weiterhin neue Funktionen hinzu und verbessere ihre Bedienung."
+    ]
+  },
+  "faq": {
+    "title": "Häufige Fragen",
+    "items": [
+      {
+        "question": "Muss ich mich genau an die klassische Aufteilung auf sechs Töpfe halten?",
+        "answer": "Nein. Die klassische Aufteilung ist ein fertiger Ausgangspunkt und kein verbindliches Regelwerk."
+      },
+      {
+        "question": "Kann ich die App an meine Bedürfnisse anpassen?",
+        "answer": "Ja. Sie können die sechs standardmäßigen Töpfe umbenennen, nicht benötigte entfernen und andere Prozentsätze festlegen. Bei Bedarf können Sie auch zusätzliche Töpfe erstellen."
+      },
+      {
+        "question": "Muss ich jeden Einkauf einzeln erfassen?",
+        "answer": "Nein. Mehrere Einkäufe aus demselben Topf können Sie als einen Gesamtbetrag eintragen. Sie müssen zum Beispiel nicht jeden Einkauf im Supermarkt einzeln erfassen, sondern können einfach den Gesamtbetrag für Lebensmittel angeben."
+      },
+      {
+        "question": "Was kann ich tun, wenn ich momentan kein Geld sparen kann?",
+        "answer": "Sie entscheiden selbst, wie viel Geld Sie sparen möchten. Sie können mit einem kleinen Betrag anfangen oder Ihr gesamtes Gehalt zunächst auf die laufenden Ausgaben verteilen. Die App verlangt nicht, dass Sie einen festgelegten Prozentsatz zurücklegen."
+      },
+      {
+        "question": "Wie unterscheidet sich das von einer normalen App zur Ausgabenerfassung?",
+        "answer": "Normale Finanz-Tracker helfen vor allem dabei, Ausgaben zu erfassen und zu sehen, wohin das Geld bereits geflossen ist. 6 Jars Finance verteilt Ihr Gehalt automatisch auf vorher festgelegte Lebensbereiche, damit Sie jederzeit sehen, wie viel Sie wofür ausgeben können, ohne Geld anzutasten, das für einen Urlaub, eine größere Anschaffung oder andere Ziele zurückgelegt wurde."
+      }
+    ]
+  },
+  "guide": {
+    "title": "Möchten Sie die Methode genauer verstehen?",
+    "text": "Wenn Sie unsicher sind, ob Sie die Sechs-Töpfe-Methode anwenden können, oder noch nicht genau verstehen, wie sie funktioniert, lesen Sie den ausführlichen Leitfaden. Darin erkläre ich anhand praktischer Beispiele und meiner eigenen Erfahrung, wie sich die Methode im Alltag anwenden lässt.",
+    "button": "Mehr über die Methode"
+  },
+  "cta": {
+    "title": "Beginnen Sie mit der Sechs-Töpfe-Methode",
+    "text": "Kostenlos und ohne Werbung"
+  },
+  "modal": {
+    "title": "Die App ist noch nicht im App Store verfügbar",
+    "text": "Die iPhone-Version befindet sich in Entwicklung.",
+    "button": "Verstanden"
+  }
+}

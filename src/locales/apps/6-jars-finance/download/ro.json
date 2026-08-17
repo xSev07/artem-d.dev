@@ -1,0 +1,71 @@
+{
+  "title": "6 Jars Finance — buget după metoda celor șase fonduri",
+  "metaDescription": "Împarte salariul între cheltuielile de zi cu zi, economii și obiective financiare înainte să începi să cheltuiești.",
+  "hero": {
+    "title": "Ține sub control cheltuielile de azi și privește viitorul cu mai multă siguranță",
+    "lead": "6 Jars Finance te ajută să îți împarți salariul din timp: să știi cât poți cheltui la cafenele și pentru divertisment, să pui bani deoparte pentru o vacanță sau o achiziție importantă și să construiești treptat o rezervă pentru cheltuieli neprevăzute.",
+    "screenshotAlt": "Ecranul principal al aplicației 6 Jars Finance cu șase fonduri și soldurile lor"
+  },
+  "benefits": [
+    {
+      "title": "Știi cât poți cheltui",
+      "text": "Vezi sume separate pentru cheltuielile de zi cu zi, cafenele, divertisment și alte categorii. Nu trebuie să verifici de fiecare dată soldul total și să te întrebi dacă îți poți permite o achiziție."
+    },
+    {
+      "title": "Economiile sunt puse deoparte din timp",
+      "text": "Poți direcționa imediat o parte din salariu către o vacanță, o achiziție importantă sau un alt obiectiv. Acești bani rămân separați de cheltuielile zilnice și nu dispar pe nesimțite până la sfârșitul lunii."
+    },
+    {
+      "title": "Îți construiești treptat o rezervă financiară",
+      "text": "Punând deoparte în mod regulat chiar și o mică parte din salariu, poți crea o rezervă pentru cazuri de boală, defectarea aparatelor, întârzierea salariului și alte situații neprevăzute."
+    }
+  ],
+  "about": {
+    "title": "Creată pe baza experienței personale",
+    "paragraphs": [
+      "Mă numesc Artem D. Lucrez profesionist în dezvoltarea de software din 2017 și am creat 6 Jars Finance.",
+      "Folosesc metoda celor șase fonduri de peste 10 ani. Datorită ei, nu trebuie să mă întreb de fiecare dată dacă îmi permit să cumpăr un joc de societate nou sau să merg la o cafenea, dacă voi avea suficienți bani pentru o vacanță sau dacă voi putea plăti chiria la timp în cazul în care salariul întârzie.",
+      "De-a lungul anilor am încercat diferite aplicații bazate pe metoda celor șase fonduri. Cel mai mult mă deranja faptul că numărul fondurilor era întotdeauna limitat strict la șase. Nu puteai adăuga un al șaptelea fond și nici elimina unul de care nu aveai nevoie.",
+      "De aceea am creat 6 Jars Finance, unde sistemul de fonduri poate fi adaptat pe măsură ce se schimbă circumstanțele vieții și prioritățile financiare. Folosesc și eu aplicația în mod regulat, așa că continui să adaug funcții noi și să o fac mai ușor de folosit."
+    ]
+  },
+  "faq": {
+    "title": "Întrebări frecvente",
+    "items": [
+      {
+        "question": "Trebuie să urmez strict împărțirea clasică în șase fonduri?",
+        "answer": "Nu. Schema clasică este un punct de plecare gata făcut, nu un set obligatoriu de reguli."
+      },
+      {
+        "question": "Pot adapta aplicația la nevoile mele?",
+        "answer": "Da. Poți redenumi cele șase fonduri de bază, le poți elimina pe cele de care nu ai nevoie și poți alege alte procente. Dacă este necesar, poți crea și fonduri suplimentare."
+      },
+      {
+        "question": "Trebuie să înregistrez fiecare cumpărătură separat?",
+        "answer": "Nu. Poți introduce mai multe cumpărături din același fond ca o singură sumă totală. De exemplu, nu trebuie să înregistrezi separat fiecare cumpărătură din supermarket: poți introduce pur și simplu suma totală cheltuită pe alimente."
+      },
+      {
+        "question": "Ce fac dacă momentan nu îmi permit să economisesc?",
+        "answer": "Tu decizi câți bani vrei să direcționezi către economii. Poți începe cu o sumă mică sau, pentru moment, să îți distribui întregul salariu între cheltuielile curente. Aplicația nu te obligă să economisești un procent prestabilit."
+      },
+      {
+        "question": "Prin ce diferă de o aplicație obișnuită pentru urmărirea cheltuielilor?",
+        "answer": "Aplicațiile financiare obișnuite te ajută în principal să înregistrezi cheltuielile și să vezi unde s-au dus deja banii. 6 Jars Finance îți distribuie automat salariul între domeniile vieții stabilite dinainte, astfel încât să vezi mereu cât și pentru ce poți cheltui, fără să folosești banii puși deoparte pentru o vacanță, o achiziție importantă sau alte obiective."
+      }
+    ]
+  },
+  "guide": {
+    "title": "Vrei să înțelegi mai bine metoda?",
+    "text": "Dacă nu ești sigur că vei putea aplica metoda celor șase fonduri sau încă nu înțelegi pe deplin cum funcționează, citește ghidul detaliat. În el explic, prin exemple practice și pe baza propriei experiențe, cum poate fi folosită metoda în viața reală.",
+    "button": "Află mai multe despre metodă"
+  },
+  "cta": {
+    "title": "Începe să folosești metoda celor șase fonduri",
+    "text": "Gratuit și fără reclame"
+  },
+  "modal": {
+    "title": "Aplicația nu este încă disponibilă în App Store",
+    "text": "Versiunea pentru iPhone este în curs de dezvoltare.",
+    "button": "Am înțeles"
+  }
+}
