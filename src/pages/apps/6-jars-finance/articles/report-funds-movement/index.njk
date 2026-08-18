@@ -1,0 +1,240 @@
+---
+layout: article.njk
+pagination:
+  data: languages
+  size: 1
+  alias: pageLang
+permalink: "/{{ pageLang.code }}/apps/6-jars-finance/articles/report-funds-movement/"
+showLangSwitch: true
+langSwitchPath: "/apps/6-jars-finance/articles/report-funds-movement/"
+year: 2026
+eleventyComputed:
+  title: "{{ 'apps.sixJarsFinance.articles.reportFundsMovement.title' | t(pageLang.code) }}"
+  description: "{{ 'apps.sixJarsFinance.articles.reportFundsMovement.metaDescription' | t(pageLang.code) }}"
+  lang: "{{ pageLang.code }}"
+---
+
+{% set langCode = pageLang.code %}
+{% set article = "apps.sixJarsFinance.articles.reportFundsMovement" | t(langCode) %}
+
+{% macro paragraphs(items) %}
+{% for item in items %}
+<p>{{ item | safe }}</p>
+{% endfor %}
+{% endmacro %}
+
+{% macro list(items) %}
+<ul>
+  {% for item in items %}
+  <li>{{ item | safe }}</li>
+  {% endfor %}
+</ul>
+{% endmacro %}
+
+{% macro orderedList(items) %}
+<ol>
+  {% for item in items %}
+  <li>{{ item | safe }}</li>
+  {% endfor %}
+</ol>
+{% endmacro %}
+
+<h1>{{ article.title }}</h1>
+{{ paragraphs(article.intro.paragraphs) }}
+<p>{{ article.intro.listIntro }}</p>
+{{ list(article.intro.items) }}
+{{ paragraphs(article.intro.closingParagraphs) }}
+
+<nav class="article-overview" aria-labelledby="article-overview-title">
+  <h2 id="article-overview-title">{{ article.overview.title }}</h2>
+  <ol>
+    <li><a href="#metrics">{{ article.overview.metrics }}</a></li>
+    <li><a href="#reading-chart">{{ article.overview.readingChart }}</a></li>
+    <li><a href="#same-result">{{ article.overview.sameResultDifferentMovement }}</a></li>
+    <li><a href="#monthly-insights">{{ article.overview.monthlyInsights }}</a></li>
+    <li><a href="#long-term-insights">{{ article.overview.longTermInsights }}</a></li>
+    <li><a href="#different-jars">{{ article.overview.differentJars }}</a></li>
+    <li><a href="#when-to-change-share">{{ article.overview.whenToChangeShare }}</a></li>
+    <li><a href="#limitations">{{ article.overview.limitations }}</a></li>
+    <li><a href="#questions">{{ article.overview.questions }}</a></li>
+  </ol>
+</nav>
+
+<div class="article-section">
+<h2 id="metrics">{{ article.metrics.title }}</h2>
+<div class="article-subsection">
+<h3>{{ article.metrics.openingBalance.title }}</h3>
+{{ paragraphs(article.metrics.openingBalance.paragraphs) }}
+</div>
+<div class="article-subsection">
+<h3>{{ article.metrics.deposits.title }}</h3>
+{{ paragraphs(article.metrics.deposits.paragraphs) }}
+<p>{{ article.metrics.deposits.listIntro }}</p>
+{{ list(article.metrics.deposits.items) }}
+{{ paragraphs(article.metrics.deposits.closingParagraphs) }}
+</div>
+<div class="article-subsection">
+<h3>{{ article.metrics.withdrawals.title }}</h3>
+{{ paragraphs(article.metrics.withdrawals.paragraphs) }}
+</div>
+<div class="article-subsection">
+<h3>{{ article.metrics.netChange.title }}</h3>
+{{ paragraphs(article.metrics.netChange.paragraphs) }}
+<p>{{ article.metrics.netChange.exampleIntro }}</p>
+{{ list(article.metrics.netChange.exampleItems) }}
+{{ paragraphs(article.metrics.netChange.closingParagraphs) }}
+</div>
+<div class="article-subsection">
+<h3>{{ article.metrics.closingBalance.title }}</h3>
+{{ paragraphs(article.metrics.closingBalance.paragraphs) }}
+</div>
+</div>
+
+<div class="article-section">
+<h2 id="reading-chart">{{ article.readingChart.title }}</h2>
+<p>{{ article.readingChart.lead }}</p>
+<div class="article-subsection">
+<h3>{{ article.readingChart.lineUp.title }}</h3>
+{{ paragraphs(article.readingChart.lineUp.paragraphs) }}
+</div>
+<div class="article-subsection">
+<h3>{{ article.readingChart.lineDown.title }}</h3>
+{{ paragraphs(article.readingChart.lineDown.paragraphs) }}
+</div>
+<div class="article-subsection">
+<h3>{{ article.readingChart.lineFlat.title }}</h3>
+<p>{{ article.readingChart.lineFlat.listIntro }}</p>
+{{ list(article.readingChart.lineFlat.items) }}
+{{ paragraphs(article.readingChart.lineFlat.closingParagraphs) }}
+</div>
+<div class="article-subsection">
+<h3>{{ article.readingChart.balanceNearZero.title }}</h3>
+<p>{{ article.readingChart.balanceNearZero.listIntro }}</p>
+{{ list(article.readingChart.balanceNearZero.items) }}
+{{ paragraphs(article.readingChart.balanceNearZero.closingParagraphs) }}
+</div>
+<div class="article-subsection">
+<h3>{{ article.readingChart.balanceNegative.title }}</h3>
+{{ paragraphs(article.readingChart.balanceNegative.paragraphs) }}
+<p>{{ article.readingChart.balanceNegative.listIntro }}</p>
+{{ list(article.readingChart.balanceNegative.items) }}
+{{ paragraphs(article.readingChart.balanceNegative.closingParagraphs) }}
+</div>
+<div class="article-subsection">
+<h3>{{ article.readingChart.temporaryMinusNotVisible.title }}</h3>
+{{ paragraphs(article.readingChart.temporaryMinusNotVisible.paragraphs) }}
+<p>{{ article.readingChart.temporaryMinusNotVisible.exampleIntro }}</p>
+{{ orderedList(article.readingChart.temporaryMinusNotVisible.orderedItems) }}
+{{ paragraphs(article.readingChart.temporaryMinusNotVisible.closingParagraphs) }}
+<p>{{ article.readingChart.temporaryMinusNotVisible.borrowLinkPrefix }}<a href="/{{ langCode }}/apps/6-jars-finance/articles/guide/#borrow-from-yourself">{{ article.readingChart.temporaryMinusNotVisible.borrowLinkText }}</a>{{ article.readingChart.temporaryMinusNotVisible.borrowLinkSuffix }}</p>
+</div>
+</div>
+
+<div class="article-section">
+<h2 id="same-result">{{ article.sameResultDifferentMovement.title }}</h2>
+{{ paragraphs(article.sameResultDifferentMovement.openingParagraphs) }}
+<p>{{ article.sameResultDifferentMovement.firstMonthIntro }}</p>
+{{ list(article.sameResultDifferentMovement.firstMonthItems) }}
+<p>{{ article.sameResultDifferentMovement.secondMonthIntro }}</p>
+{{ list(article.sameResultDifferentMovement.secondMonthItems) }}
+{{ paragraphs(article.sameResultDifferentMovement.closingParagraphs) }}
+<p>{{ article.sameResultDifferentMovement.summaryListIntro }}</p>
+{{ list(article.sameResultDifferentMovement.summaryItems) }}
+</div>
+
+<div class="article-section">
+<h2 id="monthly-insights">{{ article.monthlyInsights.title }}</h2>
+<p>{{ article.monthlyInsights.lead }}</p>
+<div class="article-subsection">
+<h3>{{ article.monthlyInsights.moneyRunsOutEarly.title }}</h3>
+{{ paragraphs(article.monthlyInsights.moneyRunsOutEarly.paragraphs) }}
+</div>
+<div class="article-subsection">
+<h3>{{ article.monthlyInsights.evenSpending.title }}</h3>
+{{ paragraphs(article.monthlyInsights.evenSpending.paragraphs) }}
+</div>
+<div class="article-subsection">
+<h3>{{ article.monthlyInsights.sharpDropAtStart.title }}</h3>
+{{ paragraphs(article.monthlyInsights.sharpDropAtStart.paragraphs) }}
+</div>
+<div class="article-subsection">
+<h3>{{ article.monthlyInsights.largeDrops.title }}</h3>
+{{ paragraphs(article.monthlyInsights.largeDrops.paragraphs) }}
+<p>{{ article.monthlyInsights.largeDrops.listIntro }}</p>
+{{ list(article.monthlyInsights.largeDrops.items) }}
+</div>
+</div>
+
+<div class="article-section">
+<h2 id="long-term-insights">{{ article.longTermInsights.title }}</h2>
+<p>{{ article.longTermInsights.lead }}</p>
+{{ paragraphs(article.longTermInsights.introParagraphs) }}
+<div class="article-subsection">
+<h3>{{ article.longTermInsights.balanceGrowing.title }}</h3>
+{{ paragraphs(article.longTermInsights.balanceGrowing.paragraphs) }}
+</div>
+<div class="article-subsection">
+<h3>{{ article.longTermInsights.balanceDeclining.title }}</h3>
+{{ paragraphs(article.longTermInsights.balanceDeclining.paragraphs) }}
+<p>{{ article.longTermInsights.balanceDeclining.listIntro }}</p>
+{{ list(article.longTermInsights.balanceDeclining.items) }}
+{{ paragraphs(article.longTermInsights.balanceDeclining.closingParagraphs) }}
+</div>
+<div class="article-subsection">
+<h3>{{ article.longTermInsights.extraDeposits.title }}</h3>
+{{ paragraphs(article.longTermInsights.extraDeposits.paragraphs) }}
+</div>
+</div>
+
+<div class="article-section">
+<h2 id="different-jars">{{ article.differentJars.title }}</h2>
+<p>{{ article.differentJars.lead }}</p>
+<div class="article-subsection">
+<h3>{{ article.differentJars.spendingJar.title }}</h3>
+<p>{{ article.differentJars.spendingJar.listIntro }}</p>
+{{ list(article.differentJars.spendingJar.items) }}
+{{ paragraphs(article.differentJars.spendingJar.closingParagraphs) }}
+</div>
+<div class="article-subsection">
+<h3>{{ article.differentJars.savingsJar.title }}</h3>
+<p>{{ article.differentJars.savingsJar.listIntro }}</p>
+{{ list(article.differentJars.savingsJar.items) }}
+{{ paragraphs(article.differentJars.savingsJar.closingParagraphs) }}
+</div>
+<div class="article-subsection">
+<h3>{{ article.differentJars.goalJar.title }}</h3>
+{{ paragraphs(article.differentJars.goalJar.paragraphs) }}
+<p>{{ article.differentJars.goalJar.examplesIntro }}</p>
+{{ list(article.differentJars.goalJar.examples) }}
+<p>{{ article.differentJars.goalJar.benefitsIntro }}</p>
+{{ list(article.differentJars.goalJar.benefits) }}
+{{ paragraphs(article.differentJars.goalJar.closingParagraphs) }}
+</div>
+</div>
+
+<div class="article-section">
+<h2 id="when-to-change-share">{{ article.whenToChangeShare.title }}</h2>
+{{ paragraphs(article.whenToChangeShare.openingParagraphs) }}
+<p>{{ article.whenToChangeShare.increaseListIntro }}</p>
+{{ list(article.whenToChangeShare.increaseItems) }}
+<p>{{ article.whenToChangeShare.decreaseListIntro }}</p>
+{{ list(article.whenToChangeShare.decreaseItems) }}
+{{ paragraphs(article.whenToChangeShare.closingParagraphs) }}
+</div>
+
+<div class="article-section">
+<h2 id="limitations">{{ article.limitations.title }}</h2>
+{{ paragraphs(article.limitations.openingParagraphs) }}
+<p>{{ article.limitations.canUnderstandIntro }}</p>
+{{ list(article.limitations.canUnderstandItems) }}
+<p>{{ article.limitations.cannotDetermineIntro }}</p>
+{{ list(article.limitations.cannotDetermineItems) }}
+{{ paragraphs(article.limitations.closingParagraphs) }}
+</div>
+
+<div class="article-section">
+<h2 id="questions">{{ article.questions.title }}</h2>
+<p>{{ article.questions.listIntro }}</p>
+{{ list(article.questions.items) }}
+{{ paragraphs(article.questions.closingParagraphs) }}
+</div>

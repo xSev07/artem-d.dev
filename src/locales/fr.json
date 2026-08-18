@@ -11,6 +11,7 @@
     "pages": {
       "privacy": "Politique de confidentialité",
       "help": "Informations sur l’erreur",
+      "reportFundsMovement": "Funds Movement Report",
       "licenses": "Licences open source"
     }
   },

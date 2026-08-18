@@ -11,6 +11,7 @@
     "pages": {
       "privacy": "Integritetspolicy",
       "help": "Information om fel",
+      "reportFundsMovement": "Funds Movement Report",
       "licenses": "Licenser för öppen källkod"
     }
   },

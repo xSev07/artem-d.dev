@@ -1,0 +1,1095 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Zo lees je het rapport ‘Geldstromen’</title>
+  <meta name="description" content="Het rapport ‘Geldstromen’ laat zien hoe het saldo van de geselecteerde pot gedurende een bepaalde periode is veranderd." />
+  
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  
+  <link rel="stylesheet" href="/assets/style.css" />
+</head>
+<body>
+  <header class="site-header">
+  <div class="container site-header__inner">
+    <a class="site-header__brand" href="/">Artem D Apps</a>
+    <div class="site-header__aside">
+      
+      
+      <nav class="site-header__nav" aria-label="Sitenavigatie">
+        <a
+          class="site-header__link"
+          href="/nl/apps/6-jars-finance/download/"
+          data-analytics-link="download"
+          data-analytics-placement="header"
+          
+        >App downloaden</a>
+        <a
+          class="site-header__link"
+          href="/nl/apps/6-jars-finance/articles/guide/"
+          
+        >Zes-pottenmethode</a>
+      </nav>
+      
+        
+
+<nav class="lang-switch" aria-label="Taal">
+  <label class="lang-switch__desktop">
+    <span class="lang-switch__visually-hidden">Taal</span>
+    <select class="lang-switch__select" data-lang-switch-select>
+      
+        <option
+          value="/en/apps/6-jars-finance/articles/report-funds-movement/"
+          
+        >English</option>
+      
+        <option
+          value="/id/apps/6-jars-finance/articles/report-funds-movement/"
+          
+        >Bahasa Indonesia</option>
+      
+        <option
+          value="/cs/apps/6-jars-finance/articles/report-funds-movement/"
+          
+        >Čeština</option>
+      
+        <option
+          value="/de/apps/6-jars-finance/articles/report-funds-movement/"
+          
+        >Deutsch</option>
+      
+        <option
+          value="/es/apps/6-jars-finance/articles/report-funds-movement/"
+          
+        >Español</option>
+      
+        <option
+          value="/fr/apps/6-jars-finance/articles/report-funds-movement/"
+          
+        >Français</option>
+      
+        <option
+          value="/it/apps/6-jars-finance/articles/report-funds-movement/"
+          
+        >Italiano</option>
+      
+        <option
+          value="/nl/apps/6-jars-finance/articles/report-funds-movement/"
+          selected
+        >Nederlands</option>
+      
+        <option
+          value="/pl/apps/6-jars-finance/articles/report-funds-movement/"
+          
+        >Polski</option>
+      
+        <option
+          value="/pt-BR/apps/6-jars-finance/articles/report-funds-movement/"
+          
+        >Português (Brasil)</option>
+      
+        <option
+          value="/ro/apps/6-jars-finance/articles/report-funds-movement/"
+          
+        >Română</option>
+      
+        <option
+          value="/ru/apps/6-jars-finance/articles/report-funds-movement/"
+          
+        >Русский</option>
+      
+        <option
+          value="/sv/apps/6-jars-finance/articles/report-funds-movement/"
+          
+        >Svenska</option>
+      
+        <option
+          value="/tr/apps/6-jars-finance/articles/report-funds-movement/"
+          
+        >Türkçe</option>
+      
+        <option
+          value="/uk/apps/6-jars-finance/articles/report-funds-movement/"
+          
+        >Українська</option>
+      
+    </select>
+  </label>
+
+  <button
+    type="button"
+    class="lang-switch__trigger"
+    data-open-lang-switch-modal
+    aria-haspopup="dialog"
+    aria-expanded="false"
+    aria-controls="lang-switch-modal"
+  >
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        <span class="lang-switch__code">
+  NL
+</span>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    <span class="lang-switch__arrow" aria-hidden="true">▾</span>
+  </button>
+
+  <div
+    class="modal-overlay lang-switch__modal-overlay"
+    id="lang-switch-modal"
+    hidden
+    aria-hidden="true"
+    data-lang-switch-modal
+  >
+    <div
+      class="modal lang-switch__modal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="lang-switch-modal-title"
+    >
+      <h2 class="modal__title" id="lang-switch-modal-title">Taal</h2>
+      <fieldset class="lang-switch__mobile" aria-label="Taal">
+        <div class="lang-switch__radio-list">
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/en/apps/6-jars-finance/articles/report-funds-movement/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">English</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/id/apps/6-jars-finance/articles/report-funds-movement/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Bahasa Indonesia</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/cs/apps/6-jars-finance/articles/report-funds-movement/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Čeština</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/de/apps/6-jars-finance/articles/report-funds-movement/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Deutsch</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/es/apps/6-jars-finance/articles/report-funds-movement/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Español</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/fr/apps/6-jars-finance/articles/report-funds-movement/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Français</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/it/apps/6-jars-finance/articles/report-funds-movement/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Italiano</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/nl/apps/6-jars-finance/articles/report-funds-movement/"
+                data-lang-switch-radio
+                checked
+              />
+              <span class="lang-switch__radio-text">Nederlands</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/pl/apps/6-jars-finance/articles/report-funds-movement/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Polski</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/pt-BR/apps/6-jars-finance/articles/report-funds-movement/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Português (Brasil)</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/ro/apps/6-jars-finance/articles/report-funds-movement/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Română</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/ru/apps/6-jars-finance/articles/report-funds-movement/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Русский</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/sv/apps/6-jars-finance/articles/report-funds-movement/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Svenska</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/tr/apps/6-jars-finance/articles/report-funds-movement/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Türkçe</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/uk/apps/6-jars-finance/articles/report-funds-movement/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Українська</span>
+            </label>
+          
+        </div>
+      </fieldset>
+    </div>
+  </div>
+
+  <script src="/assets/js/lang-switch.js" defer></script>
+</nav>
+
+      
+    </div>
+  </div>
+</header>
+
+
+  <main class="article">
+    <div class="container">
+      <div class="article-layout">
+  <div class="article-container">
+    
+
+
+
+
+
+
+
+
+
+<h1>Zo lees je het rapport ‘Geldstromen’</h1>
+
+
+<p>Het rapport ‘Geldstromen’ laat zien hoe het saldo van de geselecteerde pot gedurende een bepaalde periode is veranderd.</p>
+
+
+<p>Hiermee kun je zien:</p>
+
+<ul>
+  
+  <li>hoeveel geld er aan het begin van de periode in de pot zat;</li>
+  
+  <li>hoeveel geld er is toegevoegd;</li>
+  
+  <li>hoeveel er is uitgegeven;</li>
+  
+  <li>hoeveel het saldo is veranderd;</li>
+  
+  <li>hoeveel geld er aan het einde van de periode overbleef;</li>
+  
+  <li>op welke momenten duidelijke veranderingen plaatsvonden.</li>
+  
+</ul>
+
+
+
+<p>Het rapport wordt voor slechts één geselecteerde pot opgebouwd. Zie het daarom niet als een totaalbeeld van al je financiën, maar als de geschiedenis van de geldstromen binnen één specifiek deel van je budget.</p>
+
+
+
+<nav class="article-overview" aria-labelledby="article-overview-title">
+  <h2 id="article-overview-title">Inhoud</h2>
+  <ol>
+    <li><a href="#metrics">Wat de cijfers betekenen</a></li>
+    <li><a href="#reading-chart">Zo lees je de grafiek</a></li>
+    <li><a href="#same-result">Hetzelfde resultaat kan heel verschillende geldstromen verbergen</a></li>
+    <li><a href="#monthly-insights">Wat je uit de grafiek over een maand kunt afleiden</a></li>
+    <li><a href="#long-term-insights">Wat je uit de grafiek over meerdere maanden of een jaar kunt afleiden</a></li>
+    <li><a href="#different-jars">Verschillende potten moet je anders beoordelen</a></li>
+    <li><a href="#when-to-change-share">Wanneer je het aandeel van een pot kunt aanpassen</a></li>
+    <li><a href="#limitations">Beperkingen van het rapport</a></li>
+    <li><a href="#questions">Welke vragen je jezelf kunt stellen</a></li>
+  </ol>
+</nav>
+
+<div class="article-section">
+<h2 id="metrics">Wat de cijfers betekenen</h2>
+<div class="article-subsection">
+<h3>Beginsaldo</h3>
+
+
+<p>Het beginsaldo is het bedrag dat aan het begin van de geselecteerde periode in de pot zat.</p>
+
+<p>Dit is niet noodzakelijk het bedrag van de laatste storting en ook niet het huidige saldo van de pot. Als er bijvoorbeeld aan het begin van de maand nog geld uit de vorige maand in de pot zat, wordt dat ook in het beginsaldo opgenomen.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Stortingen</h3>
+
+
+<p>Stortingen tonen het totale bedrag dat gedurende de geselecteerde periode aan de pot is toegevoegd.</p>
+
+
+<p>Dit kan bijvoorbeeld zijn:</p>
+
+<ul>
+  
+  <li>een deel van het verdeelde inkomen;</li>
+  
+  <li>een extra storting;</li>
+  
+  <li>geld dat na een eerdere uitgave is teruggekomen;</li>
+  
+  <li>een overboeking vanuit een andere pot.</li>
+  
+</ul>
+
+
+
+<p>Het rapport toont het totale bedrag aan stortingen, maar niet waarom het geld is toegevoegd. Bekijk de transactielijst om de herkomst van een specifieke storting te achterhalen.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Uitgaven</h3>
+
+
+<p>Uitgaven tonen het totale bedrag dat gedurende de geselecteerde periode uit de pot is uitgegeven.</p>
+
+<p>Zelfs als het saldo aan het einde van de periode nauwelijks is veranderd, kan het totale bedrag aan uitgaven groot zijn. Dat betekent dat er actief geld is uitgegeven en de pot daarna opnieuw is aangevuld.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Nettoverandering</h3>
+
+
+<p>De nettoverandering laat zien hoeveel het saldo is gestegen of gedaald ten opzichte van het begin van de periode.</p>
+
+<p>Deze wordt berekend als het verschil tussen stortingen en uitgaven.</p>
+
+
+<p>Bijvoorbeeld:</p>
+
+<ul>
+  
+  <li>beginsaldo — 1 000;</li>
+  
+  <li>stortingen — 2 000;</li>
+  
+  <li>uitgaven — 2 300;</li>
+  
+  <li>nettoverandering — −300;</li>
+  
+  <li>eindsaldo — 700.</li>
+  
+</ul>
+
+
+
+<p>Voor een gewone uitgavenpot kan het over een langere periode normaal zijn wanneer de nettoverandering rond nul blijft of het saldo geleidelijk groeit.</p>
+
+<p>Als de nettoverandering regelmatig negatief blijft, wordt er structureel meer uit de pot uitgegeven dan erin komt. Dit kan betekenen dat er een te klein deel van het inkomen aan wordt toegewezen of dat de uitgaven opnieuw bekeken moeten worden.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Eindsaldo</h3>
+
+
+<p>Het eindsaldo is het bedrag dat aan het einde van de geselecteerde periode in de pot overblijft.</p>
+
+<p>Het omvat het beginsaldo, alle stortingen en alle uitgaven.</p>
+
+<p>Verwar het eindsaldo niet met de nettoverandering. Het saldo laat zien hoeveel geld er over is, terwijl de nettoverandering laat zien hoeveel dit bedrag verschilt van het beginsaldo.</p>
+
+
+</div>
+</div>
+
+<div class="article-section">
+<h2 id="reading-chart">Zo lees je de grafiek</h2>
+<p>De lijn in de grafiek laat zien hoe het saldo van de pot gedurende de geselecteerde periode veranderde.</p>
+<div class="article-subsection">
+<h3>De lijn gaat omhoog</h3>
+
+
+<p>Een stijgende lijn betekent dat er geld aan de pot is toegevoegd.</p>
+
+<p>Een sterke stijging hangt meestal samen met een grotere storting, bijvoorbeeld door de verdeling van inkomen of een overboeking vanuit een andere pot.</p>
+
+<p>Een geleidelijke of trapsgewijze stijging kan wijzen op meerdere afzonderlijke stortingen.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>De lijn gaat omlaag</h3>
+
+
+<p>Een dalende lijn betekent dat er geld is uitgegeven.</p>
+
+<p>Een geleidelijke daling betekent meestal dat het geld gedurende de periode beetje bij beetje wordt uitgegeven.</p>
+
+<p>Een scherpe daling wijst op een grote uitgave of meerdere uitgaven in korte tijd.</p>
+
+<p>De grafiek laat zien wanneer de verandering plaatsvond, maar niet waaraan het geld precies is uitgegeven. Daarvoor kun je de transactielijst of het rapport per tag bekijken.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>De lijn blijft ongeveer op hetzelfde niveau</h3>
+<p>Dit kan betekenen dat:</p>
+
+<ul>
+  
+  <li>er bijna geen uitgaven waren;</li>
+  
+  <li>stortingen de uitgaven ongeveer compenseerden;</li>
+  
+  <li>geld regelmatig werd uitgegeven en weer toegevoegd;</li>
+  
+  <li>de pot maar weinig werd gebruikt.</li>
+  
+</ul>
+
+
+
+<p>Een vlakke lijn betekent dus niet automatisch dat er geen activiteit was. Kijk ook naar het totale bedrag aan stortingen en uitgaven.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Het saldo blijft rond nul</h3>
+<p>Als de lijn lange tijd rond nul blijft, kunnen daar verschillende redenen voor zijn:</p>
+
+<ul>
+  
+  <li>het aandeel van de pot sluit redelijk goed aan op de werkelijke uitgaven;</li>
+  
+  <li>het geld is maar net voldoende;</li>
+  
+  <li>na elke storting wordt het geld snel uitgegeven;</li>
+  
+  <li>de pot moet regelmatig vanuit andere bronnen worden aangevuld.</li>
+  
+</ul>
+
+
+
+<p>Vergelijk de grafiek met de totale stortingen en uitgaven om de situatie beter te begrijpen.</p>
+
+<p>Als de pot regelmatig duidelijk meer stortingen ontvangt dan er normaal bij de inkomensverdeling aan wordt toegewezen, kan dat betekenen dat extra overboekingen nodig zijn.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Het saldo gaat onder nul</h3>
+
+
+<p>Een negatief saldo betekent dat er meer uit de pot is uitgegeven dan erin zat.</p>
+
+<p>Een eenmalige situatie kan normaal zijn. Een grote aankoop kan bijvoorbeeld vlak voor het volgende inkomen hebben plaatsgevonden.</p>
+
+
+<p>Als de pot regelmatig onder nul komt, kan dat erop wijzen dat:</p>
+
+<ul>
+  
+  <li>er een te klein deel van het inkomen aan wordt toegewezen;</li>
+  
+  <li>de uitgaven voor deze pot zijn gestegen;</li>
+  
+  <li>een deel van de uitgaven kan worden verminderd of uitgesteld.</li>
+  
+</ul>
+
+
+
+<p>De app staat een negatief saldo toe. Bij de volgende storting wordt het negatieve saldo eerst aangevuld, waardoor er voor de nieuwe periode minder geld beschikbaar blijft.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Waarom een tijdelijk negatief saldo niet altijd zichtbaar is in de grafiek</h3>
+
+
+<p>De grafiek toont de uiteindelijke verandering van het saldo per dag.</p>
+
+<p>Als een pot binnen dezelfde dag eerst onder nul komt en daarna wordt aangevuld, kan het tijdelijke negatieve saldo onzichtbaar blijven. De grafiek toont alleen de eindstand van die dag.</p>
+
+
+<p>Bijvoorbeeld:</p>
+
+<ol>
+  
+  <li>Er zat 100 in de pot.</li>
+  
+  <li>Je geeft 200 uit en het saldo wordt −100.</li>
+  
+  <li>Daarna boek je 150 over vanuit een andere pot.</li>
+  
+  <li>Het eindsaldo van de dag is 50.</li>
+  
+</ol>
+
+
+
+<p>De grafiek toont een positief eindsaldo, ook al stond de pot gedurende de dag tijdelijk in de min.</p>
+
+<p>De grafiek is daarom geschikt om de algemene ontwikkeling te analyseren, maar laat niet altijd iedere tussenstand zien.</p>
+
+
+<p>Meer over hoe je tijdelijk geld van jezelf kunt lenen tussen potten lees je in het <a href="/nl/apps/6-jars-finance/articles/guide/#borrow-from-yourself">gedeelte over lenen van jezelf</a>.</p>
+</div>
+</div>
+
+<div class="article-section">
+<h2 id="same-result">Hetzelfde resultaat kan heel verschillende geldstromen verbergen</h2>
+
+
+<p>Beoordeel een periode niet alleen op basis van het eindsaldo.</p>
+
+<p>Stel je twee maanden voor.</p>
+
+
+<p>In de eerste maand:</p>
+
+<ul>
+  
+  <li>stortingen — 2 000;</li>
+  
+  <li>uitgaven — 2 000;</li>
+  
+  <li>nettoverandering — 0.</li>
+  
+</ul>
+
+<p>In de tweede maand:</p>
+
+<ul>
+  
+  <li>geen stortingen;</li>
+  
+  <li>geen uitgaven;</li>
+  
+  <li>nettoverandering — 0.</li>
+  
+</ul>
+
+
+
+<p>In beide gevallen veranderde het saldo niet, maar in de eerste maand werd de pot actief gebruikt en in de tweede maand was er helemaal geen geldbeweging.</p>
+
+
+<p>Daarom is het nuttig om tegelijk te kijken naar:</p>
+
+<ul>
+  
+  <li>beginsaldo;</li>
+  
+  <li>stortingen;</li>
+  
+  <li>uitgaven;</li>
+  
+  <li>nettoverandering;</li>
+  
+  <li>de vorm van de lijn in de grafiek.</li>
+  
+</ul>
+
+</div>
+
+<div class="article-section">
+<h2 id="monthly-insights">Wat je uit de grafiek over een maand kunt afleiden</h2>
+<p>Over een kortere periode helpt het rapport je te zien hoe het geld zich binnen een maand gedraagt.</p>
+<div class="article-subsection">
+<h3>Het geld is te vroeg op</h3>
+
+
+<p>Als het saldo regelmatig ruim voor de volgende storting richting nul gaat, kan het huidige aandeel van de pot te klein zijn.</p>
+
+<p>Het is wel belangrijk om een terugkerend patroon te onderscheiden van een eenmalige situatie. Eén ongebruikelijke maand betekent nog niet dat je de verdeling moet aanpassen.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Het geld wordt gelijkmatig uitgegeven</h3>
+
+
+<p>Als de lijn gedurende de hele maand geleidelijk daalt, zijn de uitgaven waarschijnlijk redelijk gelijkmatig verdeeld.</p>
+
+<p>Voor een pot met dagelijkse uitgaven kan dit een normaal patroon zijn.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Aan het begin van de periode is er een scherpe daling</h3>
+
+
+<p>Als een groot deel van het geld direct na een storting wordt uitgegeven, worden er mogelijk aan het begin van de periode grote noodzakelijke uitgaven betaald.</p>
+
+<p>Dat hoeft geen probleem te zijn. Maar als er daarna regelmatig te weinig geld overblijft voor de rest van de maand, is het verstandig om de verdeling opnieuw te bekijken.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>De grafiek bevat afzonderlijke grote dalingen</h3>
+
+
+<p>Scherpe dalingen helpen je om de momenten van grote uitgaven te herkennen.</p>
+
+
+<p>Daarna kun je de transacties openen en controleren:</p>
+
+<ul>
+  
+  <li>wat er is gekocht;</li>
+  
+  <li>of de uitgave gepland was;</li>
+  
+  <li>of deze regelmatig terugkomt;</li>
+  
+  <li>of het zinvol is om er vooraf geld voor te reserveren.</li>
+  
+</ul>
+
+</div>
+</div>
+
+<div class="article-section">
+<h2 id="long-term-insights">Wat je uit de grafiek over meerdere maanden of een jaar kunt afleiden</h2>
+<p>Over een langere periode is de grafiek vooral nuttig om blijvende patronen te herkennen.</p>
+
+
+<p>Eén maand kan een uitzondering zijn. Een terugkerende ontwikkeling is een sterker signaal dat de instellingen van de pot of de uitgavenstructuur aangepast moeten worden.</p>
+
+
+<div class="article-subsection">
+<h3>Het saldo blijft groeien</h3>
+
+
+<p>Voor een spaarpot is voortdurende groei een verwacht resultaat.</p>
+
+<p>Bij een gewone uitgavenpot kan een blijvend groeiend saldo betekenen dat er meer geld aan wordt toegewezen dan daadwerkelijk nodig is.</p>
+
+<p>In dat geval kun je overwegen het aandeel van deze pot te verkleinen en het vrijgekomen deel van het inkomen over andere potten te verdelen.</p>
+
+<p>Controleer eerst of het opgebouwde geld een specifiek doel heeft. Misschien komt een grote uitgave maar af en toe voor en heb je het huidige saldo later nodig.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Het saldo blijft dalen</h3>
+
+
+<p>Als de lijn over een langere periode geleidelijk daalt, zijn de uitgaven uit de pot structureel hoger dan de stortingen.</p>
+
+<p>Een eenmalige daling kan het gevolg zijn van ongewoon grote uitgaven. Maar als dezelfde trend zich maand na maand herhaalt, is de huidige verdeling waarschijnlijk onvoldoende.</p>
+
+
+<p>Controleer in dat geval:</p>
+
+<ul>
+  
+  <li>of de normale uitgaven die bij het doel van de pot horen zijn gestegen;</li>
+  
+  <li>of er in de geselecteerde periode incidentele grote uitgaven waren;</li>
+  
+  <li>of je de pot regelmatig vanuit andere potten moet aanvullen.</li>
+  
+</ul>
+
+
+
+<p>Als de daling wordt veroorzaakt door blijvende noodzakelijke uitgaven, kun je het aandeel van deze pot vergroten ten koste van andere potten.</p>
+
+<p>Als incidentele grote uitgaven de oorzaak zijn, hoef je de vaste verdeling niet per se te veranderen. Voor zulke uitgaven kan het handiger zijn om vooraf apart geld opzij te zetten.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>De pot wordt regelmatig extra aangevuld</h3>
+
+
+<p>Als de normale stortingen in de pot structureel niet genoeg zijn en je regelmatig geld vanuit andere potten moet overboeken, is dat een belangrijk signaal.</p>
+
+<p>Ook als deze overboekingen voorkomen dat het saldo lang negatief blijft, laten ze zien dat de werkelijke uitgaven hoger zijn dan oorspronkelijk gepland.</p>
+
+<p>Overboekingen tussen potten kunnen de grafiek minder duidelijk maken. Daardoor kun je aan de lijn alleen niet altijd zien waarom het saldo zich herstelde. Regelmatige extra stortingen in combinatie met hoge uitgaven zijn echter al een goede reden om het aandeel van de pot opnieuw te bekijken.</p>
+
+
+</div>
+</div>
+
+<div class="article-section">
+<h2 id="different-jars">Verschillende potten moet je anders beoordelen</h2>
+<p>Dezelfde vorm van de grafiek kan iets anders betekenen, afhankelijk van het doel van de pot.</p>
+<div class="article-subsection">
+<h3>Uitgavenpot</h3>
+<p>Voor een pot met dagelijkse uitgaven is het doorgaans normaal dat deze:</p>
+
+<ul>
+  
+  <li>tussen stortingen daalt;</li>
+  
+  <li>regelmatig schommelt;</li>
+  
+  <li>tegen het einde van de periode richting nul gaat;</li>
+  
+  <li>na de inkomensverdeling weer stijgt.</li>
+  
+</ul>
+
+
+
+<p>Het probleem is meestal niet de daling zelf, maar regelmatig diep in de min komen of voortdurend geld uit andere potten moeten overboeken.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Spaarpot</h3>
+<p>Voor een spaarpot is het doorgaans normaal dat deze:</p>
+
+<ul>
+  
+  <li>geleidelijk groeit;</li>
+  
+  <li>lange tijd geen uitgaven heeft;</li>
+  
+  <li>sterk daalt nadat een doel is bereikt en een grote aankoop is gedaan.</li>
+  
+</ul>
+
+
+
+<p>Als een spaarpot regelmatig afneemt door dagelijkse uitgaven, wordt het geld mogelijk voor iets anders gebruikt dan waarvoor de pot bedoeld is.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Pot voor een groot doel of een verplichting</h3>
+
+
+<p>Een aparte pot kan handig zijn als je vooraf geld wilt reserveren voor een specifiek doel of een bepaalde verplichting.</p>
+
+
+<p>Bijvoorbeeld:</p>
+
+<ul>
+  
+  <li>jaarlijkse verzekering;</li>
+  
+  <li>opleiding;</li>
+  
+  <li>vakantie;</li>
+  
+  <li>renovatie;</li>
+  
+  <li>een duur abonnement;</li>
+  
+  <li>een grote vaste terugkerende betaling.</li>
+  
+</ul>
+
+<p>Met zo’n pot kun je direct zien:</p>
+
+<ul>
+  
+  <li>hoeveel je al hebt opgebouwd;</li>
+  
+  <li>of de regelmatige stortingen voldoende zijn;</li>
+  
+  <li>of je meer hebt uitgegeven dan gepland;</li>
+  
+  <li>of je geld uit andere delen van je budget moet toevoegen.</li>
+  
+</ul>
+
+
+
+<p>Je hoeft echter niet voor iedere terugkerende uitgavencategorie een aparte pot te maken.</p>
+
+<p>Ook grote maar variabele dagelijkse uitgaven, zoals boodschappen, kun je meestal beter binnen een bredere pot bijhouden en met tags analyseren.</p>
+
+<p>Een aparte pot is vooral nuttig voor een zelfstandig doel of een verplichting waarvoor je vooraf een bepaald bedrag wilt reserveren.</p>
+
+
+</div>
+</div>
+
+<div class="article-section">
+<h2 id="when-to-change-share">Wanneer je het aandeel van een pot kunt aanpassen</h2>
+
+
+<p>Pas de percentages niet aan na één ongebruikelijke maand.</p>
+
+<p>Kijk eerst of dezelfde situatie zich gedurende meerdere perioden herhaalt.</p>
+
+
+<p>Het kan zinvol zijn het aandeel te vergroten als:</p>
+
+<ul>
+  
+  <li>het saldo regelmatig onder nul komt;</li>
+  
+  <li>het geld ruim voor het volgende inkomen op is;</li>
+  
+  <li>de pot voortdurend extra moet worden aangevuld;</li>
+  
+  <li>de uitgaven die bij het doel van de pot horen daadwerkelijk noodzakelijk zijn.</li>
+  
+</ul>
+
+<p>Het kan zinvol zijn het aandeel te verkleinen als:</p>
+
+<ul>
+  
+  <li>het resterende saldo voortdurend groeit;</li>
+  
+  <li>het opgebouwde geld geen afzonderlijk spaardoel heeft;</li>
+  
+  <li>de werkelijke uitgaven duidelijk lager zijn dan het toegewezen bedrag;</li>
+  
+  <li>andere potten regelmatig geld tekortkomen.</li>
+  
+</ul>
+
+
+
+<p>De 6-pottenmethode vereist niet dat je de oorspronkelijke percentages voor altijd behoudt. Je kunt en mag de verdeling aanpassen aan je werkelijke uitgaven en veranderingen in je leven.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="limitations">Beperkingen van het rapport</h2>
+
+
+<p>Het rapport ‘Geldstromen’ laat goed zien wat er met het saldo is gebeurd, maar verklaart niet altijd waarom het veranderde.</p>
+
+
+<p>Je kunt ermee zien:</p>
+
+<ul>
+  
+  <li>of het saldo steeg of daalde;</li>
+  
+  <li>wanneer grote veranderingen plaatsvonden;</li>
+  
+  <li>of er voldoende geld was;</li>
+  
+  <li>of zich een blijvend patroon vormt;</li>
+  
+  <li>of de pot regelmatig extra stortingen nodig heeft.</li>
+  
+</ul>
+
+<p>Maar de grafiek alleen laat niet altijd zien:</p>
+
+<ul>
+  
+  <li>waaraan het geld precies is uitgegeven;</li>
+  
+  <li>waar een storting vandaan kwam;</li>
+  
+  <li>of het om een overboeking tussen potten ging;</li>
+  
+  <li>waarom het uitgavenpatroon veranderde;</li>
+  
+  <li>of het saldo gedurende de dag onder nul kwam.</li>
+  
+</ul>
+
+
+
+<p>Gebruik voor een uitgebreidere analyse de transactielijst en de rapporten per tag.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="questions">Welke vragen je jezelf kunt stellen</h2>
+<p>Probeer bij het bekijken van het rapport een aantal vragen te beantwoorden:</p>
+
+<ul>
+  
+  <li>Is er genoeg geld in de pot tot de volgende storting?</li>
+  
+  <li>Op welk moment in de periode begint het saldo meestal richting nul te gaan?</li>
+  
+  <li>Komen scherpe dalingen steeds op dezelfde dagen voor?</li>
+  
+  <li>Moet ik hier regelmatig geld uit andere potten naartoe overboeken?</li>
+  
+  <li>Blijft het resterende saldo groeien zonder specifiek doel?</li>
+  
+  <li>Past het huidige aandeel van de pot bij mijn werkelijke uitgaven?</li>
+  
+  <li>Zijn grote veranderingen eenmalig of keren ze maand na maand terug?</li>
+  
+</ul>
+
+
+
+<p>Het belangrijkste doel van het rapport is niet alleen om een lijn met de verandering van het saldo te tonen, maar om je te helpen terugkerende patronen te herkennen en te begrijpen hoe goed het gekozen aandeel van de pot aansluit op je werkelijke leven.</p>
+
+
+</div>
+
+  </div>
+  <aside class="article-toc" aria-label="Paginanavigatie">
+    <nav class="article-toc__nav">
+      <p class="article-toc__title">Op deze pagina</p>
+      <ol class="article-toc__list"></ol>
+    </nav>
+  </aside>
+</div>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+  <div class="container site-footer__inner">
+    <p class="site-footer__copyright">© 2026 Artem D Apps</p>
+    <nav class="site-footer__nav" aria-label="Informatie over de site">
+      <a class="site-footer__link" href="/nl/apps/6-jars-finance/help/">Informatie over fouten</a>
+      <a class="site-footer__link" href="/nl/apps/6-jars-finance/articles/report-funds-movement/">Funds Movement Report</a>
+      <a class="site-footer__link" href="/nl/apps/6-jars-finance/privacy/">Privacybeleid</a>
+      <a class="site-footer__link" href="/nl/apps/6-jars-finance/licenses/">Open-sourcelicenties</a>
+    </nav>
+  </div>
+</footer>
+
+  
+  <script src="/assets/article-toc.js" defer></script>
+
+  
+  <script src="/assets/js/analytics.js" defer></script>
+</body>
+</html>

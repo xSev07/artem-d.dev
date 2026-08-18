@@ -1,0 +1,408 @@
+{
+  "title": "Jak czytać raport „Przepływ środków”",
+  "metaDescription": "Raport „Przepływ środków” pokazuje, jak zmieniało się saldo wybranego słoika w określonym okresie.",
+  "intro": {
+    "paragraphs": [
+      "Raport „Przepływ środków” pokazuje, jak zmieniało się saldo wybranego słoika w określonym okresie."
+    ],
+    "listIntro": "Za jego pomocą możesz sprawdzić:",
+    "items": [
+      "ile pieniędzy było w słoiku na początku okresu;",
+      "ile pieniędzy wpłynęło;",
+      "ile zostało wydane;",
+      "o ile zmieniło się saldo;",
+      "ile pieniędzy zostało na koniec okresu;",
+      "w których momentach następowały wyraźne zmiany."
+    ],
+    "closingParagraphs": [
+      "Raport jest tworzony tylko dla jednego wybranego słoika. Dlatego warto traktować go nie jako ogólny obraz wszystkich finansów, lecz jako historię przepływu pieniędzy w konkretnej części budżetu."
+    ]
+  },
+  "overview": {
+    "title": "Spis treści",
+    "metrics": "Co oznaczają wskaźniki",
+    "readingChart": "Jak czytać wykres",
+    "sameResultDifferentMovement": "Ten sam wynik może kryć zupełnie inny przepływ pieniędzy",
+    "monthlyInsights": "Co można wywnioskować z wykresu za miesiąc",
+    "longTermInsights": "Co można wywnioskować z wykresu za kilka miesięcy lub rok",
+    "differentJars": "Różne słoiki należy oceniać inaczej",
+    "whenToChangeShare": "Kiedy warto zmienić udział słoika",
+    "limitations": "Ograniczenia raportu",
+    "questions": "Jakie pytania warto sobie zadać"
+  },
+  "metrics": {
+    "title": "Co oznaczają wskaźniki",
+    "openingBalance": {
+      "title": "Saldo początkowe",
+      "paragraphs": [
+        "Saldo początkowe to kwota, która znajdowała się w słoiku na początku wybranego okresu.",
+        "Nie musi to być kwota ostatniej wpłaty ani bieżące saldo słoika. Na przykład jeśli na początku miesiąca w słoiku zostały pieniądze z poprzedniego miesiąca, również zostaną uwzględnione w saldzie początkowym."
+      ]
+    },
+    "deposits": {
+      "title": "Wpłaty",
+      "paragraphs": [
+        "Wpłaty pokazują łączną kwotę wszystkich środków dodanych do wybranego słoika w danym okresie."
+      ],
+      "listIntro": "Może to być:",
+      "items": [
+        "część rozdzielonego dochodu;",
+        "dodatkowa wpłata;",
+        "zwrot wcześniej wydanych pieniędzy;",
+        "przelew z innego słoika."
+      ],
+      "closingParagraphs": [
+        "Sam raport pokazuje sumę wpłat, ale nie określa ich przyczyny. Aby sprawdzić źródło konkretnej wpłaty, należy zajrzeć do listy transakcji."
+      ]
+    },
+    "withdrawals": {
+      "title": "Wydatki",
+      "paragraphs": [
+        "Wydatki pokazują łączną kwotę wszystkich środków wydanych z wybranego słoika w danym okresie.",
+        "Nawet jeśli saldo pod koniec okresu prawie się nie zmieniło, łączna kwota wydatków może być duża. Oznacza to, że pieniądze były aktywnie wydawane, a następnie słoik był ponownie uzupełniany."
+      ]
+    },
+    "netChange": {
+      "title": "Zmiana netto",
+      "paragraphs": [
+        "Zmiana netto pokazuje, o ile saldo wzrosło lub spadło w porównaniu z początkiem okresu.",
+        "Jest obliczana jako różnica między wpłatami a wydatkami."
+      ],
+      "exampleIntro": "Na przykład:",
+      "exampleItems": [
+        "saldo początkowe — 1 000;",
+        "wpłaty — 2 000;",
+        "wydatki — 2 300;",
+        "zmiana netto — −300;",
+        "saldo końcowe — 700."
+      ],
+      "closingParagraphs": [
+        "W przypadku zwykłego słoika na wydatki za normalną można uznać sytuację, gdy w dłuższym okresie zmiana netto pozostaje blisko zera lub saldo stopniowo rośnie.",
+        "Jeśli zmiana netto regularnie pozostaje ujemna, oznacza to, że ze słoika systematycznie wydawane jest więcej pieniędzy, niż do niego trafia. Może to wskazywać, że przeznaczany jest na niego zbyt mały udział dochodu albo że warto przeanalizować wydatki."
+      ]
+    },
+    "closingBalance": {
+      "title": "Saldo końcowe",
+      "paragraphs": [
+        "Saldo końcowe to kwota, która pozostała w słoiku na koniec wybranego okresu.",
+        "Uwzględnia saldo początkowe, wszystkie wpłaty i wszystkie wydatki.",
+        "Nie należy mylić salda końcowego ze zmianą netto. Saldo pokazuje, ile pieniędzy zostało, a zmiana netto — o ile ta kwota różni się od salda początkowego."
+      ]
+    }
+  },
+  "readingChart": {
+    "title": "Jak czytać wykres",
+    "lead": "Linia na wykresie pokazuje, jak zmieniało się saldo słoika w wybranym okresie.",
+    "lineUp": {
+      "title": "Linia idzie w górę",
+      "paragraphs": [
+        "Wzrost linii oznacza, że do słoika dodano pieniądze.",
+        "Gwałtowny wzrost zwykle wiąże się z dużą wpłatą, na przykład z podziałem dochodu lub przelewem z innego słoika.",
+        "Stopniowy lub schodkowy wzrost może oznaczać kilka oddzielnych wpłat."
+      ]
+    },
+    "lineDown": {
+      "title": "Linia idzie w dół",
+      "paragraphs": [
+        "Spadek linii oznacza wydatki.",
+        "Stopniowy spadek zwykle oznacza, że pieniądze są wydawane po trochu w ciągu całego okresu.",
+        "Gwałtowny spadek oznacza duży wydatek lub kilka wydatków dokonanych w krótkim czasie.",
+        "Sam wykres pozwala zobaczyć moment zmiany, ale nie pokazuje, na co dokładnie zostały wydane pieniądze. W tym celu należy otworzyć listę transakcji lub raport według tagów."
+      ]
+    },
+    "lineFlat": {
+      "title": "Linia utrzymuje się mniej więcej na tym samym poziomie",
+      "listIntro": "Może to oznaczać, że:",
+      "items": [
+        "wydatków prawie nie było;",
+        "wpłaty w przybliżeniu równoważyły wydatki;",
+        "pieniądze były regularnie wydawane i ponownie dodawane;",
+        "słoik był używany rzadko."
+      ],
+      "closingParagraphs": [
+        "Dlatego płaska linia sama w sobie nie oznacza braku aktywności. Warto również sprawdzić łączną kwotę wpłat i wydatków."
+      ]
+    },
+    "balanceNearZero": {
+      "title": "Saldo utrzymuje się blisko zera",
+      "listIntro": "Jeśli linia przez dłuższy czas pozostaje blisko zera, może to mieć kilka przyczyn:",
+      "items": [
+        "udział słoika jest dość dobrze dopasowany do rzeczywistych potrzeb;",
+        "pieniędzy wystarcza tylko na styk;",
+        "środki są szybko wydawane po każdej wpłacie;",
+        "słoik trzeba regularnie uzupełniać z innych źródeł."
+      ],
+      "closingParagraphs": [
+        "Aby lepiej zrozumieć sytuację, porównaj wykres z łączną kwotą wpłat i wydatków.",
+        "Jeśli słoik regularnie otrzymuje wyraźnie więcej wpłat, niż zwykle trafia do niego podczas podziału dochodu, możliwe, że wymaga dodatkowych przelewów."
+      ]
+    },
+    "balanceNegative": {
+      "title": "Saldo spada poniżej zera",
+      "paragraphs": [
+        "Ujemne saldo oznacza, że ze słoika wydano więcej pieniędzy, niż się w nim znajdowało.",
+        "Jednorazowa taka sytuacja może być normalna. Na przykład duży zakup mógł nastąpić krótko przed kolejnym dochodem."
+      ],
+      "listIntro": "Jeśli saldo słoika regularnie spada poniżej zera, może to oznaczać, że:",
+      "items": [
+        "przeznaczany jest na niego zbyt mały udział dochodu;",
+        "wydatki związane z tym słoikiem wzrosły;",
+        "część wydatków można ograniczyć lub przesunąć."
+      ],
+      "closingParagraphs": [
+        "Aplikacja pozwala na ujemne saldo słoika. Przy kolejnym uzupełnieniu najpierw zostanie pokryty minus, więc na nowy okres pozostanie mniej dostępnych środków."
+      ]
+    },
+    "temporaryMinusNotVisible": {
+      "title": "Dlaczego chwilowe ujemne saldo może nie być widoczne na wykresie",
+      "paragraphs": [
+        "Wykres pokazuje końcową zmianę salda dla każdego dnia.",
+        "Jeśli w ciągu jednego dnia saldo słoika najpierw spadnie poniżej zera, a potem słoik zostanie uzupełniony, chwilowe ujemne saldo może nie pojawić się na wykresie. Widoczny będzie tylko wynik na koniec dnia."
+      ],
+      "exampleIntro": "Na przykład:",
+      "orderedItems": [
+        "W słoiku było 100.",
+        "Wydajesz 200, więc saldo spada do −100.",
+        "Następnie przelewasz 150 z innego słoika.",
+        "Saldo na koniec dnia wynosi 50."
+      ],
+      "closingParagraphs": [
+        "Na wykresie będzie widoczne dodatnie saldo końcowe, mimo że w ciągu dnia słoik chwilowo miał saldo ujemne.",
+        "Dlatego wykres dobrze nadaje się do analizy ogólnego trendu, ale nie zawsze pokazuje każdy stan pośredni."
+      ],
+      "borrowLinkPrefix": "Więcej o tym, jak tymczasowo pożyczać pieniądze od siebie między słoikami, przeczytasz w ",
+      "borrowLinkText": "sekcji o pożyczaniu od siebie",
+      "borrowLinkSuffix": "."
+    }
+  },
+  "sameResultDifferentMovement": {
+    "title": "Ten sam wynik może kryć zupełnie inny przepływ pieniędzy",
+    "openingParagraphs": [
+      "Nie warto oceniać okresu wyłącznie na podstawie salda końcowego.",
+      "Wyobraźmy sobie dwa miesiące."
+    ],
+    "firstMonthIntro": "W pierwszym miesiącu:",
+    "firstMonthItems": [
+      "wpłaty — 2 000;",
+      "wydatki — 2 000;",
+      "zmiana netto — 0."
+    ],
+    "secondMonthIntro": "W drugim miesiącu:",
+    "secondMonthItems": [
+      "nie było wpłat;",
+      "nie było wydatków;",
+      "zmiana netto — 0."
+    ],
+    "closingParagraphs": [
+      "W obu przypadkach saldo się nie zmieniło, ale w pierwszym miesiącu słoik był aktywnie używany, a w drugim nie było żadnego przepływu pieniędzy."
+    ],
+    "summaryListIntro": "Dlatego warto patrzeć jednocześnie na:",
+    "summaryItems": [
+      "saldo początkowe;",
+      "wpłaty;",
+      "wydatki;",
+      "zmianę netto;",
+      "kształt linii na wykresie."
+    ]
+  },
+  "monthlyInsights": {
+    "title": "Co można wywnioskować z wykresu za miesiąc",
+    "lead": "W krótszym okresie raport pomaga zobaczyć, jak zachowują się pieniądze w ciągu miesiąca.",
+    "moneyRunsOutEarly": {
+      "title": "Pieniądze kończą się zbyt wcześnie",
+      "paragraphs": [
+        "Jeśli saldo regularnie zbliża się do zera na długo przed kolejną wpłatą, obecny udział słoika może być zbyt mały.",
+        "Ważne jest jednak, aby odróżnić powtarzający się schemat od jednorazowej sytuacji. Jeden nietypowy miesiąc nie oznacza jeszcze, że trzeba zmieniać podział."
+      ]
+    },
+    "evenSpending": {
+      "title": "Pieniądze są wydawane równomiernie",
+      "paragraphs": [
+        "Jeśli linia stopniowo opada przez cały miesiąc, wydatki są prawdopodobnie rozłożone dość równomiernie.",
+        "W przypadku słoika na codzienne wydatki może to być normalny scenariusz."
+      ]
+    },
+    "sharpDropAtStart": {
+      "title": "Na początku okresu pojawia się gwałtowny spadek",
+      "paragraphs": [
+        "Jeśli duża część pieniędzy jest wydawana zaraz po uzupełnieniu słoika, możliwe, że na początku okresu opłacane są duże obowiązkowe wydatki.",
+        "Nie musi to być problem. Jeśli jednak po ich opłaceniu regularnie brakuje pieniędzy na resztę miesiąca, warto ponownie przeanalizować podział."
+      ]
+    },
+    "largeDrops": {
+      "title": "Na wykresie widać pojedyncze duże spadki",
+      "paragraphs": [
+        "Gwałtowne spadki pomagają znaleźć daty dużych wydatków."
+      ],
+      "listIntro": "Następnie możesz otworzyć transakcje i sprawdzić:",
+      "items": [
+        "co zostało kupione;",
+        "czy wydatek był zaplanowany;",
+        "czy powtarza się regularnie;",
+        "czy warto wcześniej odkładać na niego pieniądze."
+      ]
+    }
+  },
+  "longTermInsights": {
+    "title": "Co można wywnioskować z wykresu za kilka miesięcy lub rok",
+    "lead": "W dłuższym okresie wykres jest szczególnie przydatny do wykrywania powtarzających się trendów.",
+    "introParagraphs": [
+      "Jeden miesiąc może być wyjątkiem. Powtarzający się trend jest już sygnałem, że ustawienia słoika lub struktura wydatków mogą wymagać zmiany."
+    ],
+    "balanceGrowing": {
+      "title": "Saldo stale rośnie",
+      "paragraphs": [
+        "W przypadku słoika oszczędnościowego stały wzrost jest oczekiwanym rezultatem.",
+        "Jeśli jednak jest to zwykły słoik na wydatki, trwały wzrost może oznaczać, że trafia do niego więcej pieniędzy, niż faktycznie potrzeba.",
+        "W takim przypadku można rozważyć zmniejszenie jego udziału i przekierowanie różnicy do innych słoików.",
+        "Przed zmianą warto sprawdzić, czy zgromadzone pieniądze nie mają konkretnego przeznaczenia. Być może duży wydatek pojawia się rzadko i obecne saldo będzie potrzebne później."
+      ]
+    },
+    "balanceDeclining": {
+      "title": "Saldo stale spada",
+      "paragraphs": [
+        "Jeśli w dłuższym okresie linia stopniowo opada, oznacza to, że wydatki ze słoika systematycznie przewyższają jego wpłaty.",
+        "Jednorazowy spadek może wynikać z wyjątkowo dużych wydatków. Jeśli jednak taki trend powtarza się z miesiąca na miesiąc, obecny podział prawdopodobnie jest niewystarczający."
+      ],
+      "listIntro": "W takiej sytuacji warto sprawdzić:",
+      "items": [
+        "czy zwykłe wydatki związane z przeznaczeniem słoika wzrosły;",
+        "czy w wybranym okresie pojawiły się rzadkie duże wydatki;",
+        "czy trzeba regularnie uzupełniać słoik pieniędzmi z innych słoików."
+      ],
+      "closingParagraphs": [
+        "Jeśli spadek wynika ze stałych niezbędnych wydatków, można zwiększyć udział tego słoika kosztem innych.",
+        "Jeśli przyczyną są rzadkie duże wydatki, nie trzeba koniecznie zmieniać stałego podziału. Na takie wydatki wygodniej może być odkładać pieniądze osobno z wyprzedzeniem."
+      ]
+    },
+    "extraDeposits": {
+      "title": "Słoik regularnie wymaga dodatkowych wpłat",
+      "paragraphs": [
+        "Jeśli zwykłe wpłaty do słoika stale nie wystarczają i trzeba regularnie przelewać do niego pieniądze z innych słoików, jest to ważny sygnał.",
+        "Nawet jeśli takie przelewy nie pozwalają saldu długo pozostawać poniżej zera, pokazują, że rzeczywiste wydatki są wyższe niż pierwotnie zakładano.",
+        "Przelewy między słoikami mogą utrudniać interpretację wykresu, dlatego sama linia nie zawsze pozwoli określić przyczynę odbicia salda. Jednak połączenie regularnych dodatkowych wpłat i wysokich wydatków jest już dobrym powodem, aby ponownie ocenić udział słoika."
+      ]
+    }
+  },
+  "differentJars": {
+    "title": "Różne słoiki należy oceniać inaczej",
+    "lead": "Ten sam kształt wykresu może oznaczać coś innego w zależności od przeznaczenia słoika.",
+    "spendingJar": {
+      "title": "Słoik na wydatki",
+      "listIntro": "W przypadku słoika na codzienne wydatki zwykle normalne jest:",
+      "items": [
+        "spadanie salda między wpłatami;",
+        "regularne wahania;",
+        "zbliżanie się do zera pod koniec okresu;",
+        "ponowny wzrost po rozdzieleniu dochodu."
+      ],
+      "closingParagraphs": [
+        "Problemem jest raczej nie sam spadek, lecz regularne głębokie saldo ujemne lub konieczność ciągłego przelewania pieniędzy z innych słoików."
+      ]
+    },
+    "savingsJar": {
+      "title": "Słoik oszczędnościowy",
+      "listIntro": "W przypadku słoika oszczędnościowego zwykle normalne jest:",
+      "items": [
+        "stopniowe zwiększanie salda;",
+        "długie okresy bez wydatków;",
+        "gwałtowny spadek po osiągnięciu celu i dokonaniu dużego zakupu."
+      ],
+      "closingParagraphs": [
+        "Jeśli saldo słoika oszczędnościowego regularnie maleje z powodu codziennych wydatków, możliwe, że środki są wykorzystywane niezgodnie z jego przeznaczeniem."
+      ]
+    },
+    "goalJar": {
+      "title": "Słoik na duży cel lub zobowiązanie",
+      "paragraphs": [
+        "Oddzielny słoik może być przydatny, jeśli na konkretny cel lub zobowiązanie trzeba wcześniej zarezerwować pieniądze."
+      ],
+      "examplesIntro": "Na przykład:",
+      "examples": [
+        "roczne ubezpieczenie;",
+        "edukacja;",
+        "wakacje;",
+        "remont;",
+        "droga subskrypcja;",
+        "duża obowiązkowa płatność cykliczna."
+      ],
+      "benefitsIntro": "Taki słoik pozwala od razu zobaczyć:",
+      "benefits": [
+        "ile pieniędzy udało się już odłożyć;",
+        "czy regularne wpłaty wystarczają;",
+        "czy wystąpiło przekroczenie budżetu;",
+        "czy trzeba dodawać pieniądze z innych części budżetu."
+      ],
+      "closingParagraphs": [
+        "Nie trzeba jednak tworzyć osobnego słoika dla każdego rodzaju regularnych wydatków.",
+        "Nawet duże, ale zmienne codzienne wydatki, takie jak zakupy spożywcze, zwykle wygodniej uwzględniać w szerszym słoiku i analizować za pomocą tagów.",
+        "Oddzielny słoik jest bardziej przydatny dla samodzielnego celu lub zobowiązania, na które trzeba z wyprzedzeniem rezerwować określoną kwotę."
+      ]
+    }
+  },
+  "whenToChangeShare": {
+    "title": "Kiedy warto zmienić udział słoika",
+    "openingParagraphs": [
+      "Nie warto zmieniać procentów po jednym nietypowym miesiącu.",
+      "Najpierw sprawdź, czy ta sama sytuacja powtarza się przez kilka okresów."
+    ],
+    "increaseListIntro": "Zwiększenie udziału może mieć sens, jeśli:",
+    "increaseItems": [
+      "saldo regularnie spada poniżej zera;",
+      "pieniądze kończą się na długo przed kolejnym dochodem;",
+      "słoik stale wymaga dodatkowych wpłat;",
+      "wydatki zgodne z jego przeznaczeniem są rzeczywiście niezbędne."
+    ],
+    "decreaseListIntro": "Zmniejszenie udziału może mieć sens, jeśli:",
+    "decreaseItems": [
+      "pozostałe saldo stale rośnie;",
+      "zgromadzone pieniądze nie mają osobnego celu oszczędnościowego;",
+      "rzeczywiste wydatki są wyraźnie niższe od przydzielanej kwoty;",
+      "w innych słoikach regularnie brakuje pieniędzy."
+    ],
+    "closingParagraphs": [
+      "Metoda 6 słoików nie wymaga zachowywania początkowych procentów na zawsze. Podział można i warto dostosowywać do rzeczywistych wydatków i zmian w życiu."
+    ]
+  },
+  "limitations": {
+    "title": "Ograniczenia raportu",
+    "openingParagraphs": [
+      "Raport „Przepływ środków” dobrze pokazuje, co działo się z saldem, ale nie zawsze wyjaśnia przyczynę zmian."
+    ],
+    "canUnderstandIntro": "Można z niego wywnioskować:",
+    "canUnderstandItems": [
+      "czy saldo rosło, czy spadało;",
+      "kiedy następowały duże zmiany;",
+      "czy pieniędzy wystarczało;",
+      "czy tworzy się trwały trend;",
+      "czy słoik regularnie wymaga dodatkowych wpłat."
+    ],
+    "cannotDetermineIntro": "Sam wykres nie zawsze pozwala jednak ustalić:",
+    "cannotDetermineItems": [
+      "na co dokładnie zostały wydane pieniądze;",
+      "skąd pochodziła wpłata;",
+      "czy był to przelew między słoikami;",
+      "dlaczego zmienił się sposób wydawania pieniędzy;",
+      "czy saldo spadło poniżej zera w ciągu dnia."
+    ],
+    "closingParagraphs": [
+      "Do bardziej szczegółowej analizy użyj listy transakcji oraz raportów według tagów."
+    ]
+  },
+  "questions": {
+    "title": "Jakie pytania warto sobie zadać",
+    "listIntro": "Przeglądając raport, spróbuj odpowiedzieć sobie na kilka pytań:",
+    "items": [
+      "Czy w słoiku wystarcza pieniędzy do kolejnej wpłaty?",
+      "W którym momencie okresu saldo zwykle zaczyna zbliżać się do zera?",
+      "Czy gwałtowne spadki powtarzają się w tych samych dniach?",
+      "Czy regularnie trzeba przelewać tutaj pieniądze z innych słoików?",
+      "Czy pozostałe saldo rośnie bez konkretnego celu?",
+      "Czy obecny udział słoika odpowiada rzeczywistym wydatkom?",
+      "Czy duże zmiany są jednorazowe, czy powtarzają się z miesiąca na miesiąc?"
+    ],
+    "closingParagraphs": [
+      "Głównym zadaniem raportu nie jest tylko pokazanie linii zmiany salda, ale pomoc w zauważeniu powtarzających się trendów i ocenie, czy wybrany udział słoika odpowiada rzeczywistym potrzebom."
+    ]
+  }
+}

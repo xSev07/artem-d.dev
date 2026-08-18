@@ -1,0 +1,408 @@
+{
+  "title": "How to Read the “Funds Movement” Report",
+  "metaDescription": "The “Funds Movement” report shows how the balance of the selected jar changed over a specific period.",
+  "intro": {
+    "paragraphs": [
+      "The “Funds Movement” report shows how the balance of the selected jar changed over a specific period."
+    ],
+    "listIntro": "It helps you see:",
+    "items": [
+      "how much money was in the jar at the beginning of the period;",
+      "how much money was added;",
+      "how much was spent;",
+      "how much the balance changed;",
+      "how much money was left at the end of the period;",
+      "when significant changes occurred."
+    ],
+    "closingParagraphs": [
+      "The report is generated for one selected jar only. So instead of viewing it as an overview of all your finances, think of it as a history of how money moved within one specific part of your budget."
+    ]
+  },
+  "overview": {
+    "title": "Contents",
+    "metrics": "What the metrics mean",
+    "readingChart": "How to read the chart",
+    "sameResultDifferentMovement": "The same result can hide very different money movement",
+    "monthlyInsights": "What you can learn from a monthly chart",
+    "longTermInsights": "What you can learn from several months or a year",
+    "differentJars": "Different jars should be evaluated differently",
+    "whenToChangeShare": "When to change a jar’s share",
+    "limitations": "Report limitations",
+    "questions": "Questions to ask yourself"
+  },
+  "metrics": {
+    "title": "What the metrics mean",
+    "openingBalance": {
+      "title": "Opening balance",
+      "paragraphs": [
+        "The opening balance is the amount of money that was in the jar at the beginning of the selected period.",
+        "It is not necessarily the amount of the most recent deposit or the jar’s current balance. For example, if money was left in the jar from the previous month, it will also be included in the opening balance."
+      ]
+    },
+    "deposits": {
+      "title": "Deposits",
+      "paragraphs": [
+        "Deposits show the total amount of money added to the selected jar during the period."
+      ],
+      "listIntro": "This may include:",
+      "items": [
+        "a share of allocated income;",
+        "an additional deposit;",
+        "money returned after a previous expense;",
+        "a transfer from another jar."
+      ],
+      "closingParagraphs": [
+        "The report shows the total amount deposited, but it does not determine why the money was added. To see where a specific deposit came from, check the transaction list."
+      ]
+    },
+    "withdrawals": {
+      "title": "Withdrawals",
+      "paragraphs": [
+        "Withdrawals show the total amount of money spent from the selected jar during the period.",
+        "Even if the balance barely changed by the end of the period, the total withdrawals may still be high. This means the money was actively spent and the jar was later replenished."
+      ]
+    },
+    "netChange": {
+      "title": "Net change",
+      "paragraphs": [
+        "Net change shows how much the balance increased or decreased compared with the beginning of the period.",
+        "It is calculated as the difference between deposits and withdrawals."
+      ],
+      "exampleIntro": "For example:",
+      "exampleItems": [
+        "opening balance — 1,000;",
+        "deposits — 2,000;",
+        "withdrawals — 2,300;",
+        "net change — −300;",
+        "closing balance — 700."
+      ],
+      "closingParagraphs": [
+        "For a regular spending jar, a net change close to zero or a gradually increasing balance over a longer period can generally be considered normal.",
+        "If the net change is consistently negative, the jar is systematically spending more money than it receives. This may indicate that too small a share of income is allocated to it or that the expenses need to be reviewed."
+      ]
+    },
+    "closingBalance": {
+      "title": "Closing balance",
+      "paragraphs": [
+        "The closing balance is the amount of money left in the jar at the end of the selected period.",
+        "It includes the opening balance, all deposits, and all withdrawals.",
+        "Do not confuse the closing balance with the net change. The balance shows how much money is left, while the net change shows how much that amount differs from the opening balance."
+      ]
+    }
+  },
+  "readingChart": {
+    "title": "How to read the chart",
+    "lead": "The line on the chart shows how the jar’s balance changed during the selected period.",
+    "lineUp": {
+      "title": "The line goes up",
+      "paragraphs": [
+        "An upward movement means money was added to the jar.",
+        "A sharp rise usually indicates a large deposit, such as income allocation or a transfer from another jar.",
+        "A gradual or step-like rise may indicate several separate deposits."
+      ]
+    },
+    "lineDown": {
+      "title": "The line goes down",
+      "paragraphs": [
+        "A downward movement means money was spent.",
+        "A gradual decline usually means money is being spent little by little throughout the period.",
+        "A sharp drop indicates a large expense or several expenses made within a short period of time.",
+        "The chart itself can show when the change happened, but not what the money was spent on. For that, check the transaction list or the report by tags."
+      ]
+    },
+    "lineFlat": {
+      "title": "The line stays around the same level",
+      "listIntro": "This may mean that:",
+      "items": [
+        "there were almost no expenses;",
+        "deposits roughly offset withdrawals;",
+        "money was regularly spent and then added back;",
+        "the jar was used only occasionally."
+      ],
+      "closingParagraphs": [
+        "So a flat line does not necessarily mean there was no activity. You should also look at the total deposits and withdrawals."
+      ]
+    },
+    "balanceNearZero": {
+      "title": "The balance stays close to zero",
+      "listIntro": "If the line stays close to zero for a long time, there may be several reasons:",
+      "items": [
+        "the jar’s share is fairly well matched to your actual needs;",
+        "the available money is only just enough;",
+        "money is spent quickly after each deposit;",
+        "the jar regularly needs additional money from other sources."
+      ],
+      "closingParagraphs": [
+        "To understand the situation more accurately, compare the chart with the total deposits and withdrawals.",
+        "If the jar regularly receives noticeably more money than is normally allocated to it from income, it may be relying on additional transfers."
+      ]
+    },
+    "balanceNegative": {
+      "title": "The balance goes below zero",
+      "paragraphs": [
+        "A negative balance means more money was spent from the jar than it contained.",
+        "An occasional negative balance may be normal. For example, a large purchase may happen shortly before your next income."
+      ],
+      "listIntro": "If the jar regularly goes below zero, it may indicate that:",
+      "items": [
+        "too small a share of income is allocated to it;",
+        "expenses associated with this jar have increased;",
+        "some expenses could be reduced or postponed."
+      ],
+      "closingParagraphs": [
+        "The app allows a jar to have a negative balance. When the jar is replenished, the negative balance will be covered first, leaving less money available for the new period."
+      ]
+    },
+    "temporaryMinusNotVisible": {
+      "title": "Why a temporary negative balance may not appear on the chart",
+      "paragraphs": [
+        "The chart shows the final balance change for each day.",
+        "If a jar goes below zero and is then replenished on the same day, the temporary negative balance may not appear. The chart will show only the final balance for that day."
+      ],
+      "exampleIntro": "For example:",
+      "orderedItems": [
+        "The jar contained 100.",
+        "You spent 200, bringing the balance to −100.",
+        "You then transferred 150 from another jar.",
+        "The final balance for the day was 50."
+      ],
+      "closingParagraphs": [
+        "The chart will show a positive final balance even though the jar temporarily went below zero during the day.",
+        "This is why the chart is useful for analyzing overall trends, but does not always show every intermediate balance."
+      ],
+      "borrowLinkPrefix": "You can read more about temporarily borrowing money from yourself between jars in the ",
+      "borrowLinkText": "section about borrowing from yourself",
+      "borrowLinkSuffix": "."
+    }
+  },
+  "sameResultDifferentMovement": {
+    "title": "The same result can hide very different money movement",
+    "openingParagraphs": [
+      "Do not evaluate a period based only on its closing balance.",
+      "Imagine two different months."
+    ],
+    "firstMonthIntro": "In the first month:",
+    "firstMonthItems": [
+      "deposits — 2,000;",
+      "withdrawals — 2,000;",
+      "net change — 0."
+    ],
+    "secondMonthIntro": "In the second month:",
+    "secondMonthItems": [
+      "there were no deposits;",
+      "there were no withdrawals;",
+      "net change — 0."
+    ],
+    "closingParagraphs": [
+      "In both cases, the balance did not change, but in the first month the jar was actively used, while in the second there was no money movement at all."
+    ],
+    "summaryListIntro": "That is why it is useful to look at all of these together:",
+    "summaryItems": [
+      "opening balance;",
+      "deposits;",
+      "withdrawals;",
+      "net change;",
+      "the shape of the line on the chart."
+    ]
+  },
+  "monthlyInsights": {
+    "title": "What you can learn from a monthly chart",
+    "lead": "Over a shorter period, the report helps you understand how money behaves within a month.",
+    "moneyRunsOutEarly": {
+      "title": "Money runs out too early",
+      "paragraphs": [
+        "If the balance regularly approaches zero long before the next deposit, the jar’s current share may be too small.",
+        "However, it is important to distinguish a recurring pattern from a one-time situation. One unusual month does not necessarily mean the allocation needs to be changed."
+      ]
+    },
+    "evenSpending": {
+      "title": "Money is spent evenly",
+      "paragraphs": [
+        "If the line gradually declines throughout the month, spending is probably distributed fairly evenly.",
+        "For a jar used for everyday expenses, this can be a normal pattern."
+      ]
+    },
+    "sharpDropAtStart": {
+      "title": "There is a sharp drop at the beginning of the period",
+      "paragraphs": [
+        "If a significant share of the money is spent soon after the jar is replenished, large mandatory expenses may be paid at the beginning of the period.",
+        "This is not necessarily a problem. But if there is regularly not enough money left for the rest of the month, the allocation may need to be adjusted."
+      ]
+    },
+    "largeDrops": {
+      "title": "The chart shows individual large drops",
+      "paragraphs": [
+        "Sharp drops can help you identify the dates of large expenses."
+      ],
+      "listIntro": "You can then open the transactions and check:",
+      "items": [
+        "what was purchased;",
+        "whether the expense was planned;",
+        "whether it happens regularly;",
+        "whether it would make sense to set money aside for it in advance."
+      ]
+    }
+  },
+  "longTermInsights": {
+    "title": "What you can learn from several months or a year",
+    "lead": "Over a longer period, the chart is especially useful for identifying recurring patterns.",
+    "introParagraphs": [
+      "One month may be an exception. A pattern that repeats over time is a stronger sign that the jar’s settings or your spending may need to be adjusted."
+    ],
+    "balanceGrowing": {
+      "title": "The balance keeps growing",
+      "paragraphs": [
+        "For a savings jar, steady growth is the expected result.",
+        "But for a regular spending jar, consistent growth may mean that more money is being allocated to it than you actually need.",
+        "In that case, you can consider reducing its share and redirecting the difference to other jars.",
+        "Before changing anything, check whether the accumulated money has a specific purpose. A large expense may happen only occasionally, and you may need the current balance later."
+      ]
+    },
+    "balanceDeclining": {
+      "title": "The balance keeps declining",
+      "paragraphs": [
+        "If the line gradually trends downward over a long period, the jar is consistently spending more than it receives.",
+        "A one-time decline may be caused by unusually large expenses. But if the same trend repeats month after month, the current allocation is probably not enough."
+      ],
+      "listIntro": "In this case, check whether:",
+      "items": [
+        "the jar’s usual expenses have increased;",
+        "there were any rare large expenses during the selected period;",
+        "you regularly need to replenish the jar from other jars."
+      ],
+      "closingParagraphs": [
+        "If the decline is caused by ongoing necessary expenses, you can increase this jar’s share at the expense of other jars.",
+        "If the cause is an occasional large expense, you do not necessarily need to change the regular allocation. For expenses like these, it may be more convenient to save money separately in advance."
+      ]
+    },
+    "extraDeposits": {
+      "title": "The jar regularly needs additional deposits",
+      "paragraphs": [
+        "If the jar’s normal deposits are consistently not enough and you regularly have to transfer money into it from other jars, that is an important signal.",
+        "Even if these transfers prevent the balance from staying negative for long, they show that actual spending is higher than originally planned.",
+        "Transfers between jars can make the chart less obvious, so the line alone may not reveal why the balance recovered. But a combination of regular additional deposits and high withdrawals is already a good reason to reconsider the jar’s share."
+      ]
+    }
+  },
+  "differentJars": {
+    "title": "Different jars should be evaluated differently",
+    "lead": "The same chart pattern can mean different things depending on the purpose of the jar.",
+    "spendingJar": {
+      "title": "Spending jar",
+      "listIntro": "For a jar used for everyday expenses, it is generally normal to:",
+      "items": [
+        "decline between deposits;",
+        "fluctuate regularly;",
+        "approach zero toward the end of the period;",
+        "rise again after income is allocated."
+      ],
+      "closingParagraphs": [
+        "The problem is usually not the decline itself, but regularly going deeply negative or constantly needing transfers from other jars."
+      ]
+    },
+    "savingsJar": {
+      "title": "Savings jar",
+      "listIntro": "For a savings jar, it is generally normal to:",
+      "items": [
+        "grow gradually;",
+        "go for long periods without withdrawals;",
+        "drop sharply after reaching a goal and making a large purchase."
+      ],
+      "closingParagraphs": [
+        "If a savings jar regularly decreases because of everyday expenses, its money may be being used for something other than its intended purpose."
+      ]
+    },
+    "goalJar": {
+      "title": "Jar for a large goal or obligation",
+      "paragraphs": [
+        "A separate jar can be useful when you need to reserve money in advance for a specific goal or obligation."
+      ],
+      "examplesIntro": "For example:",
+      "examples": [
+        "annual insurance;",
+        "education;",
+        "a vacation;",
+        "home repairs;",
+        "an expensive subscription;",
+        "a large recurring mandatory payment."
+      ],
+      "benefitsIntro": "A jar like this lets you immediately see:",
+      "benefits": [
+        "how much you have already saved;",
+        "whether regular deposits are enough;",
+        "whether you overspent;",
+        "whether you need to add money from other parts of your budget."
+      ],
+      "closingParagraphs": [
+        "At the same time, you do not need a separate jar for every recurring type of expense.",
+        "Even large but variable everyday expenses, such as groceries, are usually easier to keep within a broader jar and analyze using tags.",
+        "A separate jar is more useful for an independent goal or obligation that requires you to reserve a specific amount of money in advance."
+      ]
+    }
+  },
+  "whenToChangeShare": {
+    "title": "When to change a jar’s share",
+    "openingParagraphs": [
+      "Do not change your percentages after a single unusual month.",
+      "First, check whether the same pattern repeats over several periods."
+    ],
+    "increaseListIntro": "Increasing a jar’s share may make sense if:",
+    "increaseItems": [
+      "the balance regularly goes below zero;",
+      "money runs out long before the next income;",
+      "the jar constantly needs additional deposits;",
+      "the expenses covered by the jar are genuinely necessary."
+    ],
+    "decreaseListIntro": "Reducing a jar’s share may make sense if:",
+    "decreaseItems": [
+      "the remaining balance keeps growing;",
+      "the accumulated money has no separate savings goal;",
+      "actual expenses are noticeably lower than the amount allocated;",
+      "other jars regularly do not have enough money."
+    ],
+    "closingParagraphs": [
+      "The 6 Jars method does not require you to keep the original percentages forever. Your allocation can and should be adjusted to match your actual expenses and changes in your life."
+    ]
+  },
+  "limitations": {
+    "title": "Report limitations",
+    "openingParagraphs": [
+      "The “Funds Movement” report is good at showing what happened to the balance, but it does not always explain why it changed."
+    ],
+    "canUnderstandIntro": "It can help you understand:",
+    "canUnderstandItems": [
+      "whether the balance was rising or falling;",
+      "when major changes occurred;",
+      "whether there was enough money;",
+      "whether a consistent trend is forming;",
+      "whether the jar regularly needs additional deposits."
+    ],
+    "cannotDetermineIntro": "But the chart itself cannot always tell you:",
+    "cannotDetermineItems": [
+      "what exactly the money was spent on;",
+      "where a deposit came from;",
+      "whether it was a transfer between jars;",
+      "why your financial behavior changed;",
+      "whether the balance went below zero during the day."
+    ],
+    "closingParagraphs": [
+      "For a more detailed analysis, use the transaction list and reports by tags."
+    ]
+  },
+  "questions": {
+    "title": "Questions to ask yourself",
+    "listIntro": "When reviewing the report, try asking yourself a few questions:",
+    "items": [
+      "Does the jar have enough money until the next deposit?",
+      "At what point in the period does the balance usually start approaching zero?",
+      "Do sharp drops tend to happen on the same dates?",
+      "Do I regularly have to transfer money here from other jars?",
+      "Is the remaining balance growing without a specific goal?",
+      "Does the jar’s current share match my actual expenses?",
+      "Are large changes one-time events, or do they repeat from month to month?"
+    ],
+    "closingParagraphs": [
+      "The main purpose of the report is not just to show a line representing the balance, but to help you notice recurring patterns and understand how well the selected jar’s share matches your real life."
+    ]
+  }
+}

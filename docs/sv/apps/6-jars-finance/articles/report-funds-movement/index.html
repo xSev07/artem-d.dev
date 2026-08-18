@@ -1,0 +1,1095 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Så läser du rapporten ”Pengaflöde”</title>
+  <meta name="description" content="Rapporten ”Pengaflöde” visar hur saldot i den valda potten har förändrats under en viss period." />
+  
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  
+  <link rel="stylesheet" href="/assets/style.css" />
+</head>
+<body>
+  <header class="site-header">
+  <div class="container site-header__inner">
+    <a class="site-header__brand" href="/">Artem D Apps</a>
+    <div class="site-header__aside">
+      
+      
+      <nav class="site-header__nav" aria-label="Webbplatsnavigering">
+        <a
+          class="site-header__link"
+          href="/sv/apps/6-jars-finance/download/"
+          data-analytics-link="download"
+          data-analytics-placement="header"
+          
+        >Ladda ner appen</a>
+        <a
+          class="site-header__link"
+          href="/sv/apps/6-jars-finance/articles/guide/"
+          
+        >Sex-pottarsmetoden</a>
+      </nav>
+      
+        
+
+<nav class="lang-switch" aria-label="Språk">
+  <label class="lang-switch__desktop">
+    <span class="lang-switch__visually-hidden">Språk</span>
+    <select class="lang-switch__select" data-lang-switch-select>
+      
+        <option
+          value="/en/apps/6-jars-finance/articles/report-funds-movement/"
+          
+        >English</option>
+      
+        <option
+          value="/id/apps/6-jars-finance/articles/report-funds-movement/"
+          
+        >Bahasa Indonesia</option>
+      
+        <option
+          value="/cs/apps/6-jars-finance/articles/report-funds-movement/"
+          
+        >Čeština</option>
+      
+        <option
+          value="/de/apps/6-jars-finance/articles/report-funds-movement/"
+          
+        >Deutsch</option>
+      
+        <option
+          value="/es/apps/6-jars-finance/articles/report-funds-movement/"
+          
+        >Español</option>
+      
+        <option
+          value="/fr/apps/6-jars-finance/articles/report-funds-movement/"
+          
+        >Français</option>
+      
+        <option
+          value="/it/apps/6-jars-finance/articles/report-funds-movement/"
+          
+        >Italiano</option>
+      
+        <option
+          value="/nl/apps/6-jars-finance/articles/report-funds-movement/"
+          
+        >Nederlands</option>
+      
+        <option
+          value="/pl/apps/6-jars-finance/articles/report-funds-movement/"
+          
+        >Polski</option>
+      
+        <option
+          value="/pt-BR/apps/6-jars-finance/articles/report-funds-movement/"
+          
+        >Português (Brasil)</option>
+      
+        <option
+          value="/ro/apps/6-jars-finance/articles/report-funds-movement/"
+          
+        >Română</option>
+      
+        <option
+          value="/ru/apps/6-jars-finance/articles/report-funds-movement/"
+          
+        >Русский</option>
+      
+        <option
+          value="/sv/apps/6-jars-finance/articles/report-funds-movement/"
+          selected
+        >Svenska</option>
+      
+        <option
+          value="/tr/apps/6-jars-finance/articles/report-funds-movement/"
+          
+        >Türkçe</option>
+      
+        <option
+          value="/uk/apps/6-jars-finance/articles/report-funds-movement/"
+          
+        >Українська</option>
+      
+    </select>
+  </label>
+
+  <button
+    type="button"
+    class="lang-switch__trigger"
+    data-open-lang-switch-modal
+    aria-haspopup="dialog"
+    aria-expanded="false"
+    aria-controls="lang-switch-modal"
+  >
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        <span class="lang-switch__code">
+  SV
+</span>
+      
+    
+      
+    
+      
+    
+    <span class="lang-switch__arrow" aria-hidden="true">▾</span>
+  </button>
+
+  <div
+    class="modal-overlay lang-switch__modal-overlay"
+    id="lang-switch-modal"
+    hidden
+    aria-hidden="true"
+    data-lang-switch-modal
+  >
+    <div
+      class="modal lang-switch__modal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="lang-switch-modal-title"
+    >
+      <h2 class="modal__title" id="lang-switch-modal-title">Språk</h2>
+      <fieldset class="lang-switch__mobile" aria-label="Språk">
+        <div class="lang-switch__radio-list">
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/en/apps/6-jars-finance/articles/report-funds-movement/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">English</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/id/apps/6-jars-finance/articles/report-funds-movement/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Bahasa Indonesia</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/cs/apps/6-jars-finance/articles/report-funds-movement/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Čeština</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/de/apps/6-jars-finance/articles/report-funds-movement/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Deutsch</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/es/apps/6-jars-finance/articles/report-funds-movement/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Español</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/fr/apps/6-jars-finance/articles/report-funds-movement/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Français</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/it/apps/6-jars-finance/articles/report-funds-movement/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Italiano</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/nl/apps/6-jars-finance/articles/report-funds-movement/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Nederlands</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/pl/apps/6-jars-finance/articles/report-funds-movement/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Polski</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/pt-BR/apps/6-jars-finance/articles/report-funds-movement/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Português (Brasil)</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/ro/apps/6-jars-finance/articles/report-funds-movement/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Română</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/ru/apps/6-jars-finance/articles/report-funds-movement/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Русский</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/sv/apps/6-jars-finance/articles/report-funds-movement/"
+                data-lang-switch-radio
+                checked
+              />
+              <span class="lang-switch__radio-text">Svenska</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/tr/apps/6-jars-finance/articles/report-funds-movement/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Türkçe</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/uk/apps/6-jars-finance/articles/report-funds-movement/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Українська</span>
+            </label>
+          
+        </div>
+      </fieldset>
+    </div>
+  </div>
+
+  <script src="/assets/js/lang-switch.js" defer></script>
+</nav>
+
+      
+    </div>
+  </div>
+</header>
+
+
+  <main class="article">
+    <div class="container">
+      <div class="article-layout">
+  <div class="article-container">
+    
+
+
+
+
+
+
+
+
+
+<h1>Så läser du rapporten ”Pengaflöde”</h1>
+
+
+<p>Rapporten ”Pengaflöde” visar hur saldot i den valda potten har förändrats under en viss period.</p>
+
+
+<p>Med den kan du se:</p>
+
+<ul>
+  
+  <li>hur mycket pengar som fanns i potten i början av perioden;</li>
+  
+  <li>hur mycket pengar som sattes in;</li>
+  
+  <li>hur mycket som spenderades;</li>
+  
+  <li>hur mycket saldot förändrades;</li>
+  
+  <li>hur mycket pengar som fanns kvar i slutet av perioden;</li>
+  
+  <li>vid vilka tidpunkter tydliga förändringar inträffade.</li>
+  
+</ul>
+
+
+
+<p>Rapporten skapas bara för en vald pott. Se den därför inte som en överblick över hela din ekonomi, utan som en historik över hur pengar har rört sig inom en viss del av din budget.</p>
+
+
+
+<nav class="article-overview" aria-labelledby="article-overview-title">
+  <h2 id="article-overview-title">Innehåll</h2>
+  <ol>
+    <li><a href="#metrics">Vad värdena betyder</a></li>
+    <li><a href="#reading-chart">Så läser du diagrammet</a></li>
+    <li><a href="#same-result">Samma resultat kan dölja helt olika pengaflöden</a></li>
+    <li><a href="#monthly-insights">Vad du kan se i diagrammet för en månad</a></li>
+    <li><a href="#long-term-insights">Vad du kan se i diagrammet över flera månader eller ett år</a></li>
+    <li><a href="#different-jars">Olika potter bör bedömas på olika sätt</a></li>
+    <li><a href="#when-to-change-share">När du bör ändra en potts andel</a></li>
+    <li><a href="#limitations">Rapportens begränsningar</a></li>
+    <li><a href="#questions">Frågor att ställa dig själv</a></li>
+  </ol>
+</nav>
+
+<div class="article-section">
+<h2 id="metrics">Vad värdena betyder</h2>
+<div class="article-subsection">
+<h3>Ingående saldo</h3>
+
+
+<p>Det ingående saldot är det belopp som fanns i potten i början av den valda perioden.</p>
+
+<p>Det är inte nödvändigtvis beloppet från den senaste insättningen och inte heller pottens aktuella saldo. Om det till exempel fanns pengar kvar från föregående månad när en ny månad började, ingår de också i det ingående saldot.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Insättningar</h3>
+
+
+<p>Insättningar visar det totala belopp som har lagts till i den valda potten under perioden.</p>
+
+
+<p>Det kan till exempel vara:</p>
+
+<ul>
+  
+  <li>en del av en fördelad inkomst;</li>
+  
+  <li>en extra insättning;</li>
+  
+  <li>pengar som återbetalats efter en tidigare utgift;</li>
+  
+  <li>en överföring från en annan pott.</li>
+  
+</ul>
+
+
+
+<p>Rapporten visar den totala summan av insättningarna, men inte varför pengarna lades till. För att se var en viss insättning kom ifrån behöver du titta i transaktionslistan.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Utgifter</h3>
+
+
+<p>Utgifter visar den totala summan av alla pengar som spenderats från den valda potten under perioden.</p>
+
+<p>Även om saldot nästan inte har förändrats vid periodens slut kan den totala summan av utgifterna vara stor. Det betyder att pengar har spenderats aktivt och att potten sedan har fyllts på igen.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Nettoförändring</h3>
+
+
+<p>Nettoförändringen visar hur mycket saldot har ökat eller minskat jämfört med periodens början.</p>
+
+<p>Den beräknas som skillnaden mellan insättningar och utgifter.</p>
+
+
+<p>Till exempel:</p>
+
+<ul>
+  
+  <li>ingående saldo — 1 000;</li>
+  
+  <li>insättningar — 2 000;</li>
+  
+  <li>utgifter — 2 300;</li>
+  
+  <li>nettoförändring — −300;</li>
+  
+  <li>utgående saldo — 700.</li>
+  
+</ul>
+
+
+
+<p>För en vanlig utgiftspott kan det över en längre period vara normalt att nettoförändringen ligger nära noll eller att saldot växer långsamt.</p>
+
+<p>Om nettoförändringen regelbundet är negativ spenderas det systematiskt mer pengar från potten än vad som sätts in. Det kan tyda på att potten får en för liten andel av inkomsten eller att utgifterna behöver ses över.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Utgående saldo</h3>
+
+
+<p>Det utgående saldot är det belopp som finns kvar i potten i slutet av den valda perioden.</p>
+
+<p>Det omfattar det ingående saldot samt alla insättningar och utgifter.</p>
+
+<p>Blanda inte ihop det utgående saldot med nettoförändringen. Saldot visar hur mycket pengar som finns kvar, medan nettoförändringen visar hur mycket detta belopp skiljer sig från det ingående saldot.</p>
+
+
+</div>
+</div>
+
+<div class="article-section">
+<h2 id="reading-chart">Så läser du diagrammet</h2>
+<p>Linjen i diagrammet visar hur pottens saldo förändrades under den valda perioden.</p>
+<div class="article-subsection">
+<h3>Linjen går uppåt</h3>
+
+
+<p>En stigande linje betyder att pengar har lagts till i potten.</p>
+
+<p>En kraftig uppgång beror vanligtvis på en större insättning, till exempel en inkomstfördelning eller en överföring från en annan pott.</p>
+
+<p>En gradvis eller stegvis uppgång kan betyda att flera separata insättningar har gjorts.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Linjen går nedåt</h3>
+
+
+<p>En sjunkande linje betyder utgifter.</p>
+
+<p>En gradvis nedgång betyder vanligtvis att pengarna spenderas lite i taget under perioden.</p>
+
+<p>Ett kraftigt fall betyder en stor utgift eller flera utgifter under en kort tidsperiod.</p>
+
+<p>Diagrammet visar när förändringen inträffade, men inte vad pengarna användes till. För det behöver du öppna transaktionslistan eller rapporten efter taggar.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Linjen ligger ungefär på samma nivå</h3>
+<p>Det kan betyda att:</p>
+
+<ul>
+  
+  <li>det nästan inte fanns några utgifter;</li>
+  
+  <li>insättningarna ungefär motsvarade utgifterna;</li>
+  
+  <li>pengar regelbundet spenderades och sattes tillbaka;</li>
+  
+  <li>potten användes sällan.</li>
+  
+</ul>
+
+
+
+<p>En platt linje betyder därför inte automatiskt att det inte fanns någon aktivitet. Titta också på den totala summan av insättningar och utgifter.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Saldot ligger nära noll</h3>
+<p>Om linjen ligger nära noll under en längre tid kan det finnas flera orsaker:</p>
+
+<ul>
+  
+  <li>pottens andel är ganska väl anpassad till de faktiska utgifterna;</li>
+  
+  <li>pengarna räcker precis;</li>
+  
+  <li>pengarna spenderas snabbt efter varje insättning;</li>
+  
+  <li>potten behöver regelbundet fyllas på från andra källor.</li>
+  
+</ul>
+
+
+
+<p>För att förstå situationen bättre bör du jämföra diagrammet med de totala insättningarna och utgifterna.</p>
+
+<p>Om potten regelbundet får betydligt större insättningar än vad som normalt tilldelas den vid inkomstfördelningen kan den behöva extra överföringar.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Saldot går under noll</h3>
+
+
+<p>Ett negativt saldo betyder att mer pengar har spenderats från potten än vad som fanns i den.</p>
+
+<p>En enstaka sådan situation kan vara normal. Ett större köp kan till exempel ha gjorts strax före nästa inkomst.</p>
+
+
+<p>Om potten regelbundet går under noll kan det tyda på att:</p>
+
+<ul>
+  
+  <li>den får en för liten andel av inkomsten;</li>
+  
+  <li>utgifterna för potten har ökat;</li>
+  
+  <li>en del utgifter kan minskas eller skjutas upp.</li>
+  
+</ul>
+
+
+
+<p>Appen tillåter ett negativt saldo. Vid nästa insättning täcks det negativa saldot först, vilket innebär att mindre pengar blir tillgängliga för den nya perioden.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Varför ett tillfälligt negativt saldo kanske inte syns i diagrammet</h3>
+
+
+<p>Diagrammet visar den slutliga förändringen av saldot för varje dag.</p>
+
+<p>Om en pott först går under noll och sedan fylls på samma dag kanske det tillfälliga negativa saldot inte visas. Diagrammet visar bara dagens slutliga saldo.</p>
+
+
+<p>Till exempel:</p>
+
+<ol>
+  
+  <li>Det fanns 100 i potten.</li>
+  
+  <li>Du spenderar 200 och saldot blir −100.</li>
+  
+  <li>Sedan överför du 150 från en annan pott.</li>
+  
+  <li>Dagens utgående saldo blir 50.</li>
+  
+</ol>
+
+
+
+<p>Diagrammet visar ett positivt utgående saldo även om potten tillfälligt låg under noll under dagen.</p>
+
+<p>Diagrammet passar därför bra för att analysera den övergripande utvecklingen, men visar inte alltid varje mellanliggande saldo.</p>
+
+
+<p>Du kan läsa mer om hur du tillfälligt kan låna pengar av dig själv mellan potter i <a href="/sv/apps/6-jars-finance/articles/guide/#borrow-from-yourself">avsnittet om att låna av sig själv</a>.</p>
+</div>
+</div>
+
+<div class="article-section">
+<h2 id="same-result">Samma resultat kan dölja helt olika pengaflöden</h2>
+
+
+<p>Bedöm inte en period enbart utifrån det utgående saldot.</p>
+
+<p>Föreställ dig två månader.</p>
+
+
+<p>Under den första månaden:</p>
+
+<ul>
+  
+  <li>insättningar — 2 000;</li>
+  
+  <li>utgifter — 2 000;</li>
+  
+  <li>nettoförändring — 0.</li>
+  
+</ul>
+
+<p>Under den andra månaden:</p>
+
+<ul>
+  
+  <li>inga insättningar;</li>
+  
+  <li>inga utgifter;</li>
+  
+  <li>nettoförändring — 0.</li>
+  
+</ul>
+
+
+
+<p>I båda fallen förändrades inte saldot, men under den första månaden användes potten aktivt medan det under den andra månaden inte förekom några pengaflöden alls.</p>
+
+
+<p>Därför är det bra att titta på följande tillsammans:</p>
+
+<ul>
+  
+  <li>ingående saldo;</li>
+  
+  <li>insättningar;</li>
+  
+  <li>utgifter;</li>
+  
+  <li>nettoförändring;</li>
+  
+  <li>linjens form i diagrammet.</li>
+  
+</ul>
+
+</div>
+
+<div class="article-section">
+<h2 id="monthly-insights">Vad du kan se i diagrammet för en månad</h2>
+<p>Under en kortare period hjälper rapporten dig att se hur pengarna beter sig under månaden.</p>
+<div class="article-subsection">
+<h3>Pengarna tar slut för tidigt</h3>
+
+
+<p>Om saldot regelbundet närmar sig noll långt före nästa insättning kan pottens nuvarande andel vara för liten.</p>
+
+<p>Det är samtidigt viktigt att skilja ett återkommande mönster från en enstaka situation. En ovanlig månad betyder inte automatiskt att fördelningen behöver ändras.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Pengarna spenderas jämnt</h3>
+
+
+<p>Om linjen gradvis sjunker under hela månaden är utgifterna sannolikt ganska jämnt fördelade.</p>
+
+<p>För en pott med vardagliga utgifter kan det vara ett normalt mönster.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Det sker ett kraftigt fall i början av perioden</h3>
+
+
+<p>Om en stor del av pengarna spenderas direkt efter en insättning kan stora nödvändiga utgifter betalas i början av perioden.</p>
+
+<p>Det behöver inte vara ett problem. Men om det regelbundet blir för lite pengar kvar för resten av månaden bör fördelningen ses över.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Diagrammet visar enstaka stora fall</h3>
+
+
+<p>Kraftiga fall hjälper dig att hitta tidpunkterna för stora utgifter.</p>
+
+
+<p>Därefter kan du öppna transaktionerna och kontrollera:</p>
+
+<ul>
+  
+  <li>vad som köptes;</li>
+  
+  <li>om utgiften var planerad;</li>
+  
+  <li>om den återkommer regelbundet;</li>
+  
+  <li>om det är bättre att reservera pengar för den i förväg.</li>
+  
+</ul>
+
+</div>
+</div>
+
+<div class="article-section">
+<h2 id="long-term-insights">Vad du kan se i diagrammet över flera månader eller ett år</h2>
+<p>Över en längre period är diagrammet särskilt användbart för att upptäcka bestående mönster.</p>
+
+
+<p>En enskild månad kan vara ett undantag. En återkommande utveckling är ett tydligare tecken på att pottens inställningar eller utgiftsstrukturen kan behöva ändras.</p>
+
+
+<div class="article-subsection">
+<h3>Saldot fortsätter att växa</h3>
+
+
+<p>För en sparpott är stadig tillväxt ett förväntat resultat.</p>
+
+<p>Om det däremot är en vanlig utgiftspott kan ett stadigt växande saldo betyda att den tilldelas mer pengar än vad som faktiskt behövs.</p>
+
+<p>I så fall kan du överväga att minska dess andel och fördela den frigjorda delen av inkomsten till andra potter.</p>
+
+<p>Kontrollera först om de sparade pengarna har ett särskilt syfte. En större utgift kanske inträffar sällan och det nuvarande saldot kan behövas senare.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Saldot fortsätter att minska</h3>
+
+
+<p>Om linjen gradvis sjunker över en längre period överstiger pottens utgifter systematiskt dess insättningar.</p>
+
+<p>En enstaka nedgång kan bero på ovanligt stora utgifter. Men om samma trend återkommer månad efter månad är den nuvarande fördelningen sannolikt otillräcklig.</p>
+
+
+<p>Kontrollera då:</p>
+
+<ul>
+  
+  <li>om de vanliga utgifterna som hör till pottens syfte har ökat;</li>
+  
+  <li>om det förekom ovanliga stora utgifter under den valda perioden;</li>
+  
+  <li>om du regelbundet behöver fylla på potten från andra potter.</li>
+  
+</ul>
+
+
+
+<p>Om nedgången beror på återkommande nödvändiga utgifter kan du öka pottens andel på bekostnad av andra potter.</p>
+
+<p>Om orsaken är enstaka stora utgifter behöver du inte nödvändigtvis ändra den vanliga fördelningen. För sådana utgifter kan det vara smidigare att spara pengar separat i förväg.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Potten behöver regelbundet extra insättningar</h3>
+
+
+<p>Om pottens vanliga insättningar ständigt är otillräckliga och du regelbundet behöver överföra pengar från andra potter är det en viktig signal.</p>
+
+<p>Även om sådana överföringar gör att saldot inte ligger under noll särskilt länge visar de att de faktiska utgifterna är högre än vad som ursprungligen planerades.</p>
+
+<p>Överföringar mellan potter kan göra diagrammet mindre tydligt. Därför går det inte alltid att se enbart på linjen varför saldot återhämtade sig. Kombinationen av regelbundna extra insättningar och höga utgifter är däremot redan ett bra skäl att se över pottens andel.</p>
+
+
+</div>
+</div>
+
+<div class="article-section">
+<h2 id="different-jars">Olika potter bör bedömas på olika sätt</h2>
+<p>Samma form på diagrammet kan betyda olika saker beroende på vad potten används till.</p>
+<div class="article-subsection">
+<h3>Utgiftspott</h3>
+<p>För en pott med vardagliga utgifter är det vanligtvis normalt att den:</p>
+
+<ul>
+  
+  <li>minskar mellan insättningar;</li>
+  
+  <li>varierar regelbundet;</li>
+  
+  <li>närmar sig noll mot slutet av perioden;</li>
+  
+  <li>ökar igen efter att inkomsten har fördelats.</li>
+  
+</ul>
+
+
+
+<p>Problemet är oftast inte minskningen i sig, utan att saldot regelbundet blir kraftigt negativt eller att pengar ständigt måste överföras från andra potter.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Sparpott</h3>
+<p>För en sparpott är det vanligtvis normalt att den:</p>
+
+<ul>
+  
+  <li>växer gradvis;</li>
+  
+  <li>går långa perioder utan utgifter;</li>
+  
+  <li>minskar kraftigt efter att ett mål har uppnåtts och ett större köp har gjorts.</li>
+  
+</ul>
+
+
+
+<p>Om en sparpott regelbundet minskar på grund av vardagliga utgifter kan pengarna användas till något annat än det avsedda syftet.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Pott för ett större mål eller en förpliktelse</h3>
+
+
+<p>En separat pott kan vara användbar om du behöver reservera pengar i förväg för ett visst mål eller en viss förpliktelse.</p>
+
+
+<p>Till exempel:</p>
+
+<ul>
+  
+  <li>årlig försäkring;</li>
+  
+  <li>utbildning;</li>
+  
+  <li>semester;</li>
+  
+  <li>renovering;</li>
+  
+  <li>en dyr prenumeration;</li>
+  
+  <li>en större återkommande obligatorisk betalning.</li>
+  
+</ul>
+
+<p>Med en sådan pott kan du direkt se:</p>
+
+<ul>
+  
+  <li>hur mycket du redan har sparat;</li>
+  
+  <li>om de regelbundna insättningarna räcker;</li>
+  
+  <li>om du har spenderat mer än planerat;</li>
+  
+  <li>om pengar behöver läggas till från andra delar av budgeten.</li>
+  
+</ul>
+
+
+
+<p>Du behöver dock inte skapa en separat pott för varje återkommande typ av utgift.</p>
+
+<p>Även stora men varierande vardagsutgifter, till exempel matvaror, är vanligtvis enklare att hantera inom en bredare pott och analysera med hjälp av taggar.</p>
+
+<p>En separat pott är mer användbar för ett självständigt mål eller en förpliktelse där du behöver reservera ett bestämt belopp i förväg.</p>
+
+
+</div>
+</div>
+
+<div class="article-section">
+<h2 id="when-to-change-share">När du bör ändra en potts andel</h2>
+
+
+<p>Ändra inte procentsatserna efter en enda ovanlig månad.</p>
+
+<p>Kontrollera först om samma situation återkommer under flera perioder.</p>
+
+
+<p>Det kan vara rimligt att öka andelen om:</p>
+
+<ul>
+  
+  <li>saldot regelbundet går under noll;</li>
+  
+  <li>pengarna tar slut långt före nästa inkomst;</li>
+  
+  <li>potten ständigt behöver extra insättningar;</li>
+  
+  <li>utgifterna som hör till pottens syfte faktiskt är nödvändiga.</li>
+  
+</ul>
+
+<p>Det kan vara rimligt att minska andelen om:</p>
+
+<ul>
+  
+  <li>det återstående saldot fortsätter att växa;</li>
+  
+  <li>de sparade pengarna inte har något separat sparmål;</li>
+  
+  <li>de faktiska utgifterna är tydligt lägre än det tilldelade beloppet;</li>
+  
+  <li>andra potter regelbundet saknar pengar.</li>
+  
+</ul>
+
+
+
+<p>6-pottsmetoden kräver inte att du behåller de ursprungliga procentsatserna för alltid. Fördelningen kan och bör anpassas efter dina faktiska utgifter och förändringar i livet.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="limitations">Rapportens begränsningar</h2>
+
+
+<p>Rapporten ”Pengaflöde” visar tydligt vad som har hänt med saldot, men förklarar inte alltid varför det förändrades.</p>
+
+
+<p>Med den kan du se:</p>
+
+<ul>
+  
+  <li>om saldot ökade eller minskade;</li>
+  
+  <li>när större förändringar inträffade;</li>
+  
+  <li>om pengarna räckte;</li>
+  
+  <li>om ett bestående mönster håller på att bildas;</li>
+  
+  <li>om potten regelbundet behöver extra insättningar.</li>
+  
+</ul>
+
+<p>Diagrammet kan däremot inte alltid visa:</p>
+
+<ul>
+  
+  <li>vad pengarna exakt spenderades på;</li>
+  
+  <li>var en insättning kom ifrån;</li>
+  
+  <li>om det var en överföring mellan potter;</li>
+  
+  <li>varför utgiftsmönstret förändrades;</li>
+  
+  <li>om saldot gick under noll någon gång under dagen.</li>
+  
+</ul>
+
+
+
+<p>För en mer detaljerad analys kan du använda transaktionslistan och rapporterna efter taggar.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="questions">Frågor att ställa dig själv</h2>
+<p>När du granskar rapporten kan du försöka besvara några frågor:</p>
+
+<ul>
+  
+  <li>Räcker pengarna i potten fram till nästa insättning?</li>
+  
+  <li>Vid vilken tidpunkt under perioden brukar saldot börja närma sig noll?</li>
+  
+  <li>Återkommer kraftiga fall på samma datum?</li>
+  
+  <li>Behöver jag regelbundet överföra pengar hit från andra potter?</li>
+  
+  <li>Fortsätter det återstående saldot att växa utan ett särskilt mål?</li>
+  
+  <li>Motsvarar pottens nuvarande andel mina faktiska utgifter?</li>
+  
+  <li>Är stora förändringar enstaka händelser eller återkommer de månad efter månad?</li>
+  
+</ul>
+
+
+
+<p>Rapportens främsta syfte är inte bara att visa en linje över saldoförändringen, utan att hjälpa dig upptäcka återkommande mönster och förstå hur väl pottens valda andel motsvarar din verkliga situation.</p>
+
+
+</div>
+
+  </div>
+  <aside class="article-toc" aria-label="Sidnavigering">
+    <nav class="article-toc__nav">
+      <p class="article-toc__title">På den här sidan</p>
+      <ol class="article-toc__list"></ol>
+    </nav>
+  </aside>
+</div>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+  <div class="container site-footer__inner">
+    <p class="site-footer__copyright">© 2026 Artem D Apps</p>
+    <nav class="site-footer__nav" aria-label="Information om webbplatsen">
+      <a class="site-footer__link" href="/sv/apps/6-jars-finance/help/">Information om fel</a>
+      <a class="site-footer__link" href="/sv/apps/6-jars-finance/articles/report-funds-movement/">common.pages.reportFundsMovement</a>
+      <a class="site-footer__link" href="/sv/apps/6-jars-finance/privacy/">Integritetspolicy</a>
+      <a class="site-footer__link" href="/sv/apps/6-jars-finance/licenses/">Licenser för öppen källkod</a>
+    </nav>
+  </div>
+</footer>
+
+  
+  <script src="/assets/article-toc.js" defer></script>
+
+  
+  <script src="/assets/js/analytics.js" defer></script>
+</body>
+</html>

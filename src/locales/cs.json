@@ -11,6 +11,7 @@
     "pages": {
       "privacy": "Zásady ochrany osobních údajů",
       "help": "Informace o chybě",
+      "reportFundsMovement": "Funds Movement Report",
       "licenses": "Licence open source softwaru"
     }
   },

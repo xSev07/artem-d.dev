@@ -1,0 +1,408 @@
+{
+  "title": "Jak číst přehled „Pohyb prostředků“",
+  "metaDescription": "Přehled „Pohyb prostředků“ ukazuje, jak se měnil zůstatek vybraného fondu za určité období.",
+  "intro": {
+    "paragraphs": [
+      "Přehled „Pohyb prostředků“ ukazuje, jak se měnil zůstatek vybraného fondu za určité období."
+    ],
+    "listIntro": "Pomocí něj můžete zjistit:",
+    "items": [
+      "kolik peněz bylo ve fondu na začátku období;",
+      "kolik peněz přibylo;",
+      "kolik bylo utraceno;",
+      "o kolik se zůstatek změnil;",
+      "kolik peněz zůstalo na konci období;",
+      "ve kterých okamžicích došlo k výrazným změnám."
+    ],
+    "closingParagraphs": [
+      "Přehled se vytváří pouze pro jeden vybraný fond. Proto je vhodné jej vnímat ne jako celkový obraz všech financí, ale jako historii pohybu peněz v jedné konkrétní části rozpočtu."
+    ]
+  },
+  "overview": {
+    "title": "Obsah",
+    "metrics": "Co znamenají ukazatele",
+    "readingChart": "Jak číst graf",
+    "sameResultDifferentMovement": "Stejný výsledek může skrývat velmi odlišný pohyb peněz",
+    "monthlyInsights": "Co lze zjistit z grafu za měsíc",
+    "longTermInsights": "Co lze zjistit z grafu za několik měsíců nebo za rok",
+    "differentJars": "Různé fondy je třeba hodnotit různě",
+    "whenToChangeShare": "Kdy změnit podíl fondu",
+    "limitations": "Omezení přehledu",
+    "questions": "Jaké otázky si položit"
+  },
+  "metrics": {
+    "title": "Co znamenají ukazatele",
+    "openingBalance": {
+      "title": "Počáteční zůstatek",
+      "paragraphs": [
+        "Počáteční zůstatek je částka, která byla ve fondu na začátku vybraného období.",
+        "Nemusí jít o částku posledního vkladu ani o aktuální zůstatek fondu. Pokud například na začátku měsíce ve fondu zůstaly peníze z předchozího měsíce, budou zahrnuty také do počátečního zůstatku."
+      ]
+    },
+    "deposits": {
+      "title": "Vklady",
+      "paragraphs": [
+        "Vklady ukazují celkovou částku všech peněz přidaných do vybraného fondu během daného období."
+      ],
+      "listIntro": "Může jít například o:",
+      "items": [
+        "část rozděleného příjmu;",
+        "dodatečný vklad;",
+        "vrácení dříve utracených peněz;",
+        "převod z jiného fondu."
+      ],
+      "closingParagraphs": [
+        "Samotný přehled ukazuje celkovou částku vkladů, ale neurčuje jejich důvod. Chcete-li zjistit původ konkrétního vkladu, podívejte se do seznamu transakcí."
+      ]
+    },
+    "withdrawals": {
+      "title": "Výdaje",
+      "paragraphs": [
+        "Výdaje ukazují celkovou částku všech peněz utracených z vybraného fondu během daného období.",
+        "I když se zůstatek do konce období téměř nezměnil, celková částka výdajů může být vysoká. Znamená to, že peníze byly aktivně utráceny a fond byl později znovu doplňován."
+      ]
+    },
+    "netChange": {
+      "title": "Čistá změna",
+      "paragraphs": [
+        "Čistá změna ukazuje, o kolik se zůstatek zvýšil nebo snížil oproti začátku období.",
+        "Vypočítává se jako rozdíl mezi vklady a výdaji."
+      ],
+      "exampleIntro": "Například:",
+      "exampleItems": [
+        "počáteční zůstatek — 1 000;",
+        "vklady — 2 000;",
+        "výdaje — 2 300;",
+        "čistá změna — −300;",
+        "konečný zůstatek — 700."
+      ],
+      "closingParagraphs": [
+        "U běžného výdajového fondu lze za normální považovat situaci, kdy čistá změna v delším období zůstává blízko nule nebo zůstatek postupně roste.",
+        "Pokud čistá změna pravidelně zůstává záporná, znamená to, že se z fondu systematicky utrácí více peněz, než do něj přichází. To může znamenat, že je do něj přidělován příliš malý podíl příjmu nebo že je potřeba výdaje přehodnotit."
+      ]
+    },
+    "closingBalance": {
+      "title": "Konečný zůstatek",
+      "paragraphs": [
+        "Konečný zůstatek je částka, která ve fondu zůstala na konci vybraného období.",
+        "Zahrnuje počáteční zůstatek, všechny vklady a všechny výdaje.",
+        "Je důležité nezaměňovat konečný zůstatek s čistou změnou. Zůstatek ukazuje, kolik peněz zůstalo, zatímco čistá změna ukazuje, o kolik se tato částka liší od počátečního zůstatku."
+      ]
+    }
+  },
+  "readingChart": {
+    "title": "Jak číst graf",
+    "lead": "Čára v grafu ukazuje, jak se během vybraného období měnil zůstatek fondu.",
+    "lineUp": {
+      "title": "Čára stoupá",
+      "paragraphs": [
+        "Růst čáry znamená, že do fondu byly přidány peníze.",
+        "Prudký růst obvykle souvisí s větším vkladem, například s rozdělením příjmu nebo převodem peněz z jiného fondu.",
+        "Pozvolný nebo stupňovitý růst může znamenat několik samostatných vkladů."
+      ]
+    },
+    "lineDown": {
+      "title": "Čára klesá",
+      "paragraphs": [
+        "Pokles čáry znamená výdaje.",
+        "Postupný pokles obvykle znamená, že se peníze utrácejí po menších částkách v průběhu období.",
+        "Prudký propad znamená velký výdaj nebo několik výdajů uskutečněných během krátké doby.",
+        "Samotný graf ukáže, kdy ke změně došlo, ale ne na co přesně byly peníze utraceny. K tomu je potřeba otevřít seznam transakcí nebo přehled podle štítků."
+      ]
+    },
+    "lineFlat": {
+      "title": "Čára se drží přibližně na stejné úrovni",
+      "listIntro": "Může to znamenat, že:",
+      "items": [
+        "téměř nebyly žádné výdaje;",
+        "vklady přibližně vyrovnávaly výdaje;",
+        "peníze se pravidelně utrácely a znovu doplňovaly;",
+        "fond byl používán jen zřídka."
+      ],
+      "closingParagraphs": [
+        "Vodorovná čára tedy sama o sobě neznamená, že nedocházelo k žádné aktivitě. Je potřeba sledovat také celkovou částku vkladů a výdajů."
+      ]
+    },
+    "balanceNearZero": {
+      "title": "Zůstatek se drží blízko nuly",
+      "listIntro": "Pokud se čára dlouho drží blízko nuly, může to mít několik důvodů:",
+      "items": [
+        "podíl fondu poměrně dobře odpovídá skutečným potřebám;",
+        "peněz je právě tak akorát;",
+        "peníze se po každém vkladu rychle utratí;",
+        "fond je potřeba pravidelně doplňovat z jiných zdrojů."
+      ],
+      "closingParagraphs": [
+        "Pro přesnější pochopení situace porovnejte graf s celkovými vklady a výdaji.",
+        "Pokud fond pravidelně dostává výrazně více peněz, než do něj obvykle připadá při rozdělení příjmu, může být závislý na dodatečných převodech."
+      ]
+    },
+    "balanceNegative": {
+      "title": "Zůstatek klesá pod nulu",
+      "paragraphs": [
+        "Záporný zůstatek znamená, že z fondu bylo utraceno více peněz, než v něm bylo.",
+        "Jednorázová situace může být normální. Například velký nákup mohl proběhnout krátce před dalším příjmem."
+      ],
+      "listIntro": "Pokud fond pravidelně klesá pod nulu, může to znamenat, že:",
+      "items": [
+        "je do něj přidělován příliš malý podíl příjmu;",
+        "výdaje spojené s tímto fondem vzrostly;",
+        "část výdajů lze omezit nebo odložit."
+      ],
+      "closingParagraphs": [
+        "Aplikace umožňuje záporný zůstatek fondu. Při dalším doplnění se nejprve vyrovná záporný zůstatek, takže na nové období zůstane méně dostupných peněz."
+      ]
+    },
+    "temporaryMinusNotVisible": {
+      "title": "Proč se krátkodobý záporný zůstatek nemusí v grafu zobrazit",
+      "paragraphs": [
+        "Graf zobrazuje konečnou změnu zůstatku za každý den.",
+        "Pokud fond během jednoho dne nejprve klesne pod nulu a poté je doplněn, průběžný záporný zůstatek se nemusí zobrazit. V grafu bude vidět pouze konečný stav daného dne."
+      ],
+      "exampleIntro": "Například:",
+      "orderedItems": [
+        "Ve fondu bylo 100.",
+        "Utratíte 200 a zůstatek klesne na −100.",
+        "Poté převedete 150 z jiného fondu.",
+        "Konečný zůstatek dne je 50."
+      ],
+      "closingParagraphs": [
+        "Graf zobrazí kladný konečný zůstatek, i když byl fond během dne dočasně v minusu.",
+        "Graf je proto vhodný pro analýzu celkového vývoje, ale ne vždy ukazuje každý průběžný stav."
+      ],
+      "borrowLinkPrefix": "Více o tom, jak si můžete dočasně půjčit peníze sami od sebe mezi fondy, najdete v ",
+      "borrowLinkText": "části o půjčování od sebe sama",
+      "borrowLinkSuffix": "."
+    }
+  },
+  "sameResultDifferentMovement": {
+    "title": "Stejný výsledek může skrývat velmi odlišný pohyb peněz",
+    "openingParagraphs": [
+      "Období není vhodné hodnotit pouze podle konečného zůstatku.",
+      "Představme si dva měsíce."
+    ],
+    "firstMonthIntro": "V prvním měsíci:",
+    "firstMonthItems": [
+      "vklady — 2 000;",
+      "výdaje — 2 000;",
+      "čistá změna — 0."
+    ],
+    "secondMonthIntro": "Ve druhém měsíci:",
+    "secondMonthItems": [
+      "nebyly žádné vklady;",
+      "nebyly žádné výdaje;",
+      "čistá změna — 0."
+    ],
+    "closingParagraphs": [
+      "V obou případech se zůstatek nezměnil, ale v prvním měsíci byl fond aktivně používán, zatímco ve druhém nedošlo k žádnému pohybu peněz."
+    ],
+    "summaryListIntro": "Proto je užitečné sledovat současně:",
+    "summaryItems": [
+      "počáteční zůstatek;",
+      "vklady;",
+      "výdaje;",
+      "čistou změnu;",
+      "tvar čáry v grafu."
+    ]
+  },
+  "monthlyInsights": {
+    "title": "Co lze zjistit z grafu za měsíc",
+    "lead": "V kratším období vám přehled pomůže zjistit, jak se peníze během měsíce chovají.",
+    "moneyRunsOutEarly": {
+      "title": "Peníze docházejí příliš brzy",
+      "paragraphs": [
+        "Pokud se zůstatek pravidelně blíží nule dlouho před dalším vkladem, může být současný podíl fondu příliš malý.",
+        "Je však důležité odlišit opakující se vzorec od jednorázové situace. Jeden neobvyklý měsíc ještě neznamená, že je potřeba rozdělení měnit."
+      ]
+    },
+    "evenSpending": {
+      "title": "Peníze se utrácejí rovnoměrně",
+      "paragraphs": [
+        "Pokud čára během celého měsíce postupně klesá, jsou výdaje pravděpodobně rozloženy poměrně rovnoměrně.",
+        "U fondu určeného na každodenní výdaje může jít o běžný scénář."
+      ]
+    },
+    "sharpDropAtStart": {
+      "title": "Na začátku období dochází k prudkému poklesu",
+      "paragraphs": [
+        "Pokud se velká část peněz utratí hned po doplnění fondu, mohou se na začátku období platit velké povinné výdaje.",
+        "Nemusí to být problém. Pokud ale po jejich zaplacení pravidelně nezbývá dost peněz na zbytek měsíce, stojí za to rozdělení přehodnotit."
+      ]
+    },
+    "largeDrops": {
+      "title": "V grafu jsou vidět jednotlivé velké propady",
+      "paragraphs": [
+        "Prudké propady pomáhají odhalit data velkých výdajů."
+      ],
+      "listIntro": "Poté můžete otevřít transakce a zkontrolovat:",
+      "items": [
+        "co bylo zakoupeno;",
+        "zda byl výdaj plánovaný;",
+        "zda se pravidelně opakuje;",
+        "zda má smysl si na něj odkládat peníze předem."
+      ]
+    }
+  },
+  "longTermInsights": {
+    "title": "Co lze zjistit z grafu za několik měsíců nebo za rok",
+    "lead": "V delším období je graf obzvlášť užitečný pro odhalování dlouhodobých vzorců.",
+    "introParagraphs": [
+      "Jeden měsíc může být výjimkou. Opakující se vývoj už naznačuje, že nastavení fondu nebo struktura výdajů mohou vyžadovat změnu."
+    ],
+    "balanceGrowing": {
+      "title": "Zůstatek neustále roste",
+      "paragraphs": [
+        "U spořicího fondu je trvalý růst očekávaným výsledkem.",
+        "Pokud však jde o běžný výdajový fond, dlouhodobý růst může znamenat, že je do něj přidělováno více peněz, než skutečně potřebujete.",
+        "V takovém případě můžete zvážit snížení jeho podílu a přesunout uvolněnou část příjmu do jiných fondů.",
+        "Před změnou ověřte, zda nahromaděné peníze nemají konkrétní účel. Velký výdaj se může objevit jen občas a současný zůstatek můžete potřebovat později."
+      ]
+    },
+    "balanceDeclining": {
+      "title": "Zůstatek neustále klesá",
+      "paragraphs": [
+        "Pokud čára v delším období postupně klesá, znamená to, že výdaje fondu systematicky převyšují jeho vklady.",
+        "Jednorázový pokles může být způsoben neobvykle vysokými výdaji. Pokud se však stejný trend opakuje měsíc co měsíc, současné rozdělení pravděpodobně nestačí."
+      ],
+      "listIntro": "V takovém případě zkontrolujte:",
+      "items": [
+        "zda vzrostly běžné výdaje odpovídající účelu fondu;",
+        "zda se ve vybraném období objevily vzácné velké výdaje;",
+        "zda je potřeba fond pravidelně doplňovat z jiných fondů."
+      ],
+      "closingParagraphs": [
+        "Pokud je pokles způsoben pravidelnými nezbytnými výdaji, můžete zvýšit podíl tohoto fondu na úkor ostatních.",
+        "Pokud jsou příčinou vzácné velké výdaje, není nutné měnit pravidelné rozdělení. Na takové výdaje může být pohodlnější odkládat peníze samostatně předem."
+      ]
+    },
+    "extraDeposits": {
+      "title": "Fond pravidelně potřebuje dodatečné vklady",
+      "paragraphs": [
+        "Pokud běžné příjmy fondu neustále nestačí a musíte do něj pravidelně převádět peníze z jiných fondů, je to důležitý signál.",
+        "I když tyto převody zabrání tomu, aby zůstatek zůstal dlouho záporný, ukazují, že skutečné výdaje jsou vyšší, než bylo původně plánováno.",
+        "Převody mezi fondy mohou graf znepřehlednit, takže samotná čára nemusí vždy ukázat, proč se zůstatek obnovil. Kombinace pravidelných dodatečných vkladů a vysokých výdajů je ale už dobrým důvodem k přehodnocení podílu fondu."
+      ]
+    }
+  },
+  "differentJars": {
+    "title": "Různé fondy je třeba hodnotit různě",
+    "lead": "Stejný tvar grafu může znamenat různé věci podle účelu fondu.",
+    "spendingJar": {
+      "title": "Výdajový fond",
+      "listIntro": "U fondu na každodenní výdaje je obvykle normální:",
+      "items": [
+        "že mezi vklady klesá;",
+        "že pravidelně kolísá;",
+        "že se ke konci období blíží nule;",
+        "že po rozdělení příjmu znovu roste."
+      ],
+      "closingParagraphs": [
+        "Problémem obvykle není samotný pokles, ale pravidelné hluboké záporné zůstatky nebo nutnost neustále převádět peníze z jiných fondů."
+      ]
+    },
+    "savingsJar": {
+      "title": "Spořicí fond",
+      "listIntro": "U spořicího fondu je obvykle normální:",
+      "items": [
+        "postupně růst;",
+        "dlouho nemít žádné výdaje;",
+        "prudce klesnout po dosažení cíle a uskutečnění velkého nákupu."
+      ],
+      "closingParagraphs": [
+        "Pokud spořicí fond pravidelně klesá kvůli každodenním výdajům, mohou být jeho prostředky používány jinak, než bylo zamýšleno."
+      ]
+    },
+    "goalJar": {
+      "title": "Fond na velký cíl nebo závazek",
+      "paragraphs": [
+        "Samostatný fond může být užitečný, pokud je potřeba předem rezervovat peníze na konkrétní cíl nebo závazek."
+      ],
+      "examplesIntro": "Například:",
+      "examples": [
+        "roční pojištění;",
+        "vzdělávání;",
+        "dovolená;",
+        "rekonstrukce;",
+        "dražší předplatné;",
+        "velká pravidelná povinná platba."
+      ],
+      "benefitsIntro": "Takový fond umožňuje okamžitě vidět:",
+      "benefits": [
+        "kolik už jste naspořili;",
+        "zda pravidelné vklady stačí;",
+        "zda jste překročili rozpočet;",
+        "zda je potřeba přidávat peníze z jiných částí rozpočtu."
+      ],
+      "closingParagraphs": [
+        "Není přitom nutné vytvářet samostatný fond pro každý pravidelný typ výdaje.",
+        "I velké, ale proměnlivé každodenní výdaje, například potraviny, je obvykle pohodlnější zahrnout do širšího fondu a analyzovat pomocí štítků.",
+        "Samostatný fond je užitečnější pro samostatný cíl nebo závazek, na který je potřeba předem rezervovat určitou částku."
+      ]
+    }
+  },
+  "whenToChangeShare": {
+    "title": "Kdy změnit podíl fondu",
+    "openingParagraphs": [
+      "Není vhodné měnit procenta po jediném neobvyklém měsíci.",
+      "Nejprve se podívejte, zda se stejná situace opakuje během několika období."
+    ],
+    "increaseListIntro": "Zvýšení podílu může dávat smysl, pokud:",
+    "increaseItems": [
+      "zůstatek pravidelně klesá pod nulu;",
+      "peníze docházejí dlouho před dalším příjmem;",
+      "fond je potřeba neustále dodatečně doplňovat;",
+      "výdaje odpovídající jeho účelu jsou skutečně nezbytné."
+    ],
+    "decreaseListIntro": "Snížení podílu může dávat smysl, pokud:",
+    "decreaseItems": [
+      "zbývající zůstatek neustále roste;",
+      "nahromaděné peníze nemají samostatný spořicí cíl;",
+      "skutečné výdaje jsou výrazně nižší než přidělovaná částka;",
+      "v jiných fondech pravidelně chybějí peníze."
+    ],
+    "closingParagraphs": [
+      "Metoda 6 fondů nevyžaduje, abyste původní procenta zachovali navždy. Rozdělení lze a je vhodné přizpůsobovat skutečným výdajům a změnám ve vašem životě."
+    ]
+  },
+  "limitations": {
+    "title": "Omezení přehledu",
+    "openingParagraphs": [
+      "Přehled „Pohyb prostředků“ dobře ukazuje, co se dělo se zůstatkem, ale ne vždy vysvětluje důvod změn."
+    ],
+    "canUnderstandIntro": "Pomocí něj můžete zjistit:",
+    "canUnderstandItems": [
+      "zda zůstatek rostl nebo klesal;",
+      "kdy docházelo k velkým změnám;",
+      "zda bylo peněz dostatek;",
+      "zda se vytváří dlouhodobý trend;",
+      "zda fond pravidelně potřebuje dodatečné vklady."
+    ],
+    "cannotDetermineIntro": "Samotný graf ale ne vždy umožňuje určit:",
+    "cannotDetermineItems": [
+      "na co přesně byly peníze utraceny;",
+      "odkud přišel vklad;",
+      "zda šlo o převod mezi fondy;",
+      "proč se změnilo finanční chování;",
+      "zda zůstatek během dne klesl pod nulu."
+    ],
+    "closingParagraphs": [
+      "Pro podrobnější analýzu použijte seznam transakcí a přehledy podle štítků."
+    ]
+  },
+  "questions": {
+    "title": "Jaké otázky si položit",
+    "listIntro": "Při prohlížení přehledu si zkuste odpovědět na několik otázek:",
+    "items": [
+      "Je ve fondu dostatek peněz do dalšího vkladu?",
+      "V jakém okamžiku období se zůstatek obvykle začíná blížit nule?",
+      "Opakují se prudké propady ve stejných dnech?",
+      "Musím sem pravidelně převádět peníze z jiných fondů?",
+      "Roste zůstatek bez konkrétního cíle?",
+      "Odpovídá současný podíl fondu skutečným výdajům?",
+      "Jsou velké změny jednorázové, nebo se opakují měsíc co měsíc?"
+    ],
+    "closingParagraphs": [
+      "Hlavním cílem přehledu není jen zobrazit čáru změny zůstatku, ale pomoci vám odhalit dlouhodobé vzorce a zjistit, jak dobře zvolený podíl fondu odpovídá skutečnému životu."
+    ]
+  }
+}

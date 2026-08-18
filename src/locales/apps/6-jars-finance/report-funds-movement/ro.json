@@ -1,0 +1,408 @@
+{
+  "title": "Cum să citești raportul „Mișcarea fondurilor”",
+  "metaDescription": "Raportul „Mișcarea fondurilor” arată cum s-a modificat soldul fondului selectat într-o anumită perioadă.",
+  "intro": {
+    "paragraphs": [
+      "Raportul „Mișcarea fondurilor” arată cum s-a modificat soldul fondului selectat într-o anumită perioadă."
+    ],
+    "listIntro": "Cu ajutorul lui poți vedea:",
+    "items": [
+      "câți bani erau în fond la începutul perioadei;",
+      "câți bani au fost adăugați;",
+      "cât s-a cheltuit;",
+      "cu cât s-a modificat soldul;",
+      "câți bani au rămas la sfârșitul perioadei;",
+      "în ce momente au avut loc schimbări semnificative."
+    ],
+    "closingParagraphs": [
+      "Raportul este generat doar pentru un singur fond selectat. Prin urmare, este mai util să-l privești nu ca pe o imagine de ansamblu a tuturor finanțelor, ci ca pe istoricul mișcărilor de bani dintr-o anumită parte a bugetului."
+    ]
+  },
+  "overview": {
+    "title": "Cuprins",
+    "metrics": "Ce înseamnă indicatorii",
+    "readingChart": "Cum să citești graficul",
+    "sameResultDifferentMovement": "Același rezultat poate ascunde mișcări de bani foarte diferite",
+    "monthlyInsights": "Ce poți afla din graficul unei luni",
+    "longTermInsights": "Ce poți afla din graficul pentru mai multe luni sau un an",
+    "differentJars": "Fondurile diferite trebuie evaluate diferit",
+    "whenToChangeShare": "Când să modifici ponderea unui fond",
+    "limitations": "Limitările raportului",
+    "questions": "Întrebări pe care să ți le pui"
+  },
+  "metrics": {
+    "title": "Ce înseamnă indicatorii",
+    "openingBalance": {
+      "title": "Sold inițial",
+      "paragraphs": [
+        "Soldul inițial este suma care se afla în fond la începutul perioadei selectate.",
+        "Nu este neapărat valoarea ultimei alimentări și nici soldul actual al fondului. De exemplu, dacă la începutul lunii au rămas bani din luna anterioară, aceștia vor fi incluși și în soldul inițial."
+      ]
+    },
+    "deposits": {
+      "title": "Alimentări",
+      "paragraphs": [
+        "Alimentările arată suma totală a tuturor banilor adăugați în fondul selectat în perioada respectivă."
+      ],
+      "listIntro": "Poate fi vorba despre:",
+      "items": [
+        "o parte din venitul distribuit;",
+        "o alimentare suplimentară;",
+        "returnarea unor bani cheltuiți anterior;",
+        "un transfer dintr-un alt fond."
+      ],
+      "closingParagraphs": [
+        "Raportul arată suma totală a alimentărilor, dar nu stabilește motivul acestora. Pentru a afla de unde provine o anumită alimentare, consultă lista tranzacțiilor."
+      ]
+    },
+    "withdrawals": {
+      "title": "Cheltuieli",
+      "paragraphs": [
+        "Cheltuielile arată suma totală a tuturor banilor cheltuiți din fondul selectat în perioada respectivă.",
+        "Chiar dacă soldul aproape nu s-a modificat până la sfârșitul perioadei, suma totală a cheltuielilor poate fi mare. Aceasta înseamnă că banii au fost cheltuiți activ, iar fondul a fost alimentat din nou ulterior."
+      ]
+    },
+    "netChange": {
+      "title": "Modificare netă",
+      "paragraphs": [
+        "Modificarea netă arată cu cât a crescut sau a scăzut soldul față de începutul perioadei.",
+        "Se calculează ca diferența dintre alimentări și cheltuieli."
+      ],
+      "exampleIntro": "De exemplu:",
+      "exampleItems": [
+        "sold inițial — 1 000;",
+        "alimentări — 2 000;",
+        "cheltuieli — 2 300;",
+        "modificare netă — −300;",
+        "sold final — 700."
+      ],
+      "closingParagraphs": [
+        "Pentru un fond obișnuit de cheltuieli, poate fi considerată normală situația în care, pe o perioadă lungă, modificarea netă rămâne aproape de zero sau soldul crește treptat.",
+        "Dacă modificarea netă rămâne negativă în mod regulat, înseamnă că din fond se cheltuiește sistematic mai mult decât intră. Acest lucru poate indica faptul că fondului îi este alocată o pondere prea mică din venit sau că este necesară revizuirea cheltuielilor."
+      ]
+    },
+    "closingBalance": {
+      "title": "Sold final",
+      "paragraphs": [
+        "Soldul final este suma rămasă în fond la sfârșitul perioadei selectate.",
+        "Acesta include soldul inițial, toate alimentările și toate cheltuielile.",
+        "Este important să nu confunzi soldul final cu modificarea netă. Soldul arată câți bani au rămas, iar modificarea netă arată cu cât diferă această sumă față de soldul inițial."
+      ]
+    }
+  },
+  "readingChart": {
+    "title": "Cum să citești graficul",
+    "lead": "Linia din grafic arată cum s-a modificat soldul fondului în perioada selectată.",
+    "lineUp": {
+      "title": "Linia urcă",
+      "paragraphs": [
+        "O linie ascendentă înseamnă că în fond au fost adăugați bani.",
+        "O creștere bruscă este de obicei asociată cu o alimentare mare, de exemplu distribuirea venitului sau un transfer dintr-un alt fond.",
+        "O creștere treptată sau în trepte poate indica mai multe alimentări separate."
+      ]
+    },
+    "lineDown": {
+      "title": "Linia coboară",
+      "paragraphs": [
+        "O linie descendentă indică cheltuieli.",
+        "O scădere treptată înseamnă de obicei că banii sunt cheltuiți puțin câte puțin pe parcursul perioadei.",
+        "O scădere bruscă indică o cheltuială mare sau mai multe cheltuieli într-un interval scurt.",
+        "Graficul arată când a avut loc schimbarea, dar nu și pe ce anume au fost cheltuiți banii. Pentru aceasta, consultă lista tranzacțiilor sau raportul pe etichete."
+      ]
+    },
+    "lineFlat": {
+      "title": "Linia rămâne aproximativ la același nivel",
+      "listIntro": "Acest lucru poate însemna că:",
+      "items": [
+        "aproape că nu au existat cheltuieli;",
+        "alimentările au compensat aproximativ cheltuielile;",
+        "banii au fost cheltuiți și apoi adăugați din nou în mod regulat;",
+        "fondul a fost folosit rar."
+      ],
+      "closingParagraphs": [
+        "Prin urmare, o linie plată nu înseamnă neapărat că nu a existat activitate. Este util să verifici și suma totală a alimentărilor și a cheltuielilor."
+      ]
+    },
+    "balanceNearZero": {
+      "title": "Soldul rămâne aproape de zero",
+      "listIntro": "Dacă linia rămâne mult timp aproape de zero, pot exista mai multe motive:",
+      "items": [
+        "ponderea fondului este destul de bine adaptată nevoilor reale;",
+        "banii sunt suficienți la limită;",
+        "banii sunt cheltuiți rapid după fiecare alimentare;",
+        "fondul trebuie alimentat suplimentar din alte surse."
+      ],
+      "closingParagraphs": [
+        "Pentru a înțelege mai bine situația, compară graficul cu sumele totale ale alimentărilor și cheltuielilor.",
+        "Dacă fondul primește în mod regulat mult mai mulți bani decât îi sunt alocați în mod normal la distribuirea venitului, este posibil să depindă de transferuri suplimentare."
+      ]
+    },
+    "balanceNegative": {
+      "title": "Soldul scade sub zero",
+      "paragraphs": [
+        "Un sold negativ înseamnă că din fond s-au cheltuit mai mulți bani decât erau disponibili.",
+        "O situație ocazională poate fi normală. De exemplu, o achiziție mare poate avea loc cu puțin timp înainte de următorul venit."
+      ],
+      "listIntro": "Dacă fondul ajunge în mod regulat sub zero, acest lucru poate indica faptul că:",
+      "items": [
+        "îi este alocată o pondere prea mică din venit;",
+        "cheltuielile asociate acestui fond au crescut;",
+        "unele cheltuieli pot fi reduse sau amânate."
+      ],
+      "closingParagraphs": [
+        "Aplicația permite un sold negativ. La următoarea alimentare, soldul negativ va fi acoperit mai întâi, astfel încât pentru noua perioadă vor rămâne mai puțini bani disponibili."
+      ]
+    },
+    "temporaryMinusNotVisible": {
+      "title": "De ce un sold negativ temporar poate să nu apară în grafic",
+      "paragraphs": [
+        "Graficul arată modificarea finală a soldului pentru fiecare zi.",
+        "Dacă un fond scade sub zero și apoi este alimentat în aceeași zi, soldul negativ intermediar poate să nu apară. Graficul va afișa doar soldul final al acelei zile."
+      ],
+      "exampleIntro": "De exemplu:",
+      "orderedItems": [
+        "În fond erau 100.",
+        "Cheltuiești 200, iar soldul ajunge la −100.",
+        "Apoi transferi 150 dintr-un alt fond.",
+        "Soldul final al zilei este 50."
+      ],
+      "closingParagraphs": [
+        "Graficul va afișa un sold final pozitiv, chiar dacă fondul a fost temporar pe minus în cursul zilei.",
+        "De aceea, graficul este util pentru analiza tendinței generale, dar nu arată întotdeauna fiecare stare intermediară."
+      ],
+      "borrowLinkPrefix": "Poți afla mai multe despre cum să împrumuți temporar bani de la tine însuți între fonduri în ",
+      "borrowLinkText": "secțiunea despre împrumutul de la tine însuți",
+      "borrowLinkSuffix": "."
+    }
+  },
+  "sameResultDifferentMovement": {
+    "title": "Același rezultat poate ascunde mișcări de bani foarte diferite",
+    "openingParagraphs": [
+      "Nu este recomandat să evaluezi o perioadă doar pe baza soldului final.",
+      "Să ne imaginăm două luni."
+    ],
+    "firstMonthIntro": "În prima lună:",
+    "firstMonthItems": [
+      "alimentări — 2 000;",
+      "cheltuieli — 2 000;",
+      "modificare netă — 0."
+    ],
+    "secondMonthIntro": "În a doua lună:",
+    "secondMonthItems": [
+      "nu au existat alimentări;",
+      "nu au existat cheltuieli;",
+      "modificare netă — 0."
+    ],
+    "closingParagraphs": [
+      "În ambele cazuri soldul nu s-a modificat, dar în prima lună fondul a fost utilizat activ, iar în a doua nu a existat deloc mișcare de bani."
+    ],
+    "summaryListIntro": "De aceea este util să urmărești simultan:",
+    "summaryItems": [
+      "soldul inițial;",
+      "alimentările;",
+      "cheltuielile;",
+      "modificarea netă;",
+      "forma liniei din grafic."
+    ]
+  },
+  "monthlyInsights": {
+    "title": "Ce poți afla din graficul unei luni",
+    "lead": "Pe o perioadă scurtă, raportul ajută să înțelegi cum se comportă banii pe parcursul lunii.",
+    "moneyRunsOutEarly": {
+      "title": "Banii se termină prea devreme",
+      "paragraphs": [
+        "Dacă soldul se apropie în mod regulat de zero cu mult înainte de următoarea alimentare, ponderea actuală a fondului poate fi prea mică.",
+        "Totuși, este important să diferențiezi un tipar repetitiv de o situație ocazională. O singură lună neobișnuită nu înseamnă neapărat că distribuirea trebuie modificată."
+      ]
+    },
+    "evenSpending": {
+      "title": "Banii sunt cheltuiți uniform",
+      "paragraphs": [
+        "Dacă linia scade treptat pe parcursul întregii luni, cheltuielile sunt probabil distribuite destul de uniform.",
+        "Pentru un fond destinat cheltuielilor cotidiene, acesta poate fi un comportament normal."
+      ]
+    },
+    "sharpDropAtStart": {
+      "title": "La începutul perioadei apare o scădere bruscă",
+      "paragraphs": [
+        "Dacă o parte semnificativă din bani este cheltuită imediat după alimentare, este posibil ca la începutul perioadei să fie plătite cheltuieli obligatorii mari.",
+        "Acest lucru nu este neapărat o problemă. Dar dacă după acestea rămân în mod regulat prea puțini bani pentru restul lunii, distribuirea ar trebui revizuită."
+      ]
+    },
+    "largeDrops": {
+      "title": "Graficul arată scăderi mari izolate",
+      "paragraphs": [
+        "Scăderile bruște ajută la identificarea datelor la care au avut loc cheltuieli mari."
+      ],
+      "listIntro": "Apoi poți deschide tranzacțiile și verifica:",
+      "items": [
+        "ce a fost cumpărat;",
+        "dacă cheltuiala a fost planificată;",
+        "dacă se repetă în mod regulat;",
+        "dacă ar fi util să pui bani deoparte pentru ea din timp."
+      ]
+    }
+  },
+  "longTermInsights": {
+    "title": "Ce poți afla din graficul pentru mai multe luni sau un an",
+    "lead": "Pe o perioadă lungă, graficul este deosebit de util pentru identificarea tiparelor persistente.",
+    "introParagraphs": [
+      "O singură lună poate fi o excepție. O evoluție care se repetă este un semn mai clar că setările fondului sau structura cheltuielilor ar putea necesita ajustări."
+    ],
+    "balanceGrowing": {
+      "title": "Soldul continuă să crească",
+      "paragraphs": [
+        "Pentru un fond de economii, creșterea constantă este rezultatul așteptat.",
+        "Dar pentru un fond obișnuit de cheltuieli, un sold care crește constant poate însemna că îi sunt alocați mai mulți bani decât sunt necesari în realitate.",
+        "În acest caz, poți lua în considerare reducerea ponderii sale și redirecționarea diferenței către alte fonduri.",
+        "Înainte de a schimba ceva, verifică dacă banii acumulați au un scop concret. Este posibil ca o cheltuială mare să apară doar ocazional, iar soldul actual să fie necesar mai târziu."
+      ]
+    },
+    "balanceDeclining": {
+      "title": "Soldul continuă să scadă",
+      "paragraphs": [
+        "Dacă linia scade treptat pe o perioadă lungă, cheltuielile fondului depășesc în mod sistematic alimentările.",
+        "O scădere ocazională poate fi cauzată de cheltuieli neobișnuit de mari. Dar dacă aceeași tendință se repetă lună de lună, distribuirea actuală probabil nu este suficientă."
+      ],
+      "listIntro": "În acest caz, verifică:",
+      "items": [
+        "dacă au crescut cheltuielile obișnuite corespunzătoare scopului fondului;",
+        "dacă în perioada selectată au existat cheltuieli mari, dar rare;",
+        "dacă trebuie să alimentezi regulat fondul folosind alte fonduri."
+      ],
+      "closingParagraphs": [
+        "Dacă scăderea este cauzată de cheltuieli necesare și recurente, poți crește ponderea acestui fond reducând-o pe cea a altora.",
+        "Dacă motivul îl reprezintă cheltuieli mari, dar rare, nu este neapărat necesar să modifici distribuirea obișnuită. Pentru astfel de cheltuieli poate fi mai convenabil să economisești separat din timp."
+      ]
+    },
+    "extraDeposits": {
+      "title": "Fondul primește în mod regulat alimentări suplimentare",
+      "paragraphs": [
+        "Dacă alimentările obișnuite nu sunt suficiente și trebuie să transferi regulat bani din alte fonduri, acesta este un semnal important.",
+        "Chiar dacă aceste transferuri împiedică soldul să rămână negativ pentru mult timp, ele arată că cheltuielile reale sunt mai mari decât cele planificate inițial.",
+        "Transferurile între fonduri pot face graficul mai greu de interpretat. De aceea, doar linia nu permite întotdeauna să înțelegi de ce soldul și-a revenit. Totuși, combinația dintre alimentări suplimentare regulate și cheltuieli ridicate este deja un motiv bun pentru a reevalua ponderea fondului."
+      ]
+    }
+  },
+  "differentJars": {
+    "title": "Fondurile diferite trebuie evaluate diferit",
+    "lead": "Aceeași formă a graficului poate însemna lucruri diferite în funcție de scopul fondului.",
+    "spendingJar": {
+      "title": "Fond de cheltuieli",
+      "listIntro": "Pentru un fond destinat cheltuielilor cotidiene este în general normal ca acesta:",
+      "items": [
+        "să scadă între alimentări;",
+        "să fluctueze în mod regulat;",
+        "să se apropie de zero spre sfârșitul perioadei;",
+        "să crească din nou după distribuirea venitului."
+      ],
+      "closingParagraphs": [
+        "Problema nu este de obicei scăderea în sine, ci un sold care ajunge frecvent mult sub zero sau necesitatea constantă de a transfera bani din alte fonduri."
+      ]
+    },
+    "savingsJar": {
+      "title": "Fond de economii",
+      "listIntro": "Pentru un fond de economii este în general normal ca acesta:",
+      "items": [
+        "să crească treptat;",
+        "să treacă perioade lungi fără cheltuieli;",
+        "să scadă brusc după atingerea unui obiectiv și efectuarea unei achiziții mari."
+      ],
+      "closingParagraphs": [
+        "Dacă un fond de economii scade în mod regulat din cauza cheltuielilor cotidiene, este posibil ca banii să fie utilizați pentru altceva decât scopul pentru care au fost alocați."
+      ]
+    },
+    "goalJar": {
+      "title": "Fond pentru un obiectiv important sau o obligație",
+      "paragraphs": [
+        "Un fond separat poate fi util atunci când trebuie să rezervi bani din timp pentru un anumit obiectiv sau o obligație."
+      ],
+      "examplesIntro": "De exemplu:",
+      "examples": [
+        "asigurare anuală;",
+        "educație;",
+        "vacanță;",
+        "renovare;",
+        "un abonament costisitor;",
+        "o plată obligatorie recurentă de valoare mare."
+      ],
+      "benefitsIntro": "Un astfel de fond îți permite să vezi imediat:",
+      "benefits": [
+        "cât ai economisit deja;",
+        "dacă alimentările regulate sunt suficiente;",
+        "dacă ai cheltuit mai mult decât era planificat;",
+        "dacă trebuie să adaugi bani din alte părți ale bugetului."
+      ],
+      "closingParagraphs": [
+        "Totuși, nu este necesar să creezi un fond separat pentru fiecare tip de cheltuială recurentă.",
+        "Chiar și cheltuielile cotidiene mari, dar variabile, cum ar fi alimentele, sunt de obicei mai ușor de gestionat într-un fond mai larg și de analizat cu ajutorul etichetelor.",
+        "Un fond separat este mai util pentru un obiectiv independent sau o obligație pentru care trebuie să rezervi în avans o anumită sumă."
+      ]
+    }
+  },
+  "whenToChangeShare": {
+    "title": "Când să modifici ponderea unui fond",
+    "openingParagraphs": [
+      "Nu modifica procentele după o singură lună neobișnuită.",
+      "Verifică mai întâi dacă aceeași situație se repetă pe parcursul mai multor perioade."
+    ],
+    "increaseListIntro": "Creșterea ponderii poate avea sens dacă:",
+    "increaseItems": [
+      "soldul scade în mod regulat sub zero;",
+      "banii se termină cu mult înainte de următorul venit;",
+      "fondul trebuie alimentat suplimentar în mod constant;",
+      "cheltuielile care corespund scopului său sunt într-adevăr necesare."
+    ],
+    "decreaseListIntro": "Reducerea ponderii poate avea sens dacă:",
+    "decreaseItems": [
+      "soldul rămas continuă să crească;",
+      "banii acumulați nu au un obiectiv separat de economisire;",
+      "cheltuielile reale sunt semnificativ mai mici decât suma alocată;",
+      "altor fonduri le lipsesc în mod regulat banii."
+    ],
+    "closingParagraphs": [
+      "Metoda celor 6 fonduri nu impune păstrarea procentelor inițiale pentru totdeauna. Distribuirea poate și trebuie adaptată cheltuielilor reale și schimbărilor din viața ta."
+    ]
+  },
+  "limitations": {
+    "title": "Limitările raportului",
+    "openingParagraphs": [
+      "Raportul „Mișcarea fondurilor” arată bine ce s-a întâmplat cu soldul, dar nu explică întotdeauna de ce s-a modificat."
+    ],
+    "canUnderstandIntro": "Cu ajutorul lui poți înțelege:",
+    "canUnderstandItems": [
+      "dacă soldul a crescut sau a scăzut;",
+      "când au avut loc schimbări importante;",
+      "dacă banii au fost suficienți;",
+      "dacă se formează o tendință persistentă;",
+      "dacă fondul are nevoie în mod regulat de alimentări suplimentare."
+    ],
+    "cannotDetermineIntro": "Dar graficul singur nu permite întotdeauna să determini:",
+    "cannotDetermineItems": [
+      "pe ce anume au fost cheltuiți banii;",
+      "de unde a provenit o alimentare;",
+      "dacă a fost un transfer între fonduri;",
+      "de ce s-a schimbat comportamentul de cheltuire;",
+      "dacă soldul a scăzut sub zero în cursul zilei."
+    ],
+    "closingParagraphs": [
+      "Pentru o analiză mai detaliată, folosește lista tranzacțiilor și rapoartele pe etichete."
+    ]
+  },
+  "questions": {
+    "title": "Întrebări pe care să ți le pui",
+    "listIntro": "Când analizezi raportul, încearcă să răspunzi la câteva întrebări:",
+    "items": [
+      "Sunt suficienți bani în fond până la următoarea alimentare?",
+      "În ce moment al perioadei începe de obicei soldul să se apropie de zero?",
+      "Scăderile bruște se repetă la aceleași date?",
+      "Trebuie să transfer regulat aici bani din alte fonduri?",
+      "Soldul rămas continuă să crească fără un scop concret?",
+      "Ponderea actuală a fondului corespunde cheltuielilor mele reale?",
+      "Schimbările mari sunt evenimente izolate sau se repetă lună de lună?"
+    ],
+    "closingParagraphs": [
+      "Scopul principal al raportului nu este doar să afișeze o linie care reprezintă modificarea soldului, ci să te ajute să observi tipare persistente și să înțelegi cât de bine corespunde ponderea aleasă pentru fond situației tale reale."
+    ]
+  }
+}

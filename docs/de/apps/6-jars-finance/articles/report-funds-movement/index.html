@@ -1,0 +1,1095 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>So liest du den Bericht „Geldbewegung“</title>
+  <meta name="description" content="Der Bericht „Geldbewegung“ zeigt, wie sich der Saldo des ausgewählten Topfes in einem bestimmten Zeitraum verändert hat." />
+  
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  
+  <link rel="stylesheet" href="/assets/style.css" />
+</head>
+<body>
+  <header class="site-header">
+  <div class="container site-header__inner">
+    <a class="site-header__brand" href="/">Artem D Apps</a>
+    <div class="site-header__aside">
+      
+      
+      <nav class="site-header__nav" aria-label="Seitennavigation">
+        <a
+          class="site-header__link"
+          href="/de/apps/6-jars-finance/download/"
+          data-analytics-link="download"
+          data-analytics-placement="header"
+          
+        >App herunterladen</a>
+        <a
+          class="site-header__link"
+          href="/de/apps/6-jars-finance/articles/guide/"
+          
+        >Sechs-Töpfe-Methode</a>
+      </nav>
+      
+        
+
+<nav class="lang-switch" aria-label="Sprache">
+  <label class="lang-switch__desktop">
+    <span class="lang-switch__visually-hidden">Sprache</span>
+    <select class="lang-switch__select" data-lang-switch-select>
+      
+        <option
+          value="/en/apps/6-jars-finance/articles/report-funds-movement/"
+          
+        >English</option>
+      
+        <option
+          value="/id/apps/6-jars-finance/articles/report-funds-movement/"
+          
+        >Bahasa Indonesia</option>
+      
+        <option
+          value="/cs/apps/6-jars-finance/articles/report-funds-movement/"
+          
+        >Čeština</option>
+      
+        <option
+          value="/de/apps/6-jars-finance/articles/report-funds-movement/"
+          selected
+        >Deutsch</option>
+      
+        <option
+          value="/es/apps/6-jars-finance/articles/report-funds-movement/"
+          
+        >Español</option>
+      
+        <option
+          value="/fr/apps/6-jars-finance/articles/report-funds-movement/"
+          
+        >Français</option>
+      
+        <option
+          value="/it/apps/6-jars-finance/articles/report-funds-movement/"
+          
+        >Italiano</option>
+      
+        <option
+          value="/nl/apps/6-jars-finance/articles/report-funds-movement/"
+          
+        >Nederlands</option>
+      
+        <option
+          value="/pl/apps/6-jars-finance/articles/report-funds-movement/"
+          
+        >Polski</option>
+      
+        <option
+          value="/pt-BR/apps/6-jars-finance/articles/report-funds-movement/"
+          
+        >Português (Brasil)</option>
+      
+        <option
+          value="/ro/apps/6-jars-finance/articles/report-funds-movement/"
+          
+        >Română</option>
+      
+        <option
+          value="/ru/apps/6-jars-finance/articles/report-funds-movement/"
+          
+        >Русский</option>
+      
+        <option
+          value="/sv/apps/6-jars-finance/articles/report-funds-movement/"
+          
+        >Svenska</option>
+      
+        <option
+          value="/tr/apps/6-jars-finance/articles/report-funds-movement/"
+          
+        >Türkçe</option>
+      
+        <option
+          value="/uk/apps/6-jars-finance/articles/report-funds-movement/"
+          
+        >Українська</option>
+      
+    </select>
+  </label>
+
+  <button
+    type="button"
+    class="lang-switch__trigger"
+    data-open-lang-switch-modal
+    aria-haspopup="dialog"
+    aria-expanded="false"
+    aria-controls="lang-switch-modal"
+  >
+    
+      
+    
+      
+    
+      
+    
+      
+        <span class="lang-switch__code">
+  DE
+</span>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    <span class="lang-switch__arrow" aria-hidden="true">▾</span>
+  </button>
+
+  <div
+    class="modal-overlay lang-switch__modal-overlay"
+    id="lang-switch-modal"
+    hidden
+    aria-hidden="true"
+    data-lang-switch-modal
+  >
+    <div
+      class="modal lang-switch__modal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="lang-switch-modal-title"
+    >
+      <h2 class="modal__title" id="lang-switch-modal-title">Sprache</h2>
+      <fieldset class="lang-switch__mobile" aria-label="Sprache">
+        <div class="lang-switch__radio-list">
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/en/apps/6-jars-finance/articles/report-funds-movement/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">English</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/id/apps/6-jars-finance/articles/report-funds-movement/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Bahasa Indonesia</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/cs/apps/6-jars-finance/articles/report-funds-movement/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Čeština</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/de/apps/6-jars-finance/articles/report-funds-movement/"
+                data-lang-switch-radio
+                checked
+              />
+              <span class="lang-switch__radio-text">Deutsch</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/es/apps/6-jars-finance/articles/report-funds-movement/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Español</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/fr/apps/6-jars-finance/articles/report-funds-movement/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Français</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/it/apps/6-jars-finance/articles/report-funds-movement/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Italiano</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/nl/apps/6-jars-finance/articles/report-funds-movement/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Nederlands</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/pl/apps/6-jars-finance/articles/report-funds-movement/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Polski</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/pt-BR/apps/6-jars-finance/articles/report-funds-movement/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Português (Brasil)</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/ro/apps/6-jars-finance/articles/report-funds-movement/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Română</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/ru/apps/6-jars-finance/articles/report-funds-movement/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Русский</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/sv/apps/6-jars-finance/articles/report-funds-movement/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Svenska</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/tr/apps/6-jars-finance/articles/report-funds-movement/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Türkçe</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/uk/apps/6-jars-finance/articles/report-funds-movement/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Українська</span>
+            </label>
+          
+        </div>
+      </fieldset>
+    </div>
+  </div>
+
+  <script src="/assets/js/lang-switch.js" defer></script>
+</nav>
+
+      
+    </div>
+  </div>
+</header>
+
+
+  <main class="article">
+    <div class="container">
+      <div class="article-layout">
+  <div class="article-container">
+    
+
+
+
+
+
+
+
+
+
+<h1>So liest du den Bericht „Geldbewegung“</h1>
+
+
+<p>Der Bericht „Geldbewegung“ zeigt, wie sich der Saldo des ausgewählten Topfes in einem bestimmten Zeitraum verändert hat.</p>
+
+
+<p>Damit kannst du sehen:</p>
+
+<ul>
+  
+  <li>wie viel Geld sich zu Beginn des Zeitraums im Topf befand;</li>
+  
+  <li>wie viel Geld hinzugekommen ist;</li>
+  
+  <li>wie viel ausgegeben wurde;</li>
+  
+  <li>wie stark sich der Saldo verändert hat;</li>
+  
+  <li>wie viel Geld am Ende des Zeitraums übrig war;</li>
+  
+  <li>zu welchen Zeitpunkten deutliche Veränderungen aufgetreten sind.</li>
+  
+</ul>
+
+
+
+<p>Der Bericht wird immer nur für einen ausgewählten Topf erstellt. Deshalb solltest du ihn nicht als Gesamtbild deiner Finanzen betrachten, sondern als Verlauf der Geldbewegungen innerhalb eines bestimmten Teils deines Budgets.</p>
+
+
+
+<nav class="article-overview" aria-labelledby="article-overview-title">
+  <h2 id="article-overview-title">Inhalt</h2>
+  <ol>
+    <li><a href="#metrics">Was die Kennzahlen bedeuten</a></li>
+    <li><a href="#reading-chart">So liest du das Diagramm</a></li>
+    <li><a href="#same-result">Das gleiche Ergebnis kann sehr unterschiedliche Geldbewegungen verbergen</a></li>
+    <li><a href="#monthly-insights">Was du aus dem Diagramm für einen Monat ablesen kannst</a></li>
+    <li><a href="#long-term-insights">Was du aus dem Diagramm über mehrere Monate oder ein Jahr ablesen kannst</a></li>
+    <li><a href="#different-jars">Verschiedene Töpfe sollten unterschiedlich bewertet werden</a></li>
+    <li><a href="#when-to-change-share">Wann du den Anteil eines Topfes ändern solltest</a></li>
+    <li><a href="#limitations">Grenzen des Berichts</a></li>
+    <li><a href="#questions">Welche Fragen du dir stellen solltest</a></li>
+  </ol>
+</nav>
+
+<div class="article-section">
+<h2 id="metrics">Was die Kennzahlen bedeuten</h2>
+<div class="article-subsection">
+<h3>Anfangssaldo</h3>
+
+
+<p>Der Anfangssaldo ist der Betrag, der sich zu Beginn des ausgewählten Zeitraums im Topf befand.</p>
+
+<p>Das ist nicht unbedingt der Betrag der letzten Einzahlung und auch nicht der aktuelle Saldo des Topfes. Wenn zum Beispiel zu Beginn eines Monats noch Geld aus dem vorherigen Monat im Topf war, wird es ebenfalls im Anfangssaldo berücksichtigt.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Einzahlungen</h3>
+
+
+<p>Einzahlungen zeigen den Gesamtbetrag aller Geldeingänge in den ausgewählten Topf während des Zeitraums.</p>
+
+
+<p>Das kann zum Beispiel sein:</p>
+
+<ul>
+  
+  <li>ein Teil des verteilten Einkommens;</li>
+  
+  <li>eine zusätzliche Einzahlung;</li>
+  
+  <li>die Rückzahlung zuvor ausgegebener Beträge;</li>
+  
+  <li>eine Übertragung aus einem anderen Topf.</li>
+  
+</ul>
+
+
+
+<p>Der Bericht zeigt die Summe der Einzahlungen, aber nicht ihren Grund. Um herauszufinden, woher eine bestimmte Einzahlung stammt, solltest du die Transaktionsliste öffnen.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Ausgaben</h3>
+
+
+<p>Ausgaben zeigen den Gesamtbetrag aller Ausgaben aus dem ausgewählten Topf während des Zeitraums.</p>
+
+<p>Auch wenn sich der Saldo bis zum Ende des Zeitraums kaum verändert hat, kann die Summe der Ausgaben hoch sein. Das bedeutet, dass aktiv Geld ausgegeben und der Topf anschließend wieder aufgefüllt wurde.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Nettoveränderung</h3>
+
+
+<p>Die Nettoveränderung zeigt, um wie viel der Saldo im Vergleich zum Beginn des Zeitraums gestiegen oder gefallen ist.</p>
+
+<p>Sie wird als Differenz zwischen Einzahlungen und Ausgaben berechnet.</p>
+
+
+<p>Zum Beispiel:</p>
+
+<ul>
+  
+  <li>Anfangssaldo — 1 000;</li>
+  
+  <li>Einzahlungen — 2 000;</li>
+  
+  <li>Ausgaben — 2 300;</li>
+  
+  <li>Nettoveränderung — −300;</li>
+  
+  <li>Endsaldo — 700.</li>
+  
+</ul>
+
+
+
+<p>Bei einem gewöhnlichen Ausgabentopf kann es über einen längeren Zeitraum als normal gelten, wenn die Nettoveränderung ungefähr bei null liegt oder der Saldo langsam wächst.</p>
+
+<p>Wenn die Nettoveränderung regelmäßig negativ bleibt, wird aus dem Topf dauerhaft mehr ausgegeben, als hineinfließt. Das kann darauf hindeuten, dass ihm ein zu kleiner Anteil des Einkommens zugewiesen wird oder dass die Ausgaben überprüft werden sollten.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Endsaldo</h3>
+
+
+<p>Der Endsaldo ist der Betrag, der am Ende des ausgewählten Zeitraums im Topf übrig ist.</p>
+
+<p>Er berücksichtigt den Anfangssaldo sowie alle Einzahlungen und Ausgaben.</p>
+
+<p>Der Endsaldo sollte nicht mit der Nettoveränderung verwechselt werden. Der Saldo zeigt, wie viel Geld übrig ist, während die Nettoveränderung zeigt, um wie viel sich dieser Betrag gegenüber dem Anfangssaldo verändert hat.</p>
+
+
+</div>
+</div>
+
+<div class="article-section">
+<h2 id="reading-chart">So liest du das Diagramm</h2>
+<p>Die Linie im Diagramm zeigt, wie sich der Saldo des Topfes im ausgewählten Zeitraum verändert hat.</p>
+<div class="article-subsection">
+<h3>Die Linie steigt</h3>
+
+
+<p>Eine steigende Linie bedeutet, dass der Topf aufgefüllt wurde.</p>
+
+<p>Ein starker Anstieg hängt meist mit einer größeren Einzahlung zusammen, zum Beispiel mit der Einkommensverteilung oder einer Übertragung aus einem anderen Topf.</p>
+
+<p>Ein allmählicher oder stufenweiser Anstieg kann mehrere einzelne Einzahlungen bedeuten.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Die Linie fällt</h3>
+
+
+<p>Eine fallende Linie bedeutet Ausgaben.</p>
+
+<p>Ein allmählicher Rückgang deutet meist darauf hin, dass das Geld über den Zeitraum verteilt nach und nach ausgegeben wird.</p>
+
+<p>Ein starker Rückgang bedeutet eine große Ausgabe oder mehrere Ausgaben innerhalb kurzer Zeit.</p>
+
+<p>Im Diagramm kannst du sehen, wann sich der Saldo verändert hat, aber nicht, wofür das Geld genau ausgegeben wurde. Dafür solltest du die Transaktionsliste oder den Bericht nach Tags öffnen.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Die Linie bleibt ungefähr auf demselben Niveau</h3>
+<p>Das kann bedeuten, dass:</p>
+
+<ul>
+  
+  <li>es fast keine Ausgaben gab;</li>
+  
+  <li>Einzahlungen und Ausgaben sich ungefähr ausgeglichen haben;</li>
+  
+  <li>Geld regelmäßig ausgegeben und wieder hinzugefügt wurde;</li>
+  
+  <li>der Topf nur selten verwendet wurde.</li>
+  
+</ul>
+
+
+
+<p>Eine flache Linie bedeutet daher nicht automatisch, dass es keine Aktivität gab. Schau zusätzlich auf die Gesamtsummen der Einzahlungen und Ausgaben.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Der Saldo bleibt nahe null</h3>
+<p>Wenn die Linie längere Zeit nahe null bleibt, kann das verschiedene Gründe haben:</p>
+
+<ul>
+  
+  <li>der Anteil des Topfes passt recht gut zu den tatsächlichen Ausgaben;</li>
+  
+  <li>das Geld reicht gerade so aus;</li>
+  
+  <li>nach jeder Einzahlung wird das Geld schnell ausgegeben;</li>
+  
+  <li>der Topf muss zusätzlich aus anderen Quellen aufgefüllt werden.</li>
+  
+</ul>
+
+
+
+<p>Um die Situation genauer einzuschätzen, vergleiche das Diagramm mit den Summen der Einzahlungen und Ausgaben.</p>
+
+<p>Wenn der Topf regelmäßig deutlich mehr Einzahlungen erhält, als ihm normalerweise bei der Einkommensverteilung zugewiesen werden, muss er möglicherweise durch zusätzliche Übertragungen unterstützt werden.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Der Saldo fällt unter null</h3>
+
+
+<p>Ein negativer Saldo bedeutet, dass aus dem Topf mehr Geld ausgegeben wurde, als sich darin befand.</p>
+
+<p>Eine einmalige Situation kann normal sein. Zum Beispiel kann eine größere Anschaffung kurz vor dem nächsten Einkommen erfolgt sein.</p>
+
+
+<p>Wenn der Topf regelmäßig ins Minus fällt, kann das darauf hindeuten, dass:</p>
+
+<ul>
+  
+  <li>ihm ein zu kleiner Anteil des Einkommens zugewiesen wird;</li>
+  
+  <li>die Ausgaben für diesen Topf gestiegen sind;</li>
+  
+  <li>ein Teil der Ausgaben reduziert oder verschoben werden kann.</li>
+  
+</ul>
+
+
+
+<p>Die App erlaubt einen negativen Saldo. Bei der nächsten Einzahlung wird das Minus zuerst ausgeglichen, sodass für den neuen Zeitraum weniger Geld zur Verfügung steht.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Warum ein kurzfristiger negativer Saldo im Diagramm möglicherweise nicht sichtbar ist</h3>
+
+
+<p>Das Diagramm zeigt die endgültige Veränderung des Saldos für jeden Tag.</p>
+
+<p>Wenn ein Topf innerhalb eines Tages zunächst ins Minus fällt und später wieder aufgefüllt wird, kann der zwischenzeitliche negative Saldo im Diagramm unsichtbar bleiben. Angezeigt wird nur der Endstand des Tages.</p>
+
+
+<p>Zum Beispiel:</p>
+
+<ol>
+  
+  <li>Im Topf waren 100.</li>
+  
+  <li>Du gibst 200 aus und der Saldo fällt auf −100.</li>
+  
+  <li>Danach überträgst du 150 aus einem anderen Topf.</li>
+  
+  <li>Der Endsaldo des Tages beträgt 50.</li>
+  
+</ol>
+
+
+
+<p>Im Diagramm wird ein positiver Endsaldo angezeigt, obwohl der Topf im Laufe des Tages vorübergehend im Minus war.</p>
+
+<p>Das Diagramm eignet sich deshalb gut zur Analyse der allgemeinen Entwicklung, zeigt aber nicht immer jeden Zwischenstand.</p>
+
+
+<p>Mehr darüber, wie du dir vorübergehend selbst Geld zwischen deinen Töpfen leihen kannst, erfährst du im <a href="/de/apps/6-jars-finance/articles/guide/#borrow-from-yourself">Abschnitt über das Ausleihen von Geld bei dir selbst</a>.</p>
+</div>
+</div>
+
+<div class="article-section">
+<h2 id="same-result">Das gleiche Ergebnis kann sehr unterschiedliche Geldbewegungen verbergen</h2>
+
+
+<p>Du solltest einen Zeitraum nicht nur anhand des Endsaldos bewerten.</p>
+
+<p>Stell dir zwei Monate vor.</p>
+
+
+<p>Im ersten Monat:</p>
+
+<ul>
+  
+  <li>Einzahlungen — 2 000;</li>
+  
+  <li>Ausgaben — 2 000;</li>
+  
+  <li>Nettoveränderung — 0.</li>
+  
+</ul>
+
+<p>Im zweiten Monat:</p>
+
+<ul>
+  
+  <li>keine Einzahlungen;</li>
+  
+  <li>keine Ausgaben;</li>
+  
+  <li>Nettoveränderung — 0.</li>
+  
+</ul>
+
+
+
+<p>In beiden Fällen hat sich der Saldo nicht verändert. Im ersten Monat wurde der Topf jedoch aktiv genutzt, während es im zweiten überhaupt keine Geldbewegungen gab.</p>
+
+
+<p>Deshalb ist es sinnvoll, gleichzeitig auf Folgendes zu achten:</p>
+
+<ul>
+  
+  <li>Anfangssaldo;</li>
+  
+  <li>Einzahlungen;</li>
+  
+  <li>Ausgaben;</li>
+  
+  <li>Nettoveränderung;</li>
+  
+  <li>Verlauf der Linie im Diagramm.</li>
+  
+</ul>
+
+</div>
+
+<div class="article-section">
+<h2 id="monthly-insights">Was du aus dem Diagramm für einen Monat ablesen kannst</h2>
+<p>Über einen kürzeren Zeitraum hilft dir der Bericht zu erkennen, wie sich das Geld innerhalb eines Monats verhält.</p>
+<div class="article-subsection">
+<h3>Das Geld ist zu früh aufgebraucht</h3>
+
+
+<p>Wenn sich der Saldo regelmäßig lange vor der nächsten Einzahlung null nähert, ist der aktuelle Anteil des Topfes möglicherweise zu klein.</p>
+
+<p>Dabei ist es wichtig, ein wiederkehrendes Muster von einer einmaligen Situation zu unterscheiden. Ein ungewöhnlicher Monat bedeutet noch nicht, dass die Verteilung geändert werden muss.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Das Geld wird gleichmäßig ausgegeben</h3>
+
+
+<p>Wenn die Linie über den gesamten Monat allmählich sinkt, sind die Ausgaben wahrscheinlich relativ gleichmäßig verteilt.</p>
+
+<p>Bei einem Topf für alltägliche Ausgaben kann das ein normaler Verlauf sein.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Zu Beginn des Zeitraums gibt es einen starken Rückgang</h3>
+
+
+<p>Wenn ein großer Teil des Geldes direkt nach einer Einzahlung ausgegeben wird, werden möglicherweise zu Beginn des Zeitraums größere notwendige Ausgaben bezahlt.</p>
+
+<p>Das ist nicht unbedingt ein Problem. Wenn danach jedoch regelmäßig nicht genug Geld für den Rest des Monats übrig bleibt, solltest du die Verteilung überprüfen.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Im Diagramm sind einzelne starke Rückgänge zu sehen</h3>
+
+
+<p>Starke Rückgänge helfen dabei, die Zeitpunkte großer Ausgaben zu erkennen.</p>
+
+
+<p>Anschließend kannst du die Transaktionen öffnen und prüfen:</p>
+
+<ul>
+  
+  <li>was gekauft wurde;</li>
+  
+  <li>ob die Ausgabe geplant war;</li>
+  
+  <li>ob sie regelmäßig wiederkehrt;</li>
+  
+  <li>ob es sinnvoll wäre, dafür im Voraus Geld zurückzulegen.</li>
+  
+</ul>
+
+</div>
+</div>
+
+<div class="article-section">
+<h2 id="long-term-insights">Was du aus dem Diagramm über mehrere Monate oder ein Jahr ablesen kannst</h2>
+<p>Über einen längeren Zeitraum ist das Diagramm besonders hilfreich, um dauerhafte Muster zu erkennen.</p>
+
+
+<p>Ein einzelner Monat kann eine Ausnahme sein. Eine wiederkehrende Entwicklung deutet eher darauf hin, dass die Einstellungen des Topfes oder die Ausgabenstruktur angepasst werden sollten.</p>
+
+
+<div class="article-subsection">
+<h3>Der Saldo wächst kontinuierlich</h3>
+
+
+<p>Bei einem Spartopf ist ein kontinuierliches Wachstum das erwartete Ergebnis.</p>
+
+<p>Bei einem normalen Ausgabentopf kann ein dauerhaft steigender Saldo dagegen bedeuten, dass ihm mehr Geld zugewiesen wird, als tatsächlich benötigt wird.</p>
+
+<p>In diesem Fall kannst du erwägen, seinen Anteil zu reduzieren und den frei werdenden Teil des Einkommens auf andere Töpfe umzuleiten.</p>
+
+<p>Prüfe vorher, ob das angesammelte Geld einen bestimmten Zweck hat. Vielleicht fällt eine größere Ausgabe nur selten an und der aktuelle Saldo wird später noch benötigt.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Der Saldo sinkt kontinuierlich</h3>
+
+
+<p>Wenn die Linie über einen längeren Zeitraum allmählich fällt, übersteigen die Ausgaben des Topfes dauerhaft seine Einzahlungen.</p>
+
+<p>Ein einmaliger Rückgang kann durch ungewöhnlich hohe Ausgaben entstehen. Wenn sich dieser Trend jedoch Monat für Monat wiederholt, reicht die aktuelle Verteilung wahrscheinlich nicht aus.</p>
+
+
+<p>In diesem Fall solltest du prüfen:</p>
+
+<ul>
+  
+  <li>ob die üblichen Ausgaben entsprechend dem Zweck des Topfes gestiegen sind;</li>
+  
+  <li>ob es im ausgewählten Zeitraum seltene große Ausgaben gab;</li>
+  
+  <li>ob du den Topf regelmäßig aus anderen Töpfen auffüllen musst.</li>
+  
+</ul>
+
+
+
+<p>Wenn der Rückgang durch dauerhaft notwendige Ausgaben entsteht, kannst du den Anteil dieses Topfes auf Kosten anderer erhöhen.</p>
+
+<p>Wenn seltene große Ausgaben die Ursache sind, musst du die regelmäßige Verteilung nicht unbedingt ändern. Für solche Ausgaben kann es praktischer sein, im Voraus separat Geld anzusparen.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Der Topf wird regelmäßig zusätzlich aufgefüllt</h3>
+
+
+<p>Wenn die normalen Einzahlungen dauerhaft nicht ausreichen und du regelmäßig Geld aus anderen Töpfen übertragen musst, ist das ein wichtiges Signal.</p>
+
+<p>Auch wenn diese Übertragungen verhindern, dass der Saldo lange negativ bleibt, zeigen sie, dass die tatsächlichen Ausgaben höher sind als ursprünglich geplant.</p>
+
+<p>Übertragungen zwischen Töpfen können das Diagramm weniger eindeutig machen. Deshalb lässt sich allein anhand der Linie nicht immer erkennen, warum sich der Saldo erholt hat. Regelmäßige zusätzliche Einzahlungen zusammen mit hohen Ausgaben sind jedoch bereits ein guter Grund, den Anteil des Topfes zu überprüfen.</p>
+
+
+</div>
+</div>
+
+<div class="article-section">
+<h2 id="different-jars">Verschiedene Töpfe sollten unterschiedlich bewertet werden</h2>
+<p>Der gleiche Verlauf im Diagramm kann je nach Zweck des Topfes etwas anderes bedeuten.</p>
+<div class="article-subsection">
+<h3>Ausgabentopf</h3>
+<p>Bei einem Topf für alltägliche Ausgaben ist es normalerweise üblich, dass er:</p>
+
+<ul>
+  
+  <li>zwischen den Einzahlungen sinkt;</li>
+  
+  <li>regelmäßig schwankt;</li>
+  
+  <li>sich gegen Ende des Zeitraums null nähert;</li>
+  
+  <li>nach der Einkommensverteilung wieder steigt.</li>
+  
+</ul>
+
+
+
+<p>Problematisch ist meist nicht der Rückgang an sich, sondern ein regelmäßig stark negativer Saldo oder die ständige Notwendigkeit, Geld aus anderen Töpfen zu übertragen.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Spartopf</h3>
+<p>Bei einem Spartopf ist es normalerweise üblich, dass er:</p>
+
+<ul>
+  
+  <li>allmählich wächst;</li>
+  
+  <li>über längere Zeit keine Ausgaben hat;</li>
+  
+  <li>nach Erreichen eines Ziels und einer größeren Anschaffung stark sinkt.</li>
+  
+</ul>
+
+
+
+<p>Wenn ein Spartopf regelmäßig durch alltägliche Ausgaben kleiner wird, werden seine Mittel möglicherweise nicht für den vorgesehenen Zweck verwendet.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Topf für ein größeres Ziel oder eine Verpflichtung</h3>
+
+
+<p>Ein separater Topf kann sinnvoll sein, wenn du für ein bestimmtes Ziel oder eine Verpflichtung im Voraus Geld reservieren möchtest.</p>
+
+
+<p>Zum Beispiel:</p>
+
+<ul>
+  
+  <li>jährliche Versicherung;</li>
+  
+  <li>Ausbildung oder Weiterbildung;</li>
+  
+  <li>Urlaub;</li>
+  
+  <li>Renovierung;</li>
+  
+  <li>ein teures Abonnement;</li>
+  
+  <li>eine größere regelmäßige Pflichtzahlung.</li>
+  
+</ul>
+
+<p>Mit einem solchen Topf kannst du sofort sehen:</p>
+
+<ul>
+  
+  <li>wie viel bereits angespart wurde;</li>
+  
+  <li>ob die regelmäßigen Einzahlungen ausreichen;</li>
+  
+  <li>ob mehr als geplant ausgegeben wurde;</li>
+  
+  <li>ob Geld aus anderen Teilen des Budgets hinzugefügt werden muss.</li>
+  
+</ul>
+
+
+
+<p>Du musst jedoch nicht für jede regelmäßige Ausgabenkategorie einen eigenen Topf erstellen.</p>
+
+<p>Auch größere, aber variable alltägliche Ausgaben wie Lebensmittel lassen sich normalerweise besser innerhalb eines allgemeineren Topfes verwalten und mithilfe von Tags analysieren.</p>
+
+<p>Ein eigener Topf eignet sich besser für ein eigenständiges Ziel oder eine Verpflichtung, für die im Voraus ein bestimmter Betrag reserviert werden soll.</p>
+
+
+</div>
+</div>
+
+<div class="article-section">
+<h2 id="when-to-change-share">Wann du den Anteil eines Topfes ändern solltest</h2>
+
+
+<p>Du solltest die Prozentsätze nicht nach einem einzigen ungewöhnlichen Monat ändern.</p>
+
+<p>Prüfe zuerst, ob sich die gleiche Situation über mehrere Zeiträume hinweg wiederholt.</p>
+
+
+<p>Eine Erhöhung des Anteils kann sinnvoll sein, wenn:</p>
+
+<ul>
+  
+  <li>der Saldo regelmäßig unter null fällt;</li>
+  
+  <li>das Geld lange vor dem nächsten Einkommen aufgebraucht ist;</li>
+  
+  <li>der Topf ständig zusätzlich aufgefüllt werden muss;</li>
+  
+  <li>die Ausgaben entsprechend seinem Zweck tatsächlich notwendig sind.</li>
+  
+</ul>
+
+<p>Eine Verringerung des Anteils kann sinnvoll sein, wenn:</p>
+
+<ul>
+  
+  <li>der verbleibende Saldo dauerhaft wächst;</li>
+  
+  <li>das angesammelte Geld kein eigenes Sparziel hat;</li>
+  
+  <li>die tatsächlichen Ausgaben deutlich unter dem zugewiesenen Betrag liegen;</li>
+  
+  <li>anderen Töpfen regelmäßig Geld fehlt.</li>
+  
+</ul>
+
+
+
+<p>Die 6-Töpfe-Methode verlangt nicht, dass du die ursprünglichen Prozentsätze für immer beibehältst. Die Verteilung kann und sollte an deine tatsächlichen Ausgaben und Veränderungen in deinem Leben angepasst werden.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="limitations">Grenzen des Berichts</h2>
+
+
+<p>Der Bericht „Geldbewegung“ zeigt gut, was mit dem Saldo passiert ist, erklärt aber nicht immer, warum er sich verändert hat.</p>
+
+
+<p>Damit kannst du erkennen:</p>
+
+<ul>
+  
+  <li>ob der Saldo gestiegen oder gefallen ist;</li>
+  
+  <li>wann größere Veränderungen aufgetreten sind;</li>
+  
+  <li>ob genug Geld vorhanden war;</li>
+  
+  <li>ob sich ein dauerhaftes Muster entwickelt;</li>
+  
+  <li>ob der Topf regelmäßig zusätzliche Einzahlungen benötigt.</li>
+  
+</ul>
+
+<p>Das Diagramm allein zeigt jedoch nicht immer:</p>
+
+<ul>
+  
+  <li>wofür das Geld genau ausgegeben wurde;</li>
+  
+  <li>woher eine Einzahlung kam;</li>
+  
+  <li>ob es sich um eine Übertragung zwischen Töpfen handelte;</li>
+  
+  <li>warum sich das Ausgabeverhalten verändert hat;</li>
+  
+  <li>ob der Saldo innerhalb eines Tages unter null gefallen ist.</li>
+  
+</ul>
+
+
+
+<p>Für eine genauere Analyse kannst du die Transaktionsliste und die Berichte nach Tags verwenden.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="questions">Welche Fragen du dir stellen solltest</h2>
+<p>Versuche beim Betrachten des Berichts einige Fragen zu beantworten:</p>
+
+<ul>
+  
+  <li>Reicht das Geld im Topf bis zur nächsten Einzahlung?</li>
+  
+  <li>Zu welchem Zeitpunkt im Zeitraum nähert sich der Saldo normalerweise null?</li>
+  
+  <li>Treten starke Rückgänge immer wieder an denselben Tagen auf?</li>
+  
+  <li>Muss ich regelmäßig Geld aus anderen Töpfen hierher übertragen?</li>
+  
+  <li>Wächst der verbleibende Saldo ohne ein konkretes Ziel?</li>
+  
+  <li>Entspricht der aktuelle Anteil des Topfes meinen tatsächlichen Ausgaben?</li>
+  
+  <li>Sind größere Veränderungen einmalig oder wiederholen sie sich Monat für Monat?</li>
+  
+</ul>
+
+
+
+<p>Das Hauptziel des Berichts besteht nicht nur darin, eine Linie mit der Veränderung des Saldos zu zeigen, sondern dir zu helfen, dauerhafte Muster zu erkennen und zu verstehen, wie gut der gewählte Anteil des Topfes zu deinem tatsächlichen Leben passt.</p>
+
+
+</div>
+
+  </div>
+  <aside class="article-toc" aria-label="Seitennavigation">
+    <nav class="article-toc__nav">
+      <p class="article-toc__title">Auf dieser Seite</p>
+      <ol class="article-toc__list"></ol>
+    </nav>
+  </aside>
+</div>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+  <div class="container site-footer__inner">
+    <p class="site-footer__copyright">© 2026 Artem D Apps</p>
+    <nav class="site-footer__nav" aria-label="Informationen zur Website">
+      <a class="site-footer__link" href="/de/apps/6-jars-finance/help/">Fehlerinformationen</a>
+      <a class="site-footer__link" href="/de/apps/6-jars-finance/articles/report-funds-movement/">Funds Movement Report</a>
+      <a class="site-footer__link" href="/de/apps/6-jars-finance/privacy/">Datenschutzerklärung</a>
+      <a class="site-footer__link" href="/de/apps/6-jars-finance/licenses/">Open-Source-Lizenzen</a>
+    </nav>
+  </div>
+</footer>
+
+  
+  <script src="/assets/article-toc.js" defer></script>
+
+  
+  <script src="/assets/js/analytics.js" defer></script>
+</body>
+</html>

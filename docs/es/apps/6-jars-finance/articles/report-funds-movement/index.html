@@ -1,0 +1,1095 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cómo leer el informe «Movimiento de fondos»</title>
+  <meta name="description" content="El informe «Movimiento de fondos» muestra cómo ha cambiado el saldo del fondo seleccionado durante un período determinado." />
+  
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  
+  <link rel="stylesheet" href="/assets/style.css" />
+</head>
+<body>
+  <header class="site-header">
+  <div class="container site-header__inner">
+    <a class="site-header__brand" href="/">Artem D Apps</a>
+    <div class="site-header__aside">
+      
+      
+      <nav class="site-header__nav" aria-label="Navegación del sitio">
+        <a
+          class="site-header__link"
+          href="/es/apps/6-jars-finance/download/"
+          data-analytics-link="download"
+          data-analytics-placement="header"
+          
+        >Descargar la app</a>
+        <a
+          class="site-header__link"
+          href="/es/apps/6-jars-finance/articles/guide/"
+          
+        >Método de los seis fondos</a>
+      </nav>
+      
+        
+
+<nav class="lang-switch" aria-label="Idioma">
+  <label class="lang-switch__desktop">
+    <span class="lang-switch__visually-hidden">Idioma</span>
+    <select class="lang-switch__select" data-lang-switch-select>
+      
+        <option
+          value="/en/apps/6-jars-finance/articles/report-funds-movement/"
+          
+        >English</option>
+      
+        <option
+          value="/id/apps/6-jars-finance/articles/report-funds-movement/"
+          
+        >Bahasa Indonesia</option>
+      
+        <option
+          value="/cs/apps/6-jars-finance/articles/report-funds-movement/"
+          
+        >Čeština</option>
+      
+        <option
+          value="/de/apps/6-jars-finance/articles/report-funds-movement/"
+          
+        >Deutsch</option>
+      
+        <option
+          value="/es/apps/6-jars-finance/articles/report-funds-movement/"
+          selected
+        >Español</option>
+      
+        <option
+          value="/fr/apps/6-jars-finance/articles/report-funds-movement/"
+          
+        >Français</option>
+      
+        <option
+          value="/it/apps/6-jars-finance/articles/report-funds-movement/"
+          
+        >Italiano</option>
+      
+        <option
+          value="/nl/apps/6-jars-finance/articles/report-funds-movement/"
+          
+        >Nederlands</option>
+      
+        <option
+          value="/pl/apps/6-jars-finance/articles/report-funds-movement/"
+          
+        >Polski</option>
+      
+        <option
+          value="/pt-BR/apps/6-jars-finance/articles/report-funds-movement/"
+          
+        >Português (Brasil)</option>
+      
+        <option
+          value="/ro/apps/6-jars-finance/articles/report-funds-movement/"
+          
+        >Română</option>
+      
+        <option
+          value="/ru/apps/6-jars-finance/articles/report-funds-movement/"
+          
+        >Русский</option>
+      
+        <option
+          value="/sv/apps/6-jars-finance/articles/report-funds-movement/"
+          
+        >Svenska</option>
+      
+        <option
+          value="/tr/apps/6-jars-finance/articles/report-funds-movement/"
+          
+        >Türkçe</option>
+      
+        <option
+          value="/uk/apps/6-jars-finance/articles/report-funds-movement/"
+          
+        >Українська</option>
+      
+    </select>
+  </label>
+
+  <button
+    type="button"
+    class="lang-switch__trigger"
+    data-open-lang-switch-modal
+    aria-haspopup="dialog"
+    aria-expanded="false"
+    aria-controls="lang-switch-modal"
+  >
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        <span class="lang-switch__code">
+  ES
+</span>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    <span class="lang-switch__arrow" aria-hidden="true">▾</span>
+  </button>
+
+  <div
+    class="modal-overlay lang-switch__modal-overlay"
+    id="lang-switch-modal"
+    hidden
+    aria-hidden="true"
+    data-lang-switch-modal
+  >
+    <div
+      class="modal lang-switch__modal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="lang-switch-modal-title"
+    >
+      <h2 class="modal__title" id="lang-switch-modal-title">Idioma</h2>
+      <fieldset class="lang-switch__mobile" aria-label="Idioma">
+        <div class="lang-switch__radio-list">
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/en/apps/6-jars-finance/articles/report-funds-movement/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">English</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/id/apps/6-jars-finance/articles/report-funds-movement/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Bahasa Indonesia</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/cs/apps/6-jars-finance/articles/report-funds-movement/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Čeština</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/de/apps/6-jars-finance/articles/report-funds-movement/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Deutsch</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/es/apps/6-jars-finance/articles/report-funds-movement/"
+                data-lang-switch-radio
+                checked
+              />
+              <span class="lang-switch__radio-text">Español</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/fr/apps/6-jars-finance/articles/report-funds-movement/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Français</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/it/apps/6-jars-finance/articles/report-funds-movement/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Italiano</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/nl/apps/6-jars-finance/articles/report-funds-movement/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Nederlands</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/pl/apps/6-jars-finance/articles/report-funds-movement/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Polski</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/pt-BR/apps/6-jars-finance/articles/report-funds-movement/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Português (Brasil)</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/ro/apps/6-jars-finance/articles/report-funds-movement/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Română</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/ru/apps/6-jars-finance/articles/report-funds-movement/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Русский</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/sv/apps/6-jars-finance/articles/report-funds-movement/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Svenska</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/tr/apps/6-jars-finance/articles/report-funds-movement/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Türkçe</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/uk/apps/6-jars-finance/articles/report-funds-movement/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Українська</span>
+            </label>
+          
+        </div>
+      </fieldset>
+    </div>
+  </div>
+
+  <script src="/assets/js/lang-switch.js" defer></script>
+</nav>
+
+      
+    </div>
+  </div>
+</header>
+
+
+  <main class="article">
+    <div class="container">
+      <div class="article-layout">
+  <div class="article-container">
+    
+
+
+
+
+
+
+
+
+
+<h1>Cómo leer el informe «Movimiento de fondos»</h1>
+
+
+<p>El informe «Movimiento de fondos» muestra cómo ha cambiado el saldo del fondo seleccionado durante un período determinado.</p>
+
+
+<p>Con él puedes ver:</p>
+
+<ul>
+  
+  <li>cuánto dinero había en el fondo al inicio del período;</li>
+  
+  <li>cuánto dinero se añadió;</li>
+  
+  <li>cuánto se gastó;</li>
+  
+  <li>cuánto cambió el saldo;</li>
+  
+  <li>cuánto dinero quedó al final del período;</li>
+  
+  <li>en qué momentos se produjeron cambios importantes.</li>
+  
+</ul>
+
+
+
+<p>El informe se genera solo para un fondo seleccionado. Por eso, conviene verlo no como una visión general de todas tus finanzas, sino como el historial del movimiento del dinero dentro de una parte concreta de tu presupuesto.</p>
+
+
+
+<nav class="article-overview" aria-labelledby="article-overview-title">
+  <h2 id="article-overview-title">Contenido</h2>
+  <ol>
+    <li><a href="#metrics">Qué significan los indicadores</a></li>
+    <li><a href="#reading-chart">Cómo leer el gráfico</a></li>
+    <li><a href="#same-result">El mismo resultado puede ocultar movimientos de dinero muy distintos</a></li>
+    <li><a href="#monthly-insights">Qué puedes saber con el gráfico de un mes</a></li>
+    <li><a href="#long-term-insights">Qué puedes saber con el gráfico de varios meses o un año</a></li>
+    <li><a href="#different-jars">Los distintos fondos deben evaluarse de forma diferente</a></li>
+    <li><a href="#when-to-change-share">Cuándo cambiar la proporción de un fondo</a></li>
+    <li><a href="#limitations">Limitaciones del informe</a></li>
+    <li><a href="#questions">Preguntas que conviene hacerse</a></li>
+  </ol>
+</nav>
+
+<div class="article-section">
+<h2 id="metrics">Qué significan los indicadores</h2>
+<div class="article-subsection">
+<h3>Saldo inicial</h3>
+
+
+<p>El saldo inicial es la cantidad que había en el fondo al comienzo del período seleccionado.</p>
+
+<p>No es necesariamente el importe de la última aportación ni el saldo actual del fondo. Por ejemplo, si al comenzar el mes quedaba dinero del mes anterior, también se incluirá en el saldo inicial.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Aportaciones</h3>
+
+
+<p>Las aportaciones muestran la cantidad total de dinero añadido al fondo seleccionado durante el período.</p>
+
+
+<p>Puede tratarse de:</p>
+
+<ul>
+  
+  <li>una parte de los ingresos distribuidos;</li>
+  
+  <li>una aportación adicional;</li>
+  
+  <li>la devolución de dinero gastado anteriormente;</li>
+  
+  <li>una transferencia desde otro fondo.</li>
+  
+</ul>
+
+
+
+<p>El informe muestra el importe total de las aportaciones, pero no determina su origen. Para saber de dónde procede una aportación concreta, consulta la lista de transacciones.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Gastos</h3>
+
+
+<p>Los gastos muestran la cantidad total de dinero gastado desde el fondo seleccionado durante el período.</p>
+
+<p>Aunque el saldo apenas haya cambiado al final del período, el total de gastos puede ser elevado. Esto significa que se gastó dinero activamente y que después el fondo volvió a recibir aportaciones.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Cambio neto</h3>
+
+
+<p>El cambio neto muestra cuánto aumentó o disminuyó el saldo en comparación con el inicio del período.</p>
+
+<p>Se calcula como la diferencia entre las aportaciones y los gastos.</p>
+
+
+<p>Por ejemplo:</p>
+
+<ul>
+  
+  <li>saldo inicial — 1 000;</li>
+  
+  <li>aportaciones — 2 000;</li>
+  
+  <li>gastos — 2 300;</li>
+  
+  <li>cambio neto — −300;</li>
+  
+  <li>saldo final — 700.</li>
+  
+</ul>
+
+
+
+<p>Para un fondo de gastos habitual, puede considerarse normal que, a largo plazo, el cambio neto se mantenga cerca de cero o que el saldo aumente gradualmente.</p>
+
+<p>Si el cambio neto se mantiene negativo de forma habitual, significa que se gasta sistemáticamente más dinero del que entra en el fondo. Esto puede indicar que se le asigna una proporción demasiado pequeña de los ingresos o que conviene revisar los gastos.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Saldo final</h3>
+
+
+<p>El saldo final es la cantidad que queda en el fondo al terminar el período seleccionado.</p>
+
+<p>Incluye el saldo inicial, todas las aportaciones y todos los gastos.</p>
+
+<p>No hay que confundir el saldo final con el cambio neto. El saldo muestra cuánto dinero queda, mientras que el cambio neto muestra cuánto difiere esa cantidad del saldo inicial.</p>
+
+
+</div>
+</div>
+
+<div class="article-section">
+<h2 id="reading-chart">Cómo leer el gráfico</h2>
+<p>La línea del gráfico muestra cómo cambió el saldo del fondo durante el período seleccionado.</p>
+<div class="article-subsection">
+<h3>La línea sube</h3>
+
+
+<p>Una línea ascendente significa que se añadió dinero al fondo.</p>
+
+<p>Una subida pronunciada suele estar relacionada con una aportación grande, por ejemplo con la distribución de ingresos o una transferencia desde otro fondo.</p>
+
+<p>Una subida gradual o escalonada puede indicar varias aportaciones independientes.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>La línea baja</h3>
+
+
+<p>Una línea descendente indica gastos.</p>
+
+<p>Una bajada gradual suele significar que el dinero se va gastando poco a poco durante el período.</p>
+
+<p>Una caída pronunciada indica un gasto grande o varios gastos realizados en poco tiempo.</p>
+
+<p>El gráfico permite ver cuándo se produjo el cambio, pero no en qué se gastó exactamente el dinero. Para eso, consulta la lista de transacciones o el informe por etiquetas.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>La línea se mantiene aproximadamente al mismo nivel</h3>
+<p>Esto puede significar que:</p>
+
+<ul>
+  
+  <li>casi no hubo gastos;</li>
+  
+  <li>las aportaciones compensaron aproximadamente los gastos;</li>
+  
+  <li>el dinero se gastó y se volvió a añadir con regularidad;</li>
+  
+  <li>el fondo se utilizó poco.</li>
+  
+</ul>
+
+
+
+<p>Por tanto, una línea plana no significa necesariamente que no haya habido actividad. También conviene mirar el importe total de las aportaciones y los gastos.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>El saldo se mantiene cerca de cero</h3>
+<p>Si la línea permanece cerca de cero durante mucho tiempo, puede haber varias razones:</p>
+
+<ul>
+  
+  <li>la proporción del fondo está bastante bien ajustada a las necesidades reales;</li>
+  
+  <li>el dinero alcanza justo;</li>
+  
+  <li>el dinero se gasta rápidamente después de cada aportación;</li>
+  
+  <li>el fondo necesita aportaciones adicionales desde otras fuentes.</li>
+  
+</ul>
+
+
+
+<p>Para entender mejor la situación, compara el gráfico con los importes totales de las aportaciones y los gastos.</p>
+
+<p>Si el fondo recibe habitualmente bastante más dinero del que normalmente se le asigna al distribuir los ingresos, puede depender de transferencias adicionales.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>El saldo baja de cero</h3>
+
+
+<p>Un saldo negativo significa que se gastó más dinero del que había disponible en el fondo.</p>
+
+<p>Una situación puntual puede ser normal. Por ejemplo, una compra grande puede haberse realizado poco antes del siguiente ingreso.</p>
+
+
+<p>Si el fondo baja de cero con frecuencia, puede indicar que:</p>
+
+<ul>
+  
+  <li>se le asigna una proporción demasiado pequeña de los ingresos;</li>
+  
+  <li>los gastos asociados a este fondo han aumentado;</li>
+  
+  <li>algunos gastos pueden reducirse o posponerse.</li>
+  
+</ul>
+
+
+
+<p>La aplicación permite tener un saldo negativo. En la siguiente aportación, primero se compensará el saldo negativo, por lo que quedará menos dinero disponible para el nuevo período.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Por qué un saldo negativo temporal puede no aparecer en el gráfico</h3>
+
+
+<p>El gráfico muestra el cambio final del saldo de cada día.</p>
+
+<p>Si un fondo baja de cero y después recibe una aportación el mismo día, el saldo negativo intermedio puede no aparecer. El gráfico mostrará únicamente el saldo final de ese día.</p>
+
+
+<p>Por ejemplo:</p>
+
+<ol>
+  
+  <li>Había 100 en el fondo.</li>
+  
+  <li>Gastas 200 y el saldo pasa a −100.</li>
+  
+  <li>Después transfieres 150 desde otro fondo.</li>
+  
+  <li>El saldo final del día es 50.</li>
+  
+</ol>
+
+
+
+<p>El gráfico mostrará un saldo final positivo aunque el fondo haya estado temporalmente en negativo durante el día.</p>
+
+<p>Por eso, el gráfico sirve para analizar la tendencia general, pero no siempre muestra todos los estados intermedios.</p>
+
+
+<p>Puedes leer más sobre cómo pedirte dinero prestado temporalmente entre tus fondos en la <a href="/es/apps/6-jars-finance/articles/guide/#borrow-from-yourself">sección sobre pedirte prestado a ti mismo</a>.</p>
+</div>
+</div>
+
+<div class="article-section">
+<h2 id="same-result">El mismo resultado puede ocultar movimientos de dinero muy distintos</h2>
+
+
+<p>No conviene evaluar un período únicamente por el saldo final.</p>
+
+<p>Imaginemos dos meses.</p>
+
+
+<p>En el primer mes:</p>
+
+<ul>
+  
+  <li>aportaciones — 2 000;</li>
+  
+  <li>gastos — 2 000;</li>
+  
+  <li>cambio neto — 0.</li>
+  
+</ul>
+
+<p>En el segundo mes:</p>
+
+<ul>
+  
+  <li>no hubo aportaciones;</li>
+  
+  <li>no hubo gastos;</li>
+  
+  <li>cambio neto — 0.</li>
+  
+</ul>
+
+
+
+<p>En ambos casos el saldo no cambió, pero en el primer mes el fondo se utilizó activamente, mientras que en el segundo no hubo ningún movimiento de dinero.</p>
+
+
+<p>Por eso conviene observar a la vez:</p>
+
+<ul>
+  
+  <li>el saldo inicial;</li>
+  
+  <li>las aportaciones;</li>
+  
+  <li>los gastos;</li>
+  
+  <li>el cambio neto;</li>
+  
+  <li>la forma de la línea en el gráfico.</li>
+  
+</ul>
+
+</div>
+
+<div class="article-section">
+<h2 id="monthly-insights">Qué puedes saber con el gráfico de un mes</h2>
+<p>En un período corto, el informe ayuda a ver cómo se comporta el dinero a lo largo del mes.</p>
+<div class="article-subsection">
+<h3>El dinero se acaba demasiado pronto</h3>
+
+
+<p>Si el saldo se acerca regularmente a cero mucho antes de la siguiente aportación, la proporción actual del fondo puede ser insuficiente.</p>
+
+<p>Sin embargo, es importante distinguir un patrón recurrente de una situación puntual. Un solo mes inusual no significa necesariamente que haya que cambiar la distribución.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>El dinero se gasta de manera uniforme</h3>
+
+
+<p>Si la línea baja gradualmente durante todo el mes, probablemente los gastos estén bastante repartidos.</p>
+
+<p>Para un fondo destinado a gastos cotidianos, puede ser un comportamiento normal.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Se produce una caída pronunciada al inicio del período</h3>
+
+
+<p>Si una parte importante del dinero se gasta justo después de una aportación, puede que al inicio del período se paguen gastos obligatorios elevados.</p>
+
+<p>Esto no tiene por qué ser un problema. Pero si después de pagarlos suele faltar dinero para el resto del mes, conviene revisar la distribución.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>El gráfico muestra caídas grandes aisladas</h3>
+
+
+<p>Las caídas pronunciadas ayudan a localizar las fechas de los gastos importantes.</p>
+
+
+<p>Después puedes abrir las transacciones y comprobar:</p>
+
+<ul>
+  
+  <li>qué se compró;</li>
+  
+  <li>si el gasto estaba previsto;</li>
+  
+  <li>si se repite con regularidad;</li>
+  
+  <li>si conviene reservar dinero para él con antelación.</li>
+  
+</ul>
+
+</div>
+</div>
+
+<div class="article-section">
+<h2 id="long-term-insights">Qué puedes saber con el gráfico de varios meses o un año</h2>
+<p>En un período largo, el gráfico resulta especialmente útil para detectar patrones estables.</p>
+
+
+<p>Un solo mes puede ser una excepción. Una evolución que se repite indica con más claridad que quizá haya que ajustar la configuración del fondo o la estructura de los gastos.</p>
+
+
+<div class="article-subsection">
+<h3>El saldo sigue creciendo</h3>
+
+
+<p>Para un fondo de ahorro, un crecimiento constante es el resultado esperado.</p>
+
+<p>Pero en un fondo de gastos habitual, un saldo que crece de forma sostenida puede significar que recibe más dinero del que realmente necesita.</p>
+
+<p>En ese caso puedes plantearte reducir su proporción y redirigir la diferencia a otros fondos.</p>
+
+<p>Antes de cambiar nada, comprueba si el dinero acumulado tiene un objetivo concreto. Puede que un gasto grande se produzca solo de vez en cuando y que necesites ese saldo más adelante.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>El saldo sigue disminuyendo</h3>
+
+
+<p>Si la línea baja gradualmente durante un período largo, los gastos del fondo superan sistemáticamente sus aportaciones.</p>
+
+<p>Una bajada puntual puede deberse a gastos excepcionalmente grandes. Pero si la misma tendencia se repite mes tras mes, probablemente la distribución actual no sea suficiente.</p>
+
+
+<p>En ese caso, comprueba:</p>
+
+<ul>
+  
+  <li>si han aumentado los gastos habituales relacionados con el objetivo del fondo;</li>
+  
+  <li>si durante el período seleccionado hubo gastos grandes pero poco frecuentes;</li>
+  
+  <li>si necesitas completar regularmente el fondo con dinero de otros fondos.</li>
+  
+</ul>
+
+
+
+<p>Si la disminución se debe a gastos necesarios y recurrentes, puedes aumentar la proporción de este fondo reduciendo la de otros.</p>
+
+<p>Si la causa son gastos grandes pero poco frecuentes, no es necesario cambiar la distribución habitual. Para este tipo de gastos puede resultar más práctico ahorrar dinero por separado con antelación.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>El fondo recibe regularmente aportaciones adicionales</h3>
+
+
+<p>Si las aportaciones habituales no son suficientes y tienes que transferir dinero con frecuencia desde otros fondos, es una señal importante.</p>
+
+<p>Aunque estas transferencias impidan que el saldo permanezca negativo durante mucho tiempo, muestran que los gastos reales son superiores a los previstos inicialmente.</p>
+
+<p>Las transferencias entre fondos pueden hacer que el gráfico sea menos evidente. Por eso, la línea por sí sola no siempre permite saber por qué se recuperó el saldo. Sin embargo, las aportaciones adicionales frecuentes junto con gastos elevados ya son un buen motivo para revisar la proporción del fondo.</p>
+
+
+</div>
+</div>
+
+<div class="article-section">
+<h2 id="different-jars">Los distintos fondos deben evaluarse de forma diferente</h2>
+<p>La misma forma del gráfico puede significar cosas distintas según el objetivo del fondo.</p>
+<div class="article-subsection">
+<h3>Fondo de gastos</h3>
+<p>En un fondo destinado a gastos cotidianos, normalmente es razonable que:</p>
+
+<ul>
+  
+  <li>disminuya entre aportaciones;</li>
+  
+  <li>fluctúe con regularidad;</li>
+  
+  <li>se acerque a cero hacia el final del período;</li>
+  
+  <li>vuelva a subir después de distribuir los ingresos.</li>
+  
+</ul>
+
+
+
+<p>El problema normalmente no es la disminución en sí, sino entrar con frecuencia en un saldo muy negativo o tener que transferir constantemente dinero desde otros fondos.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Fondo de ahorro</h3>
+<p>En un fondo de ahorro, normalmente es razonable que:</p>
+
+<ul>
+  
+  <li>crezca gradualmente;</li>
+  
+  <li>pase largos períodos sin gastos;</li>
+  
+  <li>baje de forma pronunciada después de alcanzar un objetivo y realizar una compra importante.</li>
+  
+</ul>
+
+
+
+<p>Si un fondo de ahorro disminuye regularmente por gastos cotidianos, puede que el dinero se esté utilizando para algo distinto de su finalidad.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Fondo para un objetivo importante o una obligación</h3>
+
+
+<p>Un fondo separado puede ser útil cuando necesitas reservar dinero con antelación para un objetivo o una obligación concretos.</p>
+
+
+<p>Por ejemplo:</p>
+
+<ul>
+  
+  <li>un seguro anual;</li>
+  
+  <li>formación;</li>
+  
+  <li>vacaciones;</li>
+  
+  <li>una reforma;</li>
+  
+  <li>una suscripción cara;</li>
+  
+  <li>un pago obligatorio recurrente de importe elevado.</li>
+  
+</ul>
+
+<p>Un fondo de este tipo permite ver de inmediato:</p>
+
+<ul>
+  
+  <li>cuánto has ahorrado ya;</li>
+  
+  <li>si las aportaciones habituales son suficientes;</li>
+  
+  <li>si has gastado más de lo previsto;</li>
+  
+  <li>si necesitas añadir dinero desde otras partes del presupuesto.</li>
+  
+</ul>
+
+
+
+<p>Sin embargo, no es necesario crear un fondo independiente para cada tipo de gasto recurrente.</p>
+
+<p>Incluso los gastos cotidianos elevados pero variables, como la compra de alimentos, suelen gestionarse mejor dentro de un fondo más amplio y analizarse mediante etiquetas.</p>
+
+<p>Un fondo independiente resulta más útil para un objetivo propio o una obligación para la que necesitas reservar una cantidad concreta con antelación.</p>
+
+
+</div>
+</div>
+
+<div class="article-section">
+<h2 id="when-to-change-share">Cuándo cambiar la proporción de un fondo</h2>
+
+
+<p>No cambies los porcentajes después de un solo mes inusual.</p>
+
+<p>Primero comprueba si la misma situación se repite durante varios períodos.</p>
+
+
+<p>Puede tener sentido aumentar la proporción si:</p>
+
+<ul>
+  
+  <li>el saldo baja de cero con frecuencia;</li>
+  
+  <li>el dinero se acaba mucho antes del siguiente ingreso;</li>
+  
+  <li>el fondo necesita constantemente aportaciones adicionales;</li>
+  
+  <li>los gastos relacionados con su finalidad son realmente necesarios.</li>
+  
+</ul>
+
+<p>Puede tener sentido reducir la proporción si:</p>
+
+<ul>
+  
+  <li>el saldo restante continúa creciendo;</li>
+  
+  <li>el dinero acumulado no tiene un objetivo de ahorro independiente;</li>
+  
+  <li>los gastos reales son claramente inferiores al importe asignado;</li>
+  
+  <li>otros fondos se quedan sin dinero con frecuencia.</li>
+  
+</ul>
+
+
+
+<p>El método de los 6 fondos no exige mantener para siempre los porcentajes iniciales. La distribución puede y debe adaptarse a tus gastos reales y a los cambios de tu vida.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="limitations">Limitaciones del informe</h2>
+
+
+<p>El informe «Movimiento de fondos» muestra bien qué ha ocurrido con el saldo, pero no siempre explica por qué cambió.</p>
+
+
+<p>Permite entender:</p>
+
+<ul>
+  
+  <li>si el saldo subió o bajó;</li>
+  
+  <li>cuándo se produjeron cambios importantes;</li>
+  
+  <li>si había suficiente dinero;</li>
+  
+  <li>si se está formando una tendencia estable;</li>
+  
+  <li>si el fondo necesita aportaciones adicionales con frecuencia.</li>
+  
+</ul>
+
+<p>Pero el gráfico por sí solo no siempre permite determinar:</p>
+
+<ul>
+  
+  <li>en qué se gastó exactamente el dinero;</li>
+  
+  <li>de dónde procedía una aportación;</li>
+  
+  <li>si se trataba de una transferencia entre fondos;</li>
+  
+  <li>por qué cambió el comportamiento de gasto;</li>
+  
+  <li>si el saldo bajó de cero durante el día.</li>
+  
+</ul>
+
+
+
+<p>Para un análisis más detallado, utiliza la lista de transacciones y los informes por etiquetas.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="questions">Preguntas que conviene hacerse</h2>
+<p>Al revisar el informe, intenta responder a algunas preguntas:</p>
+
+<ul>
+  
+  <li>¿Hay suficiente dinero en el fondo hasta la siguiente aportación?</li>
+  
+  <li>¿En qué momento del período suele empezar el saldo a acercarse a cero?</li>
+  
+  <li>¿Las caídas pronunciadas se repiten en las mismas fechas?</li>
+  
+  <li>¿Tengo que transferir regularmente dinero desde otros fondos?</li>
+  
+  <li>¿El saldo restante sigue creciendo sin un objetivo concreto?</li>
+  
+  <li>¿La proporción actual del fondo corresponde a mis gastos reales?</li>
+  
+  <li>¿Los cambios importantes son puntuales o se repiten mes tras mes?</li>
+  
+</ul>
+
+
+
+<p>El objetivo principal del informe no es solo mostrar una línea con la evolución del saldo, sino ayudarte a detectar patrones estables y entender hasta qué punto la proporción elegida para el fondo se ajusta a tu realidad.</p>
+
+
+</div>
+
+  </div>
+  <aside class="article-toc" aria-label="Navegación de la página">
+    <nav class="article-toc__nav">
+      <p class="article-toc__title">En esta página</p>
+      <ol class="article-toc__list"></ol>
+    </nav>
+  </aside>
+</div>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+  <div class="container site-footer__inner">
+    <p class="site-footer__copyright">© 2026 Artem D Apps</p>
+    <nav class="site-footer__nav" aria-label="Información del sitio">
+      <a class="site-footer__link" href="/es/apps/6-jars-finance/help/">Información sobre el error</a>
+      <a class="site-footer__link" href="/es/apps/6-jars-finance/articles/report-funds-movement/">Funds Movement Report</a>
+      <a class="site-footer__link" href="/es/apps/6-jars-finance/privacy/">Política de privacidad</a>
+      <a class="site-footer__link" href="/es/apps/6-jars-finance/licenses/">Licencias de código abierto</a>
+    </nav>
+  </div>
+</footer>
+
+  
+  <script src="/assets/article-toc.js" defer></script>
+
+  
+  <script src="/assets/js/analytics.js" defer></script>
+</body>
+</html>
