@@ -1,0 +1,1099 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Comment lire le rapport « Détail des dépenses par étiquette »</title>
+  <meta name="description" content="Le rapport « Détail des dépenses par étiquette » vous aide à comprendre comment les dépenses associées à une étiquette sélectionnée se sont réparties au cours du mois." />
+  
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  
+  <link rel="stylesheet" href="/assets/style.css" />
+</head>
+<body>
+  <header class="site-header">
+  <div class="container site-header__inner">
+    <a class="site-header__brand" href="/">Artem D Apps</a>
+    <div class="site-header__aside">
+      
+      
+      <nav class="site-header__nav" aria-label="Navigation du site">
+        <a
+          class="site-header__link"
+          href="/fr/apps/6-jars-finance/download/"
+          data-analytics-link="download"
+          data-analytics-placement="header"
+          
+        >Télécharger l’application</a>
+        <a
+          class="site-header__link"
+          href="/fr/apps/6-jars-finance/articles/guide/"
+          
+        >Méthode des six enveloppes</a>
+      </nav>
+      
+        
+
+<nav class="lang-switch" aria-label="Langue">
+  <label class="lang-switch__desktop">
+    <span class="lang-switch__visually-hidden">Langue</span>
+    <select class="lang-switch__select" data-lang-switch-select>
+      
+        <option
+          value="/en/apps/6-jars-finance/articles/report-tag-details/"
+          
+        >English</option>
+      
+        <option
+          value="/id/apps/6-jars-finance/articles/report-tag-details/"
+          
+        >Bahasa Indonesia</option>
+      
+        <option
+          value="/cs/apps/6-jars-finance/articles/report-tag-details/"
+          
+        >Čeština</option>
+      
+        <option
+          value="/de/apps/6-jars-finance/articles/report-tag-details/"
+          
+        >Deutsch</option>
+      
+        <option
+          value="/es/apps/6-jars-finance/articles/report-tag-details/"
+          
+        >Español</option>
+      
+        <option
+          value="/fr/apps/6-jars-finance/articles/report-tag-details/"
+          selected
+        >Français</option>
+      
+        <option
+          value="/it/apps/6-jars-finance/articles/report-tag-details/"
+          
+        >Italiano</option>
+      
+        <option
+          value="/nl/apps/6-jars-finance/articles/report-tag-details/"
+          
+        >Nederlands</option>
+      
+        <option
+          value="/pl/apps/6-jars-finance/articles/report-tag-details/"
+          
+        >Polski</option>
+      
+        <option
+          value="/pt-BR/apps/6-jars-finance/articles/report-tag-details/"
+          
+        >Português (Brasil)</option>
+      
+        <option
+          value="/ro/apps/6-jars-finance/articles/report-tag-details/"
+          
+        >Română</option>
+      
+        <option
+          value="/ru/apps/6-jars-finance/articles/report-tag-details/"
+          
+        >Русский</option>
+      
+        <option
+          value="/sv/apps/6-jars-finance/articles/report-tag-details/"
+          
+        >Svenska</option>
+      
+        <option
+          value="/tr/apps/6-jars-finance/articles/report-tag-details/"
+          
+        >Türkçe</option>
+      
+        <option
+          value="/uk/apps/6-jars-finance/articles/report-tag-details/"
+          
+        >Українська</option>
+      
+    </select>
+  </label>
+
+  <button
+    type="button"
+    class="lang-switch__trigger"
+    data-open-lang-switch-modal
+    aria-haspopup="dialog"
+    aria-expanded="false"
+    aria-controls="lang-switch-modal"
+  >
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        <span class="lang-switch__code">
+  FR
+</span>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    <span class="lang-switch__arrow" aria-hidden="true">▾</span>
+  </button>
+
+  <div
+    class="modal-overlay lang-switch__modal-overlay"
+    id="lang-switch-modal"
+    hidden
+    aria-hidden="true"
+    data-lang-switch-modal
+  >
+    <div
+      class="modal lang-switch__modal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="lang-switch-modal-title"
+    >
+      <h2 class="modal__title" id="lang-switch-modal-title">Langue</h2>
+      <fieldset class="lang-switch__mobile" aria-label="Langue">
+        <div class="lang-switch__radio-list">
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/en/apps/6-jars-finance/articles/report-tag-details/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">English</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/id/apps/6-jars-finance/articles/report-tag-details/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Bahasa Indonesia</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/cs/apps/6-jars-finance/articles/report-tag-details/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Čeština</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/de/apps/6-jars-finance/articles/report-tag-details/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Deutsch</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/es/apps/6-jars-finance/articles/report-tag-details/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Español</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/fr/apps/6-jars-finance/articles/report-tag-details/"
+                data-lang-switch-radio
+                checked
+              />
+              <span class="lang-switch__radio-text">Français</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/it/apps/6-jars-finance/articles/report-tag-details/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Italiano</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/nl/apps/6-jars-finance/articles/report-tag-details/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Nederlands</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/pl/apps/6-jars-finance/articles/report-tag-details/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Polski</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/pt-BR/apps/6-jars-finance/articles/report-tag-details/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Português (Brasil)</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/ro/apps/6-jars-finance/articles/report-tag-details/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Română</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/ru/apps/6-jars-finance/articles/report-tag-details/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Русский</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/sv/apps/6-jars-finance/articles/report-tag-details/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Svenska</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/tr/apps/6-jars-finance/articles/report-tag-details/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Türkçe</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/uk/apps/6-jars-finance/articles/report-tag-details/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Українська</span>
+            </label>
+          
+        </div>
+      </fieldset>
+    </div>
+  </div>
+
+  <script src="/assets/js/lang-switch.js" defer></script>
+</nav>
+
+      
+    </div>
+  </div>
+</header>
+
+
+  <main class="article">
+    <div class="container">
+      <div class="article-layout">
+  <div class="article-container">
+    
+
+
+
+
+
+
+
+<h1>Comment lire le rapport « Détail des dépenses par étiquette »</h1>
+
+
+<p>Le rapport « Détail des dépenses par étiquette » vous aide à comprendre comment les dépenses associées à une étiquette sélectionnée se sont réparties au cours du mois.</p>
+
+
+<p>Il complète le rapport <a href="/fr/apps/6-jars-finance/articles/report-spendings-by-tags/">« Dépenses par étiquette »</a>. Vous pouvez d’abord identifier les étiquettes qui représentent les dépenses les plus importantes ou qui apparaissent le plus souvent, puis en ouvrir une pour l’examiner plus en détail.</p>
+<p>Le rapport est généré pour une enveloppe sélectionnée et une étiquette. Il inclut uniquement les dépenses :</p>
+
+<ul>
+  
+  <li>de l’enveloppe sélectionnée ;</li>
+  
+  <li>du mois sélectionné ;</li>
+  
+  <li>associées à l’étiquette sélectionnée.</li>
+  
+</ul>
+
+
+<nav class="article-overview" aria-labelledby="article-overview-title">
+  <h2 id="article-overview-title">Sommaire</h2>
+  <ol>
+    <li><a href="#what-it-shows">Ce que montre le rapport</a></li>
+    <li><a href="#total-amount">Montant total des dépenses</a></li>
+    <li><a href="#operation-count">Nombre de transactions</a></li>
+    <li><a href="#average-amount">Montant moyen d’une transaction</a></li>
+    <li><a href="#histogram">Comment lire l’histogramme</a></li>
+    <li><a href="#single-peak">Une barre élevée</a></li>
+    <li><a href="#multiple-peaks">Plusieurs pics</a></li>
+    <li><a href="#many-small-bars">De nombreuses petites barres</a></li>
+    <li><a href="#even-distribution">Dépenses réparties régulièrement</a></li>
+    <li><a href="#start-of-month">Dépenses en début de mois</a></li>
+    <li><a href="#end-of-month">Dépenses en fin de mois</a></li>
+    <li><a href="#why-expenses-grew">Comment comprendre pourquoi les dépenses ont augmenté</a></li>
+    <li><a href="#compare-months">Comment comparer différents mois</a></li>
+    <li><a href="#what-to-change">Ce que vous pouvez modifier à partir du rapport</a></li>
+    <li><a href="#analysis-example">Exemple d’analyse du rapport</a></li>
+    <li><a href="#multiple-tags">Tenez compte des étiquettes multiples sur une transaction</a></li>
+    <li><a href="#summary">À retenir</a></li>
+  </ol>
+</nav>
+
+<div class="article-section">
+<h2 id="what-it-shows">Ce que montre le rapport</h2>
+<p>Trois indicateurs sont affichés en haut du rapport :</p>
+
+<ul>
+  
+  <li>le montant total des dépenses ;</li>
+  
+  <li>le nombre de transactions ;</li>
+  
+  <li>le montant moyen d’une transaction.</li>
+  
+</ul>
+
+
+
+<p>En dessous se trouve un histogramme qui montre les jours du mois où des dépenses ont eu lieu et le montant dépensé chaque jour.</p>
+
+
+<p>Ces données permettent de comprendre non seulement le montant total dépensé, mais aussi la manière dont ces dépenses se sont réparties :</p>
+
+<ul>
+  
+  <li>si le total provient d’un seul achat important ;</li>
+  
+  <li>si les dépenses ont eu lieu régulièrement ;</li>
+  
+  <li>si certains jours présentent des pics marqués ;</li>
+  
+  <li>si les dépenses sont réparties de façon régulière sur le mois.</li>
+  
+</ul>
+
+</div>
+
+<div class="article-section">
+<h2 id="total-amount">Montant total des dépenses</h2>
+
+
+<p>Le montant total indique combien d’argent a été dépensé au cours du mois dans des transactions associées à l’étiquette sélectionnée.</p>
+
+<p>Par exemple, si l’étiquette « Café » a été utilisée dans dix transactions pour un montant total de 800, le rapport affichera 800.</p>
+
+<p>Cet indicateur vous aide à évaluer l’impact global des dépenses associées à cette étiquette sur le solde de l’enveloppe sélectionnée.</p>
+
+<p>Le montant total ne montre pas à lui seul comment il s’est constitué. Les mêmes 800 peuvent correspondre à :</p>
+
+
+
+<ul>
+  
+  <li>un achat important ;</li>
+  
+  <li>quatre transactions de 200 ;</li>
+  
+  <li>vingt petits achats de 40.</li>
+  
+</ul>
+
+
+
+<p>Pour comprendre la différence entre ces scénarios, examinez le nombre de transactions, le montant moyen et l’histogramme.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="operation-count">Nombre de transactions</h2>
+
+
+<p>Le nombre de transactions indique combien de dépenses associées à l’étiquette sélectionnée ont eu lieu pendant le mois.</p>
+
+<p>Cet indicateur vous aide à évaluer la régularité de ces dépenses.</p>
+
+
+<p>Par exemple :</p>
+
+<ul>
+  
+  <li>1 200 répartis sur 2 transactions correspondent généralement à quelques achats importants ;</li>
+  
+  <li>1 200 répartis sur 20 transactions correspondent à de nombreuses petites dépenses.</li>
+  
+</ul>
+
+
+
+<p>Un nombre élevé de transactions ne signifie pas nécessairement que les dépenses sont excessives. Il peut toutefois révéler une habitude régulière difficile à remarquer lorsqu’on consulte uniquement les transactions individuelles.</p>
+
+<p>Par exemple, chaque achat de café peut sembler insignifiant, alors que le rapport montre à quelle fréquence il s’est produit au cours du mois.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="average-amount">Montant moyen d’une transaction</h2>
+
+
+<p>Le montant moyen indique combien a été dépensé en moyenne pour une transaction associée à l’étiquette sélectionnée.</p>
+
+<p>Il est calculé en divisant le montant total des dépenses par le nombre de transactions.</p>
+
+
+<p>Par exemple :</p>
+
+<ul>
+  
+  <li>montant total — 1 200 ;</li>
+  
+  <li>nombre de transactions — 8 ;</li>
+  
+  <li>montant moyen — 150.</li>
+  
+</ul>
+
+
+
+<p>Le montant moyen permet de comparer la nature des dépenses entre différents mois.</p>
+
+<p>Par exemple, les dépenses totales associées à une étiquette peuvent augmenter pour deux raisons différentes :</p>
+
+
+
+<ul>
+  
+  <li>les achats ont commencé à être plus fréquents ;</li>
+  
+  <li>chaque achat individuel est devenu plus cher.</li>
+  
+</ul>
+
+
+
+<p>Si le nombre de transactions a peu changé mais que le montant moyen a augmenté, les achats individuels sont probablement devenus plus importants.</p>
+
+<p>Si le montant moyen est resté à peu près identique mais que le nombre de transactions a augmenté, la hausse des dépenses totales est principalement liée à leur fréquence.</p>
+
+<p>Le montant moyen ne montre toutefois pas le montant exact de chaque achat. Plusieurs petites transactions et une grande peuvent produire la même moyenne que plusieurs dépenses de taille similaire. Il est donc préférable d’examiner cet indicateur avec l’histogramme.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="histogram">Comment lire l’histogramme</h2>
+
+
+<p>L’axe horizontal de l’histogramme représente les jours du mois.</p>
+
+<p>L’axe vertical représente le montant dépensé.</p>
+
+<p>Chaque barre indique combien d’argent a été dépensé au total avec l’étiquette sélectionnée un jour donné.</p>
+
+<p>Si plusieurs transactions associées à cette étiquette ont eu lieu le même jour, leurs montants sont additionnés et affichés sous forme d’une seule barre.</p>
+
+
+<p>Par exemple, si deux achats ont été effectués le 10 :</p>
+
+<ul>
+  
+  <li>50 ;</li>
+  
+  <li>120 ;</li>
+  
+</ul>
+
+
+
+<p>le graphique affichera une barre de 170 pour cette journée.</p>
+
+<p>L’absence de barre signifie qu’aucune dépense associée à l’étiquette sélectionnée n’a eu lieu ce jour-là.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="single-peak">Une barre élevée</h2>
+
+
+<p>Un pic nettement visible signifie généralement qu’une part importante des dépenses s’est concentrée sur une seule journée.</p>
+
+
+<p>Cela peut correspondre à :</p>
+
+<ul>
+  
+  <li>un achat important ;</li>
+  
+  <li>plusieurs dépenses effectuées le même jour ;</li>
+  
+  <li>un événement prévu ;</li>
+  
+  <li>une dépense imprévue.</li>
+  
+</ul>
+
+
+
+<p>Par exemple, si presque toutes les dépenses associées à l’étiquette « Vêtements » se concentrent sur une seule journée, il s’agit probablement d’un achat ponctuel plutôt que d’une dépense régulière.</p>
+
+<p>Dans ce cas, un seul mois ne suffit pas toujours pour identifier une habitude durable. Il est plus utile de comparer cette étiquette avec d’autres mois et de vérifier si des pics similaires se reproduisent.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="multiple-peaks">Plusieurs pics</h2>
+
+
+<p>Plusieurs barres élevées indiquent que des dépenses importantes ont eu lieu à différentes dates.</p>
+
+
+<p>Si les pics apparaissent à intervalles à peu près réguliers, cela peut révéler un comportement récurrent :</p>
+
+<ul>
+  
+  <li>des achats le week-end ;</li>
+  
+  <li>des commandes hebdomadaires ;</li>
+  
+  <li>des rencontres régulières ;</li>
+  
+  <li>des achats périodiques.</li>
+  
+</ul>
+
+
+
+<p>Par exemple, des dépenses associées à l’étiquette « Livraison de repas » chaque vendredi peuvent indiquer une habitude hebdomadaire.</p>
+
+<p>Si les pics apparaissent sans régularité évidente, les dépenses peuvent être liées à des événements ponctuels plutôt qu’à un comportement récurrent.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="many-small-bars">De nombreuses petites barres</h2>
+
+
+<p>Un grand nombre de petites barres signifie que les dépenses ont été fréquentes, mais que chaque montant individuel était relativement faible.</p>
+
+
+<p>C’est souvent le cas pour :</p>
+
+<ul>
+  
+  <li>le café ;</li>
+  
+  <li>les encas ;</li>
+  
+  <li>les transports ;</li>
+  
+  <li>les petits achats pour la maison ;</li>
+  
+  <li>les loisirs du quotidien.</li>
+  
+</ul>
+
+
+
+<p>Ce type de dépenses est facile à sous-estimer lorsqu’on consulte une liste de transactions. Chaque achat peut sembler insignifiant, mais leur somme peut devenir importante sur un mois.</p>
+
+
+<p>Dans ce cas, deux approches principales permettent de modifier les dépenses :</p>
+
+<ul>
+  
+  <li>acheter moins souvent ;</li>
+  
+  <li>réduire le montant moyen de chaque achat.</li>
+  
+</ul>
+
+
+
+<p>Le nombre de transactions et le montant moyen vous permettent de déterminer quelle approche est la plus pertinente.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="even-distribution">Dépenses réparties régulièrement</h2>
+
+
+<p>Si les barres sont réparties sur tout le mois sans pics marqués, les dépenses ont lieu de façon relativement régulière.</p>
+
+<p>Cela peut correspondre à une structure normale de dépenses quotidiennes, comme les courses alimentaires, les transports ou d’autres achats récurrents.</p>
+
+<p>Une répartition régulière ne signifie pas à elle seule que les dépenses sont trop élevées ou, au contraire, sous contrôle. Elle indique simplement que le total n’a pas été formé par un ou quelques achats isolés.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="start-of-month">Dépenses en début de mois</h2>
+
+
+<p>Si la plupart des barres sont concentrées au début du mois, les dépenses associées à l’étiquette sélectionnée sont principalement effectuées peu après l’alimentation de l’enveloppe ou la réception des revenus.</p>
+
+<p>Cela peut être normal pour des achats réguliers ou des paiements obligatoires.</p>
+
+<p>Par exemple, de grosses courses alimentaires en début de mois peuvent être prévues. Mais s’il s’agit de dépenses facultatives, ce comportement peut laisser trop peu d’argent pour le reste du mois.</p>
+
+<p>Dans ce cas, il peut être utile de vérifier si le solde de l’enveloppe suffit jusqu’à la fin du mois et si les dépenses du début du mois doivent ensuite être compensées.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="end-of-month">Dépenses en fin de mois</h2>
+<p>Si les dépenses se concentrent vers la fin du mois, plusieurs raisons sont possibles :</p>
+
+<ul>
+  
+  <li>les achats sont régulièrement reportés ;</li>
+  
+  <li>le solde restant dans l’enveloppe est perçu comme disponible pour des dépenses supplémentaires ;</li>
+  
+  <li>des événements prévus ont lieu en fin de mois ;</li>
+  
+  <li>les dépenses sont repoussées jusqu’au prochain approvisionnement.</li>
+  
+</ul>
+
+
+
+<p>Ce comportement n’indique pas nécessairement un problème. L’important est de vérifier s’il se répète chaque mois et s’il correspond à l’objectif de l’enveloppe.</p>
+
+<p>Par exemple, dépenser l’argent restant dans une enveloppe « Loisirs » en fin de mois peut être un choix volontaire. La même habitude dans une enveloppe destinée aux dépenses essentielles peut créer un risque de manque d’argent.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="why-expenses-grew">Comment comprendre pourquoi les dépenses ont augmenté</h2>
+<p>Si le montant total associé à une étiquette a augmenté, comparez trois indicateurs avec les mois précédents.</p>
+<div class="article-subsection">
+<h3>Le nombre de transactions a augmenté</h3>
+
+
+<p>Les achats sont devenus plus fréquents.</p>
+
+<p>Par exemple, des repas ont été commandés dix fois au lieu de quatre. Même si le prix d’une commande n’a pas changé, le montant total augmente nettement.</p>
+
+<p>Dans ce cas, la principale cause de l’augmentation est la fréquence des dépenses.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Le montant moyen a augmenté</h3>
+
+
+<p>Chaque achat individuel est devenu plus cher.</p>
+
+
+<p>Les raisons possibles sont :</p>
+
+<ul>
+  
+  <li>une hausse des prix ;</li>
+  
+  <li>un changement dans vos choix habituels ;</li>
+  
+  <li>des quantités plus importantes ;</li>
+  
+  <li>le passage à des produits ou services plus chers.</li>
+  
+</ul>
+
+
+
+<p>Dans ce cas, réduire le nombre de transactions n’est pas la seule possibilité. Vous pouvez également réduire le montant moyen de chaque dépense.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Un pic important est apparu</h3>
+
+
+<p>L’augmentation a été provoquée par un ou plusieurs achats inhabituellement importants.</p>
+
+<p>Si cette dépense était ponctuelle et prévue, elle ne nécessite pas nécessairement de modifier vos habitudes.</p>
+
+<p>Mais si de grands pics se répètent chaque mois, il est préférable de les considérer comme une partie régulière de vos dépenses.</p>
+
+
+</div>
+</div>
+
+<div class="article-section">
+<h2 id="compare-months">Comment comparer différents mois</h2>
+
+
+<p>Comparer plusieurs mois permet de distinguer un événement ponctuel d’une tendance récurrente.</p>
+
+
+<p>Observez :</p>
+
+<ul>
+  
+  <li>le montant total ;</li>
+  
+  <li>le nombre de transactions ;</li>
+  
+  <li>le montant moyen ;</li>
+  
+  <li>la position des pics ;</li>
+  
+  <li>la répartition des dépenses au cours du mois.</li>
+  
+</ul>
+
+
+
+<p>Par exemple, un même montant total peut avoir une structure très différente d’un mois à l’autre :</p>
+
+
+
+<ul>
+  
+  <li>un mois peut contenir un seul achat important ;</li>
+  
+  <li>un autre peut contenir de nombreuses petites dépenses régulières.</li>
+  
+</ul>
+
+
+
+<p>Le résultat financier est le même, mais les causes et les actions possibles sont différentes.</p>
+
+
+<p>Tenez également compte des événements qui ont pu modifier temporairement la situation :</p>
+
+<ul>
+  
+  <li>les fêtes ;</li>
+  
+  <li>les vacances ;</li>
+  
+  <li>la visite d’invités ;</li>
+  
+  <li>un déménagement ;</li>
+  
+  <li>des travaux ou réparations ;</li>
+  
+  <li>un achat important ponctuel ;</li>
+  
+  <li>un changement temporaire de rythme de travail ou de mode de vie.</li>
+  
+</ul>
+
+</div>
+
+<div class="article-section">
+<h2 id="what-to-change">Ce que vous pouvez modifier à partir du rapport</h2>
+
+
+<p>Le rapport ne détermine pas automatiquement quelles dépenses sont inutiles. Il vous aide à comprendre de quoi se compose le montant total et ce qui le fait évoluer.</p>
+
+<p>Selon la situation, différentes actions peuvent être pertinentes.</p>
+
+
+<div class="article-subsection">
+<h3>Réduire la fréquence</h3>
+
+
+<p>Cette approche est particulièrement adaptée aux dépenses comportant de nombreuses transactions.</p>
+
+<p>Par exemple, au lieu d’acheter un café tous les jours, vous pouvez décider à l’avance combien de fois par semaine vous souhaitez en acheter.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Réduire le montant moyen</h3>
+
+
+<p>Cette approche convient aux dépenses régulières dont chaque transaction est devenue trop coûteuse.</p>
+
+<p>Par exemple, au lieu d’abandonner complètement la livraison de repas, vous pouvez choisir des commandes moins chères.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Planifier les gros achats à l’avance</h3>
+
+
+<p>Si le rapport montre des pics importants isolés, vous pouvez tenir compte de ces dépenses lors de la répartition de l’argent entre les enveloppes.</p>
+
+<p>C’est particulièrement utile si un achat important se répète périodiquement.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Répartir autrement l’argent entre les enveloppes</h3>
+
+
+<p>Si les dépenses associées à une étiquette sont nécessaires et dépassent régulièrement le budget disponible, le problème peut venir non pas des achats eux-mêmes, mais d’un financement insuffisant de l’enveloppe.</p>
+
+<p>Dans ce cas, vous pouvez augmenter la part attribuée à cette enveloppe en réduisant celle d’enveloppes moins prioritaires.</p>
+
+<p>Si les dépenses facultatives représentent une part importante du total, commencez par examiner leur fréquence et leur montant moyen.</p>
+
+
+</div>
+</div>
+
+<div class="article-section">
+<h2 id="analysis-example">Exemple d’analyse du rapport</h2>
+<p>Supposons que le rapport pour l’étiquette « Livraison de repas » affiche :</p>
+
+<ul>
+  
+  <li>montant total — 1 800 ;</li>
+  
+  <li>nombre de transactions — 9 ;</li>
+  
+  <li>montant moyen — 200.</li>
+  
+</ul>
+
+
+
+<p>L’histogramme montre que les commandes ont eu lieu deux ou trois fois par semaine, sans pic dominant.</p>
+
+<p>On peut en conclure que le total provient de dépenses régulières et non d’un achat ponctuel.</p>
+
+
+<p>Actions possibles :</p>
+
+<ul>
+  
+  <li>réduire le nombre de commandes ;</li>
+  
+  <li>réduire le coût moyen d’une commande ;</li>
+  
+  <li>réserver à l’avance un montant fixe pour les livraisons ;</li>
+  
+  <li>ne rien changer si ces dépenses correspondent à vos priorités et à votre budget.</li>
+  
+</ul>
+
+<p>Autre exemple :</p>
+
+<ul>
+  
+  <li>montant total — 1 800 ;</li>
+  
+  <li>nombre de transactions — 2 ;</li>
+  
+  <li>montant moyen — 900 ;</li>
+  
+  <li>presque tout le montant est concentré sur une seule journée.</li>
+  
+</ul>
+
+
+
+<p>Ici, la cause des dépenses est différente. Il s’agissait probablement d’un achat important ou d’un événement particulier. Réduire la fréquence des petits achats quotidiens ne changerait pratiquement rien dans cette situation.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="multiple-tags">Tenez compte des étiquettes multiples sur une transaction</h2>
+
+
+<p>Une transaction peut avoir plusieurs étiquettes.</p>
+
+<p>Si une dépense de 300 est associée aux étiquettes « Livraison de repas » et « Invités », le montant total sera inclus dans le détail de chacune de ces étiquettes.</p>
+
+
+<p>Cela permet d’analyser une même transaction sous différents angles :</p>
+
+<ul>
+  
+  <li>ce qui a été acheté ;</li>
+  
+  <li>dans quelles circonstances ;</li>
+  
+  <li>dans quel but ;</li>
+  
+  <li>si l’achat était prévu.</li>
+  
+</ul>
+
+
+
+<p>Le montant n’est pas réparti entre les étiquettes.</p>
+
+<p>Il ne faut donc pas additionner les valeurs de plusieurs rapports par étiquette pour calculer les dépenses totales.</p>
+
+
+<p>Pour connaître le montant réellement dépensé pendant le mois, consultez plutôt le rapport <a href="/fr/apps/6-jars-finance/articles/report-funds-movement/">« Mouvement des fonds »</a>.</p>
+</div>
+
+<div class="article-section">
+<h2 id="summary">À retenir</h2>
+
+
+<p>Le rapport « Détail des dépenses par étiquette » vous aide à comprendre non seulement combien d’argent a été dépensé, mais aussi comment ce montant s’est constitué.</p>
+
+<p>Le montant total montre l’impact financier des dépenses.</p>
+
+<p>Le nombre de transactions montre leur fréquence.</p>
+
+<p>Le montant moyen aide à comprendre la taille habituelle d’un achat.</p>
+
+<p>L’histogramme montre la répartition des dépenses entre les jours du mois et permet de distinguer :</p>
+
+
+
+<ul>
+  
+  <li>un achat important ponctuel ;</li>
+  
+  <li>des dépenses régulières ;</li>
+  
+  <li>de nombreuses petites transactions ;</li>
+  
+  <li>des pics récurrents ;</li>
+  
+  <li>des dépenses concentrées en début ou en fin de mois.</li>
+  
+</ul>
+
+
+
+<p>Utilisez ces indicateurs ensemble. Un même montant total peut résulter de comportements très différents et donc nécessiter des décisions différentes.</p>
+
+
+</div>
+
+  </div>
+  <aside class="article-toc" aria-label="Navigation dans la page">
+    <nav class="article-toc__nav">
+      <p class="article-toc__title">Sur cette page</p>
+      <ol class="article-toc__list"></ol>
+    </nav>
+  </aside>
+</div>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+  <div class="container site-footer__inner">
+    <p class="site-footer__copyright">© 2026 Artem D Apps</p>
+    <nav class="site-footer__nav" aria-label="Informations sur le site">
+      <a class="site-footer__link" href="/fr/apps/6-jars-finance/help/">Informations sur l’erreur</a>
+      <a class="site-footer__link" href="/fr/apps/6-jars-finance/articles/report-funds-movement/">Funds Movement Report</a>
+      <a class="site-footer__link" href="/fr/apps/6-jars-finance/articles/report-spendings-by-tags/">Spendings by Tags Report</a>
+      <a class="site-footer__link" href="/fr/apps/6-jars-finance/articles/report-tag-details/">Tag Spending Details Report</a>
+      <a class="site-footer__link" href="/fr/apps/6-jars-finance/privacy/">Politique de confidentialité</a>
+      <a class="site-footer__link" href="/fr/apps/6-jars-finance/licenses/">Licences open source</a>
+    </nav>
+  </div>
+</footer>
+
+  
+  <script src="/assets/article-toc.js" defer></script>
+
+  
+  <script src="/assets/js/analytics.js" defer></script>
+</body>
+</html>

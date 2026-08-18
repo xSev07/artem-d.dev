@@ -1,0 +1,228 @@
+---
+layout: article.njk
+pagination:
+  data: languages
+  size: 1
+  alias: pageLang
+permalink: "/{{ pageLang.code }}/apps/6-jars-finance/articles/report-tag-details/"
+showLangSwitch: true
+langSwitchPath: "/apps/6-jars-finance/articles/report-tag-details/"
+year: 2026
+eleventyComputed:
+  title: "{{ 'apps.sixJarsFinance.articles.reportTagDetails.title' | t(pageLang.code) }}"
+  description: "{{ 'apps.sixJarsFinance.articles.reportTagDetails.metaDescription' | t(pageLang.code) }}"
+  lang: "{{ pageLang.code }}"
+---
+
+{% set langCode = pageLang.code %}
+{% set article = "apps.sixJarsFinance.articles.reportTagDetails" | t(langCode) %}
+
+{% macro paragraphs(items) %}
+{% for item in items %}
+<p>{{ item | safe }}</p>
+{% endfor %}
+{% endmacro %}
+
+{% macro list(items) %}
+<ul>
+  {% for item in items %}
+  <li>{{ item | safe }}</li>
+  {% endfor %}
+</ul>
+{% endmacro %}
+
+<h1>{{ article.title }}</h1>
+{{ paragraphs(article.intro.paragraphs) }}
+<p>{{ article.intro.spendingsByTagsLinkPrefix }}<a href="/{{ langCode }}/apps/6-jars-finance/articles/report-spendings-by-tags/">{{ article.intro.spendingsByTagsLinkText }}</a>{{ article.intro.spendingsByTagsLinkSuffix }}</p>
+<p>{{ article.intro.listIntro }}</p>
+{{ list(article.intro.items) }}
+
+<nav class="article-overview" aria-labelledby="article-overview-title">
+  <h2 id="article-overview-title">{{ article.overview.title }}</h2>
+  <ol>
+    <li><a href="#what-it-shows">{{ article.overview.whatItShows }}</a></li>
+    <li><a href="#total-amount">{{ article.overview.totalAmount }}</a></li>
+    <li><a href="#operation-count">{{ article.overview.operationCount }}</a></li>
+    <li><a href="#average-amount">{{ article.overview.averageAmount }}</a></li>
+    <li><a href="#histogram">{{ article.overview.histogram }}</a></li>
+    <li><a href="#single-peak">{{ article.overview.singlePeak }}</a></li>
+    <li><a href="#multiple-peaks">{{ article.overview.multiplePeaks }}</a></li>
+    <li><a href="#many-small-bars">{{ article.overview.manySmallBars }}</a></li>
+    <li><a href="#even-distribution">{{ article.overview.evenDistribution }}</a></li>
+    <li><a href="#start-of-month">{{ article.overview.startOfMonth }}</a></li>
+    <li><a href="#end-of-month">{{ article.overview.endOfMonth }}</a></li>
+    <li><a href="#why-expenses-grew">{{ article.overview.whyExpensesGrew }}</a></li>
+    <li><a href="#compare-months">{{ article.overview.compareMonths }}</a></li>
+    <li><a href="#what-to-change">{{ article.overview.whatToChange }}</a></li>
+    <li><a href="#analysis-example">{{ article.overview.analysisExample }}</a></li>
+    <li><a href="#multiple-tags">{{ article.overview.multipleTags }}</a></li>
+    <li><a href="#summary">{{ article.overview.summary }}</a></li>
+  </ol>
+</nav>
+
+<div class="article-section">
+<h2 id="what-it-shows">{{ article.whatItShows.title }}</h2>
+<p>{{ article.whatItShows.metricsIntro }}</p>
+{{ list(article.whatItShows.metrics) }}
+{{ paragraphs(article.whatItShows.paragraphs) }}
+<p>{{ article.whatItShows.insightsIntro }}</p>
+{{ list(article.whatItShows.insights) }}
+</div>
+
+<div class="article-section">
+<h2 id="total-amount">{{ article.totalAmount.title }}</h2>
+{{ paragraphs(article.totalAmount.paragraphs) }}
+{{ list(article.totalAmount.scenarios) }}
+{{ paragraphs(article.totalAmount.closingParagraphs) }}
+</div>
+
+<div class="article-section">
+<h2 id="operation-count">{{ article.operationCount.title }}</h2>
+{{ paragraphs(article.operationCount.paragraphs) }}
+<p>{{ article.operationCount.exampleIntro }}</p>
+{{ list(article.operationCount.exampleItems) }}
+{{ paragraphs(article.operationCount.closingParagraphs) }}
+</div>
+
+<div class="article-section">
+<h2 id="average-amount">{{ article.averageAmount.title }}</h2>
+{{ paragraphs(article.averageAmount.paragraphs) }}
+<p>{{ article.averageAmount.exampleIntro }}</p>
+{{ list(article.averageAmount.exampleItems) }}
+{{ paragraphs(article.averageAmount.closingParagraphs) }}
+{{ list(article.averageAmount.reasons) }}
+{{ paragraphs(article.averageAmount.outroParagraphs) }}
+</div>
+
+<div class="article-section">
+<h2 id="histogram">{{ article.histogram.title }}</h2>
+{{ paragraphs(article.histogram.paragraphs) }}
+<p>{{ article.histogram.exampleIntro }}</p>
+{{ list(article.histogram.exampleItems) }}
+{{ paragraphs(article.histogram.closingParagraphs) }}
+</div>
+
+<div class="article-section">
+<h2 id="single-peak">{{ article.singlePeak.title }}</h2>
+{{ paragraphs(article.singlePeak.paragraphs) }}
+<p>{{ article.singlePeak.listIntro }}</p>
+{{ list(article.singlePeak.items) }}
+{{ paragraphs(article.singlePeak.closingParagraphs) }}
+</div>
+
+<div class="article-section">
+<h2 id="multiple-peaks">{{ article.multiplePeaks.title }}</h2>
+{{ paragraphs(article.multiplePeaks.paragraphs) }}
+<p>{{ article.multiplePeaks.listIntro }}</p>
+{{ list(article.multiplePeaks.items) }}
+{{ paragraphs(article.multiplePeaks.closingParagraphs) }}
+</div>
+
+<div class="article-section">
+<h2 id="many-small-bars">{{ article.manySmallBars.title }}</h2>
+{{ paragraphs(article.manySmallBars.paragraphs) }}
+<p>{{ article.manySmallBars.listIntro }}</p>
+{{ list(article.manySmallBars.items) }}
+{{ paragraphs(article.manySmallBars.closingParagraphs) }}
+<p>{{ article.manySmallBars.actionsIntro }}</p>
+{{ list(article.manySmallBars.actions) }}
+{{ paragraphs(article.manySmallBars.outroParagraphs) }}
+</div>
+
+<div class="article-section">
+<h2 id="even-distribution">{{ article.evenDistribution.title }}</h2>
+{{ paragraphs(article.evenDistribution.paragraphs) }}
+</div>
+
+<div class="article-section">
+<h2 id="start-of-month">{{ article.startOfMonth.title }}</h2>
+{{ paragraphs(article.startOfMonth.paragraphs) }}
+</div>
+
+<div class="article-section">
+<h2 id="end-of-month">{{ article.endOfMonth.title }}</h2>
+<p>{{ article.endOfMonth.listIntro }}</p>
+{{ list(article.endOfMonth.items) }}
+{{ paragraphs(article.endOfMonth.closingParagraphs) }}
+</div>
+
+<div class="article-section">
+<h2 id="why-expenses-grew">{{ article.whyExpensesGrew.title }}</h2>
+<p>{{ article.whyExpensesGrew.lead }}</p>
+<div class="article-subsection">
+<h3>{{ article.whyExpensesGrew.moreOperations.title }}</h3>
+{{ paragraphs(article.whyExpensesGrew.moreOperations.paragraphs) }}
+</div>
+<div class="article-subsection">
+<h3>{{ article.whyExpensesGrew.higherAverage.title }}</h3>
+{{ paragraphs(article.whyExpensesGrew.higherAverage.paragraphs) }}
+<p>{{ article.whyExpensesGrew.higherAverage.listIntro }}</p>
+{{ list(article.whyExpensesGrew.higherAverage.items) }}
+{{ paragraphs(article.whyExpensesGrew.higherAverage.closingParagraphs) }}
+</div>
+<div class="article-subsection">
+<h3>{{ article.whyExpensesGrew.largePeak.title }}</h3>
+{{ paragraphs(article.whyExpensesGrew.largePeak.paragraphs) }}
+</div>
+</div>
+
+<div class="article-section">
+<h2 id="compare-months">{{ article.compareMonths.title }}</h2>
+{{ paragraphs(article.compareMonths.paragraphs) }}
+<p>{{ article.compareMonths.metricsIntro }}</p>
+{{ list(article.compareMonths.metrics) }}
+{{ paragraphs(article.compareMonths.closingParagraphs) }}
+{{ list(article.compareMonths.structureItems) }}
+{{ paragraphs(article.compareMonths.outroParagraphs) }}
+<p>{{ article.compareMonths.eventsIntro }}</p>
+{{ list(article.compareMonths.events) }}
+</div>
+
+<div class="article-section">
+<h2 id="what-to-change">{{ article.whatToChange.title }}</h2>
+{{ paragraphs(article.whatToChange.openingParagraphs) }}
+<div class="article-subsection">
+<h3>{{ article.whatToChange.reduceFrequency.title }}</h3>
+{{ paragraphs(article.whatToChange.reduceFrequency.paragraphs) }}
+</div>
+<div class="article-subsection">
+<h3>{{ article.whatToChange.reduceAverage.title }}</h3>
+{{ paragraphs(article.whatToChange.reduceAverage.paragraphs) }}
+</div>
+<div class="article-subsection">
+<h3>{{ article.whatToChange.planLargePurchases.title }}</h3>
+{{ paragraphs(article.whatToChange.planLargePurchases.paragraphs) }}
+</div>
+<div class="article-subsection">
+<h3>{{ article.whatToChange.reallocateJars.title }}</h3>
+{{ paragraphs(article.whatToChange.reallocateJars.paragraphs) }}
+</div>
+</div>
+
+<div class="article-section">
+<h2 id="analysis-example">{{ article.analysisExample.title }}</h2>
+<p>{{ article.analysisExample.firstExampleIntro }}</p>
+{{ list(article.analysisExample.firstExampleMetrics) }}
+{{ paragraphs(article.analysisExample.firstExampleParagraphs) }}
+<p>{{ article.analysisExample.firstExampleActionsIntro }}</p>
+{{ list(article.analysisExample.firstExampleActions) }}
+<p>{{ article.analysisExample.secondExampleIntro }}</p>
+{{ list(article.analysisExample.secondExampleMetrics) }}
+{{ paragraphs(article.analysisExample.closingParagraphs) }}
+</div>
+
+<div class="article-section">
+<h2 id="multiple-tags">{{ article.multipleTags.title }}</h2>
+{{ paragraphs(article.multipleTags.paragraphs) }}
+<p>{{ article.multipleTags.perspectivesIntro }}</p>
+{{ list(article.multipleTags.perspectives) }}
+{{ paragraphs(article.multipleTags.closingParagraphs) }}
+<p>{{ article.multipleTags.fundsMovementLinkPrefix }}<a href="/{{ langCode }}/apps/6-jars-finance/articles/report-funds-movement/">{{ article.multipleTags.fundsMovementLinkText }}</a>{{ article.multipleTags.fundsMovementLinkSuffix }}</p>
+</div>
+
+<div class="article-section">
+<h2 id="summary">{{ article.summary.title }}</h2>
+{{ paragraphs(article.summary.paragraphs) }}
+{{ list(article.summary.histogramInsights) }}
+{{ paragraphs(article.summary.closingParagraphs) }}
+</div>

@@ -1,0 +1,401 @@
+{
+  "title": "How to Read the “Spending by Tag Details” Report",
+  "metaDescription": "The “Spending by Tag Details” report helps you understand how expenses with a selected tag were distributed throughout the month.",
+  "intro": {
+    "paragraphs": [
+      "The “Spending by Tag Details” report helps you understand how expenses with a selected tag were distributed throughout the month."
+    ],
+    "spendingsByTagsLinkPrefix": "It complements the ",
+    "spendingsByTagsLinkText": "“Spending by Tags”",
+    "spendingsByTagsLinkSuffix": " report. First, you can identify which tags account for the most spending or appear most frequently, then open one of them for a closer look.",
+    "listIntro": "The report is generated for one selected jar and one tag. It includes only expenses:",
+    "items": [
+      "from the selected jar;",
+      "from the selected month;",
+      "with the selected tag."
+    ]
+  },
+  "overview": {
+    "title": "Contents",
+    "whatItShows": "What the report shows",
+    "totalAmount": "Total spending",
+    "operationCount": "Number of transactions",
+    "averageAmount": "Average transaction amount",
+    "histogram": "How to read the histogram",
+    "singlePeak": "One tall bar",
+    "multiplePeaks": "Several peaks",
+    "manySmallBars": "Many small bars",
+    "evenDistribution": "Evenly distributed spending",
+    "startOfMonth": "Spending at the beginning of the month",
+    "endOfMonth": "Spending at the end of the month",
+    "whyExpensesGrew": "How to understand why spending increased",
+    "compareMonths": "How to compare different months",
+    "whatToChange": "What you can change based on the report",
+    "analysisExample": "Example of analyzing the report",
+    "multipleTags": "Keep multiple tags on one transaction in mind",
+    "summary": "Key takeaways"
+  },
+  "whatItShows": {
+    "title": "What the report shows",
+    "metricsIntro": "At the top of the report, you can see three metrics:",
+    "metrics": [
+      "total spending;",
+      "number of transactions;",
+      "average transaction amount."
+    ],
+    "paragraphs": [
+      "Below them is a histogram showing on which days of the month spending occurred and how much was spent on each day."
+    ],
+    "insightsIntro": "Together, these data points help you understand not only how much was spent overall, but also the pattern behind that spending:",
+    "insights": [
+      "whether the total came from one large purchase;",
+      "whether expenses occurred regularly;",
+      "whether there were individual days with sharp peaks;",
+      "whether spending was distributed evenly throughout the month."
+    ]
+  },
+  "totalAmount": {
+    "title": "Total spending",
+    "paragraphs": [
+      "Total spending shows how much money was spent in transactions with the selected tag during the month.",
+      "For example, if the “Coffee” tag was used in ten transactions totaling 800, the report will show a total of 800.",
+      "This metric helps you estimate the overall impact of spending with this tag on the balance of the selected jar.",
+      "The total alone does not show how it was formed. The same 800 could mean:"
+    ],
+    "scenarios": [
+      "one large purchase;",
+      "four transactions of 200 each;",
+      "twenty small purchases of 40 each."
+    ],
+    "closingParagraphs": [
+      "To understand the difference between these scenarios, look at the number of transactions, the average amount, and the histogram."
+    ]
+  },
+  "operationCount": {
+    "title": "Number of transactions",
+    "paragraphs": [
+      "The number of transactions shows how many expenses with the selected tag occurred during the month.",
+      "This metric helps you understand how regularly these expenses occur."
+    ],
+    "exampleIntro": "For example:",
+    "exampleItems": [
+      "1,200 across 2 transactions usually means a few large purchases;",
+      "1,200 across 20 transactions means many small expenses."
+    ],
+    "closingParagraphs": [
+      "A large number of transactions does not necessarily mean excessive spending. But it can point to a recurring habit that may be difficult to notice when looking at individual transactions.",
+      "For example, each coffee purchase may seem insignificant on its own, while the report shows how often it happened during the month."
+    ]
+  },
+  "averageAmount": {
+    "title": "Average transaction amount",
+    "paragraphs": [
+      "The average amount shows how much, on average, was spent in one transaction with the selected tag.",
+      "It is calculated by dividing total spending by the number of transactions."
+    ],
+    "exampleIntro": "For example:",
+    "exampleItems": [
+      "total spending — 1,200;",
+      "number of transactions — 8;",
+      "average amount — 150."
+    ],
+    "closingParagraphs": [
+      "The average amount helps you compare the nature of spending across different months.",
+      "For example, total spending for a tag may increase for two different reasons:"
+    ],
+    "reasons": [
+      "purchases started happening more often;",
+      "each individual purchase became more expensive."
+    ],
+    "outroParagraphs": [
+      "If the number of transactions stayed almost the same but the average amount increased, individual purchases probably became larger.",
+      "If the average amount stayed about the same but the number of transactions increased, the growth in total spending was mainly caused by higher frequency.",
+      "At the same time, the average does not show the exact amount of each purchase. Several small transactions and one large one can produce the same average as several similarly sized expenses. That is why this metric is best viewed together with the histogram."
+    ]
+  },
+  "histogram": {
+    "title": "How to read the histogram",
+    "paragraphs": [
+      "The horizontal axis of the histogram shows the days of the month.",
+      "The vertical axis shows the amount spent.",
+      "Each bar shows how much money was spent with the selected tag on a particular day.",
+      "If several transactions with this tag occurred on the same day, their amounts are added together and shown as one bar."
+    ],
+    "exampleIntro": "For example, if two purchases were made on the 10th:",
+    "exampleItems": [
+      "50;",
+      "120;"
+    ],
+    "closingParagraphs": [
+      "the chart will show a bar of 170 for that day.",
+      "If there is no bar on a particular day, there were no expenses with the selected tag on that day."
+    ]
+  },
+  "singlePeak": {
+    "title": "One tall bar",
+    "paragraphs": [
+      "One noticeable peak usually means that a significant part of the spending occurred on a single day."
+    ],
+    "listIntro": "It could represent:",
+    "items": [
+      "one large purchase;",
+      "several expenses made on the same day;",
+      "a planned event;",
+      "an unexpected unplanned expense."
+    ],
+    "closingParagraphs": [
+      "For example, if almost all spending with the “Clothing” tag falls on one day, it was probably a one-off purchase rather than a recurring expense.",
+      "In this situation, one month is not always enough to identify a lasting habit. It is more useful to compare the tag across other months and see whether similar peaks occur again."
+    ]
+  },
+  "multiplePeaks": {
+    "title": "Several peaks",
+    "paragraphs": [
+      "Several tall bars show that larger expenses occurred on different days."
+    ],
+    "listIntro": "If the peaks appear at roughly regular intervals, they may indicate a recurring pattern:",
+    "items": [
+      "weekend purchases;",
+      "weekly orders;",
+      "regular meetups;",
+      "periodic shopping."
+    ],
+    "closingParagraphs": [
+      "For example, spending with the “Food Delivery” tag every Friday may point to a stable weekly habit.",
+      "If the peaks appear without any clear pattern, the spending may be tied to individual events rather than recurring behavior."
+    ]
+  },
+  "manySmallBars": {
+    "title": "Many small bars",
+    "paragraphs": [
+      "A large number of short bars means that expenses occurred frequently, but individual amounts were relatively small."
+    ],
+    "listIntro": "This is often what spending on the following looks like:",
+    "items": [
+      "coffee;",
+      "snacks;",
+      "transportation;",
+      "small household purchases;",
+      "everyday entertainment."
+    ],
+    "closingParagraphs": [
+      "These expenses are easy to underestimate when looking through a transaction list. Each purchase may seem insignificant, but together they can add up to a noticeable amount over the month."
+    ],
+    "actionsIntro": "In this case, there are two main ways to change the spending pattern:",
+    "actions": [
+      "make purchases less often;",
+      "reduce the average amount of each purchase."
+    ],
+    "outroParagraphs": [
+      "You can use the number of transactions and the average amount to understand which approach would make more sense."
+    ]
+  },
+  "evenDistribution": {
+    "title": "Evenly distributed spending",
+    "paragraphs": [
+      "If bars are spread throughout the month without sharp peaks, spending is occurring relatively regularly.",
+      "This may be a normal pattern for everyday expenses such as groceries, transportation, or other recurring purchases.",
+      "An even distribution does not by itself mean that spending is too high or, conversely, under control. It only shows that the total was not formed by one or a few isolated purchases."
+    ]
+  },
+  "startOfMonth": {
+    "title": "Spending at the beginning of the month",
+    "paragraphs": [
+      "If most bars are concentrated at the beginning of the month, money associated with the selected tag is being spent mainly soon after the jar is funded or income is received.",
+      "This may be natural for regular shopping or mandatory expenses.",
+      "For example, a large grocery shop at the beginning of the month may be planned. But for optional spending, this pattern can leave too little money for the rest of the month.",
+      "In this case, it may be useful to check whether the jar balance lasts until the end of the month and whether early spending has to be compensated for later."
+    ]
+  },
+  "endOfMonth": {
+    "title": "Spending at the end of the month",
+    "listIntro": "If spending is concentrated closer to the end of the month, there may be several reasons:",
+    "items": [
+      "purchases are regularly postponed;",
+      "the remaining jar balance is seen as available for extra spending;",
+      "planned events take place at the end of the month;",
+      "expenses are delayed until the next funding cycle."
+    ],
+    "closingParagraphs": [
+      "This pattern does not necessarily indicate a problem. What matters is whether it repeats from month to month and whether it matches the purpose of the jar.",
+      "For example, spending the remaining money from an “Entertainment” jar at the end of the month may be a conscious choice. The same habit in a jar meant for essential expenses may create a risk of running short."
+    ]
+  },
+  "whyExpensesGrew": {
+    "title": "How to understand why spending increased",
+    "lead": "If total spending for a tag has increased, compare three metrics with previous months.",
+    "moreOperations": {
+      "title": "The number of transactions increased",
+      "paragraphs": [
+        "Purchases started happening more often.",
+        "For example, food delivery may have been ordered ten times instead of four. Even if the cost of each order stayed the same, the total amount would increase noticeably.",
+        "In this case, the main reason for the increase is the frequency of spending."
+      ]
+    },
+    "higherAverage": {
+      "title": "The average amount increased",
+      "paragraphs": [
+        "Each individual purchase became more expensive."
+      ],
+      "listIntro": "Possible reasons include:",
+      "items": [
+        "price increases;",
+        "changes in your usual choices;",
+        "buying larger quantities;",
+        "switching to more expensive products or services."
+      ],
+      "closingParagraphs": [
+        "In this case, reducing the number of transactions is not the only option. You can also reconsider the average amount spent each time."
+      ]
+    },
+    "largePeak": {
+      "title": "A separate large peak appeared",
+      "paragraphs": [
+        "The increase was caused by one or several unusually large purchases.",
+        "If the expense was a one-off and planned, it does not necessarily require changing your habits.",
+        "But if large peaks repeat every month, they are better treated as a regular part of your spending."
+      ]
+    }
+  },
+  "compareMonths": {
+    "title": "How to compare different months",
+    "paragraphs": [
+      "Comparing several months helps you distinguish a one-off event from a recurring pattern."
+    ],
+    "metricsIntro": "Pay attention to:",
+    "metrics": [
+      "total spending;",
+      "number of transactions;",
+      "average amount;",
+      "where peaks appear;",
+      "how spending is distributed throughout the month."
+    ],
+    "closingParagraphs": [
+      "For example, the same total in two different months may have a very different structure:"
+    ],
+    "structureItems": [
+      "one month may contain a single large purchase;",
+      "another may contain many small recurring expenses."
+    ],
+    "outroParagraphs": [
+      "The financial result is the same, but the reasons behind it and the possible actions are different."
+    ],
+    "eventsIntro": "Also consider events that may have temporarily changed the pattern:",
+    "events": [
+      "holidays;",
+      "vacation;",
+      "guests visiting;",
+      "moving;",
+      "renovation or repairs;",
+      "a one-off large purchase;",
+      "a temporary change in your work schedule or lifestyle."
+    ]
+  },
+  "whatToChange": {
+    "title": "What you can change based on the report",
+    "openingParagraphs": [
+      "The report does not automatically determine which expenses are unnecessary. It helps you understand what the total consists of and what is causing it to change.",
+      "Depending on the pattern, different actions may make sense."
+    ],
+    "reduceFrequency": {
+      "title": "Reduce the frequency",
+      "paragraphs": [
+        "This is most relevant for expenses with a large number of transactions.",
+        "For example, instead of buying coffee every day, you could decide in advance how many times per week you want to buy it."
+      ]
+    },
+    "reduceAverage": {
+      "title": "Reduce the average amount",
+      "paragraphs": [
+        "This is useful for recurring expenses where each transaction has become too expensive.",
+        "For example, instead of giving up food delivery entirely, you could choose less expensive orders."
+      ]
+    },
+    "planLargePurchases": {
+      "title": "Plan large purchases in advance",
+      "paragraphs": [
+        "If the report shows isolated large peaks, you can account for these expenses when allocating money between jars.",
+        "This is especially useful if a large purchase repeats periodically."
+      ]
+    },
+    "reallocateJars": {
+      "title": "Reallocate money between jars",
+      "paragraphs": [
+        "If expenses with a tag are necessary and regularly exceed the available budget, the problem may not be the purchases themselves but insufficient funding of the jar.",
+        "In that case, you can increase the share allocated to this jar by reducing the share of lower-priority jars.",
+        "If optional expenses account for a significant part of the total, first look at their frequency and average amount."
+      ]
+    }
+  },
+  "analysisExample": {
+    "title": "Example of analyzing the report",
+    "firstExampleIntro": "Suppose the report for the “Food Delivery” tag shows:",
+    "firstExampleMetrics": [
+      "total spending — 1,800;",
+      "number of transactions — 9;",
+      "average amount — 200."
+    ],
+    "firstExampleParagraphs": [
+      "The histogram shows that orders occurred two or three times per week, without one dominant peak.",
+      "This suggests that the total was formed by recurring spending rather than a one-off purchase."
+    ],
+    "firstExampleActionsIntro": "Possible actions:",
+    "firstExampleActions": [
+      "reduce the number of orders;",
+      "reduce the average cost of each order;",
+      "set aside a fixed amount for delivery in advance;",
+      "leave the spending unchanged if it fits your priorities and budget."
+    ],
+    "secondExampleIntro": "Another example:",
+    "secondExampleMetrics": [
+      "total spending — 1,800;",
+      "number of transactions — 2;",
+      "average amount — 900;",
+      "almost the entire amount falls on one day."
+    ],
+    "closingParagraphs": [
+      "Here, the reason behind the spending is different. There was probably one large purchase or event. Reducing everyday purchase frequency would not make a meaningful difference in this case."
+    ]
+  },
+  "multipleTags": {
+    "title": "Keep multiple tags on one transaction in mind",
+    "paragraphs": [
+      "One transaction can have multiple tags.",
+      "If an expense of 300 is tagged with both “Food Delivery” and “Guests,” the full amount will be included in the details for each tag."
+    ],
+    "perspectivesIntro": "This lets you analyze the same transaction from different perspectives:",
+    "perspectives": [
+      "what was purchased;",
+      "under what circumstances;",
+      "for what purpose;",
+      "whether the purchase was planned."
+    ],
+    "closingParagraphs": [
+      "The amount is not divided between the tags.",
+      "For this reason, you should not add together the totals from several tag reports to calculate overall spending."
+    ],
+    "fundsMovementLinkPrefix": "For the actual amount spent during the month, use the ",
+    "fundsMovementLinkText": "“Funds Movement”",
+    "fundsMovementLinkSuffix": " report."
+  },
+  "summary": {
+    "title": "Key takeaways",
+    "paragraphs": [
+      "The “Spending by Tag Details” report helps you understand not only how much money was spent, but also how that total was formed.",
+      "Total spending shows the financial impact of the expenses.",
+      "The number of transactions shows how frequently they occurred.",
+      "The average amount helps you understand the typical size of a single purchase.",
+      "The histogram shows how spending was distributed across the days of the month and helps you distinguish between:"
+    ],
+    "histogramInsights": [
+      "a one-off large purchase;",
+      "recurring expenses;",
+      "many small transactions;",
+      "repeating peaks;",
+      "spending concentrated at the beginning or end of the month."
+    ],
+    "closingParagraphs": [
+      "Use these metrics together. The same total amount can result from very different behavior and may therefore call for different decisions."
+    ]
+  }
+}

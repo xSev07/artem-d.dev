@@ -1,0 +1,401 @@
+{
+  "title": "So liest du den Bericht „Ausgaben nach Tag im Detail“",
+  "metaDescription": "Der Bericht „Ausgaben nach Tag im Detail“ hilft dir zu verstehen, wie sich Ausgaben mit einem ausgewählten Tag über den Monat verteilt haben.",
+  "intro": {
+    "paragraphs": [
+      "Der Bericht „Ausgaben nach Tag im Detail“ hilft dir zu verstehen, wie sich Ausgaben mit einem ausgewählten Tag über den Monat verteilt haben."
+    ],
+    "spendingsByTagsLinkPrefix": "Er ergänzt den Bericht ",
+    "spendingsByTagsLinkText": "„Ausgaben nach Tags“",
+    "spendingsByTagsLinkSuffix": ". Zuerst kannst du sehen, welche Tags die höchsten Ausgaben verursachen oder am häufigsten vorkommen, und anschließend einen davon öffnen und genauer betrachten.",
+    "listIntro": "Der Bericht wird für einen ausgewählten Topf und einen Tag erstellt. Er enthält nur Ausgaben:",
+    "items": [
+      "aus dem ausgewählten Topf;",
+      "aus dem ausgewählten Monat;",
+      "mit dem ausgewählten Tag."
+    ]
+  },
+  "overview": {
+    "title": "Inhalt",
+    "whatItShows": "Was der Bericht zeigt",
+    "totalAmount": "Gesamtausgaben",
+    "operationCount": "Anzahl der Transaktionen",
+    "averageAmount": "Durchschnittlicher Transaktionsbetrag",
+    "histogram": "So liest du das Histogramm",
+    "singlePeak": "Ein hoher Balken",
+    "multiplePeaks": "Mehrere Spitzen",
+    "manySmallBars": "Viele kleine Balken",
+    "evenDistribution": "Gleichmäßig verteilte Ausgaben",
+    "startOfMonth": "Ausgaben am Monatsanfang",
+    "endOfMonth": "Ausgaben am Monatsende",
+    "whyExpensesGrew": "So findest du heraus, warum die Ausgaben gestiegen sind",
+    "compareMonths": "So vergleichst du verschiedene Monate",
+    "whatToChange": "Was du auf Grundlage des Berichts ändern kannst",
+    "analysisExample": "Beispiel für die Analyse des Berichts",
+    "multipleTags": "Mehrere Tags bei einer Transaktion berücksichtigen",
+    "summary": "Das Wichtigste"
+  },
+  "whatItShows": {
+    "title": "Was der Bericht zeigt",
+    "metricsIntro": "Im oberen Bereich des Berichts werden drei Kennzahlen angezeigt:",
+    "metrics": [
+      "Gesamtausgaben;",
+      "Anzahl der Transaktionen;",
+      "durchschnittlicher Betrag pro Transaktion."
+    ],
+    "paragraphs": [
+      "Darunter befindet sich ein Histogramm, das zeigt, an welchen Tagen des Monats Ausgaben angefallen sind und wie viel an jedem Tag ausgegeben wurde."
+    ],
+    "insightsIntro": "Diese Daten helfen dir, nicht nur die Gesamthöhe der Ausgaben zu verstehen, sondern auch deren Muster:",
+    "insights": [
+      "ob der Gesamtbetrag aus einem einzelnen großen Kauf bestand;",
+      "ob die Ausgaben regelmäßig anfielen;",
+      "ob es einzelne Tage mit deutlichen Spitzen gab;",
+      "ob sich die Ausgaben gleichmäßig über den Monat verteilt haben."
+    ]
+  },
+  "totalAmount": {
+    "title": "Gesamtausgaben",
+    "paragraphs": [
+      "Die Gesamtausgaben zeigen, wie viel Geld im Laufe des Monats in Transaktionen mit dem ausgewählten Tag ausgegeben wurde.",
+      "Wenn der Tag „Kaffee“ beispielsweise in zehn Transaktionen mit einem Gesamtbetrag von 800 verwendet wurde, zeigt der Bericht 800 an.",
+      "Diese Kennzahl hilft dir, den gesamten Einfluss der Ausgaben mit diesem Tag auf den Saldo des ausgewählten Topfs einzuschätzen.",
+      "Der Gesamtbetrag allein zeigt noch nicht, wie er zustande gekommen ist. Dieselben 800 können bedeuten:"
+    ],
+    "scenarios": [
+      "einen großen Kauf;",
+      "vier Transaktionen zu je 200;",
+      "zwanzig kleine Käufe zu je 40."
+    ],
+    "closingParagraphs": [
+      "Um den Unterschied zwischen diesen Szenarien zu verstehen, solltest du die Anzahl der Transaktionen, den Durchschnittsbetrag und das Histogramm gemeinsam betrachten."
+    ]
+  },
+  "operationCount": {
+    "title": "Anzahl der Transaktionen",
+    "paragraphs": [
+      "Die Anzahl der Transaktionen zeigt, wie viele Ausgaben mit dem ausgewählten Tag im Laufe des Monats angefallen sind.",
+      "Diese Kennzahl hilft dir einzuschätzen, wie regelmäßig diese Ausgaben vorkommen."
+    ],
+    "exampleIntro": "Zum Beispiel:",
+    "exampleItems": [
+      "1 200 bei 2 Transaktionen bedeuten in der Regel einige größere Käufe;",
+      "1 200 bei 20 Transaktionen bedeuten viele kleine Ausgaben."
+    ],
+    "closingParagraphs": [
+      "Eine hohe Anzahl an Transaktionen bedeutet nicht automatisch, dass zu viel ausgegeben wurde. Sie kann aber auf eine regelmäßige Gewohnheit hinweisen, die beim Betrachten einzelner Transaktionen leicht übersehen wird.",
+      "Jeder einzelne Kaffeekauf kann zum Beispiel unbedeutend wirken, während der Bericht zeigt, wie häufig er im Laufe des Monats vorkam."
+    ]
+  },
+  "averageAmount": {
+    "title": "Durchschnittlicher Transaktionsbetrag",
+    "paragraphs": [
+      "Der Durchschnittsbetrag zeigt, wie viel im Durchschnitt pro Ausgabe mit dem ausgewählten Tag ausgegeben wurde.",
+      "Er wird berechnet, indem die Gesamtausgaben durch die Anzahl der Transaktionen geteilt werden."
+    ],
+    "exampleIntro": "Zum Beispiel:",
+    "exampleItems": [
+      "Gesamtausgaben — 1 200;",
+      "Anzahl der Transaktionen — 8;",
+      "Durchschnittsbetrag — 150."
+    ],
+    "closingParagraphs": [
+      "Der Durchschnittsbetrag hilft dabei, das Ausgabeverhalten verschiedener Monate miteinander zu vergleichen.",
+      "Die Gesamtausgaben für einen Tag können zum Beispiel aus zwei unterschiedlichen Gründen gestiegen sein:"
+    ],
+    "reasons": [
+      "Käufe fanden häufiger statt;",
+      "jeder einzelne Kauf wurde teurer."
+    ],
+    "outroParagraphs": [
+      "Wenn sich die Anzahl der Transaktionen kaum verändert hat, der Durchschnittsbetrag aber gestiegen ist, sind die einzelnen Käufe wahrscheinlich größer geworden.",
+      "Wenn der Durchschnittsbetrag ungefähr gleich geblieben ist, aber mehr Transaktionen stattgefunden haben, liegt der Anstieg der Gesamtausgaben vor allem an der höheren Häufigkeit.",
+      "Der Durchschnittsbetrag zeigt jedoch nicht die genaue Höhe jedes einzelnen Kaufs. Mehrere kleine Transaktionen und eine große können denselben Durchschnitt ergeben wie mehrere ähnlich hohe Ausgaben. Deshalb solltest du diese Kennzahl zusammen mit dem Histogramm betrachten."
+    ]
+  },
+  "histogram": {
+    "title": "So liest du das Histogramm",
+    "paragraphs": [
+      "Auf der horizontalen Achse des Histogramms befinden sich die Tage des Monats.",
+      "Auf der vertikalen Achse wird der ausgegebene Betrag angezeigt.",
+      "Jeder Balken zeigt, wie viel Geld mit dem ausgewählten Tag an einem bestimmten Tag insgesamt ausgegeben wurde.",
+      "Wenn an einem Tag mehrere Transaktionen mit diesem Tag stattgefunden haben, werden ihre Beträge addiert und als ein Balken dargestellt."
+    ],
+    "exampleIntro": "Wenn beispielsweise am 10. zwei Käufe stattgefunden haben:",
+    "exampleItems": [
+      "50;",
+      "120;"
+    ],
+    "closingParagraphs": [
+      "wird für diesen Tag ein Balken mit dem Betrag 170 angezeigt.",
+      "Wenn für einen bestimmten Tag kein Balken vorhanden ist, gab es an diesem Tag keine Ausgaben mit dem ausgewählten Tag."
+    ]
+  },
+  "singlePeak": {
+    "title": "Ein hoher Balken",
+    "paragraphs": [
+      "Eine deutliche Spitze bedeutet in der Regel, dass ein großer Teil der Ausgaben auf einen einzigen Tag entfiel."
+    ],
+    "listIntro": "Das kann zum Beispiel sein:",
+    "items": [
+      "ein großer Kauf;",
+      "mehrere Ausgaben am selben Tag;",
+      "ein geplantes Ereignis;",
+      "eine unerwartete, ungeplante Ausgabe."
+    ],
+    "closingParagraphs": [
+      "Wenn zum Beispiel fast alle Ausgaben mit dem Tag „Kleidung“ auf einen einzigen Tag entfallen, handelt es sich wahrscheinlich eher um einen einmaligen Kauf als um regelmäßige Ausgaben.",
+      "In einer solchen Situation reicht ein einzelner Monat nicht immer aus, um auf eine dauerhafte Gewohnheit zu schließen. Sinnvoller ist es, den Tag mit anderen Monaten zu vergleichen und zu prüfen, ob ähnliche Spitzen erneut auftreten."
+    ]
+  },
+  "multiplePeaks": {
+    "title": "Mehrere Spitzen",
+    "paragraphs": [
+      "Mehrere hohe Balken zeigen, dass größere Ausgaben an verschiedenen Tagen angefallen sind."
+    ],
+    "listIntro": "Wenn die Spitzen ungefähr in regelmäßigen Abständen auftreten, kann das auf ein wiederkehrendes Muster hinweisen:",
+    "items": [
+      "Einkäufe am Wochenende;",
+      "wöchentliche Bestellungen;",
+      "regelmäßige Treffen;",
+      "periodische Einkäufe."
+    ],
+    "closingParagraphs": [
+      "Ausgaben mit dem Tag „Essenslieferung“ an jedem Freitag können zum Beispiel auf eine feste wöchentliche Gewohnheit hinweisen.",
+      "Wenn die Spitzen ohne erkennbare Regelmäßigkeit auftreten, hängen die Ausgaben möglicherweise eher mit einzelnen Ereignissen als mit einem wiederkehrenden Verhalten zusammen."
+    ]
+  },
+  "manySmallBars": {
+    "title": "Viele kleine Balken",
+    "paragraphs": [
+      "Eine große Anzahl niedriger Balken bedeutet, dass die Ausgaben häufig angefallen sind, die einzelnen Beträge aber relativ klein waren."
+    ],
+    "listIntro": "So sehen häufig Ausgaben für Folgendes aus:",
+    "items": [
+      "Kaffee;",
+      "Snacks;",
+      "Verkehr;",
+      "kleine Haushaltskäufe;",
+      "alltägliche Unterhaltung."
+    ],
+    "closingParagraphs": [
+      "Solche Ausgaben lassen sich beim Durchsehen einzelner Transaktionen leicht unterschätzen. Jeder Kauf wirkt für sich genommen unbedeutend, zusammen können sie aber über den Monat einen spürbaren Betrag ergeben."
+    ],
+    "actionsIntro": "In diesem Fall gibt es zwei grundlegende Möglichkeiten, die Ausgaben zu verändern:",
+    "actions": [
+      "seltener kaufen;",
+      "den durchschnittlichen Betrag pro Kauf senken."
+    ],
+    "outroParagraphs": [
+      "Welche Möglichkeit sinnvoller ist, lässt sich anhand der Anzahl der Transaktionen und des Durchschnittsbetrags beurteilen."
+    ]
+  },
+  "evenDistribution": {
+    "title": "Gleichmäßig verteilte Ausgaben",
+    "paragraphs": [
+      "Wenn sich die Balken ohne deutliche Spitzen über den gesamten Monat verteilen, fallen die Ausgaben relativ regelmäßig an.",
+      "So kann eine normale Struktur alltäglicher Ausgaben aussehen, zum Beispiel für Lebensmittel, Verkehr oder andere wiederkehrende Käufe.",
+      "Eine gleichmäßige Verteilung bedeutet für sich genommen weder, dass die Ausgaben zu hoch sind, noch dass sie unter Kontrolle sind. Sie zeigt lediglich, dass der Gesamtbetrag nicht durch einen oder wenige einzelne Käufe entstanden ist."
+    ]
+  },
+  "startOfMonth": {
+    "title": "Ausgaben am Monatsanfang",
+    "paragraphs": [
+      "Wenn sich die meisten Balken am Anfang des Monats konzentrieren, wird Geld mit dem ausgewählten Tag hauptsächlich kurz nach dem Auffüllen des Topfs oder nach Eingang des Einkommens ausgegeben.",
+      "Das kann bei regelmäßigen Einkäufen oder notwendigen Zahlungen ganz normal sein.",
+      "Ein größerer Lebensmitteleinkauf am Monatsanfang kann zum Beispiel geplant sein. Bei optionalen Ausgaben kann dieses Muster jedoch dazu führen, dass für den Rest des Monats zu wenig Geld übrig bleibt.",
+      "In diesem Fall lohnt es sich zu prüfen, ob der Topf bis zum Monatsende ausreicht und ob frühe Ausgaben später ausgeglichen werden müssen."
+    ]
+  },
+  "endOfMonth": {
+    "title": "Ausgaben am Monatsende",
+    "listIntro": "Wenn sich die Ausgaben eher am Monatsende konzentrieren, kann das verschiedene Gründe haben:",
+    "items": [
+      "Käufe werden regelmäßig aufgeschoben;",
+      "der verbleibende Topfbetrag wird als frei verfügbares Geld für zusätzliche Ausgaben wahrgenommen;",
+      "geplante Ereignisse finden am Monatsende statt;",
+      "Ausgaben werden bis zur nächsten Auffüllung verschoben."
+    ],
+    "closingParagraphs": [
+      "Dieses Muster weist nicht automatisch auf ein Problem hin. Wichtig ist, ob es sich jeden Monat wiederholt und zum Zweck des Topfs passt.",
+      "Das Ausgeben des restlichen Geldes aus einem Topf „Unterhaltung“ am Monatsende kann zum Beispiel eine bewusste Entscheidung sein. Dasselbe Verhalten bei einem Topf für notwendige Ausgaben kann dagegen das Risiko erhöhen, dass Geld fehlt."
+    ]
+  },
+  "whyExpensesGrew": {
+    "title": "So findest du heraus, warum die Ausgaben gestiegen sind",
+    "lead": "Wenn die Gesamtausgaben für einen Tag gestiegen sind, vergleiche drei Kennzahlen mit den vorherigen Monaten.",
+    "moreOperations": {
+      "title": "Die Anzahl der Transaktionen ist gestiegen",
+      "paragraphs": [
+        "Käufe finden häufiger statt.",
+        "Zum Beispiel wurde Essen zehnmal statt viermal bestellt. Selbst wenn der Preis pro Bestellung gleich geblieben ist, steigt der Gesamtbetrag deutlich.",
+        "In diesem Fall ist die höhere Häufigkeit der wichtigste Grund für den Anstieg."
+      ]
+    },
+    "higherAverage": {
+      "title": "Der Durchschnittsbetrag ist gestiegen",
+      "paragraphs": [
+        "Jeder einzelne Kauf ist teurer geworden."
+      ],
+      "listIntro": "Mögliche Gründe sind:",
+      "items": [
+        "Preissteigerungen;",
+        "Veränderungen bei der üblichen Auswahl;",
+        "größere Einkaufsmengen;",
+        "der Wechsel zu teureren Produkten oder Dienstleistungen."
+      ],
+      "closingParagraphs": [
+        "In diesem Fall ist eine geringere Anzahl an Transaktionen nicht die einzige Möglichkeit. Du kannst auch den durchschnittlichen Betrag pro Ausgabe reduzieren."
+      ]
+    },
+    "largePeak": {
+      "title": "Eine einzelne große Spitze ist aufgetreten",
+      "paragraphs": [
+        "Der Anstieg wurde durch einen oder mehrere ungewöhnlich große Käufe verursacht.",
+        "Wenn eine solche Ausgabe einmalig und geplant war, muss sie nicht unbedingt zu einer Änderung deiner Gewohnheiten führen.",
+        "Wenn große Spitzen jedoch jeden Monat wiederkehren, solltest du sie als regelmäßigen Bestandteil deiner Ausgaben betrachten."
+      ]
+    }
+  },
+  "compareMonths": {
+    "title": "So vergleichst du verschiedene Monate",
+    "paragraphs": [
+      "Der Vergleich mehrerer Monate hilft dir, ein einmaliges Ereignis von einem wiederkehrenden Muster zu unterscheiden."
+    ],
+    "metricsIntro": "Achte auf:",
+    "metrics": [
+      "Gesamtausgaben;",
+      "Anzahl der Transaktionen;",
+      "Durchschnittsbetrag;",
+      "Position der Spitzen;",
+      "Verteilung der Ausgaben über den Monat."
+    ],
+    "closingParagraphs": [
+      "Derselbe Gesamtbetrag kann in zwei Monaten zum Beispiel eine völlig unterschiedliche Struktur haben:"
+    ],
+    "structureItems": [
+      "in einem Monat ein einzelner großer Kauf;",
+      "im anderen viele kleine regelmäßige Ausgaben."
+    ],
+    "outroParagraphs": [
+      "Das finanzielle Ergebnis ist gleich, aber die Ursachen und möglichen Maßnahmen unterscheiden sich."
+    ],
+    "eventsIntro": "Berücksichtige außerdem Ereignisse, die das Muster vorübergehend verändert haben könnten:",
+    "events": [
+      "Feiertage;",
+      "Urlaub;",
+      "Besuch von Gästen;",
+      "einen Umzug;",
+      "Renovierung oder Reparaturen;",
+      "einen einmaligen großen Kauf;",
+      "eine vorübergehende Veränderung des Arbeitsrhythmus oder Lebensstils."
+    ]
+  },
+  "whatToChange": {
+    "title": "Was du auf Grundlage des Berichts ändern kannst",
+    "openingParagraphs": [
+      "Der Bericht entscheidet nicht automatisch, welche Ausgaben unnötig sind. Er hilft dir zu verstehen, woraus sich der Gesamtbetrag zusammensetzt und wodurch er sich verändert.",
+      "Je nach Muster können unterschiedliche Maßnahmen sinnvoll sein."
+    ],
+    "reduceFrequency": {
+      "title": "Häufigkeit reduzieren",
+      "paragraphs": [
+        "Das ist vor allem bei Ausgaben mit vielen Transaktionen sinnvoll.",
+        "Statt beispielsweise jeden Tag Kaffee zu kaufen, kannst du vorher festlegen, wie oft pro Woche du ihn kaufen möchtest."
+      ]
+    },
+    "reduceAverage": {
+      "title": "Durchschnittsbetrag reduzieren",
+      "paragraphs": [
+        "Das ist bei regelmäßigen Ausgaben sinnvoll, bei denen jede einzelne Transaktion zu teuer geworden ist.",
+        "Anstatt ganz auf Essenslieferungen zu verzichten, kannst du zum Beispiel günstigere Bestellungen wählen."
+      ]
+    },
+    "planLargePurchases": {
+      "title": "Große Käufe im Voraus planen",
+      "paragraphs": [
+        "Wenn der Bericht einzelne große Spitzen zeigt, kannst du solche Ausgaben bereits bei der Verteilung des Geldes auf die Töpfe berücksichtigen.",
+        "Das ist besonders hilfreich, wenn sich ein größerer Kauf regelmäßig wiederholt."
+      ]
+    },
+    "reallocateJars": {
+      "title": "Geld zwischen Töpfen umverteilen",
+      "paragraphs": [
+        "Wenn Ausgaben mit einem Tag notwendig sind und regelmäßig das verfügbare Budget überschreiten, liegt das Problem möglicherweise nicht bei den Käufen selbst, sondern darin, dass der Topf zu wenig Geld erhält.",
+        "In diesem Fall kannst du den Anteil dieses Topfs erhöhen und dafür den Anteil weniger wichtiger Töpfe reduzieren.",
+        "Wenn dagegen optionale Ausgaben einen großen Teil des Gesamtbetrags ausmachen, solltest du zuerst ihre Häufigkeit und den durchschnittlichen Betrag betrachten."
+      ]
+    }
+  },
+  "analysisExample": {
+    "title": "Beispiel für die Analyse des Berichts",
+    "firstExampleIntro": "Angenommen, der Bericht für den Tag „Essenslieferung“ zeigt:",
+    "firstExampleMetrics": [
+      "Gesamtausgaben — 1 800;",
+      "Anzahl der Transaktionen — 9;",
+      "Durchschnittsbetrag — 200."
+    ],
+    "firstExampleParagraphs": [
+      "Das Histogramm zeigt, dass zwei- bis dreimal pro Woche bestellt wurde, ohne eine einzelne dominante Spitze.",
+      "Daraus lässt sich schließen, dass der Gesamtbetrag durch regelmäßige Ausgaben und nicht durch einen einmaligen Kauf entstanden ist."
+    ],
+    "firstExampleActionsIntro": "Mögliche Maßnahmen:",
+    "firstExampleActions": [
+      "die Anzahl der Bestellungen reduzieren;",
+      "den durchschnittlichen Preis pro Bestellung senken;",
+      "im Voraus einen festen Betrag für Lieferungen einplanen;",
+      "die Ausgaben unverändert lassen, wenn sie zu deinen Prioritäten und deinem Budget passen."
+    ],
+    "secondExampleIntro": "Ein anderes Beispiel:",
+    "secondExampleMetrics": [
+      "Gesamtausgaben — 1 800;",
+      "Anzahl der Transaktionen — 2;",
+      "Durchschnittsbetrag — 900;",
+      "fast der gesamte Betrag entfällt auf einen einzigen Tag."
+    ],
+    "closingParagraphs": [
+      "Hier liegt eine andere Ursache vor. Wahrscheinlich gab es einen großen Kauf oder ein besonderes Ereignis. Die Häufigkeit alltäglicher Käufe zu reduzieren, würde in dieser Situation kaum etwas verändern."
+    ]
+  },
+  "multipleTags": {
+    "title": "Mehrere Tags bei einer Transaktion berücksichtigen",
+    "paragraphs": [
+      "Eine Transaktion kann mehrere Tags haben.",
+      "Wenn eine Ausgabe von 300 sowohl mit „Essenslieferung“ als auch mit „Gäste“ markiert ist, wird der gesamte Betrag in den Details beider Tags berücksichtigt."
+    ],
+    "perspectivesIntro": "Dadurch kannst du dieselbe Transaktion aus verschiedenen Perspektiven betrachten:",
+    "perspectives": [
+      "was gekauft wurde;",
+      "unter welchen Umständen;",
+      "für welchen Zweck;",
+      "ob der Kauf geplant war."
+    ],
+    "closingParagraphs": [
+      "Der Betrag wird dabei nicht zwischen den Tags aufgeteilt.",
+      "Deshalb solltest du die Werte mehrerer Tag-Berichte nicht addieren, um die Gesamtausgaben zu berechnen."
+    ],
+    "fundsMovementLinkPrefix": "Den tatsächlichen Ausgabenbetrag für den Monat siehst du am besten im Bericht ",
+    "fundsMovementLinkText": "„Geldbewegung“",
+    "fundsMovementLinkSuffix": "."
+  },
+  "summary": {
+    "title": "Das Wichtigste",
+    "paragraphs": [
+      "Der Bericht „Ausgaben nach Tag im Detail“ hilft dir nicht nur zu verstehen, wie viel Geld ausgegeben wurde, sondern auch, wie dieser Betrag entstanden ist.",
+      "Die Gesamtausgaben zeigen den finanziellen Einfluss der Ausgaben.",
+      "Die Anzahl der Transaktionen zeigt ihre Häufigkeit.",
+      "Der Durchschnittsbetrag hilft dir, die typische Höhe eines einzelnen Kaufs einzuschätzen.",
+      "Das Histogramm zeigt die Verteilung der Ausgaben über die einzelnen Tage des Monats und hilft dabei, Folgendes zu unterscheiden:"
+    ],
+    "histogramInsights": [
+      "einen einmaligen großen Kauf;",
+      "regelmäßige Ausgaben;",
+      "viele kleine Transaktionen;",
+      "wiederkehrende Spitzen;",
+      "Ausgaben, die sich am Anfang oder Ende des Monats konzentrieren."
+    ],
+    "closingParagraphs": [
+      "Betrachte diese Kennzahlen gemeinsam. Derselbe Gesamtbetrag kann durch völlig unterschiedliches Verhalten entstehen und deshalb unterschiedliche Entscheidungen erfordern."
+    ]
+  }
+}

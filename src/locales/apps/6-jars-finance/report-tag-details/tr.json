@@ -1,0 +1,401 @@
+{
+  "title": "“Etikete göre harcama detayları” raporu nasıl okunur",
+  "metaDescription": "“Etikete göre harcama detayları” raporu, seçilen bir etiketle yapılan harcamaların ay boyunca nasıl dağıldığını anlamanıza yardımcı olur.",
+  "intro": {
+    "paragraphs": [
+      "“Etikete göre harcama detayları” raporu, seçilen bir etiketle yapılan harcamaların ay boyunca nasıl dağıldığını anlamanıza yardımcı olur."
+    ],
+    "spendingsByTagsLinkPrefix": "Bu rapor, ",
+    "spendingsByTagsLinkText": "“Etiketlere göre harcamalar”",
+    "spendingsByTagsLinkSuffix": " raporunu tamamlar. Önce hangi etiketlerin en yüksek harcamalara sahip olduğunu veya en sık kullanıldığını görebilir, ardından bunlardan birini açarak daha ayrıntılı inceleyebilirsiniz.",
+    "listIntro": "Rapor, seçilen bir kavanoz ve bir etiket için oluşturulur. Yalnızca şu harcamaları içerir:",
+    "items": [
+      "seçilen kavanozdan;",
+      "seçilen aydan;",
+      "seçilen etikete sahip olanlar."
+    ]
+  },
+  "overview": {
+    "title": "İçindekiler",
+    "whatItShows": "Rapor ne gösterir",
+    "totalAmount": "Toplam harcama",
+    "operationCount": "İşlem sayısı",
+    "averageAmount": "Ortalama işlem tutarı",
+    "histogram": "Histogram nasıl okunur",
+    "singlePeak": "Tek bir yüksek sütun",
+    "multiplePeaks": "Birden fazla tepe",
+    "manySmallBars": "Çok sayıda küçük sütun",
+    "evenDistribution": "Dengeli dağılan harcamalar",
+    "startOfMonth": "Ayın başındaki harcamalar",
+    "endOfMonth": "Ayın sonundaki harcamalar",
+    "whyExpensesGrew": "Harcamaların neden arttığını nasıl anlayabilirsiniz",
+    "compareMonths": "Farklı aylar nasıl karşılaştırılır",
+    "whatToChange": "Rapora göre neleri değiştirebilirsiniz",
+    "analysisExample": "Rapor analizi örneği",
+    "multipleTags": "Tek bir işlemde birden fazla etiketi dikkate alın",
+    "summary": "Önemli noktalar"
+  },
+  "whatItShows": {
+    "title": "Rapor ne gösterir",
+    "metricsIntro": "Raporun üst kısmında üç gösterge bulunur:",
+    "metrics": [
+      "toplam harcama;",
+      "işlem sayısı;",
+      "ortalama işlem tutarı."
+    ],
+    "paragraphs": [
+      "Altında, ayın hangi günlerinde harcama yapıldığını ve her gün ne kadar harcandığını gösteren bir histogram bulunur."
+    ],
+    "insightsIntro": "Bu veriler yalnızca toplam harcama miktarını değil, harcamaların yapısını da anlamanıza yardımcı olur:",
+    "insights": [
+      "toplam tutarın tek bir büyük alışverişten oluşup oluşmadığını;",
+      "harcamaların düzenli olarak gerçekleşip gerçekleşmediğini;",
+      "belirli günlerde belirgin tepeler olup olmadığını;",
+      "harcamaların ay boyunca dengeli dağılıp dağılmadığını."
+    ]
+  },
+  "totalAmount": {
+    "title": "Toplam harcama",
+    "paragraphs": [
+      "Toplam harcama, seçilen etiketin bulunduğu işlemlerde ay boyunca ne kadar para harcandığını gösterir.",
+      "Örneğin “Kahve” etiketi toplam 800 tutarındaki on işlemde kullanıldıysa rapor 800 gösterecektir.",
+      "Bu gösterge, etikete bağlı harcamaların seçilen kavanozun bakiyesi üzerindeki genel etkisini değerlendirmenize yardımcı olur.",
+      "Ancak toplam tutar tek başına bu miktarın nasıl oluştuğunu göstermez. Aynı 800 şu anlamlara gelebilir:"
+    ],
+    "scenarios": [
+      "tek bir büyük alışveriş;",
+      "200 tutarında dört işlem;",
+      "40 tutarında yirmi küçük alışveriş."
+    ],
+    "closingParagraphs": [
+      "Bu senaryolar arasındaki farkı anlamak için işlem sayısını, ortalama tutarı ve histogramı birlikte inceleyin."
+    ]
+  },
+  "operationCount": {
+    "title": "İşlem sayısı",
+    "paragraphs": [
+      "İşlem sayısı, seçilen etikete sahip kaç harcamanın ay boyunca gerçekleştiğini gösterir.",
+      "Bu gösterge, harcamaların ne kadar düzenli gerçekleştiğini değerlendirmenize yardımcı olur."
+    ],
+    "exampleIntro": "Örneğin:",
+    "exampleItems": [
+      "2 işlemde toplam 1 200 genellikle birkaç büyük alışveriş anlamına gelir;",
+      "20 işlemde toplam 1 200 ise çok sayıda küçük harcama anlamına gelir."
+    ],
+    "closingParagraphs": [
+      "İşlem sayısının yüksek olması mutlaka aşırı harcama yapıldığı anlamına gelmez. Ancak tek tek işlemlere bakarken fark edilmesi zor olan düzenli bir alışkanlığa işaret edebilir.",
+      "Örneğin her kahve alışverişi tek başına önemsiz görünebilir, ancak rapor bu alışverişin ay boyunca ne kadar sık gerçekleştiğini gösterir."
+    ]
+  },
+  "averageAmount": {
+    "title": "Ortalama işlem tutarı",
+    "paragraphs": [
+      "Ortalama tutar, seçilen etikete sahip her bir harcamada ortalama ne kadar para harcandığını gösterir.",
+      "Toplam harcamanın işlem sayısına bölünmesiyle hesaplanır."
+    ],
+    "exampleIntro": "Örneğin:",
+    "exampleItems": [
+      "toplam harcama — 1 200;",
+      "işlem sayısı — 8;",
+      "ortalama tutar — 150."
+    ],
+    "closingParagraphs": [
+      "Ortalama tutar, farklı aylardaki harcamaların yapısını karşılaştırmanıza yardımcı olur.",
+      "Örneğin bir etikete ait toplam harcama iki farklı nedenle artmış olabilir:"
+    ],
+    "reasons": [
+      "alışverişler daha sık yapılmaya başlamıştır;",
+      "her bir alışveriş daha pahalı hale gelmiştir."
+    ],
+    "outroParagraphs": [
+      "İşlem sayısı neredeyse değişmediyse ancak ortalama tutar arttıysa, muhtemelen tek tek alışverişlerin tutarı yükselmiştir.",
+      "Ortalama tutar yaklaşık aynı kaldıysa ancak işlem sayısı arttıysa, toplam harcamadaki artışın temel nedeni daha yüksek sıklıktır.",
+      "Ancak ortalama tutar her alışverişin tam miktarını göstermez. Birkaç küçük işlem ve bir büyük işlem, benzer tutarlardaki birkaç harcamayla aynı ortalamayı verebilir. Bu nedenle bu göstergeyi histogramla birlikte değerlendirmek daha iyidir."
+    ]
+  },
+  "histogram": {
+    "title": "Histogram nasıl okunur",
+    "paragraphs": [
+      "Histogramın yatay ekseninde ayın günleri yer alır.",
+      "Dikey eksende harcanan tutar gösterilir.",
+      "Her sütun, belirli bir günde seçilen etiketle toplam ne kadar para harcandığını gösterir.",
+      "Aynı gün içinde bu etikete sahip birden fazla işlem gerçekleştiyse, tutarlar toplanır ve tek bir sütun olarak gösterilir."
+    ],
+    "exampleIntro": "Örneğin ayın 10'unda iki alışveriş yapıldıysa:",
+    "exampleItems": [
+      "50;",
+      "120;"
+    ],
+    "closingParagraphs": [
+      "grafik o gün için 170 tutarında bir sütun gösterecektir.",
+      "Belirli bir günde sütun olmaması, o gün seçilen etiketle herhangi bir harcama yapılmadığı anlamına gelir."
+    ]
+  },
+  "singlePeak": {
+    "title": "Tek bir yüksek sütun",
+    "paragraphs": [
+      "Belirgin tek bir tepe genellikle harcamaların önemli bir kısmının tek bir güne yoğunlaştığı anlamına gelir."
+    ],
+    "listIntro": "Bu durum şunlardan biri olabilir:",
+    "items": [
+      "tek bir büyük alışveriş;",
+      "aynı gün yapılan birkaç harcama;",
+      "planlanmış bir etkinlik;",
+      "beklenmedik ve planlanmamış bir harcama."
+    ],
+    "closingParagraphs": [
+      "Örneğin “Giyim” etiketiyle yapılan harcamaların neredeyse tamamı tek bir güne denk geliyorsa, bunun düzenli bir harcamadan çok tek seferlik bir alışveriş olması muhtemeldir.",
+      "Böyle bir durumda kalıcı bir alışkanlık hakkında sonuç çıkarmak için tek bir ay her zaman yeterli değildir. Aynı etiketi diğer aylarla karşılaştırmak ve benzer tepelerin tekrar edip etmediğini kontrol etmek daha faydalıdır."
+    ]
+  },
+  "multiplePeaks": {
+    "title": "Birden fazla tepe",
+    "paragraphs": [
+      "Birden fazla yüksek sütun, daha büyük harcamaların farklı günlerde gerçekleştiğini gösterir."
+    ],
+    "listIntro": "Tepeler yaklaşık düzenli aralıklarla ortaya çıkıyorsa, bu tekrar eden bir düzene işaret edebilir:",
+    "items": [
+      "hafta sonu alışverişleri;",
+      "haftalık siparişler;",
+      "düzenli buluşmalar;",
+      "dönemsel alışverişler."
+    ],
+    "closingParagraphs": [
+      "Örneğin her cuma “Yemek teslimatı” etiketiyle yapılan harcamalar, düzenli bir haftalık alışkanlığa işaret edebilir.",
+      "Tepeler belirgin bir düzen olmadan ortaya çıkıyorsa, harcamalar tekrar eden davranıştan çok belirli olaylarla ilgili olabilir."
+    ]
+  },
+  "manySmallBars": {
+    "title": "Çok sayıda küçük sütun",
+    "paragraphs": [
+      "Çok sayıda kısa sütun, harcamaların sık gerçekleştiğini ancak tek tek tutarların nispeten küçük olduğunu gösterir."
+    ],
+    "listIntro": "Bu görünüm genellikle şu tür harcamalarda görülür:",
+    "items": [
+      "kahve;",
+      "atıştırmalıklar;",
+      "ulaşım;",
+      "küçük ev alışverişleri;",
+      "günlük eğlence."
+    ],
+    "closingParagraphs": [
+      "Bu tür harcamaları işlem listesine bakarken küçümsemek kolaydır. Her alışveriş tek başına önemsiz görünebilir, ancak ay boyunca birlikte önemli bir tutara ulaşabilir."
+    ],
+    "actionsIntro": "Bu durumda harcamaları değiştirmek için iki temel yaklaşım vardır:",
+    "actions": [
+      "daha seyrek alışveriş yapmak;",
+      "her alışverişin ortalama tutarını azaltmak."
+    ],
+    "outroParagraphs": [
+      "Hangi yaklaşımın daha uygun olduğunu işlem sayısına ve ortalama tutara bakarak anlayabilirsiniz."
+    ]
+  },
+  "evenDistribution": {
+    "title": "Dengeli dağılan harcamalar",
+    "paragraphs": [
+      "Sütunlar belirgin tepeler olmadan ayın tamamına yayılıyorsa, harcamalar nispeten düzenli gerçekleşiyor demektir.",
+      "Bu, market alışverişi, ulaşım veya diğer tekrar eden alışverişler gibi günlük harcamalar için normal bir yapı olabilir.",
+      "Dengeli dağılım tek başına harcamaların çok yüksek olduğu veya kontrol altında olduğu anlamına gelmez. Yalnızca toplam tutarın bir ya da birkaç tekil alışverişten oluşmadığını gösterir."
+    ]
+  },
+  "startOfMonth": {
+    "title": "Ayın başındaki harcamalar",
+    "paragraphs": [
+      "Sütunların çoğu ayın başında yoğunlaşıyorsa, seçilen etikete bağlı para çoğunlukla kavanoz doldurulduktan veya gelir alındıktan kısa süre sonra harcanıyor demektir.",
+      "Bu, düzenli alışverişler veya zorunlu ödemeler için normal olabilir.",
+      "Örneğin ayın başında yapılan büyük bir market alışverişi planlı olabilir. Ancak isteğe bağlı harcamalarda bu düzen, ayın geri kalanı için çok az para kalmasına yol açabilir.",
+      "Bu durumda kavanoz bakiyesinin ay sonuna kadar yetip yetmediğini ve erken yapılan harcamaların daha sonra telafi edilip edilmediğini kontrol etmek faydalı olabilir."
+    ]
+  },
+  "endOfMonth": {
+    "title": "Ayın sonundaki harcamalar",
+    "listIntro": "Harcamalar daha çok ayın sonuna doğru yoğunlaşıyorsa bunun birkaç nedeni olabilir:",
+    "items": [
+      "alışverişler düzenli olarak erteleniyor olabilir;",
+      "kavanozda kalan bakiye ek harcamalar için kullanılabilir para olarak görülüyor olabilir;",
+      "planlanmış etkinlikler ay sonunda gerçekleşiyor olabilir;",
+      "harcamalar bir sonraki para ekleme dönemine kadar erteleniyor olabilir."
+    ],
+    "closingParagraphs": [
+      "Bu düzen mutlaka bir sorun olduğu anlamına gelmez. Önemli olan, bunun her ay tekrar edip etmediği ve kavanozun amacına uygun olup olmadığıdır.",
+      "Örneğin “Eğlence” kavanozunda kalan parayı ay sonunda harcamak bilinçli bir tercih olabilir. Aynı alışkanlık zorunlu harcamalara ayrılmış bir kavanozda ise para yetersizliği riskini artırabilir."
+    ]
+  },
+  "whyExpensesGrew": {
+    "title": "Harcamaların neden arttığını nasıl anlayabilirsiniz",
+    "lead": "Bir etikete ait toplam harcama arttıysa, üç göstergeyi önceki aylarla karşılaştırın.",
+    "moreOperations": {
+      "title": "İşlem sayısı arttı",
+      "paragraphs": [
+        "Alışverişler daha sık yapılmaya başladı.",
+        "Örneğin yemek teslimatı dört kez yerine on kez sipariş edilmiş olabilir. Sipariş başına maliyet değişmese bile toplam tutar belirgin şekilde artar.",
+        "Bu durumda artışın temel nedeni harcama sıklığıdır."
+      ]
+    },
+    "higherAverage": {
+      "title": "Ortalama tutar arttı",
+      "paragraphs": [
+        "Her bir alışveriş daha pahalı hale geldi."
+      ],
+      "listIntro": "Olası nedenler:",
+      "items": [
+        "fiyat artışları;",
+        "alışılmış tercihlerin değişmesi;",
+        "daha büyük miktarlarda alışveriş yapılması;",
+        "daha pahalı ürün veya hizmetlere geçiş."
+      ],
+      "closingParagraphs": [
+        "Bu durumda işlem sayısını azaltmak tek seçenek değildir. Her harcamanın ortalama tutarını da azaltabilirsiniz."
+      ]
+    },
+    "largePeak": {
+      "title": "Tek bir büyük tepe ortaya çıktı",
+      "paragraphs": [
+        "Artış, alışılmadık derecede büyük bir veya birkaç alışverişten kaynaklandı.",
+        "Bu harcama tek seferlik ve planlıysa, alışkanlıklarınızı değiştirmeniz gerekmeyebilir.",
+        "Ancak büyük tepeler her ay tekrarlanıyorsa, bunları düzenli harcamaların bir parçası olarak değerlendirmek daha doğru olur."
+      ]
+    }
+  },
+  "compareMonths": {
+    "title": "Farklı aylar nasıl karşılaştırılır",
+    "paragraphs": [
+      "Birden fazla ayı karşılaştırmak, tek seferlik bir olayı tekrar eden bir düzenden ayırmanıza yardımcı olur."
+    ],
+    "metricsIntro": "Şunlara dikkat edin:",
+    "metrics": [
+      "toplam harcama;",
+      "işlem sayısı;",
+      "ortalama tutar;",
+      "tepelerin konumu;",
+      "harcamaların ay içindeki dağılımı."
+    ],
+    "closingParagraphs": [
+      "Örneğin iki farklı ayda aynı toplam tutar tamamen farklı bir yapıya sahip olabilir:"
+    ],
+    "structureItems": [
+      "bir ayda tek bir büyük alışveriş olabilir;",
+      "başka bir ayda çok sayıda küçük ve düzenli harcama olabilir."
+    ],
+    "outroParagraphs": [
+      "Finansal sonuç aynıdır, ancak nedenleri ve olası eylemler farklıdır."
+    ],
+    "eventsIntro": "Düzeni geçici olarak değiştirmiş olabilecek olayları da dikkate alın:",
+    "events": [
+      "tatiller ve özel günler;",
+      "izin veya seyahat;",
+      "misafir gelmesi;",
+      "taşınma;",
+      "tadilat veya onarım;",
+      "tek seferlik büyük bir alışveriş;",
+      "çalışma düzeninde veya yaşam tarzında geçici bir değişiklik."
+    ]
+  },
+  "whatToChange": {
+    "title": "Rapora göre neleri değiştirebilirsiniz",
+    "openingParagraphs": [
+      "Rapor hangi harcamaların gereksiz olduğunu otomatik olarak belirlemez. Toplam tutarın nelerden oluştuğunu ve neden değiştiğini anlamanıza yardımcı olur.",
+      "Gördüğünüz düzene bağlı olarak farklı adımlar anlamlı olabilir."
+    ],
+    "reduceFrequency": {
+      "title": "Sıklığı azaltın",
+      "paragraphs": [
+        "Bu yaklaşım özellikle çok sayıda işlemin bulunduğu harcamalar için uygundur.",
+        "Örneğin her gün kahve almak yerine, haftada kaç kez kahve almak istediğinizi önceden belirleyebilirsiniz."
+      ]
+    },
+    "reduceAverage": {
+      "title": "Ortalama tutarı azaltın",
+      "paragraphs": [
+        "Bu yaklaşım, her işlemin fazla pahalı hale geldiği düzenli harcamalar için uygundur.",
+        "Örneğin yemek teslimatından tamamen vazgeçmek yerine daha ucuz siparişler tercih edebilirsiniz."
+      ]
+    },
+    "planLargePurchases": {
+      "title": "Büyük alışverişleri önceden planlayın",
+      "paragraphs": [
+        "Rapor tekil büyük tepeler gösteriyorsa, parayı kavanozlara dağıtırken bu harcamaları önceden hesaba katabilirsiniz.",
+        "Bu özellikle büyük bir alışveriş belirli aralıklarla tekrarlanıyorsa faydalıdır."
+      ]
+    },
+    "reallocateJars": {
+      "title": "Kavanozlar arasında parayı yeniden dağıtın",
+      "paragraphs": [
+        "Bir etikete ait harcamalar gerekliyse ve düzenli olarak mevcut bütçeyi aşıyorsa, sorun alışverişlerin kendisinden değil kavanoza yeterince para ayrılmamasından kaynaklanıyor olabilir.",
+        "Bu durumda daha düşük öncelikli kavanozların payını azaltarak bu kavanoza ayrılan payı artırabilirsiniz.",
+        "İsteğe bağlı harcamalar toplamın önemli bir kısmını oluşturuyorsa, önce bunların sıklığını ve ortalama tutarını değerlendirin."
+      ]
+    }
+  },
+  "analysisExample": {
+    "title": "Rapor analizi örneği",
+    "firstExampleIntro": "“Yemek teslimatı” etiketi için raporun şunları gösterdiğini varsayalım:",
+    "firstExampleMetrics": [
+      "toplam harcama — 1 800;",
+      "işlem sayısı — 9;",
+      "ortalama tutar — 200."
+    ],
+    "firstExampleParagraphs": [
+      "Histogram, siparişlerin tek bir baskın tepe olmadan haftada iki veya üç kez gerçekleştiğini gösteriyor.",
+      "Bu, toplam tutarın tek seferlik bir alışverişten değil düzenli harcamalardan oluştuğunu gösterir."
+    ],
+    "firstExampleActionsIntro": "Olası adımlar:",
+    "firstExampleActions": [
+      "sipariş sayısını azaltmak;",
+      "sipariş başına ortalama maliyeti düşürmek;",
+      "teslimat için önceden sabit bir tutar ayırmak;",
+      "harcamalar önceliklerinize ve bütçenize uygunsa hiçbir şeyi değiştirmemek."
+    ],
+    "secondExampleIntro": "Başka bir örnek:",
+    "secondExampleMetrics": [
+      "toplam harcama — 1 800;",
+      "işlem sayısı — 2;",
+      "ortalama tutar — 900;",
+      "tutarın neredeyse tamamı tek bir güne denk geliyor."
+    ],
+    "closingParagraphs": [
+      "Burada harcamanın nedeni farklıdır. Muhtemelen büyük bir alışveriş veya belirli bir olay gerçekleşmiştir. Böyle bir durumda günlük alışverişlerin sıklığını azaltmak önemli bir fark yaratmaz."
+    ]
+  },
+  "multipleTags": {
+    "title": "Tek bir işlemde birden fazla etiketi dikkate alın",
+    "paragraphs": [
+      "Bir işlemde birden fazla etiket bulunabilir.",
+      "300 tutarındaki bir harcama hem “Yemek teslimatı” hem de “Misafirler” etiketine sahipse, tutarın tamamı her iki etiketin ayrıntılarında da yer alır."
+    ],
+    "perspectivesIntro": "Bu sayede aynı işlemi farklı açılardan analiz edebilirsiniz:",
+    "perspectives": [
+      "ne satın alındığı;",
+      "hangi koşullarda yapıldığı;",
+      "hangi amaçla yapıldığı;",
+      "alışverişin planlı olup olmadığı."
+    ],
+    "closingParagraphs": [
+      "Tutar etiketler arasında bölünmez.",
+      "Bu nedenle toplam harcamayı hesaplamak için birden fazla etiket raporundaki tutarları toplamamalısınız."
+    ],
+    "fundsMovementLinkPrefix": "Ay içinde gerçekten harcanan toplam tutarı görmek için ",
+    "fundsMovementLinkText": "“Para hareketleri”",
+    "fundsMovementLinkSuffix": " raporunu kullanın."
+  },
+  "summary": {
+    "title": "Önemli noktalar",
+    "paragraphs": [
+      "“Etikete göre harcama detayları” raporu yalnızca ne kadar para harcandığını değil, bu toplamın nasıl oluştuğunu da anlamanıza yardımcı olur.",
+      "Toplam harcama, harcamaların finansal etkisini gösterir.",
+      "İşlem sayısı, ne kadar sık gerçekleştiklerini gösterir.",
+      "Ortalama tutar, tek bir alışverişin tipik büyüklüğünü anlamanıza yardımcı olur.",
+      "Histogram, harcamaların ayın günlerine nasıl dağıldığını gösterir ve şu durumları ayırt etmenize yardımcı olur:"
+    ],
+    "histogramInsights": [
+      "tek seferlik büyük bir alışveriş;",
+      "düzenli harcamalar;",
+      "çok sayıda küçük işlem;",
+      "tekrarlayan tepeler;",
+      "ayın başında veya sonunda yoğunlaşan harcamalar."
+    ],
+    "closingParagraphs": [
+      "Bu göstergeleri birlikte kullanın. Aynı toplam tutar tamamen farklı davranışlardan kaynaklanabilir ve bu nedenle farklı kararlar gerektirebilir."
+    ]
+  }
+}

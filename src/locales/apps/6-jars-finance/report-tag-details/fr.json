@@ -1,0 +1,401 @@
+{
+  "title": "Comment lire le rapport « Détail des dépenses par étiquette »",
+  "metaDescription": "Le rapport « Détail des dépenses par étiquette » vous aide à comprendre comment les dépenses associées à une étiquette sélectionnée se sont réparties au cours du mois.",
+  "intro": {
+    "paragraphs": [
+      "Le rapport « Détail des dépenses par étiquette » vous aide à comprendre comment les dépenses associées à une étiquette sélectionnée se sont réparties au cours du mois."
+    ],
+    "spendingsByTagsLinkPrefix": "Il complète le rapport ",
+    "spendingsByTagsLinkText": "« Dépenses par étiquette »",
+    "spendingsByTagsLinkSuffix": ". Vous pouvez d’abord identifier les étiquettes qui représentent les dépenses les plus importantes ou qui apparaissent le plus souvent, puis en ouvrir une pour l’examiner plus en détail.",
+    "listIntro": "Le rapport est généré pour une enveloppe sélectionnée et une étiquette. Il inclut uniquement les dépenses :",
+    "items": [
+      "de l’enveloppe sélectionnée ;",
+      "du mois sélectionné ;",
+      "associées à l’étiquette sélectionnée."
+    ]
+  },
+  "overview": {
+    "title": "Sommaire",
+    "whatItShows": "Ce que montre le rapport",
+    "totalAmount": "Montant total des dépenses",
+    "operationCount": "Nombre de transactions",
+    "averageAmount": "Montant moyen d’une transaction",
+    "histogram": "Comment lire l’histogramme",
+    "singlePeak": "Une barre élevée",
+    "multiplePeaks": "Plusieurs pics",
+    "manySmallBars": "De nombreuses petites barres",
+    "evenDistribution": "Dépenses réparties régulièrement",
+    "startOfMonth": "Dépenses en début de mois",
+    "endOfMonth": "Dépenses en fin de mois",
+    "whyExpensesGrew": "Comment comprendre pourquoi les dépenses ont augmenté",
+    "compareMonths": "Comment comparer différents mois",
+    "whatToChange": "Ce que vous pouvez modifier à partir du rapport",
+    "analysisExample": "Exemple d’analyse du rapport",
+    "multipleTags": "Tenez compte des étiquettes multiples sur une transaction",
+    "summary": "À retenir"
+  },
+  "whatItShows": {
+    "title": "Ce que montre le rapport",
+    "metricsIntro": "Trois indicateurs sont affichés en haut du rapport :",
+    "metrics": [
+      "le montant total des dépenses ;",
+      "le nombre de transactions ;",
+      "le montant moyen d’une transaction."
+    ],
+    "paragraphs": [
+      "En dessous se trouve un histogramme qui montre les jours du mois où des dépenses ont eu lieu et le montant dépensé chaque jour."
+    ],
+    "insightsIntro": "Ces données permettent de comprendre non seulement le montant total dépensé, mais aussi la manière dont ces dépenses se sont réparties :",
+    "insights": [
+      "si le total provient d’un seul achat important ;",
+      "si les dépenses ont eu lieu régulièrement ;",
+      "si certains jours présentent des pics marqués ;",
+      "si les dépenses sont réparties de façon régulière sur le mois."
+    ]
+  },
+  "totalAmount": {
+    "title": "Montant total des dépenses",
+    "paragraphs": [
+      "Le montant total indique combien d’argent a été dépensé au cours du mois dans des transactions associées à l’étiquette sélectionnée.",
+      "Par exemple, si l’étiquette « Café » a été utilisée dans dix transactions pour un montant total de 800, le rapport affichera 800.",
+      "Cet indicateur vous aide à évaluer l’impact global des dépenses associées à cette étiquette sur le solde de l’enveloppe sélectionnée.",
+      "Le montant total ne montre pas à lui seul comment il s’est constitué. Les mêmes 800 peuvent correspondre à :"
+    ],
+    "scenarios": [
+      "un achat important ;",
+      "quatre transactions de 200 ;",
+      "vingt petits achats de 40."
+    ],
+    "closingParagraphs": [
+      "Pour comprendre la différence entre ces scénarios, examinez le nombre de transactions, le montant moyen et l’histogramme."
+    ]
+  },
+  "operationCount": {
+    "title": "Nombre de transactions",
+    "paragraphs": [
+      "Le nombre de transactions indique combien de dépenses associées à l’étiquette sélectionnée ont eu lieu pendant le mois.",
+      "Cet indicateur vous aide à évaluer la régularité de ces dépenses."
+    ],
+    "exampleIntro": "Par exemple :",
+    "exampleItems": [
+      "1 200 répartis sur 2 transactions correspondent généralement à quelques achats importants ;",
+      "1 200 répartis sur 20 transactions correspondent à de nombreuses petites dépenses."
+    ],
+    "closingParagraphs": [
+      "Un nombre élevé de transactions ne signifie pas nécessairement que les dépenses sont excessives. Il peut toutefois révéler une habitude régulière difficile à remarquer lorsqu’on consulte uniquement les transactions individuelles.",
+      "Par exemple, chaque achat de café peut sembler insignifiant, alors que le rapport montre à quelle fréquence il s’est produit au cours du mois."
+    ]
+  },
+  "averageAmount": {
+    "title": "Montant moyen d’une transaction",
+    "paragraphs": [
+      "Le montant moyen indique combien a été dépensé en moyenne pour une transaction associée à l’étiquette sélectionnée.",
+      "Il est calculé en divisant le montant total des dépenses par le nombre de transactions."
+    ],
+    "exampleIntro": "Par exemple :",
+    "exampleItems": [
+      "montant total — 1 200 ;",
+      "nombre de transactions — 8 ;",
+      "montant moyen — 150."
+    ],
+    "closingParagraphs": [
+      "Le montant moyen permet de comparer la nature des dépenses entre différents mois.",
+      "Par exemple, les dépenses totales associées à une étiquette peuvent augmenter pour deux raisons différentes :"
+    ],
+    "reasons": [
+      "les achats ont commencé à être plus fréquents ;",
+      "chaque achat individuel est devenu plus cher."
+    ],
+    "outroParagraphs": [
+      "Si le nombre de transactions a peu changé mais que le montant moyen a augmenté, les achats individuels sont probablement devenus plus importants.",
+      "Si le montant moyen est resté à peu près identique mais que le nombre de transactions a augmenté, la hausse des dépenses totales est principalement liée à leur fréquence.",
+      "Le montant moyen ne montre toutefois pas le montant exact de chaque achat. Plusieurs petites transactions et une grande peuvent produire la même moyenne que plusieurs dépenses de taille similaire. Il est donc préférable d’examiner cet indicateur avec l’histogramme."
+    ]
+  },
+  "histogram": {
+    "title": "Comment lire l’histogramme",
+    "paragraphs": [
+      "L’axe horizontal de l’histogramme représente les jours du mois.",
+      "L’axe vertical représente le montant dépensé.",
+      "Chaque barre indique combien d’argent a été dépensé au total avec l’étiquette sélectionnée un jour donné.",
+      "Si plusieurs transactions associées à cette étiquette ont eu lieu le même jour, leurs montants sont additionnés et affichés sous forme d’une seule barre."
+    ],
+    "exampleIntro": "Par exemple, si deux achats ont été effectués le 10 :",
+    "exampleItems": [
+      "50 ;",
+      "120 ;"
+    ],
+    "closingParagraphs": [
+      "le graphique affichera une barre de 170 pour cette journée.",
+      "L’absence de barre signifie qu’aucune dépense associée à l’étiquette sélectionnée n’a eu lieu ce jour-là."
+    ]
+  },
+  "singlePeak": {
+    "title": "Une barre élevée",
+    "paragraphs": [
+      "Un pic nettement visible signifie généralement qu’une part importante des dépenses s’est concentrée sur une seule journée."
+    ],
+    "listIntro": "Cela peut correspondre à :",
+    "items": [
+      "un achat important ;",
+      "plusieurs dépenses effectuées le même jour ;",
+      "un événement prévu ;",
+      "une dépense imprévue."
+    ],
+    "closingParagraphs": [
+      "Par exemple, si presque toutes les dépenses associées à l’étiquette « Vêtements » se concentrent sur une seule journée, il s’agit probablement d’un achat ponctuel plutôt que d’une dépense régulière.",
+      "Dans ce cas, un seul mois ne suffit pas toujours pour identifier une habitude durable. Il est plus utile de comparer cette étiquette avec d’autres mois et de vérifier si des pics similaires se reproduisent."
+    ]
+  },
+  "multiplePeaks": {
+    "title": "Plusieurs pics",
+    "paragraphs": [
+      "Plusieurs barres élevées indiquent que des dépenses importantes ont eu lieu à différentes dates."
+    ],
+    "listIntro": "Si les pics apparaissent à intervalles à peu près réguliers, cela peut révéler un comportement récurrent :",
+    "items": [
+      "des achats le week-end ;",
+      "des commandes hebdomadaires ;",
+      "des rencontres régulières ;",
+      "des achats périodiques."
+    ],
+    "closingParagraphs": [
+      "Par exemple, des dépenses associées à l’étiquette « Livraison de repas » chaque vendredi peuvent indiquer une habitude hebdomadaire.",
+      "Si les pics apparaissent sans régularité évidente, les dépenses peuvent être liées à des événements ponctuels plutôt qu’à un comportement récurrent."
+    ]
+  },
+  "manySmallBars": {
+    "title": "De nombreuses petites barres",
+    "paragraphs": [
+      "Un grand nombre de petites barres signifie que les dépenses ont été fréquentes, mais que chaque montant individuel était relativement faible."
+    ],
+    "listIntro": "C’est souvent le cas pour :",
+    "items": [
+      "le café ;",
+      "les encas ;",
+      "les transports ;",
+      "les petits achats pour la maison ;",
+      "les loisirs du quotidien."
+    ],
+    "closingParagraphs": [
+      "Ce type de dépenses est facile à sous-estimer lorsqu’on consulte une liste de transactions. Chaque achat peut sembler insignifiant, mais leur somme peut devenir importante sur un mois."
+    ],
+    "actionsIntro": "Dans ce cas, deux approches principales permettent de modifier les dépenses :",
+    "actions": [
+      "acheter moins souvent ;",
+      "réduire le montant moyen de chaque achat."
+    ],
+    "outroParagraphs": [
+      "Le nombre de transactions et le montant moyen vous permettent de déterminer quelle approche est la plus pertinente."
+    ]
+  },
+  "evenDistribution": {
+    "title": "Dépenses réparties régulièrement",
+    "paragraphs": [
+      "Si les barres sont réparties sur tout le mois sans pics marqués, les dépenses ont lieu de façon relativement régulière.",
+      "Cela peut correspondre à une structure normale de dépenses quotidiennes, comme les courses alimentaires, les transports ou d’autres achats récurrents.",
+      "Une répartition régulière ne signifie pas à elle seule que les dépenses sont trop élevées ou, au contraire, sous contrôle. Elle indique simplement que le total n’a pas été formé par un ou quelques achats isolés."
+    ]
+  },
+  "startOfMonth": {
+    "title": "Dépenses en début de mois",
+    "paragraphs": [
+      "Si la plupart des barres sont concentrées au début du mois, les dépenses associées à l’étiquette sélectionnée sont principalement effectuées peu après l’alimentation de l’enveloppe ou la réception des revenus.",
+      "Cela peut être normal pour des achats réguliers ou des paiements obligatoires.",
+      "Par exemple, de grosses courses alimentaires en début de mois peuvent être prévues. Mais s’il s’agit de dépenses facultatives, ce comportement peut laisser trop peu d’argent pour le reste du mois.",
+      "Dans ce cas, il peut être utile de vérifier si le solde de l’enveloppe suffit jusqu’à la fin du mois et si les dépenses du début du mois doivent ensuite être compensées."
+    ]
+  },
+  "endOfMonth": {
+    "title": "Dépenses en fin de mois",
+    "listIntro": "Si les dépenses se concentrent vers la fin du mois, plusieurs raisons sont possibles :",
+    "items": [
+      "les achats sont régulièrement reportés ;",
+      "le solde restant dans l’enveloppe est perçu comme disponible pour des dépenses supplémentaires ;",
+      "des événements prévus ont lieu en fin de mois ;",
+      "les dépenses sont repoussées jusqu’au prochain approvisionnement."
+    ],
+    "closingParagraphs": [
+      "Ce comportement n’indique pas nécessairement un problème. L’important est de vérifier s’il se répète chaque mois et s’il correspond à l’objectif de l’enveloppe.",
+      "Par exemple, dépenser l’argent restant dans une enveloppe « Loisirs » en fin de mois peut être un choix volontaire. La même habitude dans une enveloppe destinée aux dépenses essentielles peut créer un risque de manque d’argent."
+    ]
+  },
+  "whyExpensesGrew": {
+    "title": "Comment comprendre pourquoi les dépenses ont augmenté",
+    "lead": "Si le montant total associé à une étiquette a augmenté, comparez trois indicateurs avec les mois précédents.",
+    "moreOperations": {
+      "title": "Le nombre de transactions a augmenté",
+      "paragraphs": [
+        "Les achats sont devenus plus fréquents.",
+        "Par exemple, des repas ont été commandés dix fois au lieu de quatre. Même si le prix d’une commande n’a pas changé, le montant total augmente nettement.",
+        "Dans ce cas, la principale cause de l’augmentation est la fréquence des dépenses."
+      ]
+    },
+    "higherAverage": {
+      "title": "Le montant moyen a augmenté",
+      "paragraphs": [
+        "Chaque achat individuel est devenu plus cher."
+      ],
+      "listIntro": "Les raisons possibles sont :",
+      "items": [
+        "une hausse des prix ;",
+        "un changement dans vos choix habituels ;",
+        "des quantités plus importantes ;",
+        "le passage à des produits ou services plus chers."
+      ],
+      "closingParagraphs": [
+        "Dans ce cas, réduire le nombre de transactions n’est pas la seule possibilité. Vous pouvez également réduire le montant moyen de chaque dépense."
+      ]
+    },
+    "largePeak": {
+      "title": "Un pic important est apparu",
+      "paragraphs": [
+        "L’augmentation a été provoquée par un ou plusieurs achats inhabituellement importants.",
+        "Si cette dépense était ponctuelle et prévue, elle ne nécessite pas nécessairement de modifier vos habitudes.",
+        "Mais si de grands pics se répètent chaque mois, il est préférable de les considérer comme une partie régulière de vos dépenses."
+      ]
+    }
+  },
+  "compareMonths": {
+    "title": "Comment comparer différents mois",
+    "paragraphs": [
+      "Comparer plusieurs mois permet de distinguer un événement ponctuel d’une tendance récurrente."
+    ],
+    "metricsIntro": "Observez :",
+    "metrics": [
+      "le montant total ;",
+      "le nombre de transactions ;",
+      "le montant moyen ;",
+      "la position des pics ;",
+      "la répartition des dépenses au cours du mois."
+    ],
+    "closingParagraphs": [
+      "Par exemple, un même montant total peut avoir une structure très différente d’un mois à l’autre :"
+    ],
+    "structureItems": [
+      "un mois peut contenir un seul achat important ;",
+      "un autre peut contenir de nombreuses petites dépenses régulières."
+    ],
+    "outroParagraphs": [
+      "Le résultat financier est le même, mais les causes et les actions possibles sont différentes."
+    ],
+    "eventsIntro": "Tenez également compte des événements qui ont pu modifier temporairement la situation :",
+    "events": [
+      "les fêtes ;",
+      "les vacances ;",
+      "la visite d’invités ;",
+      "un déménagement ;",
+      "des travaux ou réparations ;",
+      "un achat important ponctuel ;",
+      "un changement temporaire de rythme de travail ou de mode de vie."
+    ]
+  },
+  "whatToChange": {
+    "title": "Ce que vous pouvez modifier à partir du rapport",
+    "openingParagraphs": [
+      "Le rapport ne détermine pas automatiquement quelles dépenses sont inutiles. Il vous aide à comprendre de quoi se compose le montant total et ce qui le fait évoluer.",
+      "Selon la situation, différentes actions peuvent être pertinentes."
+    ],
+    "reduceFrequency": {
+      "title": "Réduire la fréquence",
+      "paragraphs": [
+        "Cette approche est particulièrement adaptée aux dépenses comportant de nombreuses transactions.",
+        "Par exemple, au lieu d’acheter un café tous les jours, vous pouvez décider à l’avance combien de fois par semaine vous souhaitez en acheter."
+      ]
+    },
+    "reduceAverage": {
+      "title": "Réduire le montant moyen",
+      "paragraphs": [
+        "Cette approche convient aux dépenses régulières dont chaque transaction est devenue trop coûteuse.",
+        "Par exemple, au lieu d’abandonner complètement la livraison de repas, vous pouvez choisir des commandes moins chères."
+      ]
+    },
+    "planLargePurchases": {
+      "title": "Planifier les gros achats à l’avance",
+      "paragraphs": [
+        "Si le rapport montre des pics importants isolés, vous pouvez tenir compte de ces dépenses lors de la répartition de l’argent entre les enveloppes.",
+        "C’est particulièrement utile si un achat important se répète périodiquement."
+      ]
+    },
+    "reallocateJars": {
+      "title": "Répartir autrement l’argent entre les enveloppes",
+      "paragraphs": [
+        "Si les dépenses associées à une étiquette sont nécessaires et dépassent régulièrement le budget disponible, le problème peut venir non pas des achats eux-mêmes, mais d’un financement insuffisant de l’enveloppe.",
+        "Dans ce cas, vous pouvez augmenter la part attribuée à cette enveloppe en réduisant celle d’enveloppes moins prioritaires.",
+        "Si les dépenses facultatives représentent une part importante du total, commencez par examiner leur fréquence et leur montant moyen."
+      ]
+    }
+  },
+  "analysisExample": {
+    "title": "Exemple d’analyse du rapport",
+    "firstExampleIntro": "Supposons que le rapport pour l’étiquette « Livraison de repas » affiche :",
+    "firstExampleMetrics": [
+      "montant total — 1 800 ;",
+      "nombre de transactions — 9 ;",
+      "montant moyen — 200."
+    ],
+    "firstExampleParagraphs": [
+      "L’histogramme montre que les commandes ont eu lieu deux ou trois fois par semaine, sans pic dominant.",
+      "On peut en conclure que le total provient de dépenses régulières et non d’un achat ponctuel."
+    ],
+    "firstExampleActionsIntro": "Actions possibles :",
+    "firstExampleActions": [
+      "réduire le nombre de commandes ;",
+      "réduire le coût moyen d’une commande ;",
+      "réserver à l’avance un montant fixe pour les livraisons ;",
+      "ne rien changer si ces dépenses correspondent à vos priorités et à votre budget."
+    ],
+    "secondExampleIntro": "Autre exemple :",
+    "secondExampleMetrics": [
+      "montant total — 1 800 ;",
+      "nombre de transactions — 2 ;",
+      "montant moyen — 900 ;",
+      "presque tout le montant est concentré sur une seule journée."
+    ],
+    "closingParagraphs": [
+      "Ici, la cause des dépenses est différente. Il s’agissait probablement d’un achat important ou d’un événement particulier. Réduire la fréquence des petits achats quotidiens ne changerait pratiquement rien dans cette situation."
+    ]
+  },
+  "multipleTags": {
+    "title": "Tenez compte des étiquettes multiples sur une transaction",
+    "paragraphs": [
+      "Une transaction peut avoir plusieurs étiquettes.",
+      "Si une dépense de 300 est associée aux étiquettes « Livraison de repas » et « Invités », le montant total sera inclus dans le détail de chacune de ces étiquettes."
+    ],
+    "perspectivesIntro": "Cela permet d’analyser une même transaction sous différents angles :",
+    "perspectives": [
+      "ce qui a été acheté ;",
+      "dans quelles circonstances ;",
+      "dans quel but ;",
+      "si l’achat était prévu."
+    ],
+    "closingParagraphs": [
+      "Le montant n’est pas réparti entre les étiquettes.",
+      "Il ne faut donc pas additionner les valeurs de plusieurs rapports par étiquette pour calculer les dépenses totales."
+    ],
+    "fundsMovementLinkPrefix": "Pour connaître le montant réellement dépensé pendant le mois, consultez plutôt le rapport ",
+    "fundsMovementLinkText": "« Mouvement des fonds »",
+    "fundsMovementLinkSuffix": "."
+  },
+  "summary": {
+    "title": "À retenir",
+    "paragraphs": [
+      "Le rapport « Détail des dépenses par étiquette » vous aide à comprendre non seulement combien d’argent a été dépensé, mais aussi comment ce montant s’est constitué.",
+      "Le montant total montre l’impact financier des dépenses.",
+      "Le nombre de transactions montre leur fréquence.",
+      "Le montant moyen aide à comprendre la taille habituelle d’un achat.",
+      "L’histogramme montre la répartition des dépenses entre les jours du mois et permet de distinguer :"
+    ],
+    "histogramInsights": [
+      "un achat important ponctuel ;",
+      "des dépenses régulières ;",
+      "de nombreuses petites transactions ;",
+      "des pics récurrents ;",
+      "des dépenses concentrées en début ou en fin de mois."
+    ],
+    "closingParagraphs": [
+      "Utilisez ces indicateurs ensemble. Un même montant total peut résulter de comportements très différents et donc nécessiter des décisions différentes."
+    ]
+  }
+}

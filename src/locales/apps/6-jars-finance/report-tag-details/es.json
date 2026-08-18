@@ -1,0 +1,401 @@
+{
+  "title": "Cómo leer el informe «Detalle de gastos por etiqueta»",
+  "metaDescription": "El informe «Detalle de gastos por etiqueta» ayuda a entender cómo se distribuyeron durante el mes los gastos asociados a una etiqueta seleccionada.",
+  "intro": {
+    "paragraphs": [
+      "El informe «Detalle de gastos por etiqueta» ayuda a entender cómo se distribuyeron durante el mes los gastos asociados a una etiqueta seleccionada."
+    ],
+    "spendingsByTagsLinkPrefix": "Complementa el informe ",
+    "spendingsByTagsLinkText": "«Gastos por etiquetas»",
+    "spendingsByTagsLinkSuffix": ". Primero puedes identificar qué etiquetas representan los mayores gastos o aparecen con más frecuencia y después abrir una de ellas para analizarla con más detalle.",
+    "listIntro": "El informe se genera para un fondo seleccionado y una etiqueta. Solo incluye gastos:",
+    "items": [
+      "del fondo seleccionado;",
+      "del mes seleccionado;",
+      "con la etiqueta seleccionada."
+    ]
+  },
+  "overview": {
+    "title": "Contenido",
+    "whatItShows": "Qué muestra el informe",
+    "totalAmount": "Gasto total",
+    "operationCount": "Número de transacciones",
+    "averageAmount": "Importe medio por transacción",
+    "histogram": "Cómo leer el histograma",
+    "singlePeak": "Una barra alta",
+    "multiplePeaks": "Varios picos",
+    "manySmallBars": "Muchas barras pequeñas",
+    "evenDistribution": "Gastos distribuidos uniformemente",
+    "startOfMonth": "Gastos al principio del mes",
+    "endOfMonth": "Gastos al final del mes",
+    "whyExpensesGrew": "Cómo entender por qué aumentaron los gastos",
+    "compareMonths": "Cómo comparar distintos meses",
+    "whatToChange": "Qué puedes cambiar según el informe",
+    "analysisExample": "Ejemplo de análisis del informe",
+    "multipleTags": "Ten en cuenta las etiquetas múltiples en una transacción",
+    "summary": "Lo más importante"
+  },
+  "whatItShows": {
+    "title": "Qué muestra el informe",
+    "metricsIntro": "En la parte superior del informe se muestran tres indicadores:",
+    "metrics": [
+      "gasto total;",
+      "número de transacciones;",
+      "importe medio por transacción."
+    ],
+    "paragraphs": [
+      "Debajo aparece un histograma que muestra en qué días del mes se produjeron gastos y cuánto se gastó cada día."
+    ],
+    "insightsIntro": "Estos datos permiten entender no solo cuánto se gastó en total, sino también cómo se formaron esos gastos:",
+    "insights": [
+      "si el total procede de una sola compra grande;",
+      "si los gastos se produjeron con regularidad;",
+      "si hubo días concretos con picos pronunciados;",
+      "si los gastos se distribuyeron uniformemente a lo largo del mes."
+    ]
+  },
+  "totalAmount": {
+    "title": "Gasto total",
+    "paragraphs": [
+      "El gasto total muestra cuánto dinero se gastó durante el mes en transacciones con la etiqueta seleccionada.",
+      "Por ejemplo, si la etiqueta «Café» se utilizó en diez transacciones por un total de 800, el informe mostrará 800.",
+      "Este indicador ayuda a valorar el impacto general de los gastos asociados a la etiqueta sobre el saldo del fondo seleccionado.",
+      "El importe total por sí solo no muestra cómo se ha formado. Los mismos 800 pueden significar:"
+    ],
+    "scenarios": [
+      "una compra grande;",
+      "cuatro transacciones de 200;",
+      "veinte compras pequeñas de 40."
+    ],
+    "closingParagraphs": [
+      "Para entender la diferencia entre estos escenarios, consulta conjuntamente el número de transacciones, el importe medio y el histograma."
+    ]
+  },
+  "operationCount": {
+    "title": "Número de transacciones",
+    "paragraphs": [
+      "El número de transacciones muestra cuántos gastos con la etiqueta seleccionada se realizaron durante el mes.",
+      "Este indicador ayuda a valorar la regularidad de los gastos."
+    ],
+    "exampleIntro": "Por ejemplo:",
+    "exampleItems": [
+      "1 200 en 2 transacciones suele indicar unas pocas compras grandes;",
+      "1 200 en 20 transacciones indica muchos gastos pequeños."
+    ],
+    "closingParagraphs": [
+      "Un número elevado de transacciones no significa necesariamente que se esté gastando demasiado. Sin embargo, puede indicar un hábito recurrente difícil de detectar al revisar transacciones individuales.",
+      "Por ejemplo, cada compra de café puede parecer insignificante, mientras que el informe muestra con qué frecuencia se produjo durante el mes."
+    ]
+  },
+  "averageAmount": {
+    "title": "Importe medio por transacción",
+    "paragraphs": [
+      "El importe medio muestra cuánto se gastó de media en cada gasto asociado a la etiqueta seleccionada.",
+      "Se calcula dividiendo el gasto total entre el número de transacciones."
+    ],
+    "exampleIntro": "Por ejemplo:",
+    "exampleItems": [
+      "gasto total — 1 200;",
+      "número de transacciones — 8;",
+      "importe medio — 150."
+    ],
+    "closingParagraphs": [
+      "El importe medio ayuda a comparar el tipo de gasto entre distintos meses.",
+      "Por ejemplo, el gasto total asociado a una etiqueta puede aumentar por dos motivos distintos:"
+    ],
+    "reasons": [
+      "las compras comenzaron a realizarse con mayor frecuencia;",
+      "cada compra individual se volvió más cara."
+    ],
+    "outroParagraphs": [
+      "Si el número de transacciones apenas cambió pero el importe medio aumentó, probablemente aumentó el tamaño de las compras individuales.",
+      "Si el importe medio se mantuvo aproximadamente igual pero hubo más transacciones, el aumento del gasto total se debe principalmente a una mayor frecuencia.",
+      "Sin embargo, el importe medio no muestra el valor exacto de cada compra. Varias transacciones pequeñas y una grande pueden producir la misma media que varias compras de importes similares. Por eso conviene analizar este indicador junto con el histograma."
+    ]
+  },
+  "histogram": {
+    "title": "Cómo leer el histograma",
+    "paragraphs": [
+      "El eje horizontal del histograma muestra los días del mes.",
+      "El eje vertical muestra el importe gastado.",
+      "Cada barra indica cuánto dinero se gastó en total con la etiqueta seleccionada en un día concreto.",
+      "Si se realizaron varias transacciones con esa etiqueta el mismo día, sus importes se suman y se muestran como una sola barra."
+    ],
+    "exampleIntro": "Por ejemplo, si el día 10 se realizaron dos compras:",
+    "exampleItems": [
+      "50;",
+      "120;"
+    ],
+    "closingParagraphs": [
+      "el gráfico mostrará una barra de 170 para ese día.",
+      "Si no aparece una barra en un día determinado, significa que no hubo gastos con la etiqueta seleccionada ese día."
+    ]
+  },
+  "singlePeak": {
+    "title": "Una barra alta",
+    "paragraphs": [
+      "Un pico claramente visible suele indicar que una parte importante del gasto se concentró en un solo día."
+    ],
+    "listIntro": "Puede tratarse de:",
+    "items": [
+      "una compra grande;",
+      "varios gastos realizados el mismo día;",
+      "un evento planificado;",
+      "un gasto inesperado y no planificado."
+    ],
+    "closingParagraphs": [
+      "Por ejemplo, si casi todo el gasto con la etiqueta «Ropa» se concentra en un solo día, probablemente se trate de una compra puntual y no de un gasto recurrente.",
+      "En esta situación, un solo mes no siempre es suficiente para identificar un hábito permanente. Es más útil comparar la misma etiqueta con otros meses y comprobar si se repiten picos similares."
+    ]
+  },
+  "multiplePeaks": {
+    "title": "Varios picos",
+    "paragraphs": [
+      "Varias barras altas muestran que se produjeron gastos importantes en distintos días."
+    ],
+    "listIntro": "Si los picos aparecen a intervalos aproximadamente regulares, pueden indicar un patrón recurrente:",
+    "items": [
+      "compras durante el fin de semana;",
+      "pedidos semanales;",
+      "encuentros periódicos;",
+      "compras recurrentes."
+    ],
+    "closingParagraphs": [
+      "Por ejemplo, los gastos con la etiqueta «Comida a domicilio» cada viernes pueden indicar un hábito semanal estable.",
+      "Si los picos aparecen sin una regularidad clara, es posible que los gastos estén relacionados con eventos concretos y no con un comportamiento recurrente."
+    ]
+  },
+  "manySmallBars": {
+    "title": "Muchas barras pequeñas",
+    "paragraphs": [
+      "Un gran número de barras bajas significa que los gastos se produjeron con frecuencia, pero los importes individuales fueron relativamente pequeños."
+    ],
+    "listIntro": "Este patrón es habitual en gastos como:",
+    "items": [
+      "café;",
+      "aperitivos;",
+      "transporte;",
+      "pequeñas compras para el hogar;",
+      "entretenimiento cotidiano."
+    ],
+    "closingParagraphs": [
+      "Este tipo de gastos es fácil de infravalorar al revisar una lista de transacciones. Cada compra puede parecer insignificante, pero juntas pueden sumar una cantidad considerable a lo largo del mes."
+    ],
+    "actionsIntro": "En este caso hay dos formas principales de modificar los gastos:",
+    "actions": [
+      "realizar compras con menos frecuencia;",
+      "reducir el importe medio de cada compra."
+    ],
+    "outroParagraphs": [
+      "El número de transacciones y el importe medio ayudan a determinar qué enfoque resulta más útil."
+    ]
+  },
+  "evenDistribution": {
+    "title": "Gastos distribuidos uniformemente",
+    "paragraphs": [
+      "Si las barras están repartidas por todo el mes sin picos pronunciados, los gastos se producen de forma relativamente regular.",
+      "Puede ser un patrón normal en gastos cotidianos como alimentos, transporte u otras compras recurrentes.",
+      "Una distribución uniforme no significa por sí sola que los gastos sean demasiado altos ni que estén bajo control. Solo indica que el total no se formó a partir de una o unas pocas compras aisladas."
+    ]
+  },
+  "startOfMonth": {
+    "title": "Gastos al principio del mes",
+    "paragraphs": [
+      "Si la mayoría de las barras se concentran al principio del mes, el dinero asociado a la etiqueta seleccionada se gasta principalmente poco después de financiar el fondo o recibir ingresos.",
+      "Esto puede ser normal en compras periódicas o pagos necesarios.",
+      "Por ejemplo, una compra grande de alimentos al principio del mes puede estar planificada. Pero si se trata de gastos opcionales, este patrón puede hacer que quede demasiado poco dinero para el resto del mes.",
+      "En este caso puede ser útil comprobar si el saldo del fondo alcanza hasta final de mes y si después es necesario compensar los gastos realizados al principio."
+    ]
+  },
+  "endOfMonth": {
+    "title": "Gastos al final del mes",
+    "listIntro": "Si los gastos se concentran hacia el final del mes, puede haber varios motivos:",
+    "items": [
+      "las compras se aplazan habitualmente;",
+      "el saldo restante del fondo se percibe como disponible para gastos adicionales;",
+      "los eventos planificados tienen lugar al final del mes;",
+      "los gastos se retrasan hasta la siguiente aportación."
+    ],
+    "closingParagraphs": [
+      "Este patrón no indica necesariamente un problema. Lo importante es comprobar si se repite cada mes y si encaja con el propósito del fondo.",
+      "Por ejemplo, gastar al final del mes el dinero restante de un fondo «Entretenimiento» puede ser una decisión consciente. El mismo hábito en un fondo destinado a gastos esenciales puede aumentar el riesgo de quedarse sin dinero."
+    ]
+  },
+  "whyExpensesGrew": {
+    "title": "Cómo entender por qué aumentaron los gastos",
+    "lead": "Si el gasto total asociado a una etiqueta ha aumentado, compara tres indicadores con los meses anteriores.",
+    "moreOperations": {
+      "title": "Aumentó el número de transacciones",
+      "paragraphs": [
+        "Las compras comenzaron a realizarse con mayor frecuencia.",
+        "Por ejemplo, la comida a domicilio puede haberse pedido diez veces en lugar de cuatro. Aunque el coste de cada pedido no haya cambiado, el total aumenta considerablemente.",
+        "En este caso, la principal causa del aumento es la frecuencia de los gastos."
+      ]
+    },
+    "higherAverage": {
+      "title": "Aumentó el importe medio",
+      "paragraphs": [
+        "Cada compra individual se volvió más cara."
+      ],
+      "listIntro": "Entre las posibles causas se encuentran:",
+      "items": [
+        "subidas de precios;",
+        "cambios en tus elecciones habituales;",
+        "comprar mayores cantidades;",
+        "pasar a productos o servicios más caros."
+      ],
+      "closingParagraphs": [
+        "En este caso, reducir el número de transacciones no es la única opción. También puedes reducir el importe medio de cada gasto."
+      ]
+    },
+    "largePeak": {
+      "title": "Apareció un pico grande aislado",
+      "paragraphs": [
+        "El aumento fue provocado por una o varias compras inusualmente grandes.",
+        "Si el gasto fue puntual y estaba planificado, no tiene por qué requerir un cambio de hábitos.",
+        "Pero si los grandes picos se repiten cada mes, conviene considerarlos una parte habitual de los gastos."
+      ]
+    }
+  },
+  "compareMonths": {
+    "title": "Cómo comparar distintos meses",
+    "paragraphs": [
+      "Comparar varios meses ayuda a distinguir un evento puntual de un patrón recurrente."
+    ],
+    "metricsIntro": "Presta atención a:",
+    "metrics": [
+      "gasto total;",
+      "número de transacciones;",
+      "importe medio;",
+      "posición de los picos;",
+      "distribución de los gastos a lo largo del mes."
+    ],
+    "closingParagraphs": [
+      "Por ejemplo, el mismo total en dos meses puede tener una estructura muy diferente:"
+    ],
+    "structureItems": [
+      "en un mes puede haber una sola compra grande;",
+      "en otro, muchas pequeñas compras recurrentes."
+    ],
+    "outroParagraphs": [
+      "El resultado financiero es el mismo, pero las causas y las posibles acciones son diferentes."
+    ],
+    "eventsIntro": "Ten también en cuenta los eventos que pueden haber cambiado temporalmente el patrón:",
+    "events": [
+      "festivos;",
+      "vacaciones;",
+      "visitas de invitados;",
+      "una mudanza;",
+      "reformas o reparaciones;",
+      "una compra grande puntual;",
+      "un cambio temporal en el horario de trabajo o el estilo de vida."
+    ]
+  },
+  "whatToChange": {
+    "title": "Qué puedes cambiar según el informe",
+    "openingParagraphs": [
+      "El informe no determina automáticamente qué gastos son innecesarios. Ayuda a entender de qué se compone el total y qué está provocando sus cambios.",
+      "Dependiendo del patrón observado, pueden ser útiles distintas acciones."
+    ],
+    "reduceFrequency": {
+      "title": "Reducir la frecuencia",
+      "paragraphs": [
+        "Es especialmente útil para gastos con un gran número de transacciones.",
+        "Por ejemplo, en lugar de comprar café todos los días, puedes decidir de antemano cuántas veces por semana quieres hacerlo."
+      ]
+    },
+    "reduceAverage": {
+      "title": "Reducir el importe medio",
+      "paragraphs": [
+        "Es útil para gastos recurrentes en los que cada transacción se ha vuelto demasiado cara.",
+        "Por ejemplo, en lugar de dejar por completo de pedir comida a domicilio, puedes elegir pedidos más baratos."
+      ]
+    },
+    "planLargePurchases": {
+      "title": "Planificar las compras grandes con antelación",
+      "paragraphs": [
+        "Si el informe muestra grandes picos aislados, puedes tener en cuenta esos gastos al distribuir el dinero entre los fondos.",
+        "Es especialmente útil si una compra importante se repite periódicamente."
+      ]
+    },
+    "reallocateJars": {
+      "title": "Redistribuir el dinero entre fondos",
+      "paragraphs": [
+        "Si los gastos asociados a una etiqueta son necesarios y superan regularmente el presupuesto disponible, el problema puede no estar en las compras en sí, sino en que el fondo recibe poco dinero.",
+        "En ese caso puedes aumentar la proporción destinada a este fondo reduciendo la de otros fondos con menor prioridad.",
+        "Si los gastos opcionales representan una parte importante del total, revisa primero su frecuencia y su importe medio."
+      ]
+    }
+  },
+  "analysisExample": {
+    "title": "Ejemplo de análisis del informe",
+    "firstExampleIntro": "Supongamos que el informe para la etiqueta «Comida a domicilio» muestra:",
+    "firstExampleMetrics": [
+      "gasto total — 1 800;",
+      "número de transacciones — 9;",
+      "importe medio — 200."
+    ],
+    "firstExampleParagraphs": [
+      "El histograma muestra que se realizaron pedidos dos o tres veces por semana, sin un único pico dominante.",
+      "Esto indica que el total se formó a partir de gastos recurrentes y no de una compra puntual."
+    ],
+    "firstExampleActionsIntro": "Posibles acciones:",
+    "firstExampleActions": [
+      "reducir el número de pedidos;",
+      "reducir el coste medio de cada pedido;",
+      "reservar de antemano una cantidad fija para los pedidos a domicilio;",
+      "mantener los gastos sin cambios si encajan con tus prioridades y tu presupuesto."
+    ],
+    "secondExampleIntro": "Otro ejemplo:",
+    "secondExampleMetrics": [
+      "gasto total — 1 800;",
+      "número de transacciones — 2;",
+      "importe medio — 900;",
+      "casi todo el importe se concentra en un solo día."
+    ],
+    "closingParagraphs": [
+      "Aquí la causa de los gastos es diferente. Probablemente hubo una compra grande o un evento concreto. Reducir la frecuencia de las compras cotidianas apenas cambiaría el resultado en esta situación."
+    ]
+  },
+  "multipleTags": {
+    "title": "Ten en cuenta las etiquetas múltiples en una transacción",
+    "paragraphs": [
+      "Una transacción puede tener varias etiquetas.",
+      "Si un gasto de 300 tiene las etiquetas «Comida a domicilio» e «Invitados», el importe completo se incluirá en el detalle de ambas etiquetas."
+    ],
+    "perspectivesIntro": "Esto permite analizar la misma transacción desde distintos puntos de vista:",
+    "perspectives": [
+      "qué se compró;",
+      "en qué circunstancias;",
+      "con qué finalidad;",
+      "si la compra estaba planificada."
+    ],
+    "closingParagraphs": [
+      "El importe no se divide entre las etiquetas.",
+      "Por eso no debes sumar los valores de varios informes por etiqueta para calcular el gasto total."
+    ],
+    "fundsMovementLinkPrefix": "Para consultar el importe realmente gastado durante el mes, utiliza el informe ",
+    "fundsMovementLinkText": "«Movimiento de fondos»",
+    "fundsMovementLinkSuffix": "."
+  },
+  "summary": {
+    "title": "Lo más importante",
+    "paragraphs": [
+      "El informe «Detalle de gastos por etiqueta» ayuda a entender no solo cuánto dinero se ha gastado, sino también cómo se ha formado ese total.",
+      "El gasto total muestra el impacto financiero de los gastos.",
+      "El número de transacciones muestra su frecuencia.",
+      "El importe medio ayuda a entender el tamaño habitual de una compra individual.",
+      "El histograma muestra cómo se distribuyeron los gastos entre los días del mes y ayuda a distinguir:"
+    ],
+    "histogramInsights": [
+      "una compra grande puntual;",
+      "gastos recurrentes;",
+      "muchas transacciones pequeñas;",
+      "picos recurrentes;",
+      "gastos concentrados al principio o al final del mes."
+    ],
+    "closingParagraphs": [
+      "Utiliza estos indicadores conjuntamente. El mismo importe total puede ser el resultado de comportamientos muy distintos y, por tanto, requerir decisiones diferentes."
+    ]
+  }
+}

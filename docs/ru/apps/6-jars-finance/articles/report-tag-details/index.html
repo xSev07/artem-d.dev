@@ -1,0 +1,1099 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Как читать отчёт «Детализация расходов по тегу»</title>
+  <meta name="description" content="Отчёт «Детализация расходов по тегу» помогает понять, как именно распределялись расходы с выбранным тегом в течение месяца." />
+  
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  
+  <link rel="stylesheet" href="/assets/style.css" />
+</head>
+<body>
+  <header class="site-header">
+  <div class="container site-header__inner">
+    <a class="site-header__brand" href="/">Artem D Apps</a>
+    <div class="site-header__aside">
+      
+      
+      <nav class="site-header__nav" aria-label="Навигация сайта">
+        <a
+          class="site-header__link"
+          href="/ru/apps/6-jars-finance/download/"
+          data-analytics-link="download"
+          data-analytics-placement="header"
+          
+        >Скачать приложение</a>
+        <a
+          class="site-header__link"
+          href="/ru/apps/6-jars-finance/articles/guide/"
+          
+        >Метод шести кувшинов</a>
+      </nav>
+      
+        
+
+<nav class="lang-switch" aria-label="Язык">
+  <label class="lang-switch__desktop">
+    <span class="lang-switch__visually-hidden">Язык</span>
+    <select class="lang-switch__select" data-lang-switch-select>
+      
+        <option
+          value="/en/apps/6-jars-finance/articles/report-tag-details/"
+          
+        >English</option>
+      
+        <option
+          value="/id/apps/6-jars-finance/articles/report-tag-details/"
+          
+        >Bahasa Indonesia</option>
+      
+        <option
+          value="/cs/apps/6-jars-finance/articles/report-tag-details/"
+          
+        >Čeština</option>
+      
+        <option
+          value="/de/apps/6-jars-finance/articles/report-tag-details/"
+          
+        >Deutsch</option>
+      
+        <option
+          value="/es/apps/6-jars-finance/articles/report-tag-details/"
+          
+        >Español</option>
+      
+        <option
+          value="/fr/apps/6-jars-finance/articles/report-tag-details/"
+          
+        >Français</option>
+      
+        <option
+          value="/it/apps/6-jars-finance/articles/report-tag-details/"
+          
+        >Italiano</option>
+      
+        <option
+          value="/nl/apps/6-jars-finance/articles/report-tag-details/"
+          
+        >Nederlands</option>
+      
+        <option
+          value="/pl/apps/6-jars-finance/articles/report-tag-details/"
+          
+        >Polski</option>
+      
+        <option
+          value="/pt-BR/apps/6-jars-finance/articles/report-tag-details/"
+          
+        >Português (Brasil)</option>
+      
+        <option
+          value="/ro/apps/6-jars-finance/articles/report-tag-details/"
+          
+        >Română</option>
+      
+        <option
+          value="/ru/apps/6-jars-finance/articles/report-tag-details/"
+          selected
+        >Русский</option>
+      
+        <option
+          value="/sv/apps/6-jars-finance/articles/report-tag-details/"
+          
+        >Svenska</option>
+      
+        <option
+          value="/tr/apps/6-jars-finance/articles/report-tag-details/"
+          
+        >Türkçe</option>
+      
+        <option
+          value="/uk/apps/6-jars-finance/articles/report-tag-details/"
+          
+        >Українська</option>
+      
+    </select>
+  </label>
+
+  <button
+    type="button"
+    class="lang-switch__trigger"
+    data-open-lang-switch-modal
+    aria-haspopup="dialog"
+    aria-expanded="false"
+    aria-controls="lang-switch-modal"
+  >
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        <span class="lang-switch__code">
+  RU
+</span>
+      
+    
+      
+    
+      
+    
+      
+    
+    <span class="lang-switch__arrow" aria-hidden="true">▾</span>
+  </button>
+
+  <div
+    class="modal-overlay lang-switch__modal-overlay"
+    id="lang-switch-modal"
+    hidden
+    aria-hidden="true"
+    data-lang-switch-modal
+  >
+    <div
+      class="modal lang-switch__modal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="lang-switch-modal-title"
+    >
+      <h2 class="modal__title" id="lang-switch-modal-title">Язык</h2>
+      <fieldset class="lang-switch__mobile" aria-label="Язык">
+        <div class="lang-switch__radio-list">
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/en/apps/6-jars-finance/articles/report-tag-details/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">English</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/id/apps/6-jars-finance/articles/report-tag-details/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Bahasa Indonesia</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/cs/apps/6-jars-finance/articles/report-tag-details/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Čeština</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/de/apps/6-jars-finance/articles/report-tag-details/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Deutsch</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/es/apps/6-jars-finance/articles/report-tag-details/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Español</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/fr/apps/6-jars-finance/articles/report-tag-details/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Français</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/it/apps/6-jars-finance/articles/report-tag-details/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Italiano</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/nl/apps/6-jars-finance/articles/report-tag-details/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Nederlands</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/pl/apps/6-jars-finance/articles/report-tag-details/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Polski</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/pt-BR/apps/6-jars-finance/articles/report-tag-details/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Português (Brasil)</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/ro/apps/6-jars-finance/articles/report-tag-details/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Română</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/ru/apps/6-jars-finance/articles/report-tag-details/"
+                data-lang-switch-radio
+                checked
+              />
+              <span class="lang-switch__radio-text">Русский</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/sv/apps/6-jars-finance/articles/report-tag-details/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Svenska</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/tr/apps/6-jars-finance/articles/report-tag-details/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Türkçe</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/uk/apps/6-jars-finance/articles/report-tag-details/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Українська</span>
+            </label>
+          
+        </div>
+      </fieldset>
+    </div>
+  </div>
+
+  <script src="/assets/js/lang-switch.js" defer></script>
+</nav>
+
+      
+    </div>
+  </div>
+</header>
+
+
+  <main class="article">
+    <div class="container">
+      <div class="article-layout">
+  <div class="article-container">
+    
+
+
+
+
+
+
+
+<h1>Как читать отчёт «Детализация расходов по тегу»</h1>
+
+
+<p>Отчёт «Детализация расходов по тегу» помогает понять, как именно распределялись расходы с выбранным тегом в течение месяца.</p>
+
+
+<p>Он дополняет отчёт <a href="/ru/apps/6-jars-finance/articles/report-spendings-by-tags/">«Траты по тегам»</a>. Сначала можно определить, какие теги занимают больше всего денег или встречаются чаще всего, а затем открыть один из них и посмотреть его подробнее.</p>
+<p>Отчёт строится для одного выбранного кувшина и одного тега. В него попадают только расходы:</p>
+
+<ul>
+  
+  <li>из выбранного кувшина;</li>
+  
+  <li>за выбранный месяц;</li>
+  
+  <li>с выбранным тегом.</li>
+  
+</ul>
+
+
+<nav class="article-overview" aria-labelledby="article-overview-title">
+  <h2 id="article-overview-title">Оглавление</h2>
+  <ol>
+    <li><a href="#what-it-shows">Что показывает отчёт</a></li>
+    <li><a href="#total-amount">Общая сумма расходов</a></li>
+    <li><a href="#operation-count">Количество операций</a></li>
+    <li><a href="#average-amount">Средняя сумма операции</a></li>
+    <li><a href="#histogram">Как читать гистограмму</a></li>
+    <li><a href="#single-peak">Один высокий столбец</a></li>
+    <li><a href="#multiple-peaks">Несколько пиков</a></li>
+    <li><a href="#many-small-bars">Много небольших столбцов</a></li>
+    <li><a href="#even-distribution">Равномерное распределение расходов</a></li>
+    <li><a href="#start-of-month">Расходы в начале месяца</a></li>
+    <li><a href="#end-of-month">Расходы в конце месяца</a></li>
+    <li><a href="#why-expenses-grew">Как понять, почему выросли расходы</a></li>
+    <li><a href="#compare-months">Как сравнивать разные месяцы</a></li>
+    <li><a href="#what-to-change">Что можно изменить на основе отчёта</a></li>
+    <li><a href="#analysis-example">Пример анализа отчёта</a></li>
+    <li><a href="#multiple-tags">Учитывайте несколько тегов у одной операции</a></li>
+    <li><a href="#summary">Главное</a></li>
+  </ol>
+</nav>
+
+<div class="article-section">
+<h2 id="what-it-shows">Что показывает отчёт</h2>
+<p>В верхней части отчёта отображаются три показателя:</p>
+
+<ul>
+  
+  <li>общая сумма расходов;</li>
+  
+  <li>количество операций;</li>
+  
+  <li>средняя сумма одной операции.</li>
+  
+</ul>
+
+
+
+<p>Ниже находится гистограмма, которая показывает, в какие дни месяца происходили расходы и сколько денег было потрачено в каждый день.</p>
+
+
+<p>Эти данные позволяют понять не только общий размер расходов, но и их характер:</p>
+
+<ul>
+  
+  <li>состояла ли сумма из одной крупной покупки;</li>
+  
+  <li>происходили ли расходы регулярно;</li>
+  
+  <li>были ли отдельные дни с резкими пиками;</li>
+  
+  <li>распределялись ли траты равномерно в течение месяца.</li>
+  
+</ul>
+
+</div>
+
+<div class="article-section">
+<h2 id="total-amount">Общая сумма расходов</h2>
+
+
+<p>Общая сумма показывает, сколько денег было потрачено в операциях с выбранным тегом за месяц.</p>
+
+<p>Например, если тег «Кофе» использовался в десяти операциях на общую сумму 800, в отчёте будет указана сумма 800.</p>
+
+<p>Этот показатель помогает оценить общее влияние расходов с тегом на баланс выбранного кувшина.</p>
+
+<p>Сам по себе размер суммы ещё не показывает, как именно она сформировалась. Одинаковые 800 могут означать:</p>
+
+
+
+<ul>
+  
+  <li>одну крупную покупку;</li>
+  
+  <li>четыре операции по 200;</li>
+  
+  <li>двадцать небольших покупок по 40.</li>
+  
+</ul>
+
+
+
+<p>Чтобы понять разницу между этими сценариями, нужно смотреть на количество операций, среднюю сумму и гистограмму.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="operation-count">Количество операций</h2>
+
+
+<p>Количество операций показывает, сколько расходов с выбранным тегом было совершено за месяц.</p>
+
+<p>Этот показатель помогает оценить регулярность расходов.</p>
+
+
+<p>Например:</p>
+
+<ul>
+  
+  <li>1 200 за 2 операции обычно означает несколько крупных покупок;</li>
+  
+  <li>1 200 за 20 операций — множество небольших расходов.</li>
+  
+</ul>
+
+
+
+<p>Большое количество операций не обязательно означает большой перерасход. Но оно может указывать на устойчивую привычку, которую трудно заметить при просмотре отдельных транзакций.</p>
+
+<p>Например, каждая покупка кофе может казаться незначительной, но отчёт покажет, насколько часто она происходила за месяц.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="average-amount">Средняя сумма операции</h2>
+
+
+<p>Средняя сумма показывает, сколько в среднем приходилось на один расход с выбранным тегом.</p>
+
+<p>Она рассчитывается как общая сумма расходов, разделённая на количество операций.</p>
+
+
+<p>Например:</p>
+
+<ul>
+  
+  <li>общая сумма — 1 200;</li>
+  
+  <li>количество операций — 8;</li>
+  
+  <li>средняя сумма — 150.</li>
+  
+</ul>
+
+
+
+<p>Средняя сумма помогает сравнивать характер расходов в разные месяцы.</p>
+
+<p>Например, общие расходы по тегу могли вырасти по двум разным причинам:</p>
+
+
+
+<ul>
+  
+  <li>покупки стали происходить чаще;</li>
+  
+  <li>каждая отдельная покупка стала стоить дороже.</li>
+  
+</ul>
+
+
+
+<p>Если количество операций почти не изменилось, но средняя сумма выросла, вероятно, увеличился размер отдельных покупок.</p>
+
+<p>Если средняя сумма осталась прежней, но операций стало больше, рост общих расходов связан прежде всего с частотой.</p>
+
+<p>При этом средняя сумма не показывает точный размер каждой покупки. Несколько мелких операций и одна крупная могут дать такое же среднее значение, как несколько одинаковых расходов. Поэтому этот показатель лучше рассматривать вместе с гистограммой.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="histogram">Как читать гистограмму</h2>
+
+
+<p>На горизонтальной оси гистограммы расположены дни месяца.</p>
+
+<p>На вертикальной оси отображается сумма расходов.</p>
+
+<p>Каждый столбец показывает, сколько всего денег было потрачено с выбранным тегом в конкретный день.</p>
+
+<p>Если в один день произошло несколько операций с этим тегом, их суммы складываются и отображаются одним столбцом.</p>
+
+
+<p>Например, если 10-го числа были совершены две покупки:</p>
+
+<ul>
+  
+  <li>50;</li>
+  
+  <li>120;</li>
+  
+</ul>
+
+
+
+<p>в этот день на графике будет показан столбец на сумму 170.</p>
+
+<p>Отсутствие столбца означает, что в этот день расходов с выбранным тегом не было.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="single-peak">Один высокий столбец</h2>
+
+
+<p>Один заметный пик обычно означает, что значительная часть расходов пришлась на один день.</p>
+
+
+<p>Это может быть:</p>
+
+<ul>
+  
+  <li>одна крупная покупка;</li>
+  
+  <li>несколько расходов, совершённых в один день;</li>
+  
+  <li>запланированное событие;</li>
+  
+  <li>случайная незапланированная трата.</li>
+  
+</ul>
+
+
+
+<p>Например, если почти вся сумма по тегу «Одежда» приходится на один день, вероятно, речь идёт о разовой покупке, а не о регулярном расходе.</p>
+
+<p>В такой ситуации один месяц не всегда позволяет сделать вывод о постоянной привычке. Полезнее сравнить этот тег с другими месяцами и проверить, повторяются ли подобные пики.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="multiple-peaks">Несколько пиков</h2>
+
+
+<p>Несколько высоких столбцов показывают, что крупные расходы происходили в разные дни.</p>
+
+
+<p>Если пики появляются примерно через равные промежутки, это может указывать на повторяющийся сценарий:</p>
+
+<ul>
+  
+  <li>покупки по выходным;</li>
+  
+  <li>еженедельные заказы;</li>
+  
+  <li>регулярные встречи;</li>
+  
+  <li>периодические закупки.</li>
+  
+</ul>
+
+
+
+<p>Например, траты по тегу «Доставка еды» каждую пятницу могут означать устойчивую еженедельную привычку.</p>
+
+<p>Если пики расположены без явной закономерности, расходы могли быть связаны с отдельными событиями, а не с регулярным поведением.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="many-small-bars">Много небольших столбцов</h2>
+
+
+<p>Большое количество невысоких столбцов означает, что расходы происходили часто, но отдельные суммы были небольшими.</p>
+
+
+<p>Так обычно выглядят:</p>
+
+<ul>
+  
+  <li>кофе;</li>
+  
+  <li>перекусы;</li>
+  
+  <li>транспорт;</li>
+  
+  <li>небольшие бытовые покупки;</li>
+  
+  <li>повседневные развлечения.</li>
+  
+</ul>
+
+
+
+<p>Именно такие расходы легко недооценить при просмотре списка транзакций. Каждая покупка кажется незначительной, но вместе они могут сформировать заметную сумму за месяц.</p>
+
+
+<p>В этом случае возможны два способа изменить расходы:</p>
+
+<ul>
+  
+  <li>совершать покупки реже;</li>
+  
+  <li>уменьшить средний размер одной покупки.</li>
+  
+</ul>
+
+
+
+<p>Какой способ будет полезнее, можно понять по количеству операций и средней сумме.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="even-distribution">Равномерное распределение расходов</h2>
+
+
+<p>Если столбцы распределены по всему месяцу без резких пиков, расходы происходят относительно регулярно.</p>
+
+<p>Так может выглядеть нормальная структура повседневных расходов: продукты, транспорт или другие повторяющиеся покупки.</p>
+
+<p>Равномерность сама по себе не означает, что расходы слишком велики или, наоборот, находятся под контролем. Она показывает только то, что сумма не была сформирована одной или несколькими отдельными покупками.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="start-of-month">Расходы в начале месяца</h2>
+
+
+<p>Если большая часть столбцов сосредоточена в начале месяца, деньги по выбранному тегу расходуются преимущественно сразу после пополнения кувшина или получения дохода.</p>
+
+<p>Это может быть естественно для регулярных закупок или обязательных платежей.</p>
+
+<p>Например, крупная закупка продуктов в начале месяца может быть запланированной. Но если речь идёт о необязательных расходах, такая картина может привести к тому, что на оставшуюся часть месяца средств будет недостаточно.</p>
+
+<p>В этом случае полезно проверить, хватает ли баланса кувшина до конца месяца и не приходится ли позже компенсировать ранние расходы.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="end-of-month">Расходы в конце месяца</h2>
+<p>Если траты сосредоточены ближе к концу месяца, возможны разные причины:</p>
+
+<ul>
+  
+  <li>покупки регулярно откладываются;</li>
+  
+  <li>остаток в кувшине воспринимается как доступный для дополнительных расходов;</li>
+  
+  <li>в конце месяца происходят запланированные события;</li>
+  
+  <li>расходы переносятся до следующего пополнения.</li>
+  
+</ul>
+
+
+
+<p>Такая картина не обязательно указывает на проблему. Важно оценить, повторяется ли она каждый месяц и соответствует ли назначению кувшина.</p>
+
+<p>Например, использование оставшихся денег из кувшина «Развлечения» в конце месяца может быть сознательным решением. Для кувшина с обязательными расходами такая же привычка может создавать риск нехватки средств.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="why-expenses-grew">Как понять, почему выросли расходы</h2>
+<p>Если общая сумма по тегу стала больше, сравните три показателя с предыдущими месяцами.</p>
+<div class="article-subsection">
+<h3>Увеличилось количество операций</h3>
+
+
+<p>Покупки стали происходить чаще.</p>
+
+<p>Например, доставка еды заказывалась не четыре, а десять раз. Даже если стоимость одного заказа не изменилась, общая сумма заметно выросла.</p>
+
+<p>В этом случае главный фактор роста — частота расходов.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Увеличилась средняя сумма</h3>
+
+
+<p>Каждая отдельная покупка стала обходиться дороже.</p>
+
+
+<p>Причиной может быть:</p>
+
+<ul>
+  
+  <li>рост цен;</li>
+  
+  <li>изменение привычного выбора;</li>
+  
+  <li>увеличение объёма покупки;</li>
+  
+  <li>переход к более дорогим товарам или услугам.</li>
+  
+</ul>
+
+
+
+<p>В этом случае сокращение количества операций не является единственным вариантом. Можно также пересмотреть средний размер расхода.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Появился отдельный крупный пик</h3>
+
+
+<p>Рост сформировала одна или несколько необычно крупных покупок.</p>
+
+<p>Если такая трата была разовой и запланированной, она не обязательно требует изменений в привычках.</p>
+
+<p>Но если крупные пики повторяются каждый месяц, их уже стоит рассматривать как регулярную часть расходов.</p>
+
+
+</div>
+</div>
+
+<div class="article-section">
+<h2 id="compare-months">Как сравнивать разные месяцы</h2>
+
+
+<p>Сравнение нескольких месяцев помогает отличить разовое событие от устойчивой закономерности.</p>
+
+
+<p>Обращайте внимание на:</p>
+
+<ul>
+  
+  <li>общую сумму;</li>
+  
+  <li>количество операций;</li>
+  
+  <li>среднюю сумму;</li>
+  
+  <li>расположение пиков;</li>
+  
+  <li>распределение расходов по месяцу.</li>
+  
+</ul>
+
+
+
+<p>Например, одинаковая сумма в двух месяцах может иметь разную структуру:</p>
+
+
+
+<ul>
+  
+  <li>в первом месяце — одна крупная покупка;</li>
+  
+  <li>во втором — множество небольших регулярных расходов.</li>
+  
+</ul>
+
+
+
+<p>Финансовый результат одинаков, но причины и возможные действия различаются.</p>
+
+
+<p>Также учитывайте события, которые могли временно изменить картину:</p>
+
+<ul>
+  
+  <li>праздники;</li>
+  
+  <li>отпуск;</li>
+  
+  <li>приезд гостей;</li>
+  
+  <li>переезд;</li>
+  
+  <li>ремонт;</li>
+  
+  <li>разовую крупную покупку;</li>
+  
+  <li>изменение графика работы или образа жизни.</li>
+  
+</ul>
+
+</div>
+
+<div class="article-section">
+<h2 id="what-to-change">Что можно изменить на основе отчёта</h2>
+
+
+<p>Отчёт не определяет автоматически, какие расходы лишние. Он помогает понять, из чего состоит общая сумма и за счёт чего она меняется.</p>
+
+<p>В зависимости от картины можно принять разные решения.</p>
+
+
+<div class="article-subsection">
+<h3>Уменьшить частоту</h3>
+
+
+<p>Подходит для расходов с большим количеством операций.</p>
+
+<p>Например, вместо ежедневной покупки кофе можно заранее определить, сколько раз в неделю она допустима.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Уменьшить среднюю сумму</h3>
+
+
+<p>Подходит для регулярных расходов, где каждая операция стала слишком дорогой.</p>
+
+<p>Например, можно не отказываться от доставки еды полностью, а выбирать более дешёвые заказы.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Планировать крупные покупки заранее</h3>
+
+
+<p>Если отчёт показывает отдельные большие пики, такие расходы можно учитывать при распределении денег по кувшинам.</p>
+
+<p>Это особенно полезно, если крупная покупка повторяется периодически.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Перераспределить средства между кувшинами</h3>
+
+
+<p>Если расходы с тегом необходимы и регулярно превышают доступный бюджет, проблема может быть не в самих покупках, а в недостаточном финансировании кувшина.</p>
+
+<p>В таком случае можно увеличить долю этого кувшина за счёт кувшинов с меньшим приоритетом.</p>
+
+<p>Если же значительную часть суммы создают необязательные расходы, сначала стоит оценить их частоту и средний размер.</p>
+
+
+</div>
+</div>
+
+<div class="article-section">
+<h2 id="analysis-example">Пример анализа отчёта</h2>
+<p>Предположим, отчёт по тегу «Доставка еды» показывает:</p>
+
+<ul>
+  
+  <li>общая сумма — 1 800;</li>
+  
+  <li>количество операций — 9;</li>
+  
+  <li>средняя сумма — 200.</li>
+  
+</ul>
+
+
+
+<p>На гистограмме видно, что заказы происходили два или три раза в неделю, без одного крупного пика.</p>
+
+<p>Из этого можно сделать вывод, что сумма сформировалась не разовой покупкой, а регулярными расходами.</p>
+
+
+<p>Возможные действия:</p>
+
+<ul>
+  
+  <li>уменьшить количество заказов;</li>
+  
+  <li>снизить среднюю стоимость заказа;</li>
+  
+  <li>заранее выделять на доставку фиксированную сумму;</li>
+  
+  <li>оставить расходы без изменений, если они соответствуют приоритетам и бюджету.</li>
+  
+</ul>
+
+<p>Другой пример:</p>
+
+<ul>
+  
+  <li>общая сумма — 1 800;</li>
+  
+  <li>количество операций — 2;</li>
+  
+  <li>средняя сумма — 900;</li>
+  
+  <li>почти вся сумма приходится на один день.</li>
+  
+</ul>
+
+
+
+<p>Здесь причина расходов другая. Вероятно, была одна крупная покупка или событие. Сокращение повседневной частоты в такой ситуации ничего не изменит.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="multiple-tags">Учитывайте несколько тегов у одной операции</h2>
+
+
+<p>Одна операция может иметь несколько тегов.</p>
+
+<p>Если расход на 300 отмечен тегами «Доставка еды» и «Гости», вся сумма попадёт в детализацию каждого из этих тегов.</p>
+
+
+<p>Это позволяет анализировать одну операцию с разных сторон:</p>
+
+<ul>
+  
+  <li>что было куплено;</li>
+  
+  <li>при каких обстоятельствах;</li>
+  
+  <li>для какой цели;</li>
+  
+  <li>была ли покупка запланирована.</li>
+  
+</ul>
+
+
+
+<p>При этом сумма не делится между тегами.</p>
+
+<p>Поэтому не следует складывать показатели нескольких отчётов по тегам для расчёта общих расходов.</p>
+
+
+<p>Фактическую сумму списаний за месяц лучше смотреть в отчёте <a href="/ru/apps/6-jars-finance/articles/report-funds-movement/">«Движение средств»</a>.</p>
+</div>
+
+<div class="article-section">
+<h2 id="summary">Главное</h2>
+
+
+<p>Отчёт «Детализация расходов по тегу» помогает понять не только сколько денег было потрачено, но и как сформировалась эта сумма.</p>
+
+<p>Общая сумма показывает финансовое влияние расходов.</p>
+
+<p>Количество операций показывает их частоту.</p>
+
+<p>Средняя сумма помогает понять размер одной типичной покупки.</p>
+
+<p>Гистограмма показывает распределение расходов по дням месяца и помогает отличить:</p>
+
+
+
+<ul>
+  
+  <li>разовую крупную покупку;</li>
+  
+  <li>регулярные траты;</li>
+  
+  <li>множество небольших операций;</li>
+  
+  <li>повторяющиеся пики;</li>
+  
+  <li>расходы, сосредоточенные в начале или конце месяца.</li>
+  
+</ul>
+
+
+
+<p>Используйте эти показатели вместе. Одинаковая сумма может быть результатом совершенно разного поведения, а значит, требовать разных решений.</p>
+
+
+</div>
+
+  </div>
+  <aside class="article-toc" aria-label="Навигация по странице">
+    <nav class="article-toc__nav">
+      <p class="article-toc__title">На этой странице</p>
+      <ol class="article-toc__list"></ol>
+    </nav>
+  </aside>
+</div>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+  <div class="container site-footer__inner">
+    <p class="site-footer__copyright">© 2026 Artem D Apps</p>
+    <nav class="site-footer__nav" aria-label="Информация о сайте">
+      <a class="site-footer__link" href="/ru/apps/6-jars-finance/help/">Информация об ошибке</a>
+      <a class="site-footer__link" href="/ru/apps/6-jars-finance/articles/report-funds-movement/">Отчёт «Движение средств»</a>
+      <a class="site-footer__link" href="/ru/apps/6-jars-finance/articles/report-spendings-by-tags/">Отчёт «Траты по тегам»</a>
+      <a class="site-footer__link" href="/ru/apps/6-jars-finance/articles/report-tag-details/">Детализация расходов по тегу</a>
+      <a class="site-footer__link" href="/ru/apps/6-jars-finance/privacy/">Политика конфиденциальности</a>
+      <a class="site-footer__link" href="/ru/apps/6-jars-finance/licenses/">Лицензии открытого ПО</a>
+    </nav>
+  </div>
+</footer>
+
+  
+  <script src="/assets/article-toc.js" defer></script>
+
+  
+  <script src="/assets/js/analytics.js" defer></script>
+</body>
+</html>

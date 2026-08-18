@@ -1,0 +1,401 @@
+{
+  "title": "Come leggere il report “Dettaglio delle spese per tag”",
+  "metaDescription": "Il report “Dettaglio delle spese per tag” aiuta a capire come le spese associate a un tag selezionato si sono distribuite nel corso del mese.",
+  "intro": {
+    "paragraphs": [
+      "Il report “Dettaglio delle spese per tag” aiuta a capire come le spese associate a un tag selezionato si sono distribuite nel corso del mese."
+    ],
+    "spendingsByTagsLinkPrefix": "Completa il report ",
+    "spendingsByTagsLinkText": "“Spese per tag”",
+    "spendingsByTagsLinkSuffix": ". Prima puoi individuare quali tag rappresentano le spese maggiori o compaiono più spesso, quindi aprirne uno e analizzarlo più nel dettaglio.",
+    "listIntro": "Il report viene generato per un fondo selezionato e un tag. Include solo le spese:",
+    "items": [
+      "del fondo selezionato;",
+      "del mese selezionato;",
+      "associate al tag selezionato."
+    ]
+  },
+  "overview": {
+    "title": "Indice",
+    "whatItShows": "Cosa mostra il report",
+    "totalAmount": "Spesa totale",
+    "operationCount": "Numero di transazioni",
+    "averageAmount": "Importo medio per transazione",
+    "histogram": "Come leggere l’istogramma",
+    "singlePeak": "Una barra alta",
+    "multiplePeaks": "Diversi picchi",
+    "manySmallBars": "Molte barre piccole",
+    "evenDistribution": "Spese distribuite uniformemente",
+    "startOfMonth": "Spese all’inizio del mese",
+    "endOfMonth": "Spese alla fine del mese",
+    "whyExpensesGrew": "Come capire perché le spese sono aumentate",
+    "compareMonths": "Come confrontare mesi diversi",
+    "whatToChange": "Cosa puoi cambiare in base al report",
+    "analysisExample": "Esempio di analisi del report",
+    "multipleTags": "Tieni conto dei tag multipli in una transazione",
+    "summary": "In sintesi"
+  },
+  "whatItShows": {
+    "title": "Cosa mostra il report",
+    "metricsIntro": "Nella parte superiore del report vengono mostrati tre indicatori:",
+    "metrics": [
+      "spesa totale;",
+      "numero di transazioni;",
+      "importo medio per transazione."
+    ],
+    "paragraphs": [
+      "Sotto è presente un istogramma che mostra in quali giorni del mese si sono verificate le spese e quanto è stato speso ogni giorno."
+    ],
+    "insightsIntro": "Questi dati aiutano a capire non solo quanto è stato speso complessivamente, ma anche la struttura delle spese:",
+    "insights": [
+      "se il totale deriva da un singolo acquisto importante;",
+      "se le spese si sono verificate regolarmente;",
+      "se ci sono stati singoli giorni con picchi evidenti;",
+      "se le spese sono state distribuite uniformemente nel corso del mese."
+    ]
+  },
+  "totalAmount": {
+    "title": "Spesa totale",
+    "paragraphs": [
+      "La spesa totale mostra quanto denaro è stato speso durante il mese in transazioni associate al tag selezionato.",
+      "Ad esempio, se il tag “Caffè” è stato utilizzato in dieci transazioni per un totale di 800, il report mostrerà 800.",
+      "Questo indicatore aiuta a valutare l’impatto complessivo delle spese associate al tag sul saldo del fondo selezionato.",
+      "Il totale da solo non mostra però come si è formato. Gli stessi 800 possono significare:"
+    ],
+    "scenarios": [
+      "un singolo acquisto importante;",
+      "quattro transazioni da 200;",
+      "venti piccoli acquisti da 40."
+    ],
+    "closingParagraphs": [
+      "Per capire la differenza tra questi scenari, osserva insieme il numero di transazioni, l’importo medio e l’istogramma."
+    ]
+  },
+  "operationCount": {
+    "title": "Numero di transazioni",
+    "paragraphs": [
+      "Il numero di transazioni mostra quante spese associate al tag selezionato sono state effettuate durante il mese.",
+      "Questo indicatore aiuta a valutare la regolarità delle spese."
+    ],
+    "exampleIntro": "Ad esempio:",
+    "exampleItems": [
+      "1 200 in 2 transazioni indicano generalmente alcuni acquisti importanti;",
+      "1 200 in 20 transazioni indicano molte piccole spese."
+    ],
+    "closingParagraphs": [
+      "Un numero elevato di transazioni non significa necessariamente spendere troppo. Può però indicare un’abitudine ricorrente difficile da notare osservando le singole transazioni.",
+      "Ad esempio, ogni acquisto di caffè può sembrare insignificante, mentre il report mostra quanto spesso è avvenuto durante il mese."
+    ]
+  },
+  "averageAmount": {
+    "title": "Importo medio per transazione",
+    "paragraphs": [
+      "L’importo medio mostra quanto è stato speso in media per ogni spesa associata al tag selezionato.",
+      "Si calcola dividendo la spesa totale per il numero di transazioni."
+    ],
+    "exampleIntro": "Ad esempio:",
+    "exampleItems": [
+      "spesa totale — 1 200;",
+      "numero di transazioni — 8;",
+      "importo medio — 150."
+    ],
+    "closingParagraphs": [
+      "L’importo medio aiuta a confrontare il tipo di spesa tra mesi diversi.",
+      "Ad esempio, la spesa totale associata a un tag può aumentare per due motivi diversi:"
+    ],
+    "reasons": [
+      "gli acquisti sono diventati più frequenti;",
+      "ogni singolo acquisto è diventato più costoso."
+    ],
+    "outroParagraphs": [
+      "Se il numero di transazioni è rimasto quasi invariato ma l’importo medio è aumentato, probabilmente sono aumentati gli importi dei singoli acquisti.",
+      "Se l’importo medio è rimasto più o meno uguale ma il numero di transazioni è aumentato, la crescita della spesa totale dipende soprattutto dalla maggiore frequenza.",
+      "L’importo medio non mostra però l’importo esatto di ogni acquisto. Diverse piccole transazioni e una grande possono produrre la stessa media di diverse spese di importo simile. Per questo è meglio analizzare questo indicatore insieme all’istogramma."
+    ]
+  },
+  "histogram": {
+    "title": "Come leggere l’istogramma",
+    "paragraphs": [
+      "Sull’asse orizzontale dell’istogramma sono indicati i giorni del mese.",
+      "Sull’asse verticale è indicato l’importo speso.",
+      "Ogni barra mostra quanto denaro è stato speso complessivamente con il tag selezionato in un determinato giorno.",
+      "Se nello stesso giorno sono state effettuate più transazioni con questo tag, i relativi importi vengono sommati e mostrati come una singola barra."
+    ],
+    "exampleIntro": "Ad esempio, se il giorno 10 sono stati effettuati due acquisti:",
+    "exampleItems": [
+      "50;",
+      "120;"
+    ],
+    "closingParagraphs": [
+      "il grafico mostrerà una barra di 170 per quel giorno.",
+      "L’assenza di una barra significa che in quel giorno non ci sono state spese associate al tag selezionato."
+    ]
+  },
+  "singlePeak": {
+    "title": "Una barra alta",
+    "paragraphs": [
+      "Un picco evidente significa generalmente che una parte significativa delle spese si è concentrata in un solo giorno."
+    ],
+    "listIntro": "Può trattarsi di:",
+    "items": [
+      "un acquisto importante;",
+      "più spese effettuate nello stesso giorno;",
+      "un evento pianificato;",
+      "una spesa imprevista."
+    ],
+    "closingParagraphs": [
+      "Ad esempio, se quasi tutta la spesa associata al tag “Abbigliamento” si concentra in un solo giorno, probabilmente si tratta di un acquisto occasionale e non di una spesa ricorrente.",
+      "In questa situazione un solo mese non è sempre sufficiente per individuare un’abitudine stabile. È più utile confrontare lo stesso tag con altri mesi e verificare se picchi simili si ripetono."
+    ]
+  },
+  "multiplePeaks": {
+    "title": "Diversi picchi",
+    "paragraphs": [
+      "Diverse barre alte mostrano che spese importanti si sono verificate in giorni differenti."
+    ],
+    "listIntro": "Se i picchi compaiono a intervalli approssimativamente regolari, possono indicare uno schema ricorrente:",
+    "items": [
+      "acquisti nel fine settimana;",
+      "ordini settimanali;",
+      "incontri regolari;",
+      "acquisti periodici."
+    ],
+    "closingParagraphs": [
+      "Ad esempio, spese associate al tag “Consegna di cibo” ogni venerdì possono indicare un’abitudine settimanale stabile.",
+      "Se i picchi compaiono senza una regolarità evidente, le spese possono essere legate a eventi specifici anziché a un comportamento ricorrente."
+    ]
+  },
+  "manySmallBars": {
+    "title": "Molte barre piccole",
+    "paragraphs": [
+      "Un gran numero di barre basse significa che le spese si sono verificate spesso, ma i singoli importi erano relativamente piccoli."
+    ],
+    "listIntro": "Questo è tipico, ad esempio, delle spese per:",
+    "items": [
+      "caffè;",
+      "spuntini;",
+      "trasporti;",
+      "piccoli acquisti per la casa;",
+      "intrattenimento quotidiano."
+    ],
+    "closingParagraphs": [
+      "Spese di questo tipo sono facili da sottovalutare guardando l’elenco delle transazioni. Ogni acquisto può sembrare insignificante, ma insieme possono formare una somma rilevante nel corso del mese."
+    ],
+    "actionsIntro": "In questo caso ci sono due modi principali per modificare le spese:",
+    "actions": [
+      "effettuare acquisti meno spesso;",
+      "ridurre l’importo medio di ogni acquisto."
+    ],
+    "outroParagraphs": [
+      "Il numero di transazioni e l’importo medio aiutano a capire quale approccio sia più adatto."
+    ]
+  },
+  "evenDistribution": {
+    "title": "Spese distribuite uniformemente",
+    "paragraphs": [
+      "Se le barre sono distribuite lungo tutto il mese senza picchi marcati, le spese si verificano in modo relativamente regolare.",
+      "Può essere una struttura normale per spese quotidiane come generi alimentari, trasporti o altri acquisti ricorrenti.",
+      "Una distribuzione uniforme non significa di per sé che le spese siano troppo elevate o, al contrario, sotto controllo. Indica solo che il totale non è stato generato da uno o pochi acquisti isolati."
+    ]
+  },
+  "startOfMonth": {
+    "title": "Spese all’inizio del mese",
+    "paragraphs": [
+      "Se la maggior parte delle barre è concentrata all’inizio del mese, il denaro associato al tag selezionato viene speso principalmente poco dopo il finanziamento del fondo o la ricezione del reddito.",
+      "Può essere normale per acquisti regolari o pagamenti necessari.",
+      "Ad esempio, una grande spesa per generi alimentari all’inizio del mese può essere pianificata. Se invece si tratta di spese facoltative, questo comportamento può lasciare troppo poco denaro per il resto del mese.",
+      "In questo caso può essere utile verificare se il saldo del fondo è sufficiente fino alla fine del mese e se le spese iniziali devono essere compensate successivamente."
+    ]
+  },
+  "endOfMonth": {
+    "title": "Spese alla fine del mese",
+    "listIntro": "Se le spese si concentrano verso la fine del mese, possono esserci diversi motivi:",
+    "items": [
+      "gli acquisti vengono rimandati regolarmente;",
+      "il saldo residuo del fondo viene percepito come disponibile per spese aggiuntive;",
+      "gli eventi pianificati si verificano a fine mese;",
+      "le spese vengono rimandate fino al successivo finanziamento."
+    ],
+    "closingParagraphs": [
+      "Questo schema non indica necessariamente un problema. È importante capire se si ripete ogni mese e se è coerente con lo scopo del fondo.",
+      "Ad esempio, spendere a fine mese il denaro rimasto in un fondo “Divertimento” può essere una scelta consapevole. La stessa abitudine in un fondo destinato alle spese essenziali può invece creare il rischio di rimanere senza denaro."
+    ]
+  },
+  "whyExpensesGrew": {
+    "title": "Come capire perché le spese sono aumentate",
+    "lead": "Se la spesa totale associata a un tag è aumentata, confronta tre indicatori con i mesi precedenti.",
+    "moreOperations": {
+      "title": "Il numero di transazioni è aumentato",
+      "paragraphs": [
+        "Gli acquisti sono diventati più frequenti.",
+        "Ad esempio, la consegna di cibo può essere stata ordinata dieci volte invece di quattro. Anche se il costo di ogni ordine è rimasto invariato, il totale aumenta sensibilmente.",
+        "In questo caso il principale motivo dell’aumento è la frequenza delle spese."
+      ]
+    },
+    "higherAverage": {
+      "title": "L’importo medio è aumentato",
+      "paragraphs": [
+        "Ogni singolo acquisto è diventato più costoso."
+      ],
+      "listIntro": "Le possibili cause includono:",
+      "items": [
+        "aumenti dei prezzi;",
+        "cambiamenti nelle scelte abituali;",
+        "acquisti di quantità maggiori;",
+        "passaggio a prodotti o servizi più costosi."
+      ],
+      "closingParagraphs": [
+        "In questo caso ridurre il numero di transazioni non è l’unica possibilità. Puoi anche ridurre l’importo medio di ogni spesa."
+      ]
+    },
+    "largePeak": {
+      "title": "È comparso un singolo grande picco",
+      "paragraphs": [
+        "L’aumento è stato causato da uno o più acquisti insolitamente grandi.",
+        "Se la spesa è stata occasionale e pianificata, non richiede necessariamente un cambiamento delle abitudini.",
+        "Se invece grandi picchi si ripetono ogni mese, è meglio considerarli una parte regolare delle spese."
+      ]
+    }
+  },
+  "compareMonths": {
+    "title": "Come confrontare mesi diversi",
+    "paragraphs": [
+      "Confrontare più mesi aiuta a distinguere un evento occasionale da uno schema ricorrente."
+    ],
+    "metricsIntro": "Presta attenzione a:",
+    "metrics": [
+      "spesa totale;",
+      "numero di transazioni;",
+      "importo medio;",
+      "posizione dei picchi;",
+      "distribuzione delle spese nel corso del mese."
+    ],
+    "closingParagraphs": [
+      "Ad esempio, lo stesso totale in due mesi può avere una struttura molto diversa:"
+    ],
+    "structureItems": [
+      "in un mese può esserci un solo grande acquisto;",
+      "in un altro molte piccole spese ricorrenti."
+    ],
+    "outroParagraphs": [
+      "Il risultato finanziario è lo stesso, ma le cause e le possibili azioni sono diverse."
+    ],
+    "eventsIntro": "Tieni inoltre conto degli eventi che possono aver modificato temporaneamente la situazione:",
+    "events": [
+      "festività;",
+      "vacanze;",
+      "visite di ospiti;",
+      "un trasloco;",
+      "lavori o riparazioni;",
+      "un grande acquisto occasionale;",
+      "un cambiamento temporaneo nell’orario di lavoro o nello stile di vita."
+    ]
+  },
+  "whatToChange": {
+    "title": "Cosa puoi cambiare in base al report",
+    "openingParagraphs": [
+      "Il report non stabilisce automaticamente quali spese siano superflue. Aiuta a capire da cosa è composto il totale e cosa ne provoca le variazioni.",
+      "A seconda dello schema osservato, possono essere utili azioni diverse."
+    ],
+    "reduceFrequency": {
+      "title": "Ridurre la frequenza",
+      "paragraphs": [
+        "È particolarmente utile per le spese con un numero elevato di transazioni.",
+        "Ad esempio, invece di comprare un caffè ogni giorno, puoi decidere in anticipo quante volte alla settimana vuoi farlo."
+      ]
+    },
+    "reduceAverage": {
+      "title": "Ridurre l’importo medio",
+      "paragraphs": [
+        "È utile per spese ricorrenti in cui ogni transazione è diventata troppo costosa.",
+        "Ad esempio, invece di rinunciare completamente alla consegna di cibo, puoi scegliere ordini meno costosi."
+      ]
+    },
+    "planLargePurchases": {
+      "title": "Pianificare in anticipo i grandi acquisti",
+      "paragraphs": [
+        "Se il report mostra singoli grandi picchi, puoi tenere conto di queste spese quando distribuisci il denaro tra i fondi.",
+        "È particolarmente utile se un acquisto importante si ripete periodicamente."
+      ]
+    },
+    "reallocateJars": {
+      "title": "Ridistribuire il denaro tra i fondi",
+      "paragraphs": [
+        "Se le spese associate a un tag sono necessarie e superano regolarmente il budget disponibile, il problema potrebbe non essere negli acquisti stessi, ma nel fatto che il fondo riceve troppo poco denaro.",
+        "In questo caso puoi aumentare la quota destinata a questo fondo riducendo quella dei fondi con priorità inferiore.",
+        "Se invece le spese facoltative rappresentano una parte importante del totale, valuta prima la loro frequenza e il loro importo medio."
+      ]
+    }
+  },
+  "analysisExample": {
+    "title": "Esempio di analisi del report",
+    "firstExampleIntro": "Supponiamo che il report per il tag “Consegna di cibo” mostri:",
+    "firstExampleMetrics": [
+      "spesa totale — 1 800;",
+      "numero di transazioni — 9;",
+      "importo medio — 200."
+    ],
+    "firstExampleParagraphs": [
+      "L’istogramma mostra che gli ordini sono stati effettuati due o tre volte alla settimana, senza un singolo picco dominante.",
+      "Questo suggerisce che il totale è stato generato da spese ricorrenti e non da un acquisto occasionale."
+    ],
+    "firstExampleActionsIntro": "Possibili azioni:",
+    "firstExampleActions": [
+      "ridurre il numero di ordini;",
+      "ridurre il costo medio di ogni ordine;",
+      "destinare in anticipo una somma fissa alle consegne;",
+      "lasciare le spese invariate se sono coerenti con le tue priorità e il tuo budget."
+    ],
+    "secondExampleIntro": "Un altro esempio:",
+    "secondExampleMetrics": [
+      "spesa totale — 1 800;",
+      "numero di transazioni — 2;",
+      "importo medio — 900;",
+      "quasi tutto l’importo è concentrato in un solo giorno."
+    ],
+    "closingParagraphs": [
+      "In questo caso la causa delle spese è diversa. Probabilmente c’è stato un grande acquisto o un evento particolare. Ridurre la frequenza degli acquisti quotidiani cambierebbe poco in questa situazione."
+    ]
+  },
+  "multipleTags": {
+    "title": "Tieni conto dei tag multipli in una transazione",
+    "paragraphs": [
+      "Una transazione può avere più tag.",
+      "Se una spesa di 300 ha sia il tag “Consegna di cibo” sia il tag “Ospiti”, l’intero importo sarà incluso nei dettagli di entrambi i tag."
+    ],
+    "perspectivesIntro": "Questo permette di analizzare la stessa transazione da diverse prospettive:",
+    "perspectives": [
+      "cosa è stato acquistato;",
+      "in quali circostanze;",
+      "per quale scopo;",
+      "se l’acquisto era pianificato."
+    ],
+    "closingParagraphs": [
+      "L’importo non viene diviso tra i tag.",
+      "Per questo non bisogna sommare i valori di più report per tag per calcolare la spesa complessiva."
+    ],
+    "fundsMovementLinkPrefix": "Per conoscere l’importo effettivamente speso nel mese, consulta il report ",
+    "fundsMovementLinkText": "“Movimento dei fondi”",
+    "fundsMovementLinkSuffix": "."
+  },
+  "summary": {
+    "title": "In sintesi",
+    "paragraphs": [
+      "Il report “Dettaglio delle spese per tag” aiuta a capire non solo quanto denaro è stato speso, ma anche come si è formato il totale.",
+      "La spesa totale mostra l’impatto finanziario delle spese.",
+      "Il numero di transazioni ne mostra la frequenza.",
+      "L’importo medio aiuta a capire la dimensione tipica di un singolo acquisto.",
+      "L’istogramma mostra come le spese sono distribuite tra i giorni del mese e aiuta a distinguere:"
+    ],
+    "histogramInsights": [
+      "un grande acquisto occasionale;",
+      "spese ricorrenti;",
+      "molte piccole transazioni;",
+      "picchi ricorrenti;",
+      "spese concentrate all’inizio o alla fine del mese."
+    ],
+    "closingParagraphs": [
+      "Usa questi indicatori insieme. Lo stesso totale può derivare da comportamenti molto diversi e quindi richiedere decisioni diverse."
+    ]
+  }
+}

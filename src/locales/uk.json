@@ -13,6 +13,7 @@
       "help": "Інформація про помилку",
       "reportFundsMovement": "Funds Movement Report",
       "reportSpendingsByTags": "Spendings by Tags Report",
+      "reportTagDetails": "Tag Spending Details Report",
       "licenses": "Ліцензії відкритого ПЗ"
     }
   },

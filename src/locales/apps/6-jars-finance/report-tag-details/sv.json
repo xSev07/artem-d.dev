@@ -1,0 +1,401 @@
+{
+  "title": "Så läser du rapporten ”Detaljerade utgifter per tagg”",
+  "metaDescription": "Rapporten ”Detaljerade utgifter per tagg” hjälper dig att förstå hur utgifter med en vald tagg fördelades under månaden.",
+  "intro": {
+    "paragraphs": [
+      "Rapporten ”Detaljerade utgifter per tagg” hjälper dig att förstå hur utgifter med en vald tagg fördelades under månaden."
+    ],
+    "spendingsByTagsLinkPrefix": "Den kompletterar rapporten ",
+    "spendingsByTagsLinkText": "”Utgifter per tagg”",
+    "spendingsByTagsLinkSuffix": ". Först kan du se vilka taggar som står för de största utgifterna eller förekommer oftast och sedan öppna en av dem för att titta närmare.",
+    "listIntro": "Rapporten skapas för en vald pott och en tagg. Den innehåller bara utgifter:",
+    "items": [
+      "från den valda potten;",
+      "från den valda månaden;",
+      "med den valda taggen."
+    ]
+  },
+  "overview": {
+    "title": "Innehåll",
+    "whatItShows": "Vad rapporten visar",
+    "totalAmount": "Totala utgifter",
+    "operationCount": "Antal transaktioner",
+    "averageAmount": "Genomsnittligt transaktionsbelopp",
+    "histogram": "Så läser du histogrammet",
+    "singlePeak": "En hög stapel",
+    "multiplePeaks": "Flera toppar",
+    "manySmallBars": "Många små staplar",
+    "evenDistribution": "Jämnt fördelade utgifter",
+    "startOfMonth": "Utgifter i början av månaden",
+    "endOfMonth": "Utgifter i slutet av månaden",
+    "whyExpensesGrew": "Så tar du reda på varför utgifterna ökade",
+    "compareMonths": "Så jämför du olika månader",
+    "whatToChange": "Vad du kan ändra utifrån rapporten",
+    "analysisExample": "Exempel på analys av rapporten",
+    "multipleTags": "Tänk på att en transaktion kan ha flera taggar",
+    "summary": "Det viktigaste"
+  },
+  "whatItShows": {
+    "title": "Vad rapporten visar",
+    "metricsIntro": "Överst i rapporten visas tre värden:",
+    "metrics": [
+      "totala utgifter;",
+      "antal transaktioner;",
+      "genomsnittligt belopp per transaktion."
+    ],
+    "paragraphs": [
+      "Under dem finns ett histogram som visar vilka dagar under månaden utgifterna inträffade och hur mycket som spenderades varje dag."
+    ],
+    "insightsIntro": "Dessa uppgifter hjälper dig att förstå inte bara hur mycket som spenderades totalt, utan även mönstret bakom utgifterna:",
+    "insights": [
+      "om totalsumman kom från ett enda stort köp;",
+      "om utgifterna inträffade regelbundet;",
+      "om det fanns enskilda dagar med tydliga toppar;",
+      "om utgifterna var jämnt fördelade över månaden."
+    ]
+  },
+  "totalAmount": {
+    "title": "Totala utgifter",
+    "paragraphs": [
+      "De totala utgifterna visar hur mycket pengar som spenderades under månaden i transaktioner med den valda taggen.",
+      "Om taggen ”Kaffe” till exempel användes i tio transaktioner med ett totalt belopp på 800 visar rapporten 800.",
+      "Detta värde hjälper dig att bedöma den samlade påverkan som utgifter med taggen har på saldot i den valda potten.",
+      "Totalsumman i sig visar dock inte hur den uppstod. Samma 800 kan betyda:"
+    ],
+    "scenarios": [
+      "ett stort köp;",
+      "fyra transaktioner på 200 vardera;",
+      "tjugo små köp på 40 vardera."
+    ],
+    "closingParagraphs": [
+      "För att förstå skillnaden mellan dessa scenarier bör du titta på antalet transaktioner, genomsnittsbeloppet och histogrammet tillsammans."
+    ]
+  },
+  "operationCount": {
+    "title": "Antal transaktioner",
+    "paragraphs": [
+      "Antalet transaktioner visar hur många utgifter med den valda taggen som gjordes under månaden.",
+      "Detta värde hjälper dig att bedöma hur regelbundet utgifterna förekommer."
+    ],
+    "exampleIntro": "Till exempel:",
+    "exampleItems": [
+      "1 200 fördelat på 2 transaktioner innebär vanligtvis några större köp;",
+      "1 200 fördelat på 20 transaktioner innebär många små utgifter."
+    ],
+    "closingParagraphs": [
+      "Ett stort antal transaktioner betyder inte automatiskt att du spenderar för mycket. Det kan däremot tyda på en återkommande vana som är svår att upptäcka när du bara tittar på enskilda transaktioner.",
+      "Varje kaffeköp kan till exempel verka obetydligt i sig, medan rapporten visar hur ofta det inträffade under månaden."
+    ]
+  },
+  "averageAmount": {
+    "title": "Genomsnittligt transaktionsbelopp",
+    "paragraphs": [
+      "Genomsnittsbeloppet visar hur mycket som i genomsnitt spenderades per utgift med den valda taggen.",
+      "Det beräknas genom att de totala utgifterna delas med antalet transaktioner."
+    ],
+    "exampleIntro": "Till exempel:",
+    "exampleItems": [
+      "totala utgifter — 1 200;",
+      "antal transaktioner — 8;",
+      "genomsnittligt belopp — 150."
+    ],
+    "closingParagraphs": [
+      "Genomsnittsbeloppet hjälper dig att jämföra utgifternas karaktär mellan olika månader.",
+      "De totala utgifterna för en tagg kan till exempel ha ökat av två olika skäl:"
+    ],
+    "reasons": [
+      "köpen började ske oftare;",
+      "varje enskilt köp blev dyrare."
+    ],
+    "outroParagraphs": [
+      "Om antalet transaktioner nästan är oförändrat men genomsnittsbeloppet har ökat har de enskilda köpen troligen blivit större.",
+      "Om genomsnittsbeloppet är ungefär detsamma men antalet transaktioner har ökat beror ökningen av de totala utgifterna främst på högre frekvens.",
+      "Genomsnittsbeloppet visar dock inte exakt hur stort varje enskilt köp var. Flera små transaktioner och en stor kan ge samma genomsnitt som flera ungefär lika stora utgifter. Därför är det bäst att se detta värde tillsammans med histogrammet."
+    ]
+  },
+  "histogram": {
+    "title": "Så läser du histogrammet",
+    "paragraphs": [
+      "På histogrammets horisontella axel visas månadens dagar.",
+      "På den vertikala axeln visas beloppet som spenderades.",
+      "Varje stapel visar hur mycket pengar som totalt spenderades med den valda taggen under en viss dag.",
+      "Om flera transaktioner med taggen gjordes samma dag läggs deras belopp ihop och visas som en enda stapel."
+    ],
+    "exampleIntro": "Om det till exempel gjordes två köp den 10:e:",
+    "exampleItems": [
+      "50;",
+      "120;"
+    ],
+    "closingParagraphs": [
+      "visar diagrammet en stapel på 170 för den dagen.",
+      "Om det saknas en stapel för en viss dag betyder det att det inte fanns några utgifter med den valda taggen den dagen."
+    ]
+  },
+  "singlePeak": {
+    "title": "En hög stapel",
+    "paragraphs": [
+      "En tydlig topp betyder vanligtvis att en stor del av utgifterna inträffade under en enda dag."
+    ],
+    "listIntro": "Det kan till exempel vara:",
+    "items": [
+      "ett stort köp;",
+      "flera utgifter under samma dag;",
+      "en planerad händelse;",
+      "en oväntad och oplanerad utgift."
+    ],
+    "closingParagraphs": [
+      "Om nästan alla utgifter med taggen ”Kläder” till exempel inträffade samma dag handlar det troligen om ett engångsköp snarare än en återkommande utgift.",
+      "I en sådan situation räcker en månad inte alltid för att avgöra om det finns en varaktig vana. Det är mer användbart att jämföra samma tagg med andra månader och se om liknande toppar återkommer."
+    ]
+  },
+  "multiplePeaks": {
+    "title": "Flera toppar",
+    "paragraphs": [
+      "Flera höga staplar visar att större utgifter inträffade under olika dagar."
+    ],
+    "listIntro": "Om topparna visas med ungefär jämna mellanrum kan det tyda på ett återkommande mönster:",
+    "items": [
+      "inköp på helger;",
+      "veckovisa beställningar;",
+      "regelbundna träffar;",
+      "återkommande inköp."
+    ],
+    "closingParagraphs": [
+      "Utgifter med taggen ”Matleverans” varje fredag kan till exempel tyda på en fast veckovana.",
+      "Om topparna inte följer något tydligt mönster kan utgifterna i stället vara kopplade till enskilda händelser snarare än återkommande beteende."
+    ]
+  },
+  "manySmallBars": {
+    "title": "Många små staplar",
+    "paragraphs": [
+      "Ett stort antal låga staplar betyder att utgifterna inträffade ofta, men att de enskilda beloppen var relativt små."
+    ],
+    "listIntro": "Så här ser ofta utgifter för följande ut:",
+    "items": [
+      "kaffe;",
+      "mellanmål;",
+      "transport;",
+      "små inköp till hemmet;",
+      "vardaglig underhållning."
+    ],
+    "closingParagraphs": [
+      "Sådana utgifter är lätta att underskatta när du tittar igenom en lista med transaktioner. Varje köp kan verka obetydligt, men tillsammans kan de bli en märkbar summa under månaden."
+    ],
+    "actionsIntro": "I det här fallet finns två huvudsakliga sätt att förändra utgiftsmönstret:",
+    "actions": [
+      "göra köp mer sällan;",
+      "minska det genomsnittliga beloppet per köp."
+    ],
+    "outroParagraphs": [
+      "Genom att titta på antalet transaktioner och genomsnittsbeloppet kan du avgöra vilken metod som är mest relevant."
+    ]
+  },
+  "evenDistribution": {
+    "title": "Jämnt fördelade utgifter",
+    "paragraphs": [
+      "Om staplarna är utspridda över hela månaden utan tydliga toppar sker utgifterna relativt regelbundet.",
+      "Så kan ett normalt mönster för vardagliga utgifter se ut, till exempel matvaror, transport eller andra återkommande köp.",
+      "En jämn fördelning betyder i sig inte att utgifterna är för höga eller att de är under kontroll. Den visar bara att totalsumman inte uppstod genom ett eller några få enskilda köp."
+    ]
+  },
+  "startOfMonth": {
+    "title": "Utgifter i början av månaden",
+    "paragraphs": [
+      "Om de flesta staplarna är koncentrerade till början av månaden spenderas pengar med den valda taggen främst strax efter att potten fyllts på eller efter att inkomsten kommit in.",
+      "Det kan vara helt naturligt för regelbundna inköp eller nödvändiga betalningar.",
+      "Ett större inköp av matvaror i början av månaden kan till exempel vara planerat. Om det däremot handlar om valfria utgifter kan mönstret leda till att för lite pengar återstår för resten av månaden.",
+      "I så fall kan det vara bra att kontrollera om saldot i potten räcker till månadens slut och om tidiga utgifter senare behöver kompenseras."
+    ]
+  },
+  "endOfMonth": {
+    "title": "Utgifter i slutet av månaden",
+    "listIntro": "Om utgifterna främst är koncentrerade till slutet av månaden kan det finnas flera orsaker:",
+    "items": [
+      "köp skjuts regelbundet upp;",
+      "det återstående saldot i potten uppfattas som tillgängligt för extra utgifter;",
+      "planerade händelser inträffar i slutet av månaden;",
+      "utgifter skjuts fram till nästa påfyllning."
+    ],
+    "closingParagraphs": [
+      "Detta mönster betyder inte automatiskt att det finns ett problem. Det viktiga är om det återkommer varje månad och om det passar syftet med potten.",
+      "Att använda de återstående pengarna i en pott för ”Nöjen” i slutet av månaden kan till exempel vara ett medvetet val. Samma vana i en pott för nödvändiga utgifter kan däremot öka risken för att pengarna inte räcker."
+    ]
+  },
+  "whyExpensesGrew": {
+    "title": "Så tar du reda på varför utgifterna ökade",
+    "lead": "Om de totala utgifterna för en tagg har ökat kan du jämföra tre värden med tidigare månader.",
+    "moreOperations": {
+      "title": "Antalet transaktioner har ökat",
+      "paragraphs": [
+        "Köpen sker oftare.",
+        "Matleverans kanske till exempel beställdes tio gånger i stället för fyra. Även om priset per beställning var oförändrat ökar totalsumman tydligt.",
+        "I det här fallet är den högre frekvensen den främsta orsaken till ökningen."
+      ]
+    },
+    "higherAverage": {
+      "title": "Genomsnittsbeloppet har ökat",
+      "paragraphs": [
+        "Varje enskilt köp har blivit dyrare."
+      ],
+      "listIntro": "Möjliga orsaker är:",
+      "items": [
+        "prisökningar;",
+        "förändringar i dina vanliga val;",
+        "större mängder per köp;",
+        "byte till dyrare produkter eller tjänster."
+      ],
+      "closingParagraphs": [
+        "I det här fallet är färre transaktioner inte den enda lösningen. Du kan också minska det genomsnittliga beloppet per utgift."
+      ]
+    },
+    "largePeak": {
+      "title": "En enskild stor topp har dykt upp",
+      "paragraphs": [
+        "Ökningen orsakades av ett eller flera ovanligt stora köp.",
+        "Om en sådan utgift var ett engångsköp och planerad behöver den inte innebära att du bör ändra dina vanor.",
+        "Om stora toppar däremot återkommer varje månad är det bättre att betrakta dem som en regelbunden del av utgifterna."
+      ]
+    }
+  },
+  "compareMonths": {
+    "title": "Så jämför du olika månader",
+    "paragraphs": [
+      "Genom att jämföra flera månader kan du skilja en engångshändelse från ett återkommande mönster."
+    ],
+    "metricsIntro": "Titta på:",
+    "metrics": [
+      "totala utgifter;",
+      "antal transaktioner;",
+      "genomsnittligt belopp;",
+      "var topparna uppstår;",
+      "hur utgifterna är fördelade över månaden."
+    ],
+    "closingParagraphs": [
+      "Samma totalsumma kan till exempel ha helt olika struktur under två olika månader:"
+    ],
+    "structureItems": [
+      "en månad kan innehålla ett enda stort köp;",
+      "en annan kan innehålla många små, återkommande utgifter."
+    ],
+    "outroParagraphs": [
+      "Det ekonomiska resultatet är detsamma, men orsakerna och möjliga åtgärder skiljer sig."
+    ],
+    "eventsIntro": "Ta också hänsyn till händelser som tillfälligt kan ha förändrat mönstret:",
+    "events": [
+      "helgdagar;",
+      "semester;",
+      "besök av gäster;",
+      "en flytt;",
+      "renovering eller reparationer;",
+      "ett enstaka större köp;",
+      "en tillfällig förändring av arbetsschema eller livsstil."
+    ]
+  },
+  "whatToChange": {
+    "title": "Vad du kan ändra utifrån rapporten",
+    "openingParagraphs": [
+      "Rapporten avgör inte automatiskt vilka utgifter som är onödiga. Den hjälper dig att förstå vad totalsumman består av och vad som gör att den förändras.",
+      "Olika åtgärder kan vara relevanta beroende på vilket mönster du ser."
+    ],
+    "reduceFrequency": {
+      "title": "Minska frekvensen",
+      "paragraphs": [
+        "Detta är främst relevant för utgifter med många transaktioner.",
+        "I stället för att köpa kaffe varje dag kan du till exempel bestämma i förväg hur många gånger i veckan du vill köpa det."
+      ]
+    },
+    "reduceAverage": {
+      "title": "Minska genomsnittsbeloppet",
+      "paragraphs": [
+        "Detta är relevant för återkommande utgifter där varje transaktion har blivit för dyr.",
+        "I stället för att helt sluta beställa mat kan du till exempel välja billigare beställningar."
+      ]
+    },
+    "planLargePurchases": {
+      "title": "Planera stora köp i förväg",
+      "paragraphs": [
+        "Om rapporten visar enskilda stora toppar kan du ta hänsyn till sådana utgifter när du fördelar pengar mellan potterna.",
+        "Det är särskilt användbart om ett större köp återkommer med jämna mellanrum."
+      ]
+    },
+    "reallocateJars": {
+      "title": "Omfördela pengar mellan potter",
+      "paragraphs": [
+        "Om utgifter med en viss tagg är nödvändiga och regelbundet överstiger den tillgängliga budgeten kan problemet ligga i att potten får för lite pengar, snarare än i själva köpen.",
+        "I så fall kan du öka andelen som går till den här potten genom att minska andelen för potter med lägre prioritet.",
+        "Om valfria utgifter däremot står för en stor del av totalsumman bör du först titta på deras frekvens och genomsnittliga belopp."
+      ]
+    }
+  },
+  "analysisExample": {
+    "title": "Exempel på analys av rapporten",
+    "firstExampleIntro": "Anta att rapporten för taggen ”Matleverans” visar:",
+    "firstExampleMetrics": [
+      "totala utgifter — 1 800;",
+      "antal transaktioner — 9;",
+      "genomsnittligt belopp — 200."
+    ],
+    "firstExampleParagraphs": [
+      "Histogrammet visar att beställningar gjordes två eller tre gånger i veckan utan en enda dominerande topp.",
+      "Det tyder på att totalsumman skapades av återkommande utgifter snarare än ett engångsköp."
+    ],
+    "firstExampleActionsIntro": "Möjliga åtgärder:",
+    "firstExampleActions": [
+      "minska antalet beställningar;",
+      "minska den genomsnittliga kostnaden per beställning;",
+      "avsätta ett fast belopp för leveranser i förväg;",
+      "låta utgifterna vara oförändrade om de passar dina prioriteringar och din budget."
+    ],
+    "secondExampleIntro": "Ett annat exempel:",
+    "secondExampleMetrics": [
+      "totala utgifter — 1 800;",
+      "antal transaktioner — 2;",
+      "genomsnittligt belopp — 900;",
+      "nästan hela summan infaller under en enda dag."
+    ],
+    "closingParagraphs": [
+      "Här är orsaken till utgifterna en annan. Det handlade troligen om ett större köp eller en särskild händelse. Att minska frekvensen av vardagliga köp skulle inte göra någon större skillnad i den här situationen."
+    ]
+  },
+  "multipleTags": {
+    "title": "Tänk på att en transaktion kan ha flera taggar",
+    "paragraphs": [
+      "En transaktion kan ha flera taggar.",
+      "Om en utgift på 300 har både taggen ”Matleverans” och ”Gäster” kommer hela beloppet att räknas in i detaljerna för båda taggarna."
+    ],
+    "perspectivesIntro": "Det gör att du kan analysera samma transaktion ur flera perspektiv:",
+    "perspectives": [
+      "vad som köptes;",
+      "under vilka omständigheter;",
+      "i vilket syfte;",
+      "om köpet var planerat."
+    ],
+    "closingParagraphs": [
+      "Beloppet delas inte mellan taggarna.",
+      "Därför bör du inte lägga ihop totalsummorna från flera taggrapporter för att räkna ut de totala utgifterna."
+    ],
+    "fundsMovementLinkPrefix": "Det faktiska beloppet som spenderades under månaden ser du bäst i rapporten ",
+    "fundsMovementLinkText": "”Pengaflöde”",
+    "fundsMovementLinkSuffix": "."
+  },
+  "summary": {
+    "title": "Det viktigaste",
+    "paragraphs": [
+      "Rapporten ”Detaljerade utgifter per tagg” hjälper dig att förstå inte bara hur mycket pengar som spenderades, utan också hur totalsumman uppstod.",
+      "De totala utgifterna visar utgifternas ekonomiska påverkan.",
+      "Antalet transaktioner visar hur ofta de inträffade.",
+      "Genomsnittsbeloppet hjälper dig att förstå den typiska storleken på ett enskilt köp.",
+      "Histogrammet visar hur utgifterna fördelades över månadens dagar och hjälper dig att skilja mellan:"
+    ],
+    "histogramInsights": [
+      "ett enstaka stort köp;",
+      "återkommande utgifter;",
+      "många små transaktioner;",
+      "återkommande toppar;",
+      "utgifter som är koncentrerade till början eller slutet av månaden."
+    ],
+    "closingParagraphs": [
+      "Använd dessa värden tillsammans. Samma totalsumma kan bero på helt olika beteenden och därför kräva olika beslut."
+    ]
+  }
+}

@@ -1,0 +1,1099 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Come leggere il report “Dettaglio delle spese per tag”</title>
+  <meta name="description" content="Il report “Dettaglio delle spese per tag” aiuta a capire come le spese associate a un tag selezionato si sono distribuite nel corso del mese." />
+  
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  
+  <link rel="stylesheet" href="/assets/style.css" />
+</head>
+<body>
+  <header class="site-header">
+  <div class="container site-header__inner">
+    <a class="site-header__brand" href="/">Artem D Apps</a>
+    <div class="site-header__aside">
+      
+      
+      <nav class="site-header__nav" aria-label="Navigazione del sito">
+        <a
+          class="site-header__link"
+          href="/it/apps/6-jars-finance/download/"
+          data-analytics-link="download"
+          data-analytics-placement="header"
+          
+        >Scarica l’app</a>
+        <a
+          class="site-header__link"
+          href="/it/apps/6-jars-finance/articles/guide/"
+          
+        >Metodo dei sei fondi</a>
+      </nav>
+      
+        
+
+<nav class="lang-switch" aria-label="Lingua">
+  <label class="lang-switch__desktop">
+    <span class="lang-switch__visually-hidden">Lingua</span>
+    <select class="lang-switch__select" data-lang-switch-select>
+      
+        <option
+          value="/en/apps/6-jars-finance/articles/report-tag-details/"
+          
+        >English</option>
+      
+        <option
+          value="/id/apps/6-jars-finance/articles/report-tag-details/"
+          
+        >Bahasa Indonesia</option>
+      
+        <option
+          value="/cs/apps/6-jars-finance/articles/report-tag-details/"
+          
+        >Čeština</option>
+      
+        <option
+          value="/de/apps/6-jars-finance/articles/report-tag-details/"
+          
+        >Deutsch</option>
+      
+        <option
+          value="/es/apps/6-jars-finance/articles/report-tag-details/"
+          
+        >Español</option>
+      
+        <option
+          value="/fr/apps/6-jars-finance/articles/report-tag-details/"
+          
+        >Français</option>
+      
+        <option
+          value="/it/apps/6-jars-finance/articles/report-tag-details/"
+          selected
+        >Italiano</option>
+      
+        <option
+          value="/nl/apps/6-jars-finance/articles/report-tag-details/"
+          
+        >Nederlands</option>
+      
+        <option
+          value="/pl/apps/6-jars-finance/articles/report-tag-details/"
+          
+        >Polski</option>
+      
+        <option
+          value="/pt-BR/apps/6-jars-finance/articles/report-tag-details/"
+          
+        >Português (Brasil)</option>
+      
+        <option
+          value="/ro/apps/6-jars-finance/articles/report-tag-details/"
+          
+        >Română</option>
+      
+        <option
+          value="/ru/apps/6-jars-finance/articles/report-tag-details/"
+          
+        >Русский</option>
+      
+        <option
+          value="/sv/apps/6-jars-finance/articles/report-tag-details/"
+          
+        >Svenska</option>
+      
+        <option
+          value="/tr/apps/6-jars-finance/articles/report-tag-details/"
+          
+        >Türkçe</option>
+      
+        <option
+          value="/uk/apps/6-jars-finance/articles/report-tag-details/"
+          
+        >Українська</option>
+      
+    </select>
+  </label>
+
+  <button
+    type="button"
+    class="lang-switch__trigger"
+    data-open-lang-switch-modal
+    aria-haspopup="dialog"
+    aria-expanded="false"
+    aria-controls="lang-switch-modal"
+  >
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        <span class="lang-switch__code">
+  IT
+</span>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    <span class="lang-switch__arrow" aria-hidden="true">▾</span>
+  </button>
+
+  <div
+    class="modal-overlay lang-switch__modal-overlay"
+    id="lang-switch-modal"
+    hidden
+    aria-hidden="true"
+    data-lang-switch-modal
+  >
+    <div
+      class="modal lang-switch__modal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="lang-switch-modal-title"
+    >
+      <h2 class="modal__title" id="lang-switch-modal-title">Lingua</h2>
+      <fieldset class="lang-switch__mobile" aria-label="Lingua">
+        <div class="lang-switch__radio-list">
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/en/apps/6-jars-finance/articles/report-tag-details/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">English</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/id/apps/6-jars-finance/articles/report-tag-details/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Bahasa Indonesia</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/cs/apps/6-jars-finance/articles/report-tag-details/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Čeština</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/de/apps/6-jars-finance/articles/report-tag-details/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Deutsch</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/es/apps/6-jars-finance/articles/report-tag-details/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Español</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/fr/apps/6-jars-finance/articles/report-tag-details/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Français</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/it/apps/6-jars-finance/articles/report-tag-details/"
+                data-lang-switch-radio
+                checked
+              />
+              <span class="lang-switch__radio-text">Italiano</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/nl/apps/6-jars-finance/articles/report-tag-details/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Nederlands</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/pl/apps/6-jars-finance/articles/report-tag-details/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Polski</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/pt-BR/apps/6-jars-finance/articles/report-tag-details/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Português (Brasil)</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/ro/apps/6-jars-finance/articles/report-tag-details/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Română</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/ru/apps/6-jars-finance/articles/report-tag-details/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Русский</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/sv/apps/6-jars-finance/articles/report-tag-details/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Svenska</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/tr/apps/6-jars-finance/articles/report-tag-details/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Türkçe</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/uk/apps/6-jars-finance/articles/report-tag-details/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Українська</span>
+            </label>
+          
+        </div>
+      </fieldset>
+    </div>
+  </div>
+
+  <script src="/assets/js/lang-switch.js" defer></script>
+</nav>
+
+      
+    </div>
+  </div>
+</header>
+
+
+  <main class="article">
+    <div class="container">
+      <div class="article-layout">
+  <div class="article-container">
+    
+
+
+
+
+
+
+
+<h1>Come leggere il report “Dettaglio delle spese per tag”</h1>
+
+
+<p>Il report “Dettaglio delle spese per tag” aiuta a capire come le spese associate a un tag selezionato si sono distribuite nel corso del mese.</p>
+
+
+<p>Completa il report <a href="/it/apps/6-jars-finance/articles/report-spendings-by-tags/">“Spese per tag”</a>. Prima puoi individuare quali tag rappresentano le spese maggiori o compaiono più spesso, quindi aprirne uno e analizzarlo più nel dettaglio.</p>
+<p>Il report viene generato per un fondo selezionato e un tag. Include solo le spese:</p>
+
+<ul>
+  
+  <li>del fondo selezionato;</li>
+  
+  <li>del mese selezionato;</li>
+  
+  <li>associate al tag selezionato.</li>
+  
+</ul>
+
+
+<nav class="article-overview" aria-labelledby="article-overview-title">
+  <h2 id="article-overview-title">Indice</h2>
+  <ol>
+    <li><a href="#what-it-shows">Cosa mostra il report</a></li>
+    <li><a href="#total-amount">Spesa totale</a></li>
+    <li><a href="#operation-count">Numero di transazioni</a></li>
+    <li><a href="#average-amount">Importo medio per transazione</a></li>
+    <li><a href="#histogram">Come leggere l’istogramma</a></li>
+    <li><a href="#single-peak">Una barra alta</a></li>
+    <li><a href="#multiple-peaks">Diversi picchi</a></li>
+    <li><a href="#many-small-bars">Molte barre piccole</a></li>
+    <li><a href="#even-distribution">Spese distribuite uniformemente</a></li>
+    <li><a href="#start-of-month">Spese all’inizio del mese</a></li>
+    <li><a href="#end-of-month">Spese alla fine del mese</a></li>
+    <li><a href="#why-expenses-grew">Come capire perché le spese sono aumentate</a></li>
+    <li><a href="#compare-months">Come confrontare mesi diversi</a></li>
+    <li><a href="#what-to-change">Cosa puoi cambiare in base al report</a></li>
+    <li><a href="#analysis-example">Esempio di analisi del report</a></li>
+    <li><a href="#multiple-tags">Tieni conto dei tag multipli in una transazione</a></li>
+    <li><a href="#summary">In sintesi</a></li>
+  </ol>
+</nav>
+
+<div class="article-section">
+<h2 id="what-it-shows">Cosa mostra il report</h2>
+<p>Nella parte superiore del report vengono mostrati tre indicatori:</p>
+
+<ul>
+  
+  <li>spesa totale;</li>
+  
+  <li>numero di transazioni;</li>
+  
+  <li>importo medio per transazione.</li>
+  
+</ul>
+
+
+
+<p>Sotto è presente un istogramma che mostra in quali giorni del mese si sono verificate le spese e quanto è stato speso ogni giorno.</p>
+
+
+<p>Questi dati aiutano a capire non solo quanto è stato speso complessivamente, ma anche la struttura delle spese:</p>
+
+<ul>
+  
+  <li>se il totale deriva da un singolo acquisto importante;</li>
+  
+  <li>se le spese si sono verificate regolarmente;</li>
+  
+  <li>se ci sono stati singoli giorni con picchi evidenti;</li>
+  
+  <li>se le spese sono state distribuite uniformemente nel corso del mese.</li>
+  
+</ul>
+
+</div>
+
+<div class="article-section">
+<h2 id="total-amount">Spesa totale</h2>
+
+
+<p>La spesa totale mostra quanto denaro è stato speso durante il mese in transazioni associate al tag selezionato.</p>
+
+<p>Ad esempio, se il tag “Caffè” è stato utilizzato in dieci transazioni per un totale di 800, il report mostrerà 800.</p>
+
+<p>Questo indicatore aiuta a valutare l’impatto complessivo delle spese associate al tag sul saldo del fondo selezionato.</p>
+
+<p>Il totale da solo non mostra però come si è formato. Gli stessi 800 possono significare:</p>
+
+
+
+<ul>
+  
+  <li>un singolo acquisto importante;</li>
+  
+  <li>quattro transazioni da 200;</li>
+  
+  <li>venti piccoli acquisti da 40.</li>
+  
+</ul>
+
+
+
+<p>Per capire la differenza tra questi scenari, osserva insieme il numero di transazioni, l’importo medio e l’istogramma.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="operation-count">Numero di transazioni</h2>
+
+
+<p>Il numero di transazioni mostra quante spese associate al tag selezionato sono state effettuate durante il mese.</p>
+
+<p>Questo indicatore aiuta a valutare la regolarità delle spese.</p>
+
+
+<p>Ad esempio:</p>
+
+<ul>
+  
+  <li>1 200 in 2 transazioni indicano generalmente alcuni acquisti importanti;</li>
+  
+  <li>1 200 in 20 transazioni indicano molte piccole spese.</li>
+  
+</ul>
+
+
+
+<p>Un numero elevato di transazioni non significa necessariamente spendere troppo. Può però indicare un’abitudine ricorrente difficile da notare osservando le singole transazioni.</p>
+
+<p>Ad esempio, ogni acquisto di caffè può sembrare insignificante, mentre il report mostra quanto spesso è avvenuto durante il mese.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="average-amount">Importo medio per transazione</h2>
+
+
+<p>L’importo medio mostra quanto è stato speso in media per ogni spesa associata al tag selezionato.</p>
+
+<p>Si calcola dividendo la spesa totale per il numero di transazioni.</p>
+
+
+<p>Ad esempio:</p>
+
+<ul>
+  
+  <li>spesa totale — 1 200;</li>
+  
+  <li>numero di transazioni — 8;</li>
+  
+  <li>importo medio — 150.</li>
+  
+</ul>
+
+
+
+<p>L’importo medio aiuta a confrontare il tipo di spesa tra mesi diversi.</p>
+
+<p>Ad esempio, la spesa totale associata a un tag può aumentare per due motivi diversi:</p>
+
+
+
+<ul>
+  
+  <li>gli acquisti sono diventati più frequenti;</li>
+  
+  <li>ogni singolo acquisto è diventato più costoso.</li>
+  
+</ul>
+
+
+
+<p>Se il numero di transazioni è rimasto quasi invariato ma l’importo medio è aumentato, probabilmente sono aumentati gli importi dei singoli acquisti.</p>
+
+<p>Se l’importo medio è rimasto più o meno uguale ma il numero di transazioni è aumentato, la crescita della spesa totale dipende soprattutto dalla maggiore frequenza.</p>
+
+<p>L’importo medio non mostra però l’importo esatto di ogni acquisto. Diverse piccole transazioni e una grande possono produrre la stessa media di diverse spese di importo simile. Per questo è meglio analizzare questo indicatore insieme all’istogramma.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="histogram">Come leggere l’istogramma</h2>
+
+
+<p>Sull’asse orizzontale dell’istogramma sono indicati i giorni del mese.</p>
+
+<p>Sull’asse verticale è indicato l’importo speso.</p>
+
+<p>Ogni barra mostra quanto denaro è stato speso complessivamente con il tag selezionato in un determinato giorno.</p>
+
+<p>Se nello stesso giorno sono state effettuate più transazioni con questo tag, i relativi importi vengono sommati e mostrati come una singola barra.</p>
+
+
+<p>Ad esempio, se il giorno 10 sono stati effettuati due acquisti:</p>
+
+<ul>
+  
+  <li>50;</li>
+  
+  <li>120;</li>
+  
+</ul>
+
+
+
+<p>il grafico mostrerà una barra di 170 per quel giorno.</p>
+
+<p>L’assenza di una barra significa che in quel giorno non ci sono state spese associate al tag selezionato.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="single-peak">Una barra alta</h2>
+
+
+<p>Un picco evidente significa generalmente che una parte significativa delle spese si è concentrata in un solo giorno.</p>
+
+
+<p>Può trattarsi di:</p>
+
+<ul>
+  
+  <li>un acquisto importante;</li>
+  
+  <li>più spese effettuate nello stesso giorno;</li>
+  
+  <li>un evento pianificato;</li>
+  
+  <li>una spesa imprevista.</li>
+  
+</ul>
+
+
+
+<p>Ad esempio, se quasi tutta la spesa associata al tag “Abbigliamento” si concentra in un solo giorno, probabilmente si tratta di un acquisto occasionale e non di una spesa ricorrente.</p>
+
+<p>In questa situazione un solo mese non è sempre sufficiente per individuare un’abitudine stabile. È più utile confrontare lo stesso tag con altri mesi e verificare se picchi simili si ripetono.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="multiple-peaks">Diversi picchi</h2>
+
+
+<p>Diverse barre alte mostrano che spese importanti si sono verificate in giorni differenti.</p>
+
+
+<p>Se i picchi compaiono a intervalli approssimativamente regolari, possono indicare uno schema ricorrente:</p>
+
+<ul>
+  
+  <li>acquisti nel fine settimana;</li>
+  
+  <li>ordini settimanali;</li>
+  
+  <li>incontri regolari;</li>
+  
+  <li>acquisti periodici.</li>
+  
+</ul>
+
+
+
+<p>Ad esempio, spese associate al tag “Consegna di cibo” ogni venerdì possono indicare un’abitudine settimanale stabile.</p>
+
+<p>Se i picchi compaiono senza una regolarità evidente, le spese possono essere legate a eventi specifici anziché a un comportamento ricorrente.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="many-small-bars">Molte barre piccole</h2>
+
+
+<p>Un gran numero di barre basse significa che le spese si sono verificate spesso, ma i singoli importi erano relativamente piccoli.</p>
+
+
+<p>Questo è tipico, ad esempio, delle spese per:</p>
+
+<ul>
+  
+  <li>caffè;</li>
+  
+  <li>spuntini;</li>
+  
+  <li>trasporti;</li>
+  
+  <li>piccoli acquisti per la casa;</li>
+  
+  <li>intrattenimento quotidiano.</li>
+  
+</ul>
+
+
+
+<p>Spese di questo tipo sono facili da sottovalutare guardando l’elenco delle transazioni. Ogni acquisto può sembrare insignificante, ma insieme possono formare una somma rilevante nel corso del mese.</p>
+
+
+<p>In questo caso ci sono due modi principali per modificare le spese:</p>
+
+<ul>
+  
+  <li>effettuare acquisti meno spesso;</li>
+  
+  <li>ridurre l’importo medio di ogni acquisto.</li>
+  
+</ul>
+
+
+
+<p>Il numero di transazioni e l’importo medio aiutano a capire quale approccio sia più adatto.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="even-distribution">Spese distribuite uniformemente</h2>
+
+
+<p>Se le barre sono distribuite lungo tutto il mese senza picchi marcati, le spese si verificano in modo relativamente regolare.</p>
+
+<p>Può essere una struttura normale per spese quotidiane come generi alimentari, trasporti o altri acquisti ricorrenti.</p>
+
+<p>Una distribuzione uniforme non significa di per sé che le spese siano troppo elevate o, al contrario, sotto controllo. Indica solo che il totale non è stato generato da uno o pochi acquisti isolati.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="start-of-month">Spese all’inizio del mese</h2>
+
+
+<p>Se la maggior parte delle barre è concentrata all’inizio del mese, il denaro associato al tag selezionato viene speso principalmente poco dopo il finanziamento del fondo o la ricezione del reddito.</p>
+
+<p>Può essere normale per acquisti regolari o pagamenti necessari.</p>
+
+<p>Ad esempio, una grande spesa per generi alimentari all’inizio del mese può essere pianificata. Se invece si tratta di spese facoltative, questo comportamento può lasciare troppo poco denaro per il resto del mese.</p>
+
+<p>In questo caso può essere utile verificare se il saldo del fondo è sufficiente fino alla fine del mese e se le spese iniziali devono essere compensate successivamente.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="end-of-month">Spese alla fine del mese</h2>
+<p>Se le spese si concentrano verso la fine del mese, possono esserci diversi motivi:</p>
+
+<ul>
+  
+  <li>gli acquisti vengono rimandati regolarmente;</li>
+  
+  <li>il saldo residuo del fondo viene percepito come disponibile per spese aggiuntive;</li>
+  
+  <li>gli eventi pianificati si verificano a fine mese;</li>
+  
+  <li>le spese vengono rimandate fino al successivo finanziamento.</li>
+  
+</ul>
+
+
+
+<p>Questo schema non indica necessariamente un problema. È importante capire se si ripete ogni mese e se è coerente con lo scopo del fondo.</p>
+
+<p>Ad esempio, spendere a fine mese il denaro rimasto in un fondo “Divertimento” può essere una scelta consapevole. La stessa abitudine in un fondo destinato alle spese essenziali può invece creare il rischio di rimanere senza denaro.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="why-expenses-grew">Come capire perché le spese sono aumentate</h2>
+<p>Se la spesa totale associata a un tag è aumentata, confronta tre indicatori con i mesi precedenti.</p>
+<div class="article-subsection">
+<h3>Il numero di transazioni è aumentato</h3>
+
+
+<p>Gli acquisti sono diventati più frequenti.</p>
+
+<p>Ad esempio, la consegna di cibo può essere stata ordinata dieci volte invece di quattro. Anche se il costo di ogni ordine è rimasto invariato, il totale aumenta sensibilmente.</p>
+
+<p>In questo caso il principale motivo dell’aumento è la frequenza delle spese.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>L’importo medio è aumentato</h3>
+
+
+<p>Ogni singolo acquisto è diventato più costoso.</p>
+
+
+<p>Le possibili cause includono:</p>
+
+<ul>
+  
+  <li>aumenti dei prezzi;</li>
+  
+  <li>cambiamenti nelle scelte abituali;</li>
+  
+  <li>acquisti di quantità maggiori;</li>
+  
+  <li>passaggio a prodotti o servizi più costosi.</li>
+  
+</ul>
+
+
+
+<p>In questo caso ridurre il numero di transazioni non è l’unica possibilità. Puoi anche ridurre l’importo medio di ogni spesa.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>È comparso un singolo grande picco</h3>
+
+
+<p>L’aumento è stato causato da uno o più acquisti insolitamente grandi.</p>
+
+<p>Se la spesa è stata occasionale e pianificata, non richiede necessariamente un cambiamento delle abitudini.</p>
+
+<p>Se invece grandi picchi si ripetono ogni mese, è meglio considerarli una parte regolare delle spese.</p>
+
+
+</div>
+</div>
+
+<div class="article-section">
+<h2 id="compare-months">Come confrontare mesi diversi</h2>
+
+
+<p>Confrontare più mesi aiuta a distinguere un evento occasionale da uno schema ricorrente.</p>
+
+
+<p>Presta attenzione a:</p>
+
+<ul>
+  
+  <li>spesa totale;</li>
+  
+  <li>numero di transazioni;</li>
+  
+  <li>importo medio;</li>
+  
+  <li>posizione dei picchi;</li>
+  
+  <li>distribuzione delle spese nel corso del mese.</li>
+  
+</ul>
+
+
+
+<p>Ad esempio, lo stesso totale in due mesi può avere una struttura molto diversa:</p>
+
+
+
+<ul>
+  
+  <li>in un mese può esserci un solo grande acquisto;</li>
+  
+  <li>in un altro molte piccole spese ricorrenti.</li>
+  
+</ul>
+
+
+
+<p>Il risultato finanziario è lo stesso, ma le cause e le possibili azioni sono diverse.</p>
+
+
+<p>Tieni inoltre conto degli eventi che possono aver modificato temporaneamente la situazione:</p>
+
+<ul>
+  
+  <li>festività;</li>
+  
+  <li>vacanze;</li>
+  
+  <li>visite di ospiti;</li>
+  
+  <li>un trasloco;</li>
+  
+  <li>lavori o riparazioni;</li>
+  
+  <li>un grande acquisto occasionale;</li>
+  
+  <li>un cambiamento temporaneo nell’orario di lavoro o nello stile di vita.</li>
+  
+</ul>
+
+</div>
+
+<div class="article-section">
+<h2 id="what-to-change">Cosa puoi cambiare in base al report</h2>
+
+
+<p>Il report non stabilisce automaticamente quali spese siano superflue. Aiuta a capire da cosa è composto il totale e cosa ne provoca le variazioni.</p>
+
+<p>A seconda dello schema osservato, possono essere utili azioni diverse.</p>
+
+
+<div class="article-subsection">
+<h3>Ridurre la frequenza</h3>
+
+
+<p>È particolarmente utile per le spese con un numero elevato di transazioni.</p>
+
+<p>Ad esempio, invece di comprare un caffè ogni giorno, puoi decidere in anticipo quante volte alla settimana vuoi farlo.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Ridurre l’importo medio</h3>
+
+
+<p>È utile per spese ricorrenti in cui ogni transazione è diventata troppo costosa.</p>
+
+<p>Ad esempio, invece di rinunciare completamente alla consegna di cibo, puoi scegliere ordini meno costosi.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Pianificare in anticipo i grandi acquisti</h3>
+
+
+<p>Se il report mostra singoli grandi picchi, puoi tenere conto di queste spese quando distribuisci il denaro tra i fondi.</p>
+
+<p>È particolarmente utile se un acquisto importante si ripete periodicamente.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Ridistribuire il denaro tra i fondi</h3>
+
+
+<p>Se le spese associate a un tag sono necessarie e superano regolarmente il budget disponibile, il problema potrebbe non essere negli acquisti stessi, ma nel fatto che il fondo riceve troppo poco denaro.</p>
+
+<p>In questo caso puoi aumentare la quota destinata a questo fondo riducendo quella dei fondi con priorità inferiore.</p>
+
+<p>Se invece le spese facoltative rappresentano una parte importante del totale, valuta prima la loro frequenza e il loro importo medio.</p>
+
+
+</div>
+</div>
+
+<div class="article-section">
+<h2 id="analysis-example">Esempio di analisi del report</h2>
+<p>Supponiamo che il report per il tag “Consegna di cibo” mostri:</p>
+
+<ul>
+  
+  <li>spesa totale — 1 800;</li>
+  
+  <li>numero di transazioni — 9;</li>
+  
+  <li>importo medio — 200.</li>
+  
+</ul>
+
+
+
+<p>L’istogramma mostra che gli ordini sono stati effettuati due o tre volte alla settimana, senza un singolo picco dominante.</p>
+
+<p>Questo suggerisce che il totale è stato generato da spese ricorrenti e non da un acquisto occasionale.</p>
+
+
+<p>Possibili azioni:</p>
+
+<ul>
+  
+  <li>ridurre il numero di ordini;</li>
+  
+  <li>ridurre il costo medio di ogni ordine;</li>
+  
+  <li>destinare in anticipo una somma fissa alle consegne;</li>
+  
+  <li>lasciare le spese invariate se sono coerenti con le tue priorità e il tuo budget.</li>
+  
+</ul>
+
+<p>Un altro esempio:</p>
+
+<ul>
+  
+  <li>spesa totale — 1 800;</li>
+  
+  <li>numero di transazioni — 2;</li>
+  
+  <li>importo medio — 900;</li>
+  
+  <li>quasi tutto l’importo è concentrato in un solo giorno.</li>
+  
+</ul>
+
+
+
+<p>In questo caso la causa delle spese è diversa. Probabilmente c’è stato un grande acquisto o un evento particolare. Ridurre la frequenza degli acquisti quotidiani cambierebbe poco in questa situazione.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="multiple-tags">Tieni conto dei tag multipli in una transazione</h2>
+
+
+<p>Una transazione può avere più tag.</p>
+
+<p>Se una spesa di 300 ha sia il tag “Consegna di cibo” sia il tag “Ospiti”, l’intero importo sarà incluso nei dettagli di entrambi i tag.</p>
+
+
+<p>Questo permette di analizzare la stessa transazione da diverse prospettive:</p>
+
+<ul>
+  
+  <li>cosa è stato acquistato;</li>
+  
+  <li>in quali circostanze;</li>
+  
+  <li>per quale scopo;</li>
+  
+  <li>se l’acquisto era pianificato.</li>
+  
+</ul>
+
+
+
+<p>L’importo non viene diviso tra i tag.</p>
+
+<p>Per questo non bisogna sommare i valori di più report per tag per calcolare la spesa complessiva.</p>
+
+
+<p>Per conoscere l’importo effettivamente speso nel mese, consulta il report <a href="/it/apps/6-jars-finance/articles/report-funds-movement/">“Movimento dei fondi”</a>.</p>
+</div>
+
+<div class="article-section">
+<h2 id="summary">In sintesi</h2>
+
+
+<p>Il report “Dettaglio delle spese per tag” aiuta a capire non solo quanto denaro è stato speso, ma anche come si è formato il totale.</p>
+
+<p>La spesa totale mostra l’impatto finanziario delle spese.</p>
+
+<p>Il numero di transazioni ne mostra la frequenza.</p>
+
+<p>L’importo medio aiuta a capire la dimensione tipica di un singolo acquisto.</p>
+
+<p>L’istogramma mostra come le spese sono distribuite tra i giorni del mese e aiuta a distinguere:</p>
+
+
+
+<ul>
+  
+  <li>un grande acquisto occasionale;</li>
+  
+  <li>spese ricorrenti;</li>
+  
+  <li>molte piccole transazioni;</li>
+  
+  <li>picchi ricorrenti;</li>
+  
+  <li>spese concentrate all’inizio o alla fine del mese.</li>
+  
+</ul>
+
+
+
+<p>Usa questi indicatori insieme. Lo stesso totale può derivare da comportamenti molto diversi e quindi richiedere decisioni diverse.</p>
+
+
+</div>
+
+  </div>
+  <aside class="article-toc" aria-label="Navigazione della pagina">
+    <nav class="article-toc__nav">
+      <p class="article-toc__title">In questa pagina</p>
+      <ol class="article-toc__list"></ol>
+    </nav>
+  </aside>
+</div>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+  <div class="container site-footer__inner">
+    <p class="site-footer__copyright">© 2026 Artem D Apps</p>
+    <nav class="site-footer__nav" aria-label="Informazioni sul sito">
+      <a class="site-footer__link" href="/it/apps/6-jars-finance/help/">Informazioni sull’errore</a>
+      <a class="site-footer__link" href="/it/apps/6-jars-finance/articles/report-funds-movement/">Funds Movement Report</a>
+      <a class="site-footer__link" href="/it/apps/6-jars-finance/articles/report-spendings-by-tags/">Spendings by Tags Report</a>
+      <a class="site-footer__link" href="/it/apps/6-jars-finance/articles/report-tag-details/">Tag Spending Details Report</a>
+      <a class="site-footer__link" href="/it/apps/6-jars-finance/privacy/">Informativa sulla privacy</a>
+      <a class="site-footer__link" href="/it/apps/6-jars-finance/licenses/">Licenze open source</a>
+    </nav>
+  </div>
+</footer>
+
+  
+  <script src="/assets/article-toc.js" defer></script>
+
+  
+  <script src="/assets/js/analytics.js" defer></script>
+</body>
+</html>

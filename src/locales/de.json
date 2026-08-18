@@ -13,6 +13,7 @@
       "help": "Fehlerinformationen",
       "reportFundsMovement": "Funds Movement Report",
       "reportSpendingsByTags": "Spendings by Tags Report",
+      "reportTagDetails": "Tag Spending Details Report",
       "licenses": "Open-Source-Lizenzen"
     }
   },

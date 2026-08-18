@@ -1,0 +1,401 @@
+{
+  "title": "Cum să citești raportul „Detalierea cheltuielilor după etichetă”",
+  "metaDescription": "Raportul „Detalierea cheltuielilor după etichetă” te ajută să înțelegi cum s-au distribuit pe parcursul lunii cheltuielile asociate unei etichete selectate.",
+  "intro": {
+    "paragraphs": [
+      "Raportul „Detalierea cheltuielilor după etichetă” te ajută să înțelegi cum s-au distribuit pe parcursul lunii cheltuielile asociate unei etichete selectate."
+    ],
+    "spendingsByTagsLinkPrefix": "Acesta completează raportul ",
+    "spendingsByTagsLinkText": "„Cheltuieli după etichete”",
+    "spendingsByTagsLinkSuffix": ". Mai întâi poți identifica etichetele care reprezintă cele mai mari cheltuieli sau apar cel mai des, apoi poți deschide una dintre ele pentru o analiză mai detaliată.",
+    "listIntro": "Raportul este generat pentru un fond selectat și o etichetă. Include doar cheltuielile:",
+    "items": [
+      "din fondul selectat;",
+      "din luna selectată;",
+      "asociate etichetei selectate."
+    ]
+  },
+  "overview": {
+    "title": "Cuprins",
+    "whatItShows": "Ce arată raportul",
+    "totalAmount": "Suma totală a cheltuielilor",
+    "operationCount": "Numărul de tranzacții",
+    "averageAmount": "Suma medie pe tranzacție",
+    "histogram": "Cum să citești histograma",
+    "singlePeak": "O bară înaltă",
+    "multiplePeaks": "Mai multe vârfuri",
+    "manySmallBars": "Multe bare mici",
+    "evenDistribution": "Cheltuieli distribuite uniform",
+    "startOfMonth": "Cheltuieli la începutul lunii",
+    "endOfMonth": "Cheltuieli la sfârșitul lunii",
+    "whyExpensesGrew": "Cum să înțelegi de ce au crescut cheltuielile",
+    "compareMonths": "Cum să compari luni diferite",
+    "whatToChange": "Ce poți schimba pe baza raportului",
+    "analysisExample": "Exemplu de analiză a raportului",
+    "multipleTags": "Ține cont de mai multe etichete într-o singură tranzacție",
+    "summary": "Ideile principale"
+  },
+  "whatItShows": {
+    "title": "Ce arată raportul",
+    "metricsIntro": "În partea de sus a raportului sunt afișați trei indicatori:",
+    "metrics": [
+      "suma totală a cheltuielilor;",
+      "numărul de tranzacții;",
+      "suma medie pe tranzacție."
+    ],
+    "paragraphs": [
+      "Mai jos se află o histogramă care arată în ce zile ale lunii au avut loc cheltuieli și cât s-a cheltuit în fiecare zi."
+    ],
+    "insightsIntro": "Aceste date te ajută să înțelegi nu doar suma totală cheltuită, ci și modul în care s-au format cheltuielile:",
+    "insights": [
+      "dacă totalul provine dintr-o singură achiziție mare;",
+      "dacă cheltuielile au avut loc regulat;",
+      "dacă au existat anumite zile cu vârfuri pronunțate;",
+      "dacă cheltuielile au fost distribuite uniform pe parcursul lunii."
+    ]
+  },
+  "totalAmount": {
+    "title": "Suma totală a cheltuielilor",
+    "paragraphs": [
+      "Suma totală arată câți bani au fost cheltuiți în cursul lunii în tranzacții asociate etichetei selectate.",
+      "De exemplu, dacă eticheta „Cafea” a fost folosită în zece tranzacții cu o valoare totală de 800, raportul va afișa 800.",
+      "Acest indicator te ajută să evaluezi impactul general al cheltuielilor asociate etichetei asupra soldului fondului selectat.",
+      "Suma totală nu arată însă singură cum s-a format. Aceiași 800 pot însemna:"
+    ],
+    "scenarios": [
+      "o singură achiziție mare;",
+      "patru tranzacții de câte 200;",
+      "douăzeci de achiziții mici de câte 40."
+    ],
+    "closingParagraphs": [
+      "Pentru a înțelege diferența dintre aceste scenarii, analizează împreună numărul de tranzacții, suma medie și histograma."
+    ]
+  },
+  "operationCount": {
+    "title": "Numărul de tranzacții",
+    "paragraphs": [
+      "Numărul de tranzacții arată câte cheltuieli asociate etichetei selectate au avut loc în cursul lunii.",
+      "Acest indicator te ajută să evaluezi regularitatea cheltuielilor."
+    ],
+    "exampleIntro": "De exemplu:",
+    "exampleItems": [
+      "1 200 în 2 tranzacții înseamnă de obicei câteva achiziții mari;",
+      "1 200 în 20 de tranzacții înseamnă multe cheltuieli mici."
+    ],
+    "closingParagraphs": [
+      "Un număr mare de tranzacții nu înseamnă neapărat că se cheltuie prea mult. Totuși, poate indica un obicei repetitiv greu de observat atunci când analizezi tranzacțiile individuale.",
+      "De exemplu, fiecare cafea cumpărată poate părea nesemnificativă, în timp ce raportul arată cât de des s-a repetat această cheltuială în cursul lunii."
+    ]
+  },
+  "averageAmount": {
+    "title": "Suma medie pe tranzacție",
+    "paragraphs": [
+      "Suma medie arată cât s-a cheltuit în medie pentru fiecare cheltuială asociată etichetei selectate.",
+      "Se calculează împărțind suma totală a cheltuielilor la numărul de tranzacții."
+    ],
+    "exampleIntro": "De exemplu:",
+    "exampleItems": [
+      "suma totală — 1 200;",
+      "numărul de tranzacții — 8;",
+      "suma medie — 150."
+    ],
+    "closingParagraphs": [
+      "Suma medie te ajută să compari natura cheltuielilor între luni diferite.",
+      "De exemplu, cheltuielile totale asociate unei etichete pot crește din două motive diferite:"
+    ],
+    "reasons": [
+      "achizițiile au început să aibă loc mai des;",
+      "fiecare achiziție individuală a devenit mai scumpă."
+    ],
+    "outroParagraphs": [
+      "Dacă numărul de tranzacții aproape nu s-a schimbat, dar suma medie a crescut, probabil au crescut valorile achizițiilor individuale.",
+      "Dacă suma medie a rămas aproximativ aceeași, dar numărul de tranzacții a crescut, creșterea cheltuielilor totale este legată în principal de frecvență.",
+      "Totuși, suma medie nu arată valoarea exactă a fiecărei achiziții. Mai multe tranzacții mici și una mare pot produce aceeași medie ca mai multe cheltuieli de valori similare. De aceea este mai bine să analizezi acest indicator împreună cu histograma."
+    ]
+  },
+  "histogram": {
+    "title": "Cum să citești histograma",
+    "paragraphs": [
+      "Pe axa orizontală a histogramei sunt afișate zilele lunii.",
+      "Pe axa verticală este afișată suma cheltuită.",
+      "Fiecare bară arată câți bani au fost cheltuiți în total cu eticheta selectată într-o anumită zi.",
+      "Dacă în aceeași zi au avut loc mai multe tranzacții asociate acestei etichete, sumele lor sunt adunate și afișate sub forma unei singure bare."
+    ],
+    "exampleIntro": "De exemplu, dacă în ziua de 10 au avut loc două achiziții:",
+    "exampleItems": [
+      "50;",
+      "120;"
+    ],
+    "closingParagraphs": [
+      "graficul va afișa o bară de 170 pentru acea zi.",
+      "Lipsa unei bare înseamnă că în acea zi nu au existat cheltuieli asociate etichetei selectate."
+    ]
+  },
+  "singlePeak": {
+    "title": "O bară înaltă",
+    "paragraphs": [
+      "Un vârf clar vizibil înseamnă de obicei că o parte importantă a cheltuielilor s-a concentrat într-o singură zi."
+    ],
+    "listIntro": "Poate fi vorba despre:",
+    "items": [
+      "o achiziție mare;",
+      "mai multe cheltuieli efectuate în aceeași zi;",
+      "un eveniment planificat;",
+      "o cheltuială neașteptată și neplanificată."
+    ],
+    "closingParagraphs": [
+      "De exemplu, dacă aproape toate cheltuielile asociate etichetei „Îmbrăcăminte” sunt concentrate într-o singură zi, probabil a fost o achiziție ocazională, nu o cheltuială regulată.",
+      "Într-o astfel de situație, o singură lună nu este întotdeauna suficientă pentru a identifica un obicei permanent. Este mai util să compari aceeași etichetă cu alte luni și să verifici dacă apar din nou vârfuri similare."
+    ]
+  },
+  "multiplePeaks": {
+    "title": "Mai multe vârfuri",
+    "paragraphs": [
+      "Mai multe bare înalte arată că au existat cheltuieli importante în zile diferite."
+    ],
+    "listIntro": "Dacă vârfurile apar la intervale aproximativ regulate, acestea pot indica un tipar repetitiv:",
+    "items": [
+      "cumpărături în weekend;",
+      "comenzi săptămânale;",
+      "întâlniri regulate;",
+      "cumpărături periodice."
+    ],
+    "closingParagraphs": [
+      "De exemplu, cheltuielile cu eticheta „Livrare de mâncare” în fiecare vineri pot indica un obicei săptămânal stabil.",
+      "Dacă vârfurile apar fără o regularitate clară, cheltuielile pot fi legate de evenimente separate, nu de un comportament repetitiv."
+    ]
+  },
+  "manySmallBars": {
+    "title": "Multe bare mici",
+    "paragraphs": [
+      "Un număr mare de bare joase înseamnă că cheltuielile au avut loc frecvent, dar valorile individuale au fost relativ mici."
+    ],
+    "listIntro": "Acest tipar este frecvent pentru cheltuieli precum:",
+    "items": [
+      "cafea;",
+      "gustări;",
+      "transport;",
+      "mici cumpărături pentru casă;",
+      "divertisment cotidian."
+    ],
+    "closingParagraphs": [
+      "Astfel de cheltuieli sunt ușor de subestimat atunci când analizezi lista tranzacțiilor. Fiecare achiziție poate părea nesemnificativă, dar împreună pot forma o sumă importantă pe parcursul lunii."
+    ],
+    "actionsIntro": "În acest caz există două modalități principale de a modifica cheltuielile:",
+    "actions": [
+      "să faci cumpărături mai rar;",
+      "să reduci suma medie a unei achiziții."
+    ],
+    "outroParagraphs": [
+      "Numărul de tranzacții și suma medie te ajută să înțelegi care abordare este mai potrivită."
+    ]
+  },
+  "evenDistribution": {
+    "title": "Cheltuieli distribuite uniform",
+    "paragraphs": [
+      "Dacă barele sunt distribuite pe tot parcursul lunii fără vârfuri pronunțate, cheltuielile au loc relativ regulat.",
+      "Acesta poate fi un tipar normal pentru cheltuieli cotidiene precum alimente, transport sau alte cumpărături recurente.",
+      "O distribuție uniformă nu înseamnă în sine că cheltuielile sunt prea mari sau, dimpotrivă, sub control. Arată doar că totalul nu a fost format din una sau câteva achiziții izolate."
+    ]
+  },
+  "startOfMonth": {
+    "title": "Cheltuieli la începutul lunii",
+    "paragraphs": [
+      "Dacă majoritatea barelor sunt concentrate la începutul lunii, banii asociați etichetei selectate sunt cheltuiți în principal la scurt timp după alimentarea fondului sau după primirea venitului.",
+      "Acest lucru poate fi normal pentru cumpărături regulate sau plăți necesare.",
+      "De exemplu, o cumpărătură mare de alimente la începutul lunii poate fi planificată. Dar dacă este vorba despre cheltuieli opționale, acest tipar poate face ca pentru restul lunii să rămână prea puțini bani.",
+      "În acest caz poate fi util să verifici dacă soldul fondului ajunge până la sfârșitul lunii și dacă cheltuielile de la început trebuie compensate ulterior."
+    ]
+  },
+  "endOfMonth": {
+    "title": "Cheltuieli la sfârșitul lunii",
+    "listIntro": "Dacă cheltuielile sunt concentrate mai aproape de sfârșitul lunii, pot exista mai multe motive:",
+    "items": [
+      "cumpărăturile sunt amânate regulat;",
+      "soldul rămas în fond este perceput ca fiind disponibil pentru cheltuieli suplimentare;",
+      "evenimentele planificate au loc la sfârșitul lunii;",
+      "cheltuielile sunt amânate până la următoarea alimentare."
+    ],
+    "closingParagraphs": [
+      "Acest tipar nu indică neapărat o problemă. Important este să verifici dacă se repetă în fiecare lună și dacă se potrivește scopului fondului.",
+      "De exemplu, cheltuirea banilor rămași într-un fond „Divertisment” la sfârșitul lunii poate fi o alegere conștientă. Același obicei într-un fond destinat cheltuielilor esențiale poate crește riscul de a rămâne fără bani."
+    ]
+  },
+  "whyExpensesGrew": {
+    "title": "Cum să înțelegi de ce au crescut cheltuielile",
+    "lead": "Dacă suma totală asociată unei etichete a crescut, compară trei indicatori cu lunile precedente.",
+    "moreOperations": {
+      "title": "A crescut numărul de tranzacții",
+      "paragraphs": [
+        "Cumpărăturile au început să aibă loc mai des.",
+        "De exemplu, livrarea de mâncare poate fi comandată de zece ori în loc de patru. Chiar dacă prețul unei comenzi nu s-a schimbat, suma totală crește semnificativ.",
+        "În acest caz, principalul motiv al creșterii este frecvența cheltuielilor."
+      ]
+    },
+    "higherAverage": {
+      "title": "A crescut suma medie",
+      "paragraphs": [
+        "Fiecare achiziție individuală a devenit mai scumpă."
+      ],
+      "listIntro": "Printre cauzele posibile se numără:",
+      "items": [
+        "creșterea prețurilor;",
+        "schimbarea alegerilor obișnuite;",
+        "cumpărarea unor cantități mai mari;",
+        "trecerea la produse sau servicii mai scumpe."
+      ],
+      "closingParagraphs": [
+        "În acest caz, reducerea numărului de tranzacții nu este singura opțiune. Poți reduce și suma medie a fiecărei cheltuieli."
+      ]
+    },
+    "largePeak": {
+      "title": "A apărut un vârf mare izolat",
+      "paragraphs": [
+        "Creșterea a fost provocată de una sau mai multe achiziții neobișnuit de mari.",
+        "Dacă această cheltuială a fost punctuală și planificată, nu necesită neapărat schimbarea obiceiurilor.",
+        "Dar dacă vârfurile mari se repetă în fiecare lună, este mai bine să le consideri o parte regulată a cheltuielilor."
+      ]
+    }
+  },
+  "compareMonths": {
+    "title": "Cum să compari luni diferite",
+    "paragraphs": [
+      "Compararea mai multor luni te ajută să deosebești un eveniment punctual de un tipar repetitiv."
+    ],
+    "metricsIntro": "Urmărește:",
+    "metrics": [
+      "suma totală;",
+      "numărul de tranzacții;",
+      "suma medie;",
+      "poziția vârfurilor;",
+      "distribuția cheltuielilor pe parcursul lunii."
+    ],
+    "closingParagraphs": [
+      "De exemplu, aceeași sumă totală în două luni poate avea structuri foarte diferite:"
+    ],
+    "structureItems": [
+      "într-o lună poate exista o singură achiziție mare;",
+      "în alta, multe cheltuieli mici și recurente."
+    ],
+    "outroParagraphs": [
+      "Rezultatul financiar este același, dar cauzele și acțiunile posibile sunt diferite."
+    ],
+    "eventsIntro": "Ține cont și de evenimentele care ar fi putut modifica temporar tiparul:",
+    "events": [
+      "sărbători;",
+      "vacanță;",
+      "vizita unor oaspeți;",
+      "o mutare;",
+      "renovări sau reparații;",
+      "o achiziție mare punctuală;",
+      "o schimbare temporară a programului de lucru sau a stilului de viață."
+    ]
+  },
+  "whatToChange": {
+    "title": "Ce poți schimba pe baza raportului",
+    "openingParagraphs": [
+      "Raportul nu stabilește automat ce cheltuieli sunt inutile. Te ajută să înțelegi din ce este formată suma totală și ce determină schimbarea acesteia.",
+      "În funcție de tiparul observat, pot fi utile acțiuni diferite."
+    ],
+    "reduceFrequency": {
+      "title": "Redu frecvența",
+      "paragraphs": [
+        "Această abordare este utilă mai ales pentru cheltuielile cu un număr mare de tranzacții.",
+        "De exemplu, în loc să cumperi cafea în fiecare zi, poți stabili dinainte de câte ori pe săptămână vrei să o cumperi."
+      ]
+    },
+    "reduceAverage": {
+      "title": "Redu suma medie",
+      "paragraphs": [
+        "Această abordare este utilă pentru cheltuielile recurente în care fiecare tranzacție a devenit prea scumpă.",
+        "De exemplu, în loc să renunți complet la livrarea de mâncare, poți alege comenzi mai ieftine."
+      ]
+    },
+    "planLargePurchases": {
+      "title": "Planifică din timp achizițiile mari",
+      "paragraphs": [
+        "Dacă raportul arată vârfuri mari izolate, poți lua în calcul aceste cheltuieli atunci când distribui banii între fonduri.",
+        "Acest lucru este deosebit de util dacă o achiziție importantă se repetă periodic."
+      ]
+    },
+    "reallocateJars": {
+      "title": "Redistribuie banii între fonduri",
+      "paragraphs": [
+        "Dacă cheltuielile asociate unei etichete sunt necesare și depășesc regulat bugetul disponibil, problema poate să nu fie în achizițiile în sine, ci în faptul că fondul primește prea puțini bani.",
+        "În acest caz poți crește ponderea acestui fond reducând ponderea fondurilor cu prioritate mai mică.",
+        "Dacă cheltuielile opționale reprezintă o parte semnificativă din total, analizează mai întâi frecvența și suma lor medie."
+      ]
+    }
+  },
+  "analysisExample": {
+    "title": "Exemplu de analiză a raportului",
+    "firstExampleIntro": "Să presupunem că raportul pentru eticheta „Livrare de mâncare” arată:",
+    "firstExampleMetrics": [
+      "suma totală — 1 800;",
+      "numărul de tranzacții — 9;",
+      "suma medie — 200."
+    ],
+    "firstExampleParagraphs": [
+      "Histograma arată că comenzile au avut loc de două sau trei ori pe săptămână, fără un singur vârf dominant.",
+      "Acest lucru sugerează că suma totală a fost formată din cheltuieli recurente, nu dintr-o achiziție punctuală."
+    ],
+    "firstExampleActionsIntro": "Acțiuni posibile:",
+    "firstExampleActions": [
+      "redu numărul de comenzi;",
+      "redu costul mediu al unei comenzi;",
+      "alocă dinainte o sumă fixă pentru livrări;",
+      "lasă cheltuielile neschimbate dacă se potrivesc priorităților și bugetului tău."
+    ],
+    "secondExampleIntro": "Un alt exemplu:",
+    "secondExampleMetrics": [
+      "suma totală — 1 800;",
+      "numărul de tranzacții — 2;",
+      "suma medie — 900;",
+      "aproape întreaga sumă este concentrată într-o singură zi."
+    ],
+    "closingParagraphs": [
+      "Aici cauza cheltuielilor este diferită. Probabil a existat o achiziție mare sau un eveniment specific. Reducerea frecvenței cumpărăturilor cotidiene ar schimba foarte puțin în această situație."
+    ]
+  },
+  "multipleTags": {
+    "title": "Ține cont de mai multe etichete într-o singură tranzacție",
+    "paragraphs": [
+      "O tranzacție poate avea mai multe etichete.",
+      "Dacă o cheltuială de 300 are atât eticheta „Livrare de mâncare”, cât și „Oaspeți”, întreaga sumă va fi inclusă în detalierea ambelor etichete."
+    ],
+    "perspectivesIntro": "Astfel poți analiza aceeași tranzacție din mai multe perspective:",
+    "perspectives": [
+      "ce a fost cumpărat;",
+      "în ce circumstanțe;",
+      "în ce scop;",
+      "dacă achiziția a fost planificată."
+    ],
+    "closingParagraphs": [
+      "Suma nu este împărțită între etichete.",
+      "De aceea nu trebuie să aduni valorile din mai multe rapoarte după etichetă pentru a calcula cheltuielile totale."
+    ],
+    "fundsMovementLinkPrefix": "Pentru suma efectiv cheltuită în cursul lunii, consultă raportul ",
+    "fundsMovementLinkText": "„Mișcarea fondurilor”",
+    "fundsMovementLinkSuffix": "."
+  },
+  "summary": {
+    "title": "Ideile principale",
+    "paragraphs": [
+      "Raportul „Detalierea cheltuielilor după etichetă” te ajută să înțelegi nu doar câți bani au fost cheltuiți, ci și cum s-a format suma totală.",
+      "Suma totală arată impactul financiar al cheltuielilor.",
+      "Numărul de tranzacții arată frecvența acestora.",
+      "Suma medie te ajută să înțelegi valoarea tipică a unei achiziții.",
+      "Histograma arată cum s-au distribuit cheltuielile între zilele lunii și ajută la diferențierea dintre:"
+    ],
+    "histogramInsights": [
+      "o achiziție mare punctuală;",
+      "cheltuieli recurente;",
+      "multe tranzacții mici;",
+      "vârfuri recurente;",
+      "cheltuieli concentrate la începutul sau la sfârșitul lunii."
+    ],
+    "closingParagraphs": [
+      "Folosește acești indicatori împreună. Aceeași sumă totală poate rezulta din comportamente foarte diferite și, prin urmare, poate necesita decizii diferite."
+    ]
+  }
+}

@@ -1,0 +1,401 @@
+{
+  "title": "Cara membaca laporan “Detail pengeluaran berdasarkan tag”",
+  "metaDescription": "Laporan “Detail pengeluaran berdasarkan tag” membantu Anda memahami bagaimana pengeluaran dengan tag tertentu tersebar sepanjang bulan.",
+  "intro": {
+    "paragraphs": [
+      "Laporan “Detail pengeluaran berdasarkan tag” membantu Anda memahami bagaimana pengeluaran dengan tag tertentu tersebar sepanjang bulan."
+    ],
+    "spendingsByTagsLinkPrefix": "Laporan ini melengkapi laporan ",
+    "spendingsByTagsLinkText": "“Pengeluaran berdasarkan tag”",
+    "spendingsByTagsLinkSuffix": ". Pertama, Anda dapat melihat tag mana yang memiliki jumlah pengeluaran terbesar atau paling sering muncul, lalu membuka salah satunya untuk melihat detail lebih lanjut.",
+    "listIntro": "Laporan dibuat untuk satu pos yang dipilih dan satu tag. Laporan hanya mencakup pengeluaran:",
+    "items": [
+      "dari pos yang dipilih;",
+      "dari bulan yang dipilih;",
+      "dengan tag yang dipilih."
+    ]
+  },
+  "overview": {
+    "title": "Daftar isi",
+    "whatItShows": "Apa yang ditampilkan laporan",
+    "totalAmount": "Total pengeluaran",
+    "operationCount": "Jumlah transaksi",
+    "averageAmount": "Rata-rata nilai transaksi",
+    "histogram": "Cara membaca histogram",
+    "singlePeak": "Satu batang tinggi",
+    "multiplePeaks": "Beberapa puncak",
+    "manySmallBars": "Banyak batang kecil",
+    "evenDistribution": "Pengeluaran yang tersebar merata",
+    "startOfMonth": "Pengeluaran di awal bulan",
+    "endOfMonth": "Pengeluaran di akhir bulan",
+    "whyExpensesGrew": "Cara memahami penyebab kenaikan pengeluaran",
+    "compareMonths": "Cara membandingkan bulan yang berbeda",
+    "whatToChange": "Apa yang dapat diubah berdasarkan laporan",
+    "analysisExample": "Contoh analisis laporan",
+    "multipleTags": "Perhatikan beberapa tag dalam satu transaksi",
+    "summary": "Hal utama"
+  },
+  "whatItShows": {
+    "title": "Apa yang ditampilkan laporan",
+    "metricsIntro": "Di bagian atas laporan terdapat tiga indikator:",
+    "metrics": [
+      "total pengeluaran;",
+      "jumlah transaksi;",
+      "rata-rata nilai transaksi."
+    ],
+    "paragraphs": [
+      "Di bawahnya terdapat histogram yang menunjukkan pada hari apa saja pengeluaran terjadi dan berapa banyak yang dibelanjakan setiap hari."
+    ],
+    "insightsIntro": "Data ini membantu Anda memahami bukan hanya jumlah total yang dibelanjakan, tetapi juga pola di balik pengeluaran tersebut:",
+    "insights": [
+      "apakah total berasal dari satu pembelian besar;",
+      "apakah pengeluaran terjadi secara teratur;",
+      "apakah ada hari tertentu dengan lonjakan yang jelas;",
+      "apakah pengeluaran tersebar secara merata sepanjang bulan."
+    ]
+  },
+  "totalAmount": {
+    "title": "Total pengeluaran",
+    "paragraphs": [
+      "Total pengeluaran menunjukkan berapa banyak uang yang dibelanjakan sepanjang bulan dalam transaksi dengan tag yang dipilih.",
+      "Misalnya, jika tag “Kopi” digunakan dalam sepuluh transaksi dengan total 800, laporan akan menampilkan 800.",
+      "Indikator ini membantu Anda menilai dampak keseluruhan pengeluaran dengan tag tersebut terhadap saldo pos yang dipilih.",
+      "Namun, total saja belum menunjukkan bagaimana jumlah itu terbentuk. Angka 800 yang sama dapat berarti:"
+    ],
+    "scenarios": [
+      "satu pembelian besar;",
+      "empat transaksi masing-masing 200;",
+      "dua puluh pembelian kecil masing-masing 40."
+    ],
+    "closingParagraphs": [
+      "Untuk memahami perbedaan antara skenario tersebut, lihat jumlah transaksi, rata-rata nilai transaksi, dan histogram secara bersamaan."
+    ]
+  },
+  "operationCount": {
+    "title": "Jumlah transaksi",
+    "paragraphs": [
+      "Jumlah transaksi menunjukkan berapa banyak pengeluaran dengan tag yang dipilih yang terjadi selama bulan tersebut.",
+      "Indikator ini membantu Anda menilai seberapa rutin pengeluaran itu terjadi."
+    ],
+    "exampleIntro": "Misalnya:",
+    "exampleItems": [
+      "1 200 dalam 2 transaksi biasanya berarti beberapa pembelian besar;",
+      "1 200 dalam 20 transaksi berarti banyak pengeluaran kecil."
+    ],
+    "closingParagraphs": [
+      "Jumlah transaksi yang tinggi tidak selalu berarti pengeluaran berlebihan. Namun, hal itu dapat menunjukkan kebiasaan berulang yang sulit terlihat saat hanya melihat transaksi satu per satu.",
+      "Misalnya, setiap pembelian kopi mungkin terlihat kecil, tetapi laporan menunjukkan seberapa sering pembelian tersebut terjadi sepanjang bulan."
+    ]
+  },
+  "averageAmount": {
+    "title": "Rata-rata nilai transaksi",
+    "paragraphs": [
+      "Rata-rata nilai menunjukkan berapa banyak yang dibelanjakan secara rata-rata untuk setiap pengeluaran dengan tag yang dipilih.",
+      "Nilainya dihitung dengan membagi total pengeluaran dengan jumlah transaksi."
+    ],
+    "exampleIntro": "Misalnya:",
+    "exampleItems": [
+      "total pengeluaran — 1 200;",
+      "jumlah transaksi — 8;",
+      "rata-rata nilai — 150."
+    ],
+    "closingParagraphs": [
+      "Rata-rata nilai membantu Anda membandingkan karakter pengeluaran antarbulan.",
+      "Misalnya, total pengeluaran untuk sebuah tag dapat meningkat karena dua alasan berbeda:"
+    ],
+    "reasons": [
+      "pembelian mulai terjadi lebih sering;",
+      "setiap pembelian menjadi lebih mahal."
+    ],
+    "outroParagraphs": [
+      "Jika jumlah transaksi hampir tidak berubah tetapi rata-rata nilai meningkat, kemungkinan nilai setiap pembelian menjadi lebih besar.",
+      "Jika rata-rata nilai tetap kurang lebih sama tetapi jumlah transaksi meningkat, kenaikan total pengeluaran terutama disebabkan oleh frekuensi yang lebih tinggi.",
+      "Namun, rata-rata nilai tidak menunjukkan nilai tepat dari setiap pembelian. Beberapa transaksi kecil dan satu transaksi besar dapat menghasilkan rata-rata yang sama dengan beberapa pengeluaran bernilai serupa. Karena itu, indikator ini sebaiknya dilihat bersama histogram."
+    ]
+  },
+  "histogram": {
+    "title": "Cara membaca histogram",
+    "paragraphs": [
+      "Sumbu horizontal histogram menunjukkan hari-hari dalam bulan.",
+      "Sumbu vertikal menunjukkan jumlah yang dibelanjakan.",
+      "Setiap batang menunjukkan total uang yang dibelanjakan dengan tag yang dipilih pada hari tertentu.",
+      "Jika ada beberapa transaksi dengan tag tersebut pada hari yang sama, nilainya dijumlahkan dan ditampilkan sebagai satu batang."
+    ],
+    "exampleIntro": "Misalnya, jika pada tanggal 10 terdapat dua pembelian:",
+    "exampleItems": [
+      "50;",
+      "120;"
+    ],
+    "closingParagraphs": [
+      "grafik akan menampilkan batang sebesar 170 untuk hari tersebut.",
+      "Jika tidak ada batang pada hari tertentu, berarti tidak ada pengeluaran dengan tag yang dipilih pada hari itu."
+    ]
+  },
+  "singlePeak": {
+    "title": "Satu batang tinggi",
+    "paragraphs": [
+      "Satu puncak yang jelas biasanya berarti sebagian besar pengeluaran terkonsentrasi pada satu hari."
+    ],
+    "listIntro": "Hal ini dapat berupa:",
+    "items": [
+      "satu pembelian besar;",
+      "beberapa pengeluaran pada hari yang sama;",
+      "acara yang direncanakan;",
+      "pengeluaran tak terduga yang tidak direncanakan."
+    ],
+    "closingParagraphs": [
+      "Misalnya, jika hampir semua pengeluaran dengan tag “Pakaian” terjadi pada satu hari, kemungkinan itu adalah pembelian satu kali dan bukan pengeluaran rutin.",
+      "Dalam situasi seperti ini, satu bulan tidak selalu cukup untuk menyimpulkan adanya kebiasaan tetap. Lebih baik bandingkan tag yang sama dengan bulan lain dan lihat apakah puncak serupa kembali muncul."
+    ]
+  },
+  "multiplePeaks": {
+    "title": "Beberapa puncak",
+    "paragraphs": [
+      "Beberapa batang tinggi menunjukkan bahwa pengeluaran besar terjadi pada hari yang berbeda."
+    ],
+    "listIntro": "Jika puncak muncul dengan jarak waktu yang kurang lebih teratur, hal ini dapat menunjukkan pola berulang:",
+    "items": [
+      "belanja pada akhir pekan;",
+      "pesanan mingguan;",
+      "pertemuan rutin;",
+      "belanja berkala."
+    ],
+    "closingParagraphs": [
+      "Misalnya, pengeluaran dengan tag “Pesan antar makanan” setiap hari Jumat dapat menunjukkan kebiasaan mingguan yang tetap.",
+      "Jika puncak muncul tanpa pola yang jelas, pengeluaran mungkin berkaitan dengan kejadian tertentu dan bukan perilaku yang berulang."
+    ]
+  },
+  "manySmallBars": {
+    "title": "Banyak batang kecil",
+    "paragraphs": [
+      "Banyak batang rendah berarti pengeluaran terjadi cukup sering, tetapi nilai setiap pengeluaran relatif kecil."
+    ],
+    "listIntro": "Pola seperti ini sering terlihat pada pengeluaran untuk:",
+    "items": [
+      "kopi;",
+      "camilan;",
+      "transportasi;",
+      "belanja rumah tangga kecil;",
+      "hiburan sehari-hari."
+    ],
+    "closingParagraphs": [
+      "Pengeluaran seperti ini mudah diremehkan saat melihat daftar transaksi. Setiap pembelian mungkin terlihat kecil, tetapi secara keseluruhan dapat menjadi jumlah yang cukup besar dalam satu bulan."
+    ],
+    "actionsIntro": "Dalam kasus ini, ada dua cara utama untuk mengubah pola pengeluaran:",
+    "actions": [
+      "melakukan pembelian lebih jarang;",
+      "mengurangi rata-rata nilai setiap pembelian."
+    ],
+    "outroParagraphs": [
+      "Jumlah transaksi dan rata-rata nilai dapat membantu menentukan pendekatan mana yang lebih tepat."
+    ]
+  },
+  "evenDistribution": {
+    "title": "Pengeluaran yang tersebar merata",
+    "paragraphs": [
+      "Jika batang tersebar sepanjang bulan tanpa puncak yang tajam, pengeluaran terjadi relatif teratur.",
+      "Pola seperti ini dapat normal untuk pengeluaran sehari-hari seperti bahan makanan, transportasi, atau pembelian berulang lainnya.",
+      "Distribusi yang merata tidak dengan sendirinya berarti pengeluaran terlalu tinggi atau sudah terkendali. Ini hanya menunjukkan bahwa total tidak terbentuk dari satu atau beberapa pembelian terpisah."
+    ]
+  },
+  "startOfMonth": {
+    "title": "Pengeluaran di awal bulan",
+    "paragraphs": [
+      "Jika sebagian besar batang terkonsentrasi di awal bulan, uang dengan tag yang dipilih terutama dibelanjakan tak lama setelah pos diisi atau pendapatan diterima.",
+      "Hal ini dapat normal untuk belanja rutin atau pembayaran wajib.",
+      "Misalnya, belanja bahan makanan dalam jumlah besar di awal bulan dapat memang direncanakan. Namun, untuk pengeluaran opsional, pola ini dapat membuat terlalu sedikit uang tersisa untuk sisa bulan.",
+      "Dalam hal ini, ada baiknya memeriksa apakah saldo pos cukup sampai akhir bulan dan apakah pengeluaran awal perlu dikompensasi kemudian."
+    ]
+  },
+  "endOfMonth": {
+    "title": "Pengeluaran di akhir bulan",
+    "listIntro": "Jika pengeluaran lebih terkonsentrasi menjelang akhir bulan, ada beberapa kemungkinan penyebab:",
+    "items": [
+      "pembelian rutin ditunda;",
+      "saldo yang tersisa di pos dianggap tersedia untuk pengeluaran tambahan;",
+      "acara yang direncanakan berlangsung di akhir bulan;",
+      "pengeluaran ditunda sampai pengisian berikutnya."
+    ],
+    "closingParagraphs": [
+      "Pola ini tidak selalu menunjukkan masalah. Yang penting adalah apakah pola tersebut berulang setiap bulan dan sesuai dengan tujuan pos.",
+      "Misalnya, menghabiskan sisa uang dari pos “Hiburan” di akhir bulan dapat menjadi keputusan yang disengaja. Kebiasaan yang sama pada pos untuk pengeluaran penting dapat meningkatkan risiko kekurangan uang."
+    ]
+  },
+  "whyExpensesGrew": {
+    "title": "Cara memahami penyebab kenaikan pengeluaran",
+    "lead": "Jika total pengeluaran untuk sebuah tag meningkat, bandingkan tiga indikator dengan bulan-bulan sebelumnya.",
+    "moreOperations": {
+      "title": "Jumlah transaksi meningkat",
+      "paragraphs": [
+        "Pembelian mulai terjadi lebih sering.",
+        "Misalnya, pesan antar makanan dilakukan sepuluh kali, bukan empat kali. Meskipun biaya setiap pesanan tidak berubah, totalnya akan meningkat secara nyata.",
+        "Dalam hal ini, penyebab utama kenaikan adalah frekuensi pengeluaran."
+      ]
+    },
+    "higherAverage": {
+      "title": "Rata-rata nilai meningkat",
+      "paragraphs": [
+        "Setiap pembelian menjadi lebih mahal."
+      ],
+      "listIntro": "Beberapa kemungkinan penyebab:",
+      "items": [
+        "kenaikan harga;",
+        "perubahan pilihan yang biasa dilakukan;",
+        "membeli dalam jumlah yang lebih besar;",
+        "beralih ke produk atau layanan yang lebih mahal."
+      ],
+      "closingParagraphs": [
+        "Dalam hal ini, mengurangi jumlah transaksi bukan satu-satunya pilihan. Anda juga dapat mengurangi rata-rata nilai setiap pengeluaran."
+      ]
+    },
+    "largePeak": {
+      "title": "Muncul satu puncak besar",
+      "paragraphs": [
+        "Kenaikan disebabkan oleh satu atau beberapa pembelian yang jauh lebih besar dari biasanya.",
+        "Jika pengeluaran tersebut hanya terjadi sekali dan memang direncanakan, Anda tidak selalu perlu mengubah kebiasaan.",
+        "Namun, jika puncak besar muncul setiap bulan, sebaiknya anggap sebagai bagian rutin dari pengeluaran."
+      ]
+    }
+  },
+  "compareMonths": {
+    "title": "Cara membandingkan bulan yang berbeda",
+    "paragraphs": [
+      "Membandingkan beberapa bulan membantu membedakan kejadian satu kali dari pola yang berulang."
+    ],
+    "metricsIntro": "Perhatikan:",
+    "metrics": [
+      "total pengeluaran;",
+      "jumlah transaksi;",
+      "rata-rata nilai;",
+      "letak puncak;",
+      "distribusi pengeluaran sepanjang bulan."
+    ],
+    "closingParagraphs": [
+      "Misalnya, total yang sama pada dua bulan dapat memiliki struktur yang sangat berbeda:"
+    ],
+    "structureItems": [
+      "pada satu bulan terdapat satu pembelian besar;",
+      "pada bulan lain terdapat banyak pengeluaran kecil yang berulang."
+    ],
+    "outroParagraphs": [
+      "Hasil keuangannya sama, tetapi penyebab dan tindakan yang mungkin diambil berbeda."
+    ],
+    "eventsIntro": "Pertimbangkan juga kejadian yang mungkin sementara mengubah pola:",
+    "events": [
+      "hari libur;",
+      "liburan;",
+      "kedatangan tamu;",
+      "pindah rumah;",
+      "renovasi atau perbaikan;",
+      "satu pembelian besar yang tidak rutin;",
+      "perubahan sementara pada jadwal kerja atau gaya hidup."
+    ]
+  },
+  "whatToChange": {
+    "title": "Apa yang dapat diubah berdasarkan laporan",
+    "openingParagraphs": [
+      "Laporan tidak secara otomatis menentukan pengeluaran mana yang tidak perlu. Laporan membantu Anda memahami apa yang membentuk total dan apa yang menyebabkan perubahan.",
+      "Tindakan yang tepat dapat berbeda tergantung pada pola yang terlihat."
+    ],
+    "reduceFrequency": {
+      "title": "Kurangi frekuensi",
+      "paragraphs": [
+        "Pendekatan ini cocok untuk pengeluaran dengan jumlah transaksi yang tinggi.",
+        "Misalnya, daripada membeli kopi setiap hari, Anda dapat menentukan sebelumnya berapa kali seminggu Anda ingin membelinya."
+      ]
+    },
+    "reduceAverage": {
+      "title": "Kurangi rata-rata nilai",
+      "paragraphs": [
+        "Pendekatan ini cocok untuk pengeluaran rutin ketika setiap transaksi menjadi terlalu mahal.",
+        "Misalnya, daripada berhenti memesan makanan sepenuhnya, Anda dapat memilih pesanan yang lebih murah."
+      ]
+    },
+    "planLargePurchases": {
+      "title": "Rencanakan pembelian besar sebelumnya",
+      "paragraphs": [
+        "Jika laporan menunjukkan puncak besar yang terpisah, Anda dapat memperhitungkan pengeluaran tersebut saat membagi uang ke berbagai pos.",
+        "Hal ini sangat berguna jika pembelian besar berulang secara berkala."
+      ]
+    },
+    "reallocateJars": {
+      "title": "Alokasikan ulang uang antarpos",
+      "paragraphs": [
+        "Jika pengeluaran dengan suatu tag memang diperlukan dan secara rutin melebihi anggaran yang tersedia, masalahnya mungkin bukan pada pembelian itu sendiri, tetapi karena dana di pos tersebut terlalu kecil.",
+        "Dalam hal ini, Anda dapat meningkatkan porsi untuk pos tersebut dengan mengurangi porsi pos yang prioritasnya lebih rendah.",
+        "Jika pengeluaran opsional membentuk sebagian besar total, periksa terlebih dahulu frekuensi dan rata-rata nilainya."
+      ]
+    }
+  },
+  "analysisExample": {
+    "title": "Contoh analisis laporan",
+    "firstExampleIntro": "Misalkan laporan untuk tag “Pesan antar makanan” menunjukkan:",
+    "firstExampleMetrics": [
+      "total pengeluaran — 1 800;",
+      "jumlah transaksi — 9;",
+      "rata-rata nilai — 200."
+    ],
+    "firstExampleParagraphs": [
+      "Histogram menunjukkan bahwa pesanan dilakukan dua atau tiga kali seminggu tanpa satu puncak yang dominan.",
+      "Ini menunjukkan bahwa total terbentuk dari pengeluaran yang berulang, bukan dari satu pembelian besar."
+    ],
+    "firstExampleActionsIntro": "Tindakan yang mungkin dilakukan:",
+    "firstExampleActions": [
+      "mengurangi jumlah pesanan;",
+      "mengurangi rata-rata biaya setiap pesanan;",
+      "menyisihkan jumlah tetap untuk pesan antar sejak awal;",
+      "membiarkan pengeluaran tetap sama jika sesuai dengan prioritas dan anggaran Anda."
+    ],
+    "secondExampleIntro": "Contoh lain:",
+    "secondExampleMetrics": [
+      "total pengeluaran — 1 800;",
+      "jumlah transaksi — 2;",
+      "rata-rata nilai — 900;",
+      "hampir seluruh jumlah terjadi pada satu hari."
+    ],
+    "closingParagraphs": [
+      "Dalam kasus ini, penyebab pengeluarannya berbeda. Kemungkinan ada satu pembelian besar atau suatu kejadian tertentu. Mengurangi frekuensi pembelian sehari-hari tidak akan banyak mengubah hasil dalam situasi ini."
+    ]
+  },
+  "multipleTags": {
+    "title": "Perhatikan beberapa tag dalam satu transaksi",
+    "paragraphs": [
+      "Satu transaksi dapat memiliki beberapa tag.",
+      "Jika pengeluaran sebesar 300 memiliki tag “Pesan antar makanan” dan “Tamu”, seluruh jumlah akan masuk ke detail masing-masing tag."
+    ],
+    "perspectivesIntro": "Hal ini memungkinkan Anda menganalisis transaksi yang sama dari beberapa sudut:",
+    "perspectives": [
+      "apa yang dibeli;",
+      "dalam situasi apa;",
+      "untuk tujuan apa;",
+      "apakah pembelian tersebut direncanakan."
+    ],
+    "closingParagraphs": [
+      "Jumlah tidak dibagi di antara tag.",
+      "Karena itu, jangan menjumlahkan total dari beberapa laporan tag untuk menghitung keseluruhan pengeluaran."
+    ],
+    "fundsMovementLinkPrefix": "Untuk melihat jumlah yang benar-benar dibelanjakan selama bulan tersebut, gunakan laporan ",
+    "fundsMovementLinkText": "“Pergerakan dana”",
+    "fundsMovementLinkSuffix": "."
+  },
+  "summary": {
+    "title": "Hal utama",
+    "paragraphs": [
+      "Laporan “Detail pengeluaran berdasarkan tag” membantu Anda memahami bukan hanya berapa banyak uang yang dibelanjakan, tetapi juga bagaimana total tersebut terbentuk.",
+      "Total pengeluaran menunjukkan dampak finansial dari pengeluaran.",
+      "Jumlah transaksi menunjukkan seberapa sering pengeluaran terjadi.",
+      "Rata-rata nilai membantu memahami ukuran tipikal dari satu pembelian.",
+      "Histogram menunjukkan bagaimana pengeluaran tersebar di antara hari-hari dalam bulan dan membantu membedakan:"
+    ],
+    "histogramInsights": [
+      "satu pembelian besar yang tidak rutin;",
+      "pengeluaran berulang;",
+      "banyak transaksi kecil;",
+      "puncak yang berulang;",
+      "pengeluaran yang terkonsentrasi di awal atau akhir bulan."
+    ],
+    "closingParagraphs": [
+      "Gunakan indikator ini bersama-sama. Total yang sama dapat berasal dari perilaku yang sangat berbeda dan karena itu memerlukan keputusan yang berbeda."
+    ]
+  }
+}

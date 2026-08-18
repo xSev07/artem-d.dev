@@ -1,0 +1,401 @@
+{
+  "title": "Jak číst přehled „Podrobnosti výdajů podle štítku“",
+  "metaDescription": "Přehled „Podrobnosti výdajů podle štítku“ pomáhá pochopit, jak byly výdaje s vybraným štítkem rozloženy během měsíce.",
+  "intro": {
+    "paragraphs": [
+      "Přehled „Podrobnosti výdajů podle štítku“ pomáhá pochopit, jak byly výdaje s vybraným štítkem rozloženy během měsíce."
+    ],
+    "spendingsByTagsLinkPrefix": "Doplňuje přehled ",
+    "spendingsByTagsLinkText": "„Výdaje podle štítků“",
+    "spendingsByTagsLinkSuffix": ". Nejprve můžete zjistit, které štítky představují největší výdaje nebo se objevují nejčastěji, a poté jeden z nich otevřít a prozkoumat podrobněji.",
+    "listIntro": "Přehled se vytváří pro jeden vybraný fond a jeden štítek. Zahrnuje pouze výdaje:",
+    "items": [
+      "z vybraného fondu;",
+      "za vybraný měsíc;",
+      "s vybraným štítkem."
+    ]
+  },
+  "overview": {
+    "title": "Obsah",
+    "whatItShows": "Co přehled ukazuje",
+    "totalAmount": "Celková částka výdajů",
+    "operationCount": "Počet transakcí",
+    "averageAmount": "Průměrná částka transakce",
+    "histogram": "Jak číst histogram",
+    "singlePeak": "Jeden vysoký sloupec",
+    "multiplePeaks": "Několik špiček",
+    "manySmallBars": "Mnoho malých sloupců",
+    "evenDistribution": "Rovnoměrné rozložení výdajů",
+    "startOfMonth": "Výdaje na začátku měsíce",
+    "endOfMonth": "Výdaje na konci měsíce",
+    "whyExpensesGrew": "Jak zjistit, proč výdaje vzrostly",
+    "compareMonths": "Jak porovnávat různé měsíce",
+    "whatToChange": "Co lze změnit na základě přehledu",
+    "analysisExample": "Příklad analýzy přehledu",
+    "multipleTags": "Počítejte s více štítky u jedné transakce",
+    "summary": "To nejdůležitější"
+  },
+  "whatItShows": {
+    "title": "Co přehled ukazuje",
+    "metricsIntro": "V horní části přehledu jsou zobrazeny tři ukazatele:",
+    "metrics": [
+      "celková částka výdajů;",
+      "počet transakcí;",
+      "průměrná částka jedné transakce."
+    ],
+    "paragraphs": [
+      "Pod nimi se nachází histogram, který ukazuje, ve které dny měsíce k výdajům docházelo a kolik peněz bylo každý den utraceno."
+    ],
+    "insightsIntro": "Tyto údaje pomáhají pochopit nejen celkovou výši výdajů, ale také jejich charakter:",
+    "insights": [
+      "zda celkovou částku tvořil jeden velký nákup;",
+      "zda k výdajům docházelo pravidelně;",
+      "zda se objevily jednotlivé dny s výraznými špičkami;",
+      "zda byly výdaje rovnoměrně rozloženy během měsíce."
+    ]
+  },
+  "totalAmount": {
+    "title": "Celková částka výdajů",
+    "paragraphs": [
+      "Celková částka ukazuje, kolik peněz bylo během měsíce utraceno v transakcích s vybraným štítkem.",
+      "Například pokud byl štítek „Káva“ použit u deseti transakcí v celkové hodnotě 800, přehled zobrazí částku 800.",
+      "Tento ukazatel pomáhá posoudit celkový vliv výdajů s daným štítkem na zůstatek vybraného fondu.",
+      "Samotná částka však ještě neukazuje, jak vznikla. Stejných 800 může znamenat:"
+    ],
+    "scenarios": [
+      "jeden velký nákup;",
+      "čtyři transakce po 200;",
+      "dvacet malých nákupů po 40."
+    ],
+    "closingParagraphs": [
+      "Abyste pochopili rozdíl mezi těmito scénáři, je potřeba sledovat počet transakcí, průměrnou částku a histogram."
+    ]
+  },
+  "operationCount": {
+    "title": "Počet transakcí",
+    "paragraphs": [
+      "Počet transakcí ukazuje, kolik výdajů s vybraným štítkem během měsíce proběhlo.",
+      "Tento ukazatel pomáhá posoudit pravidelnost výdajů."
+    ],
+    "exampleIntro": "Například:",
+    "exampleItems": [
+      "1 200 ve 2 transakcích obvykle znamená několik větších nákupů;",
+      "1 200 ve 20 transakcích znamená mnoho menších výdajů."
+    ],
+    "closingParagraphs": [
+      "Velký počet transakcí nemusí nutně znamenat nadměrné utrácení. Může však ukazovat na pravidelný návyk, který je při procházení jednotlivých transakcí těžké postřehnout.",
+      "Například každý nákup kávy může působit zanedbatelně, ale přehled ukáže, jak často se během měsíce opakoval."
+    ]
+  },
+  "averageAmount": {
+    "title": "Průměrná částka transakce",
+    "paragraphs": [
+      "Průměrná částka ukazuje, kolik v průměru připadalo na jeden výdaj s vybraným štítkem.",
+      "Vypočítá se jako celková částka výdajů dělená počtem transakcí."
+    ],
+    "exampleIntro": "Například:",
+    "exampleItems": [
+      "celková částka — 1 200;",
+      "počet transakcí — 8;",
+      "průměrná částka — 150."
+    ],
+    "closingParagraphs": [
+      "Průměrná částka pomáhá porovnávat charakter výdajů mezi různými měsíci.",
+      "Například celkové výdaje u určitého štítku mohly vzrůst ze dvou různých důvodů:"
+    ],
+    "reasons": [
+      "nákupy začaly probíhat častěji;",
+      "každý jednotlivý nákup zdražil."
+    ],
+    "outroParagraphs": [
+      "Pokud se počet transakcí téměř nezměnil, ale průměrná částka vzrostla, pravděpodobně se zvýšila hodnota jednotlivých nákupů.",
+      "Pokud průměrná částka zůstala podobná, ale transakcí přibylo, růst celkových výdajů je způsoben především vyšší četností.",
+      "Průměrná částka však neukazuje přesnou hodnotu každého nákupu. Několik malých transakcí a jedna velká mohou vytvořit stejný průměr jako několik podobně velkých výdajů. Proto je nejlepší sledovat tento ukazatel společně s histogramem."
+    ]
+  },
+  "histogram": {
+    "title": "Jak číst histogram",
+    "paragraphs": [
+      "Na vodorovné ose histogramu jsou zobrazeny dny měsíce.",
+      "Na svislé ose je zobrazena částka výdajů.",
+      "Každý sloupec ukazuje, kolik peněz bylo s vybraným štítkem utraceno v konkrétní den.",
+      "Pokud v jednom dni proběhlo několik transakcí s tímto štítkem, jejich částky se sečtou a zobrazí jako jeden sloupec."
+    ],
+    "exampleIntro": "Například pokud 10. dne proběhly dva nákupy:",
+    "exampleItems": [
+      "50;",
+      "120;"
+    ],
+    "closingParagraphs": [
+      "graf pro tento den zobrazí sloupec v hodnotě 170.",
+      "Pokud pro určitý den žádný sloupec není, znamená to, že v tento den nebyly žádné výdaje s vybraným štítkem."
+    ]
+  },
+  "singlePeak": {
+    "title": "Jeden vysoký sloupec",
+    "paragraphs": [
+      "Jeden výrazný vrchol obvykle znamená, že značná část výdajů připadla na jediný den."
+    ],
+    "listIntro": "Může jít o:",
+    "items": [
+      "jeden velký nákup;",
+      "několik výdajů uskutečněných ve stejný den;",
+      "plánovanou událost;",
+      "neočekávaný neplánovaný výdaj."
+    ],
+    "closingParagraphs": [
+      "Například pokud téměř všechny výdaje se štítkem „Oblečení“ připadají na jeden den, pravděpodobně šlo o jednorázový nákup, nikoli o pravidelný výdaj.",
+      "V takové situaci jeden měsíc nemusí stačit k posouzení dlouhodobého návyku. Užitečnější je porovnat tento štítek s dalšími měsíci a ověřit, zda se podobné špičky opakují."
+    ]
+  },
+  "multiplePeaks": {
+    "title": "Několik špiček",
+    "paragraphs": [
+      "Několik vysokých sloupců ukazuje, že větší výdaje proběhly v různých dnech."
+    ],
+    "listIntro": "Pokud se špičky objevují přibližně v pravidelných intervalech, může to ukazovat na opakující se vzorec:",
+    "items": [
+      "víkendové nákupy;",
+      "týdenní objednávky;",
+      "pravidelná setkání;",
+      "pravidelné větší nákupy."
+    ],
+    "closingParagraphs": [
+      "Například výdaje se štítkem „Rozvoz jídla“ každý pátek mohou ukazovat na stálý týdenní návyk.",
+      "Pokud se špičky objevují bez zjevné pravidelnosti, mohou být výdaje spojeny spíše s jednotlivými událostmi než s opakujícím se chováním."
+    ]
+  },
+  "manySmallBars": {
+    "title": "Mnoho malých sloupců",
+    "paragraphs": [
+      "Velký počet nízkých sloupců znamená, že k výdajům docházelo často, ale jednotlivé částky byly relativně malé."
+    ],
+    "listIntro": "Takto často vypadají výdaje za:",
+    "items": [
+      "kávu;",
+      "svačiny;",
+      "dopravu;",
+      "drobné nákupy do domácnosti;",
+      "běžnou zábavu."
+    ],
+    "closingParagraphs": [
+      "Takové výdaje je při procházení seznamu transakcí snadné podcenit. Každý nákup může působit zanedbatelně, ale dohromady mohou za měsíc vytvořit významnou částku."
+    ],
+    "actionsIntro": "V takovém případě existují dva hlavní způsoby, jak výdaje změnit:",
+    "actions": [
+      "nakupovat méně často;",
+      "snížit průměrnou částku jednoho nákupu."
+    ],
+    "outroParagraphs": [
+      "Který přístup dává větší smysl, lze posoudit podle počtu transakcí a průměrné částky."
+    ]
+  },
+  "evenDistribution": {
+    "title": "Rovnoměrné rozložení výdajů",
+    "paragraphs": [
+      "Pokud jsou sloupce rozloženy během celého měsíce bez výrazných špiček, k výdajům dochází relativně pravidelně.",
+      "Tak může vypadat běžná struktura každodenních výdajů, například za potraviny, dopravu nebo jiné opakující se nákupy.",
+      "Rovnoměrné rozložení samo o sobě neznamená, že jsou výdaje příliš vysoké ani že jsou pod kontrolou. Pouze ukazuje, že celkovou částku nevytvořil jeden nebo několik izolovaných nákupů."
+    ]
+  },
+  "startOfMonth": {
+    "title": "Výdaje na začátku měsíce",
+    "paragraphs": [
+      "Pokud je většina sloupců soustředěna na začátku měsíce, peníze spojené s vybraným štítkem se utrácejí hlavně krátce po doplnění fondu nebo po obdržení příjmu.",
+      "To může být přirozené u pravidelných nákupů nebo povinných plateb.",
+      "Například větší nákup potravin na začátku měsíce může být plánovaný. Pokud však jde o volitelné výdaje, může tento způsob utrácení vést k tomu, že na zbytek měsíce nezůstane dostatek peněz.",
+      "V takovém případě je užitečné zkontrolovat, zda zůstatek fondu vydrží do konce měsíce a zda není později nutné kompenzovat příliš vysoké výdaje z jeho začátku."
+    ]
+  },
+  "endOfMonth": {
+    "title": "Výdaje na konci měsíce",
+    "listIntro": "Pokud jsou výdaje soustředěny spíše ke konci měsíce, může to mít několik příčin:",
+    "items": [
+      "nákupy se pravidelně odkládají;",
+      "zbývající zůstatek fondu je vnímán jako dostupný pro dodatečné utrácení;",
+      "na konci měsíce probíhají plánované události;",
+      "výdaje se odkládají až do dalšího doplnění."
+    ],
+    "closingParagraphs": [
+      "Tento vzorec nemusí nutně znamenat problém. Důležité je, zda se opakuje každý měsíc a zda odpovídá účelu fondu.",
+      "Například utracení zbývajících peněz z fondu „Zábava“ na konci měsíce může být vědomé rozhodnutí. Stejný návyk u fondu určeného na nezbytné výdaje může vytvářet riziko nedostatku prostředků."
+    ]
+  },
+  "whyExpensesGrew": {
+    "title": "Jak zjistit, proč výdaje vzrostly",
+    "lead": "Pokud celková částka u štítku vzrostla, porovnejte tři ukazatele s předchozími měsíci.",
+    "moreOperations": {
+      "title": "Vzrostl počet transakcí",
+      "paragraphs": [
+        "Nákupy začaly probíhat častěji.",
+        "Například rozvoz jídla byl objednán desetkrát místo čtyřikrát. I když se cena jedné objednávky nezměnila, celková částka výrazně vzrostla.",
+        "V tomto případě je hlavním důvodem růstu vyšší četnost výdajů."
+      ]
+    },
+    "higherAverage": {
+      "title": "Vzrostla průměrná částka",
+      "paragraphs": [
+        "Každý jednotlivý nákup se prodražil."
+      ],
+      "listIntro": "Důvodem může být:",
+      "items": [
+        "růst cen;",
+        "změna obvyklého výběru;",
+        "nákup většího množství;",
+        "přechod na dražší produkty nebo služby."
+      ],
+      "closingParagraphs": [
+        "V takovém případě není snížení počtu transakcí jedinou možností. Lze také upravit průměrnou částku jednoho výdaje."
+      ]
+    },
+    "largePeak": {
+      "title": "Objevila se samostatná velká špička",
+      "paragraphs": [
+        "Růst způsobila jedna nebo několik neobvykle velkých transakcí.",
+        "Pokud byl výdaj jednorázový a plánovaný, nemusí být důvodem ke změně návyků.",
+        "Pokud se však velké špičky opakují každý měsíc, je vhodné je považovat za pravidelnou součást výdajů."
+      ]
+    }
+  },
+  "compareMonths": {
+    "title": "Jak porovnávat různé měsíce",
+    "paragraphs": [
+      "Porovnání několika měsíců pomáhá odlišit jednorázovou událost od dlouhodobějšího vzorce."
+    ],
+    "metricsIntro": "Sledujte:",
+    "metrics": [
+      "celkovou částku;",
+      "počet transakcí;",
+      "průměrnou částku;",
+      "umístění špiček;",
+      "rozložení výdajů během měsíce."
+    ],
+    "closingParagraphs": [
+      "Například stejná částka ve dvou měsících může mít velmi odlišnou strukturu:"
+    ],
+    "structureItems": [
+      "v jednom měsíci může jít o jeden velký nákup;",
+      "v druhém o mnoho malých pravidelných výdajů."
+    ],
+    "outroParagraphs": [
+      "Finanční výsledek je stejný, ale jeho příčiny a možné kroky se liší."
+    ],
+    "eventsIntro": "Zohledněte také události, které mohly situaci dočasně změnit:",
+    "events": [
+      "svátky;",
+      "dovolenou;",
+      "návštěvu hostů;",
+      "stěhování;",
+      "rekonstrukci nebo opravy;",
+      "jednorázový velký nákup;",
+      "dočasnou změnu pracovního režimu nebo životního stylu."
+    ]
+  },
+  "whatToChange": {
+    "title": "Co lze změnit na základě přehledu",
+    "openingParagraphs": [
+      "Přehled automaticky neurčuje, které výdaje jsou zbytečné. Pomáhá pochopit, z čeho se celková částka skládá a co způsobuje její změny.",
+      "Podle konkrétního vzorce mohou dávat smysl různé kroky."
+    ],
+    "reduceFrequency": {
+      "title": "Snížit četnost",
+      "paragraphs": [
+        "To je vhodné u výdajů s vysokým počtem transakcí.",
+        "Například místo každodenního nákupu kávy si můžete předem určit, kolikrát týdně si ji chcete koupit."
+      ]
+    },
+    "reduceAverage": {
+      "title": "Snížit průměrnou částku",
+      "paragraphs": [
+        "To je vhodné u pravidelných výdajů, kde je každá transakce příliš drahá.",
+        "Například místo úplného omezení rozvozu jídla můžete vybírat levnější objednávky."
+      ]
+    },
+    "planLargePurchases": {
+      "title": "Plánovat velké nákupy předem",
+      "paragraphs": [
+        "Pokud přehled ukazuje jednotlivé velké špičky, můžete tyto výdaje zohlednit při rozdělování peněz mezi fondy.",
+        "To je zvlášť užitečné, pokud se větší nákup pravidelně opakuje."
+      ]
+    },
+    "reallocateJars": {
+      "title": "Přerozdělit peníze mezi fondy",
+      "paragraphs": [
+        "Pokud jsou výdaje s daným štítkem nezbytné a pravidelně překračují dostupný rozpočet, problém nemusí být v samotných nákupech, ale v nedostatečném financování fondu.",
+        "V takovém případě můžete zvýšit podíl tohoto fondu na úkor fondů s nižší prioritou.",
+        "Pokud však významnou část celkové částky tvoří volitelné výdaje, nejprve se zaměřte na jejich četnost a průměrnou výši."
+      ]
+    }
+  },
+  "analysisExample": {
+    "title": "Příklad analýzy přehledu",
+    "firstExampleIntro": "Předpokládejme, že přehled pro štítek „Rozvoz jídla“ ukazuje:",
+    "firstExampleMetrics": [
+      "celková částka — 1 800;",
+      "počet transakcí — 9;",
+      "průměrná částka — 200."
+    ],
+    "firstExampleParagraphs": [
+      "Histogram ukazuje, že objednávky probíhaly dvakrát až třikrát týdně bez jednoho dominantního vrcholu.",
+      "Z toho lze usoudit, že celková částka vznikla pravidelnými výdaji, nikoli jednorázovým nákupem."
+    ],
+    "firstExampleActionsIntro": "Možné kroky:",
+    "firstExampleActions": [
+      "snížit počet objednávek;",
+      "snížit průměrnou cenu objednávky;",
+      "předem vyčlenit pevnou částku na rozvoz;",
+      "ponechat výdaje beze změny, pokud odpovídají vašim prioritám a rozpočtu."
+    ],
+    "secondExampleIntro": "Jiný příklad:",
+    "secondExampleMetrics": [
+      "celková částka — 1 800;",
+      "počet transakcí — 2;",
+      "průměrná částka — 900;",
+      "téměř celá částka připadá na jeden den."
+    ],
+    "closingParagraphs": [
+      "Zde je příčina výdajů jiná. Pravděpodobně šlo o jeden velký nákup nebo událost. Snižování četnosti běžných nákupů by v takové situaci nic významného nezměnilo."
+    ]
+  },
+  "multipleTags": {
+    "title": "Počítejte s více štítky u jedné transakce",
+    "paragraphs": [
+      "Jedna transakce může mít více štítků.",
+      "Pokud je výdaj 300 označen štítky „Rozvoz jídla“ a „Hosté“, celá částka bude zahrnuta do podrobností každého z těchto štítků."
+    ],
+    "perspectivesIntro": "Díky tomu lze stejnou transakci analyzovat z různých pohledů:",
+    "perspectives": [
+      "co bylo koupeno;",
+      "za jakých okolností;",
+      "za jakým účelem;",
+      "zda byl nákup plánovaný."
+    ],
+    "closingParagraphs": [
+      "Částka se mezi štítky nerozděluje.",
+      "Proto byste neměli sčítat hodnoty z několika přehledů podle štítků při výpočtu celkových výdajů."
+    ],
+    "fundsMovementLinkPrefix": "Skutečnou částku výdajů za měsíc je lepší sledovat v přehledu ",
+    "fundsMovementLinkText": "„Pohyb prostředků“",
+    "fundsMovementLinkSuffix": "."
+  },
+  "summary": {
+    "title": "To nejdůležitější",
+    "paragraphs": [
+      "Přehled „Podrobnosti výdajů podle štítku“ pomáhá pochopit nejen to, kolik peněz bylo utraceno, ale také jak tato částka vznikla.",
+      "Celková částka ukazuje finanční dopad výdajů.",
+      "Počet transakcí ukazuje jejich četnost.",
+      "Průměrná částka pomáhá odhadnout typickou hodnotu jednoho nákupu.",
+      "Histogram ukazuje rozložení výdajů podle jednotlivých dnů měsíce a pomáhá odlišit:"
+    ],
+    "histogramInsights": [
+      "jednorázový velký nákup;",
+      "pravidelné výdaje;",
+      "mnoho malých transakcí;",
+      "opakující se špičky;",
+      "výdaje soustředěné na začátku nebo na konci měsíce."
+    ],
+    "closingParagraphs": [
+      "Sledujte tyto ukazatele společně. Stejná celková částka může vzniknout velmi odlišným chováním, a proto může vyžadovat různá rozhodnutí."
+    ]
+  }
+}

@@ -13,6 +13,7 @@
       "help": "Информация об ошибке",
       "reportFundsMovement": "Отчёт «Движение средств»",
       "reportSpendingsByTags": "Отчёт «Траты по тегам»",
+      "reportTagDetails": "Детализация расходов по тегу",
       "licenses": "Лицензии открытого ПО"
     }
   },

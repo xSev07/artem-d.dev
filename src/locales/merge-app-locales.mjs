@@ -19,6 +19,7 @@ const PAGE_FOLDER_KEYS = {
     guide: ["articles", "guide"],
     "report-funds-movement": ["articles", "reportFundsMovement"],
     "report-spendings-by-tags": ["articles", "reportSpendingsByTags"],
+    "report-tag-details": ["articles", "reportTagDetails"],
   },
 };
 
