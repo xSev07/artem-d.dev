@@ -1,0 +1,1081 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Comment lire le rapport « Dépenses par tags »</title>
+  <meta name="description" content="Le rapport « Dépenses par tags » vous aide à comprendre à quoi l’argent du compartiment sélectionné a été dépensé pendant une période donnée." />
+  
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  
+  <link rel="stylesheet" href="/assets/style.css" />
+</head>
+<body>
+  <header class="site-header">
+  <div class="container site-header__inner">
+    <a class="site-header__brand" href="/">Artem D Apps</a>
+    <div class="site-header__aside">
+      
+      
+      <nav class="site-header__nav" aria-label="Navigation du site">
+        <a
+          class="site-header__link"
+          href="/fr/apps/6-jars-finance/download/"
+          data-analytics-link="download"
+          data-analytics-placement="header"
+          
+        >Télécharger l’application</a>
+        <a
+          class="site-header__link"
+          href="/fr/apps/6-jars-finance/articles/guide/"
+          
+        >Méthode des six enveloppes</a>
+      </nav>
+      
+        
+
+<nav class="lang-switch" aria-label="Langue">
+  <label class="lang-switch__desktop">
+    <span class="lang-switch__visually-hidden">Langue</span>
+    <select class="lang-switch__select" data-lang-switch-select>
+      
+        <option
+          value="/en/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >English</option>
+      
+        <option
+          value="/id/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >Bahasa Indonesia</option>
+      
+        <option
+          value="/cs/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >Čeština</option>
+      
+        <option
+          value="/de/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >Deutsch</option>
+      
+        <option
+          value="/es/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >Español</option>
+      
+        <option
+          value="/fr/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          selected
+        >Français</option>
+      
+        <option
+          value="/it/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >Italiano</option>
+      
+        <option
+          value="/nl/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >Nederlands</option>
+      
+        <option
+          value="/pl/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >Polski</option>
+      
+        <option
+          value="/pt-BR/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >Português (Brasil)</option>
+      
+        <option
+          value="/ro/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >Română</option>
+      
+        <option
+          value="/ru/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >Русский</option>
+      
+        <option
+          value="/sv/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >Svenska</option>
+      
+        <option
+          value="/tr/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >Türkçe</option>
+      
+        <option
+          value="/uk/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >Українська</option>
+      
+    </select>
+  </label>
+
+  <button
+    type="button"
+    class="lang-switch__trigger"
+    data-open-lang-switch-modal
+    aria-haspopup="dialog"
+    aria-expanded="false"
+    aria-controls="lang-switch-modal"
+  >
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        <span class="lang-switch__code">
+  FR
+</span>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    <span class="lang-switch__arrow" aria-hidden="true">▾</span>
+  </button>
+
+  <div
+    class="modal-overlay lang-switch__modal-overlay"
+    id="lang-switch-modal"
+    hidden
+    aria-hidden="true"
+    data-lang-switch-modal
+  >
+    <div
+      class="modal lang-switch__modal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="lang-switch-modal-title"
+    >
+      <h2 class="modal__title" id="lang-switch-modal-title">Langue</h2>
+      <fieldset class="lang-switch__mobile" aria-label="Langue">
+        <div class="lang-switch__radio-list">
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/en/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">English</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/id/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Bahasa Indonesia</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/cs/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Čeština</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/de/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Deutsch</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/es/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Español</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/fr/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                checked
+              />
+              <span class="lang-switch__radio-text">Français</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/it/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Italiano</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/nl/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Nederlands</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/pl/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Polski</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/pt-BR/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Português (Brasil)</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/ro/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Română</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/ru/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Русский</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/sv/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Svenska</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/tr/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Türkçe</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/uk/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Українська</span>
+            </label>
+          
+        </div>
+      </fieldset>
+    </div>
+  </div>
+
+  <script src="/assets/js/lang-switch.js" defer></script>
+</nav>
+
+      
+    </div>
+  </div>
+</header>
+
+
+  <main class="article">
+    <div class="container">
+      <div class="article-layout">
+  <div class="article-container">
+    
+
+
+
+
+
+
+
+
+
+<h1>Comment lire le rapport « Dépenses par tags »</h1>
+
+
+<p>Le rapport « Dépenses par tags » vous aide à comprendre à quoi l’argent du compartiment sélectionné a été dépensé pendant une période donnée.</p>
+
+<p>Contrairement à une simple liste de transactions, il regroupe les dépenses ayant les mêmes tags et affiche :</p>
+
+
+
+<ul>
+  
+  <li>le montant total dépensé pour chaque tag ;</li>
+  
+  <li>le nombre de transactions associées à ce tag ;</li>
+  
+  <li>la comparaison des dépenses entre les différents tags.</li>
+  
+</ul>
+
+
+
+<p>Le rapport permet de repérer non seulement les types de dépenses les plus importants, mais aussi les petits achats fréquents qui peuvent sembler insignifiants pris séparément.</p>
+
+
+
+<nav class="article-overview" aria-labelledby="article-overview-title">
+  <h2 id="article-overview-title">Sommaire</h2>
+  <ol>
+    <li><a href="#what-it-shows">Ce que montre le rapport</a></li>
+    <li><a href="#sort-by-amount">Tri par montant</a></li>
+    <li><a href="#sort-by-count">Tri par nombre de transactions</a></li>
+    <li><a href="#progress-bars">Comment lire les barres</a></li>
+    <li><a href="#tag-sum-mismatch">Pourquoi le total par tags peut différer du total des dépenses</a></li>
+    <li><a href="#compare-amount-and-count">Comment comparer le montant et le nombre de transactions</a></li>
+    <li><a href="#conclusions">Ce que vous pouvez apprendre grâce au rapport</a></li>
+    <li><a href="#compare-months">Comparez différents mois</a></li>
+    <li><a href="#consistent-tags">Utilisez les tags de manière cohérente</a></li>
+    <li><a href="#analysis-example">Exemple d’analyse du rapport</a></li>
+    <li><a href="#summary">À retenir</a></li>
+  </ol>
+</nav>
+
+<div class="article-section">
+<h2 id="what-it-shows">Ce que montre le rapport</h2>
+
+
+<p>Le rapport est établi pour un seul compartiment sélectionné à la fois.</p>
+
+<p>Par exemple, si vous sélectionnez le compartiment « Nécessités », seules les dépenses de ce compartiment seront incluses. Les transactions provenant d’autres compartiments ne seront pas prises en compte, même si elles utilisent les mêmes tags.</p>
+
+
+<p>Deux valeurs sont affichées pour chaque tag :</p>
+
+<ul>
+  
+  <li><strong>montant</strong> — le montant total dépensé dans les transactions associées à ce tag ;</li>
+  
+  <li><strong>nombre de transactions</strong> — le nombre de fois où ce tag a été utilisé pour des dépenses pendant la période sélectionnée.</li>
+  
+</ul>
+
+<p>Par exemple, si le tag « Livraison de repas » a été utilisé dans quatre transactions pour un total de 650, le rapport affichera :</p>
+
+<ul>
+  
+  <li>montant — 650 ;</li>
+  
+  <li>nombre de transactions — 4.</li>
+  
+</ul>
+
+
+
+<p>Ces valeurs montrent vos dépenses sous différents angles. Un montant élevé peut provenir aussi bien d’un seul achat important que de nombreux petits achats.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="sort-by-amount">Tri par montant</h2>
+
+
+<p>Lorsque vous triez par montant, les tags associés aux dépenses les plus élevées apparaissent en premier.</p>
+
+<p>Ce mode aide à répondre à la question :</p>
+
+
+<blockquote><p>Quels types de dépenses ont eu le plus d’impact sur le solde du compartiment ?</p></blockquote>
+<p>Par exemple, un rapport mensuel peut présenter les données suivantes :</p>
+
+<table>
+  <thead>
+    <tr>
+      
+      <th>Tag</th>
+      
+      <th>Montant</th>
+      
+      <th>Nombre</th>
+      
+    </tr>
+  </thead>
+  <tbody>
+    
+    <tr>
+      
+      <td>Courses</td>
+      
+      <td>2 400</td>
+      
+      <td>12</td>
+      
+    </tr>
+    
+    <tr>
+      
+      <td>Produits ménagers</td>
+      
+      <td>750</td>
+      
+      <td>3</td>
+      
+    </tr>
+    
+    <tr>
+      
+      <td>Livraison de repas</td>
+      
+      <td>650</td>
+      
+      <td>4</td>
+      
+    </tr>
+    
+    <tr>
+      
+      <td>Café</td>
+      
+      <td>480</td>
+      
+      <td>16</td>
+      
+    </tr>
+    
+  </tbody>
+</table>
+
+
+
+<p>Dans cet exemple, les courses représentent la dépense la plus importante. Même si le café a été acheté plus souvent, son impact sur le montant total est nettement plus faible.</p>
+
+
+<p>Le tri par montant est utile pour :</p>
+
+<ul>
+  
+  <li>repérer les types d’achats les plus coûteux ;</li>
+  
+  <li>voir quelles dépenses ont eu le plus d’impact sur le solde ;</li>
+  
+  <li>choisir un tag à analyser plus en détail ;</li>
+  
+  <li>comparer la structure des dépenses entre différentes périodes.</li>
+  
+</ul>
+
+
+
+<p>Un montant élevé ne signifie pas automatiquement qu’une dépense était inutile. Les courses peuvent par exemple arriver en tête simplement parce qu’elles constituent une dépense importante du compartiment sélectionné.</p>
+
+<p>Le rapport montre où l’argent a été dépensé, mais la nécessité de ces dépenses dépend de l’objectif du compartiment et de votre situation.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="sort-by-count">Tri par nombre de transactions</h2>
+
+
+<p>Lorsque vous triez par nombre de transactions, les tags utilisés le plus souvent apparaissent en premier.</p>
+
+<p>Ce mode répond à une autre question :</p>
+
+
+<blockquote><p>Quelles dépenses se produisent le plus régulièrement ?</p></blockquote>
+
+
+<p>Les transactions fréquentes ne sont pas nécessairement les plus importantes en montant. Elles peuvent cependant révéler une habitude régulière.</p>
+
+<p>Dans l’exemple précédent, le café a été acheté 16 fois — plus souvent que toute autre dépense. Son montant total reste relativement faible, il apparaîtrait donc plus bas dans la liste avec un tri par montant.</p>
+
+
+<p>Le tri par nombre de transactions permet de repérer :</p>
+
+<ul>
+  
+  <li>les achats qui se répètent souvent ;</li>
+  
+  <li>les dépenses devenues habituelles ;</li>
+  
+  <li>un grand nombre de petites transactions ;</li>
+  
+  <li>les domaines où réduire la fréquence des achats peut être plus utile que réduire le montant de chaque achat.</li>
+  
+</ul>
+
+
+
+<p>Par exemple, un achat de 500 est plus visible que dix achats de 50. Pourtant, le total dépensé est identique dans les deux cas. Le tri par nombre de transactions permet de repérer plus facilement le second scénario.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="progress-bars">Comment lire les barres</h2>
+
+
+<p>Une barre affichée à côté de chaque tag permet de comparer visuellement le montant des dépenses.</p>
+
+<p>Le tag ayant le montant de dépenses le plus élevé pendant la période sélectionnée est considéré comme 100 %. Les autres barres sont calculées par rapport à celui-ci.</p>
+
+
+<p>Par exemple :</p>
+
+<ul>
+  
+  <li>« Courses » — 2 000 ;</li>
+  
+  <li>« Livraison de repas » — 1 000 ;</li>
+  
+  <li>« Café » — 500.</li>
+  
+</ul>
+
+<p>Dans ce cas :</p>
+
+<ul>
+  
+  <li>la barre « Courses » sera entièrement remplie ;</li>
+  
+  <li>« Livraison de repas » sera remplie environ à moitié ;</li>
+  
+  <li>« Café » sera rempli environ au quart.</li>
+  
+</ul>
+
+
+
+<p>La barre n’indique pas la part du tag dans l’ensemble des dépenses. Une barre entièrement remplie ne signifie pas que 100 % de vos dépenses correspondent à ce tag. Elle indique uniquement qu’il s’agit du montant le plus élevé dans le rapport actuel.</p>
+
+<p>La visualisation est toujours basée sur le montant, même lorsque la liste est triée par nombre de transactions.</p>
+
+<p>Lorsque vous changez le mode de tri, l’ordre des tags peut donc changer, mais la longueur des barres reste liée aux montants dépensés.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="tag-sum-mismatch">Pourquoi le total par tags peut différer du total des dépenses</h2>
+
+
+<p>Une même transaction peut comporter plusieurs tags. Dans ce cas, le montant total de la transaction est comptabilisé séparément pour chacun des tags sélectionnés.</p>
+
+
+<p>Par exemple, vous dépensez 300 et ajoutez deux tags à la transaction :</p>
+
+<ul>
+  
+  <li>« Courses » ;</li>
+  
+  <li>« Invités ».</li>
+  
+</ul>
+
+<p>Dans le rapport, cette transaction ajoutera :</p>
+
+<ul>
+  
+  <li>300 au tag « Courses » ;</li>
+  
+  <li>300 au tag « Invités ».</li>
+  
+</ul>
+
+
+
+<p>En réalité, seuls 300 ont été retirés du compartiment, mais la somme des valeurs des deux tags sera de 600.</p>
+
+<p>Il ne s’agit ni d’un double débit ni d’une erreur de calcul. Dans l’application, les tags sont des caractéristiques d’une transaction, et non des parties entre lesquelles son montant est réparti.</p>
+
+
+<p>Un même achat peut répondre simultanément à plusieurs questions :</p>
+
+<ul>
+  
+  <li><strong>qu’avez-vous acheté ?</strong> — des courses ;</li>
+  
+  <li><strong>pour quoi ?</strong> — pour des invités ;</li>
+  
+  <li><strong>où ?</strong> — au marché ;</li>
+  
+  <li><strong>l’achat était-il prévu ?</strong> — non prévu.</li>
+  
+</ul>
+
+
+
+<p>Chaque tag permet d’examiner la même transaction sous un angle différent.</p>
+
+<p>Il ne faut donc pas additionner toutes les lignes du rapport pour calculer le total de vos dépenses.</p>
+
+
+<p>Pour voir le montant réellement dépensé pendant la période, consultez le rapport <a href="/fr/apps/6-jars-finance/articles/report-funds-movement/">« Mouvements de fonds »</a>.</p>
+</div>
+
+<div class="article-section">
+<h2 id="compare-amount-and-count">Comment comparer le montant et le nombre de transactions</h2>
+<p>Les informations les plus utiles apparaissent souvent lorsque vous examinez les deux valeurs ensemble.</p>
+<div class="article-subsection">
+<h3>Montant élevé et nombreuses transactions</h3>
+
+
+<p>La dépense est à la fois importante et régulière.</p>
+
+<p>Par exemple, les courses peuvent être effectuées plusieurs fois par semaine et représenter une part importante des dépenses du compartiment.</p>
+
+<p>Cela ne signifie pas nécessairement qu’il y a un problème, mais indique que des changements dans ce domaine auraient le plus d’impact sur le solde global.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Montant élevé et peu de transactions</h3>
+
+
+<p>La majeure partie du montant provient d’un ou de quelques achats importants.</p>
+
+<p>Par exemple, le tag « Réparations » peut n’avoir été utilisé que deux fois tout en arrivant en tête par montant.</p>
+
+<p>Dans ce cas, il est utile de vérifier s’il s’agissait de dépenses ponctuelles. Si oui, un seul mois ne permet pas de tirer de conclusion sur votre structure habituelle de dépenses.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Montant faible et nombreuses transactions</h3>
+
+
+<p>La dépense se produit souvent, mais chaque transaction est relativement petite.</p>
+
+<p>Cela peut être le cas du café, des collations, des déplacements ou de petits achats effectués sur le chemin du retour.</p>
+
+<p>Ces dépenses passent facilement inaperçues parce que chaque transaction semble insignifiante. Le rapport permet de voir plus clairement leur fréquence totale et leur impact sur votre budget.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Montant faible et peu de transactions</h3>
+
+
+<p>La dépense était rare et a eu peu d’impact sur l’ensemble.</p>
+
+<p>Ces tags ne nécessitent généralement pas d’attention particulière, sauf si vous suivez volontairement une habitude ou un objectif précis.</p>
+
+
+</div>
+</div>
+
+<div class="article-section">
+<h2 id="conclusions">Ce que vous pouvez apprendre grâce au rapport</h2>
+<div class="article-subsection">
+<h3>Ce pour quoi vous dépensez le plus</h3>
+
+
+<p>Le tri par montant montre quels types de dépenses ont le plus influencé le solde du compartiment sélectionné pendant le mois.</p>
+
+<p>Si un tag se situe nettement au-dessus des autres, commencez par vérifier si cela correspond à l’objectif du compartiment. Par exemple, des dépenses élevées en courses peuvent être normales dans le compartiment « Nécessités », tandis qu’un montant élevé sous « Livraison de repas » peut être l’occasion de vérifier si les livraisons sont devenues trop fréquentes ou trop coûteuses.</p>
+
+
+<p>Comparez le montant au nombre de transactions :</p>
+
+<ul>
+  
+  <li>un montant élevé avec peu de transactions correspond généralement à quelques achats importants ;</li>
+  
+  <li>un montant élevé avec de nombreuses transactions indique des dépenses régulières qui se sont accumulées au cours du mois.</li>
+  
+</ul>
+
+
+
+<p>Cela aide à comprendre ce que vous pourriez réellement changer. Dans le premier cas, vérifiez si l’achat important était ponctuel et prévu. Dans le second, demandez-vous s’il est possible de réduire le coût moyen d’un achat ou d’effectuer ce type d’achat moins souvent.</p>
+
+<p>Un montant élevé ne signifie pas à lui seul que vous avez trop dépensé. Il indique les types de dépenses qui ont le plus d’impact sur le compartiment et les domaines où un changement aurait l’effet le plus visible.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Quels achats se produisent le plus souvent</h3>
+
+
+<p>Le tri par nombre de transactions peut faire apparaître des habitudes qui ne sont pas toujours visibles à partir du montant total.</p>
+
+<p>Par exemple, quelques livraisons de repas peuvent coûter davantage sur un mois que le café, mais des cafés achetés quotidiennement apparaîtront plus haut en nombre de transactions.</p>
+
+<p>Selon votre objectif, il peut être plus utile d’analyser soit le coût d’une habitude, soit sa fréquence.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Si vos dépenses proviennent de grandes ou de petites transactions</h3>
+
+
+<p>Le montant et le nombre de transactions permettent d’estimer approximativement la nature de vos dépenses.</p>
+
+
+<p>Par exemple :</p>
+
+<ul>
+  
+  <li>1 200 sur 2 transactions — probablement quelques achats importants ;</li>
+  
+  <li>1 200 sur 24 transactions — de nombreux petits achats.</li>
+  
+</ul>
+
+
+
+<p>Pour une analyse plus détaillée, vous pouvez ouvrir les détails d’un tag spécifique. Vous y verrez le montant total, le nombre de transactions, la dépense moyenne et la répartition des dépenses entre les différents jours du mois.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Quelles dépenses méritent d’être examinées de plus près</h3>
+<p>Les tags pouvant mériter une attention particulière sont ceux qui :</p>
+
+<ul>
+  
+  <li>se trouvent en haut de la liste par montant ;</li>
+  
+  <li>sont utilisés nettement plus souvent que les autres ;</li>
+  
+  <li>ont augmenté de manière inattendue par rapport à leur niveau habituel ;</li>
+  
+  <li>présentent à la fois un montant élevé et un grand nombre de transactions ;</li>
+  
+  <li>correspondent à des achats facultatifs ou non prévus.</li>
+  
+</ul>
+
+
+
+<p>Le rapport ne décide pas quelles dépenses sont bonnes ou mauvaises. Il aide à repérer les domaines qui peuvent mériter une analyse plus approfondie.</p>
+
+
+</div>
+</div>
+
+<div class="article-section">
+<h2 id="compare-months">Comparez différents mois</h2>
+
+
+<p>Pour repérer les changements dans vos dépenses, comparez les rapports sur plusieurs mois.</p>
+
+<p>Lors de la comparaison, observez à la fois le montant et le nombre de transactions. Une hausse des dépenses associées à un tag peut avoir différentes causes :</p>
+
+
+
+<ul>
+  
+  <li>les achats sont devenus plus fréquents ;</li>
+  
+  <li>le coût moyen de chaque achat a augmenté ;</li>
+  
+  <li>une transaction importante a eu lieu pendant le mois ;</li>
+  
+  <li>vous avez commencé à utiliser le tag de manière plus cohérente.</li>
+  
+</ul>
+
+<p>Prenez également en compte les événements qui ont pu temporairement modifier vos dépenses :</p>
+
+<ul>
+  
+  <li>les fêtes ;</li>
+  
+  <li>les vacances ;</li>
+  
+  <li>un déménagement ;</li>
+  
+  <li>un achat important ;</li>
+  
+  <li>la visite d’invités ;</li>
+  
+  <li>un changement temporaire de mode de vie.</li>
+  
+</ul>
+
+
+
+<p>Une hausse des dépenses pendant un seul mois ne signifie pas forcément qu’une nouvelle habitude s’est installée. Il est plus utile de vérifier si cette évolution se poursuit les mois suivants.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="consistent-tags">Utilisez les tags de manière cohérente</h2>
+
+
+<p>La qualité du rapport dépend de la régularité avec laquelle vous utilisez les tags.</p>
+
+<p>Si vous ajoutez un tag à certains achats similaires mais pas à d’autres, le rapport ne montrera qu’une partie de vos dépenses réelles.</p>
+
+<p>Par exemple, si vous souhaitez suivre les livraisons de repas, ajoutez le tag correspondant à chaque transaction de ce type. Sinon, le montant et le nombre de transactions seront sous-estimés.</p>
+
+<p>Il est utile de définir à l’avance ce que signifie chaque tag.</p>
+
+
+<p>Par exemple :</p>
+
+<ul>
+  
+  <li>« Cafés et restaurants » — tous les achats effectués dans des établissements ;</li>
+  
+  <li>« Livraison de repas » — uniquement les commandes livrées à domicile ;</li>
+  
+  <li>« Collations » — petits achats alimentaires non prévus effectués à l’extérieur.</li>
+  
+</ul>
+
+
+
+<p>Plus vos règles d’utilisation des tags sont claires, plus il est facile de comparer les données entre différentes périodes.</p>
+
+<p>Vous n’avez pas besoin d’ajouter des tags à chaque transaction. Utilisez-les lorsque vous souhaitez réellement suivre un type de dépense, une habitude ou le contexte d’un achat.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="analysis-example">Exemple d’analyse du rapport</h2>
+<p>Supposons que le compartiment « Loisirs » affiche les données suivantes pour le mois :</p>
+
+<table>
+  <thead>
+    <tr>
+      
+      <th>Tag</th>
+      
+      <th>Montant</th>
+      
+      <th>Nombre</th>
+      
+    </tr>
+  </thead>
+  <tbody>
+    
+    <tr>
+      
+      <td>Sorties entre amis</td>
+      
+      <td>1 800</td>
+      
+      <td>4</td>
+      
+    </tr>
+    
+    <tr>
+      
+      <td>Livraison de repas</td>
+      
+      <td>1 400</td>
+      
+      <td>7</td>
+      
+    </tr>
+    
+    <tr>
+      
+      <td>Jeux</td>
+      
+      <td>1 000</td>
+      
+      <td>1</td>
+      
+    </tr>
+    
+    <tr>
+      
+      <td>Café</td>
+      
+      <td>800</td>
+      
+      <td>16</td>
+      
+    </tr>
+    
+  </tbody>
+</table>
+
+
+
+<p>Avec un tri par montant, on voit que les sorties entre amis ont représenté la dépense la plus importante.</p>
+
+<p>Mais le tri par nombre de transactions montre une autre image : les achats associés au tag « Café » ont été les plus fréquents.</p>
+
+
+<p>Le rapport permet de tirer plusieurs conclusions :</p>
+
+<ul>
+  
+  <li>les sorties entre amis ont constitué la principale catégorie de dépenses ;</li>
+  
+  <li>l’achat d’un jeu était important mais ponctuel ;</li>
+  
+  <li>les livraisons de repas étaient régulières et arrivaient en deuxième position par montant ;</li>
+  
+  <li>le café était acheté le plus souvent, même si le montant total était plus faible.</li>
+  
+</ul>
+
+
+
+<p>Il n’y a pas ici une seule « mauvaise » dépense. La conclusion dépend de ce que vous cherchez à comprendre.</p>
+
+<p>Si vous souhaitez réduire rapidement vos dépenses, commencez par examiner les catégories les plus importantes. Si vous souhaitez modifier une habitude quotidienne, les transactions fréquentes peuvent être plus intéressantes à analyser.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="summary">À retenir</h2>
+
+
+<p>Le rapport « Dépenses par tags » montre vos dépenses sous deux angles :</p>
+
+
+
+<ul>
+  
+  <li><strong>le montant</strong> montre l’impact financier ;</li>
+  
+  <li><strong>le nombre de transactions</strong> montre la fréquence.</li>
+  
+</ul>
+
+
+
+<p>Le tri par montant aide à repérer les types d’achats les plus coûteux, tandis que le tri par nombre de transactions fait ressortir les plus réguliers.</p>
+
+<p>Lorsqu’une transaction possède plusieurs tags, la somme de toutes les valeurs associées aux tags peut dépasser vos dépenses réelles, car le montant total de la transaction est comptabilisé séparément pour chaque tag. Cela permet d’analyser le même achat sous plusieurs angles, mais signifie également qu’il ne faut pas additionner toutes les lignes du rapport pour calculer vos dépenses totales.</p>
+
+<p>Utilisez le rapport non pas pour identifier automatiquement des achats « inutiles », mais pour repérer les domaines de dépenses qui peuvent mériter un examen plus approfondi.</p>
+
+
+</div>
+
+  </div>
+  <aside class="article-toc" aria-label="Navigation dans la page">
+    <nav class="article-toc__nav">
+      <p class="article-toc__title">Sur cette page</p>
+      <ol class="article-toc__list"></ol>
+    </nav>
+  </aside>
+</div>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+  <div class="container site-footer__inner">
+    <p class="site-footer__copyright">© 2026 Artem D Apps</p>
+    <nav class="site-footer__nav" aria-label="Informations sur le site">
+      <a class="site-footer__link" href="/fr/apps/6-jars-finance/help/">Informations sur l’erreur</a>
+      <a class="site-footer__link" href="/fr/apps/6-jars-finance/articles/report-funds-movement/">Funds Movement Report</a>
+      <a class="site-footer__link" href="/fr/apps/6-jars-finance/articles/report-spendings-by-tags/">Spendings by Tags Report</a>
+      <a class="site-footer__link" href="/fr/apps/6-jars-finance/privacy/">Politique de confidentialité</a>
+      <a class="site-footer__link" href="/fr/apps/6-jars-finance/licenses/">Licences open source</a>
+    </nav>
+  </div>
+</footer>
+
+  
+  <script src="/assets/article-toc.js" defer></script>
+
+  
+  <script src="/assets/js/analytics.js" defer></script>
+</body>
+</html>

@@ -18,6 +18,7 @@ const PAGE_FOLDER_KEYS = {
     download: ["download"],
     guide: ["articles", "guide"],
     "report-funds-movement": ["articles", "reportFundsMovement"],
+    "report-spendings-by-tags": ["articles", "reportSpendingsByTags"],
   },
 };
 

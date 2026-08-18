@@ -1,0 +1,1081 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cara Membaca Laporan “Pengeluaran berdasarkan Tag”</title>
+  <meta name="description" content="Laporan “Pengeluaran berdasarkan Tag” membantu Anda memahami untuk apa uang dari pos yang dipilih dibelanjakan selama periode tertentu." />
+  
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  
+  <link rel="stylesheet" href="/assets/style.css" />
+</head>
+<body>
+  <header class="site-header">
+  <div class="container site-header__inner">
+    <a class="site-header__brand" href="/">Artem D Apps</a>
+    <div class="site-header__aside">
+      
+      
+      <nav class="site-header__nav" aria-label="Navigasi situs">
+        <a
+          class="site-header__link"
+          href="/id/apps/6-jars-finance/download/"
+          data-analytics-link="download"
+          data-analytics-placement="header"
+          
+        >Unduh aplikasi</a>
+        <a
+          class="site-header__link"
+          href="/id/apps/6-jars-finance/articles/guide/"
+          
+        >Metode Enam Pos</a>
+      </nav>
+      
+        
+
+<nav class="lang-switch" aria-label="Bahasa">
+  <label class="lang-switch__desktop">
+    <span class="lang-switch__visually-hidden">Bahasa</span>
+    <select class="lang-switch__select" data-lang-switch-select>
+      
+        <option
+          value="/en/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >English</option>
+      
+        <option
+          value="/id/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          selected
+        >Bahasa Indonesia</option>
+      
+        <option
+          value="/cs/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >Čeština</option>
+      
+        <option
+          value="/de/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >Deutsch</option>
+      
+        <option
+          value="/es/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >Español</option>
+      
+        <option
+          value="/fr/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >Français</option>
+      
+        <option
+          value="/it/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >Italiano</option>
+      
+        <option
+          value="/nl/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >Nederlands</option>
+      
+        <option
+          value="/pl/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >Polski</option>
+      
+        <option
+          value="/pt-BR/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >Português (Brasil)</option>
+      
+        <option
+          value="/ro/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >Română</option>
+      
+        <option
+          value="/ru/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >Русский</option>
+      
+        <option
+          value="/sv/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >Svenska</option>
+      
+        <option
+          value="/tr/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >Türkçe</option>
+      
+        <option
+          value="/uk/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >Українська</option>
+      
+    </select>
+  </label>
+
+  <button
+    type="button"
+    class="lang-switch__trigger"
+    data-open-lang-switch-modal
+    aria-haspopup="dialog"
+    aria-expanded="false"
+    aria-controls="lang-switch-modal"
+  >
+    
+      
+    
+      
+        <span class="lang-switch__code">
+  ID
+</span>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    <span class="lang-switch__arrow" aria-hidden="true">▾</span>
+  </button>
+
+  <div
+    class="modal-overlay lang-switch__modal-overlay"
+    id="lang-switch-modal"
+    hidden
+    aria-hidden="true"
+    data-lang-switch-modal
+  >
+    <div
+      class="modal lang-switch__modal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="lang-switch-modal-title"
+    >
+      <h2 class="modal__title" id="lang-switch-modal-title">Bahasa</h2>
+      <fieldset class="lang-switch__mobile" aria-label="Bahasa">
+        <div class="lang-switch__radio-list">
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/en/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">English</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/id/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                checked
+              />
+              <span class="lang-switch__radio-text">Bahasa Indonesia</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/cs/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Čeština</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/de/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Deutsch</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/es/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Español</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/fr/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Français</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/it/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Italiano</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/nl/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Nederlands</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/pl/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Polski</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/pt-BR/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Português (Brasil)</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/ro/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Română</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/ru/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Русский</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/sv/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Svenska</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/tr/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Türkçe</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/uk/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Українська</span>
+            </label>
+          
+        </div>
+      </fieldset>
+    </div>
+  </div>
+
+  <script src="/assets/js/lang-switch.js" defer></script>
+</nav>
+
+      
+    </div>
+  </div>
+</header>
+
+
+  <main class="article">
+    <div class="container">
+      <div class="article-layout">
+  <div class="article-container">
+    
+
+
+
+
+
+
+
+
+
+<h1>Cara Membaca Laporan “Pengeluaran berdasarkan Tag”</h1>
+
+
+<p>Laporan “Pengeluaran berdasarkan Tag” membantu Anda memahami untuk apa uang dari pos yang dipilih dibelanjakan selama periode tertentu.</p>
+
+<p>Berbeda dengan daftar transaksi biasa, laporan ini mengelompokkan pengeluaran dengan tag yang sama dan menampilkan:</p>
+
+
+
+<ul>
+  
+  <li>total jumlah pengeluaran untuk setiap tag;</li>
+  
+  <li>jumlah transaksi dengan tag tersebut;</li>
+  
+  <li>perbandingan pengeluaran antara berbagai tag.</li>
+  
+</ul>
+
+
+
+<p>Laporan ini membantu Anda menemukan bukan hanya jenis pengeluaran dengan jumlah terbesar, tetapi juga pembelian kecil yang sering dilakukan dan mungkin terlihat tidak signifikan jika dilihat satu per satu.</p>
+
+
+
+<nav class="article-overview" aria-labelledby="article-overview-title">
+  <h2 id="article-overview-title">Daftar isi</h2>
+  <ol>
+    <li><a href="#what-it-shows">Apa yang ditampilkan laporan</a></li>
+    <li><a href="#sort-by-amount">Urutkan berdasarkan jumlah</a></li>
+    <li><a href="#sort-by-count">Urutkan berdasarkan jumlah transaksi</a></li>
+    <li><a href="#progress-bars">Cara membaca bilah</a></li>
+    <li><a href="#tag-sum-mismatch">Mengapa total berdasarkan tag dapat berbeda dari total pengeluaran</a></li>
+    <li><a href="#compare-amount-and-count">Cara membandingkan jumlah dan jumlah transaksi</a></li>
+    <li><a href="#conclusions">Apa yang dapat Anda pelajari dari laporan</a></li>
+    <li><a href="#compare-months">Bandingkan bulan yang berbeda</a></li>
+    <li><a href="#consistent-tags">Gunakan tag secara konsisten</a></li>
+    <li><a href="#analysis-example">Contoh analisis laporan</a></li>
+    <li><a href="#summary">Hal utama</a></li>
+  </ol>
+</nav>
+
+<div class="article-section">
+<h2 id="what-it-shows">Apa yang ditampilkan laporan</h2>
+
+
+<p>Laporan dibuat hanya untuk satu pos yang dipilih pada satu waktu.</p>
+
+<p>Misalnya, jika Anda memilih pos “Kebutuhan”, laporan hanya akan mencakup pengeluaran dari pos tersebut. Transaksi dari pos lain tidak akan dihitung, meskipun menggunakan tag yang sama.</p>
+
+
+<p>Dua nilai ditampilkan untuk setiap tag:</p>
+
+<ul>
+  
+  <li><strong>jumlah</strong> — total uang yang dibelanjakan dalam transaksi dengan tag ini;</li>
+  
+  <li><strong>jumlah transaksi</strong> — berapa kali tag digunakan pada pengeluaran selama periode yang dipilih.</li>
+  
+</ul>
+
+<p>Misalnya, jika tag “Pesan makanan” digunakan dalam empat transaksi dengan total 650, laporan akan menampilkan:</p>
+
+<ul>
+  
+  <li>jumlah — 650;</li>
+  
+  <li>jumlah transaksi — 4.</li>
+  
+</ul>
+
+
+
+<p>Kedua nilai ini menunjukkan pengeluaran Anda dari sudut pandang yang berbeda. Jumlah yang besar dapat berasal dari satu pembelian besar maupun banyak pembelian kecil.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="sort-by-amount">Urutkan berdasarkan jumlah</h2>
+
+
+<p>Saat diurutkan berdasarkan jumlah, tag dengan total pengeluaran terbesar akan ditampilkan terlebih dahulu.</p>
+
+<p>Mode ini membantu menjawab pertanyaan:</p>
+
+
+<blockquote><p>Jenis pengeluaran apa yang paling memengaruhi saldo pos?</p></blockquote>
+<p>Misalnya, laporan bulanan dapat menampilkan data seperti berikut:</p>
+
+<table>
+  <thead>
+    <tr>
+      
+      <th>Tag</th>
+      
+      <th>Jumlah</th>
+      
+      <th>Transaksi</th>
+      
+    </tr>
+  </thead>
+  <tbody>
+    
+    <tr>
+      
+      <td>Belanja kebutuhan sehari-hari</td>
+      
+      <td>2 400</td>
+      
+      <td>12</td>
+      
+    </tr>
+    
+    <tr>
+      
+      <td>Perlengkapan rumah</td>
+      
+      <td>750</td>
+      
+      <td>3</td>
+      
+    </tr>
+    
+    <tr>
+      
+      <td>Pesan makanan</td>
+      
+      <td>650</td>
+      
+      <td>4</td>
+      
+    </tr>
+    
+    <tr>
+      
+      <td>Kopi</td>
+      
+      <td>480</td>
+      
+      <td>16</td>
+      
+    </tr>
+    
+  </tbody>
+</table>
+
+
+
+<p>Dalam contoh ini, belanja kebutuhan sehari-hari memiliki jumlah pengeluaran terbesar. Meskipun kopi dibeli lebih sering, pengaruhnya terhadap total jumlah jauh lebih kecil.</p>
+
+
+<p>Mengurutkan berdasarkan jumlah berguna untuk:</p>
+
+<ul>
+  
+  <li>menemukan jenis pembelian yang paling mahal;</li>
+  
+  <li>melihat pengeluaran mana yang paling memengaruhi saldo;</li>
+  
+  <li>memilih tag untuk dianalisis lebih lanjut;</li>
+  
+  <li>membandingkan pola pengeluaran antara periode yang berbeda.</li>
+  
+</ul>
+
+
+
+<p>Jumlah yang besar tidak otomatis berarti pengeluaran tersebut tidak perlu. Misalnya, belanja kebutuhan sehari-hari dapat berada di urutan pertama karena memang merupakan pengeluaran utama dalam pos yang dipilih.</p>
+
+<p>Laporan menunjukkan ke mana uang dibelanjakan, tetapi apakah pengeluaran tersebut perlu atau tidak harus dinilai berdasarkan tujuan pos dan situasi Anda.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="sort-by-count">Urutkan berdasarkan jumlah transaksi</h2>
+
+
+<p>Saat diurutkan berdasarkan jumlah transaksi, tag yang paling sering digunakan akan ditampilkan terlebih dahulu.</p>
+
+<p>Mode ini menjawab pertanyaan yang berbeda:</p>
+
+
+<blockquote><p>Pengeluaran apa yang paling sering terjadi?</p></blockquote>
+
+
+<p>Transaksi yang sering dilakukan tidak selalu berada di urutan teratas berdasarkan jumlah. Namun, transaksi tersebut dapat menunjukkan kebiasaan yang berulang.</p>
+
+<p>Dalam contoh sebelumnya, kopi dibeli 16 kali — lebih sering daripada pengeluaran lainnya. Total jumlahnya relatif kecil, sehingga tag ini akan berada lebih bawah jika diurutkan berdasarkan jumlah.</p>
+
+
+<p>Mengurutkan berdasarkan jumlah transaksi membantu menemukan:</p>
+
+<ul>
+  
+  <li>pembelian yang sering berulang;</li>
+  
+  <li>pengeluaran yang sudah menjadi kebiasaan;</li>
+  
+  <li>banyak transaksi kecil;</li>
+  
+  <li>area di mana mengurangi frekuensi pembelian mungkin lebih efektif daripada mengurangi jumlah setiap pembelian.</li>
+  
+</ul>
+
+
+
+<p>Misalnya, satu pembelian sebesar 500 lebih mudah terlihat dibandingkan sepuluh pembelian masing-masing sebesar 50. Namun, total pengeluarannya sama. Mengurutkan berdasarkan jumlah transaksi membuat pola kedua lebih mudah terlihat.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="progress-bars">Cara membaca bilah</h2>
+
+
+<p>Di samping setiap tag terdapat bilah yang membantu membandingkan jumlah pengeluaran secara visual.</p>
+
+<p>Tag dengan jumlah pengeluaran tertinggi selama periode yang dipilih dianggap sebagai 100%. Bilah lainnya dihitung relatif terhadap tag tersebut.</p>
+
+
+<p>Misalnya:</p>
+
+<ul>
+  
+  <li>“Belanja kebutuhan sehari-hari” — 2 000;</li>
+  
+  <li>“Pesan makanan” — 1 000;</li>
+  
+  <li>“Kopi” — 500.</li>
+  
+</ul>
+
+<p>Dalam hal ini:</p>
+
+<ul>
+  
+  <li>bilah “Belanja kebutuhan sehari-hari” akan terisi penuh;</li>
+  
+  <li>“Pesan makanan” akan terisi sekitar setengah;</li>
+  
+  <li>“Kopi” akan terisi sekitar seperempat.</li>
+  
+</ul>
+
+
+
+<p>Bilah tidak menunjukkan persentase tag dari seluruh pengeluaran. Bilah yang terisi penuh tidak berarti 100% pengeluaran Anda masuk ke tag tersebut. Bilah itu hanya menunjukkan bahwa tag tersebut memiliki jumlah tertinggi dalam laporan saat ini.</p>
+
+<p>Visualisasi selalu dibuat berdasarkan jumlah, bahkan ketika daftar diurutkan berdasarkan jumlah transaksi.</p>
+
+<p>Karena itu, saat Anda mengubah metode pengurutan, urutan tag dapat berubah, tetapi panjang bilah tetap mewakili jumlah pengeluaran.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="tag-sum-mismatch">Mengapa total berdasarkan tag dapat berbeda dari total pengeluaran</h2>
+
+
+<p>Satu transaksi dapat memiliki beberapa tag. Dalam hal ini, seluruh jumlah transaksi dihitung secara terpisah untuk setiap tag yang dipilih.</p>
+
+
+<p>Misalnya, Anda membelanjakan 300 dan menambahkan dua tag ke transaksi:</p>
+
+<ul>
+  
+  <li>“Belanja kebutuhan sehari-hari”;</li>
+  
+  <li>“Tamu”.</li>
+  
+</ul>
+
+<p>Dalam laporan, transaksi ini akan menambahkan:</p>
+
+<ul>
+  
+  <li>300 ke tag “Belanja kebutuhan sehari-hari”;</li>
+  
+  <li>300 ke tag “Tamu”.</li>
+  
+</ul>
+
+
+
+<p>Pada kenyataannya, hanya 300 yang dikurangi dari pos, tetapi total nilai kedua tag akan menjadi 600.</p>
+
+<p>Ini bukan pemotongan ganda atau kesalahan perhitungan. Dalam aplikasi, tag digunakan sebagai atribut transaksi, bukan sebagai bagian-bagian yang membagi jumlah transaksi.</p>
+
+
+<p>Satu pembelian dapat menjawab beberapa pertanyaan sekaligus:</p>
+
+<ul>
+  
+  <li><strong>apa yang dibeli?</strong> — kebutuhan sehari-hari;</li>
+  
+  <li><strong>untuk apa?</strong> — untuk tamu;</li>
+  
+  <li><strong>di mana?</strong> — di pasar;</li>
+  
+  <li><strong>apakah pembelian direncanakan?</strong> — tidak direncanakan.</li>
+  
+</ul>
+
+
+
+<p>Setiap tag memungkinkan Anda melihat transaksi yang sama dari sudut pandang yang berbeda.</p>
+
+<p>Karena itu, jangan menjumlahkan semua baris dalam laporan untuk menghitung total pengeluaran.</p>
+
+
+<p>Untuk melihat jumlah yang benar-benar dibelanjakan selama periode tersebut, gunakan laporan <a href="/id/apps/6-jars-finance/articles/report-funds-movement/">“Pergerakan Dana”</a>.</p>
+</div>
+
+<div class="article-section">
+<h2 id="compare-amount-and-count">Cara membandingkan jumlah dan jumlah transaksi</h2>
+<p>Informasi yang paling berguna biasanya diperoleh dengan melihat kedua nilai secara bersamaan.</p>
+<div class="article-subsection">
+<h3>Jumlah tinggi dan banyak transaksi</h3>
+
+
+<p>Pengeluaran tersebut besar sekaligus berulang.</p>
+
+<p>Misalnya, kebutuhan sehari-hari dapat dibeli beberapa kali seminggu dan membentuk bagian yang signifikan dari pengeluaran pos.</p>
+
+<p>Hal ini tidak selalu berarti ada masalah, tetapi menunjukkan bahwa perubahan dalam area ini akan memberikan dampak terbesar terhadap saldo secara keseluruhan.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Jumlah tinggi dan sedikit transaksi</h3>
+
+
+<p>Sebagian besar jumlah berasal dari satu atau beberapa pembelian besar.</p>
+
+<p>Misalnya, tag “Perbaikan” mungkin hanya digunakan dua kali tetapi tetap berada di urutan pertama berdasarkan jumlah.</p>
+
+<p>Dalam situasi ini, sebaiknya periksa apakah pengeluaran tersebut hanya terjadi sekali. Jika ya, satu bulan saja belum tentu menggambarkan pola pengeluaran Anda yang normal.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Jumlah rendah dan banyak transaksi</h3>
+
+
+<p>Pengeluaran terjadi sering, tetapi setiap transaksi relatif kecil.</p>
+
+<p>Kopi, camilan, transportasi, atau pembelian kecil dalam perjalanan pulang dapat terlihat seperti ini.</p>
+
+<p>Pengeluaran seperti ini mudah terlewat karena setiap transaksi tampak tidak signifikan. Laporan membantu Anda melihat frekuensi keseluruhan dan dampaknya terhadap anggaran.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Jumlah rendah dan sedikit transaksi</h3>
+
+
+<p>Pengeluaran jarang terjadi dan hanya memiliki sedikit pengaruh terhadap gambaran keseluruhan.</p>
+
+<p>Tag seperti ini biasanya tidak memerlukan perhatian khusus, kecuali Anda memang sedang memantau kebiasaan atau tujuan tertentu.</p>
+
+
+</div>
+</div>
+
+<div class="article-section">
+<h2 id="conclusions">Apa yang dapat Anda pelajari dari laporan</h2>
+<div class="article-subsection">
+<h3>Untuk apa Anda menghabiskan uang paling banyak</h3>
+
+
+<p>Mengurutkan berdasarkan jumlah menunjukkan jenis pengeluaran yang paling memengaruhi saldo pos yang dipilih selama bulan tersebut.</p>
+
+<p>Jika satu tag jauh lebih tinggi daripada yang lain, pertama-tama pertimbangkan apakah hal ini sesuai dengan tujuan pos. Misalnya, pengeluaran tinggi untuk kebutuhan sehari-hari mungkin wajar dalam pos “Kebutuhan”, sedangkan jumlah tinggi pada tag “Pesan makanan” dapat menjadi alasan untuk memeriksa apakah pemesanan makanan menjadi terlalu sering atau terlalu mahal.</p>
+
+
+<p>Bandingkan jumlah dengan jumlah transaksi:</p>
+
+<ul>
+  
+  <li>jumlah tinggi dengan sedikit transaksi biasanya menunjukkan beberapa pembelian besar;</li>
+  
+  <li>jumlah tinggi dengan banyak transaksi menunjukkan pengeluaran rutin yang terus terakumulasi selama bulan tersebut.</li>
+  
+</ul>
+
+
+
+<p>Hal ini membantu Anda memahami apa yang benar-benar dapat diubah. Dalam kasus pertama, periksa apakah pembelian besar tersebut hanya terjadi sekali dan sudah direncanakan. Dalam kasus kedua, pertimbangkan apakah Anda dapat mengurangi rata-rata biaya setiap pembelian atau melakukannya lebih jarang.</p>
+
+<p>Jumlah yang tinggi tidak berarti Anda pasti mengeluarkan uang terlalu banyak. Nilai tersebut menunjukkan jenis pengeluaran yang paling memengaruhi pos dan di mana perubahan akan memberikan hasil yang paling terlihat.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Pembelian apa yang paling sering terjadi</h3>
+
+
+<p>Mengurutkan berdasarkan jumlah transaksi dapat menunjukkan kebiasaan yang tidak selalu terlihat dari total jumlah.</p>
+
+<p>Misalnya, memesan makanan sesekali dapat menghabiskan lebih banyak uang selama sebulan daripada kopi, tetapi membeli kopi setiap hari akan membuat tag tersebut berada lebih tinggi berdasarkan jumlah transaksi.</p>
+
+<p>Tergantung tujuan Anda, mungkin lebih berguna untuk menganalisis biaya suatu kebiasaan atau seberapa sering kebiasaan tersebut dilakukan.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Apakah pengeluaran berasal dari transaksi besar atau kecil</h3>
+
+
+<p>Jumlah dan jumlah transaksi memberikan gambaran kasar mengenai sifat pengeluaran Anda.</p>
+
+
+<p>Misalnya:</p>
+
+<ul>
+  
+  <li>1 200 dalam 2 transaksi — kemungkinan beberapa pembelian besar;</li>
+  
+  <li>1 200 dalam 24 transaksi — banyak pembelian kecil.</li>
+  
+</ul>
+
+
+
+<p>Untuk analisis yang lebih terperinci, Anda dapat membuka detail tag tertentu. Di sana Anda dapat melihat jumlah total, jumlah transaksi, rata-rata pengeluaran, serta bagaimana pengeluaran tersebar pada hari-hari dalam sebulan.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Pengeluaran mana yang layak diperiksa lebih lanjut</h3>
+<p>Tag yang mungkin perlu mendapat perhatian tambahan adalah tag yang:</p>
+
+<ul>
+  
+  <li>berada di bagian atas daftar berdasarkan jumlah;</li>
+  
+  <li>digunakan jauh lebih sering dibandingkan tag lainnya;</li>
+  
+  <li>meningkat secara tidak terduga dibandingkan tingkat biasanya;</li>
+  
+  <li>memiliki jumlah tinggi sekaligus banyak transaksi;</li>
+  
+  <li>menunjukkan pembelian opsional atau tidak direncanakan.</li>
+  
+</ul>
+
+
+
+<p>Laporan tidak menentukan pengeluaran mana yang benar atau salah. Laporan membantu Anda menemukan area yang mungkin layak dianalisis lebih lanjut.</p>
+
+
+</div>
+</div>
+
+<div class="article-section">
+<h2 id="compare-months">Bandingkan bulan yang berbeda</h2>
+
+
+<p>Untuk melihat perubahan dalam pengeluaran Anda, bandingkan laporan dari beberapa bulan.</p>
+
+<p>Saat membandingkan, perhatikan tidak hanya jumlah, tetapi juga jumlah transaksi. Pengeluaran pada suatu tag dapat meningkat karena berbagai alasan:</p>
+
+
+
+<ul>
+  
+  <li>pembelian mulai dilakukan lebih sering;</li>
+  
+  <li>rata-rata biaya setiap pembelian meningkat;</li>
+  
+  <li>terdapat satu transaksi besar selama bulan tersebut;</li>
+  
+  <li>Anda mulai menggunakan tag dengan lebih konsisten.</li>
+  
+</ul>
+
+<p>Pertimbangkan juga kejadian yang mungkin sementara memengaruhi pengeluaran Anda:</p>
+
+<ul>
+  
+  <li>hari raya atau libur;</li>
+  
+  <li>liburan;</li>
+  
+  <li>pindah tempat tinggal;</li>
+  
+  <li>pembelian besar;</li>
+  
+  <li>kedatangan tamu;</li>
+  
+  <li>perubahan gaya hidup sementara.</li>
+  
+</ul>
+
+
+
+<p>Peningkatan pengeluaran dalam satu bulan tidak selalu berarti kebiasaan baru telah terbentuk. Lebih berguna untuk melihat apakah perubahan tersebut berlanjut pada bulan-bulan berikutnya.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="consistent-tags">Gunakan tag secara konsisten</h2>
+
+
+<p>Kualitas laporan bergantung pada seberapa konsisten Anda menggunakan tag.</p>
+
+<p>Jika Anda menambahkan tag ke beberapa pembelian sejenis tetapi membiarkan pembelian lainnya tanpa tag, laporan hanya akan menunjukkan sebagian dari pengeluaran sebenarnya.</p>
+
+<p>Misalnya, jika Anda ingin memantau pemesanan makanan, tambahkan tag yang sesuai ke semua transaksi tersebut. Jika tidak, jumlah maupun jumlah transaksinya akan terlihat lebih rendah dari yang sebenarnya.</p>
+
+<p>Sebaiknya tentukan terlebih dahulu apa arti setiap tag.</p>
+
+
+<p>Misalnya:</p>
+
+<ul>
+  
+  <li>“Kafe dan restoran” — semua pembelian di tempat makan;</li>
+  
+  <li>“Pesan makanan” — hanya pesanan yang dikirim ke rumah;</li>
+  
+  <li>“Camilan” — pembelian makanan kecil yang tidak direncanakan saat berada di luar rumah.</li>
+  
+</ul>
+
+
+
+<p>Semakin jelas aturan penggunaan tag, semakin mudah membandingkan data dari periode yang berbeda.</p>
+
+<p>Anda tidak perlu menambahkan tag ke setiap transaksi. Gunakan tag ketika Anda memang ingin memantau jenis pengeluaran, kebiasaan, atau konteks pembelian tertentu.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="analysis-example">Contoh analisis laporan</h2>
+<p>Misalkan pos “Hiburan” menampilkan data berikut untuk satu bulan:</p>
+
+<table>
+  <thead>
+    <tr>
+      
+      <th>Tag</th>
+      
+      <th>Jumlah</th>
+      
+      <th>Transaksi</th>
+      
+    </tr>
+  </thead>
+  <tbody>
+    
+    <tr>
+      
+      <td>Bertemu teman</td>
+      
+      <td>1 800</td>
+      
+      <td>4</td>
+      
+    </tr>
+    
+    <tr>
+      
+      <td>Pesan makanan</td>
+      
+      <td>1 400</td>
+      
+      <td>7</td>
+      
+    </tr>
+    
+    <tr>
+      
+      <td>Game</td>
+      
+      <td>1 000</td>
+      
+      <td>1</td>
+      
+    </tr>
+    
+    <tr>
+      
+      <td>Kopi</td>
+      
+      <td>800</td>
+      
+      <td>16</td>
+      
+    </tr>
+    
+  </tbody>
+</table>
+
+
+
+<p>Saat diurutkan berdasarkan jumlah, terlihat bahwa uang paling banyak digunakan untuk bertemu teman.</p>
+
+<p>Namun, pengurutan berdasarkan jumlah transaksi menunjukkan gambaran yang berbeda: pembelian dengan tag “Kopi” terjadi paling sering.</p>
+
+
+<p>Beberapa kesimpulan dapat diambil dari laporan:</p>
+
+<ul>
+  
+  <li>bertemu teman merupakan kategori pengeluaran terbesar;</li>
+  
+  <li>pembelian game cukup besar, tetapi hanya terjadi sekali;</li>
+  
+  <li>pesan makanan dilakukan secara rutin dan berada di posisi kedua berdasarkan jumlah;</li>
+  
+  <li>kopi paling sering dibeli meskipun total jumlahnya lebih rendah.</li>
+  
+</ul>
+
+
+
+<p>Tidak ada satu pengeluaran yang otomatis “buruk” dalam contoh ini. Kesimpulannya bergantung pada apa yang ingin Anda pahami.</p>
+
+<p>Jika ingin mengurangi pengeluaran dengan cepat, paling mudah memulai dari kategori terbesar. Jika ingin mengubah kebiasaan sehari-hari, transaksi yang sering terjadi mungkin lebih berguna untuk diperhatikan.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="summary">Hal utama</h2>
+
+
+<p>Laporan “Pengeluaran berdasarkan Tag” menunjukkan pengeluaran Anda dari dua sudut pandang:</p>
+
+
+
+<ul>
+  
+  <li><strong>jumlah</strong> menunjukkan dampak finansial;</li>
+  
+  <li><strong>jumlah transaksi</strong> menunjukkan frekuensi.</li>
+  
+</ul>
+
+
+
+<p>Mengurutkan berdasarkan jumlah membantu menemukan jenis pembelian dengan biaya terbesar, sedangkan mengurutkan berdasarkan jumlah transaksi menyoroti pengeluaran yang paling sering terjadi.</p>
+
+<p>Jika satu transaksi memiliki beberapa tag, total semua nilai tag dapat melebihi pengeluaran sebenarnya karena seluruh jumlah transaksi dihitung secara terpisah untuk setiap tag. Hal ini memungkinkan Anda menganalisis pembelian yang sama dari beberapa sudut pandang, tetapi berarti Anda tidak boleh menjumlahkan semua baris dalam laporan untuk menghitung total pengeluaran.</p>
+
+<p>Gunakan laporan bukan untuk secara otomatis menentukan pembelian yang “tidak perlu”, tetapi untuk menemukan area pengeluaran yang mungkin layak dianalisis lebih lanjut.</p>
+
+
+</div>
+
+  </div>
+  <aside class="article-toc" aria-label="Navigasi halaman">
+    <nav class="article-toc__nav">
+      <p class="article-toc__title">Di halaman ini</p>
+      <ol class="article-toc__list"></ol>
+    </nav>
+  </aside>
+</div>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+  <div class="container site-footer__inner">
+    <p class="site-footer__copyright">© 2026 Artem D Apps</p>
+    <nav class="site-footer__nav" aria-label="Informasi situs">
+      <a class="site-footer__link" href="/id/apps/6-jars-finance/help/">Informasi Kesalahan</a>
+      <a class="site-footer__link" href="/id/apps/6-jars-finance/articles/report-funds-movement/">Funds Movement Report</a>
+      <a class="site-footer__link" href="/id/apps/6-jars-finance/articles/report-spendings-by-tags/">Spendings by Tags Report</a>
+      <a class="site-footer__link" href="/id/apps/6-jars-finance/privacy/">Kebijakan Privasi</a>
+      <a class="site-footer__link" href="/id/apps/6-jars-finance/licenses/">Lisensi Sumber Terbuka</a>
+    </nav>
+  </div>
+</footer>
+
+  
+  <script src="/assets/article-toc.js" defer></script>
+
+  
+  <script src="/assets/js/analytics.js" defer></script>
+</body>
+</html>

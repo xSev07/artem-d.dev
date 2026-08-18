@@ -1,0 +1,341 @@
+{
+  "title": "So liest du den Bericht „Ausgaben nach Tags“",
+  "metaDescription": "Der Bericht „Ausgaben nach Tags“ hilft dir zu verstehen, wofür Geld aus dem ausgewählten Topf in einem bestimmten Zeitraum ausgegeben wurde.",
+  "intro": {
+    "paragraphs": [
+      "Der Bericht „Ausgaben nach Tags“ hilft dir zu verstehen, wofür Geld aus dem ausgewählten Topf in einem bestimmten Zeitraum ausgegeben wurde.",
+      "Im Gegensatz zu einer gewöhnlichen Transaktionsliste fasst er Ausgaben mit denselben Tags zusammen und zeigt:"
+    ],
+    "items": [
+      "den Gesamtbetrag der Ausgaben für jeden Tag;",
+      "die Anzahl der Transaktionen mit diesem Tag;",
+      "das Verhältnis der Ausgaben zwischen verschiedenen Tags."
+    ],
+    "closingParagraphs": [
+      "Mit dem Bericht kannst du nicht nur die teuersten Arten von Ausgaben finden, sondern auch häufige kleine Käufe, die für sich genommen unbedeutend wirken können."
+    ]
+  },
+  "overview": {
+    "title": "Inhalt",
+    "whatItShows": "Was der Bericht zeigt",
+    "sortByAmount": "Sortierung nach Betrag",
+    "sortByCount": "Sortierung nach Anzahl der Transaktionen",
+    "progressBars": "So liest du die Balken",
+    "tagSumMismatch": "Warum die Summe nach Tags von den Gesamtausgaben abweichen kann",
+    "compareAmountAndCount": "Betrag und Anzahl der Transaktionen vergleichen",
+    "conclusions": "Welche Schlüsse du aus dem Bericht ziehen kannst",
+    "compareMonths": "Verschiedene Monate vergleichen",
+    "consistentTags": "Tags konsequent verwenden",
+    "analysisExample": "Beispiel für die Analyse des Berichts",
+    "summary": "Das Wichtigste"
+  },
+  "whatItShows": {
+    "title": "Was der Bericht zeigt",
+    "paragraphs": [
+      "Der Bericht wird immer nur für einen ausgewählten Topf erstellt.",
+      "Wenn du zum Beispiel den Topf „Notwendiges“ auswählst, werden nur Ausgaben aus diesem Topf berücksichtigt. Transaktionen aus anderen Töpfen werden nicht einbezogen, auch wenn dort dieselben Tags verwendet wurden."
+    ],
+    "metricsIntro": "Für jeden Tag werden zwei Werte angezeigt:",
+    "metrics": [
+      "<strong>Betrag</strong> — wie viel insgesamt in Transaktionen mit diesem Tag ausgegeben wurde;",
+      "<strong>Anzahl der Transaktionen</strong> — wie oft der Tag im ausgewählten Zeitraum bei Ausgaben verwendet wurde."
+    ],
+    "exampleIntro": "Wenn der Tag „Essenslieferung“ zum Beispiel bei vier Transaktionen mit einem Gesamtbetrag von 650 verwendet wurde, zeigt der Bericht:",
+    "exampleItems": [
+      "Betrag — 650;",
+      "Anzahl der Transaktionen — 4."
+    ],
+    "closingParagraphs": [
+      "Diese Werte zeigen deine Ausgaben aus unterschiedlichen Perspektiven. Ein hoher Gesamtbetrag kann sowohl durch einen großen Kauf als auch durch viele kleinere Käufe entstehen."
+    ]
+  },
+  "sortByAmount": {
+    "title": "Sortierung nach Betrag",
+    "paragraphs": [
+      "Bei der Sortierung nach Betrag stehen die Tags mit den höchsten Gesamtausgaben an erster Stelle.",
+      "Dieser Modus hilft bei der Frage:"
+    ],
+    "question": "Welche Arten von Ausgaben hatten den größten Einfluss auf den Saldo des Topfs?",
+    "exampleIntro": "Ein Monatsbericht könnte zum Beispiel so aussehen:",
+    "table": {
+      "headers": ["Tag", "Betrag", "Anzahl"],
+      "rows": [
+        ["Lebensmittel", "2 400", "12"],
+        ["Haushaltsartikel", "750", "3"],
+        ["Essenslieferung", "650", "4"],
+        ["Kaffee", "480", "16"]
+      ]
+    },
+    "closingParagraphs": [
+      "In diesem Beispiel entfiel der größte Teil der Ausgaben auf Lebensmittel. Obwohl Kaffee häufiger gekauft wurde, war sein Einfluss auf den Gesamtbetrag deutlich geringer."
+    ],
+    "listIntro": "Die Sortierung nach Betrag ist nützlich, um:",
+    "items": [
+      "die teuersten Arten von Käufen zu finden;",
+      "zu sehen, welche Ausgaben den Saldo am stärksten beeinflusst haben;",
+      "einen Tag für eine detailliertere Analyse auszuwählen;",
+      "die Ausgabenstruktur verschiedener Zeiträume zu vergleichen."
+    ],
+    "outroParagraphs": [
+      "Ein hoher Betrag bedeutet nicht automatisch, dass eine Ausgabe unnötig war. Lebensmittel können zum Beispiel einfach deshalb an erster Stelle stehen, weil sie einen großen Teil der Ausgaben im ausgewählten Topf ausmachen.",
+      "Der Bericht zeigt, wohin das Geld geflossen ist. Ob diese Ausgaben notwendig waren, hängt jedoch vom Zweck des Topfs und von deiner persönlichen Situation ab."
+    ]
+  },
+  "sortByCount": {
+    "title": "Sortierung nach Anzahl der Transaktionen",
+    "paragraphs": [
+      "Bei der Sortierung nach Anzahl der Transaktionen stehen die am häufigsten verwendeten Tags an erster Stelle.",
+      "Dieser Modus beantwortet eine andere Frage:"
+    ],
+    "question": "Welche Ausgaben treten am regelmäßigsten auf?",
+    "closingParagraphs": [
+      "Häufige Transaktionen müssen beim Betrag nicht an erster Stelle stehen. Sie können jedoch auf eine regelmäßige Gewohnheit hinweisen.",
+      "Im vorherigen Beispiel wurde Kaffee 16-mal gekauft — häufiger als jede andere Ausgabe. Der Gesamtbetrag war vergleichsweise niedrig, deshalb würde dieser Tag bei einer Sortierung nach Betrag weiter unten stehen."
+    ],
+    "listIntro": "Die Sortierung nach Anzahl der Transaktionen hilft dabei, Folgendes zu erkennen:",
+    "items": [
+      "häufig wiederkehrende Käufe;",
+      "Ausgaben, die zur Gewohnheit geworden sind;",
+      "viele kleine Transaktionen;",
+      "Bereiche, in denen es sinnvoller sein kann, die Häufigkeit der Käufe statt den Betrag eines einzelnen Kaufs zu reduzieren."
+    ],
+    "outroParagraphs": [
+      "Ein einzelner Kauf über 500 fällt zum Beispiel stärker auf als zehn Käufe über jeweils 50. In beiden Fällen sind die Gesamtausgaben jedoch gleich. Die Sortierung nach Anzahl der Transaktionen macht das zweite Muster leichter sichtbar."
+    ]
+  },
+  "progressBars": {
+    "title": "So liest du die Balken",
+    "paragraphs": [
+      "Neben jedem Tag wird ein Balken angezeigt, der die Höhe der Ausgaben visuell vergleicht.",
+      "Der Tag mit den höchsten Ausgaben im ausgewählten Zeitraum wird als 100 % angenommen. Die Balken der anderen Tags werden relativ dazu berechnet."
+    ],
+    "exampleIntro": "Zum Beispiel:",
+    "exampleItems": [
+      "„Lebensmittel“ — 2 000;",
+      "„Essenslieferung“ — 1 000;",
+      "„Kaffee“ — 500."
+    ],
+    "resultIntro": "In diesem Fall:",
+    "resultItems": [
+      "ist der Balken für „Lebensmittel“ vollständig gefüllt;",
+      "der Balken für „Essenslieferung“ etwa zur Hälfte;",
+      "der Balken für „Kaffee“ etwa zu einem Viertel."
+    ],
+    "closingParagraphs": [
+      "Der Balken zeigt nicht den Anteil des Tags an allen Ausgaben. Ein vollständig gefüllter Balken bedeutet nicht, dass 100 % deiner Ausgaben auf diesen Tag entfallen sind. Er bedeutet lediglich, dass dieser Tag im aktuellen Bericht den höchsten Betrag hat.",
+      "Die Visualisierung basiert immer auf dem Betrag, auch wenn die Liste nach Anzahl der Transaktionen sortiert ist.",
+      "Wenn du die Sortierung änderst, kann sich daher die Reihenfolge der Tags ändern, während die Länge der Balken weiterhin die Höhe der Ausgaben widerspiegelt."
+    ]
+  },
+  "tagSumMismatch": {
+    "title": "Warum die Summe nach Tags von den Gesamtausgaben abweichen kann",
+    "paragraphs": [
+      "Einer Transaktion können mehrere Tags zugewiesen werden. In diesem Fall wird der vollständige Betrag der Transaktion für jeden ausgewählten Tag separat berücksichtigt."
+    ],
+    "exampleIntro": "Angenommen, du gibst 300 aus und fügst der Transaktion zwei Tags hinzu:",
+    "exampleTags": [
+      "„Lebensmittel“;",
+      "„Gäste“."
+    ],
+    "reportIntro": "Im Bericht erhöht diese Transaktion:",
+    "reportItems": [
+      "den Wert für „Lebensmittel“ um 300;",
+      "den Wert für „Gäste“ um 300."
+    ],
+    "closingParagraphs": [
+      "Aus dem Topf wurden tatsächlich nur 300 abgezogen, die Summe der Werte beider Tags beträgt jedoch 600.",
+      "Das ist weder eine doppelte Abbuchung noch ein Berechnungsfehler. Tags werden in der App als Merkmale einer Transaktion verwendet und nicht als Teile, auf die der Betrag aufgeteilt wird."
+    ],
+    "questionsIntro": "Ein einzelner Kauf kann gleichzeitig mehrere Fragen beantworten:",
+    "questions": [
+      "<strong>was wurde gekauft?</strong> — Lebensmittel;",
+      "<strong>wofür?</strong> — für Gäste;",
+      "<strong>wo?</strong> — auf dem Markt;",
+      "<strong>war der Kauf geplant?</strong> — ungeplant."
+    ],
+    "outroParagraphs": [
+      "Mit jedem Tag kannst du dieselbe Transaktion aus einer anderen Perspektive betrachten.",
+      "Deshalb solltest du nicht alle Zeilen des Berichts addieren, um deine Gesamtausgaben zu berechnen."
+    ],
+    "fundsMovementLinkPrefix": "Die tatsächlich ausgegebene Summe für den Zeitraum siehst du am besten im Bericht ",
+    "fundsMovementLinkText": "„Geldbewegungen“",
+    "fundsMovementLinkSuffix": "."
+  },
+  "compareAmountAndCount": {
+    "title": "Betrag und Anzahl der Transaktionen vergleichen",
+    "lead": "Die nützlichsten Erkenntnisse erhältst du häufig, wenn du beide Werte gleichzeitig betrachtest.",
+    "highAmountHighCount": {
+      "title": "Hoher Betrag und viele Transaktionen",
+      "paragraphs": [
+        "Die Ausgabe ist sowohl hoch als auch regelmäßig.",
+        "Lebensmittel können zum Beispiel mehrmals pro Woche gekauft werden und einen erheblichen Teil der Ausgaben des Topfs ausmachen.",
+        "Das deutet nicht unbedingt auf ein Problem hin, zeigt aber, dass Änderungen in diesem Bereich den größten Einfluss auf den Gesamtsaldo hätten."
+      ]
+    },
+    "highAmountLowCount": {
+      "title": "Hoher Betrag und wenige Transaktionen",
+      "paragraphs": [
+        "Der größte Teil des Betrags stammt aus einem oder wenigen großen Käufen.",
+        "Der Tag „Reparaturen“ kann zum Beispiel nur zweimal verwendet worden sein und trotzdem beim Betrag an erster Stelle stehen.",
+        "In diesem Fall solltest du prüfen, ob es sich um einmalige Ausgaben handelte. Wenn ja, lässt sich aus einem einzelnen Monat nicht auf deine übliche Ausgabenstruktur schließen."
+      ]
+    },
+    "lowAmountHighCount": {
+      "title": "Niedriger Betrag und viele Transaktionen",
+      "paragraphs": [
+        "Die Ausgabe tritt häufig auf, aber jede einzelne Transaktion ist vergleichsweise klein.",
+        "So können zum Beispiel Kaffee, Snacks, Fahrten oder kleine Einkäufe auf dem Heimweg aussehen.",
+        "Solche Ausgaben bleiben leicht unbemerkt, weil jede einzelne Transaktion unbedeutend erscheint. Der Bericht macht ihre Häufigkeit und ihren gesamten Einfluss auf dein Budget sichtbar."
+      ]
+    },
+    "lowAmountLowCount": {
+      "title": "Niedriger Betrag und wenige Transaktionen",
+      "paragraphs": [
+        "Die Ausgabe trat selten auf und hatte kaum Einfluss auf das Gesamtbild.",
+        "Solche Tags benötigen normalerweise keine besondere Aufmerksamkeit, es sei denn, du beobachtest damit gezielt eine bestimmte Gewohnheit oder ein bestimmtes Ziel."
+      ]
+    }
+  },
+  "conclusions": {
+    "title": "Welche Schlüsse du aus dem Bericht ziehen kannst",
+    "topSpending": {
+      "title": "Wofür du am meisten Geld ausgibst",
+      "paragraphs": [
+        "Die Sortierung nach Betrag zeigt, welche Arten von Ausgaben den Saldo des ausgewählten Topfs im Laufe des Monats am stärksten beeinflusst haben.",
+        "Wenn ein Tag deutlich vor den anderen liegt, solltest du zunächst prüfen, ob das zum Zweck des Topfs passt. Hohe Lebensmittelausgaben können im Topf „Notwendiges“ zum Beispiel völlig erwartbar sein. Ein hoher Betrag beim Tag „Essenslieferung“ kann dagegen ein Anlass sein zu prüfen, ob Lieferungen zu häufig oder zu teuer geworden sind."
+      ],
+      "compareIntro": "Vergleiche den Betrag mit der Anzahl der Transaktionen:",
+      "compareItems": [
+        "ein hoher Betrag bei wenigen Transaktionen weist meist auf einige größere Käufe hin;",
+        "ein hoher Betrag bei vielen Transaktionen weist auf regelmäßige Ausgaben hin, die sich über den Monat hinweg angesammelt haben."
+      ],
+      "closingParagraphs": [
+        "So kannst du besser erkennen, was du tatsächlich verändern könntest. Im ersten Fall reicht es zu prüfen, ob der große Kauf einmalig und geplant war. Im zweiten Fall kannst du überlegen, ob sich der durchschnittliche Preis eines Kaufs reduzieren lässt oder ob solche Käufe seltener stattfinden könnten.",
+        "Ein hoher Betrag bedeutet nicht automatisch, dass du zu viel ausgegeben hast. Er zeigt, welche Arten von Ausgaben den größten Einfluss auf den Topf haben und wo Veränderungen den deutlichsten Effekt hätten."
+      ]
+    },
+    "mostFrequent": {
+      "title": "Welche Käufe am häufigsten vorkommen",
+      "paragraphs": [
+        "Die Sortierung nach Anzahl der Transaktionen kann Gewohnheiten sichtbar machen, die anhand des Gesamtbetrags nicht immer auffallen.",
+        "Gelegentliche Essenslieferungen können im Monat zum Beispiel mehr kosten als Kaffee. Wenn du jedoch täglich Kaffee kaufst, steht dieser Tag bei der Anzahl der Transaktionen weiter oben.",
+        "Je nach Ziel kann es sinnvoller sein, entweder die Kosten einer Gewohnheit oder ihre Häufigkeit zu betrachten."
+      ]
+    },
+    "largeOrSmall": {
+      "title": "Ob deine Ausgaben aus großen oder kleinen Transaktionen bestehen",
+      "paragraphs": [
+        "Betrag und Anzahl der Transaktionen geben einen groben Eindruck davon, wie sich die Ausgaben zusammensetzen."
+      ],
+      "exampleIntro": "Zum Beispiel:",
+      "exampleItems": [
+        "1 200 bei 2 Transaktionen — wahrscheinlich einige größere Käufe;",
+        "1 200 bei 24 Transaktionen — viele kleine Käufe."
+      ],
+      "closingParagraphs": [
+        "Für eine genauere Analyse kannst du die Details eines bestimmten Tags öffnen. Dort siehst du den Gesamtbetrag, die Anzahl der Transaktionen, den durchschnittlichen Ausgabenbetrag und die Verteilung der Ausgaben auf die einzelnen Tage des Monats."
+      ]
+    },
+    "worthStudying": {
+      "title": "Welche Ausgaben du genauer betrachten solltest",
+      "listIntro": "Besonders interessant können Tags sein, die:",
+      "items": [
+        "beim Betrag weit oben stehen;",
+        "deutlich häufiger als andere verwendet werden;",
+        "im Vergleich zum üblichen Niveau unerwartet gestiegen sind;",
+        "gleichzeitig einen hohen Betrag und viele Transaktionen haben;",
+        "optionale oder ungeplante Käufe kennzeichnen."
+      ],
+      "closingParagraphs": [
+        "Der Bericht entscheidet nicht, welche Ausgaben richtig oder falsch sind. Er hilft dir dabei, Bereiche zu finden, die du genauer untersuchen möchtest."
+      ]
+    }
+  },
+  "compareMonths": {
+    "title": "Verschiedene Monate vergleichen",
+    "paragraphs": [
+      "Um Veränderungen bei deinen Ausgaben zu erkennen, vergleiche Berichte aus mehreren Monaten.",
+      "Achte dabei nicht nur auf den Betrag, sondern auch auf die Anzahl der Transaktionen. Ein Anstieg der Ausgaben unter einem Tag kann unterschiedliche Ursachen haben:"
+    ],
+    "reasons": [
+      "die Käufe finden häufiger statt;",
+      "der durchschnittliche Preis pro Kauf ist gestiegen;",
+      "im Monat gab es eine einzelne große Transaktion;",
+      "du hast begonnen, den Tag konsequenter zu verwenden."
+    ],
+    "eventsIntro": "Berücksichtige außerdem Ereignisse, die deine Ausgaben vorübergehend beeinflusst haben könnten:",
+    "events": [
+      "Feiertage;",
+      "Urlaub;",
+      "einen Umzug;",
+      "einen größeren Kauf;",
+      "Besuch von Gästen;",
+      "eine vorübergehende Veränderung des Lebensstils."
+    ],
+    "closingParagraphs": [
+      "Ein Anstieg in einem einzelnen Monat bedeutet nicht automatisch, dass sich eine neue Gewohnheit entwickelt hat. Aussagekräftiger ist es zu prüfen, ob die Veränderung auch in den folgenden Monaten bestehen bleibt."
+    ]
+  },
+  "consistentTags": {
+    "title": "Tags konsequent verwenden",
+    "paragraphs": [
+      "Die Qualität des Berichts hängt davon ab, wie konsequent du Tags verwendest.",
+      "Wenn du gleichartige Käufe teilweise mit einem Tag versiehst und teilweise nicht, zeigt der Bericht nur einen Teil deiner tatsächlichen Ausgaben.",
+      "Wenn du zum Beispiel Essenslieferungen verfolgen möchtest, solltest du den entsprechenden Tag bei jeder solchen Transaktion verwenden. Andernfalls werden sowohl der Betrag als auch die Anzahl der Transaktionen zu niedrig angezeigt.",
+      "Es ist hilfreich, vorher festzulegen, was jeder Tag bedeutet."
+    ],
+    "examplesIntro": "Zum Beispiel:",
+    "examples": [
+      "„Cafés und Restaurants“ — alle Käufe in Gastronomiebetrieben;",
+      "„Essenslieferung“ — nur Bestellungen nach Hause;",
+      "„Snacks“ — kleine ungeplante Lebensmittelkäufe unterwegs."
+    ],
+    "closingParagraphs": [
+      "Je klarer deine Regeln für die Verwendung von Tags sind, desto leichter lassen sich Daten aus verschiedenen Zeiträumen vergleichen.",
+      "Du musst nicht jede Transaktion mit Tags versehen. Nutze sie dort, wo du tatsächlich eine bestimmte Art von Ausgabe, eine Gewohnheit oder den Kontext eines Kaufs verfolgen möchtest."
+    ]
+  },
+  "analysisExample": {
+    "title": "Beispiel für die Analyse des Berichts",
+    "intro": "Angenommen, der Topf „Spaß“ zeigt für einen Monat folgende Daten:",
+    "table": {
+      "headers": ["Tag", "Betrag", "Anzahl"],
+      "rows": [
+        ["Treffen mit Freunden", "1 800", "4"],
+        ["Essenslieferung", "1 400", "7"],
+        ["Spiele", "1 000", "1"],
+        ["Kaffee", "800", "16"]
+      ]
+    },
+    "closingParagraphs": [
+      "Bei der Sortierung nach Betrag ist zu sehen, dass für Treffen mit Freunden am meisten Geld ausgegeben wurde.",
+      "Die Sortierung nach Anzahl der Transaktionen zeigt jedoch ein anderes Bild: Käufe mit dem Tag „Kaffee“ kamen am häufigsten vor."
+    ],
+    "conclusionsIntro": "Aus dem Bericht lassen sich mehrere unterschiedliche Schlüsse ziehen:",
+    "conclusions": [
+      "Treffen mit Freunden waren der größte Ausgabenbereich;",
+      "der Kauf eines Spiels war teuer, aber einmalig;",
+      "Essenslieferungen kamen regelmäßig vor und lagen beim Betrag an zweiter Stelle;",
+      "Kaffee wurde am häufigsten gekauft, obwohl der Gesamtbetrag niedriger war."
+    ],
+    "outroParagraphs": [
+      "Es gibt hier nicht die eine „schlechte“ Ausgabe. Welche Erkenntnis wichtig ist, hängt von deinem Ziel ab.",
+      "Wenn du deine Ausgaben schnell reduzieren möchtest, solltest du zuerst die größten Bereiche betrachten. Wenn du eine alltägliche Gewohnheit verändern möchtest, können häufige Transaktionen interessanter sein."
+    ]
+  },
+  "summary": {
+    "title": "Das Wichtigste",
+    "paragraphs": [
+      "Der Bericht „Ausgaben nach Tags“ zeigt deine Ausgaben aus zwei Perspektiven:"
+    ],
+    "items": [
+      "<strong>Betrag</strong> zeigt den finanziellen Einfluss;",
+      "<strong>Anzahl der Transaktionen</strong> zeigt die Häufigkeit."
+    ],
+    "closingParagraphs": [
+      "Die Sortierung nach Betrag hilft dir, die teuersten Arten von Käufen zu finden. Die Sortierung nach Anzahl der Transaktionen hebt die regelmäßigsten hervor.",
+      "Wenn eine Transaktion mehrere Tags hat, kann die Summe aller Tag-Werte höher sein als deine tatsächlichen Ausgaben, weil der vollständige Transaktionsbetrag für jeden Tag separat berücksichtigt wird. Dadurch kannst du denselben Kauf aus verschiedenen Perspektiven analysieren, solltest aber nicht alle Zeilen des Berichts addieren, um deine Gesamtausgaben zu berechnen.",
+      "Nutze den Bericht nicht, um automatisch „unnötige“ Käufe zu bestimmen, sondern um Bereiche deiner Ausgaben zu finden, die du genauer betrachten möchtest."
+    ]
+  }
+}

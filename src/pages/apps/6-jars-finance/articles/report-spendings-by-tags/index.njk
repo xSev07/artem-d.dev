@@ -1,0 +1,214 @@
+---
+layout: article.njk
+pagination:
+  data: languages
+  size: 1
+  alias: pageLang
+permalink: "/{{ pageLang.code }}/apps/6-jars-finance/articles/report-spendings-by-tags/"
+showLangSwitch: true
+langSwitchPath: "/apps/6-jars-finance/articles/report-spendings-by-tags/"
+year: 2026
+eleventyComputed:
+  title: "{{ 'apps.sixJarsFinance.articles.reportSpendingsByTags.title' | t(pageLang.code) }}"
+  description: "{{ 'apps.sixJarsFinance.articles.reportSpendingsByTags.metaDescription' | t(pageLang.code) }}"
+  lang: "{{ pageLang.code }}"
+---
+
+{% set langCode = pageLang.code %}
+{% set article = "apps.sixJarsFinance.articles.reportSpendingsByTags" | t(langCode) %}
+
+{% macro paragraphs(items) %}
+{% for item in items %}
+<p>{{ item | safe }}</p>
+{% endfor %}
+{% endmacro %}
+
+{% macro list(items) %}
+<ul>
+  {% for item in items %}
+  <li>{{ item | safe }}</li>
+  {% endfor %}
+</ul>
+{% endmacro %}
+
+{% macro table(tableData) %}
+<table>
+  <thead>
+    <tr>
+      {% for header in tableData.headers %}
+      <th>{{ header }}</th>
+      {% endfor %}
+    </tr>
+  </thead>
+  <tbody>
+    {% for row in tableData.rows %}
+    <tr>
+      {% for cell in row %}
+      <td>{{ cell }}</td>
+      {% endfor %}
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endmacro %}
+
+<h1>{{ article.title }}</h1>
+{{ paragraphs(article.intro.paragraphs) }}
+{{ list(article.intro.items) }}
+{{ paragraphs(article.intro.closingParagraphs) }}
+
+<nav class="article-overview" aria-labelledby="article-overview-title">
+  <h2 id="article-overview-title">{{ article.overview.title }}</h2>
+  <ol>
+    <li><a href="#what-it-shows">{{ article.overview.whatItShows }}</a></li>
+    <li><a href="#sort-by-amount">{{ article.overview.sortByAmount }}</a></li>
+    <li><a href="#sort-by-count">{{ article.overview.sortByCount }}</a></li>
+    <li><a href="#progress-bars">{{ article.overview.progressBars }}</a></li>
+    <li><a href="#tag-sum-mismatch">{{ article.overview.tagSumMismatch }}</a></li>
+    <li><a href="#compare-amount-and-count">{{ article.overview.compareAmountAndCount }}</a></li>
+    <li><a href="#conclusions">{{ article.overview.conclusions }}</a></li>
+    <li><a href="#compare-months">{{ article.overview.compareMonths }}</a></li>
+    <li><a href="#consistent-tags">{{ article.overview.consistentTags }}</a></li>
+    <li><a href="#analysis-example">{{ article.overview.analysisExample }}</a></li>
+    <li><a href="#summary">{{ article.overview.summary }}</a></li>
+  </ol>
+</nav>
+
+<div class="article-section">
+<h2 id="what-it-shows">{{ article.whatItShows.title }}</h2>
+{{ paragraphs(article.whatItShows.paragraphs) }}
+<p>{{ article.whatItShows.metricsIntro }}</p>
+{{ list(article.whatItShows.metrics) }}
+<p>{{ article.whatItShows.exampleIntro }}</p>
+{{ list(article.whatItShows.exampleItems) }}
+{{ paragraphs(article.whatItShows.closingParagraphs) }}
+</div>
+
+<div class="article-section">
+<h2 id="sort-by-amount">{{ article.sortByAmount.title }}</h2>
+{{ paragraphs(article.sortByAmount.paragraphs) }}
+<blockquote><p>{{ article.sortByAmount.question }}</p></blockquote>
+<p>{{ article.sortByAmount.exampleIntro }}</p>
+{{ table(article.sortByAmount.table) }}
+{{ paragraphs(article.sortByAmount.closingParagraphs) }}
+<p>{{ article.sortByAmount.listIntro }}</p>
+{{ list(article.sortByAmount.items) }}
+{{ paragraphs(article.sortByAmount.outroParagraphs) }}
+</div>
+
+<div class="article-section">
+<h2 id="sort-by-count">{{ article.sortByCount.title }}</h2>
+{{ paragraphs(article.sortByCount.paragraphs) }}
+<blockquote><p>{{ article.sortByCount.question }}</p></blockquote>
+{{ paragraphs(article.sortByCount.closingParagraphs) }}
+<p>{{ article.sortByCount.listIntro }}</p>
+{{ list(article.sortByCount.items) }}
+{{ paragraphs(article.sortByCount.outroParagraphs) }}
+</div>
+
+<div class="article-section">
+<h2 id="progress-bars">{{ article.progressBars.title }}</h2>
+{{ paragraphs(article.progressBars.paragraphs) }}
+<p>{{ article.progressBars.exampleIntro }}</p>
+{{ list(article.progressBars.exampleItems) }}
+<p>{{ article.progressBars.resultIntro }}</p>
+{{ list(article.progressBars.resultItems) }}
+{{ paragraphs(article.progressBars.closingParagraphs) }}
+</div>
+
+<div class="article-section">
+<h2 id="tag-sum-mismatch">{{ article.tagSumMismatch.title }}</h2>
+{{ paragraphs(article.tagSumMismatch.paragraphs) }}
+<p>{{ article.tagSumMismatch.exampleIntro }}</p>
+{{ list(article.tagSumMismatch.exampleTags) }}
+<p>{{ article.tagSumMismatch.reportIntro }}</p>
+{{ list(article.tagSumMismatch.reportItems) }}
+{{ paragraphs(article.tagSumMismatch.closingParagraphs) }}
+<p>{{ article.tagSumMismatch.questionsIntro }}</p>
+{{ list(article.tagSumMismatch.questions) }}
+{{ paragraphs(article.tagSumMismatch.outroParagraphs) }}
+<p>{{ article.tagSumMismatch.fundsMovementLinkPrefix }}<a href="/{{ langCode }}/apps/6-jars-finance/articles/report-funds-movement/">{{ article.tagSumMismatch.fundsMovementLinkText }}</a>{{ article.tagSumMismatch.fundsMovementLinkSuffix }}</p>
+</div>
+
+<div class="article-section">
+<h2 id="compare-amount-and-count">{{ article.compareAmountAndCount.title }}</h2>
+<p>{{ article.compareAmountAndCount.lead }}</p>
+<div class="article-subsection">
+<h3>{{ article.compareAmountAndCount.highAmountHighCount.title }}</h3>
+{{ paragraphs(article.compareAmountAndCount.highAmountHighCount.paragraphs) }}
+</div>
+<div class="article-subsection">
+<h3>{{ article.compareAmountAndCount.highAmountLowCount.title }}</h3>
+{{ paragraphs(article.compareAmountAndCount.highAmountLowCount.paragraphs) }}
+</div>
+<div class="article-subsection">
+<h3>{{ article.compareAmountAndCount.lowAmountHighCount.title }}</h3>
+{{ paragraphs(article.compareAmountAndCount.lowAmountHighCount.paragraphs) }}
+</div>
+<div class="article-subsection">
+<h3>{{ article.compareAmountAndCount.lowAmountLowCount.title }}</h3>
+{{ paragraphs(article.compareAmountAndCount.lowAmountLowCount.paragraphs) }}
+</div>
+</div>
+
+<div class="article-section">
+<h2 id="conclusions">{{ article.conclusions.title }}</h2>
+<div class="article-subsection">
+<h3>{{ article.conclusions.topSpending.title }}</h3>
+{{ paragraphs(article.conclusions.topSpending.paragraphs) }}
+<p>{{ article.conclusions.topSpending.compareIntro }}</p>
+{{ list(article.conclusions.topSpending.compareItems) }}
+{{ paragraphs(article.conclusions.topSpending.closingParagraphs) }}
+</div>
+<div class="article-subsection">
+<h3>{{ article.conclusions.mostFrequent.title }}</h3>
+{{ paragraphs(article.conclusions.mostFrequent.paragraphs) }}
+</div>
+<div class="article-subsection">
+<h3>{{ article.conclusions.largeOrSmall.title }}</h3>
+{{ paragraphs(article.conclusions.largeOrSmall.paragraphs) }}
+<p>{{ article.conclusions.largeOrSmall.exampleIntro }}</p>
+{{ list(article.conclusions.largeOrSmall.exampleItems) }}
+{{ paragraphs(article.conclusions.largeOrSmall.closingParagraphs) }}
+</div>
+<div class="article-subsection">
+<h3>{{ article.conclusions.worthStudying.title }}</h3>
+<p>{{ article.conclusions.worthStudying.listIntro }}</p>
+{{ list(article.conclusions.worthStudying.items) }}
+{{ paragraphs(article.conclusions.worthStudying.closingParagraphs) }}
+</div>
+</div>
+
+<div class="article-section">
+<h2 id="compare-months">{{ article.compareMonths.title }}</h2>
+{{ paragraphs(article.compareMonths.paragraphs) }}
+{{ list(article.compareMonths.reasons) }}
+<p>{{ article.compareMonths.eventsIntro }}</p>
+{{ list(article.compareMonths.events) }}
+{{ paragraphs(article.compareMonths.closingParagraphs) }}
+</div>
+
+<div class="article-section">
+<h2 id="consistent-tags">{{ article.consistentTags.title }}</h2>
+{{ paragraphs(article.consistentTags.paragraphs) }}
+<p>{{ article.consistentTags.examplesIntro }}</p>
+{{ list(article.consistentTags.examples) }}
+{{ paragraphs(article.consistentTags.closingParagraphs) }}
+</div>
+
+<div class="article-section">
+<h2 id="analysis-example">{{ article.analysisExample.title }}</h2>
+<p>{{ article.analysisExample.intro }}</p>
+{{ table(article.analysisExample.table) }}
+{{ paragraphs(article.analysisExample.closingParagraphs) }}
+<p>{{ article.analysisExample.conclusionsIntro }}</p>
+{{ list(article.analysisExample.conclusions) }}
+{{ paragraphs(article.analysisExample.outroParagraphs) }}
+</div>
+
+<div class="article-section">
+<h2 id="summary">{{ article.summary.title }}</h2>
+{{ paragraphs(article.summary.paragraphs) }}
+{{ list(article.summary.items) }}
+{{ paragraphs(article.summary.closingParagraphs) }}
+</div>

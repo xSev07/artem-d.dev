@@ -1,0 +1,341 @@
+{
+  "title": "“Etiketlere Göre Harcamalar” Raporu Nasıl Okunur?",
+  "metaDescription": "“Etiketlere Göre Harcamalar” raporu, seçilen kavanozdaki paranın belirli bir dönemde nelere harcandığını anlamanıza yardımcı olur.",
+  "intro": {
+    "paragraphs": [
+      "“Etiketlere Göre Harcamalar” raporu, seçilen kavanozdaki paranın belirli bir dönemde nelere harcandığını anlamanıza yardımcı olur.",
+      "Normal bir işlem listesinden farklı olarak, aynı etiketlere sahip harcamaları bir araya getirir ve şunları gösterir:"
+    ],
+    "items": [
+      "her etiket için toplam harcama tutarı;",
+      "bu etikete sahip işlem sayısı;",
+      "farklı etiketler arasındaki harcama oranı."
+    ],
+    "closingParagraphs": [
+      "Rapor sayesinde yalnızca en yüksek harcama yapılan alanları değil, tek başına önemsiz görünebilen sık ve küçük alışverişleri de görebilirsiniz."
+    ]
+  },
+  "overview": {
+    "title": "İçindekiler",
+    "whatItShows": "Rapor ne gösterir?",
+    "sortByAmount": "Tutara göre sıralama",
+    "sortByCount": "İşlem sayısına göre sıralama",
+    "progressBars": "Çubuklar nasıl okunur?",
+    "tagSumMismatch": "Etiket toplamı neden toplam harcamayla aynı olmayabilir?",
+    "compareAmountAndCount": "Tutar ve işlem sayısı nasıl karşılaştırılır?",
+    "conclusions": "Rapordan hangi sonuçlar çıkarılabilir?",
+    "compareMonths": "Farklı ayları karşılaştırın",
+    "consistentTags": "Etiketleri tutarlı kullanın",
+    "analysisExample": "Rapor analizi örneği",
+    "summary": "Önemli noktalar"
+  },
+  "whatItShows": {
+    "title": "Rapor ne gösterir?",
+    "paragraphs": [
+      "Rapor aynı anda yalnızca seçili bir kavanoz için oluşturulur.",
+      "Örneğin “İhtiyaçlar” kavanozunu seçerseniz, rapora yalnızca bu kavanozdaki harcamalar dahil edilir. Aynı etiketler kullanılmış olsa bile diğer kavanozlardaki işlemler hesaba katılmaz."
+    ],
+    "metricsIntro": "Her etiket için iki değer gösterilir:",
+    "metrics": [
+      "<strong>tutar</strong> — bu etikete sahip işlemlerde toplam ne kadar harcandığı;",
+      "<strong>işlem sayısı</strong> — seçilen dönemde bu etiketin harcamalarda kaç kez kullanıldığı."
+    ],
+    "exampleIntro": "Örneğin “Yemek teslimatı” etiketi toplam 650 tutarındaki dört işlemde kullanılmışsa rapor şunları gösterir:",
+    "exampleItems": [
+      "tutar — 650;",
+      "işlem sayısı — 4."
+    ],
+    "closingParagraphs": [
+      "Bu değerler harcamalarınızı farklı açılardan gösterir. Yüksek bir toplam tutar tek bir büyük alışverişten de çok sayıda küçük alışverişten de oluşabilir."
+    ]
+  },
+  "sortByAmount": {
+    "title": "Tutara göre sıralama",
+    "paragraphs": [
+      "Tutara göre sıralandığında, toplam harcaması en yüksek olan etiketler ilk sırada gösterilir.",
+      "Bu görünüm şu soruyu yanıtlamaya yardımcı olur:"
+    ],
+    "question": "Hangi harcama türleri kavanozun bakiyesini en fazla etkiledi?",
+    "exampleIntro": "Örneğin aylık raporda şu veriler yer alabilir:",
+    "table": {
+      "headers": ["Etiket", "Tutar", "İşlem sayısı"],
+      "rows": [
+        ["Market", "2 400", "12"],
+        ["Ev ürünleri", "750", "3"],
+        ["Yemek teslimatı", "650", "4"],
+        ["Kahve", "480", "16"]
+      ]
+    },
+    "closingParagraphs": [
+      "Bu örnekte en yüksek harcama market alışverişlerine yapılmıştır. Kahve daha sık alınmış olsa da toplam tutar üzerindeki etkisi çok daha küçüktür."
+    ],
+    "listIntro": "Tutara göre sıralamayı şu amaçlarla kullanabilirsiniz:",
+    "items": [
+      "en yüksek maliyetli alışveriş türlerini bulmak;",
+      "hangi harcamaların bakiyeyi en fazla etkilediğini görmek;",
+      "daha ayrıntılı analiz için bir etiket seçmek;",
+      "farklı dönemlerdeki harcama yapısını karşılaştırmak."
+    ],
+    "outroParagraphs": [
+      "Yüksek bir tutar tek başına harcamanın gereksiz olduğu anlamına gelmez. Örneğin market alışverişleri, seçilen kavanozdaki temel harcama kalemlerinden biri olduğu için ilk sırada yer alabilir.",
+      "Rapor paranın nereye harcandığını gösterir, ancak bu harcamaların gerekli olup olmadığını kavanozun amacı ve kendi durumunuz doğrultusunda değerlendirmeniz gerekir."
+    ]
+  },
+  "sortByCount": {
+    "title": "İşlem sayısına göre sıralama",
+    "paragraphs": [
+      "İşlem sayısına göre sıralandığında, en sık kullanılan etiketler ilk sırada gösterilir.",
+      "Bu görünüm farklı bir soruya yanıt verir:"
+    ],
+    "question": "Hangi harcamalar en düzenli şekilde gerçekleşiyor?",
+    "closingParagraphs": [
+      "Sık yapılan işlemler tutar açısından mutlaka ilk sırada yer almaz. Ancak düzenli bir alışkanlığa işaret edebilirler.",
+      "Önceki örnekte kahve 16 kez satın alınmıştır — diğer tüm harcamalardan daha sık. Toplam tutarı nispeten düşük olduğu için tutara göre sıralamada bu etiket daha aşağıda yer alırdı."
+    ],
+    "listIntro": "İşlem sayısına göre sıralama şunları bulmanıza yardımcı olur:",
+    "items": [
+      "sık tekrarlanan alışverişler;",
+      "alışkanlığa dönüşmüş harcamalar;",
+      "çok sayıda küçük işlem;",
+      "tek bir alışverişin tutarını azaltmak yerine alışveriş sıklığını azaltmanın daha etkili olabileceği alanlar."
+    ],
+    "outroParagraphs": [
+      "Örneğin 500 tutarında tek bir alışveriş, 50 tutarında on alışverişten daha dikkat çekicidir. Ancak her iki durumda da toplam harcama aynıdır. İşlem sayısına göre sıralama ikinci örüntüyü daha kolay fark etmenizi sağlar."
+    ]
+  },
+  "progressBars": {
+    "title": "Çubuklar nasıl okunur?",
+    "paragraphs": [
+      "Her etiketin yanında, harcama tutarlarını görsel olarak karşılaştırmanızı sağlayan bir çubuk gösterilir.",
+      "Seçilen dönemde en yüksek harcama tutarına sahip etiket %100 olarak kabul edilir. Diğer çubuklar buna göre hesaplanır."
+    ],
+    "exampleIntro": "Örneğin:",
+    "exampleItems": [
+      "“Market” — 2 000;",
+      "“Yemek teslimatı” — 1 000;",
+      "“Kahve” — 500."
+    ],
+    "resultIntro": "Bu durumda:",
+    "resultItems": [
+      "“Market” çubuğu tamamen dolu olur;",
+      "“Yemek teslimatı” yaklaşık yarıya kadar dolar;",
+      "“Kahve” yaklaşık dörtte bir oranında dolar."
+    ],
+    "closingParagraphs": [
+      "Çubuk, etiketin toplam harcamalar içindeki payını göstermez. Tamamen dolu bir çubuk, harcamalarınızın %100’ünün bu etikete ait olduğu anlamına gelmez. Yalnızca mevcut rapordaki en yüksek tutarın bu etikete ait olduğunu gösterir.",
+      "Liste işlem sayısına göre sıralansa bile görselleştirme her zaman tutara göre oluşturulur.",
+      "Bu nedenle sıralama türünü değiştirdiğinizde etiketlerin sırası değişebilir, ancak çubukların uzunluğu harcama tutarlarını göstermeye devam eder."
+    ]
+  },
+  "tagSumMismatch": {
+    "title": "Etiket toplamı neden toplam harcamayla aynı olmayabilir?",
+    "paragraphs": [
+      "Tek bir işleme birden fazla etiket eklenebilir. Bu durumda işlemin tamamı, seçilen her etiket için ayrı ayrı hesaba katılır."
+    ],
+    "exampleIntro": "Örneğin 300 harcadınız ve işleme iki etiket eklediniz:",
+    "exampleTags": [
+      "“Market”;",
+      "“Misafirler”."
+    ],
+    "reportIntro": "Raporda bu işlem:",
+    "reportItems": [
+      "“Market” etiketine 300;",
+      "“Misafirler” etiketine 300 ekler."
+    ],
+    "closingParagraphs": [
+      "Gerçekte kavanozdan yalnızca 300 düşülmüştür, ancak iki etiketin toplam değeri 600 olacaktır.",
+      "Bu, çift tahsilat veya hesaplama hatası değildir. Uygulamada etiketler işlemin özellikleri olarak kullanılır; işlem tutarının bölündüğü parçalar değildir."
+    ],
+    "questionsIntro": "Tek bir alışveriş aynı anda birkaç soruya yanıt verebilir:",
+    "questions": [
+      "<strong>ne satın alındı?</strong> — market ürünleri;",
+      "<strong>ne için?</strong> — misafirler için;",
+      "<strong>nerede?</strong> — pazarda;",
+      "<strong>alışveriş planlı mıydı?</strong> — plansız."
+    ],
+    "outroParagraphs": [
+      "Her etiket aynı işlemi farklı bir açıdan incelemenizi sağlar.",
+      "Bu nedenle toplam harcamanızı hesaplamak için rapordaki tüm satırları toplamayın."
+    ],
+    "fundsMovementLinkPrefix": "Dönem boyunca gerçekten harcanan tutarı görmek için ",
+    "fundsMovementLinkText": "“Para Hareketleri”",
+    "fundsMovementLinkSuffix": " raporunu kullanın."
+  },
+  "compareAmountAndCount": {
+    "title": "Tutar ve işlem sayısı nasıl karşılaştırılır?",
+    "lead": "En yararlı sonuçlar genellikle iki değeri birlikte değerlendirdiğinizde ortaya çıkar.",
+    "highAmountHighCount": {
+      "title": "Yüksek tutar ve çok sayıda işlem",
+      "paragraphs": [
+        "Harcama hem yüksek hem de düzenlidir.",
+        "Örneğin market alışverişi haftada birkaç kez yapılabilir ve kavanozdaki harcamaların önemli bir bölümünü oluşturabilir.",
+        "Bu durum mutlaka bir sorun olduğu anlamına gelmez, ancak bu alandaki değişikliklerin genel bakiye üzerinde en büyük etkiye sahip olacağını gösterir."
+      ]
+    },
+    "highAmountLowCount": {
+      "title": "Yüksek tutar ve az sayıda işlem",
+      "paragraphs": [
+        "Toplam tutarın büyük kısmı bir veya birkaç büyük alışverişten oluşur.",
+        "Örneğin “Tamirat” etiketi yalnızca iki kez kullanılmış olabilir ancak yine de tutar bakımından ilk sırada yer alabilir.",
+        "Bu durumda bunların tek seferlik harcamalar olup olmadığını kontrol etmek faydalıdır. Öyleyse tek bir ay, normal harcama yapınız hakkında yeterli bilgi vermeyebilir."
+      ]
+    },
+    "lowAmountHighCount": {
+      "title": "Düşük tutar ve çok sayıda işlem",
+      "paragraphs": [
+        "Harcama sık gerçekleşir ancak her bir işlem nispeten küçüktür.",
+        "Kahve, atıştırmalıklar, ulaşım veya eve giderken yapılan küçük alışverişler bu şekilde görünebilir.",
+        "Her bir işlem önemsiz göründüğü için bu harcamalar kolayca gözden kaçabilir. Rapor, toplam sıklıklarını ve bütçe üzerindeki etkilerini daha net görmenizi sağlar."
+      ]
+    },
+    "lowAmountLowCount": {
+      "title": "Düşük tutar ve az sayıda işlem",
+      "paragraphs": [
+        "Harcama nadiren gerçekleşmiş ve genel tablo üzerinde çok az etkisi olmuştur.",
+        "Belirli bir alışkanlığı veya hedefi özellikle takip etmiyorsanız bu tür etiketler genellikle ek dikkat gerektirmez."
+      ]
+    }
+  },
+  "conclusions": {
+    "title": "Rapordan hangi sonuçlar çıkarılabilir?",
+    "topSpending": {
+      "title": "En çok neye para harcıyorsunuz?",
+      "paragraphs": [
+        "Tutara göre sıralama, ay boyunca hangi harcama türlerinin seçilen kavanozun bakiyesini en fazla etkilediğini gösterir.",
+        "Bir etiket diğerlerinin belirgin şekilde önündeyse önce bunun kavanozun amacıyla uyumlu olup olmadığını değerlendirin. Örneğin “İhtiyaçlar” kavanozunda yüksek market harcamaları beklenen bir durum olabilirken, “Yemek teslimatı” etiketindeki yüksek bir tutar siparişlerin fazla sık veya fazla pahalı hale gelip gelmediğini kontrol etmek için bir neden olabilir."
+      ],
+      "compareIntro": "Tutarı işlem sayısıyla karşılaştırın:",
+      "compareItems": [
+        "az sayıda işlemle yüksek tutar genellikle birkaç büyük alışveriş olduğu anlamına gelir;",
+        "çok sayıda işlemle yüksek tutar, ay boyunca birikmiş düzenli harcamalara işaret eder."
+      ],
+      "closingParagraphs": [
+        "Bu karşılaştırma neyi gerçekten değiştirebileceğinizi anlamanıza yardımcı olur. İlk durumda büyük alışverişin tek seferlik ve planlı olup olmadığını kontrol edin. İkinci durumda ise ortalama alışveriş tutarını azaltmanın veya bu alışverişleri daha seyrek yapmanın mümkün olup olmadığını değerlendirin.",
+        "Yüksek bir tutar tek başına fazla harcama yaptığınız anlamına gelmez. Hangi harcama türlerinin kavanoz üzerinde en büyük etkiye sahip olduğunu ve hangi alandaki değişikliğin en belirgin sonucu vereceğini gösterir."
+      ]
+    },
+    "mostFrequent": {
+      "title": "Hangi alışverişler en sık yapılıyor?",
+      "paragraphs": [
+        "İşlem sayısına göre sıralama, yalnızca toplam tutara bakıldığında fark edilmeyen alışkanlıkları ortaya çıkarabilir.",
+        "Örneğin ay içinde birkaç kez yemek siparişi vermek kahveden daha pahalı olabilir, ancak her gün kahve almak işlem sayısı bakımından kahve etiketini daha yukarı taşıyacaktır.",
+        "Amacınıza bağlı olarak bir alışkanlığın maliyetini veya ne kadar sık tekrarlandığını analiz etmek daha yararlı olabilir."
+      ]
+    },
+    "largeOrSmall": {
+      "title": "Harcamalar büyük mü yoksa küçük işlemlerden mi oluşuyor?",
+      "paragraphs": [
+        "Tutar ve işlem sayısı, harcamalarınızın yapısı hakkında yaklaşık bir fikir verir."
+      ],
+      "exampleIntro": "Örneğin:",
+      "exampleItems": [
+        "2 işlemde 1 200 — muhtemelen birkaç büyük alışveriş;",
+        "24 işlemde 1 200 — çok sayıda küçük alışveriş."
+      ],
+      "closingParagraphs": [
+        "Daha ayrıntılı analiz için belirli bir etiketin detaylarını açabilirsiniz. Burada toplam tutarı, işlem sayısını, ortalama harcamayı ve harcamaların ayın günlerine nasıl dağıldığını görebilirsiniz."
+      ]
+    },
+    "worthStudying": {
+      "title": "Hangi harcamalar daha yakından incelenmeye değer?",
+      "listIntro": "Şu özelliklere sahip etiketler ek dikkat gerektirebilir:",
+      "items": [
+        "tutara göre listenin üst sıralarında yer alanlar;",
+        "diğerlerinden belirgin şekilde daha sık kullanılanlar;",
+        "normal seviyeye göre beklenmedik şekilde artanlar;",
+        "hem yüksek tutara hem de çok sayıda işleme sahip olanlar;",
+        "isteğe bağlı veya plansız alışverişleri gösterenler."
+      ],
+      "closingParagraphs": [
+        "Rapor hangi harcamaların doğru veya yanlış olduğuna karar vermez. Daha yakından incelemek isteyebileceğiniz alanları bulmanıza yardımcı olur."
+      ]
+    }
+  },
+  "compareMonths": {
+    "title": "Farklı ayları karşılaştırın",
+    "paragraphs": [
+      "Harcamalarınızdaki değişiklikleri fark etmek için birkaç ayın raporlarını karşılaştırın.",
+      "Karşılaştırma yaparken yalnızca tutara değil, işlem sayısına da bakın. Bir etiketteki harcamaların artmasının farklı nedenleri olabilir:"
+    ],
+    "reasons": [
+      "alışverişler daha sık yapılmaya başlanmış olabilir;",
+      "bir alışverişin ortalama maliyeti artmış olabilir;",
+      "ay içinde tek bir büyük işlem gerçekleşmiş olabilir;",
+      "etiketi daha tutarlı kullanmaya başlamış olabilirsiniz."
+    ],
+    "eventsIntro": "Harcamalarınızı geçici olarak etkileyebilecek olayları da dikkate alın:",
+    "events": [
+      "tatiller ve bayramlar;",
+      "izin veya seyahat;",
+      "taşınma;",
+      "büyük bir alışveriş;",
+      "misafir gelmesi;",
+      "yaşam tarzındaki geçici bir değişiklik."
+    ],
+    "closingParagraphs": [
+      "Tek bir ayda harcamaların artması mutlaka yeni bir alışkanlık oluştuğu anlamına gelmez. Değişikliğin sonraki aylarda devam edip etmediğini kontrol etmek daha yararlıdır."
+    ]
+  },
+  "consistentTags": {
+    "title": "Etiketleri tutarlı kullanın",
+    "paragraphs": [
+      "Raporun kalitesi, etiketleri ne kadar tutarlı kullandığınıza bağlıdır.",
+      "Benzer alışverişlerin bazılarında etiket kullanıp bazılarında kullanmazsanız rapor gerçek harcamalarınızın yalnızca bir kısmını gösterir.",
+      "Örneğin yemek teslimatını takip etmek istiyorsanız ilgili etiketi bu tür tüm işlemlere ekleyin. Aksi halde hem tutar hem de işlem sayısı gerçekte olduğundan düşük görünür.",
+      "Her etiketin ne anlama geldiğini önceden belirlemek faydalıdır."
+    ],
+    "examplesIntro": "Örneğin:",
+    "examples": [
+      "“Kafe ve restoranlar” — işletmelerde yapılan tüm alışverişler;",
+      "“Yemek teslimatı” — yalnızca eve verilen siparişler;",
+      "“Atıştırmalıklar” — dışarıdayken yapılan küçük ve plansız yiyecek alışverişleri."
+    ],
+    "closingParagraphs": [
+      "Etiket kullanım kurallarınız ne kadar açık olursa farklı dönemlerdeki verileri karşılaştırmak o kadar kolay olur.",
+      "Her işleme etiket eklemek zorunda değilsiniz. Belirli bir harcama türünü, alışkanlığı veya alışverişin bağlamını gerçekten takip etmek istediğinizde etiket kullanın."
+    ]
+  },
+  "analysisExample": {
+    "title": "Rapor analizi örneği",
+    "intro": "“Eğlence” kavanozunun bir ay için şu verileri gösterdiğini varsayalım:",
+    "table": {
+      "headers": ["Etiket", "Tutar", "İşlem sayısı"],
+      "rows": [
+        ["Arkadaşlarla buluşma", "1 800", "4"],
+        ["Yemek teslimatı", "1 400", "7"],
+        ["Oyunlar", "1 000", "1"],
+        ["Kahve", "800", "16"]
+      ]
+    },
+    "closingParagraphs": [
+      "Tutara göre sıralandığında en fazla paranın arkadaşlarla buluşmaya harcandığını görebilirsiniz.",
+      "Ancak işlem sayısına göre sıralama farklı bir tablo gösterir: “Kahve” etiketli alışverişler en sık gerçekleşmiştir."
+    ],
+    "conclusionsIntro": "Rapordan birkaç farklı sonuç çıkarılabilir:",
+    "conclusions": [
+      "arkadaşlarla buluşma en büyük harcama alanıydı;",
+      "oyun satın alımı yüksek tutarlı ancak tek seferlikti;",
+      "yemek teslimatı düzenli olarak gerçekleşti ve tutara göre ikinci sırada yer aldı;",
+      "toplam tutarı daha düşük olsa da kahve en sık satın alınan üründü."
+    ],
+    "outroParagraphs": [
+      "Burada tek bir “kötü” harcama yoktur. Hangi sonucun önemli olduğu neyi anlamaya çalıştığınıza bağlıdır.",
+      "Harcamaları hızlıca azaltmak istiyorsanız önce en büyük alanlara bakmak daha kolaydır. Günlük bir alışkanlığı değiştirmek istiyorsanız sık tekrarlanan işlemleri incelemek daha yararlı olabilir."
+    ]
+  },
+  "summary": {
+    "title": "Önemli noktalar",
+    "paragraphs": [
+      "“Etiketlere Göre Harcamalar” raporu harcamalarınızı iki açıdan gösterir:"
+    ],
+    "items": [
+      "<strong>tutar</strong> finansal etkiyi gösterir;",
+      "<strong>işlem sayısı</strong> sıklığı gösterir."
+    ],
+    "closingParagraphs": [
+      "Tutara göre sıralama en yüksek maliyetli alışveriş türlerini bulmanıza, işlem sayısına göre sıralama ise en sık tekrarlananları görmenize yardımcı olur.",
+      "Bir işlemin birden fazla etiketi varsa, işlemin tam tutarı her etiket için ayrı ayrı hesaba katıldığı için tüm etiket değerlerinin toplamı gerçek harcamanızı aşabilir. Bu, aynı alışverişi farklı açılardan analiz etmenizi sağlar ancak toplam harcamayı hesaplamak için rapordaki tüm satırları toplamanız gerektiği anlamına gelmez.",
+      "Raporu otomatik olarak “gereksiz” alışverişleri belirlemek için değil, daha ayrıntılı incelemeye değer harcama alanlarını bulmak için kullanın."
+    ]
+  }
+}

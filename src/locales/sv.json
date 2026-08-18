@@ -12,6 +12,7 @@
       "privacy": "Integritetspolicy",
       "help": "Information om fel",
       "reportFundsMovement": "Funds Movement Report",
+      "reportSpendingsByTags": "Spendings by Tags Report",
       "licenses": "Licenser för öppen källkod"
     }
   },

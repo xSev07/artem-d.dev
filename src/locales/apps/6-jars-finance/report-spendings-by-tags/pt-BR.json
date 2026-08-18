@@ -1,0 +1,341 @@
+{
+  "title": "Como ler o relatório “Gastos por tags”",
+  "metaDescription": "O relatório “Gastos por tags” ajuda a entender em que o dinheiro da reserva selecionada foi gasto durante determinado período.",
+  "intro": {
+    "paragraphs": [
+      "O relatório “Gastos por tags” ajuda a entender em que o dinheiro da reserva selecionada foi gasto durante determinado período.",
+      "Diferentemente de uma lista comum de transações, ele agrupa gastos com as mesmas tags e mostra:"
+    ],
+    "items": [
+      "o valor total gasto em cada tag;",
+      "o número de transações com essa tag;",
+      "a relação entre os gastos de diferentes tags."
+    ],
+    "closingParagraphs": [
+      "O relatório permite encontrar não apenas os tipos de gasto mais caros, mas também pequenas compras frequentes que, isoladamente, podem parecer pouco significativas."
+    ]
+  },
+  "overview": {
+    "title": "Conteúdo",
+    "whatItShows": "O que o relatório mostra",
+    "sortByAmount": "Ordenação por valor",
+    "sortByCount": "Ordenação por número de transações",
+    "progressBars": "Como interpretar as barras",
+    "tagSumMismatch": "Por que o total por tags pode ser diferente do total de gastos",
+    "compareAmountAndCount": "Como comparar o valor e o número de transações",
+    "conclusions": "O que você pode descobrir com o relatório",
+    "compareMonths": "Compare meses diferentes",
+    "consistentTags": "Use as tags de forma consistente",
+    "analysisExample": "Exemplo de análise do relatório",
+    "summary": "Principais pontos"
+  },
+  "whatItShows": {
+    "title": "O que o relatório mostra",
+    "paragraphs": [
+      "O relatório é criado para apenas uma reserva selecionada por vez.",
+      "Por exemplo, se você selecionar a reserva “Necessidades”, serão incluídos apenas os gastos dessa reserva. Transações de outras reservas não serão consideradas, mesmo que utilizem as mesmas tags."
+    ],
+    "metricsIntro": "Para cada tag, são exibidos dois valores:",
+    "metrics": [
+      "<strong>valor</strong> — quanto foi gasto no total em transações com essa tag;",
+      "<strong>número de transações</strong> — quantas vezes a tag foi utilizada em gastos durante o período selecionado."
+    ],
+    "exampleIntro": "Por exemplo, se a tag “Delivery de comida” foi utilizada em quatro transações que somam 650, o relatório mostrará:",
+    "exampleItems": [
+      "valor — 650;",
+      "número de transações — 4."
+    ],
+    "closingParagraphs": [
+      "Esses valores mostram seus gastos de perspectivas diferentes. Um valor total alto pode resultar tanto de uma única compra grande quanto de várias compras menores."
+    ]
+  },
+  "sortByAmount": {
+    "title": "Ordenação por valor",
+    "paragraphs": [
+      "Ao ordenar por valor, as tags com os maiores gastos totais aparecem primeiro.",
+      "Esse modo ajuda a responder à pergunta:"
+    ],
+    "question": "Quais tipos de gasto tiveram maior impacto no saldo da reserva?",
+    "exampleIntro": "Por exemplo, um relatório mensal pode mostrar os seguintes dados:",
+    "table": {
+      "headers": ["Tag", "Valor", "Quantidade"],
+      "rows": [
+        ["Mercado", "2 400", "12"],
+        ["Produtos para casa", "750", "3"],
+        ["Delivery de comida", "650", "4"],
+        ["Café", "480", "16"]
+      ]
+    },
+    "closingParagraphs": [
+      "Neste exemplo, as compras de mercado representam o maior gasto. Mesmo que o café tenha sido comprado com mais frequência, seu impacto no valor total foi muito menor."
+    ],
+    "listIntro": "Ordenar por valor é útil para:",
+    "items": [
+      "encontrar os tipos de compra mais caros;",
+      "ver quais gastos tiveram maior impacto no saldo;",
+      "escolher uma tag para uma análise mais detalhada;",
+      "comparar a estrutura dos seus gastos entre diferentes períodos."
+    ],
+    "outroParagraphs": [
+      "Um valor alto, por si só, não significa que um gasto tenha sido desnecessário. As compras de mercado, por exemplo, podem estar em primeiro lugar simplesmente porque representam uma despesa importante da reserva selecionada.",
+      "O relatório mostra para onde foi o dinheiro, mas avaliar se esses gastos eram necessários depende do objetivo da reserva e da sua situação."
+    ]
+  },
+  "sortByCount": {
+    "title": "Ordenação por número de transações",
+    "paragraphs": [
+      "Ao ordenar por número de transações, as tags utilizadas com mais frequência aparecem primeiro.",
+      "Esse modo responde a outra pergunta:"
+    ],
+    "question": "Quais gastos acontecem com mais regularidade?",
+    "closingParagraphs": [
+      "Transações frequentes não necessariamente ficam em primeiro lugar em valor. No entanto, elas podem indicar um hábito recorrente.",
+      "No exemplo anterior, o café foi comprado 16 vezes — com mais frequência do que qualquer outro gasto. O valor total era relativamente baixo, então essa tag apareceria mais abaixo ao ordenar por valor."
+    ],
+    "listIntro": "Ordenar por número de transações ajuda a encontrar:",
+    "items": [
+      "compras que se repetem com frequência;",
+      "gastos que se tornaram um hábito;",
+      "muitas transações pequenas;",
+      "áreas em que pode ser mais útil reduzir a frequência das compras do que o valor de cada compra."
+    ],
+    "outroParagraphs": [
+      "Por exemplo, uma compra de 500 chama mais atenção do que dez compras de 50. No entanto, o gasto total é o mesmo nos dois casos. Ordenar por número de transações facilita perceber o segundo padrão."
+    ]
+  },
+  "progressBars": {
+    "title": "Como interpretar as barras",
+    "paragraphs": [
+      "Ao lado de cada tag é exibida uma barra que permite comparar visualmente os valores gastos.",
+      "A tag com o maior gasto durante o período selecionado é considerada como 100%. As demais barras são calculadas em relação a ela."
+    ],
+    "exampleIntro": "Por exemplo:",
+    "exampleItems": [
+      "“Mercado” — 2 000;",
+      "“Delivery de comida” — 1 000;",
+      "“Café” — 500."
+    ],
+    "resultIntro": "Nesse caso:",
+    "resultItems": [
+      "a barra de “Mercado” ficará totalmente preenchida;",
+      "“Delivery de comida” ficará aproximadamente pela metade;",
+      "“Café” ficará aproximadamente em um quarto."
+    ],
+    "closingParagraphs": [
+      "A barra não mostra a participação da tag no total de gastos. Uma barra totalmente preenchida não significa que 100% dos seus gastos foram destinados àquela tag. Significa apenas que essa tag tem o maior valor no relatório atual.",
+      "A visualização é sempre baseada no valor, mesmo quando a lista está ordenada pelo número de transações.",
+      "Por isso, ao mudar a ordenação, a posição das tags pode mudar, mas o comprimento das barras continuará representando os valores gastos."
+    ]
+  },
+  "tagSumMismatch": {
+    "title": "Por que o total por tags pode ser diferente do total de gastos",
+    "paragraphs": [
+      "Uma mesma transação pode ter várias tags. Nesse caso, o valor completo da transação é contabilizado separadamente para cada tag selecionada."
+    ],
+    "exampleIntro": "Por exemplo, você gasta 300 e adiciona duas tags à transação:",
+    "exampleTags": [
+      "“Mercado”;",
+      "“Convidados”."
+    ],
+    "reportIntro": "No relatório, essa transação adicionará:",
+    "reportItems": [
+      "300 à tag “Mercado”;",
+      "300 à tag “Convidados”."
+    ],
+    "closingParagraphs": [
+      "Na prática, apenas 300 foram retirados da reserva, mas a soma dos valores das duas tags será 600.",
+      "Isso não é uma cobrança duplicada nem um erro de cálculo. No app, as tags são características da transação, e não partes entre as quais o valor é dividido."
+    ],
+    "questionsIntro": "Uma única compra pode responder a várias perguntas ao mesmo tempo:",
+    "questions": [
+      "<strong>o que foi comprado?</strong> — alimentos;",
+      "<strong>para quê?</strong> — para convidados;",
+      "<strong>onde?</strong> — no mercado;",
+      "<strong>a compra estava planejada?</strong> — não planejada."
+    ],
+    "outroParagraphs": [
+      "Cada tag permite analisar a mesma transação de uma perspectiva diferente.",
+      "Por isso, você não deve somar todas as linhas do relatório para calcular o total de gastos."
+    ],
+    "fundsMovementLinkPrefix": "Para ver o valor realmente gasto durante o período, consulte o relatório ",
+    "fundsMovementLinkText": "“Movimentação de fundos”",
+    "fundsMovementLinkSuffix": "."
+  },
+  "compareAmountAndCount": {
+    "title": "Como comparar o valor e o número de transações",
+    "lead": "As informações mais úteis geralmente aparecem quando você analisa os dois valores ao mesmo tempo.",
+    "highAmountHighCount": {
+      "title": "Valor alto e muitas transações",
+      "paragraphs": [
+        "O gasto é, ao mesmo tempo, elevado e recorrente.",
+        "Por exemplo, compras de mercado podem acontecer várias vezes por semana e representar uma parte significativa dos gastos da reserva.",
+        "Isso não significa necessariamente que existe um problema, mas mostra que mudanças nessa área teriam maior impacto no saldo geral."
+      ]
+    },
+    "highAmountLowCount": {
+      "title": "Valor alto e poucas transações",
+      "paragraphs": [
+        "A maior parte do valor veio de uma ou poucas compras grandes.",
+        "Por exemplo, a tag “Reparos” pode ter sido utilizada apenas duas vezes e, ainda assim, aparecer em primeiro lugar por valor.",
+        "Nesse caso, vale verificar se foram gastos pontuais. Se foram, um único mês não representa necessariamente a sua estrutura normal de gastos."
+      ]
+    },
+    "lowAmountHighCount": {
+      "title": "Valor baixo e muitas transações",
+      "paragraphs": [
+        "O gasto acontece com frequência, mas cada transação individual é relativamente pequena.",
+        "Café, lanches, transporte ou pequenas compras no caminho para casa podem ter esse perfil.",
+        "Esses gastos podem passar despercebidos porque cada transação parece pouco significativa. O relatório permite enxergar melhor a frequência total e o impacto deles no orçamento."
+      ]
+    },
+    "lowAmountLowCount": {
+      "title": "Valor baixo e poucas transações",
+      "paragraphs": [
+        "O gasto foi pouco frequente e teve pouco impacto no quadro geral.",
+        "Essas tags normalmente não exigem atenção especial, a menos que você esteja acompanhando intencionalmente um hábito ou objetivo específico."
+      ]
+    }
+  },
+  "conclusions": {
+    "title": "O que você pode descobrir com o relatório",
+    "topSpending": {
+      "title": "Com o que você gasta mais dinheiro",
+      "paragraphs": [
+        "A ordenação por valor mostra quais tipos de gasto tiveram maior impacto no saldo da reserva selecionada durante o mês.",
+        "Se uma tag estiver muito acima das demais, primeiro avalie se isso faz sentido para o objetivo da reserva. Por exemplo, um gasto elevado com mercado pode ser esperado na reserva “Necessidades”, enquanto um valor alto em “Delivery de comida” pode ser um motivo para verificar se os pedidos se tornaram frequentes ou caros demais."
+      ],
+      "compareIntro": "Compare o valor com o número de transações:",
+      "compareItems": [
+        "um valor alto com poucas transações normalmente indica algumas compras grandes;",
+        "um valor alto com muitas transações indica gastos recorrentes que foram se acumulando ao longo do mês."
+      ],
+      "closingParagraphs": [
+        "Isso ajuda a entender o que você realmente pode mudar. No primeiro caso, verifique se a compra grande foi pontual e planejada. No segundo, considere se é possível reduzir o custo médio de cada compra ou fazer esse tipo de compra com menos frequência.",
+        "Um valor alto, por si só, não significa que você gastou demais. Ele mostra quais tipos de gasto têm maior impacto na reserva e onde uma mudança poderia produzir um resultado mais perceptível."
+      ]
+    },
+    "mostFrequent": {
+      "title": "Quais compras acontecem com mais frequência",
+      "paragraphs": [
+        "A ordenação por número de transações pode revelar hábitos que nem sempre ficam evidentes ao olhar apenas para o valor total.",
+        "Por exemplo, pedir comida ocasionalmente pode custar mais durante o mês do que café, mas comprar café todos os dias fará com que essa tag apareça acima em número de transações.",
+        "Dependendo do seu objetivo, pode ser mais útil analisar o custo de um hábito ou a frequência dele."
+      ]
+    },
+    "largeOrSmall": {
+      "title": "Se seus gastos vêm de transações grandes ou pequenas",
+      "paragraphs": [
+        "O valor e o número de transações permitem ter uma ideia aproximada da natureza dos seus gastos."
+      ],
+      "exampleIntro": "Por exemplo:",
+      "exampleItems": [
+        "1 200 em 2 transações — provavelmente algumas compras grandes;",
+        "1 200 em 24 transações — muitas compras pequenas."
+      ],
+      "closingParagraphs": [
+        "Para uma análise mais detalhada, você pode abrir os detalhes de uma tag específica. Lá são exibidos o valor total, o número de transações, o gasto médio e a distribuição dos gastos entre os dias do mês."
+      ]
+    },
+    "worthStudying": {
+      "title": "Quais gastos vale a pena analisar com mais atenção",
+      "listIntro": "Algumas tags que podem merecer atenção adicional são aquelas que:",
+      "items": [
+        "estão entre as primeiras por valor;",
+        "são utilizadas com frequência muito maior do que as demais;",
+        "aumentaram inesperadamente em relação ao nível habitual;",
+        "têm ao mesmo tempo um valor alto e muitas transações;",
+        "representam compras opcionais ou não planejadas."
+      ],
+      "closingParagraphs": [
+        "O relatório não decide quais gastos são certos ou errados. Ele ajuda a identificar áreas que podem valer uma análise mais detalhada."
+      ]
+    }
+  },
+  "compareMonths": {
+    "title": "Compare meses diferentes",
+    "paragraphs": [
+      "Para perceber mudanças nos seus gastos, compare relatórios de vários meses.",
+      "Ao comparar, observe tanto o valor quanto o número de transações. O gasto associado a uma tag pode aumentar por vários motivos:"
+    ],
+    "reasons": [
+      "as compras passaram a acontecer com mais frequência;",
+      "o custo médio de cada compra aumentou;",
+      "houve uma grande transação durante o mês;",
+      "você começou a utilizar a tag de maneira mais consistente."
+    ],
+    "eventsIntro": "Considere também acontecimentos que podem ter alterado temporariamente seus gastos:",
+    "events": [
+      "feriados;",
+      "férias;",
+      "uma mudança de residência;",
+      "uma compra grande;",
+      "a visita de convidados;",
+      "uma mudança temporária no estilo de vida."
+    ],
+    "closingParagraphs": [
+      "Um aumento nos gastos durante um único mês não significa necessariamente que surgiu um novo hábito. É mais útil verificar se a mudança continua nos meses seguintes."
+    ]
+  },
+  "consistentTags": {
+    "title": "Use as tags de forma consistente",
+    "paragraphs": [
+      "A qualidade do relatório depende de quão consistentemente você utiliza as tags.",
+      "Se você adicionar uma tag a algumas compras semelhantes e deixar outras sem ela, o relatório mostrará apenas parte dos seus gastos reais.",
+      "Por exemplo, se você quiser acompanhar delivery de comida, adicione a tag correspondente a todas essas transações. Caso contrário, tanto o valor quanto o número de transações serão menores do que deveriam.",
+      "É útil definir antecipadamente o significado de cada tag."
+    ],
+    "examplesIntro": "Por exemplo:",
+    "examples": [
+      "“Cafés e restaurantes” — todas as compras feitas em estabelecimentos;",
+      "“Delivery de comida” — apenas pedidos entregues em casa;",
+      "“Lanches” — pequenas compras de comida não planejadas fora de casa."
+    ],
+    "closingParagraphs": [
+      "Quanto mais claras forem as regras de uso das tags, mais fácil será comparar dados de diferentes períodos.",
+      "Você não precisa adicionar tags a todas as transações. Use-as quando realmente quiser acompanhar um tipo específico de gasto, um hábito ou o contexto de uma compra."
+    ]
+  },
+  "analysisExample": {
+    "title": "Exemplo de análise do relatório",
+    "intro": "Suponha que a reserva “Diversão” mostre os seguintes dados do mês:",
+    "table": {
+      "headers": ["Tag", "Valor", "Quantidade"],
+      "rows": [
+        ["Encontros com amigos", "1 800", "4"],
+        ["Delivery de comida", "1 400", "7"],
+        ["Jogos", "1 000", "1"],
+        ["Café", "800", "16"]
+      ]
+    },
+    "closingParagraphs": [
+      "Ao ordenar por valor, você pode ver que os encontros com amigos representaram o maior gasto.",
+      "Mas a ordenação por número de transações mostra outra situação: as compras com a tag “Café” foram as mais frequentes."
+    ],
+    "conclusionsIntro": "É possível tirar várias conclusões diferentes do relatório:",
+    "conclusions": [
+      "os encontros com amigos foram a maior categoria de gasto;",
+      "a compra de um jogo foi grande, mas pontual;",
+      "o delivery de comida aconteceu regularmente e ficou em segundo lugar por valor;",
+      "o café foi comprado com maior frequência, mesmo tendo um valor total menor."
+    ],
+    "outroParagraphs": [
+      "Não existe aqui um único gasto “ruim”. A conclusão depende do que você quer entender.",
+      "Se você quiser reduzir os gastos rapidamente, é mais fácil começar pelas maiores categorias. Se quiser mudar um hábito cotidiano, pode ser mais útil observar as transações frequentes."
+    ]
+  },
+  "summary": {
+    "title": "Principais pontos",
+    "paragraphs": [
+      "O relatório “Gastos por tags” mostra seus gastos de duas perspectivas:"
+    ],
+    "items": [
+      "<strong>valor</strong> mostra o impacto financeiro;",
+      "<strong>número de transações</strong> mostra a frequência."
+    ],
+    "closingParagraphs": [
+      "Ordenar por valor ajuda a encontrar os tipos de compra mais caros, enquanto ordenar por número de transações destaca os mais recorrentes.",
+      "Quando uma transação possui várias tags, a soma de todos os valores das tags pode superar os gastos reais, porque o valor completo da transação é contabilizado separadamente para cada tag. Isso permite analisar a mesma compra de diferentes perspectivas, mas também significa que você não deve somar todas as linhas do relatório para calcular os gastos totais.",
+      "Use o relatório não para identificar automaticamente compras “desnecessárias”, mas para encontrar áreas de gasto que podem valer uma análise mais detalhada."
+    ]
+  }
+}

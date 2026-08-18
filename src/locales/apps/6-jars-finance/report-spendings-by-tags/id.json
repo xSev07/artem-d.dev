@@ -1,0 +1,341 @@
+{
+  "title": "Cara Membaca Laporan “Pengeluaran berdasarkan Tag”",
+  "metaDescription": "Laporan “Pengeluaran berdasarkan Tag” membantu Anda memahami untuk apa uang dari pos yang dipilih dibelanjakan selama periode tertentu.",
+  "intro": {
+    "paragraphs": [
+      "Laporan “Pengeluaran berdasarkan Tag” membantu Anda memahami untuk apa uang dari pos yang dipilih dibelanjakan selama periode tertentu.",
+      "Berbeda dengan daftar transaksi biasa, laporan ini mengelompokkan pengeluaran dengan tag yang sama dan menampilkan:"
+    ],
+    "items": [
+      "total jumlah pengeluaran untuk setiap tag;",
+      "jumlah transaksi dengan tag tersebut;",
+      "perbandingan pengeluaran antara berbagai tag."
+    ],
+    "closingParagraphs": [
+      "Laporan ini membantu Anda menemukan bukan hanya jenis pengeluaran dengan jumlah terbesar, tetapi juga pembelian kecil yang sering dilakukan dan mungkin terlihat tidak signifikan jika dilihat satu per satu."
+    ]
+  },
+  "overview": {
+    "title": "Daftar isi",
+    "whatItShows": "Apa yang ditampilkan laporan",
+    "sortByAmount": "Urutkan berdasarkan jumlah",
+    "sortByCount": "Urutkan berdasarkan jumlah transaksi",
+    "progressBars": "Cara membaca bilah",
+    "tagSumMismatch": "Mengapa total berdasarkan tag dapat berbeda dari total pengeluaran",
+    "compareAmountAndCount": "Cara membandingkan jumlah dan jumlah transaksi",
+    "conclusions": "Apa yang dapat Anda pelajari dari laporan",
+    "compareMonths": "Bandingkan bulan yang berbeda",
+    "consistentTags": "Gunakan tag secara konsisten",
+    "analysisExample": "Contoh analisis laporan",
+    "summary": "Hal utama"
+  },
+  "whatItShows": {
+    "title": "Apa yang ditampilkan laporan",
+    "paragraphs": [
+      "Laporan dibuat hanya untuk satu pos yang dipilih pada satu waktu.",
+      "Misalnya, jika Anda memilih pos “Kebutuhan”, laporan hanya akan mencakup pengeluaran dari pos tersebut. Transaksi dari pos lain tidak akan dihitung, meskipun menggunakan tag yang sama."
+    ],
+    "metricsIntro": "Dua nilai ditampilkan untuk setiap tag:",
+    "metrics": [
+      "<strong>jumlah</strong> — total uang yang dibelanjakan dalam transaksi dengan tag ini;",
+      "<strong>jumlah transaksi</strong> — berapa kali tag digunakan pada pengeluaran selama periode yang dipilih."
+    ],
+    "exampleIntro": "Misalnya, jika tag “Pesan makanan” digunakan dalam empat transaksi dengan total 650, laporan akan menampilkan:",
+    "exampleItems": [
+      "jumlah — 650;",
+      "jumlah transaksi — 4."
+    ],
+    "closingParagraphs": [
+      "Kedua nilai ini menunjukkan pengeluaran Anda dari sudut pandang yang berbeda. Jumlah yang besar dapat berasal dari satu pembelian besar maupun banyak pembelian kecil."
+    ]
+  },
+  "sortByAmount": {
+    "title": "Urutkan berdasarkan jumlah",
+    "paragraphs": [
+      "Saat diurutkan berdasarkan jumlah, tag dengan total pengeluaran terbesar akan ditampilkan terlebih dahulu.",
+      "Mode ini membantu menjawab pertanyaan:"
+    ],
+    "question": "Jenis pengeluaran apa yang paling memengaruhi saldo pos?",
+    "exampleIntro": "Misalnya, laporan bulanan dapat menampilkan data seperti berikut:",
+    "table": {
+      "headers": ["Tag", "Jumlah", "Transaksi"],
+      "rows": [
+        ["Belanja kebutuhan sehari-hari", "2 400", "12"],
+        ["Perlengkapan rumah", "750", "3"],
+        ["Pesan makanan", "650", "4"],
+        ["Kopi", "480", "16"]
+      ]
+    },
+    "closingParagraphs": [
+      "Dalam contoh ini, belanja kebutuhan sehari-hari memiliki jumlah pengeluaran terbesar. Meskipun kopi dibeli lebih sering, pengaruhnya terhadap total jumlah jauh lebih kecil."
+    ],
+    "listIntro": "Mengurutkan berdasarkan jumlah berguna untuk:",
+    "items": [
+      "menemukan jenis pembelian yang paling mahal;",
+      "melihat pengeluaran mana yang paling memengaruhi saldo;",
+      "memilih tag untuk dianalisis lebih lanjut;",
+      "membandingkan pola pengeluaran antara periode yang berbeda."
+    ],
+    "outroParagraphs": [
+      "Jumlah yang besar tidak otomatis berarti pengeluaran tersebut tidak perlu. Misalnya, belanja kebutuhan sehari-hari dapat berada di urutan pertama karena memang merupakan pengeluaran utama dalam pos yang dipilih.",
+      "Laporan menunjukkan ke mana uang dibelanjakan, tetapi apakah pengeluaran tersebut perlu atau tidak harus dinilai berdasarkan tujuan pos dan situasi Anda."
+    ]
+  },
+  "sortByCount": {
+    "title": "Urutkan berdasarkan jumlah transaksi",
+    "paragraphs": [
+      "Saat diurutkan berdasarkan jumlah transaksi, tag yang paling sering digunakan akan ditampilkan terlebih dahulu.",
+      "Mode ini menjawab pertanyaan yang berbeda:"
+    ],
+    "question": "Pengeluaran apa yang paling sering terjadi?",
+    "closingParagraphs": [
+      "Transaksi yang sering dilakukan tidak selalu berada di urutan teratas berdasarkan jumlah. Namun, transaksi tersebut dapat menunjukkan kebiasaan yang berulang.",
+      "Dalam contoh sebelumnya, kopi dibeli 16 kali — lebih sering daripada pengeluaran lainnya. Total jumlahnya relatif kecil, sehingga tag ini akan berada lebih bawah jika diurutkan berdasarkan jumlah."
+    ],
+    "listIntro": "Mengurutkan berdasarkan jumlah transaksi membantu menemukan:",
+    "items": [
+      "pembelian yang sering berulang;",
+      "pengeluaran yang sudah menjadi kebiasaan;",
+      "banyak transaksi kecil;",
+      "area di mana mengurangi frekuensi pembelian mungkin lebih efektif daripada mengurangi jumlah setiap pembelian."
+    ],
+    "outroParagraphs": [
+      "Misalnya, satu pembelian sebesar 500 lebih mudah terlihat dibandingkan sepuluh pembelian masing-masing sebesar 50. Namun, total pengeluarannya sama. Mengurutkan berdasarkan jumlah transaksi membuat pola kedua lebih mudah terlihat."
+    ]
+  },
+  "progressBars": {
+    "title": "Cara membaca bilah",
+    "paragraphs": [
+      "Di samping setiap tag terdapat bilah yang membantu membandingkan jumlah pengeluaran secara visual.",
+      "Tag dengan jumlah pengeluaran tertinggi selama periode yang dipilih dianggap sebagai 100%. Bilah lainnya dihitung relatif terhadap tag tersebut."
+    ],
+    "exampleIntro": "Misalnya:",
+    "exampleItems": [
+      "“Belanja kebutuhan sehari-hari” — 2 000;",
+      "“Pesan makanan” — 1 000;",
+      "“Kopi” — 500."
+    ],
+    "resultIntro": "Dalam hal ini:",
+    "resultItems": [
+      "bilah “Belanja kebutuhan sehari-hari” akan terisi penuh;",
+      "“Pesan makanan” akan terisi sekitar setengah;",
+      "“Kopi” akan terisi sekitar seperempat."
+    ],
+    "closingParagraphs": [
+      "Bilah tidak menunjukkan persentase tag dari seluruh pengeluaran. Bilah yang terisi penuh tidak berarti 100% pengeluaran Anda masuk ke tag tersebut. Bilah itu hanya menunjukkan bahwa tag tersebut memiliki jumlah tertinggi dalam laporan saat ini.",
+      "Visualisasi selalu dibuat berdasarkan jumlah, bahkan ketika daftar diurutkan berdasarkan jumlah transaksi.",
+      "Karena itu, saat Anda mengubah metode pengurutan, urutan tag dapat berubah, tetapi panjang bilah tetap mewakili jumlah pengeluaran."
+    ]
+  },
+  "tagSumMismatch": {
+    "title": "Mengapa total berdasarkan tag dapat berbeda dari total pengeluaran",
+    "paragraphs": [
+      "Satu transaksi dapat memiliki beberapa tag. Dalam hal ini, seluruh jumlah transaksi dihitung secara terpisah untuk setiap tag yang dipilih."
+    ],
+    "exampleIntro": "Misalnya, Anda membelanjakan 300 dan menambahkan dua tag ke transaksi:",
+    "exampleTags": [
+      "“Belanja kebutuhan sehari-hari”;",
+      "“Tamu”."
+    ],
+    "reportIntro": "Dalam laporan, transaksi ini akan menambahkan:",
+    "reportItems": [
+      "300 ke tag “Belanja kebutuhan sehari-hari”;",
+      "300 ke tag “Tamu”."
+    ],
+    "closingParagraphs": [
+      "Pada kenyataannya, hanya 300 yang dikurangi dari pos, tetapi total nilai kedua tag akan menjadi 600.",
+      "Ini bukan pemotongan ganda atau kesalahan perhitungan. Dalam aplikasi, tag digunakan sebagai atribut transaksi, bukan sebagai bagian-bagian yang membagi jumlah transaksi."
+    ],
+    "questionsIntro": "Satu pembelian dapat menjawab beberapa pertanyaan sekaligus:",
+    "questions": [
+      "<strong>apa yang dibeli?</strong> — kebutuhan sehari-hari;",
+      "<strong>untuk apa?</strong> — untuk tamu;",
+      "<strong>di mana?</strong> — di pasar;",
+      "<strong>apakah pembelian direncanakan?</strong> — tidak direncanakan."
+    ],
+    "outroParagraphs": [
+      "Setiap tag memungkinkan Anda melihat transaksi yang sama dari sudut pandang yang berbeda.",
+      "Karena itu, jangan menjumlahkan semua baris dalam laporan untuk menghitung total pengeluaran."
+    ],
+    "fundsMovementLinkPrefix": "Untuk melihat jumlah yang benar-benar dibelanjakan selama periode tersebut, gunakan laporan ",
+    "fundsMovementLinkText": "“Pergerakan Dana”",
+    "fundsMovementLinkSuffix": "."
+  },
+  "compareAmountAndCount": {
+    "title": "Cara membandingkan jumlah dan jumlah transaksi",
+    "lead": "Informasi yang paling berguna biasanya diperoleh dengan melihat kedua nilai secara bersamaan.",
+    "highAmountHighCount": {
+      "title": "Jumlah tinggi dan banyak transaksi",
+      "paragraphs": [
+        "Pengeluaran tersebut besar sekaligus berulang.",
+        "Misalnya, kebutuhan sehari-hari dapat dibeli beberapa kali seminggu dan membentuk bagian yang signifikan dari pengeluaran pos.",
+        "Hal ini tidak selalu berarti ada masalah, tetapi menunjukkan bahwa perubahan dalam area ini akan memberikan dampak terbesar terhadap saldo secara keseluruhan."
+      ]
+    },
+    "highAmountLowCount": {
+      "title": "Jumlah tinggi dan sedikit transaksi",
+      "paragraphs": [
+        "Sebagian besar jumlah berasal dari satu atau beberapa pembelian besar.",
+        "Misalnya, tag “Perbaikan” mungkin hanya digunakan dua kali tetapi tetap berada di urutan pertama berdasarkan jumlah.",
+        "Dalam situasi ini, sebaiknya periksa apakah pengeluaran tersebut hanya terjadi sekali. Jika ya, satu bulan saja belum tentu menggambarkan pola pengeluaran Anda yang normal."
+      ]
+    },
+    "lowAmountHighCount": {
+      "title": "Jumlah rendah dan banyak transaksi",
+      "paragraphs": [
+        "Pengeluaran terjadi sering, tetapi setiap transaksi relatif kecil.",
+        "Kopi, camilan, transportasi, atau pembelian kecil dalam perjalanan pulang dapat terlihat seperti ini.",
+        "Pengeluaran seperti ini mudah terlewat karena setiap transaksi tampak tidak signifikan. Laporan membantu Anda melihat frekuensi keseluruhan dan dampaknya terhadap anggaran."
+      ]
+    },
+    "lowAmountLowCount": {
+      "title": "Jumlah rendah dan sedikit transaksi",
+      "paragraphs": [
+        "Pengeluaran jarang terjadi dan hanya memiliki sedikit pengaruh terhadap gambaran keseluruhan.",
+        "Tag seperti ini biasanya tidak memerlukan perhatian khusus, kecuali Anda memang sedang memantau kebiasaan atau tujuan tertentu."
+      ]
+    }
+  },
+  "conclusions": {
+    "title": "Apa yang dapat Anda pelajari dari laporan",
+    "topSpending": {
+      "title": "Untuk apa Anda menghabiskan uang paling banyak",
+      "paragraphs": [
+        "Mengurutkan berdasarkan jumlah menunjukkan jenis pengeluaran yang paling memengaruhi saldo pos yang dipilih selama bulan tersebut.",
+        "Jika satu tag jauh lebih tinggi daripada yang lain, pertama-tama pertimbangkan apakah hal ini sesuai dengan tujuan pos. Misalnya, pengeluaran tinggi untuk kebutuhan sehari-hari mungkin wajar dalam pos “Kebutuhan”, sedangkan jumlah tinggi pada tag “Pesan makanan” dapat menjadi alasan untuk memeriksa apakah pemesanan makanan menjadi terlalu sering atau terlalu mahal."
+      ],
+      "compareIntro": "Bandingkan jumlah dengan jumlah transaksi:",
+      "compareItems": [
+        "jumlah tinggi dengan sedikit transaksi biasanya menunjukkan beberapa pembelian besar;",
+        "jumlah tinggi dengan banyak transaksi menunjukkan pengeluaran rutin yang terus terakumulasi selama bulan tersebut."
+      ],
+      "closingParagraphs": [
+        "Hal ini membantu Anda memahami apa yang benar-benar dapat diubah. Dalam kasus pertama, periksa apakah pembelian besar tersebut hanya terjadi sekali dan sudah direncanakan. Dalam kasus kedua, pertimbangkan apakah Anda dapat mengurangi rata-rata biaya setiap pembelian atau melakukannya lebih jarang.",
+        "Jumlah yang tinggi tidak berarti Anda pasti mengeluarkan uang terlalu banyak. Nilai tersebut menunjukkan jenis pengeluaran yang paling memengaruhi pos dan di mana perubahan akan memberikan hasil yang paling terlihat."
+      ]
+    },
+    "mostFrequent": {
+      "title": "Pembelian apa yang paling sering terjadi",
+      "paragraphs": [
+        "Mengurutkan berdasarkan jumlah transaksi dapat menunjukkan kebiasaan yang tidak selalu terlihat dari total jumlah.",
+        "Misalnya, memesan makanan sesekali dapat menghabiskan lebih banyak uang selama sebulan daripada kopi, tetapi membeli kopi setiap hari akan membuat tag tersebut berada lebih tinggi berdasarkan jumlah transaksi.",
+        "Tergantung tujuan Anda, mungkin lebih berguna untuk menganalisis biaya suatu kebiasaan atau seberapa sering kebiasaan tersebut dilakukan."
+      ]
+    },
+    "largeOrSmall": {
+      "title": "Apakah pengeluaran berasal dari transaksi besar atau kecil",
+      "paragraphs": [
+        "Jumlah dan jumlah transaksi memberikan gambaran kasar mengenai sifat pengeluaran Anda."
+      ],
+      "exampleIntro": "Misalnya:",
+      "exampleItems": [
+        "1 200 dalam 2 transaksi — kemungkinan beberapa pembelian besar;",
+        "1 200 dalam 24 transaksi — banyak pembelian kecil."
+      ],
+      "closingParagraphs": [
+        "Untuk analisis yang lebih terperinci, Anda dapat membuka detail tag tertentu. Di sana Anda dapat melihat jumlah total, jumlah transaksi, rata-rata pengeluaran, serta bagaimana pengeluaran tersebar pada hari-hari dalam sebulan."
+      ]
+    },
+    "worthStudying": {
+      "title": "Pengeluaran mana yang layak diperiksa lebih lanjut",
+      "listIntro": "Tag yang mungkin perlu mendapat perhatian tambahan adalah tag yang:",
+      "items": [
+        "berada di bagian atas daftar berdasarkan jumlah;",
+        "digunakan jauh lebih sering dibandingkan tag lainnya;",
+        "meningkat secara tidak terduga dibandingkan tingkat biasanya;",
+        "memiliki jumlah tinggi sekaligus banyak transaksi;",
+        "menunjukkan pembelian opsional atau tidak direncanakan."
+      ],
+      "closingParagraphs": [
+        "Laporan tidak menentukan pengeluaran mana yang benar atau salah. Laporan membantu Anda menemukan area yang mungkin layak dianalisis lebih lanjut."
+      ]
+    }
+  },
+  "compareMonths": {
+    "title": "Bandingkan bulan yang berbeda",
+    "paragraphs": [
+      "Untuk melihat perubahan dalam pengeluaran Anda, bandingkan laporan dari beberapa bulan.",
+      "Saat membandingkan, perhatikan tidak hanya jumlah, tetapi juga jumlah transaksi. Pengeluaran pada suatu tag dapat meningkat karena berbagai alasan:"
+    ],
+    "reasons": [
+      "pembelian mulai dilakukan lebih sering;",
+      "rata-rata biaya setiap pembelian meningkat;",
+      "terdapat satu transaksi besar selama bulan tersebut;",
+      "Anda mulai menggunakan tag dengan lebih konsisten."
+    ],
+    "eventsIntro": "Pertimbangkan juga kejadian yang mungkin sementara memengaruhi pengeluaran Anda:",
+    "events": [
+      "hari raya atau libur;",
+      "liburan;",
+      "pindah tempat tinggal;",
+      "pembelian besar;",
+      "kedatangan tamu;",
+      "perubahan gaya hidup sementara."
+    ],
+    "closingParagraphs": [
+      "Peningkatan pengeluaran dalam satu bulan tidak selalu berarti kebiasaan baru telah terbentuk. Lebih berguna untuk melihat apakah perubahan tersebut berlanjut pada bulan-bulan berikutnya."
+    ]
+  },
+  "consistentTags": {
+    "title": "Gunakan tag secara konsisten",
+    "paragraphs": [
+      "Kualitas laporan bergantung pada seberapa konsisten Anda menggunakan tag.",
+      "Jika Anda menambahkan tag ke beberapa pembelian sejenis tetapi membiarkan pembelian lainnya tanpa tag, laporan hanya akan menunjukkan sebagian dari pengeluaran sebenarnya.",
+      "Misalnya, jika Anda ingin memantau pemesanan makanan, tambahkan tag yang sesuai ke semua transaksi tersebut. Jika tidak, jumlah maupun jumlah transaksinya akan terlihat lebih rendah dari yang sebenarnya.",
+      "Sebaiknya tentukan terlebih dahulu apa arti setiap tag."
+    ],
+    "examplesIntro": "Misalnya:",
+    "examples": [
+      "“Kafe dan restoran” — semua pembelian di tempat makan;",
+      "“Pesan makanan” — hanya pesanan yang dikirim ke rumah;",
+      "“Camilan” — pembelian makanan kecil yang tidak direncanakan saat berada di luar rumah."
+    ],
+    "closingParagraphs": [
+      "Semakin jelas aturan penggunaan tag, semakin mudah membandingkan data dari periode yang berbeda.",
+      "Anda tidak perlu menambahkan tag ke setiap transaksi. Gunakan tag ketika Anda memang ingin memantau jenis pengeluaran, kebiasaan, atau konteks pembelian tertentu."
+    ]
+  },
+  "analysisExample": {
+    "title": "Contoh analisis laporan",
+    "intro": "Misalkan pos “Hiburan” menampilkan data berikut untuk satu bulan:",
+    "table": {
+      "headers": ["Tag", "Jumlah", "Transaksi"],
+      "rows": [
+        ["Bertemu teman", "1 800", "4"],
+        ["Pesan makanan", "1 400", "7"],
+        ["Game", "1 000", "1"],
+        ["Kopi", "800", "16"]
+      ]
+    },
+    "closingParagraphs": [
+      "Saat diurutkan berdasarkan jumlah, terlihat bahwa uang paling banyak digunakan untuk bertemu teman.",
+      "Namun, pengurutan berdasarkan jumlah transaksi menunjukkan gambaran yang berbeda: pembelian dengan tag “Kopi” terjadi paling sering."
+    ],
+    "conclusionsIntro": "Beberapa kesimpulan dapat diambil dari laporan:",
+    "conclusions": [
+      "bertemu teman merupakan kategori pengeluaran terbesar;",
+      "pembelian game cukup besar, tetapi hanya terjadi sekali;",
+      "pesan makanan dilakukan secara rutin dan berada di posisi kedua berdasarkan jumlah;",
+      "kopi paling sering dibeli meskipun total jumlahnya lebih rendah."
+    ],
+    "outroParagraphs": [
+      "Tidak ada satu pengeluaran yang otomatis “buruk” dalam contoh ini. Kesimpulannya bergantung pada apa yang ingin Anda pahami.",
+      "Jika ingin mengurangi pengeluaran dengan cepat, paling mudah memulai dari kategori terbesar. Jika ingin mengubah kebiasaan sehari-hari, transaksi yang sering terjadi mungkin lebih berguna untuk diperhatikan."
+    ]
+  },
+  "summary": {
+    "title": "Hal utama",
+    "paragraphs": [
+      "Laporan “Pengeluaran berdasarkan Tag” menunjukkan pengeluaran Anda dari dua sudut pandang:"
+    ],
+    "items": [
+      "<strong>jumlah</strong> menunjukkan dampak finansial;",
+      "<strong>jumlah transaksi</strong> menunjukkan frekuensi."
+    ],
+    "closingParagraphs": [
+      "Mengurutkan berdasarkan jumlah membantu menemukan jenis pembelian dengan biaya terbesar, sedangkan mengurutkan berdasarkan jumlah transaksi menyoroti pengeluaran yang paling sering terjadi.",
+      "Jika satu transaksi memiliki beberapa tag, total semua nilai tag dapat melebihi pengeluaran sebenarnya karena seluruh jumlah transaksi dihitung secara terpisah untuk setiap tag. Hal ini memungkinkan Anda menganalisis pembelian yang sama dari beberapa sudut pandang, tetapi berarti Anda tidak boleh menjumlahkan semua baris dalam laporan untuk menghitung total pengeluaran.",
+      "Gunakan laporan bukan untuk secara otomatis menentukan pembelian yang “tidak perlu”, tetapi untuk menemukan area pengeluaran yang mungkin layak dianalisis lebih lanjut."
+    ]
+  }
+}

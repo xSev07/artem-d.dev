@@ -1,0 +1,1081 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Zo lees je het rapport ‘Uitgaven per tag’</title>
+  <meta name="description" content="Het rapport ‘Uitgaven per tag’ helpt je te begrijpen waaraan geld uit de geselecteerde pot in een bepaalde periode is uitgegeven." />
+  
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  
+  <link rel="stylesheet" href="/assets/style.css" />
+</head>
+<body>
+  <header class="site-header">
+  <div class="container site-header__inner">
+    <a class="site-header__brand" href="/">Artem D Apps</a>
+    <div class="site-header__aside">
+      
+      
+      <nav class="site-header__nav" aria-label="Sitenavigatie">
+        <a
+          class="site-header__link"
+          href="/nl/apps/6-jars-finance/download/"
+          data-analytics-link="download"
+          data-analytics-placement="header"
+          
+        >App downloaden</a>
+        <a
+          class="site-header__link"
+          href="/nl/apps/6-jars-finance/articles/guide/"
+          
+        >Zes-pottenmethode</a>
+      </nav>
+      
+        
+
+<nav class="lang-switch" aria-label="Taal">
+  <label class="lang-switch__desktop">
+    <span class="lang-switch__visually-hidden">Taal</span>
+    <select class="lang-switch__select" data-lang-switch-select>
+      
+        <option
+          value="/en/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >English</option>
+      
+        <option
+          value="/id/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >Bahasa Indonesia</option>
+      
+        <option
+          value="/cs/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >Čeština</option>
+      
+        <option
+          value="/de/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >Deutsch</option>
+      
+        <option
+          value="/es/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >Español</option>
+      
+        <option
+          value="/fr/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >Français</option>
+      
+        <option
+          value="/it/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >Italiano</option>
+      
+        <option
+          value="/nl/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          selected
+        >Nederlands</option>
+      
+        <option
+          value="/pl/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >Polski</option>
+      
+        <option
+          value="/pt-BR/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >Português (Brasil)</option>
+      
+        <option
+          value="/ro/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >Română</option>
+      
+        <option
+          value="/ru/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >Русский</option>
+      
+        <option
+          value="/sv/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >Svenska</option>
+      
+        <option
+          value="/tr/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >Türkçe</option>
+      
+        <option
+          value="/uk/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >Українська</option>
+      
+    </select>
+  </label>
+
+  <button
+    type="button"
+    class="lang-switch__trigger"
+    data-open-lang-switch-modal
+    aria-haspopup="dialog"
+    aria-expanded="false"
+    aria-controls="lang-switch-modal"
+  >
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        <span class="lang-switch__code">
+  NL
+</span>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    <span class="lang-switch__arrow" aria-hidden="true">▾</span>
+  </button>
+
+  <div
+    class="modal-overlay lang-switch__modal-overlay"
+    id="lang-switch-modal"
+    hidden
+    aria-hidden="true"
+    data-lang-switch-modal
+  >
+    <div
+      class="modal lang-switch__modal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="lang-switch-modal-title"
+    >
+      <h2 class="modal__title" id="lang-switch-modal-title">Taal</h2>
+      <fieldset class="lang-switch__mobile" aria-label="Taal">
+        <div class="lang-switch__radio-list">
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/en/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">English</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/id/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Bahasa Indonesia</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/cs/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Čeština</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/de/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Deutsch</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/es/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Español</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/fr/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Français</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/it/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Italiano</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/nl/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                checked
+              />
+              <span class="lang-switch__radio-text">Nederlands</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/pl/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Polski</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/pt-BR/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Português (Brasil)</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/ro/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Română</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/ru/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Русский</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/sv/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Svenska</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/tr/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Türkçe</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/uk/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Українська</span>
+            </label>
+          
+        </div>
+      </fieldset>
+    </div>
+  </div>
+
+  <script src="/assets/js/lang-switch.js" defer></script>
+</nav>
+
+      
+    </div>
+  </div>
+</header>
+
+
+  <main class="article">
+    <div class="container">
+      <div class="article-layout">
+  <div class="article-container">
+    
+
+
+
+
+
+
+
+
+
+<h1>Zo lees je het rapport ‘Uitgaven per tag’</h1>
+
+
+<p>Het rapport ‘Uitgaven per tag’ helpt je te begrijpen waaraan geld uit de geselecteerde pot in een bepaalde periode is uitgegeven.</p>
+
+<p>In tegenstelling tot een gewone transactielijst groepeert het uitgaven met dezelfde tags en toont het:</p>
+
+
+
+<ul>
+  
+  <li>het totale bedrag dat voor elke tag is uitgegeven;</li>
+  
+  <li>het aantal transacties met die tag;</li>
+  
+  <li>de verhouding tussen de uitgaven voor verschillende tags.</li>
+  
+</ul>
+
+
+
+<p>Met het rapport kun je niet alleen de duurste soorten uitgaven vinden, maar ook frequente kleine aankopen die afzonderlijk onbeduidend kunnen lijken.</p>
+
+
+
+<nav class="article-overview" aria-labelledby="article-overview-title">
+  <h2 id="article-overview-title">Inhoud</h2>
+  <ol>
+    <li><a href="#what-it-shows">Wat het rapport laat zien</a></li>
+    <li><a href="#sort-by-amount">Sorteren op bedrag</a></li>
+    <li><a href="#sort-by-count">Sorteren op aantal transacties</a></li>
+    <li><a href="#progress-bars">Hoe je de balken leest</a></li>
+    <li><a href="#tag-sum-mismatch">Waarom het totaal per tag kan afwijken van je totale uitgaven</a></li>
+    <li><a href="#compare-amount-and-count">Bedrag en aantal transacties vergelijken</a></li>
+    <li><a href="#conclusions">Welke conclusies je uit het rapport kunt trekken</a></li>
+    <li><a href="#compare-months">Vergelijk verschillende maanden</a></li>
+    <li><a href="#consistent-tags">Gebruik tags consequent</a></li>
+    <li><a href="#analysis-example">Voorbeeld van een analyse van het rapport</a></li>
+    <li><a href="#summary">Belangrijkste punten</a></li>
+  </ol>
+</nav>
+
+<div class="article-section">
+<h2 id="what-it-shows">Wat het rapport laat zien</h2>
+
+
+<p>Het rapport wordt telkens voor één geselecteerde pot gemaakt.</p>
+
+<p>Als je bijvoorbeeld de pot ‘Benodigdheden’ selecteert, worden alleen uitgaven uit die pot meegenomen. Transacties uit andere potten worden niet meegerekend, ook niet als daarvoor dezelfde tags zijn gebruikt.</p>
+
+
+<p>Voor elke tag worden twee waarden weergegeven:</p>
+
+<ul>
+  
+  <li><strong>bedrag</strong> — hoeveel geld er in totaal is uitgegeven in transacties met deze tag;</li>
+  
+  <li><strong>aantal transacties</strong> — hoe vaak de tag in de geselecteerde periode bij uitgaven is gebruikt.</li>
+  
+</ul>
+
+<p>Als de tag ‘Maaltijdbezorging’ bijvoorbeeld in vier transacties met een totaalbedrag van 650 is gebruikt, toont het rapport:</p>
+
+<ul>
+  
+  <li>bedrag — 650;</li>
+  
+  <li>aantal transacties — 4.</li>
+  
+</ul>
+
+
+
+<p>Deze waarden laten je uitgaven vanuit verschillende invalshoeken zien. Een hoog totaalbedrag kan zowel uit één grote aankoop als uit veel kleinere aankopen bestaan.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="sort-by-amount">Sorteren op bedrag</h2>
+
+
+<p>Bij sorteren op bedrag staan de tags waaraan het meeste geld is uitgegeven bovenaan.</p>
+
+<p>Deze weergave helpt antwoord te geven op de vraag:</p>
+
+
+<blockquote><p>Welke soorten uitgaven hadden de grootste invloed op het saldo van de pot?</p></blockquote>
+<p>Een maandoverzicht kan er bijvoorbeeld zo uitzien:</p>
+
+<table>
+  <thead>
+    <tr>
+      
+      <th>Tag</th>
+      
+      <th>Bedrag</th>
+      
+      <th>Aantal</th>
+      
+    </tr>
+  </thead>
+  <tbody>
+    
+    <tr>
+      
+      <td>Boodschappen</td>
+      
+      <td>2 400</td>
+      
+      <td>12</td>
+      
+    </tr>
+    
+    <tr>
+      
+      <td>Huishoudelijke producten</td>
+      
+      <td>750</td>
+      
+      <td>3</td>
+      
+    </tr>
+    
+    <tr>
+      
+      <td>Maaltijdbezorging</td>
+      
+      <td>650</td>
+      
+      <td>4</td>
+      
+    </tr>
+    
+    <tr>
+      
+      <td>Koffie</td>
+      
+      <td>480</td>
+      
+      <td>16</td>
+      
+    </tr>
+    
+  </tbody>
+</table>
+
+
+
+<p>In dit voorbeeld ging het grootste deel van de uitgaven naar boodschappen. Hoewel koffie vaker werd gekocht, was de invloed ervan op het totale bedrag veel kleiner.</p>
+
+
+<p>Sorteren op bedrag is handig om:</p>
+
+<ul>
+  
+  <li>de duurste soorten aankopen te vinden;</li>
+  
+  <li>te zien welke uitgaven het saldo het sterkst hebben beïnvloed;</li>
+  
+  <li>een tag te kiezen voor een gedetailleerdere analyse;</li>
+  
+  <li>de structuur van je uitgaven tussen verschillende periodes te vergelijken.</li>
+  
+</ul>
+
+
+
+<p>Een hoog bedrag betekent op zichzelf niet dat een uitgave onnodig was. Boodschappen kunnen bijvoorbeeld bovenaan staan omdat ze simpelweg een belangrijk deel van de uitgaven binnen de geselecteerde pot vormen.</p>
+
+<p>Het rapport laat zien waar het geld naartoe ging, maar of die uitgaven nodig waren hangt af van het doel van de pot en je eigen situatie.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="sort-by-count">Sorteren op aantal transacties</h2>
+
+
+<p>Bij sorteren op aantal transacties staan de tags die het vaakst zijn gebruikt bovenaan.</p>
+
+<p>Deze weergave beantwoordt een andere vraag:</p>
+
+
+<blockquote><p>Welke uitgaven komen het meest regelmatig voor?</p></blockquote>
+
+
+<p>Veel transacties betekenen niet automatisch dat een tag ook bovenaan staat qua bedrag. Ze kunnen wel wijzen op een vaste gewoonte.</p>
+
+<p>In het vorige voorbeeld werd koffie 16 keer gekocht — vaker dan elke andere uitgave. Het totaalbedrag was relatief laag, waardoor deze tag bij sorteren op bedrag lager in de lijst zou staan.</p>
+
+
+<p>Sorteren op aantal transacties helpt je bij het vinden van:</p>
+
+<ul>
+  
+  <li>vaak terugkerende aankopen;</li>
+  
+  <li>uitgaven die een gewoonte zijn geworden;</li>
+  
+  <li>veel kleine transacties;</li>
+  
+  <li>gebieden waar het nuttiger kan zijn om minder vaak iets te kopen dan om het bedrag per aankoop te verlagen.</li>
+  
+</ul>
+
+
+
+<p>Eén aankoop van 500 valt bijvoorbeeld meer op dan tien aankopen van 50. Toch zijn de totale uitgaven in beide gevallen hetzelfde. Door op aantal transacties te sorteren wordt het tweede patroon makkelijker zichtbaar.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="progress-bars">Hoe je de balken leest</h2>
+
+
+<p>Naast elke tag staat een balk die de hoogte van de uitgaven visueel vergelijkt.</p>
+
+<p>De tag met het hoogste bedrag in de geselecteerde periode wordt als 100% genomen. De overige balken worden ten opzichte daarvan berekend.</p>
+
+
+<p>Bijvoorbeeld:</p>
+
+<ul>
+  
+  <li>‘Boodschappen’ — 2 000;</li>
+  
+  <li>‘Maaltijdbezorging’ — 1 000;</li>
+  
+  <li>‘Koffie’ — 500.</li>
+  
+</ul>
+
+<p>In dat geval:</p>
+
+<ul>
+  
+  <li>is de balk voor ‘Boodschappen’ volledig gevuld;</li>
+  
+  <li>die voor ‘Maaltijdbezorging’ ongeveer voor de helft;</li>
+  
+  <li>die voor ‘Koffie’ ongeveer voor een kwart.</li>
+  
+</ul>
+
+
+
+<p>De balk toont niet welk aandeel de tag van alle uitgaven vertegenwoordigt. Een volledig gevulde balk betekent niet dat 100% van je uitgaven naar die tag ging. Het betekent alleen dat deze tag het hoogste bedrag in het huidige rapport heeft.</p>
+
+<p>De visualisatie is altijd gebaseerd op het bedrag, ook wanneer de lijst op aantal transacties is gesorteerd.</p>
+
+<p>Na het wijzigen van de sortering kan de volgorde van de tags dus veranderen, maar de lengte van de balken blijft gekoppeld aan de bedragen.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="tag-sum-mismatch">Waarom het totaal per tag kan afwijken van je totale uitgaven</h2>
+
+
+<p>Aan één transactie kunnen meerdere tags worden toegevoegd. In dat geval wordt het volledige bedrag van de transactie afzonderlijk bij elke geselecteerde tag meegeteld.</p>
+
+
+<p>Stel dat je 300 uitgeeft en twee tags aan de transactie toevoegt:</p>
+
+<ul>
+  
+  <li>‘Boodschappen’;</li>
+  
+  <li>‘Gasten’.</li>
+  
+</ul>
+
+<p>In het rapport voegt deze transactie toe:</p>
+
+<ul>
+  
+  <li>300 aan de tag ‘Boodschappen’;</li>
+  
+  <li>300 aan de tag ‘Gasten’.</li>
+  
+</ul>
+
+
+
+<p>Er is in werkelijkheid slechts 300 uit de pot gehaald, maar de som van de waarden van beide tags is 600.</p>
+
+<p>Dit is geen dubbele afschrijving en ook geen rekenfout. Tags worden in de app gebruikt als kenmerken van een transactie en niet als onderdelen waarin het bedrag wordt verdeeld.</p>
+
+
+<p>Eén aankoop kan tegelijk verschillende vragen beantwoorden:</p>
+
+<ul>
+  
+  <li><strong>wat is er gekocht?</strong> — boodschappen;</li>
+  
+  <li><strong>waarvoor?</strong> — voor gasten;</li>
+  
+  <li><strong>waar?</strong> — op de markt;</li>
+  
+  <li><strong>was de aankoop gepland?</strong> — ongepland.</li>
+  
+</ul>
+
+
+
+<p>Met elke tag kun je dezelfde transactie vanuit een andere invalshoek bekijken.</p>
+
+<p>Tel daarom niet alle regels in het rapport bij elkaar op om je totale uitgaven te berekenen.</p>
+
+
+<p>Het werkelijke bedrag dat in de periode is uitgegeven, kun je het beste bekijken in het rapport <a href="/nl/apps/6-jars-finance/articles/report-funds-movement/">‘Geldstromen’</a>.</p>
+</div>
+
+<div class="article-section">
+<h2 id="compare-amount-and-count">Bedrag en aantal transacties vergelijken</h2>
+<p>De nuttigste inzichten krijg je vaak door beide waarden tegelijk te bekijken.</p>
+<div class="article-subsection">
+<h3>Hoog bedrag en veel transacties</h3>
+
+
+<p>De uitgave is zowel groot als regelmatig.</p>
+
+<p>Boodschappen kunnen bijvoorbeeld meerdere keren per week worden gekocht en een aanzienlijk deel van de uitgaven uit de pot vormen.</p>
+
+<p>Dit betekent niet noodzakelijk dat er een probleem is, maar het laat wel zien dat veranderingen in deze categorie de grootste invloed op het totale saldo zouden hebben.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Hoog bedrag en weinig transacties</h3>
+
+
+<p>Het grootste deel van het bedrag komt uit één of enkele grote aankopen.</p>
+
+<p>De tag ‘Reparaties’ kan bijvoorbeeld maar twee keer zijn gebruikt en toch bovenaan staan qua bedrag.</p>
+
+<p>In zo'n situatie is het nuttig om te controleren of dit eenmalige uitgaven waren. Als dat zo is, zegt één maand weinig over je normale uitgavenpatroon.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Laag bedrag en veel transacties</h3>
+
+
+<p>De uitgave komt vaak voor, maar elke afzonderlijke transactie is relatief klein.</p>
+
+<p>Zo kunnen koffie, snacks, vervoer of kleine aankopen onderweg naar huis eruitzien.</p>
+
+<p>Dit soort uitgaven valt makkelijk niet op, omdat elke transactie op zichzelf onbeduidend lijkt. Het rapport maakt hun totale frequentie en invloed op je budget zichtbaar.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Laag bedrag en weinig transacties</h3>
+
+
+<p>De uitgave kwam weinig voor en had nauwelijks invloed op het totaalbeeld.</p>
+
+<p>Dergelijke tags hebben meestal geen bijzondere aandacht nodig, tenzij je er bewust een specifieke gewoonte of doelstelling mee volgt.</p>
+
+
+</div>
+</div>
+
+<div class="article-section">
+<h2 id="conclusions">Welke conclusies je uit het rapport kunt trekken</h2>
+<div class="article-subsection">
+<h3>Waar je het meeste geld aan uitgeeft</h3>
+
+
+<p>Sorteren op bedrag laat zien welke soorten uitgaven tijdens de maand de grootste invloed hadden op het saldo van de geselecteerde pot.</p>
+
+<p>Als één tag duidelijk boven de andere uitsteekt, kijk dan eerst of dat past bij het doel van de pot. Hoge uitgaven aan boodschappen kunnen bijvoorbeeld heel normaal zijn binnen de pot ‘Benodigdheden’, terwijl een hoog bedrag voor ‘Maaltijdbezorging’ aanleiding kan zijn om te kijken of bezorging te vaak of te duur is geworden.</p>
+
+
+<p>Vergelijk het bedrag met het aantal transacties:</p>
+
+<ul>
+  
+  <li>een hoog bedrag bij weinig transacties wijst meestal op enkele grote aankopen;</li>
+  
+  <li>een hoog bedrag bij veel transacties wijst op terugkerende uitgaven die zich gedurende de maand hebben opgestapeld.</li>
+  
+</ul>
+
+
+
+<p>Zo kun je beter begrijpen wat je daadwerkelijk zou kunnen veranderen. In het eerste geval kun je nagaan of de grote aankoop eenmalig en gepland was. In het tweede geval kun je kijken of je het gemiddelde bedrag per aankoop kunt verlagen of zulke aankopen minder vaak kunt doen.</p>
+
+<p>Een hoog bedrag betekent op zichzelf niet dat je te veel hebt uitgegeven. Het laat zien welke soorten uitgaven de grootste invloed op de pot hebben en waar veranderingen het duidelijkste resultaat kunnen opleveren.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Welke aankopen het vaakst voorkomen</h3>
+
+
+<p>Sorteren op aantal transacties kan gewoontes zichtbaar maken die aan het totaalbedrag niet altijd opvallen.</p>
+
+<p>Af en toe eten laten bezorgen kan bijvoorbeeld in een maand meer kosten dan koffie, maar dagelijkse koffie zal hoger staan bij het aantal transacties.</p>
+
+<p>Afhankelijk van je doel kan het nuttiger zijn om naar de kosten van een gewoonte of juist naar de frequentie ervan te kijken.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Of je uitgaven uit grote of kleine transacties bestaan</h3>
+
+
+<p>Het bedrag en het aantal transacties geven samen een globale indruk van de aard van je uitgaven.</p>
+
+
+<p>Bijvoorbeeld:</p>
+
+<ul>
+  
+  <li>1 200 verdeeld over 2 transacties — waarschijnlijk enkele grote aankopen;</li>
+  
+  <li>1 200 verdeeld over 24 transacties — veel kleine aankopen.</li>
+  
+</ul>
+
+
+
+<p>Voor een gedetailleerdere analyse kun je de details van een specifieke tag openen. Daar zie je het totale bedrag, het aantal transacties, de gemiddelde uitgave en hoe de uitgaven over de dagen van de maand zijn verdeeld.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Welke uitgaven de moeite waard zijn om nader te bekijken</h3>
+<p>Tags die extra aandacht kunnen verdienen zijn tags die:</p>
+
+<ul>
+  
+  <li>hoog in de lijst staan qua bedrag;</li>
+  
+  <li>duidelijk vaker worden gebruikt dan andere;</li>
+  
+  <li>onverwacht zijn gestegen ten opzichte van het gebruikelijke niveau;</li>
+  
+  <li>zowel een hoog bedrag als veel transacties hebben;</li>
+  
+  <li>optionele of ongeplande aankopen aanduiden.</li>
+  
+</ul>
+
+
+
+<p>Het rapport bepaalt niet welke uitgaven goed of slecht zijn. Het helpt je om gebieden te vinden die je misschien nader wilt bekijken.</p>
+
+
+</div>
+</div>
+
+<div class="article-section">
+<h2 id="compare-months">Vergelijk verschillende maanden</h2>
+
+
+<p>Vergelijk rapporten van meerdere maanden om veranderingen in je uitgaven te herkennen.</p>
+
+<p>Kijk daarbij niet alleen naar het bedrag, maar ook naar het aantal transacties. Een stijging van de uitgaven onder een tag kan verschillende oorzaken hebben:</p>
+
+
+
+<ul>
+  
+  <li>de aankopen vinden vaker plaats;</li>
+  
+  <li>de gemiddelde prijs per aankoop is gestegen;</li>
+  
+  <li>er was één grote transactie in de maand;</li>
+  
+  <li>je bent de tag consequenter gaan gebruiken.</li>
+  
+</ul>
+
+<p>Houd ook rekening met gebeurtenissen die je uitgaven tijdelijk kunnen hebben beïnvloed:</p>
+
+<ul>
+  
+  <li>feestdagen;</li>
+  
+  <li>vakantie;</li>
+  
+  <li>een verhuizing;</li>
+  
+  <li>een grote aankoop;</li>
+  
+  <li>bezoek van gasten;</li>
+  
+  <li>een tijdelijke verandering in je levensstijl.</li>
+  
+</ul>
+
+
+
+<p>Een stijging in één maand betekent niet automatisch dat er een nieuwe gewoonte is ontstaan. Het is nuttiger om te kijken of de verandering ook in de volgende maanden blijft bestaan.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="consistent-tags">Gebruik tags consequent</h2>
+
+
+<p>De kwaliteit van het rapport hangt af van hoe consequent je tags gebruikt.</p>
+
+<p>Als je vergelijkbare aankopen soms wel en soms niet van een tag voorziet, laat het rapport slechts een deel van je werkelijke uitgaven zien.</p>
+
+<p>Als je bijvoorbeeld maaltijdbezorging wilt volgen, voeg dan de bijbehorende tag toe aan elke dergelijke transactie. Anders worden zowel het bedrag als het aantal transacties te laag weergegeven.</p>
+
+<p>Het is handig om vooraf te bepalen wat elke tag precies betekent.</p>
+
+
+<p>Bijvoorbeeld:</p>
+
+<ul>
+  
+  <li>‘Cafés en restaurants’ — alle aankopen in horecagelegenheden;</li>
+  
+  <li>‘Maaltijdbezorging’ — alleen bestellingen die thuis worden bezorgd;</li>
+  
+  <li>‘Snacks’ — kleine ongeplande aankopen van eten buitenshuis.</li>
+  
+</ul>
+
+
+
+<p>Hoe duidelijker je regels voor het gebruik van tags zijn, hoe makkelijker je gegevens uit verschillende periodes kunt vergelijken.</p>
+
+<p>Je hoeft niet elke transactie van tags te voorzien. Gebruik ze wanneer je daadwerkelijk een bepaald soort uitgave, een gewoonte of de context van een aankoop wilt volgen.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="analysis-example">Voorbeeld van een analyse van het rapport</h2>
+<p>Stel dat de pot ‘Plezier’ voor een maand de volgende gegevens toont:</p>
+
+<table>
+  <thead>
+    <tr>
+      
+      <th>Tag</th>
+      
+      <th>Bedrag</th>
+      
+      <th>Aantal</th>
+      
+    </tr>
+  </thead>
+  <tbody>
+    
+    <tr>
+      
+      <td>Afspreken met vrienden</td>
+      
+      <td>1 800</td>
+      
+      <td>4</td>
+      
+    </tr>
+    
+    <tr>
+      
+      <td>Maaltijdbezorging</td>
+      
+      <td>1 400</td>
+      
+      <td>7</td>
+      
+    </tr>
+    
+    <tr>
+      
+      <td>Games</td>
+      
+      <td>1 000</td>
+      
+      <td>1</td>
+      
+    </tr>
+    
+    <tr>
+      
+      <td>Koffie</td>
+      
+      <td>800</td>
+      
+      <td>16</td>
+      
+    </tr>
+    
+  </tbody>
+</table>
+
+
+
+<p>Bij sorteren op bedrag zie je dat het meeste geld is uitgegeven aan afspreken met vrienden.</p>
+
+<p>Sorteren op aantal transacties laat echter een ander beeld zien: aankopen met de tag ‘Koffie’ kwamen het vaakst voor.</p>
+
+
+<p>Uit het rapport kun je verschillende conclusies trekken:</p>
+
+<ul>
+  
+  <li>afspreken met vrienden was de grootste uitgavencategorie;</li>
+  
+  <li>de aankoop van een game was groot, maar eenmalig;</li>
+  
+  <li>maaltijdbezorging kwam regelmatig voor en stond op de tweede plaats qua bedrag;</li>
+  
+  <li>koffie werd het vaakst gekocht, hoewel het totale bedrag lager was.</li>
+  
+</ul>
+
+
+
+<p>Er is hier niet één ‘slechte’ uitgave. Welke conclusie belangrijk is, hangt af van je doel.</p>
+
+<p>Als je je uitgaven snel wilt verlagen, kun je het beste eerst naar de grootste categorieën kijken. Als je een dagelijkse gewoonte wilt veranderen, kunnen frequente transacties interessanter zijn.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="summary">Belangrijkste punten</h2>
+
+
+<p>Het rapport ‘Uitgaven per tag’ laat je uitgaven vanuit twee perspectieven zien:</p>
+
+
+
+<ul>
+  
+  <li><strong>bedrag</strong> toont de financiële invloed;</li>
+  
+  <li><strong>aantal transacties</strong> toont de frequentie.</li>
+  
+</ul>
+
+
+
+<p>Sorteren op bedrag helpt je de duurste soorten aankopen te vinden, terwijl sorteren op aantal transacties de meest regelmatige aankopen zichtbaar maakt.</p>
+
+<p>Als een transactie meerdere tags heeft, kan de som van alle tagwaarden hoger zijn dan je werkelijke uitgaven, omdat het volledige bedrag van de transactie voor elke tag afzonderlijk wordt meegeteld. Daardoor kun je dezelfde aankoop vanuit verschillende invalshoeken analyseren, maar kun je niet alle regels in het rapport bij elkaar optellen om je totale uitgaven te berekenen.</p>
+
+<p>Gebruik het rapport niet om automatisch ‘onnodige’ aankopen aan te wijzen, maar om uitgaven te vinden die je misschien nader wilt bekijken.</p>
+
+
+</div>
+
+  </div>
+  <aside class="article-toc" aria-label="Paginanavigatie">
+    <nav class="article-toc__nav">
+      <p class="article-toc__title">Op deze pagina</p>
+      <ol class="article-toc__list"></ol>
+    </nav>
+  </aside>
+</div>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+  <div class="container site-footer__inner">
+    <p class="site-footer__copyright">© 2026 Artem D Apps</p>
+    <nav class="site-footer__nav" aria-label="Informatie over de site">
+      <a class="site-footer__link" href="/nl/apps/6-jars-finance/help/">Informatie over fouten</a>
+      <a class="site-footer__link" href="/nl/apps/6-jars-finance/articles/report-funds-movement/">Funds Movement Report</a>
+      <a class="site-footer__link" href="/nl/apps/6-jars-finance/articles/report-spendings-by-tags/">Spendings by Tags Report</a>
+      <a class="site-footer__link" href="/nl/apps/6-jars-finance/privacy/">Privacybeleid</a>
+      <a class="site-footer__link" href="/nl/apps/6-jars-finance/licenses/">Open-sourcelicenties</a>
+    </nav>
+  </div>
+</footer>
+
+  
+  <script src="/assets/article-toc.js" defer></script>
+
+  
+  <script src="/assets/js/analytics.js" defer></script>
+</body>
+</html>

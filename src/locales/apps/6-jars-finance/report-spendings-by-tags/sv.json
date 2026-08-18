@@ -1,0 +1,341 @@
+{
+  "title": "Så läser du rapporten ”Utgifter per tagg”",
+  "metaDescription": "Rapporten ”Utgifter per tagg” hjälper dig att förstå vad pengar från den valda potten har använts till under en viss period.",
+  "intro": {
+    "paragraphs": [
+      "Rapporten ”Utgifter per tagg” hjälper dig att förstå vad pengar från den valda potten har använts till under en viss period.",
+      "Till skillnad från en vanlig transaktionslista grupperar den utgifter med samma taggar och visar:"
+    ],
+    "items": [
+      "det totala beloppet som har spenderats för varje tagg;",
+      "antalet transaktioner med taggen;",
+      "förhållandet mellan utgifterna för olika taggar."
+    ],
+    "closingParagraphs": [
+      "Med rapporten kan du hitta både de dyraste typerna av utgifter och återkommande småköp som var för sig kan verka obetydliga."
+    ]
+  },
+  "overview": {
+    "title": "Innehåll",
+    "whatItShows": "Vad rapporten visar",
+    "sortByAmount": "Sortering efter belopp",
+    "sortByCount": "Sortering efter antal transaktioner",
+    "progressBars": "Så läser du staplarna",
+    "tagSumMismatch": "Varför summan per tagg kan skilja sig från de totala utgifterna",
+    "compareAmountAndCount": "Så jämför du belopp och antal transaktioner",
+    "conclusions": "Vilka slutsatser du kan dra av rapporten",
+    "compareMonths": "Jämför olika månader",
+    "consistentTags": "Använd taggar konsekvent",
+    "analysisExample": "Exempel på analys av rapporten",
+    "summary": "Det viktigaste"
+  },
+  "whatItShows": {
+    "title": "Vad rapporten visar",
+    "paragraphs": [
+      "Rapporten skapas alltid för en vald pott i taget.",
+      "Om du till exempel väljer potten ”Nödvändigheter” tas bara utgifter från den potten med i rapporten. Transaktioner från andra potter räknas inte med, även om samma taggar används där."
+    ],
+    "metricsIntro": "Två värden visas för varje tagg:",
+    "metrics": [
+      "<strong>belopp</strong> — hur mycket pengar som totalt har spenderats i transaktioner med den här taggen;",
+      "<strong>antal transaktioner</strong> — hur många gånger taggen användes för utgifter under den valda perioden."
+    ],
+    "exampleIntro": "Om taggen ”Matleverans” till exempel användes i fyra transaktioner med ett sammanlagt belopp på 650 visar rapporten:",
+    "exampleItems": [
+      "belopp — 650;",
+      "antal transaktioner — 4."
+    ],
+    "closingParagraphs": [
+      "Dessa värden visar dina utgifter ur olika perspektiv. Ett högt totalbelopp kan bestå av antingen ett stort köp eller många mindre köp."
+    ]
+  },
+  "sortByAmount": {
+    "title": "Sortering efter belopp",
+    "paragraphs": [
+      "När du sorterar efter belopp visas taggarna med de högsta totala utgifterna först.",
+      "Det här läget hjälper dig att svara på frågan:"
+    ],
+    "question": "Vilka typer av utgifter hade störst påverkan på pottens saldo?",
+    "exampleIntro": "En månadsrapport kan till exempel se ut så här:",
+    "table": {
+      "headers": ["Tagg", "Belopp", "Antal"],
+      "rows": [
+        ["Matvaror", "2 400", "12"],
+        ["Hushållsvaror", "750", "3"],
+        ["Matleverans", "650", "4"],
+        ["Kaffe", "480", "16"]
+      ]
+    },
+    "closingParagraphs": [
+      "I det här exemplet stod matvaror för den största delen av utgifterna. Trots att kaffe köptes oftare var dess påverkan på det totala beloppet betydligt mindre."
+    ],
+    "listIntro": "Sortering efter belopp är användbar när du vill:",
+    "items": [
+      "hitta de dyraste typerna av köp;",
+      "se vilka utgifter som påverkade saldot mest;",
+      "välja en tagg för en mer detaljerad analys;",
+      "jämföra utgiftsstrukturen mellan olika perioder."
+    ],
+    "outroParagraphs": [
+      "Ett högt belopp betyder inte i sig att utgiften var onödig. Matvaror kan till exempel ligga högst bara för att de är en stor utgift i den valda potten.",
+      "Rapporten visar vart pengarna tog vägen, men om utgifterna var nödvändiga beror på pottens syfte och din egen situation."
+    ]
+  },
+  "sortByCount": {
+    "title": "Sortering efter antal transaktioner",
+    "paragraphs": [
+      "När du sorterar efter antal transaktioner visas de mest använda taggarna först.",
+      "Det här läget svarar på en annan fråga:"
+    ],
+    "question": "Vilka utgifter återkommer oftast?",
+    "closingParagraphs": [
+      "Många transaktioner innebär inte nödvändigtvis att taggen ligger högst när det gäller belopp. Däremot kan det visa på en återkommande vana.",
+      "I det föregående exemplet köptes kaffe 16 gånger — oftare än någon annan utgift. Det totala beloppet var relativt lågt, så taggen skulle ligga längre ner vid sortering efter belopp."
+    ],
+    "listIntro": "Sortering efter antal transaktioner hjälper dig att hitta:",
+    "items": [
+      "köp som återkommer ofta;",
+      "utgifter som har blivit en vana;",
+      "många små transaktioner;",
+      "områden där det kan vara mer effektivt att minska hur ofta du köper något än att minska beloppet för varje enskilt köp."
+    ],
+    "outroParagraphs": [
+      "Ett köp på 500 märks till exempel mer än tio köp på 50. Men de totala utgifterna är desamma i båda fallen. Sortering efter antal transaktioner gör det andra mönstret lättare att upptäcka."
+    ]
+  },
+  "progressBars": {
+    "title": "Så läser du staplarna",
+    "paragraphs": [
+      "Bredvid varje tagg visas en stapel som gör det enkelt att visuellt jämföra utgiftsbeloppen.",
+      "Taggen med det högsta utgiftsbeloppet under den valda perioden räknas som 100 %. De andra staplarna beräknas i förhållande till den."
+    ],
+    "exampleIntro": "Till exempel:",
+    "exampleItems": [
+      "”Matvaror” — 2 000;",
+      "”Matleverans” — 1 000;",
+      "”Kaffe” — 500."
+    ],
+    "resultIntro": "I det här fallet:",
+    "resultItems": [
+      "är stapeln för ”Matvaror” helt fylld;",
+      "”Matleverans” ungefär halvfull;",
+      "”Kaffe” ungefär en fjärdedel fylld."
+    ],
+    "closingParagraphs": [
+      "Stapeln visar inte taggens andel av alla utgifter. En helt fylld stapel betyder inte att 100 % av dina utgifter gick till den taggen. Det betyder bara att den har det högsta beloppet i den aktuella rapporten.",
+      "Visualiseringen baseras alltid på beloppet, även när listan är sorterad efter antal transaktioner.",
+      "När du ändrar sorteringen kan taggarnas ordning därför ändras, men staplarnas längd fortsätter att motsvara utgiftsbeloppen."
+    ]
+  },
+  "tagSumMismatch": {
+    "title": "Varför summan per tagg kan skilja sig från de totala utgifterna",
+    "paragraphs": [
+      "En transaktion kan ha flera taggar. I så fall räknas hela transaktionsbeloppet separat för varje vald tagg."
+    ],
+    "exampleIntro": "Anta till exempel att du spenderar 300 och lägger till två taggar på transaktionen:",
+    "exampleTags": [
+      "”Matvaror”;",
+      "”Gäster”."
+    ],
+    "reportIntro": "I rapporten lägger den här transaktionen till:",
+    "reportItems": [
+      "300 till taggen ”Matvaror”;",
+      "300 till taggen ”Gäster”."
+    ],
+    "closingParagraphs": [
+      "I verkligheten drogs bara 300 från potten, men summan av värdena för de två taggarna blir 600.",
+      "Det är varken en dubbel debitering eller ett beräkningsfel. Taggar används i appen som egenskaper hos en transaktion, inte som delar som beloppet fördelas mellan."
+    ],
+    "questionsIntro": "Ett enda köp kan samtidigt svara på flera frågor:",
+    "questions": [
+      "<strong>vad köptes?</strong> — matvaror;",
+      "<strong>vad var det till?</strong> — gäster;",
+      "<strong>var?</strong> — på marknaden;",
+      "<strong>var köpet planerat?</strong> — oplanerat."
+    ],
+    "outroParagraphs": [
+      "Varje tagg gör det möjligt att se samma transaktion ur ett annat perspektiv.",
+      "Därför bör du inte summera alla rader i rapporten för att beräkna dina totala utgifter."
+    ],
+    "fundsMovementLinkPrefix": "Det faktiska beloppet som spenderades under perioden ser du bäst i rapporten ",
+    "fundsMovementLinkText": "”Pengaflöde”",
+    "fundsMovementLinkSuffix": "."
+  },
+  "compareAmountAndCount": {
+    "title": "Så jämför du belopp och antal transaktioner",
+    "lead": "De mest användbara insikterna får du ofta genom att titta på båda värdena samtidigt.",
+    "highAmountHighCount": {
+      "title": "Högt belopp och många transaktioner",
+      "paragraphs": [
+        "Utgiften är både stor och återkommande.",
+        "Matvaror kan till exempel köpas flera gånger i veckan och stå för en betydande del av pottens utgifter.",
+        "Det behöver inte innebära ett problem, men visar att förändringar inom det här området skulle ha störst påverkan på det totala saldot."
+      ]
+    },
+    "highAmountLowCount": {
+      "title": "Högt belopp och få transaktioner",
+      "paragraphs": [
+        "Större delen av beloppet kommer från ett eller några få stora köp.",
+        "Taggen ”Reparationer” kan till exempel ha använts bara två gånger men ändå ligga högst när det gäller belopp.",
+        "I en sådan situation är det bra att kontrollera om det var engångsutgifter. Om så är fallet säger en enda månad inte så mycket om ditt normala utgiftsmönster."
+      ]
+    },
+    "lowAmountHighCount": {
+      "title": "Lågt belopp och många transaktioner",
+      "paragraphs": [
+        "Utgiften återkommer ofta, men varje enskild transaktion är relativt liten.",
+        "Kaffe, snacks, resor eller småköp på vägen hem kan se ut så här.",
+        "Den här typen av utgifter är lätta att missa eftersom varje enskild transaktion verkar obetydlig. Rapporten gör deras totala frekvens och påverkan på budgeten tydligare."
+      ]
+    },
+    "lowAmountLowCount": {
+      "title": "Lågt belopp och få transaktioner",
+      "paragraphs": [
+        "Utgiften var ovanlig och hade liten påverkan på helhetsbilden.",
+        "Sådana taggar kräver vanligtvis ingen särskild uppmärksamhet, om du inte använder dem för att följa en specifik vana eller ett särskilt mål."
+      ]
+    }
+  },
+  "conclusions": {
+    "title": "Vilka slutsatser du kan dra av rapporten",
+    "topSpending": {
+      "title": "Vad du spenderar mest pengar på",
+      "paragraphs": [
+        "Sortering efter belopp visar vilka typer av utgifter som hade störst påverkan på saldot i den valda potten under månaden.",
+        "Om en tagg ligger tydligt högre än de andra bör du först fundera på om det stämmer med pottens syfte. Höga utgifter för matvaror kan till exempel vara helt väntade i potten ”Nödvändigheter”, medan ett högt belopp för ”Matleverans” kan vara en anledning att kontrollera om leveranserna har blivit för frekventa eller för dyra."
+      ],
+      "compareIntro": "Jämför beloppet med antalet transaktioner:",
+      "compareItems": [
+        "ett högt belopp med få transaktioner innebär vanligtvis några större köp;",
+        "ett högt belopp med många transaktioner tyder på återkommande utgifter som gradvis har byggts upp under månaden."
+      ],
+      "closingParagraphs": [
+        "Det hjälper dig att förstå vad du faktiskt kan förändra. I det första fallet kan du kontrollera om det stora köpet var en engångshändelse och planerat. I det andra kan du fundera på om det går att minska den genomsnittliga kostnaden per köp eller göra sådana köp mer sällan.",
+        "Ett högt belopp betyder inte i sig att du har spenderat för mycket. Det visar vilka typer av utgifter som påverkar potten mest och var en förändring skulle ge störst effekt."
+      ]
+    },
+    "mostFrequent": {
+      "title": "Vilka köp som sker oftast",
+      "paragraphs": [
+        "Sortering efter antal transaktioner kan synliggöra vanor som inte alltid märks när man bara tittar på totalbeloppet.",
+        "Enstaka matleveranser kan till exempel kosta mer än kaffe under en månad, men dagliga kaffeköp kommer ändå att ligga högre i antal transaktioner.",
+        "Beroende på ditt mål kan det vara mer användbart att analysera antingen kostnaden för en vana eller hur ofta den förekommer."
+      ]
+    },
+    "largeOrSmall": {
+      "title": "Om utgifterna består av stora eller små transaktioner",
+      "paragraphs": [
+        "Beloppet och antalet transaktioner ger tillsammans en ungefärlig bild av hur utgifterna är uppbyggda."
+      ],
+      "exampleIntro": "Till exempel:",
+      "exampleItems": [
+        "1 200 fördelat på 2 transaktioner — sannolikt några större köp;",
+        "1 200 fördelat på 24 transaktioner — många små köp."
+      ],
+      "closingParagraphs": [
+        "För en mer detaljerad analys kan du öppna informationen för en viss tagg. Där ser du totalbeloppet, antalet transaktioner, den genomsnittliga utgiften och hur utgifterna är fördelade över månadens dagar."
+      ]
+    },
+    "worthStudying": {
+      "title": "Vilka utgifter som kan vara värda att granska närmare",
+      "listIntro": "Taggar som kan vara värda extra uppmärksamhet är sådana som:",
+      "items": [
+        "ligger högt i listan efter belopp;",
+        "används märkbart oftare än andra;",
+        "har ökat oväntat jämfört med den vanliga nivån;",
+        "har både ett högt belopp och många transaktioner;",
+        "beskriver valfria eller oplanerade köp."
+      ],
+      "closingParagraphs": [
+        "Rapporten avgör inte vilka utgifter som är rätt eller fel. Den hjälper dig att hitta områden som kan vara värda att undersöka närmare."
+      ]
+    }
+  },
+  "compareMonths": {
+    "title": "Jämför olika månader",
+    "paragraphs": [
+      "Jämför rapporter från flera månader för att upptäcka förändringar i dina utgifter.",
+      "Titta inte bara på beloppet utan även på antalet transaktioner. En ökning av utgifterna för en tagg kan ha flera olika orsaker:"
+    ],
+    "reasons": [
+      "köpen har börjat ske oftare;",
+      "den genomsnittliga kostnaden per köp har ökat;",
+      "det fanns en stor transaktion under månaden;",
+      "du har börjat använda taggen mer konsekvent."
+    ],
+    "eventsIntro": "Ta också hänsyn till händelser som tillfälligt kan ha påverkat dina utgifter:",
+    "events": [
+      "högtider;",
+      "semester;",
+      "en flytt;",
+      "ett större köp;",
+      "besök av gäster;",
+      "en tillfällig förändring i livsstilen."
+    ],
+    "closingParagraphs": [
+      "En ökning under en enskild månad betyder inte automatiskt att en ny vana har uppstått. Det är mer användbart att se om förändringen fortsätter under de följande månaderna."
+    ]
+  },
+  "consistentTags": {
+    "title": "Använd taggar konsekvent",
+    "paragraphs": [
+      "Rapportens kvalitet beror på hur konsekvent du använder taggar.",
+      "Om du lägger till en tagg på vissa liknande köp men lämnar andra utan den visar rapporten bara en del av de faktiska utgifterna.",
+      "Om du till exempel vill följa matleveranser bör du lägga till motsvarande tagg på varje sådan transaktion. Annars blir både beloppet och antalet transaktioner lägre än de faktiskt är.",
+      "Det är bra att i förväg bestämma vad varje tagg ska betyda."
+    ],
+    "examplesIntro": "Till exempel:",
+    "examples": [
+      "”Caféer och restauranger” — alla köp på serveringsställen;",
+      "”Matleverans” — endast beställningar som levereras hem;",
+      "”Snacks” — små oplanerade matköp utanför hemmet."
+    ],
+    "closingParagraphs": [
+      "Ju tydligare regler du har för hur taggar används, desto lättare blir det att jämföra data mellan olika perioder.",
+      "Du behöver inte lägga till taggar på varje transaktion. Använd dem där du faktiskt vill följa en viss typ av utgift, en vana eller sammanhanget kring ett köp."
+    ]
+  },
+  "analysisExample": {
+    "title": "Exempel på analys av rapporten",
+    "intro": "Anta att potten ”Nöjen” visar följande data för en månad:",
+    "table": {
+      "headers": ["Tagg", "Belopp", "Antal"],
+      "rows": [
+        ["Träffa vänner", "1 800", "4"],
+        ["Matleverans", "1 400", "7"],
+        ["Spel", "1 000", "1"],
+        ["Kaffe", "800", "16"]
+      ]
+    },
+    "closingParagraphs": [
+      "När rapporten sorteras efter belopp ser du att mest pengar gick till att träffa vänner.",
+      "Sortering efter antal transaktioner visar däremot en annan bild: köp med taggen ”Kaffe” förekom oftast."
+    ],
+    "conclusionsIntro": "Du kan dra flera olika slutsatser av rapporten:",
+    "conclusions": [
+      "att träffa vänner var den största utgiftskategorin;",
+      "köpet av ett spel var stort men skedde bara en gång;",
+      "matleveranser förekom regelbundet och låg på andra plats efter belopp;",
+      "kaffe köptes oftast, även om totalbeloppet var lägre."
+    ],
+    "outroParagraphs": [
+      "Det finns inte en enda ”dålig” utgift här. Vilken slutsats som är viktig beror på vad du vill förstå.",
+      "Om du snabbt vill minska dina utgifter är det enklast att börja med de största kategorierna. Om du vill förändra en vardagsvana kan det vara mer användbart att titta på återkommande transaktioner."
+    ]
+  },
+  "summary": {
+    "title": "Det viktigaste",
+    "paragraphs": [
+      "Rapporten ”Utgifter per tagg” visar dina utgifter ur två perspektiv:"
+    ],
+    "items": [
+      "<strong>belopp</strong> visar den ekonomiska påverkan;",
+      "<strong>antal transaktioner</strong> visar hur ofta utgiften förekommer."
+    ],
+    "closingParagraphs": [
+      "Sortering efter belopp hjälper dig att hitta de dyraste typerna av köp, medan sortering efter antal transaktioner lyfter fram de mest återkommande.",
+      "Om en transaktion har flera taggar kan summan av alla taggvärden bli högre än de faktiska utgifterna, eftersom hela transaktionsbeloppet räknas separat för varje tagg. Det gör det möjligt att analysera samma köp ur flera perspektiv, men innebär också att du inte bör summera alla rader i rapporten för att beräkna dina totala utgifter.",
+      "Använd rapporten inte för att automatiskt hitta ”onödiga” köp, utan för att identifiera utgiftsområden som kan vara värda att granska närmare."
+    ]
+  }
+}

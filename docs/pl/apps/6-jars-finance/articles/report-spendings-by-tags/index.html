@@ -1,0 +1,1081 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jak czytać raport „Wydatki według tagów”</title>
+  <meta name="description" content="Raport „Wydatki według tagów” pomaga zrozumieć, na co zostały wydane pieniądze z wybranego słoika w określonym okresie." />
+  
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  
+  <link rel="stylesheet" href="/assets/style.css" />
+</head>
+<body>
+  <header class="site-header">
+  <div class="container site-header__inner">
+    <a class="site-header__brand" href="/">Artem D Apps</a>
+    <div class="site-header__aside">
+      
+      
+      <nav class="site-header__nav" aria-label="Nawigacja strony">
+        <a
+          class="site-header__link"
+          href="/pl/apps/6-jars-finance/download/"
+          data-analytics-link="download"
+          data-analytics-placement="header"
+          
+        >Pobierz aplikację</a>
+        <a
+          class="site-header__link"
+          href="/pl/apps/6-jars-finance/articles/guide/"
+          
+        >Metoda sześciu słoików</a>
+      </nav>
+      
+        
+
+<nav class="lang-switch" aria-label="Język">
+  <label class="lang-switch__desktop">
+    <span class="lang-switch__visually-hidden">Język</span>
+    <select class="lang-switch__select" data-lang-switch-select>
+      
+        <option
+          value="/en/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >English</option>
+      
+        <option
+          value="/id/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >Bahasa Indonesia</option>
+      
+        <option
+          value="/cs/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >Čeština</option>
+      
+        <option
+          value="/de/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >Deutsch</option>
+      
+        <option
+          value="/es/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >Español</option>
+      
+        <option
+          value="/fr/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >Français</option>
+      
+        <option
+          value="/it/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >Italiano</option>
+      
+        <option
+          value="/nl/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >Nederlands</option>
+      
+        <option
+          value="/pl/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          selected
+        >Polski</option>
+      
+        <option
+          value="/pt-BR/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >Português (Brasil)</option>
+      
+        <option
+          value="/ro/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >Română</option>
+      
+        <option
+          value="/ru/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >Русский</option>
+      
+        <option
+          value="/sv/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >Svenska</option>
+      
+        <option
+          value="/tr/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >Türkçe</option>
+      
+        <option
+          value="/uk/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >Українська</option>
+      
+    </select>
+  </label>
+
+  <button
+    type="button"
+    class="lang-switch__trigger"
+    data-open-lang-switch-modal
+    aria-haspopup="dialog"
+    aria-expanded="false"
+    aria-controls="lang-switch-modal"
+  >
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        <span class="lang-switch__code">
+  PL
+</span>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    <span class="lang-switch__arrow" aria-hidden="true">▾</span>
+  </button>
+
+  <div
+    class="modal-overlay lang-switch__modal-overlay"
+    id="lang-switch-modal"
+    hidden
+    aria-hidden="true"
+    data-lang-switch-modal
+  >
+    <div
+      class="modal lang-switch__modal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="lang-switch-modal-title"
+    >
+      <h2 class="modal__title" id="lang-switch-modal-title">Język</h2>
+      <fieldset class="lang-switch__mobile" aria-label="Język">
+        <div class="lang-switch__radio-list">
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/en/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">English</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/id/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Bahasa Indonesia</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/cs/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Čeština</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/de/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Deutsch</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/es/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Español</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/fr/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Français</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/it/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Italiano</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/nl/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Nederlands</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/pl/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                checked
+              />
+              <span class="lang-switch__radio-text">Polski</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/pt-BR/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Português (Brasil)</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/ro/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Română</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/ru/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Русский</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/sv/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Svenska</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/tr/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Türkçe</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/uk/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Українська</span>
+            </label>
+          
+        </div>
+      </fieldset>
+    </div>
+  </div>
+
+  <script src="/assets/js/lang-switch.js" defer></script>
+</nav>
+
+      
+    </div>
+  </div>
+</header>
+
+
+  <main class="article">
+    <div class="container">
+      <div class="article-layout">
+  <div class="article-container">
+    
+
+
+
+
+
+
+
+
+
+<h1>Jak czytać raport „Wydatki według tagów”</h1>
+
+
+<p>Raport „Wydatki według tagów” pomaga zrozumieć, na co zostały wydane pieniądze z wybranego słoika w określonym okresie.</p>
+
+<p>W przeciwieństwie do zwykłej listy transakcji grupuje wydatki z tymi samymi tagami i pokazuje:</p>
+
+
+
+<ul>
+  
+  <li>łączną kwotę wydatków dla każdego tagu;</li>
+  
+  <li>liczbę transakcji z danym tagiem;</li>
+  
+  <li>porównanie wielkości wydatków między różnymi tagami.</li>
+  
+</ul>
+
+
+
+<p>Raport pozwala znaleźć nie tylko najdroższe rodzaje wydatków, ale także częste drobne zakupy, które pojedynczo mogą wydawać się nieistotne.</p>
+
+
+
+<nav class="article-overview" aria-labelledby="article-overview-title">
+  <h2 id="article-overview-title">Spis treści</h2>
+  <ol>
+    <li><a href="#what-it-shows">Co pokazuje raport</a></li>
+    <li><a href="#sort-by-amount">Sortowanie według kwoty</a></li>
+    <li><a href="#sort-by-count">Sortowanie według liczby transakcji</a></li>
+    <li><a href="#progress-bars">Jak czytać paski</a></li>
+    <li><a href="#tag-sum-mismatch">Dlaczego suma według tagów może różnić się od łącznych wydatków</a></li>
+    <li><a href="#compare-amount-and-count">Jak porównywać kwotę i liczbę transakcji</a></li>
+    <li><a href="#conclusions">Jakie wnioski można wyciągnąć z raportu</a></li>
+    <li><a href="#compare-months">Porównuj różne miesiące</a></li>
+    <li><a href="#consistent-tags">Używaj tagów konsekwentnie</a></li>
+    <li><a href="#analysis-example">Przykład analizy raportu</a></li>
+    <li><a href="#summary">Najważniejsze</a></li>
+  </ol>
+</nav>
+
+<div class="article-section">
+<h2 id="what-it-shows">Co pokazuje raport</h2>
+
+
+<p>Raport jest tworzony tylko dla jednego wybranego słoika.</p>
+
+<p>Na przykład po wybraniu słoika „Potrzeby” raport uwzględni tylko wydatki z tego słoika. Transakcje z innych słoików nie będą brane pod uwagę, nawet jeśli użyto w nich tych samych tagów.</p>
+
+
+<p>Dla każdego tagu wyświetlane są dwie wartości:</p>
+
+<ul>
+  
+  <li><strong>kwota</strong> — ile łącznie wydano w transakcjach z tym tagiem;</li>
+  
+  <li><strong>liczba transakcji</strong> — ile razy tag został użyty w wydatkach w wybranym okresie.</li>
+  
+</ul>
+
+<p>Na przykład jeśli tag „Dostawa jedzenia” został użyty w czterech transakcjach na łączną kwotę 650, raport pokaże:</p>
+
+<ul>
+  
+  <li>kwotę — 650;</li>
+  
+  <li>liczbę transakcji — 4.</li>
+  
+</ul>
+
+
+
+<p>Te wartości pokazują wydatki z różnych perspektyw. Duża suma może wynikać zarówno z jednego dużego zakupu, jak i z wielu mniejszych.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="sort-by-amount">Sortowanie według kwoty</h2>
+
+
+<p>Po posortowaniu według kwoty na początku pojawiają się tagi, na które wydano najwięcej pieniędzy.</p>
+
+<p>Ten tryb pomaga odpowiedzieć na pytanie:</p>
+
+
+<blockquote><p>Które rodzaje wydatków miały największy wpływ na saldo słoika?</p></blockquote>
+<p>Na przykład miesięczny raport może wyglądać tak:</p>
+
+<table>
+  <thead>
+    <tr>
+      
+      <th>Tag</th>
+      
+      <th>Kwota</th>
+      
+      <th>Liczba</th>
+      
+    </tr>
+  </thead>
+  <tbody>
+    
+    <tr>
+      
+      <td>Artykuły spożywcze</td>
+      
+      <td>2 400</td>
+      
+      <td>12</td>
+      
+    </tr>
+    
+    <tr>
+      
+      <td>Chemia gospodarcza</td>
+      
+      <td>750</td>
+      
+      <td>3</td>
+      
+    </tr>
+    
+    <tr>
+      
+      <td>Dostawa jedzenia</td>
+      
+      <td>650</td>
+      
+      <td>4</td>
+      
+    </tr>
+    
+    <tr>
+      
+      <td>Kawa</td>
+      
+      <td>480</td>
+      
+      <td>16</td>
+      
+    </tr>
+    
+  </tbody>
+</table>
+
+
+
+<p>W tym przykładzie największa część wydatków przypadła na artykuły spożywcze. Mimo że kawa była kupowana częściej, jej wpływ na łączną kwotę był znacznie mniejszy.</p>
+
+
+<p>Sortowanie według kwoty jest przydatne, aby:</p>
+
+<ul>
+  
+  <li>znaleźć najdroższe rodzaje zakupów;</li>
+  
+  <li>zobaczyć, które wydatki najmocniej wpłynęły na saldo;</li>
+  
+  <li>wybrać tag do dokładniejszej analizy;</li>
+  
+  <li>porównać strukturę wydatków w różnych okresach.</li>
+  
+</ul>
+
+
+
+<p>Duża kwota sama w sobie nie oznacza, że wydatek był zbędny. Na przykład artykuły spożywcze mogą zajmować pierwsze miejsce po prostu dlatego, że są główną kategorią wydatków w wybranym słoiku.</p>
+
+<p>Raport pokazuje, na co zostały wydane pieniądze, ale ocenę zasadności tych wydatków należy odnosić do przeznaczenia słoika i własnej sytuacji.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="sort-by-count">Sortowanie według liczby transakcji</h2>
+
+
+<p>Po posortowaniu według liczby transakcji na początku pojawiają się tagi używane najczęściej.</p>
+
+<p>Ten tryb odpowiada na inne pytanie:</p>
+
+
+<blockquote><p>Które wydatki występują najbardziej regularnie?</p></blockquote>
+
+
+<p>Częste transakcje nie muszą zajmować pierwszego miejsca pod względem kwoty. Mogą jednak wskazywać na utrwalony nawyk.</p>
+
+<p>W poprzednim przykładzie kawa była kupowana 16 razy — częściej niż cokolwiek innego. Łączna kwota była stosunkowo mała, dlatego przy sortowaniu według kwoty tag znajdowałby się niżej na liście.</p>
+
+
+<p>Sortowanie według liczby transakcji pomaga znaleźć:</p>
+
+<ul>
+  
+  <li>często powtarzające się zakupy;</li>
+  
+  <li>wydatki, które stały się nawykiem;</li>
+  
+  <li>wiele drobnych transakcji;</li>
+  
+  <li>obszary, w których można ograniczyć nie wartość pojedynczego zakupu, lecz jego częstotliwość.</li>
+  
+</ul>
+
+
+
+<p>Na przykład jeden zakup za 500 jest bardziej zauważalny niż dziesięć zakupów po 50. W obu przypadkach łączna kwota wydatków jest jednak taka sama. Sortowanie według liczby transakcji ułatwia zauważenie drugiego scenariusza.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="progress-bars">Jak czytać paski</h2>
+
+
+<p>Obok każdego tagu znajduje się pasek, który wizualnie porównuje wielkość wydatków.</p>
+
+<p>Tag z najwyższą kwotą wydatków w wybranym okresie jest przyjmowany jako 100%. Pozostałe paski są obliczane względem niego.</p>
+
+
+<p>Na przykład:</p>
+
+<ul>
+  
+  <li>„Artykuły spożywcze” — 2 000;</li>
+  
+  <li>„Dostawa jedzenia” — 1 000;</li>
+  
+  <li>„Kawa” — 500.</li>
+  
+</ul>
+
+<p>W takim przypadku:</p>
+
+<ul>
+  
+  <li>pasek „Artykuły spożywcze” będzie wypełniony całkowicie;</li>
+  
+  <li>„Dostawa jedzenia” — mniej więcej do połowy;</li>
+  
+  <li>„Kawa” — mniej więcej w jednej czwartej.</li>
+  
+</ul>
+
+
+
+<p>Pasek nie pokazuje udziału tagu we wszystkich wydatkach. Całkowicie wypełniony pasek nie oznacza, że na dany tag przypadło 100% wydanych pieniędzy. Oznacza jedynie, że jest to najwyższa kwota wśród tagów w bieżącym raporcie.</p>
+
+<p>Wizualizacja zawsze opiera się na kwocie, nawet gdy lista jest posortowana według liczby transakcji.</p>
+
+<p>Po zmianie sposobu sortowania kolejność tagów może się więc zmienić, ale długość pasków nadal będzie odpowiadała kwotom wydatków.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="tag-sum-mismatch">Dlaczego suma według tagów może różnić się od łącznych wydatków</h2>
+
+
+<p>Do jednej transakcji można przypisać kilka tagów. W takim przypadku pełna kwota transakcji jest liczona osobno dla każdego z wybranych tagów.</p>
+
+
+<p>Na przykład wydajesz 300 i dodajesz do transakcji dwa tagi:</p>
+
+<ul>
+  
+  <li>„Artykuły spożywcze”;</li>
+  
+  <li>„Goście”.</li>
+  
+</ul>
+
+<p>W raporcie ta transakcja doda:</p>
+
+<ul>
+  
+  <li>300 do tagu „Artykuły spożywcze”;</li>
+  
+  <li>300 do tagu „Goście”.</li>
+  
+</ul>
+
+
+
+<p>Ze słoika faktycznie odjęto tylko 300, ale suma wartości obu tagów wyniesie 600.</p>
+
+<p>Nie jest to podwójne obciążenie ani błąd obliczeń. Tagi w aplikacji są cechami transakcji, a nie częściami, na które dzielona jest jej kwota.</p>
+
+
+<p>Jeden zakup może jednocześnie odpowiadać na kilka pytań:</p>
+
+<ul>
+  
+  <li><strong>co zostało kupione?</strong> — artykuły spożywcze;</li>
+  
+  <li><strong>dla kogo lub po co?</strong> — dla gości;</li>
+  
+  <li><strong>gdzie?</strong> — na targu;</li>
+  
+  <li><strong>czy zakup był zaplanowany?</strong> — niezaplanowany.</li>
+  
+</ul>
+
+
+
+<p>Każdy tag pozwala spojrzeć na tę samą transakcję z innej perspektywy.</p>
+
+<p>Dlatego nie należy sumować wszystkich wierszy raportu, aby obliczyć łączne wydatki.</p>
+
+
+<p>Rzeczywistą kwotę wydatków w danym okresie najlepiej sprawdzać w raporcie <a href="/pl/apps/6-jars-finance/articles/report-funds-movement/">„Przepływ środków”</a>.</p>
+</div>
+
+<div class="article-section">
+<h2 id="compare-amount-and-count">Jak porównywać kwotę i liczbę transakcji</h2>
+<p>Najbardziej przydatne wnioski można wyciągnąć, analizując oba wskaźniki jednocześnie.</p>
+<div class="article-subsection">
+<h3>Duża kwota i duża liczba transakcji</h3>
+
+
+<p>Wydatek jest jednocześnie duży i regularny.</p>
+
+<p>Na przykład artykuły spożywcze mogą być kupowane kilka razy w tygodniu i stanowić znaczną część wydatków ze słoika.</p>
+
+<p>Taki wynik nie musi oznaczać problemu, ale pokazuje, że zmiany w tej kategorii będą miały największy wpływ na ogólne saldo.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Duża kwota i mała liczba transakcji</h3>
+
+
+<p>Większość kwoty wynika z jednego lub kilku dużych zakupów.</p>
+
+<p>Na przykład tag „Remont” może zostać użyty tylko dwa razy, a mimo to zajmować pierwsze miejsce pod względem kwoty.</p>
+
+<p>W takiej sytuacji warto sprawdzić, czy były to wydatki jednorazowe. Jeśli tak, jeden miesiąc nie powinien być podstawą do oceny typowej struktury wydatków.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Mała kwota i duża liczba transakcji</h3>
+
+
+<p>Wydatek występuje często, ale pojedyncze transakcje są stosunkowo niewielkie.</p>
+
+<p>Tak mogą wyglądać kawa, przekąski, przejazdy lub drobne zakupy po drodze do domu.</p>
+
+<p>Takie wydatki łatwo przeoczyć, ponieważ każda pojedyncza transakcja wydaje się nieistotna. Raport pozwala zobaczyć ich częstotliwość i łączny wpływ na budżet.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Mała kwota i mała liczba transakcji</h3>
+
+
+<p>Wydatek był rzadki i miał niewielki wpływ na ogólny obraz.</p>
+
+<p>Takie tagi zwykle nie wymagają szczególnej uwagi, chyba że śledzisz konkretny nawyk lub cel.</p>
+
+
+</div>
+</div>
+
+<div class="article-section">
+<h2 id="conclusions">Jakie wnioski można wyciągnąć z raportu</h2>
+<div class="article-subsection">
+<h3>Na co wydajesz najwięcej pieniędzy</h3>
+
+
+<p>Sortowanie według kwoty pokazuje, które rodzaje wydatków najmocniej wpłynęły na saldo wybranego słoika w danym miesiącu.</p>
+
+<p>Jeśli jeden tag wyraźnie wyprzedza pozostałe, najpierw oceń, czy odpowiada to przeznaczeniu słoika. Na przykład wysokie wydatki na artykuły spożywcze mogą być czymś oczekiwanym w słoiku „Potrzeby”, natomiast duża kwota pod tagiem „Dostawa jedzenia” może być sygnałem, by sprawdzić, czy dostawy nie stały się zbyt częste lub zbyt drogie.</p>
+
+
+<p>Porównaj kwotę z liczbą transakcji:</p>
+
+<ul>
+  
+  <li>duża kwota przy małej liczbie transakcji zwykle oznacza kilka dużych zakupów;</li>
+  
+  <li>duża kwota przy dużej liczbie transakcji wskazuje na regularne wydatki, które stopniowo narastały w ciągu miesiąca.</li>
+  
+</ul>
+
+
+
+<p>Pomaga to zrozumieć, co faktycznie można zmienić. W pierwszym przypadku sprawdź, czy duży zakup był jednorazowy i zaplanowany. W drugim zastanów się, czy można zmniejszyć średni koszt pojedynczego zakupu albo robić takie zakupy rzadziej.</p>
+
+<p>Duża kwota sama w sobie nie oznacza nadmiernych wydatków. Pokazuje jedynie, które rodzaje wydatków mają największy wpływ na słoik i gdzie zmiana przyniosłaby najbardziej zauważalny efekt.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Które zakupy zdarzają się najczęściej</h3>
+
+
+<p>Sortowanie według liczby transakcji pozwala zauważyć nawyki, które nie zawsze są widoczne na podstawie samej kwoty.</p>
+
+<p>Na przykład sporadyczna dostawa jedzenia może kosztować więcej niż kawa w skali miesiąca, ale to codzienna kawa będzie zajmować pierwsze miejsce pod względem liczby transakcji.</p>
+
+<p>W zależności od celu warto analizować albo koszt nawyku, albo jego częstotliwość.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Czy wydatki składają się z dużych czy małych transakcji</h3>
+
+
+<p>Kwota i liczba transakcji pozwalają w przybliżeniu ocenić charakter wydatków.</p>
+
+
+<p>Na przykład:</p>
+
+<ul>
+  
+  <li>1 200 w 2 transakcjach — prawdopodobnie kilka dużych zakupów;</li>
+  
+  <li>1 200 w 24 transakcjach — wiele drobnych zakupów.</li>
+  
+</ul>
+
+
+
+<p>Aby przeanalizować wydatki dokładniej, można otworzyć szczegóły wybranego tagu. Zobaczysz tam łączną kwotę, liczbę transakcji, średnią wartość wydatku oraz rozkład wydatków według dni miesiąca.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Które wydatki warto przeanalizować dokładniej</h3>
+<p>Dodatkowej uwagi mogą wymagać tagi, które:</p>
+
+<ul>
+  
+  <li>znajdują się wysoko na liście pod względem kwoty;</li>
+  
+  <li>są używane wyraźnie częściej niż pozostałe;</li>
+  
+  <li>niespodziewanie wzrosły w porównaniu z typowym poziomem;</li>
+  
+  <li>mają jednocześnie wysoką kwotę i dużą liczbę transakcji;</li>
+  
+  <li>oznaczają zakupy opcjonalne lub niezaplanowane.</li>
+  
+</ul>
+
+
+
+<p>Sam raport nie określa, które wydatki są dobre lub złe. Pomaga znaleźć obszary, którym warto przyjrzeć się dokładniej.</p>
+
+
+</div>
+</div>
+
+<div class="article-section">
+<h2 id="compare-months">Porównuj różne miesiące</h2>
+
+
+<p>Aby zauważyć zmiany w wydatkach, porównuj raporty z kilku miesięcy.</p>
+
+<p>Podczas porównywania zwracaj uwagę nie tylko na kwotę, ale również na liczbę transakcji. Wzrost wydatków pod danym tagiem może mieć różne przyczyny:</p>
+
+
+
+<ul>
+  
+  <li>zakupy zaczęły zdarzać się częściej;</li>
+  
+  <li>wzrosła średnia wartość pojedynczego zakupu;</li>
+  
+  <li>w ciągu miesiąca wystąpiła jedna duża transakcja;</li>
+  
+  <li>tag zaczął być używany bardziej konsekwentnie.</li>
+  
+</ul>
+
+<p>Uwzględniaj także wydarzenia, które mogły tymczasowo wpłynąć na wydatki:</p>
+
+<ul>
+  
+  <li>święta;</li>
+  
+  <li>urlop;</li>
+  
+  <li>przeprowadzkę;</li>
+  
+  <li>duży zakup;</li>
+  
+  <li>wizytę gości;</li>
+  
+  <li>tymczasową zmianę stylu życia.</li>
+  
+</ul>
+
+
+
+<p>Wzrost wydatków w jednym miesiącu nie zawsze oznacza powstanie nowego nawyku. Bardziej użyteczne jest sprawdzenie, czy zmiana utrzymuje się w kolejnych miesiącach.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="consistent-tags">Używaj tagów konsekwentnie</h2>
+
+
+<p>Jakość raportu zależy od tego, jak konsekwentnie używasz tagów.</p>
+
+<p>Jeśli część podobnych zakupów oznaczysz tagiem, a część pozostawisz bez niego, raport pokaże tylko fragment rzeczywistych wydatków.</p>
+
+<p>Na przykład jeśli chcesz śledzić dostawę jedzenia, dodawaj odpowiedni tag do każdej takiej transakcji. W przeciwnym razie zarówno kwota, jak i liczba transakcji będą zaniżone.</p>
+
+<p>Warto wcześniej ustalić, co dokładnie oznacza każdy tag.</p>
+
+
+<p>Na przykład:</p>
+
+<ul>
+  
+  <li>„Kawiarnie i restauracje” — wszystkie zakupy w lokalach;</li>
+  
+  <li>„Dostawa jedzenia” — wyłącznie zamówienia do domu;</li>
+  
+  <li>„Przekąski” — drobne, niezaplanowane zakupy jedzenia poza domem.</li>
+  
+</ul>
+
+
+
+<p>Im bardziej przejrzyste są zasady używania tagów, tym łatwiej porównywać dane z różnych okresów.</p>
+
+<p>Nie musisz oznaczać tagami każdej transakcji. Używaj ich tam, gdzie rzeczywiście chcesz śledzić konkretny rodzaj wydatku, nawyk lub kontekst zakupu.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="analysis-example">Przykład analizy raportu</h2>
+<p>Załóżmy, że w słoiku „Rozrywka” raport za miesiąc pokazuje następujące dane:</p>
+
+<table>
+  <thead>
+    <tr>
+      
+      <th>Tag</th>
+      
+      <th>Kwota</th>
+      
+      <th>Liczba</th>
+      
+    </tr>
+  </thead>
+  <tbody>
+    
+    <tr>
+      
+      <td>Spotkania ze znajomymi</td>
+      
+      <td>1 800</td>
+      
+      <td>4</td>
+      
+    </tr>
+    
+    <tr>
+      
+      <td>Dostawa jedzenia</td>
+      
+      <td>1 400</td>
+      
+      <td>7</td>
+      
+    </tr>
+    
+    <tr>
+      
+      <td>Gry</td>
+      
+      <td>1 000</td>
+      
+      <td>1</td>
+      
+    </tr>
+    
+    <tr>
+      
+      <td>Kawa</td>
+      
+      <td>800</td>
+      
+      <td>16</td>
+      
+    </tr>
+    
+  </tbody>
+</table>
+
+
+
+<p>Po posortowaniu według kwoty widać, że najwięcej pieniędzy przeznaczono na spotkania ze znajomymi.</p>
+
+<p>Sortowanie według liczby transakcji pokazuje jednak inny obraz: najczęściej występowały zakupy oznaczone tagiem „Kawa”.</p>
+
+
+<p>Z raportu można wyciągnąć kilka różnych wniosków:</p>
+
+<ul>
+  
+  <li>spotkania ze znajomymi były największą kategorią wydatków;</li>
+  
+  <li>zakup gry był duży, ale jednorazowy;</li>
+  
+  <li>dostawa jedzenia występowała regularnie i zajęła drugie miejsce pod względem kwoty;</li>
+  
+  <li>kawa była kupowana najczęściej, mimo że łączna kwota była niższa.</li>
+  
+</ul>
+
+
+
+<p>Nie ma tutaj jednego „złego” wydatku. Wniosek zależy od celu analizy.</p>
+
+<p>Jeśli chcesz szybko ograniczyć wydatki, najłatwiej zacząć od największych kategorii. Jeśli chcesz zmienić codzienny nawyk, bardziej przydatne może być przyjrzenie się częstym transakcjom.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="summary">Najważniejsze</h2>
+
+
+<p>Raport „Wydatki według tagów” pokazuje wydatki z dwóch perspektyw:</p>
+
+
+
+<ul>
+  
+  <li><strong>kwota</strong> pokazuje wpływ finansowy;</li>
+  
+  <li><strong>liczba transakcji</strong> pokazuje częstotliwość.</li>
+  
+</ul>
+
+
+
+<p>Sortowanie według kwoty pomaga znaleźć najdroższe rodzaje zakupów, a sortowanie według liczby transakcji — te najbardziej regularne.</p>
+
+<p>Jeśli transakcja ma kilka tagów, suma wszystkich wartości może przekraczać rzeczywiste wydatki, ponieważ pełna kwota transakcji jest liczona osobno dla każdego tagu. Pozwala to analizować ten sam zakup z kilku perspektyw, ale oznacza również, że nie należy sumować wszystkich wierszy raportu w celu obliczenia łącznych wydatków.</p>
+
+<p>Używaj raportu nie do automatycznego wyszukiwania „zbędnych” zakupów, lecz do znajdowania obszarów wydatków, którym warto przyjrzeć się dokładniej.</p>
+
+
+</div>
+
+  </div>
+  <aside class="article-toc" aria-label="Nawigacja po stronie">
+    <nav class="article-toc__nav">
+      <p class="article-toc__title">Na tej stronie</p>
+      <ol class="article-toc__list"></ol>
+    </nav>
+  </aside>
+</div>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+  <div class="container site-footer__inner">
+    <p class="site-footer__copyright">© 2026 Artem D Apps</p>
+    <nav class="site-footer__nav" aria-label="Informacje o stronie">
+      <a class="site-footer__link" href="/pl/apps/6-jars-finance/help/">Informacje o błędzie</a>
+      <a class="site-footer__link" href="/pl/apps/6-jars-finance/articles/report-funds-movement/">Funds Movement Report</a>
+      <a class="site-footer__link" href="/pl/apps/6-jars-finance/articles/report-spendings-by-tags/">Spendings by Tags Report</a>
+      <a class="site-footer__link" href="/pl/apps/6-jars-finance/privacy/">Polityka prywatności</a>
+      <a class="site-footer__link" href="/pl/apps/6-jars-finance/licenses/">Licencje oprogramowania open source</a>
+    </nav>
+  </div>
+</footer>
+
+  
+  <script src="/assets/article-toc.js" defer></script>
+
+  
+  <script src="/assets/js/analytics.js" defer></script>
+</body>
+</html>

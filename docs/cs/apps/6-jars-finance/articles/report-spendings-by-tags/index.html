@@ -1,0 +1,1081 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jak číst přehled „Výdaje podle štítků“</title>
+  <meta name="description" content="Přehled „Výdaje podle štítků“ pomáhá zjistit, za co byly v daném období utraceny peníze z vybraného fondu." />
+  
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  
+  <link rel="stylesheet" href="/assets/style.css" />
+</head>
+<body>
+  <header class="site-header">
+  <div class="container site-header__inner">
+    <a class="site-header__brand" href="/">Artem D Apps</a>
+    <div class="site-header__aside">
+      
+      
+      <nav class="site-header__nav" aria-label="Navigace webu">
+        <a
+          class="site-header__link"
+          href="/cs/apps/6-jars-finance/download/"
+          data-analytics-link="download"
+          data-analytics-placement="header"
+          
+        >Stáhnout aplikaci</a>
+        <a
+          class="site-header__link"
+          href="/cs/apps/6-jars-finance/articles/guide/"
+          
+        >Metoda šesti fondů</a>
+      </nav>
+      
+        
+
+<nav class="lang-switch" aria-label="Jazyk">
+  <label class="lang-switch__desktop">
+    <span class="lang-switch__visually-hidden">Jazyk</span>
+    <select class="lang-switch__select" data-lang-switch-select>
+      
+        <option
+          value="/en/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >English</option>
+      
+        <option
+          value="/id/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >Bahasa Indonesia</option>
+      
+        <option
+          value="/cs/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          selected
+        >Čeština</option>
+      
+        <option
+          value="/de/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >Deutsch</option>
+      
+        <option
+          value="/es/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >Español</option>
+      
+        <option
+          value="/fr/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >Français</option>
+      
+        <option
+          value="/it/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >Italiano</option>
+      
+        <option
+          value="/nl/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >Nederlands</option>
+      
+        <option
+          value="/pl/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >Polski</option>
+      
+        <option
+          value="/pt-BR/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >Português (Brasil)</option>
+      
+        <option
+          value="/ro/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >Română</option>
+      
+        <option
+          value="/ru/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >Русский</option>
+      
+        <option
+          value="/sv/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >Svenska</option>
+      
+        <option
+          value="/tr/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >Türkçe</option>
+      
+        <option
+          value="/uk/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >Українська</option>
+      
+    </select>
+  </label>
+
+  <button
+    type="button"
+    class="lang-switch__trigger"
+    data-open-lang-switch-modal
+    aria-haspopup="dialog"
+    aria-expanded="false"
+    aria-controls="lang-switch-modal"
+  >
+    
+      
+    
+      
+    
+      
+        <span class="lang-switch__code">
+  CS
+</span>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    <span class="lang-switch__arrow" aria-hidden="true">▾</span>
+  </button>
+
+  <div
+    class="modal-overlay lang-switch__modal-overlay"
+    id="lang-switch-modal"
+    hidden
+    aria-hidden="true"
+    data-lang-switch-modal
+  >
+    <div
+      class="modal lang-switch__modal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="lang-switch-modal-title"
+    >
+      <h2 class="modal__title" id="lang-switch-modal-title">Jazyk</h2>
+      <fieldset class="lang-switch__mobile" aria-label="Jazyk">
+        <div class="lang-switch__radio-list">
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/en/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">English</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/id/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Bahasa Indonesia</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/cs/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                checked
+              />
+              <span class="lang-switch__radio-text">Čeština</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/de/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Deutsch</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/es/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Español</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/fr/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Français</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/it/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Italiano</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/nl/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Nederlands</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/pl/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Polski</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/pt-BR/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Português (Brasil)</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/ro/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Română</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/ru/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Русский</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/sv/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Svenska</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/tr/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Türkçe</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/uk/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Українська</span>
+            </label>
+          
+        </div>
+      </fieldset>
+    </div>
+  </div>
+
+  <script src="/assets/js/lang-switch.js" defer></script>
+</nav>
+
+      
+    </div>
+  </div>
+</header>
+
+
+  <main class="article">
+    <div class="container">
+      <div class="article-layout">
+  <div class="article-container">
+    
+
+
+
+
+
+
+
+
+
+<h1>Jak číst přehled „Výdaje podle štítků“</h1>
+
+
+<p>Přehled „Výdaje podle štítků“ pomáhá zjistit, za co byly v daném období utraceny peníze z vybraného fondu.</p>
+
+<p>Na rozdíl od běžného seznamu transakcí seskupuje výdaje se stejnými štítky a zobrazuje:</p>
+
+
+
+<ul>
+  
+  <li>celkovou částku výdajů pro každý štítek;</li>
+  
+  <li>počet transakcí s daným štítkem;</li>
+  
+  <li>vzájemné porovnání výdajů mezi jednotlivými štítky.</li>
+  
+</ul>
+
+
+
+<p>Přehled vám pomůže najít nejen nejdražší typy výdajů, ale také časté drobné nákupy, které mohou samy o sobě působit nevýznamně.</p>
+
+
+
+<nav class="article-overview" aria-labelledby="article-overview-title">
+  <h2 id="article-overview-title">Obsah</h2>
+  <ol>
+    <li><a href="#what-it-shows">Co přehled ukazuje</a></li>
+    <li><a href="#sort-by-amount">Řazení podle částky</a></li>
+    <li><a href="#sort-by-count">Řazení podle počtu transakcí</a></li>
+    <li><a href="#progress-bars">Jak číst pruhy</a></li>
+    <li><a href="#tag-sum-mismatch">Proč součet podle štítků nemusí odpovídat celkovým výdajům</a></li>
+    <li><a href="#compare-amount-and-count">Jak porovnávat částku a počet transakcí</a></li>
+    <li><a href="#conclusions">Jaké závěry lze z přehledu vyvodit</a></li>
+    <li><a href="#compare-months">Porovnávejte různé měsíce</a></li>
+    <li><a href="#consistent-tags">Používejte štítky konzistentně</a></li>
+    <li><a href="#analysis-example">Příklad analýzy přehledu</a></li>
+    <li><a href="#summary">To nejdůležitější</a></li>
+  </ol>
+</nav>
+
+<div class="article-section">
+<h2 id="what-it-shows">Co přehled ukazuje</h2>
+
+
+<p>Přehled se vždy vytváří pouze pro jeden vybraný fond.</p>
+
+<p>Pokud například vyberete fond „Nezbytnosti“, budou do přehledu zahrnuty pouze výdaje z tohoto fondu. Transakce z jiných fondů se nezapočítají, ani pokud používají stejné štítky.</p>
+
+
+<p>U každého štítku se zobrazují dvě hodnoty:</p>
+
+<ul>
+  
+  <li><strong>částka</strong> — kolik peněz bylo celkem utraceno v transakcích s tímto štítkem;</li>
+  
+  <li><strong>počet transakcí</strong> — kolikrát byl štítek použit u výdajů během vybraného období.</li>
+  
+</ul>
+
+<p>Pokud byl například štítek „Rozvoz jídla“ použit ve čtyřech transakcích v celkové hodnotě 650, přehled zobrazí:</p>
+
+<ul>
+  
+  <li>částku — 650;</li>
+  
+  <li>počet transakcí — 4.</li>
+  
+</ul>
+
+
+
+<p>Tyto hodnoty ukazují výdaje z různých úhlů. Vysoká celková částka může vzniknout jak jedním velkým nákupem, tak mnoha menšími.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="sort-by-amount">Řazení podle částky</h2>
+
+
+<p>Při řazení podle částky se nahoře zobrazují štítky s nejvyššími celkovými výdaji.</p>
+
+<p>Tento režim pomáhá odpovědět na otázku:</p>
+
+
+<blockquote><p>Které typy výdajů měly největší vliv na zůstatek fondu?</p></blockquote>
+<p>Měsíční přehled může například vypadat takto:</p>
+
+<table>
+  <thead>
+    <tr>
+      
+      <th>Štítek</th>
+      
+      <th>Částka</th>
+      
+      <th>Počet</th>
+      
+    </tr>
+  </thead>
+  <tbody>
+    
+    <tr>
+      
+      <td>Potraviny</td>
+      
+      <td>2 400</td>
+      
+      <td>12</td>
+      
+    </tr>
+    
+    <tr>
+      
+      <td>Drogerie</td>
+      
+      <td>750</td>
+      
+      <td>3</td>
+      
+    </tr>
+    
+    <tr>
+      
+      <td>Rozvoz jídla</td>
+      
+      <td>650</td>
+      
+      <td>4</td>
+      
+    </tr>
+    
+    <tr>
+      
+      <td>Káva</td>
+      
+      <td>480</td>
+      
+      <td>16</td>
+      
+    </tr>
+    
+  </tbody>
+</table>
+
+
+
+<p>V tomto příkladu připadla největší část výdajů na potraviny. Přestože se káva kupovala častěji, její celkový vliv na výdaje byl výrazně menší.</p>
+
+
+<p>Řazení podle částky je užitečné, když chcete:</p>
+
+<ul>
+  
+  <li>najít nejdražší typy nákupů;</li>
+  
+  <li>zjistit, které výdaje nejvíce ovlivnily zůstatek;</li>
+  
+  <li>vybrat štítek pro podrobnější analýzu;</li>
+  
+  <li>porovnat strukturu výdajů mezi různými obdobími.</li>
+  
+</ul>
+
+
+
+<p>Vysoká částka sama o sobě neznamená, že byl výdaj zbytečný. Potraviny mohou být například na prvním místě jednoduše proto, že představují hlavní výdaj ve vybraném fondu.</p>
+
+<p>Přehled ukazuje, kam peníze odešly, ale posouzení nezbytnosti těchto výdajů závisí na účelu fondu a vaší vlastní situaci.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="sort-by-count">Řazení podle počtu transakcí</h2>
+
+
+<p>Při řazení podle počtu transakcí se nahoře zobrazují nejčastěji používané štítky.</p>
+
+<p>Tento režim odpovídá na jinou otázku:</p>
+
+
+<blockquote><p>Které výdaje se opakují nejčastěji?</p></blockquote>
+
+
+<p>Časté transakce nemusí být zároveň nejvyšší podle částky. Mohou však ukazovat na pravidelný návyk.</p>
+
+<p>V předchozím příkladu byla káva koupena 16krát — častěji než cokoli jiného. Celková částka však byla relativně nízká, takže při řazení podle částky by tento štítek byl níže v seznamu.</p>
+
+
+<p>Řazení podle počtu transakcí pomáhá najít:</p>
+
+<ul>
+  
+  <li>často se opakující nákupy;</li>
+  
+  <li>výdaje, které se staly návykem;</li>
+  
+  <li>větší množství drobných transakcí;</li>
+  
+  <li>oblasti, kde může být užitečnější snížit četnost nákupů než velikost jednotlivého nákupu.</li>
+  
+</ul>
+
+
+
+<p>Například jeden nákup za 500 je nápadnější než deset nákupů po 50. V obou případech je ale výsledná částka stejná. Řazení podle počtu transakcí usnadňuje odhalit druhý scénář.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="progress-bars">Jak číst pruhy</h2>
+
+
+<p>Vedle každého štítku se zobrazuje pruh, který vizuálně porovnává velikost výdajů.</p>
+
+<p>Štítek s nejvyššími výdaji ve vybraném období se bere jako 100 %. Délka ostatních pruhů se počítá relativně vůči němu.</p>
+
+
+<p>Například:</p>
+
+<ul>
+  
+  <li>„Potraviny“ — 2 000;</li>
+  
+  <li>„Rozvoz jídla“ — 1 000;</li>
+  
+  <li>„Káva“ — 500.</li>
+  
+</ul>
+
+<p>V takovém případě:</p>
+
+<ul>
+  
+  <li>pruh „Potraviny“ bude zaplněný celý;</li>
+  
+  <li>„Rozvoz jídla“ přibližně z poloviny;</li>
+  
+  <li>„Káva“ přibližně ze čtvrtiny.</li>
+  
+</ul>
+
+
+
+<p>Pruh nezobrazuje podíl štítku na všech výdajích. Plně zaplněný pruh neznamená, že na tento štítek připadlo 100 % všech utracených peněz. Znamená pouze to, že jde o nejvyšší částku mezi štítky v aktuálním přehledu.</p>
+
+<p>Vizualizace je vždy založena na částce, i když je seznam seřazen podle počtu transakcí.</p>
+
+<p>Po změně řazení se tedy může změnit pořadí štítků, ale délka pruhů bude i nadále odpovídat výši výdajů.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="tag-sum-mismatch">Proč součet podle štítků nemusí odpovídat celkovým výdajům</h2>
+
+
+<p>Jedné transakci lze přiřadit více štítků. V takovém případě se celá částka transakce započítá samostatně ke každému z vybraných štítků.</p>
+
+
+<p>Například utratíte 300 a k transakci přidáte dva štítky:</p>
+
+<ul>
+  
+  <li>„Potraviny“;</li>
+  
+  <li>„Hosté“.</li>
+  
+</ul>
+
+<p>V přehledu tato transakce přidá:</p>
+
+<ul>
+  
+  <li>300 ke štítku „Potraviny“;</li>
+  
+  <li>300 ke štítku „Hosté“.</li>
+  
+</ul>
+
+
+
+<p>Z fondu bylo ve skutečnosti odečteno pouze 300, ale součet hodnot obou štítků bude 600.</p>
+
+<p>Nejde o dvojí odečtení ani chybu ve výpočtu. Štítky v aplikaci fungují jako vlastnosti transakce, nikoli jako části, mezi které se její částka rozděluje.</p>
+
+
+<p>Jeden nákup může současně odpovídat na několik otázek:</p>
+
+<ul>
+  
+  <li><strong>co bylo koupeno?</strong> — potraviny;</li>
+  
+  <li><strong>pro koho nebo za jakým účelem?</strong> — pro hosty;</li>
+  
+  <li><strong>kde?</strong> — na trhu;</li>
+  
+  <li><strong>byl nákup plánovaný?</strong> — neplánovaný.</li>
+  
+</ul>
+
+
+
+<p>Každý štítek umožňuje podívat se na stejnou transakci z jiného úhlu.</p>
+
+<p>Proto byste neměli sčítat všechny řádky přehledu, chcete-li zjistit celkové výdaje.</p>
+
+
+<p>Skutečnou částku výdajů za dané období je lepší sledovat v přehledu <a href="/cs/apps/6-jars-finance/articles/report-funds-movement/">„Pohyb prostředků“</a>.</p>
+</div>
+
+<div class="article-section">
+<h2 id="compare-amount-and-count">Jak porovnávat částku a počet transakcí</h2>
+<p>Nejužitečnější závěry často získáte tehdy, když sledujete oba údaje současně.</p>
+<div class="article-subsection">
+<h3>Vysoká částka a mnoho transakcí</h3>
+
+
+<p>Výdaj je zároveň vysoký a pravidelný.</p>
+
+<p>Například potraviny můžete nakupovat několikrát týdně a mohou tvořit významnou část výdajů fondu.</p>
+
+<p>Takový výsledek nemusí znamenat problém, ale ukazuje, že změny v této oblasti budou mít největší vliv na celkový zůstatek.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Vysoká částka a málo transakcí</h3>
+
+
+<p>Většinu částky tvoří jeden nebo několik velkých nákupů.</p>
+
+<p>Například štítek „Opravy“ může být použit jen dvakrát, ale přesto být na prvním místě podle částky.</p>
+
+<p>V takové situaci je vhodné ověřit, zda šlo o jednorázové výdaje. Pokud ano, jeden měsíc nemusí vypovídat o běžné struktuře výdajů.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Nízká částka a mnoho transakcí</h3>
+
+
+<p>Výdaj se opakuje často, ale jednotlivé transakce jsou relativně malé.</p>
+
+<p>Takto mohou vypadat výdaje za kávu, svačiny, dopravu nebo drobné nákupy cestou domů.</p>
+
+<p>Tyto výdaje lze snadno přehlédnout, protože každá jednotlivá transakce působí nevýznamně. Přehled pomáhá vidět jejich celkovou četnost a dopad na rozpočet.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Nízká částka a málo transakcí</h3>
+
+
+<p>Výdaj byl vzácný a měl jen malý vliv na celkový obraz.</p>
+
+<p>Takové štítky obvykle nevyžadují zvláštní pozornost, pokud nesledujete konkrétní návyk nebo cíl.</p>
+
+
+</div>
+</div>
+
+<div class="article-section">
+<h2 id="conclusions">Jaké závěry lze z přehledu vyvodit</h2>
+<div class="article-subsection">
+<h3>Za co utrácíte nejvíce peněz</h3>
+
+
+<p>Řazení podle částky ukazuje, které typy výdajů měly během měsíce největší vliv na zůstatek vybraného fondu.</p>
+
+<p>Pokud jeden štítek výrazně převyšuje ostatní, nejprve zvažte, zda to odpovídá účelu fondu. Například vysoké výdaje za potraviny mohou být ve fondu „Nezbytnosti“ očekávané, zatímco vysoká částka u štítku „Rozvoz jídla“ může být důvodem zkontrolovat, zda se rozvoz nestal příliš častým nebo drahým.</p>
+
+
+<p>Porovnejte částku s počtem transakcí:</p>
+
+<ul>
+  
+  <li>vysoká částka při malém počtu transakcí obvykle znamená několik velkých nákupů;</li>
+  
+  <li>vysoká částka při velkém počtu transakcí ukazuje na pravidelné výdaje, které se v průběhu měsíce postupně nasčítaly.</li>
+  
+</ul>
+
+
+
+<p>To pomáhá pochopit, co lze skutečně změnit. V prvním případě zkontrolujte, zda byl velký nákup jednorázový a plánovaný. Ve druhém zvažte, zda lze snížit průměrnou cenu jednoho nákupu nebo takové nákupy provádět méně často.</p>
+
+<p>Vysoká částka sama o sobě neznamená nadměrné utrácení. Ukazuje, které typy výdajů mají na fond největší vliv a kde by změna měla nejvýraznější efekt.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Které nákupy se opakují nejčastěji</h3>
+
+
+<p>Řazení podle počtu transakcí může odhalit návyky, které nejsou z celkové částky vždy patrné.</p>
+
+<p>Například občasný rozvoz jídla může za měsíc stát více než káva, ale každodenní káva bude výše podle počtu transakcí.</p>
+
+<p>Podle cíle může být užitečnější sledovat buď cenu návyku, nebo jeho četnost.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Zda se výdaje skládají z velkých nebo malých transakcí</h3>
+
+
+<p>Částka a počet transakcí umožňují přibližně odhadnout charakter výdajů.</p>
+
+
+<p>Například:</p>
+
+<ul>
+  
+  <li>1 200 ve 2 transakcích — pravděpodobně několik velkých nákupů;</li>
+  
+  <li>1 200 ve 24 transakcích — mnoho drobných nákupů.</li>
+  
+</ul>
+
+
+
+<p>Pro podrobnější analýzu můžete otevřít detail konkrétního štítku. Uvidíte tam celkovou částku, počet transakcí, průměrnou výši výdaje a rozložení výdajů podle dnů v měsíci.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Které výdaje stojí za podrobnější prozkoumání</h3>
+<p>Větší pozornost mohou vyžadovat štítky, které:</p>
+
+<ul>
+  
+  <li>jsou vysoko v seznamu podle částky;</li>
+  
+  <li>se používají znatelně častěji než ostatní;</li>
+  
+  <li>neočekávaně vzrostly oproti obvyklé úrovni;</li>
+  
+  <li>mají zároveň vysokou částku i vysoký počet transakcí;</li>
+  
+  <li>označují volitelné nebo neplánované nákupy.</li>
+  
+</ul>
+
+
+
+<p>Samotný přehled neurčuje, které výdaje jsou správné nebo špatné. Pomáhá najít oblasti, které stojí za podrobnější kontrolu.</p>
+
+
+</div>
+</div>
+
+<div class="article-section">
+<h2 id="compare-months">Porovnávejte různé měsíce</h2>
+
+
+<p>Chcete-li zaznamenat změny ve výdajích, porovnávejte přehledy z několika měsíců.</p>
+
+<p>Při porovnávání sledujte nejen částku, ale i počet transakcí. Výdaje pod určitým štítkem mohou růst z různých důvodů:</p>
+
+
+
+<ul>
+  
+  <li>nákupy se začaly opakovat častěji;</li>
+  
+  <li>vzrostla průměrná cena jednoho nákupu;</li>
+  
+  <li>během měsíce došlo k jedné velké transakci;</li>
+  
+  <li>štítek jste začali používat konzistentněji.</li>
+  
+</ul>
+
+<p>Zohledněte také události, které mohly výdaje dočasně ovlivnit:</p>
+
+<ul>
+  
+  <li>svátky;</li>
+  
+  <li>dovolenou;</li>
+  
+  <li>stěhování;</li>
+  
+  <li>velký nákup;</li>
+  
+  <li>návštěvu hostů;</li>
+  
+  <li>dočasnou změnu životního stylu.</li>
+  
+</ul>
+
+
+
+<p>Nárůst výdajů během jednoho měsíce nemusí nutně znamenat vznik nového návyku. Užitečnější je sledovat, zda změna pokračuje i v dalších měsících.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="consistent-tags">Používejte štítky konzistentně</h2>
+
+
+<p>Kvalita přehledu závisí na tom, jak konzistentně štítky používáte.</p>
+
+<p>Pokud u některých podobných nákupů štítek použijete a u jiných ne, přehled zobrazí pouze část skutečných výdajů.</p>
+
+<p>Pokud například chcete sledovat rozvoz jídla, přidávejte příslušný štítek ke každé takové transakci. Jinak budou částka i počet transakcí nižší než ve skutečnosti.</p>
+
+<p>Je užitečné předem určit, co jednotlivé štítky znamenají.</p>
+
+
+<p>Například:</p>
+
+<ul>
+  
+  <li>„Kavárny a restaurace“ — všechny nákupy v podnicích;</li>
+  
+  <li>„Rozvoz jídla“ — pouze objednávky domů;</li>
+  
+  <li>„Svačiny“ — malé neplánované nákupy jídla mimo domov.</li>
+  
+</ul>
+
+
+
+<p>Čím jasnější jsou pravidla používání štítků, tím snazší je porovnávat údaje mezi různými obdobími.</p>
+
+<p>Není nutné přidávat štítky ke každé transakci. Používejte je tam, kde skutečně chcete sledovat konkrétní typ výdaje, návyk nebo okolnosti nákupu.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="analysis-example">Příklad analýzy přehledu</h2>
+<p>Představme si, že fond „Zábava“ za měsíc ukazuje následující údaje:</p>
+
+<table>
+  <thead>
+    <tr>
+      
+      <th>Štítek</th>
+      
+      <th>Částka</th>
+      
+      <th>Počet</th>
+      
+    </tr>
+  </thead>
+  <tbody>
+    
+    <tr>
+      
+      <td>Setkání s přáteli</td>
+      
+      <td>1 800</td>
+      
+      <td>4</td>
+      
+    </tr>
+    
+    <tr>
+      
+      <td>Rozvoz jídla</td>
+      
+      <td>1 400</td>
+      
+      <td>7</td>
+      
+    </tr>
+    
+    <tr>
+      
+      <td>Hry</td>
+      
+      <td>1 000</td>
+      
+      <td>1</td>
+      
+    </tr>
+    
+    <tr>
+      
+      <td>Káva</td>
+      
+      <td>800</td>
+      
+      <td>16</td>
+      
+    </tr>
+    
+  </tbody>
+</table>
+
+
+
+<p>Při řazení podle částky je vidět, že nejvíce peněz připadlo na setkání s přáteli.</p>
+
+<p>Řazení podle počtu transakcí však ukazuje jiný obraz: nejčastěji se objevovaly nákupy se štítkem „Káva“.</p>
+
+
+<p>Z přehledu lze vyvodit několik různých závěrů:</p>
+
+<ul>
+  
+  <li>setkání s přáteli byla největší oblast výdajů;</li>
+  
+  <li>nákup hry byl vysoký, ale jednorázový;</li>
+  
+  <li>rozvoz jídla byl pravidelný a podle částky se umístil na druhém místě;</li>
+  
+  <li>káva se kupovala nejčastěji, i když její celková částka byla nižší.</li>
+  
+</ul>
+
+
+
+<p>Neexistuje zde jeden jediný „špatný“ výdaj. Závěr závisí na cíli analýzy.</p>
+
+<p>Pokud chcete výdaje rychle snížit, je nejjednodušší začít u největších oblastí. Pokud chcete změnit každodenní návyk, může být užitečnější zaměřit se na časté transakce.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="summary">To nejdůležitější</h2>
+
+
+<p>Přehled „Výdaje podle štítků“ ukazuje výdaje ze dvou pohledů:</p>
+
+
+
+<ul>
+  
+  <li><strong>částka</strong> ukazuje finanční dopad;</li>
+  
+  <li><strong>počet transakcí</strong> ukazuje četnost.</li>
+  
+</ul>
+
+
+
+<p>Řazení podle částky pomáhá najít nejdražší typy nákupů, zatímco řazení podle počtu transakcí zvýrazňuje ty nejčastější.</p>
+
+<p>Pokud má transakce více štítků, součet všech hodnot může překročit skutečné výdaje, protože celá částka transakce se započítává samostatně ke každému štítku. Díky tomu lze jeden nákup analyzovat z více úhlů, ale zároveň není možné sečíst všechny řádky přehledu a získat tak celkové výdaje.</p>
+
+<p>Používejte přehled nikoli k automatickému hledání „zbytečných“ nákupů, ale k nalezení oblastí výdajů, které stojí za podrobnější prozkoumání.</p>
+
+
+</div>
+
+  </div>
+  <aside class="article-toc" aria-label="Navigace na stránce">
+    <nav class="article-toc__nav">
+      <p class="article-toc__title">Na této stránce</p>
+      <ol class="article-toc__list"></ol>
+    </nav>
+  </aside>
+</div>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+  <div class="container site-footer__inner">
+    <p class="site-footer__copyright">© 2026 Artem D Apps</p>
+    <nav class="site-footer__nav" aria-label="Informace o webu">
+      <a class="site-footer__link" href="/cs/apps/6-jars-finance/help/">Informace o chybě</a>
+      <a class="site-footer__link" href="/cs/apps/6-jars-finance/articles/report-funds-movement/">Funds Movement Report</a>
+      <a class="site-footer__link" href="/cs/apps/6-jars-finance/articles/report-spendings-by-tags/">Spendings by Tags Report</a>
+      <a class="site-footer__link" href="/cs/apps/6-jars-finance/privacy/">Zásady ochrany osobních údajů</a>
+      <a class="site-footer__link" href="/cs/apps/6-jars-finance/licenses/">Licence open source softwaru</a>
+    </nav>
+  </div>
+</footer>
+
+  
+  <script src="/assets/article-toc.js" defer></script>
+
+  
+  <script src="/assets/js/analytics.js" defer></script>
+</body>
+</html>

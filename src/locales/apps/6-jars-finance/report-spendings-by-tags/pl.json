@@ -1,0 +1,341 @@
+{
+  "title": "Jak czytać raport „Wydatki według tagów”",
+  "metaDescription": "Raport „Wydatki według tagów” pomaga zrozumieć, na co zostały wydane pieniądze z wybranego słoika w określonym okresie.",
+  "intro": {
+    "paragraphs": [
+      "Raport „Wydatki według tagów” pomaga zrozumieć, na co zostały wydane pieniądze z wybranego słoika w określonym okresie.",
+      "W przeciwieństwie do zwykłej listy transakcji grupuje wydatki z tymi samymi tagami i pokazuje:"
+    ],
+    "items": [
+      "łączną kwotę wydatków dla każdego tagu;",
+      "liczbę transakcji z danym tagiem;",
+      "porównanie wielkości wydatków między różnymi tagami."
+    ],
+    "closingParagraphs": [
+      "Raport pozwala znaleźć nie tylko najdroższe rodzaje wydatków, ale także częste drobne zakupy, które pojedynczo mogą wydawać się nieistotne."
+    ]
+  },
+  "overview": {
+    "title": "Spis treści",
+    "whatItShows": "Co pokazuje raport",
+    "sortByAmount": "Sortowanie według kwoty",
+    "sortByCount": "Sortowanie według liczby transakcji",
+    "progressBars": "Jak czytać paski",
+    "tagSumMismatch": "Dlaczego suma według tagów może różnić się od łącznych wydatków",
+    "compareAmountAndCount": "Jak porównywać kwotę i liczbę transakcji",
+    "conclusions": "Jakie wnioski można wyciągnąć z raportu",
+    "compareMonths": "Porównuj różne miesiące",
+    "consistentTags": "Używaj tagów konsekwentnie",
+    "analysisExample": "Przykład analizy raportu",
+    "summary": "Najważniejsze"
+  },
+  "whatItShows": {
+    "title": "Co pokazuje raport",
+    "paragraphs": [
+      "Raport jest tworzony tylko dla jednego wybranego słoika.",
+      "Na przykład po wybraniu słoika „Potrzeby” raport uwzględni tylko wydatki z tego słoika. Transakcje z innych słoików nie będą brane pod uwagę, nawet jeśli użyto w nich tych samych tagów."
+    ],
+    "metricsIntro": "Dla każdego tagu wyświetlane są dwie wartości:",
+    "metrics": [
+      "<strong>kwota</strong> — ile łącznie wydano w transakcjach z tym tagiem;",
+      "<strong>liczba transakcji</strong> — ile razy tag został użyty w wydatkach w wybranym okresie."
+    ],
+    "exampleIntro": "Na przykład jeśli tag „Dostawa jedzenia” został użyty w czterech transakcjach na łączną kwotę 650, raport pokaże:",
+    "exampleItems": [
+      "kwotę — 650;",
+      "liczbę transakcji — 4."
+    ],
+    "closingParagraphs": [
+      "Te wartości pokazują wydatki z różnych perspektyw. Duża suma może wynikać zarówno z jednego dużego zakupu, jak i z wielu mniejszych."
+    ]
+  },
+  "sortByAmount": {
+    "title": "Sortowanie według kwoty",
+    "paragraphs": [
+      "Po posortowaniu według kwoty na początku pojawiają się tagi, na które wydano najwięcej pieniędzy.",
+      "Ten tryb pomaga odpowiedzieć na pytanie:"
+    ],
+    "question": "Które rodzaje wydatków miały największy wpływ na saldo słoika?",
+    "exampleIntro": "Na przykład miesięczny raport może wyglądać tak:",
+    "table": {
+      "headers": ["Tag", "Kwota", "Liczba"],
+      "rows": [
+        ["Artykuły spożywcze", "2 400", "12"],
+        ["Chemia gospodarcza", "750", "3"],
+        ["Dostawa jedzenia", "650", "4"],
+        ["Kawa", "480", "16"]
+      ]
+    },
+    "closingParagraphs": [
+      "W tym przykładzie największa część wydatków przypadła na artykuły spożywcze. Mimo że kawa była kupowana częściej, jej wpływ na łączną kwotę był znacznie mniejszy."
+    ],
+    "listIntro": "Sortowanie według kwoty jest przydatne, aby:",
+    "items": [
+      "znaleźć najdroższe rodzaje zakupów;",
+      "zobaczyć, które wydatki najmocniej wpłynęły na saldo;",
+      "wybrać tag do dokładniejszej analizy;",
+      "porównać strukturę wydatków w różnych okresach."
+    ],
+    "outroParagraphs": [
+      "Duża kwota sama w sobie nie oznacza, że wydatek był zbędny. Na przykład artykuły spożywcze mogą zajmować pierwsze miejsce po prostu dlatego, że są główną kategorią wydatków w wybranym słoiku.",
+      "Raport pokazuje, na co zostały wydane pieniądze, ale ocenę zasadności tych wydatków należy odnosić do przeznaczenia słoika i własnej sytuacji."
+    ]
+  },
+  "sortByCount": {
+    "title": "Sortowanie według liczby transakcji",
+    "paragraphs": [
+      "Po posortowaniu według liczby transakcji na początku pojawiają się tagi używane najczęściej.",
+      "Ten tryb odpowiada na inne pytanie:"
+    ],
+    "question": "Które wydatki występują najbardziej regularnie?",
+    "closingParagraphs": [
+      "Częste transakcje nie muszą zajmować pierwszego miejsca pod względem kwoty. Mogą jednak wskazywać na utrwalony nawyk.",
+      "W poprzednim przykładzie kawa była kupowana 16 razy — częściej niż cokolwiek innego. Łączna kwota była stosunkowo mała, dlatego przy sortowaniu według kwoty tag znajdowałby się niżej na liście."
+    ],
+    "listIntro": "Sortowanie według liczby transakcji pomaga znaleźć:",
+    "items": [
+      "często powtarzające się zakupy;",
+      "wydatki, które stały się nawykiem;",
+      "wiele drobnych transakcji;",
+      "obszary, w których można ograniczyć nie wartość pojedynczego zakupu, lecz jego częstotliwość."
+    ],
+    "outroParagraphs": [
+      "Na przykład jeden zakup za 500 jest bardziej zauważalny niż dziesięć zakupów po 50. W obu przypadkach łączna kwota wydatków jest jednak taka sama. Sortowanie według liczby transakcji ułatwia zauważenie drugiego scenariusza."
+    ]
+  },
+  "progressBars": {
+    "title": "Jak czytać paski",
+    "paragraphs": [
+      "Obok każdego tagu znajduje się pasek, który wizualnie porównuje wielkość wydatków.",
+      "Tag z najwyższą kwotą wydatków w wybranym okresie jest przyjmowany jako 100%. Pozostałe paski są obliczane względem niego."
+    ],
+    "exampleIntro": "Na przykład:",
+    "exampleItems": [
+      "„Artykuły spożywcze” — 2 000;",
+      "„Dostawa jedzenia” — 1 000;",
+      "„Kawa” — 500."
+    ],
+    "resultIntro": "W takim przypadku:",
+    "resultItems": [
+      "pasek „Artykuły spożywcze” będzie wypełniony całkowicie;",
+      "„Dostawa jedzenia” — mniej więcej do połowy;",
+      "„Kawa” — mniej więcej w jednej czwartej."
+    ],
+    "closingParagraphs": [
+      "Pasek nie pokazuje udziału tagu we wszystkich wydatkach. Całkowicie wypełniony pasek nie oznacza, że na dany tag przypadło 100% wydanych pieniędzy. Oznacza jedynie, że jest to najwyższa kwota wśród tagów w bieżącym raporcie.",
+      "Wizualizacja zawsze opiera się na kwocie, nawet gdy lista jest posortowana według liczby transakcji.",
+      "Po zmianie sposobu sortowania kolejność tagów może się więc zmienić, ale długość pasków nadal będzie odpowiadała kwotom wydatków."
+    ]
+  },
+  "tagSumMismatch": {
+    "title": "Dlaczego suma według tagów może różnić się od łącznych wydatków",
+    "paragraphs": [
+      "Do jednej transakcji można przypisać kilka tagów. W takim przypadku pełna kwota transakcji jest liczona osobno dla każdego z wybranych tagów."
+    ],
+    "exampleIntro": "Na przykład wydajesz 300 i dodajesz do transakcji dwa tagi:",
+    "exampleTags": [
+      "„Artykuły spożywcze”;",
+      "„Goście”."
+    ],
+    "reportIntro": "W raporcie ta transakcja doda:",
+    "reportItems": [
+      "300 do tagu „Artykuły spożywcze”;",
+      "300 do tagu „Goście”."
+    ],
+    "closingParagraphs": [
+      "Ze słoika faktycznie odjęto tylko 300, ale suma wartości obu tagów wyniesie 600.",
+      "Nie jest to podwójne obciążenie ani błąd obliczeń. Tagi w aplikacji są cechami transakcji, a nie częściami, na które dzielona jest jej kwota."
+    ],
+    "questionsIntro": "Jeden zakup może jednocześnie odpowiadać na kilka pytań:",
+    "questions": [
+      "<strong>co zostało kupione?</strong> — artykuły spożywcze;",
+      "<strong>dla kogo lub po co?</strong> — dla gości;",
+      "<strong>gdzie?</strong> — na targu;",
+      "<strong>czy zakup był zaplanowany?</strong> — niezaplanowany."
+    ],
+    "outroParagraphs": [
+      "Każdy tag pozwala spojrzeć na tę samą transakcję z innej perspektywy.",
+      "Dlatego nie należy sumować wszystkich wierszy raportu, aby obliczyć łączne wydatki."
+    ],
+    "fundsMovementLinkPrefix": "Rzeczywistą kwotę wydatków w danym okresie najlepiej sprawdzać w raporcie ",
+    "fundsMovementLinkText": "„Przepływ środków”",
+    "fundsMovementLinkSuffix": "."
+  },
+  "compareAmountAndCount": {
+    "title": "Jak porównywać kwotę i liczbę transakcji",
+    "lead": "Najbardziej przydatne wnioski można wyciągnąć, analizując oba wskaźniki jednocześnie.",
+    "highAmountHighCount": {
+      "title": "Duża kwota i duża liczba transakcji",
+      "paragraphs": [
+        "Wydatek jest jednocześnie duży i regularny.",
+        "Na przykład artykuły spożywcze mogą być kupowane kilka razy w tygodniu i stanowić znaczną część wydatków ze słoika.",
+        "Taki wynik nie musi oznaczać problemu, ale pokazuje, że zmiany w tej kategorii będą miały największy wpływ na ogólne saldo."
+      ]
+    },
+    "highAmountLowCount": {
+      "title": "Duża kwota i mała liczba transakcji",
+      "paragraphs": [
+        "Większość kwoty wynika z jednego lub kilku dużych zakupów.",
+        "Na przykład tag „Remont” może zostać użyty tylko dwa razy, a mimo to zajmować pierwsze miejsce pod względem kwoty.",
+        "W takiej sytuacji warto sprawdzić, czy były to wydatki jednorazowe. Jeśli tak, jeden miesiąc nie powinien być podstawą do oceny typowej struktury wydatków."
+      ]
+    },
+    "lowAmountHighCount": {
+      "title": "Mała kwota i duża liczba transakcji",
+      "paragraphs": [
+        "Wydatek występuje często, ale pojedyncze transakcje są stosunkowo niewielkie.",
+        "Tak mogą wyglądać kawa, przekąski, przejazdy lub drobne zakupy po drodze do domu.",
+        "Takie wydatki łatwo przeoczyć, ponieważ każda pojedyncza transakcja wydaje się nieistotna. Raport pozwala zobaczyć ich częstotliwość i łączny wpływ na budżet."
+      ]
+    },
+    "lowAmountLowCount": {
+      "title": "Mała kwota i mała liczba transakcji",
+      "paragraphs": [
+        "Wydatek był rzadki i miał niewielki wpływ na ogólny obraz.",
+        "Takie tagi zwykle nie wymagają szczególnej uwagi, chyba że śledzisz konkretny nawyk lub cel."
+      ]
+    }
+  },
+  "conclusions": {
+    "title": "Jakie wnioski można wyciągnąć z raportu",
+    "topSpending": {
+      "title": "Na co wydajesz najwięcej pieniędzy",
+      "paragraphs": [
+        "Sortowanie według kwoty pokazuje, które rodzaje wydatków najmocniej wpłynęły na saldo wybranego słoika w danym miesiącu.",
+        "Jeśli jeden tag wyraźnie wyprzedza pozostałe, najpierw oceń, czy odpowiada to przeznaczeniu słoika. Na przykład wysokie wydatki na artykuły spożywcze mogą być czymś oczekiwanym w słoiku „Potrzeby”, natomiast duża kwota pod tagiem „Dostawa jedzenia” może być sygnałem, by sprawdzić, czy dostawy nie stały się zbyt częste lub zbyt drogie."
+      ],
+      "compareIntro": "Porównaj kwotę z liczbą transakcji:",
+      "compareItems": [
+        "duża kwota przy małej liczbie transakcji zwykle oznacza kilka dużych zakupów;",
+        "duża kwota przy dużej liczbie transakcji wskazuje na regularne wydatki, które stopniowo narastały w ciągu miesiąca."
+      ],
+      "closingParagraphs": [
+        "Pomaga to zrozumieć, co faktycznie można zmienić. W pierwszym przypadku sprawdź, czy duży zakup był jednorazowy i zaplanowany. W drugim zastanów się, czy można zmniejszyć średni koszt pojedynczego zakupu albo robić takie zakupy rzadziej.",
+        "Duża kwota sama w sobie nie oznacza nadmiernych wydatków. Pokazuje jedynie, które rodzaje wydatków mają największy wpływ na słoik i gdzie zmiana przyniosłaby najbardziej zauważalny efekt."
+      ]
+    },
+    "mostFrequent": {
+      "title": "Które zakupy zdarzają się najczęściej",
+      "paragraphs": [
+        "Sortowanie według liczby transakcji pozwala zauważyć nawyki, które nie zawsze są widoczne na podstawie samej kwoty.",
+        "Na przykład sporadyczna dostawa jedzenia może kosztować więcej niż kawa w skali miesiąca, ale to codzienna kawa będzie zajmować pierwsze miejsce pod względem liczby transakcji.",
+        "W zależności od celu warto analizować albo koszt nawyku, albo jego częstotliwość."
+      ]
+    },
+    "largeOrSmall": {
+      "title": "Czy wydatki składają się z dużych czy małych transakcji",
+      "paragraphs": [
+        "Kwota i liczba transakcji pozwalają w przybliżeniu ocenić charakter wydatków."
+      ],
+      "exampleIntro": "Na przykład:",
+      "exampleItems": [
+        "1 200 w 2 transakcjach — prawdopodobnie kilka dużych zakupów;",
+        "1 200 w 24 transakcjach — wiele drobnych zakupów."
+      ],
+      "closingParagraphs": [
+        "Aby przeanalizować wydatki dokładniej, można otworzyć szczegóły wybranego tagu. Zobaczysz tam łączną kwotę, liczbę transakcji, średnią wartość wydatku oraz rozkład wydatków według dni miesiąca."
+      ]
+    },
+    "worthStudying": {
+      "title": "Które wydatki warto przeanalizować dokładniej",
+      "listIntro": "Dodatkowej uwagi mogą wymagać tagi, które:",
+      "items": [
+        "znajdują się wysoko na liście pod względem kwoty;",
+        "są używane wyraźnie częściej niż pozostałe;",
+        "niespodziewanie wzrosły w porównaniu z typowym poziomem;",
+        "mają jednocześnie wysoką kwotę i dużą liczbę transakcji;",
+        "oznaczają zakupy opcjonalne lub niezaplanowane."
+      ],
+      "closingParagraphs": [
+        "Sam raport nie określa, które wydatki są dobre lub złe. Pomaga znaleźć obszary, którym warto przyjrzeć się dokładniej."
+      ]
+    }
+  },
+  "compareMonths": {
+    "title": "Porównuj różne miesiące",
+    "paragraphs": [
+      "Aby zauważyć zmiany w wydatkach, porównuj raporty z kilku miesięcy.",
+      "Podczas porównywania zwracaj uwagę nie tylko na kwotę, ale również na liczbę transakcji. Wzrost wydatków pod danym tagiem może mieć różne przyczyny:"
+    ],
+    "reasons": [
+      "zakupy zaczęły zdarzać się częściej;",
+      "wzrosła średnia wartość pojedynczego zakupu;",
+      "w ciągu miesiąca wystąpiła jedna duża transakcja;",
+      "tag zaczął być używany bardziej konsekwentnie."
+    ],
+    "eventsIntro": "Uwzględniaj także wydarzenia, które mogły tymczasowo wpłynąć na wydatki:",
+    "events": [
+      "święta;",
+      "urlop;",
+      "przeprowadzkę;",
+      "duży zakup;",
+      "wizytę gości;",
+      "tymczasową zmianę stylu życia."
+    ],
+    "closingParagraphs": [
+      "Wzrost wydatków w jednym miesiącu nie zawsze oznacza powstanie nowego nawyku. Bardziej użyteczne jest sprawdzenie, czy zmiana utrzymuje się w kolejnych miesiącach."
+    ]
+  },
+  "consistentTags": {
+    "title": "Używaj tagów konsekwentnie",
+    "paragraphs": [
+      "Jakość raportu zależy od tego, jak konsekwentnie używasz tagów.",
+      "Jeśli część podobnych zakupów oznaczysz tagiem, a część pozostawisz bez niego, raport pokaże tylko fragment rzeczywistych wydatków.",
+      "Na przykład jeśli chcesz śledzić dostawę jedzenia, dodawaj odpowiedni tag do każdej takiej transakcji. W przeciwnym razie zarówno kwota, jak i liczba transakcji będą zaniżone.",
+      "Warto wcześniej ustalić, co dokładnie oznacza każdy tag."
+    ],
+    "examplesIntro": "Na przykład:",
+    "examples": [
+      "„Kawiarnie i restauracje” — wszystkie zakupy w lokalach;",
+      "„Dostawa jedzenia” — wyłącznie zamówienia do domu;",
+      "„Przekąski” — drobne, niezaplanowane zakupy jedzenia poza domem."
+    ],
+    "closingParagraphs": [
+      "Im bardziej przejrzyste są zasady używania tagów, tym łatwiej porównywać dane z różnych okresów.",
+      "Nie musisz oznaczać tagami każdej transakcji. Używaj ich tam, gdzie rzeczywiście chcesz śledzić konkretny rodzaj wydatku, nawyk lub kontekst zakupu."
+    ]
+  },
+  "analysisExample": {
+    "title": "Przykład analizy raportu",
+    "intro": "Załóżmy, że w słoiku „Rozrywka” raport za miesiąc pokazuje następujące dane:",
+    "table": {
+      "headers": ["Tag", "Kwota", "Liczba"],
+      "rows": [
+        ["Spotkania ze znajomymi", "1 800", "4"],
+        ["Dostawa jedzenia", "1 400", "7"],
+        ["Gry", "1 000", "1"],
+        ["Kawa", "800", "16"]
+      ]
+    },
+    "closingParagraphs": [
+      "Po posortowaniu według kwoty widać, że najwięcej pieniędzy przeznaczono na spotkania ze znajomymi.",
+      "Sortowanie według liczby transakcji pokazuje jednak inny obraz: najczęściej występowały zakupy oznaczone tagiem „Kawa”."
+    ],
+    "conclusionsIntro": "Z raportu można wyciągnąć kilka różnych wniosków:",
+    "conclusions": [
+      "spotkania ze znajomymi były największą kategorią wydatków;",
+      "zakup gry był duży, ale jednorazowy;",
+      "dostawa jedzenia występowała regularnie i zajęła drugie miejsce pod względem kwoty;",
+      "kawa była kupowana najczęściej, mimo że łączna kwota była niższa."
+    ],
+    "outroParagraphs": [
+      "Nie ma tutaj jednego „złego” wydatku. Wniosek zależy od celu analizy.",
+      "Jeśli chcesz szybko ograniczyć wydatki, najłatwiej zacząć od największych kategorii. Jeśli chcesz zmienić codzienny nawyk, bardziej przydatne może być przyjrzenie się częstym transakcjom."
+    ]
+  },
+  "summary": {
+    "title": "Najważniejsze",
+    "paragraphs": [
+      "Raport „Wydatki według tagów” pokazuje wydatki z dwóch perspektyw:"
+    ],
+    "items": [
+      "<strong>kwota</strong> pokazuje wpływ finansowy;",
+      "<strong>liczba transakcji</strong> pokazuje częstotliwość."
+    ],
+    "closingParagraphs": [
+      "Sortowanie według kwoty pomaga znaleźć najdroższe rodzaje zakupów, a sortowanie według liczby transakcji — te najbardziej regularne.",
+      "Jeśli transakcja ma kilka tagów, suma wszystkich wartości może przekraczać rzeczywiste wydatki, ponieważ pełna kwota transakcji jest liczona osobno dla każdego tagu. Pozwala to analizować ten sam zakup z kilku perspektyw, ale oznacza również, że nie należy sumować wszystkich wierszy raportu w celu obliczenia łącznych wydatków.",
+      "Używaj raportu nie do automatycznego wyszukiwania „zbędnych” zakupów, lecz do znajdowania obszarów wydatków, którym warto przyjrzeć się dokładniej."
+    ]
+  }
+}

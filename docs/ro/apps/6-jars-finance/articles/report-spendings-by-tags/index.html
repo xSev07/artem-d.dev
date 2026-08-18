@@ -1,0 +1,1081 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cum să citești raportul „Cheltuieli după etichete”</title>
+  <meta name="description" content="Raportul „Cheltuieli după etichete” te ajută să înțelegi pentru ce au fost cheltuiți banii din fondul selectat într-o anumită perioadă." />
+  
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  
+  <link rel="stylesheet" href="/assets/style.css" />
+</head>
+<body>
+  <header class="site-header">
+  <div class="container site-header__inner">
+    <a class="site-header__brand" href="/">Artem D Apps</a>
+    <div class="site-header__aside">
+      
+      
+      <nav class="site-header__nav" aria-label="Navigarea pe site">
+        <a
+          class="site-header__link"
+          href="/ro/apps/6-jars-finance/download/"
+          data-analytics-link="download"
+          data-analytics-placement="header"
+          
+        >Descarcă aplicația</a>
+        <a
+          class="site-header__link"
+          href="/ro/apps/6-jars-finance/articles/guide/"
+          
+        >Metoda celor șase fonduri</a>
+      </nav>
+      
+        
+
+<nav class="lang-switch" aria-label="Limbă">
+  <label class="lang-switch__desktop">
+    <span class="lang-switch__visually-hidden">Limbă</span>
+    <select class="lang-switch__select" data-lang-switch-select>
+      
+        <option
+          value="/en/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >English</option>
+      
+        <option
+          value="/id/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >Bahasa Indonesia</option>
+      
+        <option
+          value="/cs/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >Čeština</option>
+      
+        <option
+          value="/de/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >Deutsch</option>
+      
+        <option
+          value="/es/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >Español</option>
+      
+        <option
+          value="/fr/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >Français</option>
+      
+        <option
+          value="/it/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >Italiano</option>
+      
+        <option
+          value="/nl/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >Nederlands</option>
+      
+        <option
+          value="/pl/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >Polski</option>
+      
+        <option
+          value="/pt-BR/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >Português (Brasil)</option>
+      
+        <option
+          value="/ro/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          selected
+        >Română</option>
+      
+        <option
+          value="/ru/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >Русский</option>
+      
+        <option
+          value="/sv/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >Svenska</option>
+      
+        <option
+          value="/tr/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >Türkçe</option>
+      
+        <option
+          value="/uk/apps/6-jars-finance/articles/report-spendings-by-tags/"
+          
+        >Українська</option>
+      
+    </select>
+  </label>
+
+  <button
+    type="button"
+    class="lang-switch__trigger"
+    data-open-lang-switch-modal
+    aria-haspopup="dialog"
+    aria-expanded="false"
+    aria-controls="lang-switch-modal"
+  >
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        <span class="lang-switch__code">
+  RO
+</span>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    <span class="lang-switch__arrow" aria-hidden="true">▾</span>
+  </button>
+
+  <div
+    class="modal-overlay lang-switch__modal-overlay"
+    id="lang-switch-modal"
+    hidden
+    aria-hidden="true"
+    data-lang-switch-modal
+  >
+    <div
+      class="modal lang-switch__modal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="lang-switch-modal-title"
+    >
+      <h2 class="modal__title" id="lang-switch-modal-title">Limbă</h2>
+      <fieldset class="lang-switch__mobile" aria-label="Limbă">
+        <div class="lang-switch__radio-list">
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/en/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">English</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/id/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Bahasa Indonesia</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/cs/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Čeština</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/de/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Deutsch</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/es/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Español</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/fr/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Français</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/it/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Italiano</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/nl/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Nederlands</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/pl/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Polski</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/pt-BR/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Português (Brasil)</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/ro/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                checked
+              />
+              <span class="lang-switch__radio-text">Română</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/ru/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Русский</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/sv/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Svenska</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/tr/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Türkçe</span>
+            </label>
+          
+            <label class="lang-switch__radio-label">
+              <input
+                class="lang-switch__radio"
+                type="radio"
+                name="lang-switch"
+                value="/uk/apps/6-jars-finance/articles/report-spendings-by-tags/"
+                data-lang-switch-radio
+                
+              />
+              <span class="lang-switch__radio-text">Українська</span>
+            </label>
+          
+        </div>
+      </fieldset>
+    </div>
+  </div>
+
+  <script src="/assets/js/lang-switch.js" defer></script>
+</nav>
+
+      
+    </div>
+  </div>
+</header>
+
+
+  <main class="article">
+    <div class="container">
+      <div class="article-layout">
+  <div class="article-container">
+    
+
+
+
+
+
+
+
+
+
+<h1>Cum să citești raportul „Cheltuieli după etichete”</h1>
+
+
+<p>Raportul „Cheltuieli după etichete” te ajută să înțelegi pentru ce au fost cheltuiți banii din fondul selectat într-o anumită perioadă.</p>
+
+<p>Spre deosebire de o listă obișnuită de tranzacții, acesta grupează cheltuielile cu aceleași etichete și afișează:</p>
+
+
+
+<ul>
+  
+  <li>suma totală cheltuită pentru fiecare etichetă;</li>
+  
+  <li>numărul de tranzacții cu eticheta respectivă;</li>
+  
+  <li>raportul dintre cheltuielile asociate diferitelor etichete.</li>
+  
+</ul>
+
+
+
+<p>Raportul te ajută să identifici nu doar tipurile de cheltuieli cu cele mai mari sume, ci și cumpărăturile mici și frecvente care pot părea nesemnificative luate separat.</p>
+
+
+
+<nav class="article-overview" aria-labelledby="article-overview-title">
+  <h2 id="article-overview-title">Cuprins</h2>
+  <ol>
+    <li><a href="#what-it-shows">Ce arată raportul</a></li>
+    <li><a href="#sort-by-amount">Sortarea după sumă</a></li>
+    <li><a href="#sort-by-count">Sortarea după numărul de tranzacții</a></li>
+    <li><a href="#progress-bars">Cum să citești barele</a></li>
+    <li><a href="#tag-sum-mismatch">De ce totalul după etichete poate fi diferit de totalul cheltuielilor</a></li>
+    <li><a href="#compare-amount-and-count">Cum să compari suma și numărul de tranzacții</a></li>
+    <li><a href="#conclusions">Ce poți afla din raport</a></li>
+    <li><a href="#compare-months">Compară luni diferite</a></li>
+    <li><a href="#consistent-tags">Folosește etichetele în mod consecvent</a></li>
+    <li><a href="#analysis-example">Exemplu de analiză a raportului</a></li>
+    <li><a href="#summary">Ideile principale</a></li>
+  </ol>
+</nav>
+
+<div class="article-section">
+<h2 id="what-it-shows">Ce arată raportul</h2>
+
+
+<p>Raportul este generat pentru un singur fond selectat.</p>
+
+<p>De exemplu, dacă selectezi fondul „Necesități”, raportul va include doar cheltuielile din acel fond. Tranzacțiile din alte fonduri nu vor fi luate în calcul, chiar dacă folosesc aceleași etichete.</p>
+
+
+<p>Pentru fiecare etichetă sunt afișate două valori:</p>
+
+<ul>
+  
+  <li><strong>suma</strong> — cât s-a cheltuit în total în tranzacțiile cu această etichetă;</li>
+  
+  <li><strong>numărul de tranzacții</strong> — de câte ori a fost folosită eticheta pentru cheltuieli în perioada selectată.</li>
+  
+</ul>
+
+<p>De exemplu, dacă eticheta „Livrare mâncare” a fost folosită în patru tranzacții cu o valoare totală de 650, raportul va afișa:</p>
+
+<ul>
+  
+  <li>suma — 650;</li>
+  
+  <li>numărul de tranzacții — 4.</li>
+  
+</ul>
+
+
+
+<p>Aceste valori arată cheltuielile din perspective diferite. O sumă mare poate proveni atât dintr-o singură achiziție importantă, cât și din multe achiziții mai mici.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="sort-by-amount">Sortarea după sumă</h2>
+
+
+<p>La sortarea după sumă, etichetele cu cele mai mari cheltuieli totale sunt afișate primele.</p>
+
+<p>Acest mod te ajută să răspunzi la întrebarea:</p>
+
+
+<blockquote><p>Ce tipuri de cheltuieli au avut cel mai mare impact asupra soldului fondului?</p></blockquote>
+<p>De exemplu, un raport lunar poate conține următoarele date:</p>
+
+<table>
+  <thead>
+    <tr>
+      
+      <th>Etichetă</th>
+      
+      <th>Sumă</th>
+      
+      <th>Număr</th>
+      
+    </tr>
+  </thead>
+  <tbody>
+    
+    <tr>
+      
+      <td>Alimente</td>
+      
+      <td>2 400</td>
+      
+      <td>12</td>
+      
+    </tr>
+    
+    <tr>
+      
+      <td>Produse pentru casă</td>
+      
+      <td>750</td>
+      
+      <td>3</td>
+      
+    </tr>
+    
+    <tr>
+      
+      <td>Livrare mâncare</td>
+      
+      <td>650</td>
+      
+      <td>4</td>
+      
+    </tr>
+    
+    <tr>
+      
+      <td>Cafea</td>
+      
+      <td>480</td>
+      
+      <td>16</td>
+      
+    </tr>
+    
+  </tbody>
+</table>
+
+
+
+<p>În acest exemplu, cea mai mare parte a cheltuielilor a fost pentru alimente. Chiar dacă s-a cumpărat cafea mai des, impactul acesteia asupra sumei totale a fost mult mai mic.</p>
+
+
+<p>Sortarea după sumă este utilă pentru a:</p>
+
+<ul>
+  
+  <li>identifica tipurile de cumpărături cu cele mai mari costuri;</li>
+  
+  <li>vedea ce cheltuieli au influențat cel mai mult soldul;</li>
+  
+  <li>alege o etichetă pentru o analiză mai detaliată;</li>
+  
+  <li>compara structura cheltuielilor între perioade diferite.</li>
+  
+</ul>
+
+
+
+<p>O sumă mare nu înseamnă automat că o cheltuială a fost inutilă. De exemplu, alimentele pot fi pe primul loc doar pentru că reprezintă una dintre principalele cheltuieli din fondul selectat.</p>
+
+<p>Raportul arată unde s-au dus banii, dar dacă acele cheltuieli au fost necesare depinde de scopul fondului și de situația ta.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="sort-by-count">Sortarea după numărul de tranzacții</h2>
+
+
+<p>La sortarea după numărul de tranzacții, etichetele folosite cel mai des sunt afișate primele.</p>
+
+<p>Acest mod răspunde la o altă întrebare:</p>
+
+
+<blockquote><p>Ce cheltuieli apar cel mai regulat?</p></blockquote>
+
+
+<p>Tranzacțiile frecvente nu sunt neapărat și cele cu cea mai mare sumă. Totuși, ele pot indica un obicei repetitiv.</p>
+
+<p>În exemplul anterior, cafeaua a fost cumpărată de 16 ori — mai des decât orice altă cheltuială. Suma totală a fost relativ mică, așa că această etichetă ar apărea mai jos la sortarea după sumă.</p>
+
+
+<p>Sortarea după numărul de tranzacții te ajută să identifici:</p>
+
+<ul>
+  
+  <li>cumpărături care se repetă frecvent;</li>
+  
+  <li>cheltuieli care au devenit un obicei;</li>
+  
+  <li>multe tranzacții mici;</li>
+  
+  <li>situații în care poate fi mai util să reduci frecvența cumpărăturilor decât suma fiecărei cumpărături.</li>
+  
+</ul>
+
+
+
+<p>De exemplu, o achiziție de 500 este mai vizibilă decât zece achiziții de câte 50. Totuși, suma totală este aceeași în ambele cazuri. Sortarea după numărul de tranzacții face mai ușor de observat al doilea scenariu.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="progress-bars">Cum să citești barele</h2>
+
+
+<p>Lângă fiecare etichetă este afișată o bară care permite compararea vizuală a sumelor cheltuite.</p>
+
+<p>Eticheta cu cea mai mare sumă de cheltuieli din perioada selectată este considerată 100%. Celelalte bare sunt calculate în raport cu aceasta.</p>
+
+
+<p>De exemplu:</p>
+
+<ul>
+  
+  <li>„Alimente” — 2 000;</li>
+  
+  <li>„Livrare mâncare” — 1 000;</li>
+  
+  <li>„Cafea” — 500.</li>
+  
+</ul>
+
+<p>În acest caz:</p>
+
+<ul>
+  
+  <li>bara „Alimente” va fi complet umplută;</li>
+  
+  <li>„Livrare mâncare” va fi umplută aproximativ pe jumătate;</li>
+  
+  <li>„Cafea” va fi umplută aproximativ un sfert.</li>
+  
+</ul>
+
+
+
+<p>Bara nu arată ponderea etichetei în totalul cheltuielilor. O bară complet umplută nu înseamnă că 100% din cheltuielile tale au fost asociate acelei etichete. Înseamnă doar că aceasta are cea mai mare sumă din raportul curent.</p>
+
+<p>Vizualizarea se bazează întotdeauna pe sumă, chiar dacă lista este sortată după numărul de tranzacții.</p>
+
+<p>Prin urmare, când schimbi modul de sortare, ordinea etichetelor se poate modifica, dar lungimea barelor va continua să reprezinte sumele cheltuite.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="tag-sum-mismatch">De ce totalul după etichete poate fi diferit de totalul cheltuielilor</h2>
+
+
+<p>O singură tranzacție poate avea mai multe etichete. În acest caz, întreaga sumă a tranzacției este luată în calcul separat pentru fiecare etichetă selectată.</p>
+
+
+<p>De exemplu, cheltuiești 300 și adaugi două etichete tranzacției:</p>
+
+<ul>
+  
+  <li>„Alimente”;</li>
+  
+  <li>„Oaspeți”.</li>
+  
+</ul>
+
+<p>În raport, această tranzacție va adăuga:</p>
+
+<ul>
+  
+  <li>300 la eticheta „Alimente”;</li>
+  
+  <li>300 la eticheta „Oaspeți”.</li>
+  
+</ul>
+
+
+
+<p>În realitate, din fond au fost scăzuți doar 300, dar suma valorilor celor două etichete va fi 600.</p>
+
+<p>Aceasta nu este o debitare dublă și nici o eroare de calcul. În aplicație, etichetele sunt caracteristici ale unei tranzacții, nu părți între care se împarte suma acesteia.</p>
+
+
+<p>O singură cumpărătură poate răspunde simultan la mai multe întrebări:</p>
+
+<ul>
+  
+  <li><strong>ce ai cumpărat?</strong> — alimente;</li>
+  
+  <li><strong>pentru ce?</strong> — pentru oaspeți;</li>
+  
+  <li><strong>unde?</strong> — la piață;</li>
+  
+  <li><strong>cumpărătura a fost planificată?</strong> — neplanificată.</li>
+  
+</ul>
+
+
+
+<p>Fiecare etichetă îți permite să privești aceeași tranzacție dintr-o perspectivă diferită.</p>
+
+<p>De aceea, nu ar trebui să aduni toate rândurile raportului pentru a calcula totalul cheltuielilor.</p>
+
+
+<p>Pentru a vedea suma cheltuită efectiv în perioada respectivă, consultă raportul <a href="/ro/apps/6-jars-finance/articles/report-funds-movement/">„Mișcarea fondurilor”</a>.</p>
+</div>
+
+<div class="article-section">
+<h2 id="compare-amount-and-count">Cum să compari suma și numărul de tranzacții</h2>
+<p>Cele mai utile informații apar adesea atunci când analizezi ambele valori împreună.</p>
+<div class="article-subsection">
+<h3>Sumă mare și multe tranzacții</h3>
+
+
+<p>Cheltuiala este atât mare, cât și recurentă.</p>
+
+<p>De exemplu, alimentele pot fi cumpărate de mai multe ori pe săptămână și pot reprezenta o parte importantă a cheltuielilor fondului.</p>
+
+<p>Acest lucru nu indică neapărat o problemă, dar arată că schimbările din această zonă ar avea cel mai mare impact asupra soldului general.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Sumă mare și puține tranzacții</h3>
+
+
+<p>Cea mai mare parte a sumei provine din una sau câteva achiziții importante.</p>
+
+<p>De exemplu, eticheta „Reparații” poate fi folosită doar de două ori și totuși să fie pe primul loc după sumă.</p>
+
+<p>În această situație, este util să verifici dacă au fost cheltuieli ocazionale. Dacă da, o singură lună nu descrie neapărat structura ta obișnuită de cheltuieli.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Sumă mică și multe tranzacții</h3>
+
+
+<p>Cheltuiala apare frecvent, dar fiecare tranzacție individuală este relativ mică.</p>
+
+<p>Cafeaua, gustările, transportul sau micile cumpărături făcute în drum spre casă pot arăta astfel.</p>
+
+<p>Aceste cheltuieli pot trece ușor neobservate deoarece fiecare tranzacție pare nesemnificativă. Raportul te ajută să vezi mai clar frecvența lor totală și impactul asupra bugetului.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Sumă mică și puține tranzacții</h3>
+
+
+<p>Cheltuiala a fost rară și a avut un impact redus asupra imaginii generale.</p>
+
+<p>Astfel de etichete nu necesită de obicei o atenție specială, decât dacă urmărești intenționat un anumit obicei sau obiectiv.</p>
+
+
+</div>
+</div>
+
+<div class="article-section">
+<h2 id="conclusions">Ce poți afla din raport</h2>
+<div class="article-subsection">
+<h3>Pe ce cheltuiești cei mai mulți bani</h3>
+
+
+<p>Sortarea după sumă arată ce tipuri de cheltuieli au avut cel mai mare impact asupra soldului fondului selectat în timpul lunii.</p>
+
+<p>Dacă o etichetă este mult peste celelalte, verifică mai întâi dacă acest lucru corespunde scopului fondului. De exemplu, cheltuielile mari cu alimentele pot fi normale în fondul „Necesități”, în timp ce o sumă mare pentru „Livrare mâncare” poate fi un motiv să verifici dacă comenzile au devenit prea frecvente sau prea costisitoare.</p>
+
+
+<p>Compară suma cu numărul de tranzacții:</p>
+
+<ul>
+  
+  <li>o sumă mare cu puține tranzacții indică de obicei câteva achiziții importante;</li>
+  
+  <li>o sumă mare cu multe tranzacții indică cheltuieli recurente care s-au acumulat pe parcursul lunii.</li>
+  
+</ul>
+
+
+
+<p>Acest lucru te ajută să înțelegi ce poți schimba în mod real. În primul caz, verifică dacă achiziția mare a fost ocazională și planificată. În al doilea caz, analizează dacă poți reduce costul mediu al unei achiziții sau dacă poți face astfel de cumpărături mai rar.</p>
+
+<p>O sumă mare, în sine, nu înseamnă că ai cheltuit prea mult. Ea arată ce tipuri de cheltuieli au cel mai mare impact asupra fondului și unde o schimbare ar produce cel mai vizibil rezultat.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Ce cumpărături apar cel mai des</h3>
+
+
+<p>Sortarea după numărul de tranzacții poate scoate în evidență obiceiuri care nu sunt întotdeauna evidente dacă privești doar suma totală.</p>
+
+<p>De exemplu, câteva comenzi de mâncare pot costa mai mult într-o lună decât cafeaua, dar cumpărarea zilnică a cafelei va face ca această etichetă să apară mai sus după numărul de tranzacții.</p>
+
+<p>În funcție de obiectivul tău, poate fi mai util să analizezi fie costul unui obicei, fie frecvența acestuia.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Dacă cheltuielile provin din tranzacții mari sau mici</h3>
+
+
+<p>Suma și numărul de tranzacții îți oferă o idee aproximativă despre natura cheltuielilor.</p>
+
+
+<p>De exemplu:</p>
+
+<ul>
+  
+  <li>1 200 în 2 tranzacții — probabil câteva cumpărături mari;</li>
+  
+  <li>1 200 în 24 de tranzacții — multe cumpărături mici.</li>
+  
+</ul>
+
+
+
+<p>Pentru o analiză mai detaliată, poți deschide detaliile unei anumite etichete. Acolo vei vedea suma totală, numărul de tranzacții, cheltuiala medie și modul în care cheltuielile sunt distribuite între zilele lunii.</p>
+
+
+</div>
+<div class="article-subsection">
+<h3>Ce cheltuieli merită analizate mai atent</h3>
+<p>Etichetele care pot necesita atenție suplimentară sunt cele care:</p>
+
+<ul>
+  
+  <li>se află în partea de sus a listei după sumă;</li>
+  
+  <li>sunt utilizate vizibil mai des decât celelalte;</li>
+  
+  <li>au crescut neașteptat față de nivelul obișnuit;</li>
+  
+  <li>au simultan o sumă mare și multe tranzacții;</li>
+  
+  <li>reprezintă cumpărături opționale sau neplanificate.</li>
+  
+</ul>
+
+
+
+<p>Raportul nu stabilește ce cheltuieli sunt bune sau rele. El te ajută să identifici zonele pe care poate merită să le analizezi mai atent.</p>
+
+
+</div>
+</div>
+
+<div class="article-section">
+<h2 id="compare-months">Compară luni diferite</h2>
+
+
+<p>Pentru a observa schimbările din cheltuielile tale, compară rapoartele din mai multe luni.</p>
+
+<p>Atunci când compari, urmărește atât suma, cât și numărul de tranzacții. Cheltuielile asociate unei etichete pot crește din mai multe motive:</p>
+
+
+
+<ul>
+  
+  <li>cumpărăturile au început să apară mai frecvent;</li>
+  
+  <li>costul mediu al unei cumpărături a crescut;</li>
+  
+  <li>a existat o tranzacție mare în timpul lunii;</li>
+  
+  <li>ai început să folosești eticheta mai consecvent.</li>
+  
+</ul>
+
+<p>Ia în considerare și evenimentele care ți-ar fi putut modifica temporar cheltuielile:</p>
+
+<ul>
+  
+  <li>sărbători;</li>
+  
+  <li>vacanțe;</li>
+  
+  <li>o mutare;</li>
+  
+  <li>o achiziție importantă;</li>
+  
+  <li>vizita unor oaspeți;</li>
+  
+  <li>o schimbare temporară a stilului de viață.</li>
+  
+</ul>
+
+
+
+<p>O creștere a cheltuielilor într-o singură lună nu înseamnă neapărat că s-a format un nou obicei. Este mai util să verifici dacă schimbarea continuă și în lunile următoare.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="consistent-tags">Folosește etichetele în mod consecvent</h2>
+
+
+<p>Calitatea raportului depinde de cât de consecvent folosești etichetele.</p>
+
+<p>Dacă adaugi o etichetă la unele cumpărături similare, dar la altele nu, raportul va afișa doar o parte din cheltuielile reale.</p>
+
+<p>De exemplu, dacă vrei să urmărești livrările de mâncare, adaugă eticheta corespunzătoare la fiecare astfel de tranzacție. În caz contrar, atât suma, cât și numărul de tranzacții vor fi mai mici decât în realitate.</p>
+
+<p>Este util să stabilești dinainte ce înseamnă fiecare etichetă.</p>
+
+
+<p>De exemplu:</p>
+
+<ul>
+  
+  <li>„Cafenele și restaurante” — toate cumpărăturile făcute în localuri;</li>
+  
+  <li>„Livrare mâncare” — doar comenzile livrate acasă;</li>
+  
+  <li>„Gustări” — mici cumpărături alimentare neplanificate făcute în afara casei.</li>
+  
+</ul>
+
+
+
+<p>Cu cât regulile de utilizare a etichetelor sunt mai clare, cu atât este mai ușor să compari datele din perioade diferite.</p>
+
+<p>Nu este necesar să adaugi etichete la fiecare tranzacție. Folosește-le atunci când vrei cu adevărat să urmărești un anumit tip de cheltuială, un obicei sau contextul unei cumpărături.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="analysis-example">Exemplu de analiză a raportului</h2>
+<p>Să presupunem că fondul „Distracție” afișează următoarele date pentru o lună:</p>
+
+<table>
+  <thead>
+    <tr>
+      
+      <th>Etichetă</th>
+      
+      <th>Sumă</th>
+      
+      <th>Număr</th>
+      
+    </tr>
+  </thead>
+  <tbody>
+    
+    <tr>
+      
+      <td>Ieșiri cu prietenii</td>
+      
+      <td>1 800</td>
+      
+      <td>4</td>
+      
+    </tr>
+    
+    <tr>
+      
+      <td>Livrare mâncare</td>
+      
+      <td>1 400</td>
+      
+      <td>7</td>
+      
+    </tr>
+    
+    <tr>
+      
+      <td>Jocuri</td>
+      
+      <td>1 000</td>
+      
+      <td>1</td>
+      
+    </tr>
+    
+    <tr>
+      
+      <td>Cafea</td>
+      
+      <td>800</td>
+      
+      <td>16</td>
+      
+    </tr>
+    
+  </tbody>
+</table>
+
+
+
+<p>La sortarea după sumă, poți vedea că ieșirile cu prietenii au reprezentat cea mai mare cheltuială.</p>
+
+<p>Dar sortarea după numărul de tranzacții arată o altă imagine: cumpărăturile cu eticheta „Cafea” au fost cele mai frecvente.</p>
+
+
+<p>Din raport pot fi trase mai multe concluzii:</p>
+
+<ul>
+  
+  <li>ieșirile cu prietenii au fost principala categorie de cheltuieli;</li>
+  
+  <li>achiziția unui joc a fost mare, dar ocazională;</li>
+  
+  <li>livrările de mâncare au fost regulate și s-au clasat pe locul al doilea după sumă;</li>
+  
+  <li>cafeaua a fost cumpărată cel mai des, chiar dacă suma totală a fost mai mică.</li>
+  
+</ul>
+
+
+
+<p>Nu există aici o singură cheltuială „rea”. Concluzia depinde de ceea ce vrei să înțelegi.</p>
+
+<p>Dacă vrei să reduci rapid cheltuielile, este mai simplu să începi cu cele mai mari categorii. Dacă vrei să schimbi un obicei zilnic, poate fi mai util să analizezi tranzacțiile frecvente.</p>
+
+
+</div>
+
+<div class="article-section">
+<h2 id="summary">Ideile principale</h2>
+
+
+<p>Raportul „Cheltuieli după etichete” arată cheltuielile din două perspective:</p>
+
+
+
+<ul>
+  
+  <li><strong>suma</strong> arată impactul financiar;</li>
+  
+  <li><strong>numărul de tranzacții</strong> arată frecvența.</li>
+  
+</ul>
+
+
+
+<p>Sortarea după sumă te ajută să identifici cele mai costisitoare tipuri de cumpărături, iar sortarea după numărul de tranzacții le evidențiază pe cele mai frecvente.</p>
+
+<p>Atunci când o tranzacție are mai multe etichete, suma tuturor valorilor etichetelor poate depăși cheltuielile reale, deoarece întreaga sumă a tranzacției este luată în calcul separat pentru fiecare etichetă. Acest lucru îți permite să analizezi aceeași cumpărătură din perspective diferite, dar înseamnă și că nu trebuie să aduni toate rândurile raportului pentru a calcula totalul cheltuielilor.</p>
+
+<p>Folosește raportul nu pentru a identifica automat cumpărături „inutile”, ci pentru a găsi zone de cheltuieli care pot merita o analiză mai atentă.</p>
+
+
+</div>
+
+  </div>
+  <aside class="article-toc" aria-label="Navigarea în pagină">
+    <nav class="article-toc__nav">
+      <p class="article-toc__title">Pe această pagină</p>
+      <ol class="article-toc__list"></ol>
+    </nav>
+  </aside>
+</div>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+  <div class="container site-footer__inner">
+    <p class="site-footer__copyright">© 2026 Artem D Apps</p>
+    <nav class="site-footer__nav" aria-label="Informații despre site">
+      <a class="site-footer__link" href="/ro/apps/6-jars-finance/help/">Informații despre eroare</a>
+      <a class="site-footer__link" href="/ro/apps/6-jars-finance/articles/report-funds-movement/">Funds Movement Report</a>
+      <a class="site-footer__link" href="/ro/apps/6-jars-finance/articles/report-spendings-by-tags/">Spendings by Tags Report</a>
+      <a class="site-footer__link" href="/ro/apps/6-jars-finance/privacy/">Politica de confidențialitate</a>
+      <a class="site-footer__link" href="/ro/apps/6-jars-finance/licenses/">Licențe open source</a>
+    </nav>
+  </div>
+</footer>
+
+  
+  <script src="/assets/article-toc.js" defer></script>
+
+  
+  <script src="/assets/js/analytics.js" defer></script>
+</body>
+</html>

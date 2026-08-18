@@ -12,6 +12,7 @@
       "privacy": "Privacybeleid",
       "help": "Informatie over fouten",
       "reportFundsMovement": "Funds Movement Report",
+      "reportSpendingsByTags": "Spendings by Tags Report",
       "licenses": "Open-sourcelicenties"
     }
   },
