@@ -28,7 +28,9 @@
       "guide": "Metodo dei sei fondi"
     },
     "footer": {
-      "label": "Informazioni sul sito"
+      "label": "Informazioni sul sito",
+      "guides": "Guide",
+      "information": "Informazioni"
     },
     "help": {
       "metaDescription": "Informazioni su un errore durante l’esecuzione di un’operazione nell’app A.D.A.",

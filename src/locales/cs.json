@@ -28,7 +28,9 @@
       "guide": "Metoda šesti fondů"
     },
     "footer": {
-      "label": "Informace o webu"
+      "label": "Informace o webu",
+      "guides": "Průvodce",
+      "information": "Informace"
     },
     "help": {
       "metaDescription": "Informace o chybě při provádění operace v aplikaci A.D.A.",

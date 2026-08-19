@@ -28,7 +28,9 @@
       "guide": "Método das seis reservas"
     },
     "footer": {
-      "label": "Informações sobre o site"
+      "label": "Informações sobre o site",
+      "guides": "Guias",
+      "information": "Informações"
     },
     "help": {
       "metaDescription": "Informações sobre um erro ao executar uma operação no app A.D.A.",

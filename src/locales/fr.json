@@ -28,7 +28,9 @@
       "guide": "Méthode des six enveloppes"
     },
     "footer": {
-      "label": "Informations sur le site"
+      "label": "Informations sur le site",
+      "guides": "Guides",
+      "information": "Informations"
     },
     "help": {
       "metaDescription": "Informations sur une erreur lors de l’exécution d’une opération dans l’application A.D.A.",

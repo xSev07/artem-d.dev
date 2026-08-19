@@ -28,7 +28,9 @@
       "guide": "Six Jars Method"
     },
     "footer": {
-      "label": "Site information"
+      "label": "Site information",
+      "guides": "Guides",
+      "information": "Information"
     },
     "help": {
       "metaDescription": "Information about an operation error in the A.D.A app.",

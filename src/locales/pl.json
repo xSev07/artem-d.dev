@@ -28,7 +28,9 @@
       "guide": "Metoda sześciu słoików"
     },
     "footer": {
-      "label": "Informacje o stronie"
+      "label": "Informacje o stronie",
+      "guides": "Przewodniki",
+      "information": "Informacje"
     },
     "help": {
       "metaDescription": "Informacje o błędzie podczas wykonywania operacji w aplikacji A.D.A.",

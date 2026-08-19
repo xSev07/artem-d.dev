@@ -28,7 +28,9 @@
       "guide": "Altı Kavanoz Yöntemi"
     },
     "footer": {
-      "label": "Site bilgileri"
+      "label": "Site bilgileri",
+      "guides": "Rehberler",
+      "information": "Bilgi"
     },
     "help": {
       "metaDescription": "A.D.A uygulamasında bir işlem yürütülürken oluşan hata hakkında bilgi.",

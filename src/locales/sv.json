@@ -28,7 +28,9 @@
       "guide": "Sex-pottarsmetoden"
     },
     "footer": {
-      "label": "Information om webbplatsen"
+      "label": "Information om webbplatsen",
+      "guides": "Guider",
+      "information": "Information"
     },
     "help": {
       "metaDescription": "Information om ett fel vid utförande av en åtgärd i A.D.A-appen.",

@@ -28,7 +28,9 @@
       "guide": "Metode Enam Pos"
     },
     "footer": {
-      "label": "Informasi situs"
+      "label": "Informasi situs",
+      "guides": "Panduan",
+      "information": "Informasi"
     },
     "help": {
       "metaDescription": "Informasi tentang kesalahan saat menjalankan operasi di aplikasi A.D.A.",

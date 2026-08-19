@@ -28,7 +28,9 @@
       "guide": "Metoda celor șase fonduri"
     },
     "footer": {
-      "label": "Informații despre site"
+      "label": "Informații despre site",
+      "guides": "Ghiduri",
+      "information": "Informații"
     },
     "help": {
       "metaDescription": "Informații despre o eroare la efectuarea unei operațiuni în aplicația A.D.A.",
