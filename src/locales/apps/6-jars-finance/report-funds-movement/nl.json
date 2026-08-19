@@ -1,0 +1,408 @@
+{
+  "title": "Zo lees je het rapport ‘Geldstromen’",
+  "metaDescription": "Het rapport ‘Geldstromen’ laat zien hoe het saldo van de geselecteerde pot gedurende een bepaalde periode is veranderd.",
+  "intro": {
+    "paragraphs": [
+      "Het rapport ‘Geldstromen’ laat zien hoe het saldo van de geselecteerde pot gedurende een bepaalde periode is veranderd."
+    ],
+    "listIntro": "Hiermee kun je zien:",
+    "items": [
+      "hoeveel geld er aan het begin van de periode in de pot zat;",
+      "hoeveel geld er is toegevoegd;",
+      "hoeveel er is uitgegeven;",
+      "hoeveel het saldo is veranderd;",
+      "hoeveel geld er aan het einde van de periode overbleef;",
+      "op welke momenten duidelijke veranderingen plaatsvonden."
+    ],
+    "closingParagraphs": [
+      "Het rapport wordt voor slechts één geselecteerde pot opgebouwd. Zie het daarom niet als een totaalbeeld van al je financiën, maar als de geschiedenis van de geldstromen binnen één specifiek deel van je budget."
+    ]
+  },
+  "overview": {
+    "title": "Inhoud",
+    "metrics": "Wat de cijfers betekenen",
+    "readingChart": "Zo lees je de grafiek",
+    "sameResultDifferentMovement": "Hetzelfde resultaat kan heel verschillende geldstromen verbergen",
+    "monthlyInsights": "Wat je uit de grafiek over een maand kunt afleiden",
+    "longTermInsights": "Wat je uit de grafiek over meerdere maanden of een jaar kunt afleiden",
+    "differentJars": "Verschillende potten moet je anders beoordelen",
+    "whenToChangeShare": "Wanneer je het aandeel van een pot kunt aanpassen",
+    "limitations": "Beperkingen van het rapport",
+    "questions": "Welke vragen je jezelf kunt stellen"
+  },
+  "metrics": {
+    "title": "Wat de cijfers betekenen",
+    "openingBalance": {
+      "title": "Beginsaldo",
+      "paragraphs": [
+        "Het beginsaldo is het bedrag dat aan het begin van de geselecteerde periode in de pot zat.",
+        "Dit is niet noodzakelijk het bedrag van de laatste storting en ook niet het huidige saldo van de pot. Als er bijvoorbeeld aan het begin van de maand nog geld uit de vorige maand in de pot zat, wordt dat ook in het beginsaldo opgenomen."
+      ]
+    },
+    "deposits": {
+      "title": "Stortingen",
+      "paragraphs": [
+        "Stortingen tonen het totale bedrag dat gedurende de geselecteerde periode aan de pot is toegevoegd."
+      ],
+      "listIntro": "Dit kan bijvoorbeeld zijn:",
+      "items": [
+        "een deel van het verdeelde inkomen;",
+        "een extra storting;",
+        "geld dat na een eerdere uitgave is teruggekomen;",
+        "een overboeking vanuit een andere pot."
+      ],
+      "closingParagraphs": [
+        "Het rapport toont het totale bedrag aan stortingen, maar niet waarom het geld is toegevoegd. Bekijk de transactielijst om de herkomst van een specifieke storting te achterhalen."
+      ]
+    },
+    "withdrawals": {
+      "title": "Uitgaven",
+      "paragraphs": [
+        "Uitgaven tonen het totale bedrag dat gedurende de geselecteerde periode uit de pot is uitgegeven.",
+        "Zelfs als het saldo aan het einde van de periode nauwelijks is veranderd, kan het totale bedrag aan uitgaven groot zijn. Dat betekent dat er actief geld is uitgegeven en de pot daarna opnieuw is aangevuld."
+      ]
+    },
+    "netChange": {
+      "title": "Nettoverandering",
+      "paragraphs": [
+        "De nettoverandering laat zien hoeveel het saldo is gestegen of gedaald ten opzichte van het begin van de periode.",
+        "Deze wordt berekend als het verschil tussen stortingen en uitgaven."
+      ],
+      "exampleIntro": "Bijvoorbeeld:",
+      "exampleItems": [
+        "beginsaldo — 1 000;",
+        "stortingen — 2 000;",
+        "uitgaven — 2 300;",
+        "nettoverandering — −300;",
+        "eindsaldo — 700."
+      ],
+      "closingParagraphs": [
+        "Voor een gewone uitgavenpot kan het over een langere periode normaal zijn wanneer de nettoverandering rond nul blijft of het saldo geleidelijk groeit.",
+        "Als de nettoverandering regelmatig negatief blijft, wordt er structureel meer uit de pot uitgegeven dan erin komt. Dit kan betekenen dat er een te klein deel van het inkomen aan wordt toegewezen of dat de uitgaven opnieuw bekeken moeten worden."
+      ]
+    },
+    "closingBalance": {
+      "title": "Eindsaldo",
+      "paragraphs": [
+        "Het eindsaldo is het bedrag dat aan het einde van de geselecteerde periode in de pot overblijft.",
+        "Het omvat het beginsaldo, alle stortingen en alle uitgaven.",
+        "Verwar het eindsaldo niet met de nettoverandering. Het saldo laat zien hoeveel geld er over is, terwijl de nettoverandering laat zien hoeveel dit bedrag verschilt van het beginsaldo."
+      ]
+    }
+  },
+  "readingChart": {
+    "title": "Zo lees je de grafiek",
+    "lead": "De lijn in de grafiek laat zien hoe het saldo van de pot gedurende de geselecteerde periode veranderde.",
+    "lineUp": {
+      "title": "De lijn gaat omhoog",
+      "paragraphs": [
+        "Een stijgende lijn betekent dat er geld aan de pot is toegevoegd.",
+        "Een sterke stijging hangt meestal samen met een grotere storting, bijvoorbeeld door de verdeling van inkomen of een overboeking vanuit een andere pot.",
+        "Een geleidelijke of trapsgewijze stijging kan wijzen op meerdere afzonderlijke stortingen."
+      ]
+    },
+    "lineDown": {
+      "title": "De lijn gaat omlaag",
+      "paragraphs": [
+        "Een dalende lijn betekent dat er geld is uitgegeven.",
+        "Een geleidelijke daling betekent meestal dat het geld gedurende de periode beetje bij beetje wordt uitgegeven.",
+        "Een scherpe daling wijst op een grote uitgave of meerdere uitgaven in korte tijd.",
+        "De grafiek laat zien wanneer de verandering plaatsvond, maar niet waaraan het geld precies is uitgegeven. Daarvoor kun je de transactielijst of het rapport per tag bekijken."
+      ]
+    },
+    "lineFlat": {
+      "title": "De lijn blijft ongeveer op hetzelfde niveau",
+      "listIntro": "Dit kan betekenen dat:",
+      "items": [
+        "er bijna geen uitgaven waren;",
+        "stortingen de uitgaven ongeveer compenseerden;",
+        "geld regelmatig werd uitgegeven en weer toegevoegd;",
+        "de pot maar weinig werd gebruikt."
+      ],
+      "closingParagraphs": [
+        "Een vlakke lijn betekent dus niet automatisch dat er geen activiteit was. Kijk ook naar het totale bedrag aan stortingen en uitgaven."
+      ]
+    },
+    "balanceNearZero": {
+      "title": "Het saldo blijft rond nul",
+      "listIntro": "Als de lijn lange tijd rond nul blijft, kunnen daar verschillende redenen voor zijn:",
+      "items": [
+        "het aandeel van de pot sluit redelijk goed aan op de werkelijke uitgaven;",
+        "het geld is maar net voldoende;",
+        "na elke storting wordt het geld snel uitgegeven;",
+        "de pot moet regelmatig vanuit andere bronnen worden aangevuld."
+      ],
+      "closingParagraphs": [
+        "Vergelijk de grafiek met de totale stortingen en uitgaven om de situatie beter te begrijpen.",
+        "Als de pot regelmatig duidelijk meer stortingen ontvangt dan er normaal bij de inkomensverdeling aan wordt toegewezen, kan dat betekenen dat extra overboekingen nodig zijn."
+      ]
+    },
+    "balanceNegative": {
+      "title": "Het saldo gaat onder nul",
+      "paragraphs": [
+        "Een negatief saldo betekent dat er meer uit de pot is uitgegeven dan erin zat.",
+        "Een eenmalige situatie kan normaal zijn. Een grote aankoop kan bijvoorbeeld vlak voor het volgende inkomen hebben plaatsgevonden."
+      ],
+      "listIntro": "Als de pot regelmatig onder nul komt, kan dat erop wijzen dat:",
+      "items": [
+        "er een te klein deel van het inkomen aan wordt toegewezen;",
+        "de uitgaven voor deze pot zijn gestegen;",
+        "een deel van de uitgaven kan worden verminderd of uitgesteld."
+      ],
+      "closingParagraphs": [
+        "De app staat een negatief saldo toe. Bij de volgende storting wordt het negatieve saldo eerst aangevuld, waardoor er voor de nieuwe periode minder geld beschikbaar blijft."
+      ]
+    },
+    "temporaryMinusNotVisible": {
+      "title": "Waarom een tijdelijk negatief saldo niet altijd zichtbaar is in de grafiek",
+      "paragraphs": [
+        "De grafiek toont de uiteindelijke verandering van het saldo per dag.",
+        "Als een pot binnen dezelfde dag eerst onder nul komt en daarna wordt aangevuld, kan het tijdelijke negatieve saldo onzichtbaar blijven. De grafiek toont alleen de eindstand van die dag."
+      ],
+      "exampleIntro": "Bijvoorbeeld:",
+      "orderedItems": [
+        "Er zat 100 in de pot.",
+        "Je geeft 200 uit en het saldo wordt −100.",
+        "Daarna boek je 150 over vanuit een andere pot.",
+        "Het eindsaldo van de dag is 50."
+      ],
+      "closingParagraphs": [
+        "De grafiek toont een positief eindsaldo, ook al stond de pot gedurende de dag tijdelijk in de min.",
+        "De grafiek is daarom geschikt om de algemene ontwikkeling te analyseren, maar laat niet altijd iedere tussenstand zien."
+      ],
+      "borrowLinkPrefix": "Meer over hoe je tijdelijk geld van jezelf kunt lenen tussen potten lees je in het ",
+      "borrowLinkText": "gedeelte over lenen van jezelf",
+      "borrowLinkSuffix": "."
+    }
+  },
+  "sameResultDifferentMovement": {
+    "title": "Hetzelfde resultaat kan heel verschillende geldstromen verbergen",
+    "openingParagraphs": [
+      "Beoordeel een periode niet alleen op basis van het eindsaldo.",
+      "Stel je twee maanden voor."
+    ],
+    "firstMonthIntro": "In de eerste maand:",
+    "firstMonthItems": [
+      "stortingen — 2 000;",
+      "uitgaven — 2 000;",
+      "nettoverandering — 0."
+    ],
+    "secondMonthIntro": "In de tweede maand:",
+    "secondMonthItems": [
+      "geen stortingen;",
+      "geen uitgaven;",
+      "nettoverandering — 0."
+    ],
+    "closingParagraphs": [
+      "In beide gevallen veranderde het saldo niet, maar in de eerste maand werd de pot actief gebruikt en in de tweede maand was er helemaal geen geldbeweging."
+    ],
+    "summaryListIntro": "Daarom is het nuttig om tegelijk te kijken naar:",
+    "summaryItems": [
+      "beginsaldo;",
+      "stortingen;",
+      "uitgaven;",
+      "nettoverandering;",
+      "de vorm van de lijn in de grafiek."
+    ]
+  },
+  "monthlyInsights": {
+    "title": "Wat je uit de grafiek over een maand kunt afleiden",
+    "lead": "Over een kortere periode helpt het rapport je te zien hoe het geld zich binnen een maand gedraagt.",
+    "moneyRunsOutEarly": {
+      "title": "Het geld is te vroeg op",
+      "paragraphs": [
+        "Als het saldo regelmatig ruim voor de volgende storting richting nul gaat, kan het huidige aandeel van de pot te klein zijn.",
+        "Het is wel belangrijk om een terugkerend patroon te onderscheiden van een eenmalige situatie. Eén ongebruikelijke maand betekent nog niet dat je de verdeling moet aanpassen."
+      ]
+    },
+    "evenSpending": {
+      "title": "Het geld wordt gelijkmatig uitgegeven",
+      "paragraphs": [
+        "Als de lijn gedurende de hele maand geleidelijk daalt, zijn de uitgaven waarschijnlijk redelijk gelijkmatig verdeeld.",
+        "Voor een pot met dagelijkse uitgaven kan dit een normaal patroon zijn."
+      ]
+    },
+    "sharpDropAtStart": {
+      "title": "Aan het begin van de periode is er een scherpe daling",
+      "paragraphs": [
+        "Als een groot deel van het geld direct na een storting wordt uitgegeven, worden er mogelijk aan het begin van de periode grote noodzakelijke uitgaven betaald.",
+        "Dat hoeft geen probleem te zijn. Maar als er daarna regelmatig te weinig geld overblijft voor de rest van de maand, is het verstandig om de verdeling opnieuw te bekijken."
+      ]
+    },
+    "largeDrops": {
+      "title": "De grafiek bevat afzonderlijke grote dalingen",
+      "paragraphs": [
+        "Scherpe dalingen helpen je om de momenten van grote uitgaven te herkennen."
+      ],
+      "listIntro": "Daarna kun je de transacties openen en controleren:",
+      "items": [
+        "wat er is gekocht;",
+        "of de uitgave gepland was;",
+        "of deze regelmatig terugkomt;",
+        "of het zinvol is om er vooraf geld voor te reserveren."
+      ]
+    }
+  },
+  "longTermInsights": {
+    "title": "Wat je uit de grafiek over meerdere maanden of een jaar kunt afleiden",
+    "lead": "Over een langere periode is de grafiek vooral nuttig om blijvende patronen te herkennen.",
+    "introParagraphs": [
+      "Eén maand kan een uitzondering zijn. Een terugkerende ontwikkeling is een sterker signaal dat de instellingen van de pot of de uitgavenstructuur aangepast moeten worden."
+    ],
+    "balanceGrowing": {
+      "title": "Het saldo blijft groeien",
+      "paragraphs": [
+        "Voor een spaarpot is voortdurende groei een verwacht resultaat.",
+        "Bij een gewone uitgavenpot kan een blijvend groeiend saldo betekenen dat er meer geld aan wordt toegewezen dan daadwerkelijk nodig is.",
+        "In dat geval kun je overwegen het aandeel van deze pot te verkleinen en het vrijgekomen deel van het inkomen over andere potten te verdelen.",
+        "Controleer eerst of het opgebouwde geld een specifiek doel heeft. Misschien komt een grote uitgave maar af en toe voor en heb je het huidige saldo later nodig."
+      ]
+    },
+    "balanceDeclining": {
+      "title": "Het saldo blijft dalen",
+      "paragraphs": [
+        "Als de lijn over een langere periode geleidelijk daalt, zijn de uitgaven uit de pot structureel hoger dan de stortingen.",
+        "Een eenmalige daling kan het gevolg zijn van ongewoon grote uitgaven. Maar als dezelfde trend zich maand na maand herhaalt, is de huidige verdeling waarschijnlijk onvoldoende."
+      ],
+      "listIntro": "Controleer in dat geval:",
+      "items": [
+        "of de normale uitgaven die bij het doel van de pot horen zijn gestegen;",
+        "of er in de geselecteerde periode incidentele grote uitgaven waren;",
+        "of je de pot regelmatig vanuit andere potten moet aanvullen."
+      ],
+      "closingParagraphs": [
+        "Als de daling wordt veroorzaakt door blijvende noodzakelijke uitgaven, kun je het aandeel van deze pot vergroten ten koste van andere potten.",
+        "Als incidentele grote uitgaven de oorzaak zijn, hoef je de vaste verdeling niet per se te veranderen. Voor zulke uitgaven kan het handiger zijn om vooraf apart geld opzij te zetten."
+      ]
+    },
+    "extraDeposits": {
+      "title": "De pot wordt regelmatig extra aangevuld",
+      "paragraphs": [
+        "Als de normale stortingen in de pot structureel niet genoeg zijn en je regelmatig geld vanuit andere potten moet overboeken, is dat een belangrijk signaal.",
+        "Ook als deze overboekingen voorkomen dat het saldo lang negatief blijft, laten ze zien dat de werkelijke uitgaven hoger zijn dan oorspronkelijk gepland.",
+        "Overboekingen tussen potten kunnen de grafiek minder duidelijk maken. Daardoor kun je aan de lijn alleen niet altijd zien waarom het saldo zich herstelde. Regelmatige extra stortingen in combinatie met hoge uitgaven zijn echter al een goede reden om het aandeel van de pot opnieuw te bekijken."
+      ]
+    }
+  },
+  "differentJars": {
+    "title": "Verschillende potten moet je anders beoordelen",
+    "lead": "Dezelfde vorm van de grafiek kan iets anders betekenen, afhankelijk van het doel van de pot.",
+    "spendingJar": {
+      "title": "Uitgavenpot",
+      "listIntro": "Voor een pot met dagelijkse uitgaven is het doorgaans normaal dat deze:",
+      "items": [
+        "tussen stortingen daalt;",
+        "regelmatig schommelt;",
+        "tegen het einde van de periode richting nul gaat;",
+        "na de inkomensverdeling weer stijgt."
+      ],
+      "closingParagraphs": [
+        "Het probleem is meestal niet de daling zelf, maar regelmatig diep in de min komen of voortdurend geld uit andere potten moeten overboeken."
+      ]
+    },
+    "savingsJar": {
+      "title": "Spaarpot",
+      "listIntro": "Voor een spaarpot is het doorgaans normaal dat deze:",
+      "items": [
+        "geleidelijk groeit;",
+        "lange tijd geen uitgaven heeft;",
+        "sterk daalt nadat een doel is bereikt en een grote aankoop is gedaan."
+      ],
+      "closingParagraphs": [
+        "Als een spaarpot regelmatig afneemt door dagelijkse uitgaven, wordt het geld mogelijk voor iets anders gebruikt dan waarvoor de pot bedoeld is."
+      ]
+    },
+    "goalJar": {
+      "title": "Pot voor een groot doel of een verplichting",
+      "paragraphs": [
+        "Een aparte pot kan handig zijn als je vooraf geld wilt reserveren voor een specifiek doel of een bepaalde verplichting."
+      ],
+      "examplesIntro": "Bijvoorbeeld:",
+      "examples": [
+        "jaarlijkse verzekering;",
+        "opleiding;",
+        "vakantie;",
+        "renovatie;",
+        "een duur abonnement;",
+        "een grote vaste terugkerende betaling."
+      ],
+      "benefitsIntro": "Met zo’n pot kun je direct zien:",
+      "benefits": [
+        "hoeveel je al hebt opgebouwd;",
+        "of de regelmatige stortingen voldoende zijn;",
+        "of je meer hebt uitgegeven dan gepland;",
+        "of je geld uit andere delen van je budget moet toevoegen."
+      ],
+      "closingParagraphs": [
+        "Je hoeft echter niet voor iedere terugkerende uitgavencategorie een aparte pot te maken.",
+        "Ook grote maar variabele dagelijkse uitgaven, zoals boodschappen, kun je meestal beter binnen een bredere pot bijhouden en met tags analyseren.",
+        "Een aparte pot is vooral nuttig voor een zelfstandig doel of een verplichting waarvoor je vooraf een bepaald bedrag wilt reserveren."
+      ]
+    }
+  },
+  "whenToChangeShare": {
+    "title": "Wanneer je het aandeel van een pot kunt aanpassen",
+    "openingParagraphs": [
+      "Pas de percentages niet aan na één ongebruikelijke maand.",
+      "Kijk eerst of dezelfde situatie zich gedurende meerdere perioden herhaalt."
+    ],
+    "increaseListIntro": "Het kan zinvol zijn het aandeel te vergroten als:",
+    "increaseItems": [
+      "het saldo regelmatig onder nul komt;",
+      "het geld ruim voor het volgende inkomen op is;",
+      "de pot voortdurend extra moet worden aangevuld;",
+      "de uitgaven die bij het doel van de pot horen daadwerkelijk noodzakelijk zijn."
+    ],
+    "decreaseListIntro": "Het kan zinvol zijn het aandeel te verkleinen als:",
+    "decreaseItems": [
+      "het resterende saldo voortdurend groeit;",
+      "het opgebouwde geld geen afzonderlijk spaardoel heeft;",
+      "de werkelijke uitgaven duidelijk lager zijn dan het toegewezen bedrag;",
+      "andere potten regelmatig geld tekortkomen."
+    ],
+    "closingParagraphs": [
+      "De 6-pottenmethode vereist niet dat je de oorspronkelijke percentages voor altijd behoudt. Je kunt en mag de verdeling aanpassen aan je werkelijke uitgaven en veranderingen in je leven."
+    ]
+  },
+  "limitations": {
+    "title": "Beperkingen van het rapport",
+    "openingParagraphs": [
+      "Het rapport ‘Geldstromen’ laat goed zien wat er met het saldo is gebeurd, maar verklaart niet altijd waarom het veranderde."
+    ],
+    "canUnderstandIntro": "Je kunt ermee zien:",
+    "canUnderstandItems": [
+      "of het saldo steeg of daalde;",
+      "wanneer grote veranderingen plaatsvonden;",
+      "of er voldoende geld was;",
+      "of zich een blijvend patroon vormt;",
+      "of de pot regelmatig extra stortingen nodig heeft."
+    ],
+    "cannotDetermineIntro": "Maar de grafiek alleen laat niet altijd zien:",
+    "cannotDetermineItems": [
+      "waaraan het geld precies is uitgegeven;",
+      "waar een storting vandaan kwam;",
+      "of het om een overboeking tussen potten ging;",
+      "waarom het uitgavenpatroon veranderde;",
+      "of het saldo gedurende de dag onder nul kwam."
+    ],
+    "closingParagraphs": [
+      "Gebruik voor een uitgebreidere analyse de transactielijst en de rapporten per tag."
+    ]
+  },
+  "questions": {
+    "title": "Welke vragen je jezelf kunt stellen",
+    "listIntro": "Probeer bij het bekijken van het rapport een aantal vragen te beantwoorden:",
+    "items": [
+      "Is er genoeg geld in de pot tot de volgende storting?",
+      "Op welk moment in de periode begint het saldo meestal richting nul te gaan?",
+      "Komen scherpe dalingen steeds op dezelfde dagen voor?",
+      "Moet ik hier regelmatig geld uit andere potten naartoe overboeken?",
+      "Blijft het resterende saldo groeien zonder specifiek doel?",
+      "Past het huidige aandeel van de pot bij mijn werkelijke uitgaven?",
+      "Zijn grote veranderingen eenmalig of keren ze maand na maand terug?"
+    ],
+    "closingParagraphs": [
+      "Het belangrijkste doel van het rapport is niet alleen om een lijn met de verandering van het saldo te tonen, maar om je te helpen terugkerende patronen te herkennen en te begrijpen hoe goed het gekozen aandeel van de pot aansluit op je werkelijke leven."
+    ]
+  }
+}

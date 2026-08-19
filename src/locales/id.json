@@ -11,6 +11,9 @@
     "pages": {
       "privacy": "Kebijakan Privasi",
       "help": "Informasi Kesalahan",
+      "reportFundsMovement": "Funds Movement Report",
+      "reportSpendingsByTags": "Spendings by Tags Report",
+      "reportTagDetails": "Tag Spending Details Report",
       "licenses": "Lisensi Sumber Terbuka"
     }
   },
@@ -25,7 +28,9 @@
       "guide": "Metode Enam Pos"
     },
     "footer": {
-      "label": "Informasi situs"
+      "label": "Informasi situs",
+      "guides": "Panduan",
+      "information": "Informasi"
     },
     "help": {
       "metaDescription": "Informasi tentang kesalahan saat menjalankan operasi di aplikasi A.D.A.",

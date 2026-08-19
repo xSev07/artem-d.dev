@@ -11,6 +11,9 @@
     "pages": {
       "privacy": "Datenschutzerklärung",
       "help": "Fehlerinformationen",
+      "reportFundsMovement": "Funds Movement Report",
+      "reportSpendingsByTags": "Spendings by Tags Report",
+      "reportTagDetails": "Tag Spending Details Report",
       "licenses": "Open-Source-Lizenzen"
     }
   },
@@ -25,7 +28,9 @@
       "guide": "Sechs-Töpfe-Methode"
     },
     "footer": {
-      "label": "Informationen zur Website"
+      "label": "Informationen zur Website",
+      "guides": "Anleitungen",
+      "information": "Informationen"
     },
     "help": {
       "metaDescription": "Informationen zu einem Fehler bei der Ausführung eines Vorgangs in der A.D.A-App.",

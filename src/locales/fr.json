@@ -11,6 +11,9 @@
     "pages": {
       "privacy": "Politique de confidentialité",
       "help": "Informations sur l’erreur",
+      "reportFundsMovement": "Funds Movement Report",
+      "reportSpendingsByTags": "Spendings by Tags Report",
+      "reportTagDetails": "Tag Spending Details Report",
       "licenses": "Licences open source"
     }
   },
@@ -25,7 +28,9 @@
       "guide": "Méthode des six enveloppes"
     },
     "footer": {
-      "label": "Informations sur le site"
+      "label": "Informations sur le site",
+      "guides": "Guides",
+      "information": "Informations"
     },
     "help": {
       "metaDescription": "Informations sur une erreur lors de l’exécution d’une opération dans l’application A.D.A.",

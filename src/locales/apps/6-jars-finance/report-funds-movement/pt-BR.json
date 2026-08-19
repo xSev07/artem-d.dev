@@ -1,0 +1,408 @@
+{
+  "title": "Como ler o relatório “Movimentação de fundos”",
+  "metaDescription": "O relatório “Movimentação de fundos” mostra como o saldo da reserva selecionada mudou durante um determinado período.",
+  "intro": {
+    "paragraphs": [
+      "O relatório “Movimentação de fundos” mostra como o saldo da reserva selecionada mudou durante um determinado período."
+    ],
+    "listIntro": "Com ele, você pode ver:",
+    "items": [
+      "quanto dinheiro havia na reserva no início do período;",
+      "quanto dinheiro foi adicionado;",
+      "quanto foi gasto;",
+      "quanto o saldo mudou;",
+      "quanto dinheiro restou no final do período;",
+      "em quais momentos ocorreram mudanças significativas."
+    ],
+    "closingParagraphs": [
+      "O relatório é gerado apenas para uma reserva selecionada. Por isso, ele deve ser visto não como uma visão geral de todas as suas finanças, mas como um histórico da movimentação do dinheiro dentro de uma parte específica do seu orçamento."
+    ]
+  },
+  "overview": {
+    "title": "Sumário",
+    "metrics": "O que significam os indicadores",
+    "readingChart": "Como ler o gráfico",
+    "sameResultDifferentMovement": "O mesmo resultado pode esconder movimentações de dinheiro muito diferentes",
+    "monthlyInsights": "O que você pode entender pelo gráfico de um mês",
+    "longTermInsights": "O que você pode entender pelo gráfico de vários meses ou de um ano",
+    "differentJars": "Reservas diferentes devem ser avaliadas de formas diferentes",
+    "whenToChangeShare": "Quando alterar a porcentagem de uma reserva",
+    "limitations": "Limitações do relatório",
+    "questions": "Perguntas para fazer a si mesmo"
+  },
+  "metrics": {
+    "title": "O que significam os indicadores",
+    "openingBalance": {
+      "title": "Saldo inicial",
+      "paragraphs": [
+        "O saldo inicial é o valor que havia na reserva no início do período selecionado.",
+        "Ele não corresponde necessariamente ao valor da última adição nem ao saldo atual da reserva. Por exemplo, se no início do mês ainda havia dinheiro restante do mês anterior, esse valor também será incluído no saldo inicial."
+      ]
+    },
+    "deposits": {
+      "title": "Adições",
+      "paragraphs": [
+        "As adições mostram o valor total de todo o dinheiro acrescentado à reserva selecionada durante o período."
+      ],
+      "listIntro": "Isso pode incluir:",
+      "items": [
+        "uma parte da renda distribuída;",
+        "uma adição extra;",
+        "a devolução de um valor gasto anteriormente;",
+        "uma transferência de outra reserva."
+      ],
+      "closingParagraphs": [
+        "O relatório mostra o total das adições, mas não identifica a origem de cada uma. Para descobrir de onde veio uma adição específica, consulte a lista de transações."
+      ]
+    },
+    "withdrawals": {
+      "title": "Gastos",
+      "paragraphs": [
+        "Os gastos mostram o valor total de todo o dinheiro gasto da reserva selecionada durante o período.",
+        "Mesmo que o saldo quase não tenha mudado até o final do período, o total de gastos pode ser alto. Isso significa que o dinheiro foi usado ativamente e que a reserva foi abastecida novamente depois."
+      ]
+    },
+    "netChange": {
+      "title": "Variação líquida",
+      "paragraphs": [
+        "A variação líquida mostra quanto o saldo aumentou ou diminuiu em relação ao início do período.",
+        "Ela é calculada como a diferença entre as adições e os gastos."
+      ],
+      "exampleIntro": "Por exemplo:",
+      "exampleItems": [
+        "saldo inicial — 1 000;",
+        "adições — 2 000;",
+        "gastos — 2 300;",
+        "variação líquida — −300;",
+        "saldo final — 700."
+      ],
+      "closingParagraphs": [
+        "Para uma reserva comum de gastos, pode ser considerado normal que, em um período longo, a variação líquida fique próxima de zero ou que o saldo cresça gradualmente.",
+        "Se a variação líquida permanecer negativa com frequência, isso significa que a reserva está gastando sistematicamente mais dinheiro do que recebe. Isso pode indicar que uma porcentagem muito pequena da renda está sendo destinada a ela ou que os gastos precisam ser revistos."
+      ]
+    },
+    "closingBalance": {
+      "title": "Saldo final",
+      "paragraphs": [
+        "O saldo final é o valor que resta na reserva ao final do período selecionado.",
+        "Ele inclui o saldo inicial, todas as adições e todos os gastos.",
+        "Não confunda o saldo final com a variação líquida. O saldo mostra quanto dinheiro restou, enquanto a variação líquida mostra quanto esse valor difere do saldo inicial."
+      ]
+    }
+  },
+  "readingChart": {
+    "title": "Como ler o gráfico",
+    "lead": "A linha do gráfico mostra como o saldo da reserva mudou durante o período selecionado.",
+    "lineUp": {
+      "title": "A linha sobe",
+      "paragraphs": [
+        "Uma linha ascendente significa que dinheiro foi adicionado à reserva.",
+        "Uma subida acentuada geralmente está relacionada a uma adição maior, como uma distribuição de renda ou uma transferência de outra reserva.",
+        "Uma subida gradual ou em degraus pode indicar várias adições separadas."
+      ]
+    },
+    "lineDown": {
+      "title": "A linha desce",
+      "paragraphs": [
+        "Uma linha descendente indica gastos.",
+        "Uma queda gradual geralmente significa que o dinheiro está sendo gasto pouco a pouco ao longo do período.",
+        "Uma queda acentuada indica um gasto grande ou vários gastos realizados em pouco tempo.",
+        "O gráfico mostra quando a mudança aconteceu, mas não em que exatamente o dinheiro foi gasto. Para isso, consulte a lista de transações ou o relatório por tags."
+      ]
+    },
+    "lineFlat": {
+      "title": "A linha permanece mais ou menos no mesmo nível",
+      "listIntro": "Isso pode significar que:",
+      "items": [
+        "quase não houve gastos;",
+        "as adições compensaram aproximadamente os gastos;",
+        "o dinheiro foi gasto e adicionado novamente com frequência;",
+        "a reserva foi pouco utilizada."
+      ],
+      "closingParagraphs": [
+        "Portanto, uma linha plana não significa necessariamente que não houve atividade. Também é importante observar o valor total das adições e dos gastos."
+      ]
+    },
+    "balanceNearZero": {
+      "title": "O saldo permanece próximo de zero",
+      "listIntro": "Se a linha permanecer próxima de zero por muito tempo, pode haver vários motivos:",
+      "items": [
+        "a porcentagem da reserva está bem ajustada às necessidades reais;",
+        "o dinheiro é suficiente por pouco;",
+        "o dinheiro é gasto rapidamente após cada adição;",
+        "a reserva precisa ser complementada regularmente por outras fontes."
+      ],
+      "closingParagraphs": [
+        "Para entender melhor a situação, compare o gráfico com os valores totais das adições e dos gastos.",
+        "Se a reserva recebe com frequência muito mais dinheiro do que normalmente é destinado a ela durante a distribuição da renda, talvez ela dependa de transferências adicionais."
+      ]
+    },
+    "balanceNegative": {
+      "title": "O saldo fica abaixo de zero",
+      "paragraphs": [
+        "Um saldo negativo significa que foi gasto mais dinheiro da reserva do que havia disponível nela.",
+        "Uma situação pontual pode ser normal. Por exemplo, uma compra grande pode ter ocorrido pouco antes da próxima renda."
+      ],
+      "listIntro": "Se a reserva fica abaixo de zero com frequência, isso pode indicar que:",
+      "items": [
+        "uma porcentagem muito pequena da renda está sendo destinada a ela;",
+        "os gastos associados a essa reserva aumentaram;",
+        "alguns gastos podem ser reduzidos ou adiados."
+      ],
+      "closingParagraphs": [
+        "O aplicativo permite que a reserva fique com saldo negativo. Na próxima adição, o saldo negativo será compensado primeiro, deixando menos dinheiro disponível para o novo período."
+      ]
+    },
+    "temporaryMinusNotVisible": {
+      "title": "Por que um saldo negativo temporário pode não aparecer no gráfico",
+      "paragraphs": [
+        "O gráfico mostra a alteração final do saldo de cada dia.",
+        "Se uma reserva ficar abaixo de zero e depois receber uma adição no mesmo dia, o saldo negativo intermediário pode não aparecer. O gráfico mostrará apenas o saldo final daquele dia."
+      ],
+      "exampleIntro": "Por exemplo:",
+      "orderedItems": [
+        "Havia 100 na reserva.",
+        "Você gasta 200 e o saldo passa a −100.",
+        "Depois transfere 150 de outra reserva.",
+        "O saldo final do dia é 50."
+      ],
+      "closingParagraphs": [
+        "O gráfico mostrará um saldo final positivo, mesmo que a reserva tenha ficado temporariamente negativa durante o dia.",
+        "Por isso, o gráfico é útil para analisar a tendência geral, mas nem sempre mostra todos os estados intermediários."
+      ],
+      "borrowLinkPrefix": "Você pode saber mais sobre como pegar dinheiro temporariamente emprestado de si mesmo entre as reservas na ",
+      "borrowLinkText": "seção sobre empréstimos para si mesmo",
+      "borrowLinkSuffix": "."
+    }
+  },
+  "sameResultDifferentMovement": {
+    "title": "O mesmo resultado pode esconder movimentações de dinheiro muito diferentes",
+    "openingParagraphs": [
+      "Não avalie um período apenas pelo saldo final.",
+      "Imagine dois meses."
+    ],
+    "firstMonthIntro": "No primeiro mês:",
+    "firstMonthItems": [
+      "adições — 2 000;",
+      "gastos — 2 000;",
+      "variação líquida — 0."
+    ],
+    "secondMonthIntro": "No segundo mês:",
+    "secondMonthItems": [
+      "não houve adições;",
+      "não houve gastos;",
+      "variação líquida — 0."
+    ],
+    "closingParagraphs": [
+      "Nos dois casos, o saldo não mudou, mas no primeiro mês a reserva foi utilizada ativamente, enquanto no segundo não houve nenhuma movimentação de dinheiro."
+    ],
+    "summaryListIntro": "Por isso, é útil observar ao mesmo tempo:",
+    "summaryItems": [
+      "o saldo inicial;",
+      "as adições;",
+      "os gastos;",
+      "a variação líquida;",
+      "o formato da linha no gráfico."
+    ]
+  },
+  "monthlyInsights": {
+    "title": "O que você pode entender pelo gráfico de um mês",
+    "lead": "Em um período curto, o relatório ajuda a entender como o dinheiro se comporta ao longo do mês.",
+    "moneyRunsOutEarly": {
+      "title": "O dinheiro acaba cedo demais",
+      "paragraphs": [
+        "Se o saldo se aproxima de zero com frequência muito antes da próxima adição, a porcentagem atual da reserva pode ser insuficiente.",
+        "No entanto, é importante distinguir um padrão recorrente de uma situação pontual. Um único mês incomum não significa necessariamente que a distribuição deva ser alterada."
+      ]
+    },
+    "evenSpending": {
+      "title": "O dinheiro é gasto de forma uniforme",
+      "paragraphs": [
+        "Se a linha diminui gradualmente durante todo o mês, os gastos provavelmente estão distribuídos de forma relativamente uniforme.",
+        "Para uma reserva destinada a gastos do dia a dia, esse pode ser um comportamento normal."
+      ]
+    },
+    "sharpDropAtStart": {
+      "title": "Há uma queda acentuada no início do período",
+      "paragraphs": [
+        "Se uma parte significativa do dinheiro é gasta logo após uma adição, é possível que grandes despesas obrigatórias sejam pagas no início do período.",
+        "Isso não é necessariamente um problema. Mas se depois delas costuma faltar dinheiro para o restante do mês, pode ser necessário rever a distribuição."
+      ]
+    },
+    "largeDrops": {
+      "title": "O gráfico mostra quedas grandes isoladas",
+      "paragraphs": [
+        "Quedas acentuadas ajudam a identificar as datas de gastos elevados."
+      ],
+      "listIntro": "Depois, você pode abrir as transações e verificar:",
+      "items": [
+        "o que foi comprado;",
+        "se o gasto foi planejado;",
+        "se ele se repete com frequência;",
+        "se vale a pena reservar dinheiro para ele com antecedência."
+      ]
+    }
+  },
+  "longTermInsights": {
+    "title": "O que você pode entender pelo gráfico de vários meses ou de um ano",
+    "lead": "Em um período longo, o gráfico é especialmente útil para identificar padrões persistentes.",
+    "introParagraphs": [
+      "Um único mês pode ser uma exceção. Uma tendência que se repete é um sinal mais forte de que as configurações da reserva ou a estrutura dos gastos podem precisar de ajustes."
+    ],
+    "balanceGrowing": {
+      "title": "O saldo continua crescendo",
+      "paragraphs": [
+        "Para uma reserva de poupança, o crescimento constante é o resultado esperado.",
+        "Mas, em uma reserva comum de gastos, um saldo que cresce continuamente pode significar que ela recebe mais dinheiro do que realmente precisa.",
+        "Nesse caso, você pode considerar reduzir sua porcentagem e redirecionar a diferença para outras reservas.",
+        "Antes de alterar qualquer coisa, verifique se o dinheiro acumulado tem uma finalidade específica. Uma despesa grande pode ocorrer apenas de vez em quando, e talvez você precise do saldo atual mais tarde."
+      ]
+    },
+    "balanceDeclining": {
+      "title": "O saldo continua diminuindo",
+      "paragraphs": [
+        "Se a linha diminui gradualmente durante um período longo, os gastos da reserva estão sistematicamente acima das adições.",
+        "Uma queda pontual pode ser causada por gastos excepcionalmente altos. Mas, se a mesma tendência se repetir mês após mês, a distribuição atual provavelmente não é suficiente."
+      ],
+      "listIntro": "Nesse caso, verifique:",
+      "items": [
+        "se os gastos habituais ligados à finalidade da reserva aumentaram;",
+        "se houve gastos grandes, mas pouco frequentes, durante o período selecionado;",
+        "se você precisa complementar a reserva regularmente usando outras reservas."
+      ],
+      "closingParagraphs": [
+        "Se a queda for causada por despesas necessárias e recorrentes, você pode aumentar a porcentagem dessa reserva reduzindo a de outras.",
+        "Se a causa forem gastos grandes, mas pouco frequentes, não é necessário alterar a distribuição habitual. Para esse tipo de gasto, pode ser mais conveniente guardar dinheiro separadamente com antecedência."
+      ]
+    },
+    "extraDeposits": {
+      "title": "A reserva recebe regularmente adições extras",
+      "paragraphs": [
+        "Se as adições normais não são suficientes e você precisa transferir dinheiro com frequência de outras reservas, isso é um sinal importante.",
+        "Mesmo que essas transferências evitem que o saldo fique negativo por muito tempo, elas mostram que os gastos reais são maiores do que o planejado inicialmente.",
+        "Transferências entre reservas podem deixar o gráfico menos claro. Por isso, a linha sozinha nem sempre permite entender por que o saldo se recuperou. Ainda assim, adições extras frequentes junto com gastos elevados já são um bom motivo para rever a porcentagem da reserva."
+      ]
+    }
+  },
+  "differentJars": {
+    "title": "Reservas diferentes devem ser avaliadas de formas diferentes",
+    "lead": "O mesmo formato do gráfico pode significar coisas diferentes dependendo da finalidade da reserva.",
+    "spendingJar": {
+      "title": "Reserva para gastos",
+      "listIntro": "Para uma reserva destinada a gastos do dia a dia, geralmente é normal que ela:",
+      "items": [
+        "diminua entre as adições;",
+        "varie regularmente;",
+        "se aproxime de zero no final do período;",
+        "volte a crescer após a distribuição da renda."
+      ],
+      "closingParagraphs": [
+        "O problema geralmente não é a queda em si, mas ficar com um saldo muito negativo com frequência ou precisar transferir dinheiro constantemente de outras reservas."
+      ]
+    },
+    "savingsJar": {
+      "title": "Reserva de poupança",
+      "listIntro": "Para uma reserva de poupança, geralmente é normal que ela:",
+      "items": [
+        "cresça gradualmente;",
+        "passe longos períodos sem gastos;",
+        "diminua bastante depois que um objetivo é alcançado e uma compra grande é realizada."
+      ],
+      "closingParagraphs": [
+        "Se uma reserva de poupança diminui regularmente por causa de gastos cotidianos, o dinheiro pode estar sendo usado para algo diferente da finalidade prevista."
+      ]
+    },
+    "goalJar": {
+      "title": "Reserva para um objetivo importante ou uma obrigação",
+      "paragraphs": [
+        "Uma reserva separada pode ser útil quando você precisa separar dinheiro com antecedência para um objetivo ou uma obrigação específica."
+      ],
+      "examplesIntro": "Por exemplo:",
+      "examples": [
+        "seguro anual;",
+        "estudos;",
+        "férias;",
+        "reforma;",
+        "uma assinatura cara;",
+        "um pagamento obrigatório recorrente de valor elevado."
+      ],
+      "benefitsIntro": "Uma reserva desse tipo permite ver imediatamente:",
+      "benefits": [
+        "quanto você já acumulou;",
+        "se as adições regulares são suficientes;",
+        "se você gastou mais do que o planejado;",
+        "se precisa adicionar dinheiro de outras partes do orçamento."
+      ],
+      "closingParagraphs": [
+        "No entanto, não é necessário criar uma reserva separada para cada tipo de gasto recorrente.",
+        "Mesmo gastos cotidianos elevados, mas variáveis, como supermercado, geralmente são mais fáceis de manter dentro de uma reserva mais ampla e analisar usando tags.",
+        "Uma reserva separada é mais útil para um objetivo independente ou uma obrigação para a qual você precisa separar previamente um valor específico."
+      ]
+    }
+  },
+  "whenToChangeShare": {
+    "title": "Quando alterar a porcentagem de uma reserva",
+    "openingParagraphs": [
+      "Não altere as porcentagens depois de um único mês incomum.",
+      "Primeiro, verifique se a mesma situação se repete durante vários períodos."
+    ],
+    "increaseListIntro": "Aumentar a porcentagem pode fazer sentido se:",
+    "increaseItems": [
+      "o saldo fica abaixo de zero com frequência;",
+      "o dinheiro acaba muito antes da próxima renda;",
+      "a reserva precisa constantemente de adições extras;",
+      "os gastos relacionados à sua finalidade são realmente necessários."
+    ],
+    "decreaseListIntro": "Reduzir a porcentagem pode fazer sentido se:",
+    "decreaseItems": [
+      "o saldo restante continua crescendo;",
+      "o dinheiro acumulado não tem uma meta específica de poupança;",
+      "os gastos reais são claramente menores do que o valor destinado;",
+      "outras reservas ficam sem dinheiro com frequência."
+    ],
+    "closingParagraphs": [
+      "O método das 6 reservas não exige que você mantenha para sempre as porcentagens iniciais. A distribuição pode e deve ser adaptada aos seus gastos reais e às mudanças na sua vida."
+    ]
+  },
+  "limitations": {
+    "title": "Limitações do relatório",
+    "openingParagraphs": [
+      "O relatório “Movimentação de fundos” mostra bem o que aconteceu com o saldo, mas nem sempre explica por que ele mudou."
+    ],
+    "canUnderstandIntro": "Com ele, você pode entender:",
+    "canUnderstandItems": [
+      "se o saldo aumentou ou diminuiu;",
+      "quando ocorreram mudanças importantes;",
+      "se havia dinheiro suficiente;",
+      "se está se formando uma tendência persistente;",
+      "se a reserva precisa regularmente de adições extras."
+    ],
+    "cannotDetermineIntro": "Mas o gráfico sozinho nem sempre permite determinar:",
+    "cannotDetermineItems": [
+      "em que exatamente o dinheiro foi gasto;",
+      "de onde veio uma adição;",
+      "se foi uma transferência entre reservas;",
+      "por que o comportamento de gastos mudou;",
+      "se o saldo ficou abaixo de zero durante o dia."
+    ],
+    "closingParagraphs": [
+      "Para uma análise mais detalhada, use a lista de transações e os relatórios por tags."
+    ]
+  },
+  "questions": {
+    "title": "Perguntas para fazer a si mesmo",
+    "listIntro": "Ao analisar o relatório, tente responder a algumas perguntas:",
+    "items": [
+      "Há dinheiro suficiente na reserva até a próxima adição?",
+      "Em que momento do período o saldo costuma começar a se aproximar de zero?",
+      "As quedas acentuadas se repetem nas mesmas datas?",
+      "Preciso transferir dinheiro regularmente de outras reservas para esta?",
+      "O saldo restante continua crescendo sem um objetivo específico?",
+      "A porcentagem atual da reserva corresponde aos meus gastos reais?",
+      "As grandes mudanças são pontuais ou se repetem mês após mês?"
+    ],
+    "closingParagraphs": [
+      "O principal objetivo do relatório não é apenas mostrar uma linha representando a mudança do saldo, mas ajudar você a identificar padrões persistentes e entender até que ponto a porcentagem escolhida para a reserva corresponde à sua realidade."
+    ]
+  }
+}

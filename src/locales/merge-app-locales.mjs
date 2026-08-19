@@ -17,6 +17,9 @@ const PAGE_FOLDER_KEYS = {
   "6-jars-finance": {
     download: ["download"],
     guide: ["articles", "guide"],
+    "report-funds-movement": ["articles", "reportFundsMovement"],
+    "report-spendings-by-tags": ["articles", "reportSpendingsByTags"],
+    "report-tag-details": ["articles", "reportTagDetails"],
   },
 };
 

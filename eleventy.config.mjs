@@ -90,6 +90,31 @@ export default (eleventyConfig) => {
     i18next.t(key, { lng: lang, returnObjects: true, ...options }),
   );
 
+  eleventyConfig.addCollection("sitemap", (collectionApi) => {
+    return collectionApi
+      .getAll()
+      .filter((item) => {
+        if (!item.url) {
+          return false;
+        }
+
+        if (item.url === "/") {
+          return false;
+        }
+
+        if (item.data?.layout === "redirect.njk") {
+          return false;
+        }
+
+        if (item.data?.sitemap === false) {
+          return false;
+        }
+
+        return true;
+      })
+      .sort((a, b) => a.url.localeCompare(b.url));
+  });
+
   eleventyConfig.addFilter(
     "localizedScreenshot",
     (lang, contentPath, filename, fallbackLang = "en") => {

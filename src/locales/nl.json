@@ -11,6 +11,9 @@
     "pages": {
       "privacy": "Privacybeleid",
       "help": "Informatie over fouten",
+      "reportFundsMovement": "Funds Movement Report",
+      "reportSpendingsByTags": "Spendings by Tags Report",
+      "reportTagDetails": "Tag Spending Details Report",
       "licenses": "Open-sourcelicenties"
     }
   },
@@ -25,7 +28,9 @@
       "guide": "Zes-pottenmethode"
     },
     "footer": {
-      "label": "Informatie over de site"
+      "label": "Informatie over de site",
+      "guides": "Handleidingen",
+      "information": "Informatie"
     },
     "help": {
       "metaDescription": "Informatie over een fout bij het uitvoeren van een bewerking in de A.D.A-app.",

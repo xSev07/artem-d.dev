@@ -1,0 +1,408 @@
+{
+  "title": "Cara membaca laporan “Pergerakan Dana”",
+  "metaDescription": "Laporan “Pergerakan Dana” menunjukkan bagaimana saldo pos yang dipilih berubah selama periode tertentu.",
+  "intro": {
+    "paragraphs": [
+      "Laporan “Pergerakan Dana” menunjukkan bagaimana saldo pos yang dipilih berubah selama periode tertentu."
+    ],
+    "listIntro": "Dengan laporan ini, Anda dapat melihat:",
+    "items": [
+      "berapa banyak uang yang ada di pos pada awal periode;",
+      "berapa banyak uang yang ditambahkan;",
+      "berapa banyak yang dibelanjakan;",
+      "seberapa besar saldo berubah;",
+      "berapa banyak uang yang tersisa pada akhir periode;",
+      "kapan perubahan yang signifikan terjadi."
+    ],
+    "closingParagraphs": [
+      "Laporan dibuat hanya untuk satu pos yang dipilih. Karena itu, laporan ini sebaiknya tidak dianggap sebagai gambaran keseluruhan keuangan Anda, melainkan sebagai riwayat pergerakan uang dalam satu bagian tertentu dari anggaran."
+    ]
+  },
+  "overview": {
+    "title": "Daftar isi",
+    "metrics": "Arti setiap indikator",
+    "readingChart": "Cara membaca grafik",
+    "sameResultDifferentMovement": "Hasil yang sama dapat menyembunyikan pergerakan uang yang sangat berbeda",
+    "monthlyInsights": "Apa yang dapat dipahami dari grafik satu bulan",
+    "longTermInsights": "Apa yang dapat dipahami dari grafik beberapa bulan atau satu tahun",
+    "differentJars": "Pos yang berbeda perlu dinilai dengan cara yang berbeda",
+    "whenToChangeShare": "Kapan perlu mengubah porsi suatu pos",
+    "limitations": "Keterbatasan laporan",
+    "questions": "Pertanyaan yang dapat Anda ajukan kepada diri sendiri"
+  },
+  "metrics": {
+    "title": "Arti setiap indikator",
+    "openingBalance": {
+      "title": "Saldo awal",
+      "paragraphs": [
+        "Saldo awal adalah jumlah uang yang ada di pos pada awal periode yang dipilih.",
+        "Jumlah ini tidak selalu sama dengan penambahan terakhir dan juga bukan saldo pos saat ini. Misalnya, jika pada awal bulan masih ada uang yang tersisa dari bulan sebelumnya, jumlah tersebut juga akan masuk ke dalam saldo awal."
+      ]
+    },
+    "deposits": {
+      "title": "Penambahan",
+      "paragraphs": [
+        "Penambahan menunjukkan jumlah total seluruh uang yang ditambahkan ke pos yang dipilih selama periode tersebut."
+      ],
+      "listIntro": "Uang tersebut dapat berasal dari:",
+      "items": [
+        "sebagian dari pendapatan yang dibagikan;",
+        "penambahan tambahan;",
+        "pengembalian uang dari pengeluaran sebelumnya;",
+        "transfer dari pos lain."
+      ],
+      "closingParagraphs": [
+        "Laporan menunjukkan jumlah total penambahan, tetapi tidak menentukan asalnya. Untuk mengetahui dari mana penambahan tertentu berasal, lihat daftar transaksi."
+      ]
+    },
+    "withdrawals": {
+      "title": "Pengeluaran",
+      "paragraphs": [
+        "Pengeluaran menunjukkan jumlah total seluruh uang yang dibelanjakan dari pos yang dipilih selama periode tersebut.",
+        "Walaupun saldo hampir tidak berubah hingga akhir periode, jumlah total pengeluaran tetap dapat besar. Ini berarti uang digunakan secara aktif lalu pos kembali diisi."
+      ]
+    },
+    "netChange": {
+      "title": "Perubahan bersih",
+      "paragraphs": [
+        "Perubahan bersih menunjukkan seberapa besar saldo bertambah atau berkurang dibandingkan dengan awal periode.",
+        "Nilainya dihitung sebagai selisih antara penambahan dan pengeluaran."
+      ],
+      "exampleIntro": "Contohnya:",
+      "exampleItems": [
+        "saldo awal — 1 000;",
+        "penambahan — 2 000;",
+        "pengeluaran — 2 300;",
+        "perubahan bersih — −300;",
+        "saldo akhir — 700."
+      ],
+      "closingParagraphs": [
+        "Untuk pos pengeluaran biasa, dalam jangka panjang perubahan bersih yang tetap mendekati nol atau saldo yang perlahan meningkat umumnya dapat dianggap normal.",
+        "Jika perubahan bersih secara rutin tetap negatif, berarti pos tersebut secara konsisten mengeluarkan lebih banyak uang daripada yang masuk. Ini dapat menunjukkan bahwa porsi pendapatan yang dialokasikan terlalu kecil atau bahwa pengeluarannya perlu ditinjau kembali."
+      ]
+    },
+    "closingBalance": {
+      "title": "Saldo akhir",
+      "paragraphs": [
+        "Saldo akhir adalah jumlah uang yang tersisa di pos pada akhir periode yang dipilih.",
+        "Saldo ini mencakup saldo awal, seluruh penambahan, dan seluruh pengeluaran.",
+        "Jangan tertukar antara saldo akhir dan perubahan bersih. Saldo menunjukkan berapa banyak uang yang tersisa, sedangkan perubahan bersih menunjukkan seberapa besar jumlah tersebut berbeda dari saldo awal."
+      ]
+    }
+  },
+  "readingChart": {
+    "title": "Cara membaca grafik",
+    "lead": "Garis pada grafik menunjukkan bagaimana saldo pos berubah selama periode yang dipilih.",
+    "lineUp": {
+      "title": "Garis bergerak naik",
+      "paragraphs": [
+        "Garis yang naik berarti ada uang yang ditambahkan ke pos.",
+        "Kenaikan tajam biasanya berkaitan dengan penambahan besar, misalnya pembagian pendapatan atau transfer dari pos lain.",
+        "Kenaikan bertahap atau bertingkat dapat menunjukkan beberapa penambahan terpisah."
+      ]
+    },
+    "lineDown": {
+      "title": "Garis bergerak turun",
+      "paragraphs": [
+        "Garis yang turun menunjukkan adanya pengeluaran.",
+        "Penurunan bertahap biasanya berarti uang dibelanjakan sedikit demi sedikit selama periode tersebut.",
+        "Penurunan tajam menunjukkan pengeluaran besar atau beberapa pengeluaran yang dilakukan dalam waktu singkat.",
+        "Grafik menunjukkan kapan perubahan terjadi, tetapi tidak menunjukkan untuk apa uang tersebut dibelanjakan. Untuk itu, buka daftar transaksi atau laporan berdasarkan tag."
+      ]
+    },
+    "lineFlat": {
+      "title": "Garis tetap kurang lebih pada tingkat yang sama",
+      "listIntro": "Hal ini dapat berarti bahwa:",
+      "items": [
+        "hampir tidak ada pengeluaran;",
+        "penambahan kurang lebih mengimbangi pengeluaran;",
+        "uang secara rutin dibelanjakan lalu ditambahkan kembali;",
+        "pos jarang digunakan."
+      ],
+      "closingParagraphs": [
+        "Karena itu, garis datar tidak selalu berarti tidak ada aktivitas. Perhatikan juga jumlah total penambahan dan pengeluaran."
+      ]
+    },
+    "balanceNearZero": {
+      "title": "Saldo tetap mendekati nol",
+      "listIntro": "Jika garis tetap mendekati nol dalam waktu lama, ada beberapa kemungkinan:",
+      "items": [
+        "porsi pos cukup sesuai dengan kebutuhan sebenarnya;",
+        "uang hanya cukup pas-pasan;",
+        "uang cepat dibelanjakan setelah setiap penambahan;",
+        "pos perlu diisi tambahan secara rutin dari sumber lain."
+      ],
+      "closingParagraphs": [
+        "Untuk memahami situasinya dengan lebih baik, bandingkan grafik dengan jumlah total penambahan dan pengeluaran.",
+        "Jika pos secara rutin menerima jauh lebih banyak uang daripada yang biasanya dialokasikan saat pendapatan dibagikan, pos tersebut mungkin bergantung pada transfer tambahan."
+      ]
+    },
+    "balanceNegative": {
+      "title": "Saldo turun di bawah nol",
+      "paragraphs": [
+        "Saldo negatif berarti jumlah uang yang dibelanjakan dari pos lebih besar daripada jumlah yang tersedia di dalamnya.",
+        "Situasi sesekali dapat dianggap normal. Misalnya, pembelian besar mungkin terjadi tidak lama sebelum pendapatan berikutnya."
+      ],
+      "listIntro": "Jika pos secara rutin turun di bawah nol, hal ini dapat menunjukkan bahwa:",
+      "items": [
+        "porsi pendapatan yang dialokasikan terlalu kecil;",
+        "pengeluaran yang terkait dengan pos ini meningkat;",
+        "sebagian pengeluaran dapat dikurangi atau ditunda."
+      ],
+      "closingParagraphs": [
+        "Aplikasi mengizinkan saldo negatif. Pada penambahan berikutnya, saldo negatif akan ditutup terlebih dahulu, sehingga uang yang tersedia untuk periode baru menjadi lebih sedikit."
+      ]
+    },
+    "temporaryMinusNotVisible": {
+      "title": "Mengapa saldo negatif sementara mungkin tidak terlihat di grafik",
+      "paragraphs": [
+        "Grafik menunjukkan perubahan akhir saldo untuk setiap hari.",
+        "Jika sebuah pos turun di bawah nol lalu diisi kembali pada hari yang sama, saldo negatif sementara mungkin tidak terlihat. Grafik hanya akan menampilkan saldo akhir hari tersebut."
+      ],
+      "exampleIntro": "Contohnya:",
+      "orderedItems": [
+        "Ada 100 di dalam pos.",
+        "Anda membelanjakan 200 dan saldo menjadi −100.",
+        "Kemudian Anda mentransfer 150 dari pos lain.",
+        "Saldo akhir hari tersebut adalah 50."
+      ],
+      "closingParagraphs": [
+        "Grafik akan menampilkan saldo akhir yang positif meskipun pos sempat memiliki saldo negatif selama hari tersebut.",
+        "Karena itu, grafik cocok untuk menganalisis tren secara umum, tetapi tidak selalu menampilkan setiap kondisi saldo sementara."
+      ],
+      "borrowLinkPrefix": "Anda dapat membaca lebih lanjut tentang cara meminjam uang sementara dari diri sendiri antarpos di ",
+      "borrowLinkText": "bagian tentang meminjam dari diri sendiri",
+      "borrowLinkSuffix": "."
+    }
+  },
+  "sameResultDifferentMovement": {
+    "title": "Hasil yang sama dapat menyembunyikan pergerakan uang yang sangat berbeda",
+    "openingParagraphs": [
+      "Jangan menilai suatu periode hanya berdasarkan saldo akhirnya.",
+      "Bayangkan dua bulan."
+    ],
+    "firstMonthIntro": "Pada bulan pertama:",
+    "firstMonthItems": [
+      "penambahan — 2 000;",
+      "pengeluaran — 2 000;",
+      "perubahan bersih — 0."
+    ],
+    "secondMonthIntro": "Pada bulan kedua:",
+    "secondMonthItems": [
+      "tidak ada penambahan;",
+      "tidak ada pengeluaran;",
+      "perubahan bersih — 0."
+    ],
+    "closingParagraphs": [
+      "Dalam kedua kasus saldo tidak berubah, tetapi pada bulan pertama pos digunakan secara aktif, sedangkan pada bulan kedua sama sekali tidak ada pergerakan uang."
+    ],
+    "summaryListIntro": "Karena itu, sebaiknya perhatikan beberapa hal sekaligus:",
+    "summaryItems": [
+      "saldo awal;",
+      "penambahan;",
+      "pengeluaran;",
+      "perubahan bersih;",
+      "bentuk garis pada grafik."
+    ]
+  },
+  "monthlyInsights": {
+    "title": "Apa yang dapat dipahami dari grafik satu bulan",
+    "lead": "Dalam periode pendek, laporan membantu melihat bagaimana uang bergerak selama satu bulan.",
+    "moneyRunsOutEarly": {
+      "title": "Uang habis terlalu cepat",
+      "paragraphs": [
+        "Jika saldo secara rutin mendekati nol jauh sebelum penambahan berikutnya, porsi pos saat ini mungkin terlalu kecil.",
+        "Namun, penting untuk membedakan pola yang berulang dari situasi satu kali. Satu bulan yang tidak biasa belum tentu berarti pembagian harus diubah."
+      ]
+    },
+    "evenSpending": {
+      "title": "Uang dibelanjakan secara merata",
+      "paragraphs": [
+        "Jika garis menurun secara bertahap sepanjang bulan, pengeluaran kemungkinan tersebar cukup merata.",
+        "Untuk pos yang digunakan bagi pengeluaran sehari-hari, ini dapat menjadi pola yang normal."
+      ]
+    },
+    "sharpDropAtStart": {
+      "title": "Terjadi penurunan tajam di awal periode",
+      "paragraphs": [
+        "Jika sebagian besar uang dibelanjakan segera setelah pos diisi, mungkin ada pengeluaran wajib yang besar di awal periode.",
+        "Hal ini tidak selalu menjadi masalah. Namun, jika setelah pengeluaran tersebut secara rutin tidak tersisa cukup uang untuk sisa bulan, pembagian sebaiknya ditinjau kembali."
+      ]
+    },
+    "largeDrops": {
+      "title": "Grafik menunjukkan beberapa penurunan besar",
+      "paragraphs": [
+        "Penurunan tajam membantu Anda menemukan tanggal terjadinya pengeluaran besar."
+      ],
+      "listIntro": "Setelah itu, Anda dapat membuka transaksi dan memeriksa:",
+      "items": [
+        "apa yang dibeli;",
+        "apakah pengeluaran tersebut direncanakan;",
+        "apakah pengeluaran itu terjadi secara rutin;",
+        "apakah sebaiknya uang disisihkan lebih awal untuk pengeluaran tersebut."
+      ]
+    }
+  },
+  "longTermInsights": {
+    "title": "Apa yang dapat dipahami dari grafik beberapa bulan atau satu tahun",
+    "lead": "Dalam periode panjang, grafik sangat berguna untuk menemukan pola yang konsisten.",
+    "introParagraphs": [
+      "Satu bulan bisa saja merupakan pengecualian. Pola yang terus berulang merupakan tanda yang lebih kuat bahwa pengaturan pos atau struktur pengeluaran mungkin perlu disesuaikan."
+    ],
+    "balanceGrowing": {
+      "title": "Saldo terus bertambah",
+      "paragraphs": [
+        "Untuk pos tabungan, pertumbuhan yang stabil merupakan hasil yang diharapkan.",
+        "Namun, pada pos pengeluaran biasa, saldo yang terus bertambah dapat berarti bahwa jumlah uang yang dialokasikan lebih besar daripada yang sebenarnya diperlukan.",
+        "Dalam hal ini, Anda dapat mempertimbangkan untuk mengurangi porsinya dan mengalihkan bagian pendapatan yang tersisa ke pos lain.",
+        "Sebelum mengubah apa pun, periksa apakah uang yang terkumpul memiliki tujuan tertentu. Mungkin ada pengeluaran besar yang hanya terjadi sesekali dan saldo saat ini akan dibutuhkan nanti."
+      ]
+    },
+    "balanceDeclining": {
+      "title": "Saldo terus menurun",
+      "paragraphs": [
+        "Jika garis secara bertahap turun dalam periode panjang, pengeluaran dari pos secara konsisten lebih besar daripada penambahannya.",
+        "Penurunan satu kali dapat disebabkan oleh pengeluaran yang luar biasa besar. Namun, jika tren yang sama berulang dari bulan ke bulan, pembagian saat ini kemungkinan tidak mencukupi."
+      ],
+      "listIntro": "Dalam situasi ini, periksa:",
+      "items": [
+        "apakah pengeluaran normal yang sesuai dengan tujuan pos meningkat;",
+        "apakah ada pengeluaran besar tetapi jarang selama periode yang dipilih;",
+        "apakah Anda perlu mengisi pos secara rutin menggunakan uang dari pos lain."
+      ],
+      "closingParagraphs": [
+        "Jika penurunan disebabkan oleh pengeluaran yang diperlukan dan berlangsung terus-menerus, Anda dapat meningkatkan porsi pos ini dengan mengurangi porsi pos lain.",
+        "Jika penyebabnya adalah pengeluaran besar yang jarang terjadi, pembagian rutin tidak selalu perlu diubah. Untuk pengeluaran seperti ini, mungkin lebih mudah menabung secara terpisah sejak awal."
+      ]
+    },
+    "extraDeposits": {
+      "title": "Pos secara rutin menerima penambahan ekstra",
+      "paragraphs": [
+        "Jika penambahan normal terus-menerus tidak cukup dan Anda harus secara rutin mentransfer uang dari pos lain, ini merupakan tanda penting.",
+        "Walaupun transfer tersebut mencegah saldo tetap negatif dalam waktu lama, hal ini menunjukkan bahwa pengeluaran sebenarnya lebih tinggi daripada yang direncanakan.",
+        "Transfer antarpos dapat membuat grafik lebih sulit dibaca. Karena itu, dari garis saja tidak selalu dapat diketahui mengapa saldo kembali meningkat. Namun, kombinasi penambahan ekstra yang rutin dan pengeluaran tinggi sudah cukup menjadi alasan untuk meninjau kembali porsi pos."
+      ]
+    }
+  },
+  "differentJars": {
+    "title": "Pos yang berbeda perlu dinilai dengan cara yang berbeda",
+    "lead": "Bentuk grafik yang sama dapat memiliki arti berbeda tergantung pada tujuan pos.",
+    "spendingJar": {
+      "title": "Pos pengeluaran",
+      "listIntro": "Untuk pos yang digunakan bagi pengeluaran sehari-hari, biasanya wajar jika:",
+      "items": [
+        "saldo menurun di antara penambahan;",
+        "saldo berfluktuasi secara rutin;",
+        "saldo mendekati nol menjelang akhir periode;",
+        "saldo meningkat kembali setelah pendapatan dibagikan."
+      ],
+      "closingParagraphs": [
+        "Masalahnya biasanya bukan penurunan itu sendiri, melainkan saldo yang sering turun jauh di bawah nol atau kebutuhan untuk terus mentransfer uang dari pos lain."
+      ]
+    },
+    "savingsJar": {
+      "title": "Pos tabungan",
+      "listIntro": "Untuk pos tabungan, biasanya wajar jika:",
+      "items": [
+        "saldo bertambah secara bertahap;",
+        "tidak ada pengeluaran dalam waktu lama;",
+        "saldo turun tajam setelah tujuan tercapai dan pembelian besar dilakukan."
+      ],
+      "closingParagraphs": [
+        "Jika pos tabungan secara rutin berkurang karena pengeluaran sehari-hari, uang mungkin digunakan untuk sesuatu yang berbeda dari tujuan awalnya."
+      ]
+    },
+    "goalJar": {
+      "title": "Pos untuk tujuan besar atau kewajiban",
+      "paragraphs": [
+        "Pos terpisah dapat berguna jika Anda perlu menyisihkan uang terlebih dahulu untuk tujuan atau kewajiban tertentu."
+      ],
+      "examplesIntro": "Contohnya:",
+      "examples": [
+        "asuransi tahunan;",
+        "pendidikan;",
+        "liburan;",
+        "renovasi;",
+        "langganan yang mahal;",
+        "pembayaran wajib rutin dalam jumlah besar."
+      ],
+      "benefitsIntro": "Pos seperti ini memungkinkan Anda langsung melihat:",
+      "benefits": [
+        "berapa banyak yang sudah terkumpul;",
+        "apakah penambahan rutin sudah cukup;",
+        "apakah pengeluaran melebihi rencana;",
+        "apakah perlu menambahkan uang dari bagian anggaran lain."
+      ],
+      "closingParagraphs": [
+        "Namun, Anda tidak perlu membuat pos terpisah untuk setiap jenis pengeluaran rutin.",
+        "Bahkan pengeluaran sehari-hari yang besar tetapi berubah-ubah, seperti belanja bahan makanan, biasanya lebih praktis dikelola dalam pos yang lebih umum dan dianalisis dengan tag.",
+        "Pos terpisah lebih berguna untuk tujuan mandiri atau kewajiban yang membutuhkan jumlah tertentu untuk disisihkan sejak awal."
+      ]
+    }
+  },
+  "whenToChangeShare": {
+    "title": "Kapan perlu mengubah porsi suatu pos",
+    "openingParagraphs": [
+      "Jangan mengubah persentase hanya karena satu bulan yang tidak biasa.",
+      "Periksa terlebih dahulu apakah situasi yang sama berulang selama beberapa periode."
+    ],
+    "increaseListIntro": "Meningkatkan porsi dapat masuk akal jika:",
+    "increaseItems": [
+      "saldo secara rutin turun di bawah nol;",
+      "uang habis jauh sebelum pendapatan berikutnya;",
+      "pos terus membutuhkan penambahan ekstra;",
+      "pengeluaran yang sesuai dengan tujuan pos memang benar-benar diperlukan."
+    ],
+    "decreaseListIntro": "Mengurangi porsi dapat masuk akal jika:",
+    "decreaseItems": [
+      "saldo yang tersisa terus bertambah;",
+      "uang yang terkumpul tidak memiliki tujuan tabungan khusus;",
+      "pengeluaran sebenarnya jauh lebih rendah daripada jumlah yang dialokasikan;",
+      "pos lain secara rutin kekurangan uang."
+    ],
+    "closingParagraphs": [
+      "Metode 6 Pos tidak mengharuskan Anda mempertahankan persentase awal selamanya. Pembagian dapat dan sebaiknya disesuaikan dengan pengeluaran nyata serta perubahan dalam kehidupan Anda."
+    ]
+  },
+  "limitations": {
+    "title": "Keterbatasan laporan",
+    "openingParagraphs": [
+      "Laporan “Pergerakan Dana” menunjukkan dengan baik apa yang terjadi pada saldo, tetapi tidak selalu menjelaskan mengapa saldo berubah."
+    ],
+    "canUnderstandIntro": "Dengan laporan ini, Anda dapat memahami:",
+    "canUnderstandItems": [
+      "apakah saldo naik atau turun;",
+      "kapan perubahan besar terjadi;",
+      "apakah uang yang tersedia cukup;",
+      "apakah mulai terbentuk pola yang konsisten;",
+      "apakah pos secara rutin membutuhkan penambahan ekstra."
+    ],
+    "cannotDetermineIntro": "Namun, grafik saja tidak selalu dapat menunjukkan:",
+    "cannotDetermineItems": [
+      "untuk apa tepatnya uang dibelanjakan;",
+      "dari mana suatu penambahan berasal;",
+      "apakah itu merupakan transfer antarpos;",
+      "mengapa pola pengeluaran berubah;",
+      "apakah saldo sempat turun di bawah nol selama hari tersebut."
+    ],
+    "closingParagraphs": [
+      "Untuk analisis yang lebih rinci, gunakan daftar transaksi dan laporan berdasarkan tag."
+    ]
+  },
+  "questions": {
+    "title": "Pertanyaan yang dapat Anda ajukan kepada diri sendiri",
+    "listIntro": "Saat melihat laporan, cobalah menjawab beberapa pertanyaan berikut:",
+    "items": [
+      "Apakah uang di dalam pos cukup sampai penambahan berikutnya?",
+      "Pada bagian mana dalam periode saldo biasanya mulai mendekati nol?",
+      "Apakah penurunan tajam berulang pada tanggal yang sama?",
+      "Apakah saya perlu secara rutin mentransfer uang ke sini dari pos lain?",
+      "Apakah saldo yang tersisa terus bertambah tanpa tujuan tertentu?",
+      "Apakah porsi pos saat ini sesuai dengan pengeluaran saya yang sebenarnya?",
+      "Apakah perubahan besar hanya terjadi sekali atau berulang dari bulan ke bulan?"
+    ],
+    "closingParagraphs": [
+      "Tujuan utama laporan bukan hanya menampilkan garis perubahan saldo, tetapi membantu Anda melihat pola yang berulang dan memahami seberapa baik porsi pos yang dipilih sesuai dengan kondisi nyata Anda."
+    ]
+  }
+}

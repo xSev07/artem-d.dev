@@ -1,0 +1,408 @@
+{
+  "title": "Så läser du rapporten ”Pengaflöde”",
+  "metaDescription": "Rapporten ”Pengaflöde” visar hur saldot i den valda potten har förändrats under en viss period.",
+  "intro": {
+    "paragraphs": [
+      "Rapporten ”Pengaflöde” visar hur saldot i den valda potten har förändrats under en viss period."
+    ],
+    "listIntro": "Med den kan du se:",
+    "items": [
+      "hur mycket pengar som fanns i potten i början av perioden;",
+      "hur mycket pengar som sattes in;",
+      "hur mycket som spenderades;",
+      "hur mycket saldot förändrades;",
+      "hur mycket pengar som fanns kvar i slutet av perioden;",
+      "vid vilka tidpunkter tydliga förändringar inträffade."
+    ],
+    "closingParagraphs": [
+      "Rapporten skapas bara för en vald pott. Se den därför inte som en överblick över hela din ekonomi, utan som en historik över hur pengar har rört sig inom en viss del av din budget."
+    ]
+  },
+  "overview": {
+    "title": "Innehåll",
+    "metrics": "Vad värdena betyder",
+    "readingChart": "Så läser du diagrammet",
+    "sameResultDifferentMovement": "Samma resultat kan dölja helt olika pengaflöden",
+    "monthlyInsights": "Vad du kan se i diagrammet för en månad",
+    "longTermInsights": "Vad du kan se i diagrammet över flera månader eller ett år",
+    "differentJars": "Olika potter bör bedömas på olika sätt",
+    "whenToChangeShare": "När du bör ändra en potts andel",
+    "limitations": "Rapportens begränsningar",
+    "questions": "Frågor att ställa dig själv"
+  },
+  "metrics": {
+    "title": "Vad värdena betyder",
+    "openingBalance": {
+      "title": "Ingående saldo",
+      "paragraphs": [
+        "Det ingående saldot är det belopp som fanns i potten i början av den valda perioden.",
+        "Det är inte nödvändigtvis beloppet från den senaste insättningen och inte heller pottens aktuella saldo. Om det till exempel fanns pengar kvar från föregående månad när en ny månad började, ingår de också i det ingående saldot."
+      ]
+    },
+    "deposits": {
+      "title": "Insättningar",
+      "paragraphs": [
+        "Insättningar visar det totala belopp som har lagts till i den valda potten under perioden."
+      ],
+      "listIntro": "Det kan till exempel vara:",
+      "items": [
+        "en del av en fördelad inkomst;",
+        "en extra insättning;",
+        "pengar som återbetalats efter en tidigare utgift;",
+        "en överföring från en annan pott."
+      ],
+      "closingParagraphs": [
+        "Rapporten visar den totala summan av insättningarna, men inte varför pengarna lades till. För att se var en viss insättning kom ifrån behöver du titta i transaktionslistan."
+      ]
+    },
+    "withdrawals": {
+      "title": "Utgifter",
+      "paragraphs": [
+        "Utgifter visar den totala summan av alla pengar som spenderats från den valda potten under perioden.",
+        "Även om saldot nästan inte har förändrats vid periodens slut kan den totala summan av utgifterna vara stor. Det betyder att pengar har spenderats aktivt och att potten sedan har fyllts på igen."
+      ]
+    },
+    "netChange": {
+      "title": "Nettoförändring",
+      "paragraphs": [
+        "Nettoförändringen visar hur mycket saldot har ökat eller minskat jämfört med periodens början.",
+        "Den beräknas som skillnaden mellan insättningar och utgifter."
+      ],
+      "exampleIntro": "Till exempel:",
+      "exampleItems": [
+        "ingående saldo — 1 000;",
+        "insättningar — 2 000;",
+        "utgifter — 2 300;",
+        "nettoförändring — −300;",
+        "utgående saldo — 700."
+      ],
+      "closingParagraphs": [
+        "För en vanlig utgiftspott kan det över en längre period vara normalt att nettoförändringen ligger nära noll eller att saldot växer långsamt.",
+        "Om nettoförändringen regelbundet är negativ spenderas det systematiskt mer pengar från potten än vad som sätts in. Det kan tyda på att potten får en för liten andel av inkomsten eller att utgifterna behöver ses över."
+      ]
+    },
+    "closingBalance": {
+      "title": "Utgående saldo",
+      "paragraphs": [
+        "Det utgående saldot är det belopp som finns kvar i potten i slutet av den valda perioden.",
+        "Det omfattar det ingående saldot samt alla insättningar och utgifter.",
+        "Blanda inte ihop det utgående saldot med nettoförändringen. Saldot visar hur mycket pengar som finns kvar, medan nettoförändringen visar hur mycket detta belopp skiljer sig från det ingående saldot."
+      ]
+    }
+  },
+  "readingChart": {
+    "title": "Så läser du diagrammet",
+    "lead": "Linjen i diagrammet visar hur pottens saldo förändrades under den valda perioden.",
+    "lineUp": {
+      "title": "Linjen går uppåt",
+      "paragraphs": [
+        "En stigande linje betyder att pengar har lagts till i potten.",
+        "En kraftig uppgång beror vanligtvis på en större insättning, till exempel en inkomstfördelning eller en överföring från en annan pott.",
+        "En gradvis eller stegvis uppgång kan betyda att flera separata insättningar har gjorts."
+      ]
+    },
+    "lineDown": {
+      "title": "Linjen går nedåt",
+      "paragraphs": [
+        "En sjunkande linje betyder utgifter.",
+        "En gradvis nedgång betyder vanligtvis att pengarna spenderas lite i taget under perioden.",
+        "Ett kraftigt fall betyder en stor utgift eller flera utgifter under en kort tidsperiod.",
+        "Diagrammet visar när förändringen inträffade, men inte vad pengarna användes till. För det behöver du öppna transaktionslistan eller rapporten efter taggar."
+      ]
+    },
+    "lineFlat": {
+      "title": "Linjen ligger ungefär på samma nivå",
+      "listIntro": "Det kan betyda att:",
+      "items": [
+        "det nästan inte fanns några utgifter;",
+        "insättningarna ungefär motsvarade utgifterna;",
+        "pengar regelbundet spenderades och sattes tillbaka;",
+        "potten användes sällan."
+      ],
+      "closingParagraphs": [
+        "En platt linje betyder därför inte automatiskt att det inte fanns någon aktivitet. Titta också på den totala summan av insättningar och utgifter."
+      ]
+    },
+    "balanceNearZero": {
+      "title": "Saldot ligger nära noll",
+      "listIntro": "Om linjen ligger nära noll under en längre tid kan det finnas flera orsaker:",
+      "items": [
+        "pottens andel är ganska väl anpassad till de faktiska utgifterna;",
+        "pengarna räcker precis;",
+        "pengarna spenderas snabbt efter varje insättning;",
+        "potten behöver regelbundet fyllas på från andra källor."
+      ],
+      "closingParagraphs": [
+        "För att förstå situationen bättre bör du jämföra diagrammet med de totala insättningarna och utgifterna.",
+        "Om potten regelbundet får betydligt större insättningar än vad som normalt tilldelas den vid inkomstfördelningen kan den behöva extra överföringar."
+      ]
+    },
+    "balanceNegative": {
+      "title": "Saldot går under noll",
+      "paragraphs": [
+        "Ett negativt saldo betyder att mer pengar har spenderats från potten än vad som fanns i den.",
+        "En enstaka sådan situation kan vara normal. Ett större köp kan till exempel ha gjorts strax före nästa inkomst."
+      ],
+      "listIntro": "Om potten regelbundet går under noll kan det tyda på att:",
+      "items": [
+        "den får en för liten andel av inkomsten;",
+        "utgifterna för potten har ökat;",
+        "en del utgifter kan minskas eller skjutas upp."
+      ],
+      "closingParagraphs": [
+        "Appen tillåter ett negativt saldo. Vid nästa insättning täcks det negativa saldot först, vilket innebär att mindre pengar blir tillgängliga för den nya perioden."
+      ]
+    },
+    "temporaryMinusNotVisible": {
+      "title": "Varför ett tillfälligt negativt saldo kanske inte syns i diagrammet",
+      "paragraphs": [
+        "Diagrammet visar den slutliga förändringen av saldot för varje dag.",
+        "Om en pott först går under noll och sedan fylls på samma dag kanske det tillfälliga negativa saldot inte visas. Diagrammet visar bara dagens slutliga saldo."
+      ],
+      "exampleIntro": "Till exempel:",
+      "orderedItems": [
+        "Det fanns 100 i potten.",
+        "Du spenderar 200 och saldot blir −100.",
+        "Sedan överför du 150 från en annan pott.",
+        "Dagens utgående saldo blir 50."
+      ],
+      "closingParagraphs": [
+        "Diagrammet visar ett positivt utgående saldo även om potten tillfälligt låg under noll under dagen.",
+        "Diagrammet passar därför bra för att analysera den övergripande utvecklingen, men visar inte alltid varje mellanliggande saldo."
+      ],
+      "borrowLinkPrefix": "Du kan läsa mer om hur du tillfälligt kan låna pengar av dig själv mellan potter i ",
+      "borrowLinkText": "avsnittet om att låna av sig själv",
+      "borrowLinkSuffix": "."
+    }
+  },
+  "sameResultDifferentMovement": {
+    "title": "Samma resultat kan dölja helt olika pengaflöden",
+    "openingParagraphs": [
+      "Bedöm inte en period enbart utifrån det utgående saldot.",
+      "Föreställ dig två månader."
+    ],
+    "firstMonthIntro": "Under den första månaden:",
+    "firstMonthItems": [
+      "insättningar — 2 000;",
+      "utgifter — 2 000;",
+      "nettoförändring — 0."
+    ],
+    "secondMonthIntro": "Under den andra månaden:",
+    "secondMonthItems": [
+      "inga insättningar;",
+      "inga utgifter;",
+      "nettoförändring — 0."
+    ],
+    "closingParagraphs": [
+      "I båda fallen förändrades inte saldot, men under den första månaden användes potten aktivt medan det under den andra månaden inte förekom några pengaflöden alls."
+    ],
+    "summaryListIntro": "Därför är det bra att titta på följande tillsammans:",
+    "summaryItems": [
+      "ingående saldo;",
+      "insättningar;",
+      "utgifter;",
+      "nettoförändring;",
+      "linjens form i diagrammet."
+    ]
+  },
+  "monthlyInsights": {
+    "title": "Vad du kan se i diagrammet för en månad",
+    "lead": "Under en kortare period hjälper rapporten dig att se hur pengarna beter sig under månaden.",
+    "moneyRunsOutEarly": {
+      "title": "Pengarna tar slut för tidigt",
+      "paragraphs": [
+        "Om saldot regelbundet närmar sig noll långt före nästa insättning kan pottens nuvarande andel vara för liten.",
+        "Det är samtidigt viktigt att skilja ett återkommande mönster från en enstaka situation. En ovanlig månad betyder inte automatiskt att fördelningen behöver ändras."
+      ]
+    },
+    "evenSpending": {
+      "title": "Pengarna spenderas jämnt",
+      "paragraphs": [
+        "Om linjen gradvis sjunker under hela månaden är utgifterna sannolikt ganska jämnt fördelade.",
+        "För en pott med vardagliga utgifter kan det vara ett normalt mönster."
+      ]
+    },
+    "sharpDropAtStart": {
+      "title": "Det sker ett kraftigt fall i början av perioden",
+      "paragraphs": [
+        "Om en stor del av pengarna spenderas direkt efter en insättning kan stora nödvändiga utgifter betalas i början av perioden.",
+        "Det behöver inte vara ett problem. Men om det regelbundet blir för lite pengar kvar för resten av månaden bör fördelningen ses över."
+      ]
+    },
+    "largeDrops": {
+      "title": "Diagrammet visar enstaka stora fall",
+      "paragraphs": [
+        "Kraftiga fall hjälper dig att hitta tidpunkterna för stora utgifter."
+      ],
+      "listIntro": "Därefter kan du öppna transaktionerna och kontrollera:",
+      "items": [
+        "vad som köptes;",
+        "om utgiften var planerad;",
+        "om den återkommer regelbundet;",
+        "om det är bättre att reservera pengar för den i förväg."
+      ]
+    }
+  },
+  "longTermInsights": {
+    "title": "Vad du kan se i diagrammet över flera månader eller ett år",
+    "lead": "Över en längre period är diagrammet särskilt användbart för att upptäcka bestående mönster.",
+    "introParagraphs": [
+      "En enskild månad kan vara ett undantag. En återkommande utveckling är ett tydligare tecken på att pottens inställningar eller utgiftsstrukturen kan behöva ändras."
+    ],
+    "balanceGrowing": {
+      "title": "Saldot fortsätter att växa",
+      "paragraphs": [
+        "För en sparpott är stadig tillväxt ett förväntat resultat.",
+        "Om det däremot är en vanlig utgiftspott kan ett stadigt växande saldo betyda att den tilldelas mer pengar än vad som faktiskt behövs.",
+        "I så fall kan du överväga att minska dess andel och fördela den frigjorda delen av inkomsten till andra potter.",
+        "Kontrollera först om de sparade pengarna har ett särskilt syfte. En större utgift kanske inträffar sällan och det nuvarande saldot kan behövas senare."
+      ]
+    },
+    "balanceDeclining": {
+      "title": "Saldot fortsätter att minska",
+      "paragraphs": [
+        "Om linjen gradvis sjunker över en längre period överstiger pottens utgifter systematiskt dess insättningar.",
+        "En enstaka nedgång kan bero på ovanligt stora utgifter. Men om samma trend återkommer månad efter månad är den nuvarande fördelningen sannolikt otillräcklig."
+      ],
+      "listIntro": "Kontrollera då:",
+      "items": [
+        "om de vanliga utgifterna som hör till pottens syfte har ökat;",
+        "om det förekom ovanliga stora utgifter under den valda perioden;",
+        "om du regelbundet behöver fylla på potten från andra potter."
+      ],
+      "closingParagraphs": [
+        "Om nedgången beror på återkommande nödvändiga utgifter kan du öka pottens andel på bekostnad av andra potter.",
+        "Om orsaken är enstaka stora utgifter behöver du inte nödvändigtvis ändra den vanliga fördelningen. För sådana utgifter kan det vara smidigare att spara pengar separat i förväg."
+      ]
+    },
+    "extraDeposits": {
+      "title": "Potten behöver regelbundet extra insättningar",
+      "paragraphs": [
+        "Om pottens vanliga insättningar ständigt är otillräckliga och du regelbundet behöver överföra pengar från andra potter är det en viktig signal.",
+        "Även om sådana överföringar gör att saldot inte ligger under noll särskilt länge visar de att de faktiska utgifterna är högre än vad som ursprungligen planerades.",
+        "Överföringar mellan potter kan göra diagrammet mindre tydligt. Därför går det inte alltid att se enbart på linjen varför saldot återhämtade sig. Kombinationen av regelbundna extra insättningar och höga utgifter är däremot redan ett bra skäl att se över pottens andel."
+      ]
+    }
+  },
+  "differentJars": {
+    "title": "Olika potter bör bedömas på olika sätt",
+    "lead": "Samma form på diagrammet kan betyda olika saker beroende på vad potten används till.",
+    "spendingJar": {
+      "title": "Utgiftspott",
+      "listIntro": "För en pott med vardagliga utgifter är det vanligtvis normalt att den:",
+      "items": [
+        "minskar mellan insättningar;",
+        "varierar regelbundet;",
+        "närmar sig noll mot slutet av perioden;",
+        "ökar igen efter att inkomsten har fördelats."
+      ],
+      "closingParagraphs": [
+        "Problemet är oftast inte minskningen i sig, utan att saldot regelbundet blir kraftigt negativt eller att pengar ständigt måste överföras från andra potter."
+      ]
+    },
+    "savingsJar": {
+      "title": "Sparpott",
+      "listIntro": "För en sparpott är det vanligtvis normalt att den:",
+      "items": [
+        "växer gradvis;",
+        "går långa perioder utan utgifter;",
+        "minskar kraftigt efter att ett mål har uppnåtts och ett större köp har gjorts."
+      ],
+      "closingParagraphs": [
+        "Om en sparpott regelbundet minskar på grund av vardagliga utgifter kan pengarna användas till något annat än det avsedda syftet."
+      ]
+    },
+    "goalJar": {
+      "title": "Pott för ett större mål eller en förpliktelse",
+      "paragraphs": [
+        "En separat pott kan vara användbar om du behöver reservera pengar i förväg för ett visst mål eller en viss förpliktelse."
+      ],
+      "examplesIntro": "Till exempel:",
+      "examples": [
+        "årlig försäkring;",
+        "utbildning;",
+        "semester;",
+        "renovering;",
+        "en dyr prenumeration;",
+        "en större återkommande obligatorisk betalning."
+      ],
+      "benefitsIntro": "Med en sådan pott kan du direkt se:",
+      "benefits": [
+        "hur mycket du redan har sparat;",
+        "om de regelbundna insättningarna räcker;",
+        "om du har spenderat mer än planerat;",
+        "om pengar behöver läggas till från andra delar av budgeten."
+      ],
+      "closingParagraphs": [
+        "Du behöver dock inte skapa en separat pott för varje återkommande typ av utgift.",
+        "Även stora men varierande vardagsutgifter, till exempel matvaror, är vanligtvis enklare att hantera inom en bredare pott och analysera med hjälp av taggar.",
+        "En separat pott är mer användbar för ett självständigt mål eller en förpliktelse där du behöver reservera ett bestämt belopp i förväg."
+      ]
+    }
+  },
+  "whenToChangeShare": {
+    "title": "När du bör ändra en potts andel",
+    "openingParagraphs": [
+      "Ändra inte procentsatserna efter en enda ovanlig månad.",
+      "Kontrollera först om samma situation återkommer under flera perioder."
+    ],
+    "increaseListIntro": "Det kan vara rimligt att öka andelen om:",
+    "increaseItems": [
+      "saldot regelbundet går under noll;",
+      "pengarna tar slut långt före nästa inkomst;",
+      "potten ständigt behöver extra insättningar;",
+      "utgifterna som hör till pottens syfte faktiskt är nödvändiga."
+    ],
+    "decreaseListIntro": "Det kan vara rimligt att minska andelen om:",
+    "decreaseItems": [
+      "det återstående saldot fortsätter att växa;",
+      "de sparade pengarna inte har något separat sparmål;",
+      "de faktiska utgifterna är tydligt lägre än det tilldelade beloppet;",
+      "andra potter regelbundet saknar pengar."
+    ],
+    "closingParagraphs": [
+      "6-pottsmetoden kräver inte att du behåller de ursprungliga procentsatserna för alltid. Fördelningen kan och bör anpassas efter dina faktiska utgifter och förändringar i livet."
+    ]
+  },
+  "limitations": {
+    "title": "Rapportens begränsningar",
+    "openingParagraphs": [
+      "Rapporten ”Pengaflöde” visar tydligt vad som har hänt med saldot, men förklarar inte alltid varför det förändrades."
+    ],
+    "canUnderstandIntro": "Med den kan du se:",
+    "canUnderstandItems": [
+      "om saldot ökade eller minskade;",
+      "när större förändringar inträffade;",
+      "om pengarna räckte;",
+      "om ett bestående mönster håller på att bildas;",
+      "om potten regelbundet behöver extra insättningar."
+    ],
+    "cannotDetermineIntro": "Diagrammet kan däremot inte alltid visa:",
+    "cannotDetermineItems": [
+      "vad pengarna exakt spenderades på;",
+      "var en insättning kom ifrån;",
+      "om det var en överföring mellan potter;",
+      "varför utgiftsmönstret förändrades;",
+      "om saldot gick under noll någon gång under dagen."
+    ],
+    "closingParagraphs": [
+      "För en mer detaljerad analys kan du använda transaktionslistan och rapporterna efter taggar."
+    ]
+  },
+  "questions": {
+    "title": "Frågor att ställa dig själv",
+    "listIntro": "När du granskar rapporten kan du försöka besvara några frågor:",
+    "items": [
+      "Räcker pengarna i potten fram till nästa insättning?",
+      "Vid vilken tidpunkt under perioden brukar saldot börja närma sig noll?",
+      "Återkommer kraftiga fall på samma datum?",
+      "Behöver jag regelbundet överföra pengar hit från andra potter?",
+      "Fortsätter det återstående saldot att växa utan ett särskilt mål?",
+      "Motsvarar pottens nuvarande andel mina faktiska utgifter?",
+      "Är stora förändringar enstaka händelser eller återkommer de månad efter månad?"
+    ],
+    "closingParagraphs": [
+      "Rapportens främsta syfte är inte bara att visa en linje över saldoförändringen, utan att hjälpa dig upptäcka återkommande mönster och förstå hur väl pottens valda andel motsvarar din verkliga situation."
+    ]
+  }
+}

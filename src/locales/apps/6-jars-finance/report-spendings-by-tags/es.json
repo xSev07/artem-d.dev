@@ -1,0 +1,341 @@
+{
+  "title": "Cómo leer el informe «Gastos por etiquetas»",
+  "metaDescription": "El informe «Gastos por etiquetas» te ayuda a entender en qué se gastó el dinero del fondo seleccionado durante un período determinado.",
+  "intro": {
+    "paragraphs": [
+      "El informe «Gastos por etiquetas» te ayuda a entender en qué se gastó el dinero del fondo seleccionado durante un período determinado.",
+      "A diferencia de una lista normal de transacciones, agrupa los gastos que tienen las mismas etiquetas y muestra:"
+    ],
+    "items": [
+      "el importe total gastado para cada etiqueta;",
+      "el número de transacciones con esa etiqueta;",
+      "la relación entre los gastos de distintas etiquetas."
+    ],
+    "closingParagraphs": [
+      "El informe permite encontrar no solo los tipos de gasto más elevados, sino también pequeñas compras frecuentes que, por separado, pueden parecer poco importantes."
+    ]
+  },
+  "overview": {
+    "title": "Contenido",
+    "whatItShows": "Qué muestra el informe",
+    "sortByAmount": "Ordenar por importe",
+    "sortByCount": "Ordenar por número de transacciones",
+    "progressBars": "Cómo leer las barras",
+    "tagSumMismatch": "Por qué el total por etiquetas puede no coincidir con el gasto total",
+    "compareAmountAndCount": "Cómo comparar el importe y el número de transacciones",
+    "conclusions": "Qué puedes aprender del informe",
+    "compareMonths": "Compara distintos meses",
+    "consistentTags": "Usa las etiquetas de forma coherente",
+    "analysisExample": "Ejemplo de análisis del informe",
+    "summary": "Lo más importante"
+  },
+  "whatItShows": {
+    "title": "Qué muestra el informe",
+    "paragraphs": [
+      "El informe se genera para un único fondo seleccionado.",
+      "Por ejemplo, si seleccionas el fondo «Necesidades», solo se incluirán los gastos de ese fondo. Las transacciones de otros fondos no se tendrán en cuenta, aunque utilicen las mismas etiquetas."
+    ],
+    "metricsIntro": "Para cada etiqueta se muestran dos valores:",
+    "metrics": [
+      "<strong>importe</strong> — cuánto dinero se gastó en total en las transacciones con esta etiqueta;",
+      "<strong>número de transacciones</strong> — cuántas veces se utilizó la etiqueta en gastos durante el período seleccionado."
+    ],
+    "exampleIntro": "Por ejemplo, si la etiqueta «Comida a domicilio» se utilizó en cuatro transacciones por un total de 650, el informe mostrará:",
+    "exampleItems": [
+      "importe — 650;",
+      "número de transacciones — 4."
+    ],
+    "closingParagraphs": [
+      "Estos valores muestran tus gastos desde distintas perspectivas. Un importe elevado puede proceder tanto de una única compra grande como de muchas compras pequeñas."
+    ]
+  },
+  "sortByAmount": {
+    "title": "Ordenar por importe",
+    "paragraphs": [
+      "Al ordenar por importe, aparecen primero las etiquetas con el gasto total más alto.",
+      "Este modo ayuda a responder a la pregunta:"
+    ],
+    "question": "¿Qué tipos de gasto tuvieron el mayor impacto en el saldo del fondo?",
+    "exampleIntro": "Por ejemplo, un informe mensual podría mostrar estos datos:",
+    "table": {
+      "headers": ["Etiqueta", "Importe", "Número"],
+      "rows": [
+        ["Compra de alimentos", "2 400", "12"],
+        ["Productos para el hogar", "750", "3"],
+        ["Comida a domicilio", "650", "4"],
+        ["Café", "480", "16"]
+      ]
+    },
+    "closingParagraphs": [
+      "En este ejemplo, la compra de alimentos representa el mayor gasto. Aunque se compró café con más frecuencia, su impacto sobre el importe total fue mucho menor."
+    ],
+    "listIntro": "Ordenar por importe es útil para:",
+    "items": [
+      "encontrar los tipos de compra más caros;",
+      "ver qué gastos tuvieron mayor impacto en el saldo;",
+      "elegir una etiqueta para analizarla con más detalle;",
+      "comparar la estructura de tus gastos entre distintos períodos."
+    ],
+    "outroParagraphs": [
+      "Un importe elevado no significa automáticamente que un gasto fuera innecesario. Por ejemplo, la compra de alimentos puede ocupar el primer lugar simplemente porque es uno de los principales gastos del fondo seleccionado.",
+      "El informe muestra a dónde fue el dinero, pero determinar si esos gastos eran necesarios depende del objetivo del fondo y de tu situación."
+    ]
+  },
+  "sortByCount": {
+    "title": "Ordenar por número de transacciones",
+    "paragraphs": [
+      "Al ordenar por número de transacciones, aparecen primero las etiquetas utilizadas con mayor frecuencia.",
+      "Este modo responde a otra pregunta:"
+    ],
+    "question": "¿Qué gastos se producen con mayor regularidad?",
+    "closingParagraphs": [
+      "Las transacciones frecuentes no tienen por qué ocupar el primer lugar por importe. Sin embargo, pueden revelar un hábito recurrente.",
+      "En el ejemplo anterior, se compró café 16 veces — con más frecuencia que cualquier otro gasto. El importe total era relativamente bajo, por lo que esta etiqueta aparecería más abajo al ordenar por importe."
+    ],
+    "listIntro": "Ordenar por número de transacciones ayuda a encontrar:",
+    "items": [
+      "compras que se repiten con frecuencia;",
+      "gastos que se han convertido en un hábito;",
+      "muchas transacciones pequeñas;",
+      "áreas en las que puede ser más útil reducir la frecuencia de las compras que el importe de cada compra."
+    ],
+    "outroParagraphs": [
+      "Por ejemplo, una compra de 500 llama más la atención que diez compras de 50. Sin embargo, el gasto total es el mismo en ambos casos. Ordenar por número de transacciones permite detectar más fácilmente el segundo patrón."
+    ]
+  },
+  "progressBars": {
+    "title": "Cómo leer las barras",
+    "paragraphs": [
+      "Junto a cada etiqueta aparece una barra que permite comparar visualmente los importes gastados.",
+      "La etiqueta con el gasto más alto durante el período seleccionado se considera el 100%. Las demás barras se calculan en relación con ella."
+    ],
+    "exampleIntro": "Por ejemplo:",
+    "exampleItems": [
+      "«Compra de alimentos» — 2 000;",
+      "«Comida a domicilio» — 1 000;",
+      "«Café» — 500."
+    ],
+    "resultIntro": "En este caso:",
+    "resultItems": [
+      "la barra «Compra de alimentos» estará completamente llena;",
+      "«Comida a domicilio» estará aproximadamente a la mitad;",
+      "«Café» estará aproximadamente a una cuarta parte."
+    ],
+    "closingParagraphs": [
+      "La barra no muestra qué porcentaje de todos los gastos corresponde a la etiqueta. Una barra completamente llena no significa que el 100% de tus gastos se haya destinado a esa etiqueta. Solo indica que esa etiqueta tiene el importe más alto en el informe actual.",
+      "La visualización siempre se basa en el importe, incluso cuando la lista está ordenada por número de transacciones.",
+      "Por tanto, al cambiar el tipo de ordenación puede cambiar el orden de las etiquetas, pero la longitud de las barras seguirá representando los importes gastados."
+    ]
+  },
+  "tagSumMismatch": {
+    "title": "Por qué el total por etiquetas puede no coincidir con el gasto total",
+    "paragraphs": [
+      "Una misma transacción puede tener varias etiquetas. En ese caso, el importe completo de la transacción se cuenta por separado para cada una de las etiquetas seleccionadas."
+    ],
+    "exampleIntro": "Por ejemplo, gastas 300 y añades dos etiquetas a la transacción:",
+    "exampleTags": [
+      "«Compra de alimentos»;",
+      "«Invitados»."
+    ],
+    "reportIntro": "En el informe, esta transacción añadirá:",
+    "reportItems": [
+      "300 a la etiqueta «Compra de alimentos»;",
+      "300 a la etiqueta «Invitados»."
+    ],
+    "closingParagraphs": [
+      "En realidad, solo se descontaron 300 del fondo, pero la suma de los valores de las dos etiquetas será de 600.",
+      "Esto no es un cargo duplicado ni un error de cálculo. En la aplicación, las etiquetas son atributos de una transacción y no partes entre las que se divide su importe."
+    ],
+    "questionsIntro": "Una misma compra puede responder a varias preguntas al mismo tiempo:",
+    "questions": [
+      "<strong>¿qué se compró?</strong> — alimentos;",
+      "<strong>¿para qué?</strong> — para invitados;",
+      "<strong>¿dónde?</strong> — en el mercado;",
+      "<strong>¿la compra estaba planificada?</strong> — no planificada."
+    ],
+    "outroParagraphs": [
+      "Cada etiqueta permite observar la misma transacción desde una perspectiva diferente.",
+      "Por este motivo, no debes sumar todas las filas del informe para calcular el gasto total."
+    ],
+    "fundsMovementLinkPrefix": "Para ver el importe que realmente se gastó durante el período, consulta el informe ",
+    "fundsMovementLinkText": "«Movimiento de fondos»",
+    "fundsMovementLinkSuffix": "."
+  },
+  "compareAmountAndCount": {
+    "title": "Cómo comparar el importe y el número de transacciones",
+    "lead": "La información más útil suele aparecer cuando observas ambos valores al mismo tiempo.",
+    "highAmountHighCount": {
+      "title": "Importe alto y muchas transacciones",
+      "paragraphs": [
+        "El gasto es a la vez elevado y recurrente.",
+        "Por ejemplo, puedes comprar alimentos varias veces a la semana y estos pueden representar una parte importante de los gastos del fondo.",
+        "Esto no significa necesariamente que exista un problema, pero indica que los cambios en esta área tendrían el mayor impacto sobre el saldo general."
+      ]
+    },
+    "highAmountLowCount": {
+      "title": "Importe alto y pocas transacciones",
+      "paragraphs": [
+        "La mayor parte del importe procede de una o unas pocas compras grandes.",
+        "Por ejemplo, la etiqueta «Reparaciones» puede haberse utilizado solo dos veces y aun así ocupar el primer lugar por importe.",
+        "En este caso conviene comprobar si se trató de gastos puntuales. Si fue así, un solo mes no permite representar tu estructura habitual de gastos."
+      ]
+    },
+    "lowAmountHighCount": {
+      "title": "Importe bajo y muchas transacciones",
+      "paragraphs": [
+        "El gasto ocurre con frecuencia, pero cada transacción individual es relativamente pequeña.",
+        "El café, los aperitivos, el transporte o pequeñas compras de camino a casa pueden tener este aspecto.",
+        "Estos gastos pueden pasar desapercibidos fácilmente porque cada transacción parece poco significativa. El informe permite ver con mayor claridad su frecuencia total y su impacto sobre el presupuesto."
+      ]
+    },
+    "lowAmountLowCount": {
+      "title": "Importe bajo y pocas transacciones",
+      "paragraphs": [
+        "El gasto fue poco frecuente y tuvo escaso impacto en el panorama general.",
+        "Estas etiquetas normalmente no requieren atención especial, salvo que estés siguiendo deliberadamente un hábito o un objetivo concreto."
+      ]
+    }
+  },
+  "conclusions": {
+    "title": "Qué puedes aprender del informe",
+    "topSpending": {
+      "title": "En qué gastas más dinero",
+      "paragraphs": [
+        "Ordenar por importe muestra qué tipos de gasto tuvieron el mayor impacto sobre el saldo del fondo seleccionado durante el mes.",
+        "Si una etiqueta destaca claramente sobre las demás, primero comprueba si esto coincide con el objetivo del fondo. Por ejemplo, un gasto elevado en alimentos puede ser completamente normal en el fondo «Necesidades», mientras que un importe alto en «Comida a domicilio» puede ser un motivo para comprobar si los pedidos se han vuelto demasiado frecuentes o demasiado caros."
+      ],
+      "compareIntro": "Compara el importe con el número de transacciones:",
+      "compareItems": [
+        "un importe alto con pocas transacciones suele indicar unas pocas compras grandes;",
+        "un importe alto con muchas transacciones indica gastos recurrentes que se han ido acumulando durante el mes."
+      ],
+      "closingParagraphs": [
+        "Esto ayuda a entender qué puedes cambiar realmente. En el primer caso, comprueba si la compra grande fue puntual y estaba planificada. En el segundo, considera si puedes reducir el coste medio de cada compra o realizar esas compras con menor frecuencia.",
+        "Un importe alto por sí solo no significa que hayas gastado demasiado. Muestra qué tipos de gasto tienen el mayor impacto en el fondo y dónde un cambio podría producir un resultado más visible."
+      ]
+    },
+    "mostFrequent": {
+      "title": "Qué compras se producen con mayor frecuencia",
+      "paragraphs": [
+        "Ordenar por número de transacciones puede revelar hábitos que no siempre resultan evidentes al observar únicamente el importe total.",
+        "Por ejemplo, pedir comida ocasionalmente puede costar más durante el mes que el café, pero comprar café todos los días hará que esa etiqueta aparezca más arriba por número de transacciones.",
+        "Dependiendo de tu objetivo, puede ser más útil analizar el coste de un hábito o su frecuencia."
+      ]
+    },
+    "largeOrSmall": {
+      "title": "Si tus gastos proceden de transacciones grandes o pequeñas",
+      "paragraphs": [
+        "El importe y el número de transacciones permiten hacerse una idea aproximada de la naturaleza de tus gastos."
+      ],
+      "exampleIntro": "Por ejemplo:",
+      "exampleItems": [
+        "1 200 en 2 transacciones — probablemente unas pocas compras grandes;",
+        "1 200 en 24 transacciones — muchas compras pequeñas."
+      ],
+      "closingParagraphs": [
+        "Para un análisis más detallado, puedes abrir los detalles de una etiqueta concreta. Allí verás el importe total, el número de transacciones, el gasto medio y cómo se distribuyen los gastos entre los distintos días del mes."
+      ]
+    },
+    "worthStudying": {
+      "title": "Qué gastos merece la pena analizar con más detalle",
+      "listIntro": "Las etiquetas que pueden requerir más atención son aquellas que:",
+      "items": [
+        "están entre las primeras por importe;",
+        "se utilizan con mucha más frecuencia que las demás;",
+        "han aumentado inesperadamente respecto a su nivel habitual;",
+        "tienen al mismo tiempo un importe alto y muchas transacciones;",
+        "representan compras opcionales o no planificadas."
+      ],
+      "closingParagraphs": [
+        "El informe no decide qué gastos son buenos o malos. Te ayuda a identificar áreas que puede ser útil analizar con más detalle."
+      ]
+    }
+  },
+  "compareMonths": {
+    "title": "Compara distintos meses",
+    "paragraphs": [
+      "Para detectar cambios en tus gastos, compara informes de varios meses.",
+      "Al comparar, observa tanto el importe como el número de transacciones. El gasto asociado a una etiqueta puede aumentar por distintos motivos:"
+    ],
+    "reasons": [
+      "las compras han empezado a producirse con mayor frecuencia;",
+      "el coste medio de cada compra ha aumentado;",
+      "hubo una transacción grande durante el mes;",
+      "has empezado a utilizar la etiqueta de manera más coherente."
+    ],
+    "eventsIntro": "También debes tener en cuenta los acontecimientos que pueden haber modificado temporalmente tus gastos:",
+    "events": [
+      "festividades;",
+      "vacaciones;",
+      "una mudanza;",
+      "una compra importante;",
+      "la visita de invitados;",
+      "un cambio temporal en tu estilo de vida."
+    ],
+    "closingParagraphs": [
+      "Un aumento del gasto durante un solo mes no significa necesariamente que se haya formado un nuevo hábito. Es más útil comprobar si el cambio se mantiene en los meses siguientes."
+    ]
+  },
+  "consistentTags": {
+    "title": "Usa las etiquetas de forma coherente",
+    "paragraphs": [
+      "La calidad del informe depende de la constancia con la que utilices las etiquetas.",
+      "Si añades una etiqueta a algunas compras similares pero dejas otras sin ella, el informe solo mostrará una parte de tus gastos reales.",
+      "Por ejemplo, si quieres controlar los pedidos de comida a domicilio, añade la etiqueta correspondiente a todas esas transacciones. De lo contrario, tanto el importe como el número de transacciones serán inferiores a los reales.",
+      "Es útil decidir de antemano qué significa cada etiqueta."
+    ],
+    "examplesIntro": "Por ejemplo:",
+    "examples": [
+      "«Cafés y restaurantes» — todas las compras realizadas en establecimientos;",
+      "«Comida a domicilio» — solo pedidos entregados en casa;",
+      "«Aperitivos» — pequeñas compras de comida no planificadas fuera de casa."
+    ],
+    "closingParagraphs": [
+      "Cuanto más claras sean tus reglas para utilizar las etiquetas, más fácil será comparar los datos entre distintos períodos.",
+      "No es necesario añadir etiquetas a todas las transacciones. Utilízalas cuando realmente quieras controlar un tipo de gasto, un hábito o el contexto de una compra."
+    ]
+  },
+  "analysisExample": {
+    "title": "Ejemplo de análisis del informe",
+    "intro": "Supongamos que el fondo «Diversión» muestra los siguientes datos del mes:",
+    "table": {
+      "headers": ["Etiqueta", "Importe", "Número"],
+      "rows": [
+        ["Salir con amigos", "1 800", "4"],
+        ["Comida a domicilio", "1 400", "7"],
+        ["Videojuegos", "1 000", "1"],
+        ["Café", "800", "16"]
+      ]
+    },
+    "closingParagraphs": [
+      "Al ordenar por importe, se puede ver que salir con amigos fue el gasto más elevado.",
+      "Pero al ordenar por número de transacciones aparece una imagen diferente: las compras con la etiqueta «Café» fueron las más frecuentes."
+    ],
+    "conclusionsIntro": "El informe permite sacar varias conclusiones:",
+    "conclusions": [
+      "salir con amigos fue la principal categoría de gasto;",
+      "la compra de un videojuego fue grande, pero puntual;",
+      "la comida a domicilio fue recurrente y ocupó el segundo lugar por importe;",
+      "el café fue la compra más frecuente, aunque su importe total fue menor."
+    ],
+    "outroParagraphs": [
+      "Aquí no hay un único gasto «malo». La conclusión depende de lo que quieras entender.",
+      "Si quieres reducir rápidamente tus gastos, resulta más sencillo empezar por las categorías más grandes. Si quieres cambiar un hábito cotidiano, puede ser más útil prestar atención a las transacciones frecuentes."
+    ]
+  },
+  "summary": {
+    "title": "Lo más importante",
+    "paragraphs": [
+      "El informe «Gastos por etiquetas» muestra tus gastos desde dos perspectivas:"
+    ],
+    "items": [
+      "<strong>el importe</strong> muestra el impacto financiero;",
+      "<strong>el número de transacciones</strong> muestra la frecuencia."
+    ],
+    "closingParagraphs": [
+      "Ordenar por importe ayuda a encontrar los tipos de compra más caros, mientras que ordenar por número de transacciones destaca los más recurrentes.",
+      "Cuando una transacción tiene varias etiquetas, la suma de todos los valores de las etiquetas puede superar tus gastos reales, ya que el importe completo de la transacción se contabiliza por separado para cada etiqueta. Esto permite analizar una misma compra desde distintas perspectivas, pero también significa que no debes sumar todas las filas del informe para calcular el gasto total.",
+      "Utiliza el informe no para identificar automáticamente compras «innecesarias», sino para encontrar áreas de gasto que puede ser útil analizar con más detalle."
+    ]
+  }
+}

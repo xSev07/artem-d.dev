@@ -1,0 +1,408 @@
+{
+  "title": "Cómo leer el informe «Movimiento de fondos»",
+  "metaDescription": "El informe «Movimiento de fondos» muestra cómo ha cambiado el saldo del fondo seleccionado durante un período determinado.",
+  "intro": {
+    "paragraphs": [
+      "El informe «Movimiento de fondos» muestra cómo ha cambiado el saldo del fondo seleccionado durante un período determinado."
+    ],
+    "listIntro": "Con él puedes ver:",
+    "items": [
+      "cuánto dinero había en el fondo al inicio del período;",
+      "cuánto dinero se añadió;",
+      "cuánto se gastó;",
+      "cuánto cambió el saldo;",
+      "cuánto dinero quedó al final del período;",
+      "en qué momentos se produjeron cambios importantes."
+    ],
+    "closingParagraphs": [
+      "El informe se genera solo para un fondo seleccionado. Por eso, conviene verlo no como una visión general de todas tus finanzas, sino como el historial del movimiento del dinero dentro de una parte concreta de tu presupuesto."
+    ]
+  },
+  "overview": {
+    "title": "Contenido",
+    "metrics": "Qué significan los indicadores",
+    "readingChart": "Cómo leer el gráfico",
+    "sameResultDifferentMovement": "El mismo resultado puede ocultar movimientos de dinero muy distintos",
+    "monthlyInsights": "Qué puedes saber con el gráfico de un mes",
+    "longTermInsights": "Qué puedes saber con el gráfico de varios meses o un año",
+    "differentJars": "Los distintos fondos deben evaluarse de forma diferente",
+    "whenToChangeShare": "Cuándo cambiar la proporción de un fondo",
+    "limitations": "Limitaciones del informe",
+    "questions": "Preguntas que conviene hacerse"
+  },
+  "metrics": {
+    "title": "Qué significan los indicadores",
+    "openingBalance": {
+      "title": "Saldo inicial",
+      "paragraphs": [
+        "El saldo inicial es la cantidad que había en el fondo al comienzo del período seleccionado.",
+        "No es necesariamente el importe de la última aportación ni el saldo actual del fondo. Por ejemplo, si al comenzar el mes quedaba dinero del mes anterior, también se incluirá en el saldo inicial."
+      ]
+    },
+    "deposits": {
+      "title": "Aportaciones",
+      "paragraphs": [
+        "Las aportaciones muestran la cantidad total de dinero añadido al fondo seleccionado durante el período."
+      ],
+      "listIntro": "Puede tratarse de:",
+      "items": [
+        "una parte de los ingresos distribuidos;",
+        "una aportación adicional;",
+        "la devolución de dinero gastado anteriormente;",
+        "una transferencia desde otro fondo."
+      ],
+      "closingParagraphs": [
+        "El informe muestra el importe total de las aportaciones, pero no determina su origen. Para saber de dónde procede una aportación concreta, consulta la lista de transacciones."
+      ]
+    },
+    "withdrawals": {
+      "title": "Gastos",
+      "paragraphs": [
+        "Los gastos muestran la cantidad total de dinero gastado desde el fondo seleccionado durante el período.",
+        "Aunque el saldo apenas haya cambiado al final del período, el total de gastos puede ser elevado. Esto significa que se gastó dinero activamente y que después el fondo volvió a recibir aportaciones."
+      ]
+    },
+    "netChange": {
+      "title": "Cambio neto",
+      "paragraphs": [
+        "El cambio neto muestra cuánto aumentó o disminuyó el saldo en comparación con el inicio del período.",
+        "Se calcula como la diferencia entre las aportaciones y los gastos."
+      ],
+      "exampleIntro": "Por ejemplo:",
+      "exampleItems": [
+        "saldo inicial — 1 000;",
+        "aportaciones — 2 000;",
+        "gastos — 2 300;",
+        "cambio neto — −300;",
+        "saldo final — 700."
+      ],
+      "closingParagraphs": [
+        "Para un fondo de gastos habitual, puede considerarse normal que, a largo plazo, el cambio neto se mantenga cerca de cero o que el saldo aumente gradualmente.",
+        "Si el cambio neto se mantiene negativo de forma habitual, significa que se gasta sistemáticamente más dinero del que entra en el fondo. Esto puede indicar que se le asigna una proporción demasiado pequeña de los ingresos o que conviene revisar los gastos."
+      ]
+    },
+    "closingBalance": {
+      "title": "Saldo final",
+      "paragraphs": [
+        "El saldo final es la cantidad que queda en el fondo al terminar el período seleccionado.",
+        "Incluye el saldo inicial, todas las aportaciones y todos los gastos.",
+        "No hay que confundir el saldo final con el cambio neto. El saldo muestra cuánto dinero queda, mientras que el cambio neto muestra cuánto difiere esa cantidad del saldo inicial."
+      ]
+    }
+  },
+  "readingChart": {
+    "title": "Cómo leer el gráfico",
+    "lead": "La línea del gráfico muestra cómo cambió el saldo del fondo durante el período seleccionado.",
+    "lineUp": {
+      "title": "La línea sube",
+      "paragraphs": [
+        "Una línea ascendente significa que se añadió dinero al fondo.",
+        "Una subida pronunciada suele estar relacionada con una aportación grande, por ejemplo con la distribución de ingresos o una transferencia desde otro fondo.",
+        "Una subida gradual o escalonada puede indicar varias aportaciones independientes."
+      ]
+    },
+    "lineDown": {
+      "title": "La línea baja",
+      "paragraphs": [
+        "Una línea descendente indica gastos.",
+        "Una bajada gradual suele significar que el dinero se va gastando poco a poco durante el período.",
+        "Una caída pronunciada indica un gasto grande o varios gastos realizados en poco tiempo.",
+        "El gráfico permite ver cuándo se produjo el cambio, pero no en qué se gastó exactamente el dinero. Para eso, consulta la lista de transacciones o el informe por etiquetas."
+      ]
+    },
+    "lineFlat": {
+      "title": "La línea se mantiene aproximadamente al mismo nivel",
+      "listIntro": "Esto puede significar que:",
+      "items": [
+        "casi no hubo gastos;",
+        "las aportaciones compensaron aproximadamente los gastos;",
+        "el dinero se gastó y se volvió a añadir con regularidad;",
+        "el fondo se utilizó poco."
+      ],
+      "closingParagraphs": [
+        "Por tanto, una línea plana no significa necesariamente que no haya habido actividad. También conviene mirar el importe total de las aportaciones y los gastos."
+      ]
+    },
+    "balanceNearZero": {
+      "title": "El saldo se mantiene cerca de cero",
+      "listIntro": "Si la línea permanece cerca de cero durante mucho tiempo, puede haber varias razones:",
+      "items": [
+        "la proporción del fondo está bastante bien ajustada a las necesidades reales;",
+        "el dinero alcanza justo;",
+        "el dinero se gasta rápidamente después de cada aportación;",
+        "el fondo necesita aportaciones adicionales desde otras fuentes."
+      ],
+      "closingParagraphs": [
+        "Para entender mejor la situación, compara el gráfico con los importes totales de las aportaciones y los gastos.",
+        "Si el fondo recibe habitualmente bastante más dinero del que normalmente se le asigna al distribuir los ingresos, puede depender de transferencias adicionales."
+      ]
+    },
+    "balanceNegative": {
+      "title": "El saldo baja de cero",
+      "paragraphs": [
+        "Un saldo negativo significa que se gastó más dinero del que había disponible en el fondo.",
+        "Una situación puntual puede ser normal. Por ejemplo, una compra grande puede haberse realizado poco antes del siguiente ingreso."
+      ],
+      "listIntro": "Si el fondo baja de cero con frecuencia, puede indicar que:",
+      "items": [
+        "se le asigna una proporción demasiado pequeña de los ingresos;",
+        "los gastos asociados a este fondo han aumentado;",
+        "algunos gastos pueden reducirse o posponerse."
+      ],
+      "closingParagraphs": [
+        "La aplicación permite tener un saldo negativo. En la siguiente aportación, primero se compensará el saldo negativo, por lo que quedará menos dinero disponible para el nuevo período."
+      ]
+    },
+    "temporaryMinusNotVisible": {
+      "title": "Por qué un saldo negativo temporal puede no aparecer en el gráfico",
+      "paragraphs": [
+        "El gráfico muestra el cambio final del saldo de cada día.",
+        "Si un fondo baja de cero y después recibe una aportación el mismo día, el saldo negativo intermedio puede no aparecer. El gráfico mostrará únicamente el saldo final de ese día."
+      ],
+      "exampleIntro": "Por ejemplo:",
+      "orderedItems": [
+        "Había 100 en el fondo.",
+        "Gastas 200 y el saldo pasa a −100.",
+        "Después transfieres 150 desde otro fondo.",
+        "El saldo final del día es 50."
+      ],
+      "closingParagraphs": [
+        "El gráfico mostrará un saldo final positivo aunque el fondo haya estado temporalmente en negativo durante el día.",
+        "Por eso, el gráfico sirve para analizar la tendencia general, pero no siempre muestra todos los estados intermedios."
+      ],
+      "borrowLinkPrefix": "Puedes leer más sobre cómo pedirte dinero prestado temporalmente entre tus fondos en la ",
+      "borrowLinkText": "sección sobre pedirte prestado a ti mismo",
+      "borrowLinkSuffix": "."
+    }
+  },
+  "sameResultDifferentMovement": {
+    "title": "El mismo resultado puede ocultar movimientos de dinero muy distintos",
+    "openingParagraphs": [
+      "No conviene evaluar un período únicamente por el saldo final.",
+      "Imaginemos dos meses."
+    ],
+    "firstMonthIntro": "En el primer mes:",
+    "firstMonthItems": [
+      "aportaciones — 2 000;",
+      "gastos — 2 000;",
+      "cambio neto — 0."
+    ],
+    "secondMonthIntro": "En el segundo mes:",
+    "secondMonthItems": [
+      "no hubo aportaciones;",
+      "no hubo gastos;",
+      "cambio neto — 0."
+    ],
+    "closingParagraphs": [
+      "En ambos casos el saldo no cambió, pero en el primer mes el fondo se utilizó activamente, mientras que en el segundo no hubo ningún movimiento de dinero."
+    ],
+    "summaryListIntro": "Por eso conviene observar a la vez:",
+    "summaryItems": [
+      "el saldo inicial;",
+      "las aportaciones;",
+      "los gastos;",
+      "el cambio neto;",
+      "la forma de la línea en el gráfico."
+    ]
+  },
+  "monthlyInsights": {
+    "title": "Qué puedes saber con el gráfico de un mes",
+    "lead": "En un período corto, el informe ayuda a ver cómo se comporta el dinero a lo largo del mes.",
+    "moneyRunsOutEarly": {
+      "title": "El dinero se acaba demasiado pronto",
+      "paragraphs": [
+        "Si el saldo se acerca regularmente a cero mucho antes de la siguiente aportación, la proporción actual del fondo puede ser insuficiente.",
+        "Sin embargo, es importante distinguir un patrón recurrente de una situación puntual. Un solo mes inusual no significa necesariamente que haya que cambiar la distribución."
+      ]
+    },
+    "evenSpending": {
+      "title": "El dinero se gasta de manera uniforme",
+      "paragraphs": [
+        "Si la línea baja gradualmente durante todo el mes, probablemente los gastos estén bastante repartidos.",
+        "Para un fondo destinado a gastos cotidianos, puede ser un comportamiento normal."
+      ]
+    },
+    "sharpDropAtStart": {
+      "title": "Se produce una caída pronunciada al inicio del período",
+      "paragraphs": [
+        "Si una parte importante del dinero se gasta justo después de una aportación, puede que al inicio del período se paguen gastos obligatorios elevados.",
+        "Esto no tiene por qué ser un problema. Pero si después de pagarlos suele faltar dinero para el resto del mes, conviene revisar la distribución."
+      ]
+    },
+    "largeDrops": {
+      "title": "El gráfico muestra caídas grandes aisladas",
+      "paragraphs": [
+        "Las caídas pronunciadas ayudan a localizar las fechas de los gastos importantes."
+      ],
+      "listIntro": "Después puedes abrir las transacciones y comprobar:",
+      "items": [
+        "qué se compró;",
+        "si el gasto estaba previsto;",
+        "si se repite con regularidad;",
+        "si conviene reservar dinero para él con antelación."
+      ]
+    }
+  },
+  "longTermInsights": {
+    "title": "Qué puedes saber con el gráfico de varios meses o un año",
+    "lead": "En un período largo, el gráfico resulta especialmente útil para detectar patrones estables.",
+    "introParagraphs": [
+      "Un solo mes puede ser una excepción. Una evolución que se repite indica con más claridad que quizá haya que ajustar la configuración del fondo o la estructura de los gastos."
+    ],
+    "balanceGrowing": {
+      "title": "El saldo sigue creciendo",
+      "paragraphs": [
+        "Para un fondo de ahorro, un crecimiento constante es el resultado esperado.",
+        "Pero en un fondo de gastos habitual, un saldo que crece de forma sostenida puede significar que recibe más dinero del que realmente necesita.",
+        "En ese caso puedes plantearte reducir su proporción y redirigir la diferencia a otros fondos.",
+        "Antes de cambiar nada, comprueba si el dinero acumulado tiene un objetivo concreto. Puede que un gasto grande se produzca solo de vez en cuando y que necesites ese saldo más adelante."
+      ]
+    },
+    "balanceDeclining": {
+      "title": "El saldo sigue disminuyendo",
+      "paragraphs": [
+        "Si la línea baja gradualmente durante un período largo, los gastos del fondo superan sistemáticamente sus aportaciones.",
+        "Una bajada puntual puede deberse a gastos excepcionalmente grandes. Pero si la misma tendencia se repite mes tras mes, probablemente la distribución actual no sea suficiente."
+      ],
+      "listIntro": "En ese caso, comprueba:",
+      "items": [
+        "si han aumentado los gastos habituales relacionados con el objetivo del fondo;",
+        "si durante el período seleccionado hubo gastos grandes pero poco frecuentes;",
+        "si necesitas completar regularmente el fondo con dinero de otros fondos."
+      ],
+      "closingParagraphs": [
+        "Si la disminución se debe a gastos necesarios y recurrentes, puedes aumentar la proporción de este fondo reduciendo la de otros.",
+        "Si la causa son gastos grandes pero poco frecuentes, no es necesario cambiar la distribución habitual. Para este tipo de gastos puede resultar más práctico ahorrar dinero por separado con antelación."
+      ]
+    },
+    "extraDeposits": {
+      "title": "El fondo recibe regularmente aportaciones adicionales",
+      "paragraphs": [
+        "Si las aportaciones habituales no son suficientes y tienes que transferir dinero con frecuencia desde otros fondos, es una señal importante.",
+        "Aunque estas transferencias impidan que el saldo permanezca negativo durante mucho tiempo, muestran que los gastos reales son superiores a los previstos inicialmente.",
+        "Las transferencias entre fondos pueden hacer que el gráfico sea menos evidente. Por eso, la línea por sí sola no siempre permite saber por qué se recuperó el saldo. Sin embargo, las aportaciones adicionales frecuentes junto con gastos elevados ya son un buen motivo para revisar la proporción del fondo."
+      ]
+    }
+  },
+  "differentJars": {
+    "title": "Los distintos fondos deben evaluarse de forma diferente",
+    "lead": "La misma forma del gráfico puede significar cosas distintas según el objetivo del fondo.",
+    "spendingJar": {
+      "title": "Fondo de gastos",
+      "listIntro": "En un fondo destinado a gastos cotidianos, normalmente es razonable que:",
+      "items": [
+        "disminuya entre aportaciones;",
+        "fluctúe con regularidad;",
+        "se acerque a cero hacia el final del período;",
+        "vuelva a subir después de distribuir los ingresos."
+      ],
+      "closingParagraphs": [
+        "El problema normalmente no es la disminución en sí, sino entrar con frecuencia en un saldo muy negativo o tener que transferir constantemente dinero desde otros fondos."
+      ]
+    },
+    "savingsJar": {
+      "title": "Fondo de ahorro",
+      "listIntro": "En un fondo de ahorro, normalmente es razonable que:",
+      "items": [
+        "crezca gradualmente;",
+        "pase largos períodos sin gastos;",
+        "baje de forma pronunciada después de alcanzar un objetivo y realizar una compra importante."
+      ],
+      "closingParagraphs": [
+        "Si un fondo de ahorro disminuye regularmente por gastos cotidianos, puede que el dinero se esté utilizando para algo distinto de su finalidad."
+      ]
+    },
+    "goalJar": {
+      "title": "Fondo para un objetivo importante o una obligación",
+      "paragraphs": [
+        "Un fondo separado puede ser útil cuando necesitas reservar dinero con antelación para un objetivo o una obligación concretos."
+      ],
+      "examplesIntro": "Por ejemplo:",
+      "examples": [
+        "un seguro anual;",
+        "formación;",
+        "vacaciones;",
+        "una reforma;",
+        "una suscripción cara;",
+        "un pago obligatorio recurrente de importe elevado."
+      ],
+      "benefitsIntro": "Un fondo de este tipo permite ver de inmediato:",
+      "benefits": [
+        "cuánto has ahorrado ya;",
+        "si las aportaciones habituales son suficientes;",
+        "si has gastado más de lo previsto;",
+        "si necesitas añadir dinero desde otras partes del presupuesto."
+      ],
+      "closingParagraphs": [
+        "Sin embargo, no es necesario crear un fondo independiente para cada tipo de gasto recurrente.",
+        "Incluso los gastos cotidianos elevados pero variables, como la compra de alimentos, suelen gestionarse mejor dentro de un fondo más amplio y analizarse mediante etiquetas.",
+        "Un fondo independiente resulta más útil para un objetivo propio o una obligación para la que necesitas reservar una cantidad concreta con antelación."
+      ]
+    }
+  },
+  "whenToChangeShare": {
+    "title": "Cuándo cambiar la proporción de un fondo",
+    "openingParagraphs": [
+      "No cambies los porcentajes después de un solo mes inusual.",
+      "Primero comprueba si la misma situación se repite durante varios períodos."
+    ],
+    "increaseListIntro": "Puede tener sentido aumentar la proporción si:",
+    "increaseItems": [
+      "el saldo baja de cero con frecuencia;",
+      "el dinero se acaba mucho antes del siguiente ingreso;",
+      "el fondo necesita constantemente aportaciones adicionales;",
+      "los gastos relacionados con su finalidad son realmente necesarios."
+    ],
+    "decreaseListIntro": "Puede tener sentido reducir la proporción si:",
+    "decreaseItems": [
+      "el saldo restante continúa creciendo;",
+      "el dinero acumulado no tiene un objetivo de ahorro independiente;",
+      "los gastos reales son claramente inferiores al importe asignado;",
+      "otros fondos se quedan sin dinero con frecuencia."
+    ],
+    "closingParagraphs": [
+      "El método de los 6 fondos no exige mantener para siempre los porcentajes iniciales. La distribución puede y debe adaptarse a tus gastos reales y a los cambios de tu vida."
+    ]
+  },
+  "limitations": {
+    "title": "Limitaciones del informe",
+    "openingParagraphs": [
+      "El informe «Movimiento de fondos» muestra bien qué ha ocurrido con el saldo, pero no siempre explica por qué cambió."
+    ],
+    "canUnderstandIntro": "Permite entender:",
+    "canUnderstandItems": [
+      "si el saldo subió o bajó;",
+      "cuándo se produjeron cambios importantes;",
+      "si había suficiente dinero;",
+      "si se está formando una tendencia estable;",
+      "si el fondo necesita aportaciones adicionales con frecuencia."
+    ],
+    "cannotDetermineIntro": "Pero el gráfico por sí solo no siempre permite determinar:",
+    "cannotDetermineItems": [
+      "en qué se gastó exactamente el dinero;",
+      "de dónde procedía una aportación;",
+      "si se trataba de una transferencia entre fondos;",
+      "por qué cambió el comportamiento de gasto;",
+      "si el saldo bajó de cero durante el día."
+    ],
+    "closingParagraphs": [
+      "Para un análisis más detallado, utiliza la lista de transacciones y los informes por etiquetas."
+    ]
+  },
+  "questions": {
+    "title": "Preguntas que conviene hacerse",
+    "listIntro": "Al revisar el informe, intenta responder a algunas preguntas:",
+    "items": [
+      "¿Hay suficiente dinero en el fondo hasta la siguiente aportación?",
+      "¿En qué momento del período suele empezar el saldo a acercarse a cero?",
+      "¿Las caídas pronunciadas se repiten en las mismas fechas?",
+      "¿Tengo que transferir regularmente dinero desde otros fondos?",
+      "¿El saldo restante sigue creciendo sin un objetivo concreto?",
+      "¿La proporción actual del fondo corresponde a mis gastos reales?",
+      "¿Los cambios importantes son puntuales o se repiten mes tras mes?"
+    ],
+    "closingParagraphs": [
+      "El objetivo principal del informe no es solo mostrar una línea con la evolución del saldo, sino ayudarte a detectar patrones estables y entender hasta qué punto la proporción elegida para el fondo se ajusta a tu realidad."
+    ]
+  }
+}

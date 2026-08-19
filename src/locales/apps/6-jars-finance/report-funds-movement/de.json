@@ -1,0 +1,408 @@
+{
+  "title": "So liest du den Bericht „Geldbewegung“",
+  "metaDescription": "Der Bericht „Geldbewegung“ zeigt, wie sich der Saldo des ausgewählten Topfes in einem bestimmten Zeitraum verändert hat.",
+  "intro": {
+    "paragraphs": [
+      "Der Bericht „Geldbewegung“ zeigt, wie sich der Saldo des ausgewählten Topfes in einem bestimmten Zeitraum verändert hat."
+    ],
+    "listIntro": "Damit kannst du sehen:",
+    "items": [
+      "wie viel Geld sich zu Beginn des Zeitraums im Topf befand;",
+      "wie viel Geld hinzugekommen ist;",
+      "wie viel ausgegeben wurde;",
+      "wie stark sich der Saldo verändert hat;",
+      "wie viel Geld am Ende des Zeitraums übrig war;",
+      "zu welchen Zeitpunkten deutliche Veränderungen aufgetreten sind."
+    ],
+    "closingParagraphs": [
+      "Der Bericht wird immer nur für einen ausgewählten Topf erstellt. Deshalb solltest du ihn nicht als Gesamtbild deiner Finanzen betrachten, sondern als Verlauf der Geldbewegungen innerhalb eines bestimmten Teils deines Budgets."
+    ]
+  },
+  "overview": {
+    "title": "Inhalt",
+    "metrics": "Was die Kennzahlen bedeuten",
+    "readingChart": "So liest du das Diagramm",
+    "sameResultDifferentMovement": "Das gleiche Ergebnis kann sehr unterschiedliche Geldbewegungen verbergen",
+    "monthlyInsights": "Was du aus dem Diagramm für einen Monat ablesen kannst",
+    "longTermInsights": "Was du aus dem Diagramm über mehrere Monate oder ein Jahr ablesen kannst",
+    "differentJars": "Verschiedene Töpfe sollten unterschiedlich bewertet werden",
+    "whenToChangeShare": "Wann du den Anteil eines Topfes ändern solltest",
+    "limitations": "Grenzen des Berichts",
+    "questions": "Welche Fragen du dir stellen solltest"
+  },
+  "metrics": {
+    "title": "Was die Kennzahlen bedeuten",
+    "openingBalance": {
+      "title": "Anfangssaldo",
+      "paragraphs": [
+        "Der Anfangssaldo ist der Betrag, der sich zu Beginn des ausgewählten Zeitraums im Topf befand.",
+        "Das ist nicht unbedingt der Betrag der letzten Einzahlung und auch nicht der aktuelle Saldo des Topfes. Wenn zum Beispiel zu Beginn eines Monats noch Geld aus dem vorherigen Monat im Topf war, wird es ebenfalls im Anfangssaldo berücksichtigt."
+      ]
+    },
+    "deposits": {
+      "title": "Einzahlungen",
+      "paragraphs": [
+        "Einzahlungen zeigen den Gesamtbetrag aller Geldeingänge in den ausgewählten Topf während des Zeitraums."
+      ],
+      "listIntro": "Das kann zum Beispiel sein:",
+      "items": [
+        "ein Teil des verteilten Einkommens;",
+        "eine zusätzliche Einzahlung;",
+        "die Rückzahlung zuvor ausgegebener Beträge;",
+        "eine Übertragung aus einem anderen Topf."
+      ],
+      "closingParagraphs": [
+        "Der Bericht zeigt die Summe der Einzahlungen, aber nicht ihren Grund. Um herauszufinden, woher eine bestimmte Einzahlung stammt, solltest du die Transaktionsliste öffnen."
+      ]
+    },
+    "withdrawals": {
+      "title": "Ausgaben",
+      "paragraphs": [
+        "Ausgaben zeigen den Gesamtbetrag aller Ausgaben aus dem ausgewählten Topf während des Zeitraums.",
+        "Auch wenn sich der Saldo bis zum Ende des Zeitraums kaum verändert hat, kann die Summe der Ausgaben hoch sein. Das bedeutet, dass aktiv Geld ausgegeben und der Topf anschließend wieder aufgefüllt wurde."
+      ]
+    },
+    "netChange": {
+      "title": "Nettoveränderung",
+      "paragraphs": [
+        "Die Nettoveränderung zeigt, um wie viel der Saldo im Vergleich zum Beginn des Zeitraums gestiegen oder gefallen ist.",
+        "Sie wird als Differenz zwischen Einzahlungen und Ausgaben berechnet."
+      ],
+      "exampleIntro": "Zum Beispiel:",
+      "exampleItems": [
+        "Anfangssaldo — 1 000;",
+        "Einzahlungen — 2 000;",
+        "Ausgaben — 2 300;",
+        "Nettoveränderung — −300;",
+        "Endsaldo — 700."
+      ],
+      "closingParagraphs": [
+        "Bei einem gewöhnlichen Ausgabentopf kann es über einen längeren Zeitraum als normal gelten, wenn die Nettoveränderung ungefähr bei null liegt oder der Saldo langsam wächst.",
+        "Wenn die Nettoveränderung regelmäßig negativ bleibt, wird aus dem Topf dauerhaft mehr ausgegeben, als hineinfließt. Das kann darauf hindeuten, dass ihm ein zu kleiner Anteil des Einkommens zugewiesen wird oder dass die Ausgaben überprüft werden sollten."
+      ]
+    },
+    "closingBalance": {
+      "title": "Endsaldo",
+      "paragraphs": [
+        "Der Endsaldo ist der Betrag, der am Ende des ausgewählten Zeitraums im Topf übrig ist.",
+        "Er berücksichtigt den Anfangssaldo sowie alle Einzahlungen und Ausgaben.",
+        "Der Endsaldo sollte nicht mit der Nettoveränderung verwechselt werden. Der Saldo zeigt, wie viel Geld übrig ist, während die Nettoveränderung zeigt, um wie viel sich dieser Betrag gegenüber dem Anfangssaldo verändert hat."
+      ]
+    }
+  },
+  "readingChart": {
+    "title": "So liest du das Diagramm",
+    "lead": "Die Linie im Diagramm zeigt, wie sich der Saldo des Topfes im ausgewählten Zeitraum verändert hat.",
+    "lineUp": {
+      "title": "Die Linie steigt",
+      "paragraphs": [
+        "Eine steigende Linie bedeutet, dass der Topf aufgefüllt wurde.",
+        "Ein starker Anstieg hängt meist mit einer größeren Einzahlung zusammen, zum Beispiel mit der Einkommensverteilung oder einer Übertragung aus einem anderen Topf.",
+        "Ein allmählicher oder stufenweiser Anstieg kann mehrere einzelne Einzahlungen bedeuten."
+      ]
+    },
+    "lineDown": {
+      "title": "Die Linie fällt",
+      "paragraphs": [
+        "Eine fallende Linie bedeutet Ausgaben.",
+        "Ein allmählicher Rückgang deutet meist darauf hin, dass das Geld über den Zeitraum verteilt nach und nach ausgegeben wird.",
+        "Ein starker Rückgang bedeutet eine große Ausgabe oder mehrere Ausgaben innerhalb kurzer Zeit.",
+        "Im Diagramm kannst du sehen, wann sich der Saldo verändert hat, aber nicht, wofür das Geld genau ausgegeben wurde. Dafür solltest du die Transaktionsliste oder den Bericht nach Tags öffnen."
+      ]
+    },
+    "lineFlat": {
+      "title": "Die Linie bleibt ungefähr auf demselben Niveau",
+      "listIntro": "Das kann bedeuten, dass:",
+      "items": [
+        "es fast keine Ausgaben gab;",
+        "Einzahlungen und Ausgaben sich ungefähr ausgeglichen haben;",
+        "Geld regelmäßig ausgegeben und wieder hinzugefügt wurde;",
+        "der Topf nur selten verwendet wurde."
+      ],
+      "closingParagraphs": [
+        "Eine flache Linie bedeutet daher nicht automatisch, dass es keine Aktivität gab. Schau zusätzlich auf die Gesamtsummen der Einzahlungen und Ausgaben."
+      ]
+    },
+    "balanceNearZero": {
+      "title": "Der Saldo bleibt nahe null",
+      "listIntro": "Wenn die Linie längere Zeit nahe null bleibt, kann das verschiedene Gründe haben:",
+      "items": [
+        "der Anteil des Topfes passt recht gut zu den tatsächlichen Ausgaben;",
+        "das Geld reicht gerade so aus;",
+        "nach jeder Einzahlung wird das Geld schnell ausgegeben;",
+        "der Topf muss zusätzlich aus anderen Quellen aufgefüllt werden."
+      ],
+      "closingParagraphs": [
+        "Um die Situation genauer einzuschätzen, vergleiche das Diagramm mit den Summen der Einzahlungen und Ausgaben.",
+        "Wenn der Topf regelmäßig deutlich mehr Einzahlungen erhält, als ihm normalerweise bei der Einkommensverteilung zugewiesen werden, muss er möglicherweise durch zusätzliche Übertragungen unterstützt werden."
+      ]
+    },
+    "balanceNegative": {
+      "title": "Der Saldo fällt unter null",
+      "paragraphs": [
+        "Ein negativer Saldo bedeutet, dass aus dem Topf mehr Geld ausgegeben wurde, als sich darin befand.",
+        "Eine einmalige Situation kann normal sein. Zum Beispiel kann eine größere Anschaffung kurz vor dem nächsten Einkommen erfolgt sein."
+      ],
+      "listIntro": "Wenn der Topf regelmäßig ins Minus fällt, kann das darauf hindeuten, dass:",
+      "items": [
+        "ihm ein zu kleiner Anteil des Einkommens zugewiesen wird;",
+        "die Ausgaben für diesen Topf gestiegen sind;",
+        "ein Teil der Ausgaben reduziert oder verschoben werden kann."
+      ],
+      "closingParagraphs": [
+        "Die App erlaubt einen negativen Saldo. Bei der nächsten Einzahlung wird das Minus zuerst ausgeglichen, sodass für den neuen Zeitraum weniger Geld zur Verfügung steht."
+      ]
+    },
+    "temporaryMinusNotVisible": {
+      "title": "Warum ein kurzfristiger negativer Saldo im Diagramm möglicherweise nicht sichtbar ist",
+      "paragraphs": [
+        "Das Diagramm zeigt die endgültige Veränderung des Saldos für jeden Tag.",
+        "Wenn ein Topf innerhalb eines Tages zunächst ins Minus fällt und später wieder aufgefüllt wird, kann der zwischenzeitliche negative Saldo im Diagramm unsichtbar bleiben. Angezeigt wird nur der Endstand des Tages."
+      ],
+      "exampleIntro": "Zum Beispiel:",
+      "orderedItems": [
+        "Im Topf waren 100.",
+        "Du gibst 200 aus und der Saldo fällt auf −100.",
+        "Danach überträgst du 150 aus einem anderen Topf.",
+        "Der Endsaldo des Tages beträgt 50."
+      ],
+      "closingParagraphs": [
+        "Im Diagramm wird ein positiver Endsaldo angezeigt, obwohl der Topf im Laufe des Tages vorübergehend im Minus war.",
+        "Das Diagramm eignet sich deshalb gut zur Analyse der allgemeinen Entwicklung, zeigt aber nicht immer jeden Zwischenstand."
+      ],
+      "borrowLinkPrefix": "Mehr darüber, wie du dir vorübergehend selbst Geld zwischen deinen Töpfen leihen kannst, erfährst du im ",
+      "borrowLinkText": "Abschnitt über das Ausleihen von Geld bei dir selbst",
+      "borrowLinkSuffix": "."
+    }
+  },
+  "sameResultDifferentMovement": {
+    "title": "Das gleiche Ergebnis kann sehr unterschiedliche Geldbewegungen verbergen",
+    "openingParagraphs": [
+      "Du solltest einen Zeitraum nicht nur anhand des Endsaldos bewerten.",
+      "Stell dir zwei Monate vor."
+    ],
+    "firstMonthIntro": "Im ersten Monat:",
+    "firstMonthItems": [
+      "Einzahlungen — 2 000;",
+      "Ausgaben — 2 000;",
+      "Nettoveränderung — 0."
+    ],
+    "secondMonthIntro": "Im zweiten Monat:",
+    "secondMonthItems": [
+      "keine Einzahlungen;",
+      "keine Ausgaben;",
+      "Nettoveränderung — 0."
+    ],
+    "closingParagraphs": [
+      "In beiden Fällen hat sich der Saldo nicht verändert. Im ersten Monat wurde der Topf jedoch aktiv genutzt, während es im zweiten überhaupt keine Geldbewegungen gab."
+    ],
+    "summaryListIntro": "Deshalb ist es sinnvoll, gleichzeitig auf Folgendes zu achten:",
+    "summaryItems": [
+      "Anfangssaldo;",
+      "Einzahlungen;",
+      "Ausgaben;",
+      "Nettoveränderung;",
+      "Verlauf der Linie im Diagramm."
+    ]
+  },
+  "monthlyInsights": {
+    "title": "Was du aus dem Diagramm für einen Monat ablesen kannst",
+    "lead": "Über einen kürzeren Zeitraum hilft dir der Bericht zu erkennen, wie sich das Geld innerhalb eines Monats verhält.",
+    "moneyRunsOutEarly": {
+      "title": "Das Geld ist zu früh aufgebraucht",
+      "paragraphs": [
+        "Wenn sich der Saldo regelmäßig lange vor der nächsten Einzahlung null nähert, ist der aktuelle Anteil des Topfes möglicherweise zu klein.",
+        "Dabei ist es wichtig, ein wiederkehrendes Muster von einer einmaligen Situation zu unterscheiden. Ein ungewöhnlicher Monat bedeutet noch nicht, dass die Verteilung geändert werden muss."
+      ]
+    },
+    "evenSpending": {
+      "title": "Das Geld wird gleichmäßig ausgegeben",
+      "paragraphs": [
+        "Wenn die Linie über den gesamten Monat allmählich sinkt, sind die Ausgaben wahrscheinlich relativ gleichmäßig verteilt.",
+        "Bei einem Topf für alltägliche Ausgaben kann das ein normaler Verlauf sein."
+      ]
+    },
+    "sharpDropAtStart": {
+      "title": "Zu Beginn des Zeitraums gibt es einen starken Rückgang",
+      "paragraphs": [
+        "Wenn ein großer Teil des Geldes direkt nach einer Einzahlung ausgegeben wird, werden möglicherweise zu Beginn des Zeitraums größere notwendige Ausgaben bezahlt.",
+        "Das ist nicht unbedingt ein Problem. Wenn danach jedoch regelmäßig nicht genug Geld für den Rest des Monats übrig bleibt, solltest du die Verteilung überprüfen."
+      ]
+    },
+    "largeDrops": {
+      "title": "Im Diagramm sind einzelne starke Rückgänge zu sehen",
+      "paragraphs": [
+        "Starke Rückgänge helfen dabei, die Zeitpunkte großer Ausgaben zu erkennen."
+      ],
+      "listIntro": "Anschließend kannst du die Transaktionen öffnen und prüfen:",
+      "items": [
+        "was gekauft wurde;",
+        "ob die Ausgabe geplant war;",
+        "ob sie regelmäßig wiederkehrt;",
+        "ob es sinnvoll wäre, dafür im Voraus Geld zurückzulegen."
+      ]
+    }
+  },
+  "longTermInsights": {
+    "title": "Was du aus dem Diagramm über mehrere Monate oder ein Jahr ablesen kannst",
+    "lead": "Über einen längeren Zeitraum ist das Diagramm besonders hilfreich, um dauerhafte Muster zu erkennen.",
+    "introParagraphs": [
+      "Ein einzelner Monat kann eine Ausnahme sein. Eine wiederkehrende Entwicklung deutet eher darauf hin, dass die Einstellungen des Topfes oder die Ausgabenstruktur angepasst werden sollten."
+    ],
+    "balanceGrowing": {
+      "title": "Der Saldo wächst kontinuierlich",
+      "paragraphs": [
+        "Bei einem Spartopf ist ein kontinuierliches Wachstum das erwartete Ergebnis.",
+        "Bei einem normalen Ausgabentopf kann ein dauerhaft steigender Saldo dagegen bedeuten, dass ihm mehr Geld zugewiesen wird, als tatsächlich benötigt wird.",
+        "In diesem Fall kannst du erwägen, seinen Anteil zu reduzieren und den frei werdenden Teil des Einkommens auf andere Töpfe umzuleiten.",
+        "Prüfe vorher, ob das angesammelte Geld einen bestimmten Zweck hat. Vielleicht fällt eine größere Ausgabe nur selten an und der aktuelle Saldo wird später noch benötigt."
+      ]
+    },
+    "balanceDeclining": {
+      "title": "Der Saldo sinkt kontinuierlich",
+      "paragraphs": [
+        "Wenn die Linie über einen längeren Zeitraum allmählich fällt, übersteigen die Ausgaben des Topfes dauerhaft seine Einzahlungen.",
+        "Ein einmaliger Rückgang kann durch ungewöhnlich hohe Ausgaben entstehen. Wenn sich dieser Trend jedoch Monat für Monat wiederholt, reicht die aktuelle Verteilung wahrscheinlich nicht aus."
+      ],
+      "listIntro": "In diesem Fall solltest du prüfen:",
+      "items": [
+        "ob die üblichen Ausgaben entsprechend dem Zweck des Topfes gestiegen sind;",
+        "ob es im ausgewählten Zeitraum seltene große Ausgaben gab;",
+        "ob du den Topf regelmäßig aus anderen Töpfen auffüllen musst."
+      ],
+      "closingParagraphs": [
+        "Wenn der Rückgang durch dauerhaft notwendige Ausgaben entsteht, kannst du den Anteil dieses Topfes auf Kosten anderer erhöhen.",
+        "Wenn seltene große Ausgaben die Ursache sind, musst du die regelmäßige Verteilung nicht unbedingt ändern. Für solche Ausgaben kann es praktischer sein, im Voraus separat Geld anzusparen."
+      ]
+    },
+    "extraDeposits": {
+      "title": "Der Topf wird regelmäßig zusätzlich aufgefüllt",
+      "paragraphs": [
+        "Wenn die normalen Einzahlungen dauerhaft nicht ausreichen und du regelmäßig Geld aus anderen Töpfen übertragen musst, ist das ein wichtiges Signal.",
+        "Auch wenn diese Übertragungen verhindern, dass der Saldo lange negativ bleibt, zeigen sie, dass die tatsächlichen Ausgaben höher sind als ursprünglich geplant.",
+        "Übertragungen zwischen Töpfen können das Diagramm weniger eindeutig machen. Deshalb lässt sich allein anhand der Linie nicht immer erkennen, warum sich der Saldo erholt hat. Regelmäßige zusätzliche Einzahlungen zusammen mit hohen Ausgaben sind jedoch bereits ein guter Grund, den Anteil des Topfes zu überprüfen."
+      ]
+    }
+  },
+  "differentJars": {
+    "title": "Verschiedene Töpfe sollten unterschiedlich bewertet werden",
+    "lead": "Der gleiche Verlauf im Diagramm kann je nach Zweck des Topfes etwas anderes bedeuten.",
+    "spendingJar": {
+      "title": "Ausgabentopf",
+      "listIntro": "Bei einem Topf für alltägliche Ausgaben ist es normalerweise üblich, dass er:",
+      "items": [
+        "zwischen den Einzahlungen sinkt;",
+        "regelmäßig schwankt;",
+        "sich gegen Ende des Zeitraums null nähert;",
+        "nach der Einkommensverteilung wieder steigt."
+      ],
+      "closingParagraphs": [
+        "Problematisch ist meist nicht der Rückgang an sich, sondern ein regelmäßig stark negativer Saldo oder die ständige Notwendigkeit, Geld aus anderen Töpfen zu übertragen."
+      ]
+    },
+    "savingsJar": {
+      "title": "Spartopf",
+      "listIntro": "Bei einem Spartopf ist es normalerweise üblich, dass er:",
+      "items": [
+        "allmählich wächst;",
+        "über längere Zeit keine Ausgaben hat;",
+        "nach Erreichen eines Ziels und einer größeren Anschaffung stark sinkt."
+      ],
+      "closingParagraphs": [
+        "Wenn ein Spartopf regelmäßig durch alltägliche Ausgaben kleiner wird, werden seine Mittel möglicherweise nicht für den vorgesehenen Zweck verwendet."
+      ]
+    },
+    "goalJar": {
+      "title": "Topf für ein größeres Ziel oder eine Verpflichtung",
+      "paragraphs": [
+        "Ein separater Topf kann sinnvoll sein, wenn du für ein bestimmtes Ziel oder eine Verpflichtung im Voraus Geld reservieren möchtest."
+      ],
+      "examplesIntro": "Zum Beispiel:",
+      "examples": [
+        "jährliche Versicherung;",
+        "Ausbildung oder Weiterbildung;",
+        "Urlaub;",
+        "Renovierung;",
+        "ein teures Abonnement;",
+        "eine größere regelmäßige Pflichtzahlung."
+      ],
+      "benefitsIntro": "Mit einem solchen Topf kannst du sofort sehen:",
+      "benefits": [
+        "wie viel bereits angespart wurde;",
+        "ob die regelmäßigen Einzahlungen ausreichen;",
+        "ob mehr als geplant ausgegeben wurde;",
+        "ob Geld aus anderen Teilen des Budgets hinzugefügt werden muss."
+      ],
+      "closingParagraphs": [
+        "Du musst jedoch nicht für jede regelmäßige Ausgabenkategorie einen eigenen Topf erstellen.",
+        "Auch größere, aber variable alltägliche Ausgaben wie Lebensmittel lassen sich normalerweise besser innerhalb eines allgemeineren Topfes verwalten und mithilfe von Tags analysieren.",
+        "Ein eigener Topf eignet sich besser für ein eigenständiges Ziel oder eine Verpflichtung, für die im Voraus ein bestimmter Betrag reserviert werden soll."
+      ]
+    }
+  },
+  "whenToChangeShare": {
+    "title": "Wann du den Anteil eines Topfes ändern solltest",
+    "openingParagraphs": [
+      "Du solltest die Prozentsätze nicht nach einem einzigen ungewöhnlichen Monat ändern.",
+      "Prüfe zuerst, ob sich die gleiche Situation über mehrere Zeiträume hinweg wiederholt."
+    ],
+    "increaseListIntro": "Eine Erhöhung des Anteils kann sinnvoll sein, wenn:",
+    "increaseItems": [
+      "der Saldo regelmäßig unter null fällt;",
+      "das Geld lange vor dem nächsten Einkommen aufgebraucht ist;",
+      "der Topf ständig zusätzlich aufgefüllt werden muss;",
+      "die Ausgaben entsprechend seinem Zweck tatsächlich notwendig sind."
+    ],
+    "decreaseListIntro": "Eine Verringerung des Anteils kann sinnvoll sein, wenn:",
+    "decreaseItems": [
+      "der verbleibende Saldo dauerhaft wächst;",
+      "das angesammelte Geld kein eigenes Sparziel hat;",
+      "die tatsächlichen Ausgaben deutlich unter dem zugewiesenen Betrag liegen;",
+      "anderen Töpfen regelmäßig Geld fehlt."
+    ],
+    "closingParagraphs": [
+      "Die 6-Töpfe-Methode verlangt nicht, dass du die ursprünglichen Prozentsätze für immer beibehältst. Die Verteilung kann und sollte an deine tatsächlichen Ausgaben und Veränderungen in deinem Leben angepasst werden."
+    ]
+  },
+  "limitations": {
+    "title": "Grenzen des Berichts",
+    "openingParagraphs": [
+      "Der Bericht „Geldbewegung“ zeigt gut, was mit dem Saldo passiert ist, erklärt aber nicht immer, warum er sich verändert hat."
+    ],
+    "canUnderstandIntro": "Damit kannst du erkennen:",
+    "canUnderstandItems": [
+      "ob der Saldo gestiegen oder gefallen ist;",
+      "wann größere Veränderungen aufgetreten sind;",
+      "ob genug Geld vorhanden war;",
+      "ob sich ein dauerhaftes Muster entwickelt;",
+      "ob der Topf regelmäßig zusätzliche Einzahlungen benötigt."
+    ],
+    "cannotDetermineIntro": "Das Diagramm allein zeigt jedoch nicht immer:",
+    "cannotDetermineItems": [
+      "wofür das Geld genau ausgegeben wurde;",
+      "woher eine Einzahlung kam;",
+      "ob es sich um eine Übertragung zwischen Töpfen handelte;",
+      "warum sich das Ausgabeverhalten verändert hat;",
+      "ob der Saldo innerhalb eines Tages unter null gefallen ist."
+    ],
+    "closingParagraphs": [
+      "Für eine genauere Analyse kannst du die Transaktionsliste und die Berichte nach Tags verwenden."
+    ]
+  },
+  "questions": {
+    "title": "Welche Fragen du dir stellen solltest",
+    "listIntro": "Versuche beim Betrachten des Berichts einige Fragen zu beantworten:",
+    "items": [
+      "Reicht das Geld im Topf bis zur nächsten Einzahlung?",
+      "Zu welchem Zeitpunkt im Zeitraum nähert sich der Saldo normalerweise null?",
+      "Treten starke Rückgänge immer wieder an denselben Tagen auf?",
+      "Muss ich regelmäßig Geld aus anderen Töpfen hierher übertragen?",
+      "Wächst der verbleibende Saldo ohne ein konkretes Ziel?",
+      "Entspricht der aktuelle Anteil des Topfes meinen tatsächlichen Ausgaben?",
+      "Sind größere Veränderungen einmalig oder wiederholen sie sich Monat für Monat?"
+    ],
+    "closingParagraphs": [
+      "Das Hauptziel des Berichts besteht nicht nur darin, eine Linie mit der Veränderung des Saldos zu zeigen, sondern dir zu helfen, dauerhafte Muster zu erkennen und zu verstehen, wie gut der gewählte Anteil des Topfes zu deinem tatsächlichen Leben passt."
+    ]
+  }
+}

@@ -1,0 +1,408 @@
+{
+  "title": "“Para Hareketleri” raporu nasıl okunur",
+  "metaDescription": "“Para Hareketleri” raporu, seçilen kavanozun bakiyesinin belirli bir dönem boyunca nasıl değiştiğini gösterir.",
+  "intro": {
+    "paragraphs": [
+      "“Para Hareketleri” raporu, seçilen kavanozun bakiyesinin belirli bir dönem boyunca nasıl değiştiğini gösterir."
+    ],
+    "listIntro": "Bu raporla şunları görebilirsiniz:",
+    "items": [
+      "dönemin başında kavanozda ne kadar para olduğunu;",
+      "ne kadar para eklendiğini;",
+      "ne kadar harcandığını;",
+      "bakiyenin ne kadar değiştiğini;",
+      "dönemin sonunda ne kadar para kaldığını;",
+      "belirgin değişikliklerin hangi zamanlarda gerçekleştiğini."
+    ],
+    "closingParagraphs": [
+      "Rapor yalnızca seçilen tek bir kavanoz için oluşturulur. Bu nedenle onu tüm finanslarınızın genel bir görünümü olarak değil, bütçenizin belirli bir bölümündeki para hareketlerinin geçmişi olarak değerlendirmek daha doğru olur."
+    ]
+  },
+  "overview": {
+    "title": "İçindekiler",
+    "metrics": "Göstergeler ne anlama geliyor",
+    "readingChart": "Grafik nasıl okunur",
+    "sameResultDifferentMovement": "Aynı sonuç çok farklı para hareketlerini gizleyebilir",
+    "monthlyInsights": "Bir aylık grafikten neler anlaşılabilir",
+    "longTermInsights": "Birkaç aylık veya yıllık grafikten neler anlaşılabilir",
+    "differentJars": "Farklı kavanozlar farklı şekilde değerlendirilmelidir",
+    "whenToChangeShare": "Kavanozun payı ne zaman değiştirilmelidir",
+    "limitations": "Raporun sınırlamaları",
+    "questions": "Kendinize sorabileceğiniz sorular"
+  },
+  "metrics": {
+    "title": "Göstergeler ne anlama geliyor",
+    "openingBalance": {
+      "title": "Başlangıç bakiyesi",
+      "paragraphs": [
+        "Başlangıç bakiyesi, seçilen dönemin başında kavanozda bulunan tutardır.",
+        "Bu tutar son eklenen para olmak zorunda değildir ve kavanozun mevcut bakiyesi de değildir. Örneğin ayın başında önceki aydan kalan para varsa, bu tutar da başlangıç bakiyesine dahil edilir."
+      ]
+    },
+    "deposits": {
+      "title": "Eklenen para",
+      "paragraphs": [
+        "Eklenen para, seçilen dönem boyunca kavanoza eklenen tüm paranın toplamını gösterir."
+      ],
+      "listIntro": "Bu para şu kaynaklardan gelebilir:",
+      "items": [
+        "dağıtılan gelirin bir kısmı;",
+        "ek bir para ekleme işlemi;",
+        "daha önce harcanan bir tutarın geri dönmesi;",
+        "başka bir kavanozdan yapılan transfer."
+      ],
+      "closingParagraphs": [
+        "Rapor eklenen paranın toplamını gösterir, ancak kaynağını belirlemez. Belirli bir para girişinin nereden geldiğini görmek için işlem listesini kontrol edin."
+      ]
+    },
+    "withdrawals": {
+      "title": "Harcamalar",
+      "paragraphs": [
+        "Harcamalar, seçilen dönem boyunca kavanozdan harcanan toplam tutarı gösterir.",
+        "Dönemin sonunda bakiye neredeyse hiç değişmemiş olsa bile toplam harcama yüksek olabilir. Bu, paranın aktif olarak harcandığını ve kavanozun daha sonra yeniden doldurulduğunu gösterir."
+      ]
+    },
+    "netChange": {
+      "title": "Net değişim",
+      "paragraphs": [
+        "Net değişim, bakiyenin dönemin başına göre ne kadar arttığını veya azaldığını gösterir.",
+        "Eklenen para ile harcamalar arasındaki fark olarak hesaplanır."
+      ],
+      "exampleIntro": "Örneğin:",
+      "exampleItems": [
+        "başlangıç bakiyesi — 1 000;",
+        "eklenen para — 2 000;",
+        "harcamalar — 2 300;",
+        "net değişim — −300;",
+        "dönem sonu bakiyesi — 700."
+      ],
+      "closingParagraphs": [
+        "Normal bir harcama kavanozu için uzun vadede net değişimin sıfıra yakın kalması veya bakiyenin yavaş yavaş artması genellikle normal kabul edilebilir.",
+        "Net değişim düzenli olarak negatif kalıyorsa, kavanozdan sistematik olarak içine girenden daha fazla para harcanıyor demektir. Bu, gelirin çok küçük bir kısmının bu kavanoza ayrıldığını veya harcamaların gözden geçirilmesi gerektiğini gösterebilir."
+      ]
+    },
+    "closingBalance": {
+      "title": "Dönem sonu bakiyesi",
+      "paragraphs": [
+        "Dönem sonu bakiyesi, seçilen dönemin sonunda kavanozda kalan tutardır.",
+        "Başlangıç bakiyesini, tüm para girişlerini ve tüm harcamaları içerir.",
+        "Dönem sonu bakiyesi ile net değişimi karıştırmamak önemlidir. Bakiye ne kadar para kaldığını, net değişim ise bu tutarın başlangıç bakiyesinden ne kadar farklı olduğunu gösterir."
+      ]
+    }
+  },
+  "readingChart": {
+    "title": "Grafik nasıl okunur",
+    "lead": "Grafikteki çizgi, seçilen dönem boyunca kavanozun bakiyesinin nasıl değiştiğini gösterir.",
+    "lineUp": {
+      "title": "Çizgi yukarı gidiyor",
+      "paragraphs": [
+        "Çizginin yükselmesi, kavanoza para eklendiği anlamına gelir.",
+        "Keskin bir yükseliş genellikle gelirin dağıtılması veya başka bir kavanozdan transfer gibi büyük bir para girişine bağlıdır.",
+        "Kademeli veya basamaklı bir yükseliş birkaç ayrı para girişini gösterebilir."
+      ]
+    },
+    "lineDown": {
+      "title": "Çizgi aşağı gidiyor",
+      "paragraphs": [
+        "Çizginin düşmesi harcama yapıldığı anlamına gelir.",
+        "Kademeli bir düşüş genellikle paranın dönem boyunca azar azar harcandığını gösterir.",
+        "Keskin bir düşüş büyük bir harcamayı veya kısa süre içinde yapılan birkaç harcamayı gösterir.",
+        "Grafik değişikliğin ne zaman gerçekleştiğini gösterir, ancak paranın tam olarak neye harcandığını göstermez. Bunun için işlem listesini veya etiketlere göre raporu açın."
+      ]
+    },
+    "lineFlat": {
+      "title": "Çizgi yaklaşık aynı seviyede kalıyor",
+      "listIntro": "Bu durum şu anlamlara gelebilir:",
+      "items": [
+        "neredeyse hiç harcama yapılmamış olabilir;",
+        "eklenen para harcamaları yaklaşık olarak dengelemiş olabilir;",
+        "para düzenli olarak harcanıp tekrar eklenmiş olabilir;",
+        "kavanoz nadiren kullanılmış olabilir."
+      ],
+      "closingParagraphs": [
+        "Bu nedenle yatay bir çizgi tek başına hiç hareket olmadığı anlamına gelmez. Toplam para girişlerine ve harcamalara da bakmak gerekir."
+      ]
+    },
+    "balanceNearZero": {
+      "title": "Bakiye sıfıra yakın kalıyor",
+      "listIntro": "Çizgi uzun süre sıfıra yakın kalıyorsa bunun birkaç nedeni olabilir:",
+      "items": [
+        "kavanozun payı gerçek ihtiyaçlara oldukça iyi uyuyor olabilir;",
+        "para tam olarak yetiyor olabilir;",
+        "her para girişinden sonra para hızla harcanıyor olabilir;",
+        "kavanozun düzenli olarak başka kaynaklardan ek paraya ihtiyacı olabilir."
+      ],
+      "closingParagraphs": [
+        "Durumu daha iyi anlamak için grafiği toplam para girişleri ve harcamalarla karşılaştırın.",
+        "Kavanoz düzenli olarak gelir dağılımında kendisine ayrılan tutardan belirgin şekilde daha fazla para alıyorsa, ek transferlere ihtiyaç duyuyor olabilir."
+      ]
+    },
+    "balanceNegative": {
+      "title": "Bakiye sıfırın altına düşüyor",
+      "paragraphs": [
+        "Negatif bakiye, kavanozda bulunan paradan daha fazlasının harcandığı anlamına gelir.",
+        "Tek seferlik böyle bir durum normal olabilir. Örneğin büyük bir alışveriş bir sonraki gelirden kısa süre önce yapılmış olabilir."
+      ],
+      "listIntro": "Kavanoz düzenli olarak eksiye düşüyorsa bu şunlara işaret edebilir:",
+      "items": [
+        "gelirin çok küçük bir kısmı bu kavanoza ayrılıyor olabilir;",
+        "bu kavanozla ilgili harcamalar artmış olabilir;",
+        "bazı harcamalar azaltılabilir veya ertelenebilir."
+      ],
+      "closingParagraphs": [
+        "Uygulama negatif bakiyeye izin verir. Bir sonraki para girişinde önce negatif bakiye kapanır, bu nedenle yeni dönem için daha az para kullanılabilir durumda kalır."
+      ]
+    },
+    "temporaryMinusNotVisible": {
+      "title": "Geçici negatif bakiye neden grafikte görünmeyebilir",
+      "paragraphs": [
+        "Grafik her gün için bakiyenin gün sonundaki değişimini gösterir.",
+        "Bir kavanoz aynı gün içinde önce eksiye düşüp sonra yeniden doldurulursa, aradaki negatif bakiye grafikte görünmeyebilir. Grafikte yalnızca o günün son bakiyesi gösterilir."
+      ],
+      "exampleIntro": "Örneğin:",
+      "orderedItems": [
+        "Kavanozda 100 vardı.",
+        "200 harcadınız ve bakiye −100 oldu.",
+        "Daha sonra başka bir kavanozdan 150 aktardınız.",
+        "Günün son bakiyesi 50 oldu."
+      ],
+      "closingParagraphs": [
+        "Kavanoz gün içinde geçici olarak eksiye düşmüş olsa bile grafikte pozitif bir gün sonu bakiyesi gösterilir.",
+        "Bu nedenle grafik genel eğilimi analiz etmek için uygundur, ancak her ara durumu her zaman göstermez."
+      ],
+      "borrowLinkPrefix": "Kavanozlar arasında geçici olarak kendinizden nasıl borç alabileceğinizi ",
+      "borrowLinkText": "kendinizden borç alma bölümünde",
+      "borrowLinkSuffix": " okuyabilirsiniz."
+    }
+  },
+  "sameResultDifferentMovement": {
+    "title": "Aynı sonuç çok farklı para hareketlerini gizleyebilir",
+    "openingParagraphs": [
+      "Bir dönemi yalnızca dönem sonu bakiyesine göre değerlendirmeyin.",
+      "İki ay düşünelim."
+    ],
+    "firstMonthIntro": "İlk ay:",
+    "firstMonthItems": [
+      "eklenen para — 2 000;",
+      "harcamalar — 2 000;",
+      "net değişim — 0."
+    ],
+    "secondMonthIntro": "İkinci ay:",
+    "secondMonthItems": [
+      "hiç para eklenmedi;",
+      "hiç harcama yapılmadı;",
+      "net değişim — 0."
+    ],
+    "closingParagraphs": [
+      "Her iki durumda da bakiye değişmedi, ancak ilk ay kavanoz aktif olarak kullanılırken ikinci ay hiç para hareketi olmadı."
+    ],
+    "summaryListIntro": "Bu nedenle şunlara birlikte bakmak faydalıdır:",
+    "summaryItems": [
+      "başlangıç bakiyesi;",
+      "eklenen para;",
+      "harcamalar;",
+      "net değişim;",
+      "grafikteki çizginin şekli."
+    ]
+  },
+  "monthlyInsights": {
+    "title": "Bir aylık grafikten neler anlaşılabilir",
+    "lead": "Kısa bir dönemde rapor, paranın ay içinde nasıl hareket ettiğini anlamanıza yardımcı olur.",
+    "moneyRunsOutEarly": {
+      "title": "Para çok erken bitiyor",
+      "paragraphs": [
+        "Bakiye bir sonraki para girişinden çok önce düzenli olarak sıfıra yaklaşıyorsa, kavanozun mevcut payı yetersiz olabilir.",
+        "Ancak tekrar eden bir düzen ile tek seferlik bir durumu ayırt etmek önemlidir. Tek bir sıra dışı ay, dağılımın mutlaka değiştirilmesi gerektiği anlamına gelmez."
+      ]
+    },
+    "evenSpending": {
+      "title": "Para dengeli şekilde harcanıyor",
+      "paragraphs": [
+        "Çizgi ay boyunca kademeli olarak düşüyorsa, harcamalar muhtemelen oldukça dengeli dağılmıştır.",
+        "Günlük harcamalar için kullanılan bir kavanozda bu normal bir durum olabilir."
+      ]
+    },
+    "sharpDropAtStart": {
+      "title": "Dönemin başında keskin bir düşüş var",
+      "paragraphs": [
+        "Paranın önemli bir kısmı kavanoz doldurulduktan hemen sonra harcanıyorsa, dönemin başında büyük zorunlu giderler ödeniyor olabilir.",
+        "Bu mutlaka bir sorun değildir. Ancak bu harcamalardan sonra ayın geri kalanı için düzenli olarak yeterli para kalmıyorsa, dağılımı gözden geçirmek faydalı olabilir."
+      ]
+    },
+    "largeDrops": {
+      "title": "Grafikte tek tek büyük düşüşler görülüyor",
+      "paragraphs": [
+        "Keskin düşüşler büyük harcamaların hangi tarihlerde yapıldığını görmenize yardımcı olur."
+      ],
+      "listIntro": "Ardından işlemleri açıp şunları kontrol edebilirsiniz:",
+      "items": [
+        "ne satın alındığını;",
+        "harcamanın planlı olup olmadığını;",
+        "düzenli olarak tekrarlanıp tekrarlanmadığını;",
+        "bu harcama için önceden para ayırmanın mantıklı olup olmadığını."
+      ]
+    }
+  },
+  "longTermInsights": {
+    "title": "Birkaç aylık veya yıllık grafikten neler anlaşılabilir",
+    "lead": "Uzun dönemlerde grafik, kalıcı eğilimleri tespit etmek için özellikle kullanışlıdır.",
+    "introParagraphs": [
+      "Tek bir ay istisna olabilir. Tekrarlanan bir eğilim ise kavanoz ayarlarının veya harcama yapısının değiştirilmesi gerekebileceğine dair daha güçlü bir işarettir."
+    ],
+    "balanceGrowing": {
+      "title": "Bakiye sürekli artıyor",
+      "paragraphs": [
+        "Birikim kavanozu için düzenli büyüme beklenen bir sonuçtur.",
+        "Ancak normal bir harcama kavanozunda bakiyenin sürekli artması, kavanoza gerçekten ihtiyaç duyulandan daha fazla para ayrıldığını gösterebilir.",
+        "Bu durumda kavanozun payını azaltıp serbest kalan gelir kısmını diğer kavanozlara yönlendirmeyi düşünebilirsiniz.",
+        "Bir değişiklik yapmadan önce biriken paranın belirli bir amacı olup olmadığını kontrol edin. Büyük bir harcama seyrek gerçekleşiyor olabilir ve mevcut bakiyeye daha sonra ihtiyaç duyabilirsiniz."
+      ]
+    },
+    "balanceDeclining": {
+      "title": "Bakiye sürekli azalıyor",
+      "paragraphs": [
+        "Çizgi uzun bir dönem boyunca kademeli olarak aşağı gidiyorsa, kavanozun harcamaları sistematik olarak para girişlerini aşıyor demektir.",
+        "Tek seferlik bir düşüş alışılmadık derecede büyük harcamalardan kaynaklanabilir. Ancak aynı eğilim aylar boyunca tekrarlanıyorsa, mevcut dağılım büyük olasılıkla yeterli değildir."
+      ],
+      "listIntro": "Bu durumda şunları kontrol edin:",
+      "items": [
+        "kavanozun amacına uygun normal harcamaların artıp artmadığını;",
+        "seçilen dönemde seyrek görülen büyük harcamalar olup olmadığını;",
+        "kavanozu düzenli olarak başka kavanozlardan doldurmanız gerekip gerekmediğini."
+      ],
+      "closingParagraphs": [
+        "Düşüş sürekli ve gerekli harcamalardan kaynaklanıyorsa, bu kavanozun payını diğerlerinin payını azaltarak artırabilirsiniz.",
+        "Neden seyrek görülen büyük harcamalarsa, düzenli dağılımı değiştirmek zorunda değilsiniz. Bu tür harcamalar için önceden ayrı para biriktirmek daha uygun olabilir."
+      ]
+    },
+    "extraDeposits": {
+      "title": "Kavanoz düzenli olarak ek para alıyor",
+      "paragraphs": [
+        "Normal para girişleri sürekli yetersiz kalıyor ve düzenli olarak başka kavanozlardan para aktarmanız gerekiyorsa, bu önemli bir işarettir.",
+        "Bu transferler bakiyenin uzun süre negatif kalmasını engellese bile, gerçek harcamaların başlangıçta planlanandan daha yüksek olduğunu gösterir.",
+        "Kavanozlar arasındaki transferler grafiği daha az anlaşılır hale getirebilir. Bu nedenle sadece çizgiye bakarak bakiyenin neden toparlandığını her zaman anlamak mümkün değildir. Ancak düzenli ek para girişleri ile yüksek harcamaların birlikte görülmesi, kavanozun payını gözden geçirmek için yeterli bir nedendir."
+      ]
+    }
+  },
+  "differentJars": {
+    "title": "Farklı kavanozlar farklı şekilde değerlendirilmelidir",
+    "lead": "Grafikteki aynı şekil, kavanozun amacına bağlı olarak farklı anlamlara gelebilir.",
+    "spendingJar": {
+      "title": "Harcama kavanozu",
+      "listIntro": "Günlük harcamalar için kullanılan bir kavanozda genellikle şunlar normaldir:",
+      "items": [
+        "para girişleri arasında bakiyenin düşmesi;",
+        "düzenli olarak dalgalanması;",
+        "dönemin sonuna doğru sıfıra yaklaşması;",
+        "gelir dağıtıldıktan sonra yeniden yükselmesi."
+      ],
+      "closingParagraphs": [
+        "Sorun genellikle düşüşün kendisi değil, bakiyenin düzenli olarak çok fazla eksiye düşmesi veya sürekli başka kavanozlardan para aktarmak zorunda kalmaktır."
+      ]
+    },
+    "savingsJar": {
+      "title": "Birikim kavanozu",
+      "listIntro": "Birikim kavanozunda genellikle şunlar normaldir:",
+      "items": [
+        "bakiyenin kademeli olarak büyümesi;",
+        "uzun süre hiç harcama olmaması;",
+        "bir hedefe ulaşılıp büyük bir alışveriş yapıldıktan sonra bakiyenin keskin şekilde düşmesi."
+      ],
+      "closingParagraphs": [
+        "Birikim kavanozu günlük harcamalar nedeniyle düzenli olarak azalıyorsa, para amaçlanandan farklı bir şekilde kullanılıyor olabilir."
+      ]
+    },
+    "goalJar": {
+      "title": "Büyük bir hedef veya yükümlülük için kavanoz",
+      "paragraphs": [
+        "Belirli bir hedef veya yükümlülük için önceden para ayırmanız gerekiyorsa ayrı bir kavanoz kullanmak faydalı olabilir."
+      ],
+      "examplesIntro": "Örneğin:",
+      "examples": [
+        "yıllık sigorta;",
+        "eğitim;",
+        "tatil;",
+        "tadilat;",
+        "pahalı bir abonelik;",
+        "yüksek tutarlı düzenli zorunlu bir ödeme."
+      ],
+      "benefitsIntro": "Böyle bir kavanoz sayesinde hemen şunları görebilirsiniz:",
+      "benefits": [
+        "ne kadar biriktirdiğinizi;",
+        "düzenli para girişlerinin yeterli olup olmadığını;",
+        "planlanandan fazla harcama yapıp yapmadığınızı;",
+        "bütçenin başka bölümlerinden para eklemeniz gerekip gerekmediğini."
+      ],
+      "closingParagraphs": [
+        "Ancak her düzenli harcama türü için ayrı bir kavanoz oluşturmak gerekmez.",
+        "Market alışverişi gibi yüksek tutarlı ancak değişken günlük harcamaları genellikle daha geniş bir kavanoz içinde tutmak ve etiketlerle analiz etmek daha uygundur.",
+        "Ayrı bir kavanoz, önceden belirli bir tutar ayırmanız gereken bağımsız bir hedef veya yükümlülük için daha kullanışlıdır."
+      ]
+    }
+  },
+  "whenToChangeShare": {
+    "title": "Kavanozun payı ne zaman değiştirilmelidir",
+    "openingParagraphs": [
+      "Tek bir sıra dışı aydan sonra yüzdeleri değiştirmeyin.",
+      "Önce aynı durumun birkaç dönem boyunca tekrar edip etmediğine bakın."
+    ],
+    "increaseListIntro": "Şu durumlarda payı artırmak mantıklı olabilir:",
+    "increaseItems": [
+      "bakiye düzenli olarak sıfırın altına düşüyorsa;",
+      "para bir sonraki gelirden çok önce bitiyorsa;",
+      "kavanoz sürekli ek para girişine ihtiyaç duyuyorsa;",
+      "kavanozun amacına uygun harcamalar gerçekten gerekliyse."
+    ],
+    "decreaseListIntro": "Şu durumlarda payı azaltmak mantıklı olabilir:",
+    "decreaseItems": [
+      "kalan bakiye sürekli büyüyorsa;",
+      "biriken paranın ayrı bir birikim hedefi yoksa;",
+      "gerçek harcamalar ayrılan tutardan belirgin şekilde düşükse;",
+      "diğer kavanozlarda düzenli olarak para yetersiz kalıyorsa."
+    ],
+    "closingParagraphs": [
+      "6 Kavanoz yöntemi başlangıç yüzdelerini sonsuza kadar korumanızı gerektirmez. Dağılım gerçek harcamalarınıza ve hayatınızdaki değişikliklere göre uyarlanabilir ve uyarlanmalıdır."
+    ]
+  },
+  "limitations": {
+    "title": "Raporun sınırlamaları",
+    "openingParagraphs": [
+      "“Para Hareketleri” raporu bakiyeye ne olduğunu iyi gösterir, ancak neden değiştiğini her zaman açıklamaz."
+    ],
+    "canUnderstandIntro": "Bu raporla şunları anlayabilirsiniz:",
+    "canUnderstandItems": [
+      "bakiyenin yükselip yükselmediğini veya düşüp düşmediğini;",
+      "büyük değişikliklerin ne zaman gerçekleştiğini;",
+      "paranın yeterli olup olmadığını;",
+      "kalıcı bir eğilim oluşup oluşmadığını;",
+      "kavanozun düzenli olarak ek para girişine ihtiyaç duyup duymadığını."
+    ],
+    "cannotDetermineIntro": "Ancak grafik tek başına her zaman şunları belirleyemez:",
+    "cannotDetermineItems": [
+      "paranın tam olarak neye harcandığını;",
+      "bir para girişinin nereden geldiğini;",
+      "bunun kavanozlar arasında bir transfer olup olmadığını;",
+      "harcama davranışının neden değiştiğini;",
+      "bakiyenin gün içinde sıfırın altına düşüp düşmediğini."
+    ],
+    "closingParagraphs": [
+      "Daha ayrıntılı analiz için işlem listesini ve etiketlere göre raporları kullanın."
+    ]
+  },
+  "questions": {
+    "title": "Kendinize sorabileceğiniz sorular",
+    "listIntro": "Raporu incelerken şu sorulara cevap vermeye çalışın:",
+    "items": [
+      "Kavanozdaki para bir sonraki para girişine kadar yetiyor mu?",
+      "Dönemin hangi noktasında bakiye genellikle sıfıra yaklaşmaya başlıyor?",
+      "Keskin düşüşler aynı tarihlerde tekrar ediyor mu?",
+      "Buraya düzenli olarak başka kavanozlardan para aktarmam gerekiyor mu?",
+      "Kalan bakiye belirli bir hedef olmadan büyümeye devam ediyor mu?",
+      "Kavanozun mevcut payı gerçek harcamalarıma uygun mu?",
+      "Büyük değişiklikler tek seferlik mi, yoksa aylar boyunca tekrarlanıyor mu?"
+    ],
+    "closingParagraphs": [
+      "Raporun temel amacı yalnızca bakiyedeki değişimi gösteren bir çizgi sunmak değil, tekrar eden eğilimleri fark etmenize ve kavanoz için seçilen payın gerçek hayatınıza ne kadar uygun olduğunu anlamanıza yardımcı olmaktır."
+    ]
+  }
+}

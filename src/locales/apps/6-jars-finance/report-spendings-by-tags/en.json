@@ -1,0 +1,341 @@
+{
+  "title": "How to Read the “Spending by Tags” Report",
+  "metaDescription": "The “Spending by Tags” report helps you understand what money from the selected jar was spent on during a given period.",
+  "intro": {
+    "paragraphs": [
+      "The “Spending by Tags” report helps you understand what money from the selected jar was spent on during a given period.",
+      "Unlike a regular transaction list, it groups expenses with the same tags and shows:"
+    ],
+    "items": [
+      "the total amount spent for each tag;",
+      "the number of transactions with that tag;",
+      "the relative size of spending across different tags."
+    ],
+    "closingParagraphs": [
+      "The report can help you find not only the most expensive types of spending, but also frequent small purchases that may seem insignificant on their own."
+    ]
+  },
+  "overview": {
+    "title": "Contents",
+    "whatItShows": "What the report shows",
+    "sortByAmount": "Sorting by amount",
+    "sortByCount": "Sorting by number of transactions",
+    "progressBars": "How to read the bars",
+    "tagSumMismatch": "Why the total by tags may not match your total spending",
+    "compareAmountAndCount": "How to compare the amount and number of transactions",
+    "conclusions": "What you can learn from the report",
+    "compareMonths": "Compare different months",
+    "consistentTags": "Use tags consistently",
+    "analysisExample": "Example of analyzing the report",
+    "summary": "Key takeaways"
+  },
+  "whatItShows": {
+    "title": "What the report shows",
+    "paragraphs": [
+      "The report is created for one selected jar at a time.",
+      "For example, if you select the “Necessities” jar, the report will include only expenses from that jar. Transactions from other jars will not be included, even if they use the same tags."
+    ],
+    "metricsIntro": "Two values are shown for each tag:",
+    "metrics": [
+      "<strong>amount</strong> — the total amount spent in transactions with this tag;",
+      "<strong>number of transactions</strong> — how many times the tag was used in expenses during the selected period."
+    ],
+    "exampleIntro": "For example, if the “Food delivery” tag was used in four transactions totaling 650, the report will show:",
+    "exampleItems": [
+      "amount — 650;",
+      "number of transactions — 4."
+    ],
+    "closingParagraphs": [
+      "These values show your spending from different perspectives. A large total can come from either one expensive purchase or many smaller ones."
+    ]
+  },
+  "sortByAmount": {
+    "title": "Sorting by amount",
+    "paragraphs": [
+      "When sorted by amount, the tags with the highest total spending appear first.",
+      "This mode helps answer the question:"
+    ],
+    "question": "Which types of spending had the biggest impact on the jar balance?",
+    "exampleIntro": "For example, a monthly report might look like this:",
+    "table": {
+      "headers": ["Tag", "Amount", "Transactions"],
+      "rows": [
+        ["Groceries", "2 400", "12"],
+        ["Household supplies", "750", "3"],
+        ["Food delivery", "650", "4"],
+        ["Coffee", "480", "16"]
+      ]
+    },
+    "closingParagraphs": [
+      "In this example, groceries accounted for the largest amount of spending. Even though coffee was purchased more often, its overall impact on the total was much smaller."
+    ],
+    "listIntro": "Sorting by amount is useful when you want to:",
+    "items": [
+      "find the most expensive types of purchases;",
+      "see which expenses had the biggest impact on the balance;",
+      "choose a tag for more detailed analysis;",
+      "compare your spending patterns across different periods."
+    ],
+    "outroParagraphs": [
+      "A large amount does not automatically mean that the spending was unnecessary. Groceries, for example, may rank first simply because they are a major expense within the selected jar.",
+      "The report shows where the money went, but whether those expenses were necessary depends on the purpose of the jar and your own situation."
+    ]
+  },
+  "sortByCount": {
+    "title": "Sorting by number of transactions",
+    "paragraphs": [
+      "When sorted by number of transactions, the tags used most often appear first.",
+      "This mode answers a different question:"
+    ],
+    "question": "Which expenses occur most regularly?",
+    "closingParagraphs": [
+      "Frequent transactions do not necessarily rank highest by amount. However, they can reveal recurring habits.",
+      "In the previous example, coffee was purchased 16 times — more often than any other expense. Its total amount was relatively small, so it would appear near the bottom when sorting by amount."
+    ],
+    "listIntro": "Sorting by number of transactions can help you find:",
+    "items": [
+      "frequently repeated purchases;",
+      "expenses that have become habitual;",
+      "many small transactions;",
+      "areas where reducing how often you buy something may matter more than reducing the size of each purchase."
+    ],
+    "outroParagraphs": [
+      "For example, one purchase of 500 is more noticeable than ten purchases of 50. But in both cases, the total spending is the same. Sorting by number of transactions makes the second pattern easier to spot."
+    ]
+  },
+  "progressBars": {
+    "title": "How to read the bars",
+    "paragraphs": [
+      "A bar next to each tag provides a visual comparison of spending amounts.",
+      "The tag with the highest spending during the selected period is treated as 100%. All other bars are calculated relative to it."
+    ],
+    "exampleIntro": "For example:",
+    "exampleItems": [
+      "“Groceries” — 2 000;",
+      "“Food delivery” — 1 000;",
+      "“Coffee” — 500."
+    ],
+    "resultIntro": "In this case:",
+    "resultItems": [
+      "the “Groceries” bar will be completely filled;",
+      "“Food delivery” will be about half full;",
+      "“Coffee” will be about one-quarter full."
+    ],
+    "closingParagraphs": [
+      "The bar does not show the tag's share of all spending. A completely filled bar does not mean that 100% of your spending went to that tag. It only means that this tag has the highest amount in the current report.",
+      "The visualization is always based on the amount, even when the list is sorted by number of transactions.",
+      "So when you change the sorting mode, the order of the tags may change, but the bar lengths will still represent spending amounts."
+    ]
+  },
+  "tagSumMismatch": {
+    "title": "Why the total by tags may not match your total spending",
+    "paragraphs": [
+      "A single transaction can have multiple tags. In that case, the full transaction amount is counted separately for each selected tag."
+    ],
+    "exampleIntro": "For example, you spend 300 and add two tags to the transaction:",
+    "exampleTags": [
+      "“Groceries”;",
+      "“Guests”."
+    ],
+    "reportIntro": "In the report, this transaction will add:",
+    "reportItems": [
+      "300 to the “Groceries” tag;",
+      "300 to the “Guests” tag."
+    ],
+    "closingParagraphs": [
+      "Only 300 was actually deducted from the jar, but the combined values of the two tags will equal 600.",
+      "This is not a duplicate charge or a calculation error. Tags in the app are attributes of a transaction rather than separate parts into which its amount is divided."
+    ],
+    "questionsIntro": "A single purchase can answer several questions at the same time:",
+    "questions": [
+      "<strong>what was purchased?</strong> — groceries;",
+      "<strong>what was it for?</strong> — guests;",
+      "<strong>where?</strong> — at the market;",
+      "<strong>was the purchase planned?</strong> — unplanned."
+    ],
+    "outroParagraphs": [
+      "Each tag lets you look at the same transaction from a different perspective.",
+      "For this reason, you should not add up all rows in the report to calculate your total spending."
+    ],
+    "fundsMovementLinkPrefix": "To see the actual amount spent during the period, use the ",
+    "fundsMovementLinkText": "“Funds Movement”",
+    "fundsMovementLinkSuffix": " report."
+  },
+  "compareAmountAndCount": {
+    "title": "How to compare the amount and number of transactions",
+    "lead": "The most useful insights often come from looking at both values together.",
+    "highAmountHighCount": {
+      "title": "High amount and many transactions",
+      "paragraphs": [
+        "The expense is both large and recurring.",
+        "For example, groceries may be purchased several times a week and make up a significant part of the jar's spending.",
+        "This does not necessarily mean there is a problem, but it shows that changes in this area would have the greatest impact on the overall balance."
+      ]
+    },
+    "highAmountLowCount": {
+      "title": "High amount and few transactions",
+      "paragraphs": [
+        "Most of the amount came from one or a few large purchases.",
+        "For example, the “Repairs” tag may have been used only twice but still rank first by amount.",
+        "In this case, it is useful to check whether these were one-time expenses. If they were, one month alone may not reflect your usual spending pattern."
+      ]
+    },
+    "lowAmountHighCount": {
+      "title": "Low amount and many transactions",
+      "paragraphs": [
+        "The expense occurs frequently, but each individual transaction is relatively small.",
+        "Coffee, snacks, transportation, or small purchases on the way home may look like this.",
+        "These expenses can easily go unnoticed because each transaction seems insignificant. The report makes their overall frequency and impact on your budget easier to see."
+      ]
+    },
+    "lowAmountLowCount": {
+      "title": "Low amount and few transactions",
+      "paragraphs": [
+        "The expense was rare and had little impact on the overall picture.",
+        "These tags usually do not require much attention unless you are tracking a specific habit or goal."
+      ]
+    }
+  },
+  "conclusions": {
+    "title": "What you can learn from the report",
+    "topSpending": {
+      "title": "What you spend the most money on",
+      "paragraphs": [
+        "Sorting by amount shows which types of spending had the biggest impact on the selected jar's balance during the month.",
+        "If one tag is far ahead of the others, first consider whether that matches the purpose of the jar. For example, high grocery spending may be expected in the “Necessities” jar, while a large amount under “Food delivery” may be a reason to check whether delivery has become too frequent or too expensive."
+      ],
+      "compareIntro": "Compare the amount with the number of transactions:",
+      "compareItems": [
+        "a high amount with only a few transactions usually means there were several large purchases;",
+        "a high amount with many transactions points to recurring expenses that gradually added up over the month."
+      ],
+      "closingParagraphs": [
+        "This helps you understand what you could actually change. In the first case, check whether the large purchase was a one-time and planned expense. In the second, consider whether you could reduce the average cost of each purchase or make those purchases less often.",
+        "A high amount alone does not mean you overspent. It shows which types of spending have the strongest effect on the jar and where changes would make the most noticeable difference."
+      ]
+    },
+    "mostFrequent": {
+      "title": "Which purchases happen most often",
+      "paragraphs": [
+        "Sorting by number of transactions can reveal habits that are not always obvious from the total amount.",
+        "For example, occasional food delivery may cost more than coffee over the course of a month, but daily coffee purchases will rank higher by number of transactions.",
+        "Depending on your goal, it may be more useful to analyze either the cost of a habit or how often it occurs."
+      ]
+    },
+    "largeOrSmall": {
+      "title": "Whether spending comes from large or small transactions",
+      "paragraphs": [
+        "The amount and number of transactions can give you a rough idea of the nature of your spending."
+      ],
+      "exampleIntro": "For example:",
+      "exampleItems": [
+        "1 200 across 2 transactions — likely a few large purchases;",
+        "1 200 across 24 transactions — many small purchases."
+      ],
+      "closingParagraphs": [
+        "For a more detailed analysis, open the details for a specific tag. There you can see the total amount, number of transactions, average expense, and how spending is distributed across the days of the month."
+      ]
+    },
+    "worthStudying": {
+      "title": "Which expenses are worth looking at more closely",
+      "listIntro": "Tags that may deserve additional attention include those that:",
+      "items": [
+        "rank near the top by amount;",
+        "are used noticeably more often than others;",
+        "have increased unexpectedly compared with their usual level;",
+        "have both a high amount and a high number of transactions;",
+        "represent optional or unplanned purchases."
+      ],
+      "closingParagraphs": [
+        "The report does not decide which expenses are good or bad. It helps you identify areas that may be worth examining more closely."
+      ]
+    }
+  },
+  "compareMonths": {
+    "title": "Compare different months",
+    "paragraphs": [
+      "To spot changes in your spending, compare reports across several months.",
+      "When comparing months, look at both the amount and the number of transactions. Spending under a tag can increase for different reasons:"
+    ],
+    "reasons": [
+      "purchases started happening more often;",
+      "the average cost of each purchase increased;",
+      "there was one large transaction during the month;",
+      "you started using the tag more consistently."
+    ],
+    "eventsIntro": "Also consider events that may have temporarily affected your spending:",
+    "events": [
+      "holidays;",
+      "vacations;",
+      "moving;",
+      "a large purchase;",
+      "having guests;",
+      "a temporary change in lifestyle."
+    ],
+    "closingParagraphs": [
+      "An increase in spending during a single month does not always mean a new habit has formed. It is more useful to check whether the change continues in the following months."
+    ]
+  },
+  "consistentTags": {
+    "title": "Use tags consistently",
+    "paragraphs": [
+      "The quality of the report depends on how consistently you use tags.",
+      "If you add a tag to some purchases of the same type but leave others untagged, the report will show only part of your actual spending.",
+      "For example, if you want to track food delivery, add the corresponding tag to every such transaction. Otherwise, both the amount and number of transactions will be understated.",
+      "It is useful to decide in advance what each tag means."
+    ],
+    "examplesIntro": "For example:",
+    "examples": [
+      "“Cafes” — any purchases at cafes and restaurants;",
+      "“Food delivery” — only food ordered to your home;",
+      "“Snacks” — small unplanned food purchases while you are out."
+    ],
+    "closingParagraphs": [
+      "The clearer your rules for using tags are, the easier it is to compare data across different periods.",
+      "You do not need to add tags to every transaction. Use them when you actually want to track a particular type of spending, habit, or purchase context."
+    ]
+  },
+  "analysisExample": {
+    "title": "Example of analyzing the report",
+    "intro": "Suppose the “Play” jar shows the following data for the month:",
+    "table": {
+      "headers": ["Tag", "Amount", "Transactions"],
+      "rows": [
+        ["Going out with friends", "1 800", "4"],
+        ["Food delivery", "1 400", "7"],
+        ["Games", "1 000", "1"],
+        ["Coffee", "800", "16"]
+      ]
+    },
+    "closingParagraphs": [
+      "When sorted by amount, you can see that going out with friends accounted for the largest share of spending.",
+      "But sorting by number of transactions shows a different picture: purchases tagged “Coffee” happened most often."
+    ],
+    "conclusionsIntro": "The report supports several different conclusions:",
+    "conclusions": [
+      "going out with friends was the largest spending category;",
+      "the game purchase was large but happened only once;",
+      "food delivery was recurring and ranked second by amount;",
+      "coffee was purchased most often, even though its total amount was lower."
+    ],
+    "outroParagraphs": [
+      "There is no single “bad” expense here. What matters depends on what you are trying to understand.",
+      "If you want to reduce spending quickly, start by reviewing the largest categories. If you want to change an everyday habit, frequent transactions may be more useful to examine."
+    ]
+  },
+  "summary": {
+    "title": "Key takeaways",
+    "paragraphs": [
+      "The “Spending by Tags” report shows your expenses from two perspectives:"
+    ],
+    "items": [
+      "<strong>amount</strong> shows the financial impact;",
+      "<strong>number of transactions</strong> shows frequency."
+    ],
+    "closingParagraphs": [
+      "Sorting by amount helps you find the most expensive types of purchases, while sorting by number of transactions highlights the most frequent ones.",
+      "When a transaction has multiple tags, the sum of all tag values may exceed your actual spending because the full transaction amount is counted separately for each tag. This lets you analyze the same purchase from several perspectives, but it also means you should not add up all rows in the report to calculate total spending.",
+      "Use the report not to automatically identify “unnecessary” purchases, but to find areas of spending that may be worth examining more closely."
+    ]
+  }
+}

@@ -1,0 +1,341 @@
+{
+  "title": "Zo lees je het rapport ‘Uitgaven per tag’",
+  "metaDescription": "Het rapport ‘Uitgaven per tag’ helpt je te begrijpen waaraan geld uit de geselecteerde pot in een bepaalde periode is uitgegeven.",
+  "intro": {
+    "paragraphs": [
+      "Het rapport ‘Uitgaven per tag’ helpt je te begrijpen waaraan geld uit de geselecteerde pot in een bepaalde periode is uitgegeven.",
+      "In tegenstelling tot een gewone transactielijst groepeert het uitgaven met dezelfde tags en toont het:"
+    ],
+    "items": [
+      "het totale bedrag dat voor elke tag is uitgegeven;",
+      "het aantal transacties met die tag;",
+      "de verhouding tussen de uitgaven voor verschillende tags."
+    ],
+    "closingParagraphs": [
+      "Met het rapport kun je niet alleen de duurste soorten uitgaven vinden, maar ook frequente kleine aankopen die afzonderlijk onbeduidend kunnen lijken."
+    ]
+  },
+  "overview": {
+    "title": "Inhoud",
+    "whatItShows": "Wat het rapport laat zien",
+    "sortByAmount": "Sorteren op bedrag",
+    "sortByCount": "Sorteren op aantal transacties",
+    "progressBars": "Hoe je de balken leest",
+    "tagSumMismatch": "Waarom het totaal per tag kan afwijken van je totale uitgaven",
+    "compareAmountAndCount": "Bedrag en aantal transacties vergelijken",
+    "conclusions": "Welke conclusies je uit het rapport kunt trekken",
+    "compareMonths": "Vergelijk verschillende maanden",
+    "consistentTags": "Gebruik tags consequent",
+    "analysisExample": "Voorbeeld van een analyse van het rapport",
+    "summary": "Belangrijkste punten"
+  },
+  "whatItShows": {
+    "title": "Wat het rapport laat zien",
+    "paragraphs": [
+      "Het rapport wordt telkens voor één geselecteerde pot gemaakt.",
+      "Als je bijvoorbeeld de pot ‘Benodigdheden’ selecteert, worden alleen uitgaven uit die pot meegenomen. Transacties uit andere potten worden niet meegerekend, ook niet als daarvoor dezelfde tags zijn gebruikt."
+    ],
+    "metricsIntro": "Voor elke tag worden twee waarden weergegeven:",
+    "metrics": [
+      "<strong>bedrag</strong> — hoeveel geld er in totaal is uitgegeven in transacties met deze tag;",
+      "<strong>aantal transacties</strong> — hoe vaak de tag in de geselecteerde periode bij uitgaven is gebruikt."
+    ],
+    "exampleIntro": "Als de tag ‘Maaltijdbezorging’ bijvoorbeeld in vier transacties met een totaalbedrag van 650 is gebruikt, toont het rapport:",
+    "exampleItems": [
+      "bedrag — 650;",
+      "aantal transacties — 4."
+    ],
+    "closingParagraphs": [
+      "Deze waarden laten je uitgaven vanuit verschillende invalshoeken zien. Een hoog totaalbedrag kan zowel uit één grote aankoop als uit veel kleinere aankopen bestaan."
+    ]
+  },
+  "sortByAmount": {
+    "title": "Sorteren op bedrag",
+    "paragraphs": [
+      "Bij sorteren op bedrag staan de tags waaraan het meeste geld is uitgegeven bovenaan.",
+      "Deze weergave helpt antwoord te geven op de vraag:"
+    ],
+    "question": "Welke soorten uitgaven hadden de grootste invloed op het saldo van de pot?",
+    "exampleIntro": "Een maandoverzicht kan er bijvoorbeeld zo uitzien:",
+    "table": {
+      "headers": ["Tag", "Bedrag", "Aantal"],
+      "rows": [
+        ["Boodschappen", "2 400", "12"],
+        ["Huishoudelijke producten", "750", "3"],
+        ["Maaltijdbezorging", "650", "4"],
+        ["Koffie", "480", "16"]
+      ]
+    },
+    "closingParagraphs": [
+      "In dit voorbeeld ging het grootste deel van de uitgaven naar boodschappen. Hoewel koffie vaker werd gekocht, was de invloed ervan op het totale bedrag veel kleiner."
+    ],
+    "listIntro": "Sorteren op bedrag is handig om:",
+    "items": [
+      "de duurste soorten aankopen te vinden;",
+      "te zien welke uitgaven het saldo het sterkst hebben beïnvloed;",
+      "een tag te kiezen voor een gedetailleerdere analyse;",
+      "de structuur van je uitgaven tussen verschillende periodes te vergelijken."
+    ],
+    "outroParagraphs": [
+      "Een hoog bedrag betekent op zichzelf niet dat een uitgave onnodig was. Boodschappen kunnen bijvoorbeeld bovenaan staan omdat ze simpelweg een belangrijk deel van de uitgaven binnen de geselecteerde pot vormen.",
+      "Het rapport laat zien waar het geld naartoe ging, maar of die uitgaven nodig waren hangt af van het doel van de pot en je eigen situatie."
+    ]
+  },
+  "sortByCount": {
+    "title": "Sorteren op aantal transacties",
+    "paragraphs": [
+      "Bij sorteren op aantal transacties staan de tags die het vaakst zijn gebruikt bovenaan.",
+      "Deze weergave beantwoordt een andere vraag:"
+    ],
+    "question": "Welke uitgaven komen het meest regelmatig voor?",
+    "closingParagraphs": [
+      "Veel transacties betekenen niet automatisch dat een tag ook bovenaan staat qua bedrag. Ze kunnen wel wijzen op een vaste gewoonte.",
+      "In het vorige voorbeeld werd koffie 16 keer gekocht — vaker dan elke andere uitgave. Het totaalbedrag was relatief laag, waardoor deze tag bij sorteren op bedrag lager in de lijst zou staan."
+    ],
+    "listIntro": "Sorteren op aantal transacties helpt je bij het vinden van:",
+    "items": [
+      "vaak terugkerende aankopen;",
+      "uitgaven die een gewoonte zijn geworden;",
+      "veel kleine transacties;",
+      "gebieden waar het nuttiger kan zijn om minder vaak iets te kopen dan om het bedrag per aankoop te verlagen."
+    ],
+    "outroParagraphs": [
+      "Eén aankoop van 500 valt bijvoorbeeld meer op dan tien aankopen van 50. Toch zijn de totale uitgaven in beide gevallen hetzelfde. Door op aantal transacties te sorteren wordt het tweede patroon makkelijker zichtbaar."
+    ]
+  },
+  "progressBars": {
+    "title": "Hoe je de balken leest",
+    "paragraphs": [
+      "Naast elke tag staat een balk die de hoogte van de uitgaven visueel vergelijkt.",
+      "De tag met het hoogste bedrag in de geselecteerde periode wordt als 100% genomen. De overige balken worden ten opzichte daarvan berekend."
+    ],
+    "exampleIntro": "Bijvoorbeeld:",
+    "exampleItems": [
+      "‘Boodschappen’ — 2 000;",
+      "‘Maaltijdbezorging’ — 1 000;",
+      "‘Koffie’ — 500."
+    ],
+    "resultIntro": "In dat geval:",
+    "resultItems": [
+      "is de balk voor ‘Boodschappen’ volledig gevuld;",
+      "die voor ‘Maaltijdbezorging’ ongeveer voor de helft;",
+      "die voor ‘Koffie’ ongeveer voor een kwart."
+    ],
+    "closingParagraphs": [
+      "De balk toont niet welk aandeel de tag van alle uitgaven vertegenwoordigt. Een volledig gevulde balk betekent niet dat 100% van je uitgaven naar die tag ging. Het betekent alleen dat deze tag het hoogste bedrag in het huidige rapport heeft.",
+      "De visualisatie is altijd gebaseerd op het bedrag, ook wanneer de lijst op aantal transacties is gesorteerd.",
+      "Na het wijzigen van de sortering kan de volgorde van de tags dus veranderen, maar de lengte van de balken blijft gekoppeld aan de bedragen."
+    ]
+  },
+  "tagSumMismatch": {
+    "title": "Waarom het totaal per tag kan afwijken van je totale uitgaven",
+    "paragraphs": [
+      "Aan één transactie kunnen meerdere tags worden toegevoegd. In dat geval wordt het volledige bedrag van de transactie afzonderlijk bij elke geselecteerde tag meegeteld."
+    ],
+    "exampleIntro": "Stel dat je 300 uitgeeft en twee tags aan de transactie toevoegt:",
+    "exampleTags": [
+      "‘Boodschappen’;",
+      "‘Gasten’."
+    ],
+    "reportIntro": "In het rapport voegt deze transactie toe:",
+    "reportItems": [
+      "300 aan de tag ‘Boodschappen’;",
+      "300 aan de tag ‘Gasten’."
+    ],
+    "closingParagraphs": [
+      "Er is in werkelijkheid slechts 300 uit de pot gehaald, maar de som van de waarden van beide tags is 600.",
+      "Dit is geen dubbele afschrijving en ook geen rekenfout. Tags worden in de app gebruikt als kenmerken van een transactie en niet als onderdelen waarin het bedrag wordt verdeeld."
+    ],
+    "questionsIntro": "Eén aankoop kan tegelijk verschillende vragen beantwoorden:",
+    "questions": [
+      "<strong>wat is er gekocht?</strong> — boodschappen;",
+      "<strong>waarvoor?</strong> — voor gasten;",
+      "<strong>waar?</strong> — op de markt;",
+      "<strong>was de aankoop gepland?</strong> — ongepland."
+    ],
+    "outroParagraphs": [
+      "Met elke tag kun je dezelfde transactie vanuit een andere invalshoek bekijken.",
+      "Tel daarom niet alle regels in het rapport bij elkaar op om je totale uitgaven te berekenen."
+    ],
+    "fundsMovementLinkPrefix": "Het werkelijke bedrag dat in de periode is uitgegeven, kun je het beste bekijken in het rapport ",
+    "fundsMovementLinkText": "‘Geldstromen’",
+    "fundsMovementLinkSuffix": "."
+  },
+  "compareAmountAndCount": {
+    "title": "Bedrag en aantal transacties vergelijken",
+    "lead": "De nuttigste inzichten krijg je vaak door beide waarden tegelijk te bekijken.",
+    "highAmountHighCount": {
+      "title": "Hoog bedrag en veel transacties",
+      "paragraphs": [
+        "De uitgave is zowel groot als regelmatig.",
+        "Boodschappen kunnen bijvoorbeeld meerdere keren per week worden gekocht en een aanzienlijk deel van de uitgaven uit de pot vormen.",
+        "Dit betekent niet noodzakelijk dat er een probleem is, maar het laat wel zien dat veranderingen in deze categorie de grootste invloed op het totale saldo zouden hebben."
+      ]
+    },
+    "highAmountLowCount": {
+      "title": "Hoog bedrag en weinig transacties",
+      "paragraphs": [
+        "Het grootste deel van het bedrag komt uit één of enkele grote aankopen.",
+        "De tag ‘Reparaties’ kan bijvoorbeeld maar twee keer zijn gebruikt en toch bovenaan staan qua bedrag.",
+        "In zo'n situatie is het nuttig om te controleren of dit eenmalige uitgaven waren. Als dat zo is, zegt één maand weinig over je normale uitgavenpatroon."
+      ]
+    },
+    "lowAmountHighCount": {
+      "title": "Laag bedrag en veel transacties",
+      "paragraphs": [
+        "De uitgave komt vaak voor, maar elke afzonderlijke transactie is relatief klein.",
+        "Zo kunnen koffie, snacks, vervoer of kleine aankopen onderweg naar huis eruitzien.",
+        "Dit soort uitgaven valt makkelijk niet op, omdat elke transactie op zichzelf onbeduidend lijkt. Het rapport maakt hun totale frequentie en invloed op je budget zichtbaar."
+      ]
+    },
+    "lowAmountLowCount": {
+      "title": "Laag bedrag en weinig transacties",
+      "paragraphs": [
+        "De uitgave kwam weinig voor en had nauwelijks invloed op het totaalbeeld.",
+        "Dergelijke tags hebben meestal geen bijzondere aandacht nodig, tenzij je er bewust een specifieke gewoonte of doelstelling mee volgt."
+      ]
+    }
+  },
+  "conclusions": {
+    "title": "Welke conclusies je uit het rapport kunt trekken",
+    "topSpending": {
+      "title": "Waar je het meeste geld aan uitgeeft",
+      "paragraphs": [
+        "Sorteren op bedrag laat zien welke soorten uitgaven tijdens de maand de grootste invloed hadden op het saldo van de geselecteerde pot.",
+        "Als één tag duidelijk boven de andere uitsteekt, kijk dan eerst of dat past bij het doel van de pot. Hoge uitgaven aan boodschappen kunnen bijvoorbeeld heel normaal zijn binnen de pot ‘Benodigdheden’, terwijl een hoog bedrag voor ‘Maaltijdbezorging’ aanleiding kan zijn om te kijken of bezorging te vaak of te duur is geworden."
+      ],
+      "compareIntro": "Vergelijk het bedrag met het aantal transacties:",
+      "compareItems": [
+        "een hoog bedrag bij weinig transacties wijst meestal op enkele grote aankopen;",
+        "een hoog bedrag bij veel transacties wijst op terugkerende uitgaven die zich gedurende de maand hebben opgestapeld."
+      ],
+      "closingParagraphs": [
+        "Zo kun je beter begrijpen wat je daadwerkelijk zou kunnen veranderen. In het eerste geval kun je nagaan of de grote aankoop eenmalig en gepland was. In het tweede geval kun je kijken of je het gemiddelde bedrag per aankoop kunt verlagen of zulke aankopen minder vaak kunt doen.",
+        "Een hoog bedrag betekent op zichzelf niet dat je te veel hebt uitgegeven. Het laat zien welke soorten uitgaven de grootste invloed op de pot hebben en waar veranderingen het duidelijkste resultaat kunnen opleveren."
+      ]
+    },
+    "mostFrequent": {
+      "title": "Welke aankopen het vaakst voorkomen",
+      "paragraphs": [
+        "Sorteren op aantal transacties kan gewoontes zichtbaar maken die aan het totaalbedrag niet altijd opvallen.",
+        "Af en toe eten laten bezorgen kan bijvoorbeeld in een maand meer kosten dan koffie, maar dagelijkse koffie zal hoger staan bij het aantal transacties.",
+        "Afhankelijk van je doel kan het nuttiger zijn om naar de kosten van een gewoonte of juist naar de frequentie ervan te kijken."
+      ]
+    },
+    "largeOrSmall": {
+      "title": "Of je uitgaven uit grote of kleine transacties bestaan",
+      "paragraphs": [
+        "Het bedrag en het aantal transacties geven samen een globale indruk van de aard van je uitgaven."
+      ],
+      "exampleIntro": "Bijvoorbeeld:",
+      "exampleItems": [
+        "1 200 verdeeld over 2 transacties — waarschijnlijk enkele grote aankopen;",
+        "1 200 verdeeld over 24 transacties — veel kleine aankopen."
+      ],
+      "closingParagraphs": [
+        "Voor een gedetailleerdere analyse kun je de details van een specifieke tag openen. Daar zie je het totale bedrag, het aantal transacties, de gemiddelde uitgave en hoe de uitgaven over de dagen van de maand zijn verdeeld."
+      ]
+    },
+    "worthStudying": {
+      "title": "Welke uitgaven de moeite waard zijn om nader te bekijken",
+      "listIntro": "Tags die extra aandacht kunnen verdienen zijn tags die:",
+      "items": [
+        "hoog in de lijst staan qua bedrag;",
+        "duidelijk vaker worden gebruikt dan andere;",
+        "onverwacht zijn gestegen ten opzichte van het gebruikelijke niveau;",
+        "zowel een hoog bedrag als veel transacties hebben;",
+        "optionele of ongeplande aankopen aanduiden."
+      ],
+      "closingParagraphs": [
+        "Het rapport bepaalt niet welke uitgaven goed of slecht zijn. Het helpt je om gebieden te vinden die je misschien nader wilt bekijken."
+      ]
+    }
+  },
+  "compareMonths": {
+    "title": "Vergelijk verschillende maanden",
+    "paragraphs": [
+      "Vergelijk rapporten van meerdere maanden om veranderingen in je uitgaven te herkennen.",
+      "Kijk daarbij niet alleen naar het bedrag, maar ook naar het aantal transacties. Een stijging van de uitgaven onder een tag kan verschillende oorzaken hebben:"
+    ],
+    "reasons": [
+      "de aankopen vinden vaker plaats;",
+      "de gemiddelde prijs per aankoop is gestegen;",
+      "er was één grote transactie in de maand;",
+      "je bent de tag consequenter gaan gebruiken."
+    ],
+    "eventsIntro": "Houd ook rekening met gebeurtenissen die je uitgaven tijdelijk kunnen hebben beïnvloed:",
+    "events": [
+      "feestdagen;",
+      "vakantie;",
+      "een verhuizing;",
+      "een grote aankoop;",
+      "bezoek van gasten;",
+      "een tijdelijke verandering in je levensstijl."
+    ],
+    "closingParagraphs": [
+      "Een stijging in één maand betekent niet automatisch dat er een nieuwe gewoonte is ontstaan. Het is nuttiger om te kijken of de verandering ook in de volgende maanden blijft bestaan."
+    ]
+  },
+  "consistentTags": {
+    "title": "Gebruik tags consequent",
+    "paragraphs": [
+      "De kwaliteit van het rapport hangt af van hoe consequent je tags gebruikt.",
+      "Als je vergelijkbare aankopen soms wel en soms niet van een tag voorziet, laat het rapport slechts een deel van je werkelijke uitgaven zien.",
+      "Als je bijvoorbeeld maaltijdbezorging wilt volgen, voeg dan de bijbehorende tag toe aan elke dergelijke transactie. Anders worden zowel het bedrag als het aantal transacties te laag weergegeven.",
+      "Het is handig om vooraf te bepalen wat elke tag precies betekent."
+    ],
+    "examplesIntro": "Bijvoorbeeld:",
+    "examples": [
+      "‘Cafés en restaurants’ — alle aankopen in horecagelegenheden;",
+      "‘Maaltijdbezorging’ — alleen bestellingen die thuis worden bezorgd;",
+      "‘Snacks’ — kleine ongeplande aankopen van eten buitenshuis."
+    ],
+    "closingParagraphs": [
+      "Hoe duidelijker je regels voor het gebruik van tags zijn, hoe makkelijker je gegevens uit verschillende periodes kunt vergelijken.",
+      "Je hoeft niet elke transactie van tags te voorzien. Gebruik ze wanneer je daadwerkelijk een bepaald soort uitgave, een gewoonte of de context van een aankoop wilt volgen."
+    ]
+  },
+  "analysisExample": {
+    "title": "Voorbeeld van een analyse van het rapport",
+    "intro": "Stel dat de pot ‘Plezier’ voor een maand de volgende gegevens toont:",
+    "table": {
+      "headers": ["Tag", "Bedrag", "Aantal"],
+      "rows": [
+        ["Afspreken met vrienden", "1 800", "4"],
+        ["Maaltijdbezorging", "1 400", "7"],
+        ["Games", "1 000", "1"],
+        ["Koffie", "800", "16"]
+      ]
+    },
+    "closingParagraphs": [
+      "Bij sorteren op bedrag zie je dat het meeste geld is uitgegeven aan afspreken met vrienden.",
+      "Sorteren op aantal transacties laat echter een ander beeld zien: aankopen met de tag ‘Koffie’ kwamen het vaakst voor."
+    ],
+    "conclusionsIntro": "Uit het rapport kun je verschillende conclusies trekken:",
+    "conclusions": [
+      "afspreken met vrienden was de grootste uitgavencategorie;",
+      "de aankoop van een game was groot, maar eenmalig;",
+      "maaltijdbezorging kwam regelmatig voor en stond op de tweede plaats qua bedrag;",
+      "koffie werd het vaakst gekocht, hoewel het totale bedrag lager was."
+    ],
+    "outroParagraphs": [
+      "Er is hier niet één ‘slechte’ uitgave. Welke conclusie belangrijk is, hangt af van je doel.",
+      "Als je je uitgaven snel wilt verlagen, kun je het beste eerst naar de grootste categorieën kijken. Als je een dagelijkse gewoonte wilt veranderen, kunnen frequente transacties interessanter zijn."
+    ]
+  },
+  "summary": {
+    "title": "Belangrijkste punten",
+    "paragraphs": [
+      "Het rapport ‘Uitgaven per tag’ laat je uitgaven vanuit twee perspectieven zien:"
+    ],
+    "items": [
+      "<strong>bedrag</strong> toont de financiële invloed;",
+      "<strong>aantal transacties</strong> toont de frequentie."
+    ],
+    "closingParagraphs": [
+      "Sorteren op bedrag helpt je de duurste soorten aankopen te vinden, terwijl sorteren op aantal transacties de meest regelmatige aankopen zichtbaar maakt.",
+      "Als een transactie meerdere tags heeft, kan de som van alle tagwaarden hoger zijn dan je werkelijke uitgaven, omdat het volledige bedrag van de transactie voor elke tag afzonderlijk wordt meegeteld. Daardoor kun je dezelfde aankoop vanuit verschillende invalshoeken analyseren, maar kun je niet alle regels in het rapport bij elkaar optellen om je totale uitgaven te berekenen.",
+      "Gebruik het rapport niet om automatisch ‘onnodige’ aankopen aan te wijzen, maar om uitgaven te vinden die je misschien nader wilt bekijken."
+    ]
+  }
+}

@@ -1,0 +1,341 @@
+{
+  "title": "Cum să citești raportul „Cheltuieli după etichete”",
+  "metaDescription": "Raportul „Cheltuieli după etichete” te ajută să înțelegi pentru ce au fost cheltuiți banii din fondul selectat într-o anumită perioadă.",
+  "intro": {
+    "paragraphs": [
+      "Raportul „Cheltuieli după etichete” te ajută să înțelegi pentru ce au fost cheltuiți banii din fondul selectat într-o anumită perioadă.",
+      "Spre deosebire de o listă obișnuită de tranzacții, acesta grupează cheltuielile cu aceleași etichete și afișează:"
+    ],
+    "items": [
+      "suma totală cheltuită pentru fiecare etichetă;",
+      "numărul de tranzacții cu eticheta respectivă;",
+      "raportul dintre cheltuielile asociate diferitelor etichete."
+    ],
+    "closingParagraphs": [
+      "Raportul te ajută să identifici nu doar tipurile de cheltuieli cu cele mai mari sume, ci și cumpărăturile mici și frecvente care pot părea nesemnificative luate separat."
+    ]
+  },
+  "overview": {
+    "title": "Cuprins",
+    "whatItShows": "Ce arată raportul",
+    "sortByAmount": "Sortarea după sumă",
+    "sortByCount": "Sortarea după numărul de tranzacții",
+    "progressBars": "Cum să citești barele",
+    "tagSumMismatch": "De ce totalul după etichete poate fi diferit de totalul cheltuielilor",
+    "compareAmountAndCount": "Cum să compari suma și numărul de tranzacții",
+    "conclusions": "Ce poți afla din raport",
+    "compareMonths": "Compară luni diferite",
+    "consistentTags": "Folosește etichetele în mod consecvent",
+    "analysisExample": "Exemplu de analiză a raportului",
+    "summary": "Ideile principale"
+  },
+  "whatItShows": {
+    "title": "Ce arată raportul",
+    "paragraphs": [
+      "Raportul este generat pentru un singur fond selectat.",
+      "De exemplu, dacă selectezi fondul „Necesități”, raportul va include doar cheltuielile din acel fond. Tranzacțiile din alte fonduri nu vor fi luate în calcul, chiar dacă folosesc aceleași etichete."
+    ],
+    "metricsIntro": "Pentru fiecare etichetă sunt afișate două valori:",
+    "metrics": [
+      "<strong>suma</strong> — cât s-a cheltuit în total în tranzacțiile cu această etichetă;",
+      "<strong>numărul de tranzacții</strong> — de câte ori a fost folosită eticheta pentru cheltuieli în perioada selectată."
+    ],
+    "exampleIntro": "De exemplu, dacă eticheta „Livrare mâncare” a fost folosită în patru tranzacții cu o valoare totală de 650, raportul va afișa:",
+    "exampleItems": [
+      "suma — 650;",
+      "numărul de tranzacții — 4."
+    ],
+    "closingParagraphs": [
+      "Aceste valori arată cheltuielile din perspective diferite. O sumă mare poate proveni atât dintr-o singură achiziție importantă, cât și din multe achiziții mai mici."
+    ]
+  },
+  "sortByAmount": {
+    "title": "Sortarea după sumă",
+    "paragraphs": [
+      "La sortarea după sumă, etichetele cu cele mai mari cheltuieli totale sunt afișate primele.",
+      "Acest mod te ajută să răspunzi la întrebarea:"
+    ],
+    "question": "Ce tipuri de cheltuieli au avut cel mai mare impact asupra soldului fondului?",
+    "exampleIntro": "De exemplu, un raport lunar poate conține următoarele date:",
+    "table": {
+      "headers": ["Etichetă", "Sumă", "Număr"],
+      "rows": [
+        ["Alimente", "2 400", "12"],
+        ["Produse pentru casă", "750", "3"],
+        ["Livrare mâncare", "650", "4"],
+        ["Cafea", "480", "16"]
+      ]
+    },
+    "closingParagraphs": [
+      "În acest exemplu, cea mai mare parte a cheltuielilor a fost pentru alimente. Chiar dacă s-a cumpărat cafea mai des, impactul acesteia asupra sumei totale a fost mult mai mic."
+    ],
+    "listIntro": "Sortarea după sumă este utilă pentru a:",
+    "items": [
+      "identifica tipurile de cumpărături cu cele mai mari costuri;",
+      "vedea ce cheltuieli au influențat cel mai mult soldul;",
+      "alege o etichetă pentru o analiză mai detaliată;",
+      "compara structura cheltuielilor între perioade diferite."
+    ],
+    "outroParagraphs": [
+      "O sumă mare nu înseamnă automat că o cheltuială a fost inutilă. De exemplu, alimentele pot fi pe primul loc doar pentru că reprezintă una dintre principalele cheltuieli din fondul selectat.",
+      "Raportul arată unde s-au dus banii, dar dacă acele cheltuieli au fost necesare depinde de scopul fondului și de situația ta."
+    ]
+  },
+  "sortByCount": {
+    "title": "Sortarea după numărul de tranzacții",
+    "paragraphs": [
+      "La sortarea după numărul de tranzacții, etichetele folosite cel mai des sunt afișate primele.",
+      "Acest mod răspunde la o altă întrebare:"
+    ],
+    "question": "Ce cheltuieli apar cel mai regulat?",
+    "closingParagraphs": [
+      "Tranzacțiile frecvente nu sunt neapărat și cele cu cea mai mare sumă. Totuși, ele pot indica un obicei repetitiv.",
+      "În exemplul anterior, cafeaua a fost cumpărată de 16 ori — mai des decât orice altă cheltuială. Suma totală a fost relativ mică, așa că această etichetă ar apărea mai jos la sortarea după sumă."
+    ],
+    "listIntro": "Sortarea după numărul de tranzacții te ajută să identifici:",
+    "items": [
+      "cumpărături care se repetă frecvent;",
+      "cheltuieli care au devenit un obicei;",
+      "multe tranzacții mici;",
+      "situații în care poate fi mai util să reduci frecvența cumpărăturilor decât suma fiecărei cumpărături."
+    ],
+    "outroParagraphs": [
+      "De exemplu, o achiziție de 500 este mai vizibilă decât zece achiziții de câte 50. Totuși, suma totală este aceeași în ambele cazuri. Sortarea după numărul de tranzacții face mai ușor de observat al doilea scenariu."
+    ]
+  },
+  "progressBars": {
+    "title": "Cum să citești barele",
+    "paragraphs": [
+      "Lângă fiecare etichetă este afișată o bară care permite compararea vizuală a sumelor cheltuite.",
+      "Eticheta cu cea mai mare sumă de cheltuieli din perioada selectată este considerată 100%. Celelalte bare sunt calculate în raport cu aceasta."
+    ],
+    "exampleIntro": "De exemplu:",
+    "exampleItems": [
+      "„Alimente” — 2 000;",
+      "„Livrare mâncare” — 1 000;",
+      "„Cafea” — 500."
+    ],
+    "resultIntro": "În acest caz:",
+    "resultItems": [
+      "bara „Alimente” va fi complet umplută;",
+      "„Livrare mâncare” va fi umplută aproximativ pe jumătate;",
+      "„Cafea” va fi umplută aproximativ un sfert."
+    ],
+    "closingParagraphs": [
+      "Bara nu arată ponderea etichetei în totalul cheltuielilor. O bară complet umplută nu înseamnă că 100% din cheltuielile tale au fost asociate acelei etichete. Înseamnă doar că aceasta are cea mai mare sumă din raportul curent.",
+      "Vizualizarea se bazează întotdeauna pe sumă, chiar dacă lista este sortată după numărul de tranzacții.",
+      "Prin urmare, când schimbi modul de sortare, ordinea etichetelor se poate modifica, dar lungimea barelor va continua să reprezinte sumele cheltuite."
+    ]
+  },
+  "tagSumMismatch": {
+    "title": "De ce totalul după etichete poate fi diferit de totalul cheltuielilor",
+    "paragraphs": [
+      "O singură tranzacție poate avea mai multe etichete. În acest caz, întreaga sumă a tranzacției este luată în calcul separat pentru fiecare etichetă selectată."
+    ],
+    "exampleIntro": "De exemplu, cheltuiești 300 și adaugi două etichete tranzacției:",
+    "exampleTags": [
+      "„Alimente”;",
+      "„Oaspeți”."
+    ],
+    "reportIntro": "În raport, această tranzacție va adăuga:",
+    "reportItems": [
+      "300 la eticheta „Alimente”;",
+      "300 la eticheta „Oaspeți”."
+    ],
+    "closingParagraphs": [
+      "În realitate, din fond au fost scăzuți doar 300, dar suma valorilor celor două etichete va fi 600.",
+      "Aceasta nu este o debitare dublă și nici o eroare de calcul. În aplicație, etichetele sunt caracteristici ale unei tranzacții, nu părți între care se împarte suma acesteia."
+    ],
+    "questionsIntro": "O singură cumpărătură poate răspunde simultan la mai multe întrebări:",
+    "questions": [
+      "<strong>ce ai cumpărat?</strong> — alimente;",
+      "<strong>pentru ce?</strong> — pentru oaspeți;",
+      "<strong>unde?</strong> — la piață;",
+      "<strong>cumpărătura a fost planificată?</strong> — neplanificată."
+    ],
+    "outroParagraphs": [
+      "Fiecare etichetă îți permite să privești aceeași tranzacție dintr-o perspectivă diferită.",
+      "De aceea, nu ar trebui să aduni toate rândurile raportului pentru a calcula totalul cheltuielilor."
+    ],
+    "fundsMovementLinkPrefix": "Pentru a vedea suma cheltuită efectiv în perioada respectivă, consultă raportul ",
+    "fundsMovementLinkText": "„Mișcarea fondurilor”",
+    "fundsMovementLinkSuffix": "."
+  },
+  "compareAmountAndCount": {
+    "title": "Cum să compari suma și numărul de tranzacții",
+    "lead": "Cele mai utile informații apar adesea atunci când analizezi ambele valori împreună.",
+    "highAmountHighCount": {
+      "title": "Sumă mare și multe tranzacții",
+      "paragraphs": [
+        "Cheltuiala este atât mare, cât și recurentă.",
+        "De exemplu, alimentele pot fi cumpărate de mai multe ori pe săptămână și pot reprezenta o parte importantă a cheltuielilor fondului.",
+        "Acest lucru nu indică neapărat o problemă, dar arată că schimbările din această zonă ar avea cel mai mare impact asupra soldului general."
+      ]
+    },
+    "highAmountLowCount": {
+      "title": "Sumă mare și puține tranzacții",
+      "paragraphs": [
+        "Cea mai mare parte a sumei provine din una sau câteva achiziții importante.",
+        "De exemplu, eticheta „Reparații” poate fi folosită doar de două ori și totuși să fie pe primul loc după sumă.",
+        "În această situație, este util să verifici dacă au fost cheltuieli ocazionale. Dacă da, o singură lună nu descrie neapărat structura ta obișnuită de cheltuieli."
+      ]
+    },
+    "lowAmountHighCount": {
+      "title": "Sumă mică și multe tranzacții",
+      "paragraphs": [
+        "Cheltuiala apare frecvent, dar fiecare tranzacție individuală este relativ mică.",
+        "Cafeaua, gustările, transportul sau micile cumpărături făcute în drum spre casă pot arăta astfel.",
+        "Aceste cheltuieli pot trece ușor neobservate deoarece fiecare tranzacție pare nesemnificativă. Raportul te ajută să vezi mai clar frecvența lor totală și impactul asupra bugetului."
+      ]
+    },
+    "lowAmountLowCount": {
+      "title": "Sumă mică și puține tranzacții",
+      "paragraphs": [
+        "Cheltuiala a fost rară și a avut un impact redus asupra imaginii generale.",
+        "Astfel de etichete nu necesită de obicei o atenție specială, decât dacă urmărești intenționat un anumit obicei sau obiectiv."
+      ]
+    }
+  },
+  "conclusions": {
+    "title": "Ce poți afla din raport",
+    "topSpending": {
+      "title": "Pe ce cheltuiești cei mai mulți bani",
+      "paragraphs": [
+        "Sortarea după sumă arată ce tipuri de cheltuieli au avut cel mai mare impact asupra soldului fondului selectat în timpul lunii.",
+        "Dacă o etichetă este mult peste celelalte, verifică mai întâi dacă acest lucru corespunde scopului fondului. De exemplu, cheltuielile mari cu alimentele pot fi normale în fondul „Necesități”, în timp ce o sumă mare pentru „Livrare mâncare” poate fi un motiv să verifici dacă comenzile au devenit prea frecvente sau prea costisitoare."
+      ],
+      "compareIntro": "Compară suma cu numărul de tranzacții:",
+      "compareItems": [
+        "o sumă mare cu puține tranzacții indică de obicei câteva achiziții importante;",
+        "o sumă mare cu multe tranzacții indică cheltuieli recurente care s-au acumulat pe parcursul lunii."
+      ],
+      "closingParagraphs": [
+        "Acest lucru te ajută să înțelegi ce poți schimba în mod real. În primul caz, verifică dacă achiziția mare a fost ocazională și planificată. În al doilea caz, analizează dacă poți reduce costul mediu al unei achiziții sau dacă poți face astfel de cumpărături mai rar.",
+        "O sumă mare, în sine, nu înseamnă că ai cheltuit prea mult. Ea arată ce tipuri de cheltuieli au cel mai mare impact asupra fondului și unde o schimbare ar produce cel mai vizibil rezultat."
+      ]
+    },
+    "mostFrequent": {
+      "title": "Ce cumpărături apar cel mai des",
+      "paragraphs": [
+        "Sortarea după numărul de tranzacții poate scoate în evidență obiceiuri care nu sunt întotdeauna evidente dacă privești doar suma totală.",
+        "De exemplu, câteva comenzi de mâncare pot costa mai mult într-o lună decât cafeaua, dar cumpărarea zilnică a cafelei va face ca această etichetă să apară mai sus după numărul de tranzacții.",
+        "În funcție de obiectivul tău, poate fi mai util să analizezi fie costul unui obicei, fie frecvența acestuia."
+      ]
+    },
+    "largeOrSmall": {
+      "title": "Dacă cheltuielile provin din tranzacții mari sau mici",
+      "paragraphs": [
+        "Suma și numărul de tranzacții îți oferă o idee aproximativă despre natura cheltuielilor."
+      ],
+      "exampleIntro": "De exemplu:",
+      "exampleItems": [
+        "1 200 în 2 tranzacții — probabil câteva cumpărături mari;",
+        "1 200 în 24 de tranzacții — multe cumpărături mici."
+      ],
+      "closingParagraphs": [
+        "Pentru o analiză mai detaliată, poți deschide detaliile unei anumite etichete. Acolo vei vedea suma totală, numărul de tranzacții, cheltuiala medie și modul în care cheltuielile sunt distribuite între zilele lunii."
+      ]
+    },
+    "worthStudying": {
+      "title": "Ce cheltuieli merită analizate mai atent",
+      "listIntro": "Etichetele care pot necesita atenție suplimentară sunt cele care:",
+      "items": [
+        "se află în partea de sus a listei după sumă;",
+        "sunt utilizate vizibil mai des decât celelalte;",
+        "au crescut neașteptat față de nivelul obișnuit;",
+        "au simultan o sumă mare și multe tranzacții;",
+        "reprezintă cumpărături opționale sau neplanificate."
+      ],
+      "closingParagraphs": [
+        "Raportul nu stabilește ce cheltuieli sunt bune sau rele. El te ajută să identifici zonele pe care poate merită să le analizezi mai atent."
+      ]
+    }
+  },
+  "compareMonths": {
+    "title": "Compară luni diferite",
+    "paragraphs": [
+      "Pentru a observa schimbările din cheltuielile tale, compară rapoartele din mai multe luni.",
+      "Atunci când compari, urmărește atât suma, cât și numărul de tranzacții. Cheltuielile asociate unei etichete pot crește din mai multe motive:"
+    ],
+    "reasons": [
+      "cumpărăturile au început să apară mai frecvent;",
+      "costul mediu al unei cumpărături a crescut;",
+      "a existat o tranzacție mare în timpul lunii;",
+      "ai început să folosești eticheta mai consecvent."
+    ],
+    "eventsIntro": "Ia în considerare și evenimentele care ți-ar fi putut modifica temporar cheltuielile:",
+    "events": [
+      "sărbători;",
+      "vacanțe;",
+      "o mutare;",
+      "o achiziție importantă;",
+      "vizita unor oaspeți;",
+      "o schimbare temporară a stilului de viață."
+    ],
+    "closingParagraphs": [
+      "O creștere a cheltuielilor într-o singură lună nu înseamnă neapărat că s-a format un nou obicei. Este mai util să verifici dacă schimbarea continuă și în lunile următoare."
+    ]
+  },
+  "consistentTags": {
+    "title": "Folosește etichetele în mod consecvent",
+    "paragraphs": [
+      "Calitatea raportului depinde de cât de consecvent folosești etichetele.",
+      "Dacă adaugi o etichetă la unele cumpărături similare, dar la altele nu, raportul va afișa doar o parte din cheltuielile reale.",
+      "De exemplu, dacă vrei să urmărești livrările de mâncare, adaugă eticheta corespunzătoare la fiecare astfel de tranzacție. În caz contrar, atât suma, cât și numărul de tranzacții vor fi mai mici decât în realitate.",
+      "Este util să stabilești dinainte ce înseamnă fiecare etichetă."
+    ],
+    "examplesIntro": "De exemplu:",
+    "examples": [
+      "„Cafenele și restaurante” — toate cumpărăturile făcute în localuri;",
+      "„Livrare mâncare” — doar comenzile livrate acasă;",
+      "„Gustări” — mici cumpărături alimentare neplanificate făcute în afara casei."
+    ],
+    "closingParagraphs": [
+      "Cu cât regulile de utilizare a etichetelor sunt mai clare, cu atât este mai ușor să compari datele din perioade diferite.",
+      "Nu este necesar să adaugi etichete la fiecare tranzacție. Folosește-le atunci când vrei cu adevărat să urmărești un anumit tip de cheltuială, un obicei sau contextul unei cumpărături."
+    ]
+  },
+  "analysisExample": {
+    "title": "Exemplu de analiză a raportului",
+    "intro": "Să presupunem că fondul „Distracție” afișează următoarele date pentru o lună:",
+    "table": {
+      "headers": ["Etichetă", "Sumă", "Număr"],
+      "rows": [
+        ["Ieșiri cu prietenii", "1 800", "4"],
+        ["Livrare mâncare", "1 400", "7"],
+        ["Jocuri", "1 000", "1"],
+        ["Cafea", "800", "16"]
+      ]
+    },
+    "closingParagraphs": [
+      "La sortarea după sumă, poți vedea că ieșirile cu prietenii au reprezentat cea mai mare cheltuială.",
+      "Dar sortarea după numărul de tranzacții arată o altă imagine: cumpărăturile cu eticheta „Cafea” au fost cele mai frecvente."
+    ],
+    "conclusionsIntro": "Din raport pot fi trase mai multe concluzii:",
+    "conclusions": [
+      "ieșirile cu prietenii au fost principala categorie de cheltuieli;",
+      "achiziția unui joc a fost mare, dar ocazională;",
+      "livrările de mâncare au fost regulate și s-au clasat pe locul al doilea după sumă;",
+      "cafeaua a fost cumpărată cel mai des, chiar dacă suma totală a fost mai mică."
+    ],
+    "outroParagraphs": [
+      "Nu există aici o singură cheltuială „rea”. Concluzia depinde de ceea ce vrei să înțelegi.",
+      "Dacă vrei să reduci rapid cheltuielile, este mai simplu să începi cu cele mai mari categorii. Dacă vrei să schimbi un obicei zilnic, poate fi mai util să analizezi tranzacțiile frecvente."
+    ]
+  },
+  "summary": {
+    "title": "Ideile principale",
+    "paragraphs": [
+      "Raportul „Cheltuieli după etichete” arată cheltuielile din două perspective:"
+    ],
+    "items": [
+      "<strong>suma</strong> arată impactul financiar;",
+      "<strong>numărul de tranzacții</strong> arată frecvența."
+    ],
+    "closingParagraphs": [
+      "Sortarea după sumă te ajută să identifici cele mai costisitoare tipuri de cumpărături, iar sortarea după numărul de tranzacții le evidențiază pe cele mai frecvente.",
+      "Atunci când o tranzacție are mai multe etichete, suma tuturor valorilor etichetelor poate depăși cheltuielile reale, deoarece întreaga sumă a tranzacției este luată în calcul separat pentru fiecare etichetă. Acest lucru îți permite să analizezi aceeași cumpărătură din perspective diferite, dar înseamnă și că nu trebuie să aduni toate rândurile raportului pentru a calcula totalul cheltuielilor.",
+      "Folosește raportul nu pentru a identifica automat cumpărături „inutile”, ci pentru a găsi zone de cheltuieli care pot merita o analiză mai atentă."
+    ]
+  }
+}

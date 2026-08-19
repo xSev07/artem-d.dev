@@ -1,0 +1,408 @@
+{
+  "title": "Come leggere il report «Movimento dei fondi»",
+  "metaDescription": "Il report «Movimento dei fondi» mostra come è cambiato il saldo del fondo selezionato in un determinato periodo.",
+  "intro": {
+    "paragraphs": [
+      "Il report «Movimento dei fondi» mostra come è cambiato il saldo del fondo selezionato in un determinato periodo."
+    ],
+    "listIntro": "Permette di vedere:",
+    "items": [
+      "quanto denaro c’era nel fondo all’inizio del periodo;",
+      "quanto denaro è stato aggiunto;",
+      "quanto è stato speso;",
+      "di quanto è cambiato il saldo;",
+      "quanto denaro è rimasto alla fine del periodo;",
+      "in quali momenti si sono verificati cambiamenti significativi."
+    ],
+    "closingParagraphs": [
+      "Il report viene generato per un solo fondo selezionato. Va quindi considerato non come una panoramica di tutte le tue finanze, ma come la cronologia dei movimenti di denaro all’interno di una parte specifica del budget."
+    ]
+  },
+  "overview": {
+    "title": "Indice",
+    "metrics": "Cosa significano gli indicatori",
+    "readingChart": "Come leggere il grafico",
+    "sameResultDifferentMovement": "Lo stesso risultato può nascondere movimenti di denaro molto diversi",
+    "monthlyInsights": "Cosa puoi capire dal grafico di un mese",
+    "longTermInsights": "Cosa puoi capire dal grafico di più mesi o di un anno",
+    "differentJars": "Fondi diversi vanno valutati in modo diverso",
+    "whenToChangeShare": "Quando modificare la quota di un fondo",
+    "limitations": "Limiti del report",
+    "questions": "Domande da porsi"
+  },
+  "metrics": {
+    "title": "Cosa significano gli indicatori",
+    "openingBalance": {
+      "title": "Saldo iniziale",
+      "paragraphs": [
+        "Il saldo iniziale è l’importo presente nel fondo all’inizio del periodo selezionato.",
+        "Non corrisponde necessariamente all’importo dell’ultimo versamento né al saldo attuale del fondo. Per esempio, se all’inizio del mese erano rimasti dei soldi dal mese precedente, verranno inclusi anche nel saldo iniziale."
+      ]
+    },
+    "deposits": {
+      "title": "Versamenti",
+      "paragraphs": [
+        "I versamenti mostrano l’importo totale di tutto il denaro aggiunto al fondo selezionato durante il periodo."
+      ],
+      "listIntro": "Può trattarsi di:",
+      "items": [
+        "una parte del reddito distribuito;",
+        "un versamento aggiuntivo;",
+        "la restituzione di denaro speso in precedenza;",
+        "un trasferimento da un altro fondo."
+      ],
+      "closingParagraphs": [
+        "Il report mostra l’importo totale dei versamenti, ma non ne determina la causa. Per capire da dove proviene un versamento specifico, consulta l’elenco delle transazioni."
+      ]
+    },
+    "withdrawals": {
+      "title": "Spese",
+      "paragraphs": [
+        "Le spese mostrano l’importo totale di tutto il denaro speso dal fondo selezionato durante il periodo.",
+        "Anche se alla fine del periodo il saldo è cambiato poco, l’importo totale delle spese può essere elevato. Questo significa che il denaro è stato utilizzato attivamente e che il fondo è stato poi nuovamente rifornito."
+      ]
+    },
+    "netChange": {
+      "title": "Variazione netta",
+      "paragraphs": [
+        "La variazione netta mostra di quanto il saldo è aumentato o diminuito rispetto all’inizio del periodo.",
+        "Viene calcolata come differenza tra versamenti e spese."
+      ],
+      "exampleIntro": "Per esempio:",
+      "exampleItems": [
+        "saldo iniziale — 1 000;",
+        "versamenti — 2 000;",
+        "spese — 2 300;",
+        "variazione netta — −300;",
+        "saldo finale — 700."
+      ],
+      "closingParagraphs": [
+        "Per un normale fondo destinato alle spese, su un periodo lungo può essere considerata normale una variazione netta vicina allo zero oppure una crescita graduale del saldo.",
+        "Se la variazione netta rimane regolarmente negativa, significa che dal fondo viene speso sistematicamente più denaro di quanto ne entri. Questo può indicare che al fondo viene assegnata una quota di reddito troppo bassa o che le spese devono essere riviste."
+      ]
+    },
+    "closingBalance": {
+      "title": "Saldo finale",
+      "paragraphs": [
+        "Il saldo finale è l’importo rimasto nel fondo alla fine del periodo selezionato.",
+        "Include il saldo iniziale, tutti i versamenti e tutte le spese.",
+        "È importante non confondere il saldo finale con la variazione netta. Il saldo indica quanto denaro è rimasto, mentre la variazione netta indica di quanto questo importo differisce dal saldo iniziale."
+      ]
+    }
+  },
+  "readingChart": {
+    "title": "Come leggere il grafico",
+    "lead": "La linea del grafico mostra come è cambiato il saldo del fondo durante il periodo selezionato.",
+    "lineUp": {
+      "title": "La linea sale",
+      "paragraphs": [
+        "Una linea in salita significa che è stato aggiunto denaro al fondo.",
+        "Un aumento brusco è solitamente collegato a un versamento importante, per esempio alla distribuzione del reddito o a un trasferimento da un altro fondo.",
+        "Una crescita graduale o a gradini può indicare diversi versamenti separati."
+      ]
+    },
+    "lineDown": {
+      "title": "La linea scende",
+      "paragraphs": [
+        "Una linea in discesa indica delle spese.",
+        "Una diminuzione graduale significa generalmente che il denaro viene speso poco alla volta durante il periodo.",
+        "Un calo brusco indica una spesa importante o più spese effettuate in un breve intervallo di tempo.",
+        "Il grafico mostra quando si è verificato il cambiamento, ma non indica per cosa è stato speso il denaro. Per questo, consulta l’elenco delle transazioni o il report per tag."
+      ]
+    },
+    "lineFlat": {
+      "title": "La linea rimane più o meno allo stesso livello",
+      "listIntro": "Può significare che:",
+      "items": [
+        "non ci sono state quasi spese;",
+        "i versamenti hanno compensato più o meno le spese;",
+        "il denaro è stato regolarmente speso e poi aggiunto di nuovo;",
+        "il fondo è stato utilizzato raramente."
+      ],
+      "closingParagraphs": [
+        "Una linea piatta, quindi, non significa necessariamente che non ci sia stata attività. È utile guardare anche l’importo totale dei versamenti e delle spese."
+      ]
+    },
+    "balanceNearZero": {
+      "title": "Il saldo rimane vicino allo zero",
+      "listIntro": "Se la linea rimane vicino allo zero per molto tempo, possono esserci diverse ragioni:",
+      "items": [
+        "la quota del fondo è abbastanza ben adattata alle esigenze reali;",
+        "il denaro è appena sufficiente;",
+        "il denaro viene speso rapidamente dopo ogni versamento;",
+        "il fondo deve essere regolarmente integrato da altre fonti."
+      ],
+      "closingParagraphs": [
+        "Per comprendere meglio la situazione, confronta il grafico con gli importi totali dei versamenti e delle spese.",
+        "Se il fondo riceve regolarmente molti più versamenti di quanto gli venga normalmente assegnato durante la distribuzione del reddito, potrebbe dipendere da trasferimenti aggiuntivi."
+      ]
+    },
+    "balanceNegative": {
+      "title": "Il saldo scende sotto lo zero",
+      "paragraphs": [
+        "Un saldo negativo significa che dal fondo è stato speso più denaro di quanto ce ne fosse disponibile.",
+        "Una situazione occasionale può essere normale. Per esempio, un acquisto importante può essere avvenuto poco prima del reddito successivo."
+      ],
+      "listIntro": "Se il fondo scende regolarmente sotto lo zero, può indicare che:",
+      "items": [
+        "gli viene assegnata una quota di reddito troppo bassa;",
+        "le spese associate a questo fondo sono aumentate;",
+        "alcune spese possono essere ridotte o rimandate."
+      ],
+      "closingParagraphs": [
+        "L’app consente di avere un saldo negativo. Al versamento successivo, il saldo negativo verrà compensato per primo, lasciando meno denaro disponibile per il nuovo periodo."
+      ]
+    },
+    "temporaryMinusNotVisible": {
+      "title": "Perché un saldo negativo temporaneo potrebbe non apparire nel grafico",
+      "paragraphs": [
+        "Il grafico mostra la variazione finale del saldo per ogni giorno.",
+        "Se un fondo scende sotto lo zero e viene poi rifornito nello stesso giorno, il saldo negativo temporaneo potrebbe non essere visualizzato. Il grafico mostrerà solo il saldo finale della giornata."
+      ],
+      "exampleIntro": "Per esempio:",
+      "orderedItems": [
+        "Nel fondo c’erano 100.",
+        "Spendi 200 e il saldo scende a −100.",
+        "Poi trasferisci 150 da un altro fondo.",
+        "Il saldo finale della giornata è 50."
+      ],
+      "closingParagraphs": [
+        "Il grafico mostrerà un saldo finale positivo, anche se durante la giornata il fondo è stato temporaneamente in negativo.",
+        "Per questo il grafico è utile per analizzare l’andamento generale, ma non mostra sempre tutti gli stati intermedi."
+      ],
+      "borrowLinkPrefix": "Puoi leggere di più su come prendere temporaneamente in prestito denaro da te stesso tra i fondi nella ",
+      "borrowLinkText": "sezione dedicata al prestito da se stessi",
+      "borrowLinkSuffix": "."
+    }
+  },
+  "sameResultDifferentMovement": {
+    "title": "Lo stesso risultato può nascondere movimenti di denaro molto diversi",
+    "openingParagraphs": [
+      "Non valutare un periodo soltanto in base al saldo finale.",
+      "Immaginiamo due mesi."
+    ],
+    "firstMonthIntro": "Nel primo mese:",
+    "firstMonthItems": [
+      "versamenti — 2 000;",
+      "spese — 2 000;",
+      "variazione netta — 0."
+    ],
+    "secondMonthIntro": "Nel secondo mese:",
+    "secondMonthItems": [
+      "nessun versamento;",
+      "nessuna spesa;",
+      "variazione netta — 0."
+    ],
+    "closingParagraphs": [
+      "In entrambi i casi il saldo non è cambiato, ma nel primo mese il fondo è stato utilizzato attivamente, mentre nel secondo non c’è stato alcun movimento di denaro."
+    ],
+    "summaryListIntro": "Per questo è utile osservare insieme:",
+    "summaryItems": [
+      "saldo iniziale;",
+      "versamenti;",
+      "spese;",
+      "variazione netta;",
+      "andamento della linea nel grafico."
+    ]
+  },
+  "monthlyInsights": {
+    "title": "Cosa puoi capire dal grafico di un mese",
+    "lead": "Su un periodo breve, il report aiuta a capire come si comporta il denaro durante il mese.",
+    "moneyRunsOutEarly": {
+      "title": "Il denaro finisce troppo presto",
+      "paragraphs": [
+        "Se il saldo si avvicina regolarmente allo zero molto prima del versamento successivo, la quota attuale del fondo potrebbe essere troppo bassa.",
+        "È però importante distinguere un andamento ricorrente da una situazione occasionale. Un solo mese insolito non significa necessariamente che la distribuzione debba essere modificata."
+      ]
+    },
+    "evenSpending": {
+      "title": "Il denaro viene speso in modo uniforme",
+      "paragraphs": [
+        "Se la linea scende gradualmente per tutto il mese, probabilmente le spese sono distribuite in modo abbastanza uniforme.",
+        "Per un fondo dedicato alle spese quotidiane, questo può essere un andamento normale."
+      ]
+    },
+    "sharpDropAtStart": {
+      "title": "All’inizio del periodo si verifica un forte calo",
+      "paragraphs": [
+        "Se una parte significativa del denaro viene spesa subito dopo un versamento, è possibile che all’inizio del periodo vengano pagate spese obbligatorie importanti.",
+        "Questo non è necessariamente un problema. Ma se dopo queste spese il denaro non basta regolarmente per il resto del mese, può essere utile rivedere la distribuzione."
+      ]
+    },
+    "largeDrops": {
+      "title": "Nel grafico compaiono singoli cali importanti",
+      "paragraphs": [
+        "I cali bruschi aiutano a individuare le date delle spese più grandi."
+      ],
+      "listIntro": "Puoi quindi aprire le transazioni e verificare:",
+      "items": [
+        "cosa è stato acquistato;",
+        "se la spesa era pianificata;",
+        "se si ripete regolarmente;",
+        "se conviene mettere da parte il denaro in anticipo."
+      ]
+    }
+  },
+  "longTermInsights": {
+    "title": "Cosa puoi capire dal grafico di più mesi o di un anno",
+    "lead": "Su un periodo lungo, il grafico è particolarmente utile per individuare andamenti ricorrenti.",
+    "introParagraphs": [
+      "Un singolo mese può essere un’eccezione. Un andamento che si ripete è invece un segnale più forte che le impostazioni del fondo o la struttura delle spese potrebbero richiedere modifiche."
+    ],
+    "balanceGrowing": {
+      "title": "Il saldo continua a crescere",
+      "paragraphs": [
+        "Per un fondo di risparmio, una crescita costante è il risultato atteso.",
+        "Per un normale fondo di spesa, invece, una crescita continua può indicare che gli viene assegnato più denaro di quanto effettivamente necessario.",
+        "In questo caso puoi valutare di ridurne la quota e ridistribuire la parte liberata del reddito ad altri fondi.",
+        "Prima di cambiare qualcosa, verifica se il denaro accumulato ha uno scopo specifico. Una spesa importante potrebbe verificarsi solo occasionalmente e il saldo attuale potrebbe servire in seguito."
+      ]
+    },
+    "balanceDeclining": {
+      "title": "Il saldo continua a diminuire",
+      "paragraphs": [
+        "Se la linea scende gradualmente su un periodo lungo, le spese del fondo superano sistematicamente i suoi versamenti.",
+        "Un calo occasionale può essere dovuto a spese insolitamente elevate. Ma se la stessa tendenza si ripete mese dopo mese, la distribuzione attuale probabilmente non è sufficiente."
+      ],
+      "listIntro": "In questo caso, verifica:",
+      "items": [
+        "se le normali spese legate allo scopo del fondo sono aumentate;",
+        "se nel periodo selezionato ci sono state spese grandi ma rare;",
+        "se devi rifornire regolarmente il fondo utilizzando altri fondi."
+      ],
+      "closingParagraphs": [
+        "Se il calo è causato da spese necessarie e ricorrenti, puoi aumentare la quota di questo fondo riducendo quella di altri.",
+        "Se invece è causato da spese grandi ma occasionali, non è necessariamente necessario modificare la distribuzione abituale. Per queste spese può essere più comodo risparmiare separatamente in anticipo."
+      ]
+    },
+    "extraDeposits": {
+      "title": "Il fondo riceve regolarmente versamenti aggiuntivi",
+      "paragraphs": [
+        "Se i normali versamenti non sono sufficienti e devi trasferire regolarmente denaro da altri fondi, è un segnale importante.",
+        "Anche se questi trasferimenti impediscono al saldo di rimanere negativo a lungo, mostrano che le spese reali sono superiori a quelle inizialmente previste.",
+        "I trasferimenti tra fondi possono rendere il grafico meno immediato. La sola linea, quindi, non permette sempre di capire perché il saldo si sia ripreso. Tuttavia, versamenti aggiuntivi regolari insieme a spese elevate sono già un buon motivo per rivedere la quota del fondo."
+      ]
+    }
+  },
+  "differentJars": {
+    "title": "Fondi diversi vanno valutati in modo diverso",
+    "lead": "La stessa forma del grafico può avere significati diversi a seconda dello scopo del fondo.",
+    "spendingJar": {
+      "title": "Fondo per le spese",
+      "listIntro": "Per un fondo dedicato alle spese quotidiane è generalmente normale che:",
+      "items": [
+        "diminuisca tra un versamento e l’altro;",
+        "oscilli regolarmente;",
+        "si avvicini allo zero verso la fine del periodo;",
+        "aumenti di nuovo dopo la distribuzione del reddito."
+      ],
+      "closingParagraphs": [
+        "Il problema, in genere, non è la diminuzione in sé, ma un saldo che va regolarmente molto sotto zero o la necessità costante di trasferire denaro da altri fondi."
+      ]
+    },
+    "savingsJar": {
+      "title": "Fondo di risparmio",
+      "listIntro": "Per un fondo di risparmio è generalmente normale che:",
+      "items": [
+        "cresca gradualmente;",
+        "rimanga a lungo senza spese;",
+        "diminuisca bruscamente dopo aver raggiunto un obiettivo ed effettuato un acquisto importante."
+      ],
+      "closingParagraphs": [
+        "Se un fondo di risparmio diminuisce regolarmente a causa delle spese quotidiane, il denaro potrebbe essere utilizzato per qualcosa di diverso dallo scopo previsto."
+      ]
+    },
+    "goalJar": {
+      "title": "Fondo per un obiettivo importante o un impegno",
+      "paragraphs": [
+        "Un fondo separato può essere utile quando è necessario riservare in anticipo denaro per un obiettivo o un impegno specifico."
+      ],
+      "examplesIntro": "Per esempio:",
+      "examples": [
+        "assicurazione annuale;",
+        "formazione;",
+        "vacanze;",
+        "ristrutturazione;",
+        "un abbonamento costoso;",
+        "un pagamento obbligatorio ricorrente di importo elevato."
+      ],
+      "benefitsIntro": "Un fondo di questo tipo permette di vedere subito:",
+      "benefits": [
+        "quanto hai già messo da parte;",
+        "se i versamenti regolari sono sufficienti;",
+        "se hai speso più del previsto;",
+        "se devi aggiungere denaro da altre parti del budget."
+      ],
+      "closingParagraphs": [
+        "Non è però necessario creare un fondo separato per ogni tipo di spesa ricorrente.",
+        "Anche spese quotidiane elevate ma variabili, come la spesa alimentare, sono generalmente più facili da gestire all’interno di un fondo più ampio e da analizzare tramite i tag.",
+        "Un fondo separato è più utile per un obiettivo indipendente o un impegno per cui è necessario riservare in anticipo un importo specifico."
+      ]
+    }
+  },
+  "whenToChangeShare": {
+    "title": "Quando modificare la quota di un fondo",
+    "openingParagraphs": [
+      "Non modificare le percentuali dopo un solo mese insolito.",
+      "Prima verifica se la stessa situazione si ripete per diversi periodi."
+    ],
+    "increaseListIntro": "Aumentare la quota può avere senso se:",
+    "increaseItems": [
+      "il saldo scende regolarmente sotto lo zero;",
+      "il denaro finisce molto prima del reddito successivo;",
+      "il fondo deve essere continuamente rifornito con versamenti aggiuntivi;",
+      "le spese legate al suo scopo sono effettivamente necessarie."
+    ],
+    "decreaseListIntro": "Ridurre la quota può avere senso se:",
+    "decreaseItems": [
+      "il saldo residuo continua a crescere;",
+      "il denaro accumulato non ha uno specifico obiettivo di risparmio;",
+      "le spese reali sono sensibilmente inferiori all’importo assegnato;",
+      "ad altri fondi manca regolarmente denaro."
+    ],
+    "closingParagraphs": [
+      "Il metodo dei 6 fondi non richiede di mantenere per sempre le percentuali iniziali. La distribuzione può e deve essere adattata alle spese reali e ai cambiamenti della tua vita."
+    ]
+  },
+  "limitations": {
+    "title": "Limiti del report",
+    "openingParagraphs": [
+      "Il report «Movimento dei fondi» mostra bene cosa è successo al saldo, ma non sempre spiega perché è cambiato."
+    ],
+    "canUnderstandIntro": "Permette di capire:",
+    "canUnderstandItems": [
+      "se il saldo è aumentato o diminuito;",
+      "quando si sono verificati cambiamenti importanti;",
+      "se il denaro era sufficiente;",
+      "se si sta formando una tendenza stabile;",
+      "se il fondo necessita regolarmente di versamenti aggiuntivi."
+    ],
+    "cannotDetermineIntro": "Il grafico da solo, però, non permette sempre di determinare:",
+    "cannotDetermineItems": [
+      "per cosa è stato speso esattamente il denaro;",
+      "da dove proveniva un versamento;",
+      "se si trattava di un trasferimento tra fondi;",
+      "perché è cambiato il comportamento di spesa;",
+      "se il saldo è sceso sotto lo zero durante la giornata."
+    ],
+    "closingParagraphs": [
+      "Per un’analisi più dettagliata, utilizza l’elenco delle transazioni e i report per tag."
+    ]
+  },
+  "questions": {
+    "title": "Domande da porsi",
+    "listIntro": "Quando consulti il report, prova a rispondere ad alcune domande:",
+    "items": [
+      "Ci sono abbastanza soldi nel fondo fino al prossimo versamento?",
+      "In quale momento del periodo il saldo inizia solitamente ad avvicinarsi allo zero?",
+      "I cali bruschi si ripetono nelle stesse date?",
+      "Devo trasferire regolarmente qui denaro da altri fondi?",
+      "Il saldo residuo continua a crescere senza uno scopo specifico?",
+      "La quota attuale del fondo corrisponde alle mie spese reali?",
+      "I grandi cambiamenti sono eventi isolati o si ripetono mese dopo mese?"
+    ],
+    "closingParagraphs": [
+      "Lo scopo principale del report non è soltanto mostrare una linea che rappresenta la variazione del saldo, ma aiutarti a individuare tendenze ricorrenti e a capire quanto la quota scelta per il fondo corrisponda alla tua situazione reale."
+    ]
+  }
+}

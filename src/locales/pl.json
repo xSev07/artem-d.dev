@@ -11,6 +11,9 @@
     "pages": {
       "privacy": "Polityka prywatności",
       "help": "Informacje o błędzie",
+      "reportFundsMovement": "Funds Movement Report",
+      "reportSpendingsByTags": "Spendings by Tags Report",
+      "reportTagDetails": "Tag Spending Details Report",
       "licenses": "Licencje oprogramowania open source"
     }
   },
@@ -25,7 +28,9 @@
       "guide": "Metoda sześciu słoików"
     },
     "footer": {
-      "label": "Informacje o stronie"
+      "label": "Informacje o stronie",
+      "guides": "Przewodniki",
+      "information": "Informacje"
     },
     "help": {
       "metaDescription": "Informacje o błędzie podczas wykonywania operacji w aplikacji A.D.A.",

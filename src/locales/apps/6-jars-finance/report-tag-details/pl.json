@@ -1,0 +1,401 @@
+{
+  "title": "Jak czytać raport „Szczegóły wydatków według tagu”",
+  "metaDescription": "Raport „Szczegóły wydatków według tagu” pomaga zrozumieć, jak wydatki z wybranym tagiem rozkładały się w ciągu miesiąca.",
+  "intro": {
+    "paragraphs": [
+      "Raport „Szczegóły wydatków według tagu” pomaga zrozumieć, jak wydatki z wybranym tagiem rozkładały się w ciągu miesiąca."
+    ],
+    "spendingsByTagsLinkPrefix": "Uzupełnia raport ",
+    "spendingsByTagsLinkText": "„Wydatki według tagów”",
+    "spendingsByTagsLinkSuffix": ". Najpierw możesz sprawdzić, które tagi odpowiadają za największe wydatki lub występują najczęściej, a następnie otworzyć jeden z nich i przyjrzeć mu się dokładniej.",
+    "listIntro": "Raport jest tworzony dla jednego wybranego słoika i jednego tagu. Obejmuje tylko wydatki:",
+    "items": [
+      "z wybranego słoika;",
+      "z wybranego miesiąca;",
+      "z wybranym tagiem."
+    ]
+  },
+  "overview": {
+    "title": "Spis treści",
+    "whatItShows": "Co pokazuje raport",
+    "totalAmount": "Łączna kwota wydatków",
+    "operationCount": "Liczba transakcji",
+    "averageAmount": "Średnia kwota transakcji",
+    "histogram": "Jak czytać histogram",
+    "singlePeak": "Jeden wysoki słupek",
+    "multiplePeaks": "Kilka szczytów",
+    "manySmallBars": "Wiele małych słupków",
+    "evenDistribution": "Równomierny rozkład wydatków",
+    "startOfMonth": "Wydatki na początku miesiąca",
+    "endOfMonth": "Wydatki pod koniec miesiąca",
+    "whyExpensesGrew": "Jak zrozumieć, dlaczego wydatki wzrosły",
+    "compareMonths": "Jak porównywać różne miesiące",
+    "whatToChange": "Co można zmienić na podstawie raportu",
+    "analysisExample": "Przykład analizy raportu",
+    "multipleTags": "Pamiętaj o kilku tagach w jednej transakcji",
+    "summary": "Najważniejsze informacje"
+  },
+  "whatItShows": {
+    "title": "Co pokazuje raport",
+    "metricsIntro": "W górnej części raportu znajdują się trzy wskaźniki:",
+    "metrics": [
+      "łączna kwota wydatków;",
+      "liczba transakcji;",
+      "średnia kwota jednej transakcji."
+    ],
+    "paragraphs": [
+      "Poniżej znajduje się histogram pokazujący, w które dni miesiąca pojawiały się wydatki i ile pieniędzy wydano każdego dnia."
+    ],
+    "insightsIntro": "Te dane pomagają zrozumieć nie tylko łączną wysokość wydatków, ale również ich charakter:",
+    "insights": [
+      "czy cała kwota wynikała z jednego dużego zakupu;",
+      "czy wydatki pojawiały się regularnie;",
+      "czy występowały pojedyncze dni z wyraźnymi szczytami;",
+      "czy wydatki były równomiernie rozłożone w ciągu miesiąca."
+    ]
+  },
+  "totalAmount": {
+    "title": "Łączna kwota wydatków",
+    "paragraphs": [
+      "Łączna kwota pokazuje, ile pieniędzy wydano w transakcjach z wybranym tagiem w ciągu miesiąca.",
+      "Na przykład jeśli tag „Kawa” został użyty w dziesięciu transakcjach o łącznej wartości 800, raport pokaże kwotę 800.",
+      "Ten wskaźnik pomaga ocenić ogólny wpływ wydatków z danym tagiem na saldo wybranego słoika.",
+      "Sama kwota nie pokazuje jeszcze, w jaki sposób powstała. Te same 800 może oznaczać:"
+    ],
+    "scenarios": [
+      "jeden duży zakup;",
+      "cztery transakcje po 200;",
+      "dwadzieścia małych zakupów po 40."
+    ],
+    "closingParagraphs": [
+      "Aby zrozumieć różnicę między tymi scenariuszami, trzeba spojrzeć na liczbę transakcji, średnią kwotę oraz histogram."
+    ]
+  },
+  "operationCount": {
+    "title": "Liczba transakcji",
+    "paragraphs": [
+      "Liczba transakcji pokazuje, ile wydatków z wybranym tagiem wystąpiło w ciągu miesiąca.",
+      "Ten wskaźnik pomaga ocenić regularność wydatków."
+    ],
+    "exampleIntro": "Na przykład:",
+    "exampleItems": [
+      "1 200 w 2 transakcjach zwykle oznacza kilka dużych zakupów;",
+      "1 200 w 20 transakcjach oznacza wiele małych wydatków."
+    ],
+    "closingParagraphs": [
+      "Duża liczba transakcji nie musi oznaczać nadmiernych wydatków. Może jednak wskazywać na stały nawyk, którego trudno zauważyć podczas przeglądania pojedynczych transakcji.",
+      "Na przykład każdy zakup kawy może wydawać się nieistotny, ale raport pokaże, jak często pojawiał się w ciągu miesiąca."
+    ]
+  },
+  "averageAmount": {
+    "title": "Średnia kwota transakcji",
+    "paragraphs": [
+      "Średnia kwota pokazuje, ile przeciętnie przypadało na jeden wydatek z wybranym tagiem.",
+      "Jest obliczana jako łączna kwota wydatków podzielona przez liczbę transakcji."
+    ],
+    "exampleIntro": "Na przykład:",
+    "exampleItems": [
+      "łączna kwota — 1 200;",
+      "liczba transakcji — 8;",
+      "średnia kwota — 150."
+    ],
+    "closingParagraphs": [
+      "Średnia kwota pomaga porównywać charakter wydatków między różnymi miesiącami.",
+      "Na przykład łączne wydatki dla danego tagu mogły wzrosnąć z dwóch różnych powodów:"
+    ],
+    "reasons": [
+      "zakupy zaczęły występować częściej;",
+      "każdy pojedynczy zakup stał się droższy."
+    ],
+    "outroParagraphs": [
+      "Jeśli liczba transakcji prawie się nie zmieniła, ale średnia kwota wzrosła, prawdopodobnie zwiększyła się wartość pojedynczych zakupów.",
+      "Jeśli średnia kwota pozostała podobna, ale liczba transakcji wzrosła, wzrost łącznych wydatków wynika przede wszystkim z większej częstotliwości.",
+      "Średnia kwota nie pokazuje jednak dokładnej wartości każdego zakupu. Kilka małych transakcji i jedna duża mogą dać taką samą średnią jak kilka podobnych wydatków. Dlatego najlepiej analizować ten wskaźnik razem z histogramem."
+    ]
+  },
+  "histogram": {
+    "title": "Jak czytać histogram",
+    "paragraphs": [
+      "Na osi poziomej histogramu znajdują się dni miesiąca.",
+      "Na osi pionowej wyświetlana jest kwota wydatków.",
+      "Każdy słupek pokazuje, ile łącznie pieniędzy wydano z wybranym tagiem danego dnia.",
+      "Jeśli jednego dnia wystąpiło kilka transakcji z tym tagiem, ich kwoty są sumowane i przedstawiane jako jeden słupek."
+    ],
+    "exampleIntro": "Na przykład jeśli 10. dnia miesiąca dokonano dwóch zakupów:",
+    "exampleItems": [
+      "50;",
+      "120;"
+    ],
+    "closingParagraphs": [
+      "na wykresie dla tego dnia pojawi się słupek o wartości 170.",
+      "Brak słupka oznacza, że danego dnia nie było wydatków z wybranym tagiem."
+    ]
+  },
+  "singlePeak": {
+    "title": "Jeden wysoki słupek",
+    "paragraphs": [
+      "Jeden wyraźny szczyt zwykle oznacza, że znaczna część wydatków przypadła na jeden dzień."
+    ],
+    "listIntro": "Może to być:",
+    "items": [
+      "jeden duży zakup;",
+      "kilka wydatków dokonanych tego samego dnia;",
+      "zaplanowane wydarzenie;",
+      "przypadkowy, nieplanowany wydatek."
+    ],
+    "closingParagraphs": [
+      "Na przykład jeśli prawie cała kwota dla tagu „Odzież” przypada na jeden dzień, prawdopodobnie był to jednorazowy zakup, a nie regularny wydatek.",
+      "W takiej sytuacji jeden miesiąc nie zawsze wystarcza, aby wyciągnąć wniosek o stałym nawyku. Lepiej porównać ten tag z innymi miesiącami i sprawdzić, czy podobne szczyty się powtarzają."
+    ]
+  },
+  "multiplePeaks": {
+    "title": "Kilka szczytów",
+    "paragraphs": [
+      "Kilka wysokich słupków pokazuje, że większe wydatki występowały w różne dni."
+    ],
+    "listIntro": "Jeśli szczyty pojawiają się w mniej więcej równych odstępach, może to wskazywać na powtarzający się schemat:",
+    "items": [
+      "zakupy w weekendy;",
+      "cotygodniowe zamówienia;",
+      "regularne spotkania;",
+      "okresowe zakupy."
+    ],
+    "closingParagraphs": [
+      "Na przykład wydatki z tagiem „Dostawa jedzenia” w każdy piątek mogą wskazywać na stały cotygodniowy nawyk.",
+      "Jeśli szczyty pojawiają się bez wyraźnej regularności, wydatki mogły być związane z pojedynczymi wydarzeniami, a nie z powtarzalnym zachowaniem."
+    ]
+  },
+  "manySmallBars": {
+    "title": "Wiele małych słupków",
+    "paragraphs": [
+      "Duża liczba niskich słupków oznacza, że wydatki występowały często, ale pojedyncze kwoty były niewielkie."
+    ],
+    "listIntro": "Tak często wyglądają wydatki na:",
+    "items": [
+      "kawę;",
+      "przekąski;",
+      "transport;",
+      "drobne zakupy domowe;",
+      "codzienną rozrywkę."
+    ],
+    "closingParagraphs": [
+      "Takie wydatki łatwo zlekceważyć podczas przeglądania listy transakcji. Każdy zakup wydaje się niewielki, ale razem mogą utworzyć zauważalną kwotę w skali miesiąca."
+    ],
+    "actionsIntro": "W takim przypadku istnieją dwa główne sposoby zmiany wydatków:",
+    "actions": [
+      "dokonywać zakupów rzadziej;",
+      "zmniejszyć średnią wartość pojedynczego zakupu."
+    ],
+    "outroParagraphs": [
+      "To, które podejście będzie bardziej przydatne, można ocenić na podstawie liczby transakcji i średniej kwoty."
+    ]
+  },
+  "evenDistribution": {
+    "title": "Równomierny rozkład wydatków",
+    "paragraphs": [
+      "Jeśli słupki są rozłożone przez cały miesiąc bez wyraźnych szczytów, wydatki występują stosunkowo regularnie.",
+      "Tak może wyglądać normalna struktura codziennych wydatków, takich jak produkty spożywcze, transport lub inne powtarzające się zakupy.",
+      "Równomierny rozkład sam w sobie nie oznacza, że wydatki są zbyt wysokie ani że są pod kontrolą. Pokazuje jedynie, że łączna kwota nie powstała wskutek jednego lub kilku pojedynczych zakupów."
+    ]
+  },
+  "startOfMonth": {
+    "title": "Wydatki na początku miesiąca",
+    "paragraphs": [
+      "Jeśli większość słupków skupia się na początku miesiąca, pieniądze związane z wybranym tagiem są wydawane głównie zaraz po zasileniu słoika lub otrzymaniu dochodu.",
+      "Może to być naturalne w przypadku regularnych zakupów lub obowiązkowych płatności.",
+      "Na przykład większe zakupy spożywcze na początku miesiąca mogą być zaplanowane. Jeśli jednak chodzi o wydatki opcjonalne, taki schemat może sprawić, że na resztę miesiąca pozostanie zbyt mało środków.",
+      "W takim przypadku warto sprawdzić, czy saldo słoika wystarcza do końca miesiąca i czy później nie trzeba kompensować wydatków poniesionych wcześniej."
+    ]
+  },
+  "endOfMonth": {
+    "title": "Wydatki pod koniec miesiąca",
+    "listIntro": "Jeśli wydatki skupiają się bliżej końca miesiąca, może to mieć różne przyczyny:",
+    "items": [
+      "zakupy są regularnie odkładane;",
+      "pozostałe saldo słoika jest traktowane jako dostępne na dodatkowe wydatki;",
+      "pod koniec miesiąca odbywają się zaplanowane wydarzenia;",
+      "wydatki są odkładane do następnego zasilenia."
+    ],
+    "closingParagraphs": [
+      "Taki schemat nie musi oznaczać problemu. Ważne jest, czy powtarza się co miesiąc i czy odpowiada przeznaczeniu słoika.",
+      "Na przykład wydanie pozostałych pieniędzy ze słoika „Rozrywka” pod koniec miesiąca może być świadomą decyzją. Ten sam nawyk w słoiku przeznaczonym na obowiązkowe wydatki może stwarzać ryzyko braku środków."
+    ]
+  },
+  "whyExpensesGrew": {
+    "title": "Jak zrozumieć, dlaczego wydatki wzrosły",
+    "lead": "Jeśli łączna kwota dla tagu wzrosła, porównaj trzy wskaźniki z poprzednimi miesiącami.",
+    "moreOperations": {
+      "title": "Wzrosła liczba transakcji",
+      "paragraphs": [
+        "Zakupy zaczęły występować częściej.",
+        "Na przykład dostawę jedzenia zamówiono dziesięć razy zamiast czterech. Nawet jeśli koszt jednego zamówienia się nie zmienił, łączna kwota wyraźnie wzrosła.",
+        "W takim przypadku główną przyczyną wzrostu jest częstotliwość wydatków."
+      ]
+    },
+    "higherAverage": {
+      "title": "Wzrosła średnia kwota",
+      "paragraphs": [
+        "Każdy pojedynczy zakup stał się droższy."
+      ],
+      "listIntro": "Możliwe przyczyny to:",
+      "items": [
+        "wzrost cen;",
+        "zmiana zwykłych wyborów;",
+        "kupowanie większych ilości;",
+        "wybieranie droższych produktów lub usług."
+      ],
+      "closingParagraphs": [
+        "W takim przypadku zmniejszenie liczby transakcji nie jest jedynym rozwiązaniem. Można również zmniejszyć średnią wartość pojedynczego wydatku."
+      ]
+    },
+    "largePeak": {
+      "title": "Pojawił się pojedynczy duży szczyt",
+      "paragraphs": [
+        "Wzrost został spowodowany przez jeden lub kilka wyjątkowo dużych zakupów.",
+        "Jeśli wydatek był jednorazowy i zaplanowany, nie musi wymagać zmiany nawyków.",
+        "Jeśli jednak duże szczyty powtarzają się co miesiąc, warto traktować je jako regularną część wydatków."
+      ]
+    }
+  },
+  "compareMonths": {
+    "title": "Jak porównywać różne miesiące",
+    "paragraphs": [
+      "Porównanie kilku miesięcy pomaga odróżnić jednorazowe wydarzenie od stałej tendencji."
+    ],
+    "metricsIntro": "Zwracaj uwagę na:",
+    "metrics": [
+      "łączną kwotę;",
+      "liczbę transakcji;",
+      "średnią kwotę;",
+      "położenie szczytów;",
+      "rozkład wydatków w ciągu miesiąca."
+    ],
+    "closingParagraphs": [
+      "Na przykład taka sama kwota w dwóch miesiącach może mieć zupełnie inną strukturę:"
+    ],
+    "structureItems": [
+      "w jednym miesiącu może to być jeden duży zakup;",
+      "w drugim — wiele małych, regularnych wydatków."
+    ],
+    "outroParagraphs": [
+      "Rezultat finansowy jest taki sam, ale przyczyny i możliwe działania są inne."
+    ],
+    "eventsIntro": "Weź również pod uwagę wydarzenia, które mogły tymczasowo zmienić sytuację:",
+    "events": [
+      "święta;",
+      "urlop;",
+      "wizytę gości;",
+      "przeprowadzkę;",
+      "remont;",
+      "jednorazowy duży zakup;",
+      "tymczasową zmianę harmonogramu pracy lub stylu życia."
+    ]
+  },
+  "whatToChange": {
+    "title": "Co można zmienić na podstawie raportu",
+    "openingParagraphs": [
+      "Raport nie określa automatycznie, które wydatki są zbędne. Pomaga zrozumieć, z czego składa się łączna kwota i co powoduje jej zmianę.",
+      "W zależności od sytuacji można podjąć różne działania."
+    ],
+    "reduceFrequency": {
+      "title": "Zmniejszyć częstotliwość",
+      "paragraphs": [
+        "To rozwiązanie jest przydatne w przypadku wydatków z dużą liczbą transakcji.",
+        "Na przykład zamiast kupować kawę codziennie, możesz z góry ustalić, ile razy w tygodniu chcesz ją kupować."
+      ]
+    },
+    "reduceAverage": {
+      "title": "Zmniejszyć średnią kwotę",
+      "paragraphs": [
+        "To rozwiązanie jest przydatne w przypadku regularnych wydatków, gdy każda transakcja stała się zbyt droga.",
+        "Na przykład zamiast całkowicie rezygnować z dostawy jedzenia, można wybierać tańsze zamówienia."
+      ]
+    },
+    "planLargePurchases": {
+      "title": "Planować duże zakupy z wyprzedzeniem",
+      "paragraphs": [
+        "Jeśli raport pokazuje pojedyncze duże szczyty, takie wydatki można uwzględnić podczas rozdzielania pieniędzy między słoiki.",
+        "Jest to szczególnie przydatne, jeśli duży zakup powtarza się okresowo."
+      ]
+    },
+    "reallocateJars": {
+      "title": "Przenieść środki między słoikami",
+      "paragraphs": [
+        "Jeśli wydatki z danym tagiem są konieczne i regularnie przekraczają dostępny budżet, problem może wynikać nie z samych zakupów, ale ze zbyt małej kwoty przeznaczonej na dany słoik.",
+        "W takim przypadku można zwiększyć udział tego słoika kosztem słoików o niższym priorytecie.",
+        "Jeśli natomiast znaczną część sumy tworzą wydatki opcjonalne, najpierw warto przeanalizować ich częstotliwość i średnią kwotę."
+      ]
+    }
+  },
+  "analysisExample": {
+    "title": "Przykład analizy raportu",
+    "firstExampleIntro": "Załóżmy, że raport dla tagu „Dostawa jedzenia” pokazuje:",
+    "firstExampleMetrics": [
+      "łączna kwota — 1 800;",
+      "liczba transakcji — 9;",
+      "średnia kwota — 200."
+    ],
+    "firstExampleParagraphs": [
+      "Histogram pokazuje, że zamówienia pojawiały się dwa lub trzy razy w tygodniu, bez jednego dominującego szczytu.",
+      "Można z tego wywnioskować, że łączna kwota powstała wskutek regularnych wydatków, a nie jednorazowego zakupu."
+    ],
+    "firstExampleActionsIntro": "Możliwe działania:",
+    "firstExampleActions": [
+      "zmniejszyć liczbę zamówień;",
+      "zmniejszyć średni koszt zamówienia;",
+      "z góry przeznaczać stałą kwotę na dostawę;",
+      "pozostawić wydatki bez zmian, jeśli odpowiadają priorytetom i budżetowi."
+    ],
+    "secondExampleIntro": "Inny przykład:",
+    "secondExampleMetrics": [
+      "łączna kwota — 1 800;",
+      "liczba transakcji — 2;",
+      "średnia kwota — 900;",
+      "prawie cała kwota przypada na jeden dzień."
+    ],
+    "closingParagraphs": [
+      "Tutaj przyczyna wydatków jest inna. Prawdopodobnie był to jeden duży zakup lub wydarzenie. Zmniejszanie częstotliwości codziennych zakupów w takiej sytuacji niewiele zmieni."
+    ]
+  },
+  "multipleTags": {
+    "title": "Pamiętaj o kilku tagach w jednej transakcji",
+    "paragraphs": [
+      "Jedna transakcja może mieć kilka tagów.",
+      "Jeśli wydatek 300 ma tagi „Dostawa jedzenia” i „Goście”, pełna kwota zostanie uwzględniona w szczegółach każdego z tych tagów."
+    ],
+    "perspectivesIntro": "Pozwala to analizować tę samą transakcję z różnych perspektyw:",
+    "perspectives": [
+      "co zostało kupione;",
+      "w jakich okolicznościach;",
+      "w jakim celu;",
+      "czy zakup był zaplanowany."
+    ],
+    "closingParagraphs": [
+      "Kwota nie jest dzielona między tagi.",
+      "Dlatego nie należy sumować wartości z kilku raportów tagów w celu obliczenia całkowitych wydatków."
+    ],
+    "fundsMovementLinkPrefix": "Rzeczywistą kwotę wydatków w danym miesiącu najlepiej sprawdzić w raporcie ",
+    "fundsMovementLinkText": "„Przepływ środków”",
+    "fundsMovementLinkSuffix": "."
+  },
+  "summary": {
+    "title": "Najważniejsze informacje",
+    "paragraphs": [
+      "Raport „Szczegóły wydatków według tagu” pomaga zrozumieć nie tylko, ile pieniędzy wydano, ale również w jaki sposób powstała ta kwota.",
+      "Łączna kwota pokazuje finansowy wpływ wydatków.",
+      "Liczba transakcji pokazuje ich częstotliwość.",
+      "Średnia kwota pomaga ocenić typową wartość pojedynczego zakupu.",
+      "Histogram pokazuje rozkład wydatków w poszczególnych dniach miesiąca i pomaga odróżnić:"
+    ],
+    "histogramInsights": [
+      "jednorazowy duży zakup;",
+      "regularne wydatki;",
+      "wiele małych transakcji;",
+      "powtarzające się szczyty;",
+      "wydatki skupione na początku lub pod koniec miesiąca."
+    ],
+    "closingParagraphs": [
+      "Analizuj te wskaźniki razem. Taka sama łączna kwota może wynikać z zupełnie różnych zachowań, a więc wymagać innych decyzji."
+    ]
+  }
+}

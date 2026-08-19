@@ -1,0 +1,341 @@
+{
+  "title": "Comment lire le rapport « Dépenses par tags »",
+  "metaDescription": "Le rapport « Dépenses par tags » vous aide à comprendre à quoi l’argent du compartiment sélectionné a été dépensé pendant une période donnée.",
+  "intro": {
+    "paragraphs": [
+      "Le rapport « Dépenses par tags » vous aide à comprendre à quoi l’argent du compartiment sélectionné a été dépensé pendant une période donnée.",
+      "Contrairement à une simple liste de transactions, il regroupe les dépenses ayant les mêmes tags et affiche :"
+    ],
+    "items": [
+      "le montant total dépensé pour chaque tag ;",
+      "le nombre de transactions associées à ce tag ;",
+      "la comparaison des dépenses entre les différents tags."
+    ],
+    "closingParagraphs": [
+      "Le rapport permet de repérer non seulement les types de dépenses les plus importants, mais aussi les petits achats fréquents qui peuvent sembler insignifiants pris séparément."
+    ]
+  },
+  "overview": {
+    "title": "Sommaire",
+    "whatItShows": "Ce que montre le rapport",
+    "sortByAmount": "Tri par montant",
+    "sortByCount": "Tri par nombre de transactions",
+    "progressBars": "Comment lire les barres",
+    "tagSumMismatch": "Pourquoi le total par tags peut différer du total des dépenses",
+    "compareAmountAndCount": "Comment comparer le montant et le nombre de transactions",
+    "conclusions": "Ce que vous pouvez apprendre grâce au rapport",
+    "compareMonths": "Comparez différents mois",
+    "consistentTags": "Utilisez les tags de manière cohérente",
+    "analysisExample": "Exemple d’analyse du rapport",
+    "summary": "À retenir"
+  },
+  "whatItShows": {
+    "title": "Ce que montre le rapport",
+    "paragraphs": [
+      "Le rapport est établi pour un seul compartiment sélectionné à la fois.",
+      "Par exemple, si vous sélectionnez le compartiment « Nécessités », seules les dépenses de ce compartiment seront incluses. Les transactions provenant d’autres compartiments ne seront pas prises en compte, même si elles utilisent les mêmes tags."
+    ],
+    "metricsIntro": "Deux valeurs sont affichées pour chaque tag :",
+    "metrics": [
+      "<strong>montant</strong> — le montant total dépensé dans les transactions associées à ce tag ;",
+      "<strong>nombre de transactions</strong> — le nombre de fois où ce tag a été utilisé pour des dépenses pendant la période sélectionnée."
+    ],
+    "exampleIntro": "Par exemple, si le tag « Livraison de repas » a été utilisé dans quatre transactions pour un total de 650, le rapport affichera :",
+    "exampleItems": [
+      "montant — 650 ;",
+      "nombre de transactions — 4."
+    ],
+    "closingParagraphs": [
+      "Ces valeurs montrent vos dépenses sous différents angles. Un montant élevé peut provenir aussi bien d’un seul achat important que de nombreux petits achats."
+    ]
+  },
+  "sortByAmount": {
+    "title": "Tri par montant",
+    "paragraphs": [
+      "Lorsque vous triez par montant, les tags associés aux dépenses les plus élevées apparaissent en premier.",
+      "Ce mode aide à répondre à la question :"
+    ],
+    "question": "Quels types de dépenses ont eu le plus d’impact sur le solde du compartiment ?",
+    "exampleIntro": "Par exemple, un rapport mensuel peut présenter les données suivantes :",
+    "table": {
+      "headers": ["Tag", "Montant", "Nombre"],
+      "rows": [
+        ["Courses", "2 400", "12"],
+        ["Produits ménagers", "750", "3"],
+        ["Livraison de repas", "650", "4"],
+        ["Café", "480", "16"]
+      ]
+    },
+    "closingParagraphs": [
+      "Dans cet exemple, les courses représentent la dépense la plus importante. Même si le café a été acheté plus souvent, son impact sur le montant total est nettement plus faible."
+    ],
+    "listIntro": "Le tri par montant est utile pour :",
+    "items": [
+      "repérer les types d’achats les plus coûteux ;",
+      "voir quelles dépenses ont eu le plus d’impact sur le solde ;",
+      "choisir un tag à analyser plus en détail ;",
+      "comparer la structure des dépenses entre différentes périodes."
+    ],
+    "outroParagraphs": [
+      "Un montant élevé ne signifie pas automatiquement qu’une dépense était inutile. Les courses peuvent par exemple arriver en tête simplement parce qu’elles constituent une dépense importante du compartiment sélectionné.",
+      "Le rapport montre où l’argent a été dépensé, mais la nécessité de ces dépenses dépend de l’objectif du compartiment et de votre situation."
+    ]
+  },
+  "sortByCount": {
+    "title": "Tri par nombre de transactions",
+    "paragraphs": [
+      "Lorsque vous triez par nombre de transactions, les tags utilisés le plus souvent apparaissent en premier.",
+      "Ce mode répond à une autre question :"
+    ],
+    "question": "Quelles dépenses se produisent le plus régulièrement ?",
+    "closingParagraphs": [
+      "Les transactions fréquentes ne sont pas nécessairement les plus importantes en montant. Elles peuvent cependant révéler une habitude régulière.",
+      "Dans l’exemple précédent, le café a été acheté 16 fois — plus souvent que toute autre dépense. Son montant total reste relativement faible, il apparaîtrait donc plus bas dans la liste avec un tri par montant."
+    ],
+    "listIntro": "Le tri par nombre de transactions permet de repérer :",
+    "items": [
+      "les achats qui se répètent souvent ;",
+      "les dépenses devenues habituelles ;",
+      "un grand nombre de petites transactions ;",
+      "les domaines où réduire la fréquence des achats peut être plus utile que réduire le montant de chaque achat."
+    ],
+    "outroParagraphs": [
+      "Par exemple, un achat de 500 est plus visible que dix achats de 50. Pourtant, le total dépensé est identique dans les deux cas. Le tri par nombre de transactions permet de repérer plus facilement le second scénario."
+    ]
+  },
+  "progressBars": {
+    "title": "Comment lire les barres",
+    "paragraphs": [
+      "Une barre affichée à côté de chaque tag permet de comparer visuellement le montant des dépenses.",
+      "Le tag ayant le montant de dépenses le plus élevé pendant la période sélectionnée est considéré comme 100 %. Les autres barres sont calculées par rapport à celui-ci."
+    ],
+    "exampleIntro": "Par exemple :",
+    "exampleItems": [
+      "« Courses » — 2 000 ;",
+      "« Livraison de repas » — 1 000 ;",
+      "« Café » — 500."
+    ],
+    "resultIntro": "Dans ce cas :",
+    "resultItems": [
+      "la barre « Courses » sera entièrement remplie ;",
+      "« Livraison de repas » sera remplie environ à moitié ;",
+      "« Café » sera rempli environ au quart."
+    ],
+    "closingParagraphs": [
+      "La barre n’indique pas la part du tag dans l’ensemble des dépenses. Une barre entièrement remplie ne signifie pas que 100 % de vos dépenses correspondent à ce tag. Elle indique uniquement qu’il s’agit du montant le plus élevé dans le rapport actuel.",
+      "La visualisation est toujours basée sur le montant, même lorsque la liste est triée par nombre de transactions.",
+      "Lorsque vous changez le mode de tri, l’ordre des tags peut donc changer, mais la longueur des barres reste liée aux montants dépensés."
+    ]
+  },
+  "tagSumMismatch": {
+    "title": "Pourquoi le total par tags peut différer du total des dépenses",
+    "paragraphs": [
+      "Une même transaction peut comporter plusieurs tags. Dans ce cas, le montant total de la transaction est comptabilisé séparément pour chacun des tags sélectionnés."
+    ],
+    "exampleIntro": "Par exemple, vous dépensez 300 et ajoutez deux tags à la transaction :",
+    "exampleTags": [
+      "« Courses » ;",
+      "« Invités »."
+    ],
+    "reportIntro": "Dans le rapport, cette transaction ajoutera :",
+    "reportItems": [
+      "300 au tag « Courses » ;",
+      "300 au tag « Invités »."
+    ],
+    "closingParagraphs": [
+      "En réalité, seuls 300 ont été retirés du compartiment, mais la somme des valeurs des deux tags sera de 600.",
+      "Il ne s’agit ni d’un double débit ni d’une erreur de calcul. Dans l’application, les tags sont des caractéristiques d’une transaction, et non des parties entre lesquelles son montant est réparti."
+    ],
+    "questionsIntro": "Un même achat peut répondre simultanément à plusieurs questions :",
+    "questions": [
+      "<strong>qu’avez-vous acheté ?</strong> — des courses ;",
+      "<strong>pour quoi ?</strong> — pour des invités ;",
+      "<strong>où ?</strong> — au marché ;",
+      "<strong>l’achat était-il prévu ?</strong> — non prévu."
+    ],
+    "outroParagraphs": [
+      "Chaque tag permet d’examiner la même transaction sous un angle différent.",
+      "Il ne faut donc pas additionner toutes les lignes du rapport pour calculer le total de vos dépenses."
+    ],
+    "fundsMovementLinkPrefix": "Pour voir le montant réellement dépensé pendant la période, consultez le rapport ",
+    "fundsMovementLinkText": "« Mouvements de fonds »",
+    "fundsMovementLinkSuffix": "."
+  },
+  "compareAmountAndCount": {
+    "title": "Comment comparer le montant et le nombre de transactions",
+    "lead": "Les informations les plus utiles apparaissent souvent lorsque vous examinez les deux valeurs ensemble.",
+    "highAmountHighCount": {
+      "title": "Montant élevé et nombreuses transactions",
+      "paragraphs": [
+        "La dépense est à la fois importante et régulière.",
+        "Par exemple, les courses peuvent être effectuées plusieurs fois par semaine et représenter une part importante des dépenses du compartiment.",
+        "Cela ne signifie pas nécessairement qu’il y a un problème, mais indique que des changements dans ce domaine auraient le plus d’impact sur le solde global."
+      ]
+    },
+    "highAmountLowCount": {
+      "title": "Montant élevé et peu de transactions",
+      "paragraphs": [
+        "La majeure partie du montant provient d’un ou de quelques achats importants.",
+        "Par exemple, le tag « Réparations » peut n’avoir été utilisé que deux fois tout en arrivant en tête par montant.",
+        "Dans ce cas, il est utile de vérifier s’il s’agissait de dépenses ponctuelles. Si oui, un seul mois ne permet pas de tirer de conclusion sur votre structure habituelle de dépenses."
+      ]
+    },
+    "lowAmountHighCount": {
+      "title": "Montant faible et nombreuses transactions",
+      "paragraphs": [
+        "La dépense se produit souvent, mais chaque transaction est relativement petite.",
+        "Cela peut être le cas du café, des collations, des déplacements ou de petits achats effectués sur le chemin du retour.",
+        "Ces dépenses passent facilement inaperçues parce que chaque transaction semble insignifiante. Le rapport permet de voir plus clairement leur fréquence totale et leur impact sur votre budget."
+      ]
+    },
+    "lowAmountLowCount": {
+      "title": "Montant faible et peu de transactions",
+      "paragraphs": [
+        "La dépense était rare et a eu peu d’impact sur l’ensemble.",
+        "Ces tags ne nécessitent généralement pas d’attention particulière, sauf si vous suivez volontairement une habitude ou un objectif précis."
+      ]
+    }
+  },
+  "conclusions": {
+    "title": "Ce que vous pouvez apprendre grâce au rapport",
+    "topSpending": {
+      "title": "Ce pour quoi vous dépensez le plus",
+      "paragraphs": [
+        "Le tri par montant montre quels types de dépenses ont le plus influencé le solde du compartiment sélectionné pendant le mois.",
+        "Si un tag se situe nettement au-dessus des autres, commencez par vérifier si cela correspond à l’objectif du compartiment. Par exemple, des dépenses élevées en courses peuvent être normales dans le compartiment « Nécessités », tandis qu’un montant élevé sous « Livraison de repas » peut être l’occasion de vérifier si les livraisons sont devenues trop fréquentes ou trop coûteuses."
+      ],
+      "compareIntro": "Comparez le montant au nombre de transactions :",
+      "compareItems": [
+        "un montant élevé avec peu de transactions correspond généralement à quelques achats importants ;",
+        "un montant élevé avec de nombreuses transactions indique des dépenses régulières qui se sont accumulées au cours du mois."
+      ],
+      "closingParagraphs": [
+        "Cela aide à comprendre ce que vous pourriez réellement changer. Dans le premier cas, vérifiez si l’achat important était ponctuel et prévu. Dans le second, demandez-vous s’il est possible de réduire le coût moyen d’un achat ou d’effectuer ce type d’achat moins souvent.",
+        "Un montant élevé ne signifie pas à lui seul que vous avez trop dépensé. Il indique les types de dépenses qui ont le plus d’impact sur le compartiment et les domaines où un changement aurait l’effet le plus visible."
+      ]
+    },
+    "mostFrequent": {
+      "title": "Quels achats se produisent le plus souvent",
+      "paragraphs": [
+        "Le tri par nombre de transactions peut faire apparaître des habitudes qui ne sont pas toujours visibles à partir du montant total.",
+        "Par exemple, quelques livraisons de repas peuvent coûter davantage sur un mois que le café, mais des cafés achetés quotidiennement apparaîtront plus haut en nombre de transactions.",
+        "Selon votre objectif, il peut être plus utile d’analyser soit le coût d’une habitude, soit sa fréquence."
+      ]
+    },
+    "largeOrSmall": {
+      "title": "Si vos dépenses proviennent de grandes ou de petites transactions",
+      "paragraphs": [
+        "Le montant et le nombre de transactions permettent d’estimer approximativement la nature de vos dépenses."
+      ],
+      "exampleIntro": "Par exemple :",
+      "exampleItems": [
+        "1 200 sur 2 transactions — probablement quelques achats importants ;",
+        "1 200 sur 24 transactions — de nombreux petits achats."
+      ],
+      "closingParagraphs": [
+        "Pour une analyse plus détaillée, vous pouvez ouvrir les détails d’un tag spécifique. Vous y verrez le montant total, le nombre de transactions, la dépense moyenne et la répartition des dépenses entre les différents jours du mois."
+      ]
+    },
+    "worthStudying": {
+      "title": "Quelles dépenses méritent d’être examinées de plus près",
+      "listIntro": "Les tags pouvant mériter une attention particulière sont ceux qui :",
+      "items": [
+        "se trouvent en haut de la liste par montant ;",
+        "sont utilisés nettement plus souvent que les autres ;",
+        "ont augmenté de manière inattendue par rapport à leur niveau habituel ;",
+        "présentent à la fois un montant élevé et un grand nombre de transactions ;",
+        "correspondent à des achats facultatifs ou non prévus."
+      ],
+      "closingParagraphs": [
+        "Le rapport ne décide pas quelles dépenses sont bonnes ou mauvaises. Il aide à repérer les domaines qui peuvent mériter une analyse plus approfondie."
+      ]
+    }
+  },
+  "compareMonths": {
+    "title": "Comparez différents mois",
+    "paragraphs": [
+      "Pour repérer les changements dans vos dépenses, comparez les rapports sur plusieurs mois.",
+      "Lors de la comparaison, observez à la fois le montant et le nombre de transactions. Une hausse des dépenses associées à un tag peut avoir différentes causes :"
+    ],
+    "reasons": [
+      "les achats sont devenus plus fréquents ;",
+      "le coût moyen de chaque achat a augmenté ;",
+      "une transaction importante a eu lieu pendant le mois ;",
+      "vous avez commencé à utiliser le tag de manière plus cohérente."
+    ],
+    "eventsIntro": "Prenez également en compte les événements qui ont pu temporairement modifier vos dépenses :",
+    "events": [
+      "les fêtes ;",
+      "les vacances ;",
+      "un déménagement ;",
+      "un achat important ;",
+      "la visite d’invités ;",
+      "un changement temporaire de mode de vie."
+    ],
+    "closingParagraphs": [
+      "Une hausse des dépenses pendant un seul mois ne signifie pas forcément qu’une nouvelle habitude s’est installée. Il est plus utile de vérifier si cette évolution se poursuit les mois suivants."
+    ]
+  },
+  "consistentTags": {
+    "title": "Utilisez les tags de manière cohérente",
+    "paragraphs": [
+      "La qualité du rapport dépend de la régularité avec laquelle vous utilisez les tags.",
+      "Si vous ajoutez un tag à certains achats similaires mais pas à d’autres, le rapport ne montrera qu’une partie de vos dépenses réelles.",
+      "Par exemple, si vous souhaitez suivre les livraisons de repas, ajoutez le tag correspondant à chaque transaction de ce type. Sinon, le montant et le nombre de transactions seront sous-estimés.",
+      "Il est utile de définir à l’avance ce que signifie chaque tag."
+    ],
+    "examplesIntro": "Par exemple :",
+    "examples": [
+      "« Cafés et restaurants » — tous les achats effectués dans des établissements ;",
+      "« Livraison de repas » — uniquement les commandes livrées à domicile ;",
+      "« Collations » — petits achats alimentaires non prévus effectués à l’extérieur."
+    ],
+    "closingParagraphs": [
+      "Plus vos règles d’utilisation des tags sont claires, plus il est facile de comparer les données entre différentes périodes.",
+      "Vous n’avez pas besoin d’ajouter des tags à chaque transaction. Utilisez-les lorsque vous souhaitez réellement suivre un type de dépense, une habitude ou le contexte d’un achat."
+    ]
+  },
+  "analysisExample": {
+    "title": "Exemple d’analyse du rapport",
+    "intro": "Supposons que le compartiment « Loisirs » affiche les données suivantes pour le mois :",
+    "table": {
+      "headers": ["Tag", "Montant", "Nombre"],
+      "rows": [
+        ["Sorties entre amis", "1 800", "4"],
+        ["Livraison de repas", "1 400", "7"],
+        ["Jeux", "1 000", "1"],
+        ["Café", "800", "16"]
+      ]
+    },
+    "closingParagraphs": [
+      "Avec un tri par montant, on voit que les sorties entre amis ont représenté la dépense la plus importante.",
+      "Mais le tri par nombre de transactions montre une autre image : les achats associés au tag « Café » ont été les plus fréquents."
+    ],
+    "conclusionsIntro": "Le rapport permet de tirer plusieurs conclusions :",
+    "conclusions": [
+      "les sorties entre amis ont constitué la principale catégorie de dépenses ;",
+      "l’achat d’un jeu était important mais ponctuel ;",
+      "les livraisons de repas étaient régulières et arrivaient en deuxième position par montant ;",
+      "le café était acheté le plus souvent, même si le montant total était plus faible."
+    ],
+    "outroParagraphs": [
+      "Il n’y a pas ici une seule « mauvaise » dépense. La conclusion dépend de ce que vous cherchez à comprendre.",
+      "Si vous souhaitez réduire rapidement vos dépenses, commencez par examiner les catégories les plus importantes. Si vous souhaitez modifier une habitude quotidienne, les transactions fréquentes peuvent être plus intéressantes à analyser."
+    ]
+  },
+  "summary": {
+    "title": "À retenir",
+    "paragraphs": [
+      "Le rapport « Dépenses par tags » montre vos dépenses sous deux angles :"
+    ],
+    "items": [
+      "<strong>le montant</strong> montre l’impact financier ;",
+      "<strong>le nombre de transactions</strong> montre la fréquence."
+    ],
+    "closingParagraphs": [
+      "Le tri par montant aide à repérer les types d’achats les plus coûteux, tandis que le tri par nombre de transactions fait ressortir les plus réguliers.",
+      "Lorsqu’une transaction possède plusieurs tags, la somme de toutes les valeurs associées aux tags peut dépasser vos dépenses réelles, car le montant total de la transaction est comptabilisé séparément pour chaque tag. Cela permet d’analyser le même achat sous plusieurs angles, mais signifie également qu’il ne faut pas additionner toutes les lignes du rapport pour calculer vos dépenses totales.",
+      "Utilisez le rapport non pas pour identifier automatiquement des achats « inutiles », mais pour repérer les domaines de dépenses qui peuvent mériter un examen plus approfondi."
+    ]
+  }
+}

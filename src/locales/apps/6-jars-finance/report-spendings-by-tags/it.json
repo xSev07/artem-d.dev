@@ -1,0 +1,341 @@
+{
+  "title": "Come leggere il report “Spese per tag”",
+  "metaDescription": "Il report “Spese per tag” aiuta a capire per cosa è stato speso il denaro del fondo selezionato durante un determinato periodo.",
+  "intro": {
+    "paragraphs": [
+      "Il report “Spese per tag” aiuta a capire per cosa è stato speso il denaro del fondo selezionato durante un determinato periodo.",
+      "A differenza di un normale elenco di transazioni, raggruppa le spese con gli stessi tag e mostra:"
+    ],
+    "items": [
+      "l’importo totale speso per ogni tag;",
+      "il numero di transazioni associate a quel tag;",
+      "il rapporto tra le spese dei diversi tag."
+    ],
+    "closingParagraphs": [
+      "Il report permette di individuare non solo i tipi di spesa più costosi, ma anche piccoli acquisti frequenti che, presi singolarmente, possono sembrare poco significativi."
+    ]
+  },
+  "overview": {
+    "title": "Indice",
+    "whatItShows": "Cosa mostra il report",
+    "sortByAmount": "Ordinamento per importo",
+    "sortByCount": "Ordinamento per numero di transazioni",
+    "progressBars": "Come leggere le barre",
+    "tagSumMismatch": "Perché il totale per tag può non coincidere con le spese complessive",
+    "compareAmountAndCount": "Come confrontare importo e numero di transazioni",
+    "conclusions": "Cosa puoi capire dal report",
+    "compareMonths": "Confronta mesi diversi",
+    "consistentTags": "Usa i tag in modo coerente",
+    "analysisExample": "Esempio di analisi del report",
+    "summary": "In sintesi"
+  },
+  "whatItShows": {
+    "title": "Cosa mostra il report",
+    "paragraphs": [
+      "Il report viene creato per un solo fondo selezionato alla volta.",
+      "Ad esempio, se selezioni il fondo “Necessità”, verranno incluse solo le spese di quel fondo. Le transazioni degli altri fondi non verranno considerate, anche se utilizzano gli stessi tag."
+    ],
+    "metricsIntro": "Per ogni tag vengono mostrati due valori:",
+    "metrics": [
+      "<strong>importo</strong> — quanto è stato speso complessivamente nelle transazioni con questo tag;",
+      "<strong>numero di transazioni</strong> — quante volte il tag è stato utilizzato nelle spese durante il periodo selezionato."
+    ],
+    "exampleIntro": "Ad esempio, se il tag “Consegna di cibo” è stato utilizzato in quattro transazioni per un totale di 650, il report mostrerà:",
+    "exampleItems": [
+      "importo — 650;",
+      "numero di transazioni — 4."
+    ],
+    "closingParagraphs": [
+      "Questi valori mostrano le spese da prospettive diverse. Un importo elevato può derivare sia da un unico acquisto importante sia da molti acquisti più piccoli."
+    ]
+  },
+  "sortByAmount": {
+    "title": "Ordinamento per importo",
+    "paragraphs": [
+      "Quando ordini per importo, vengono mostrati per primi i tag associati alla spesa totale più alta.",
+      "Questa modalità aiuta a rispondere alla domanda:"
+    ],
+    "question": "Quali tipi di spesa hanno avuto il maggiore impatto sul saldo del fondo?",
+    "exampleIntro": "Ad esempio, un report mensile potrebbe contenere questi dati:",
+    "table": {
+      "headers": ["Tag", "Importo", "Numero"],
+      "rows": [
+        ["Spesa alimentare", "2 400", "12"],
+        ["Prodotti per la casa", "750", "3"],
+        ["Consegna di cibo", "650", "4"],
+        ["Caffè", "480", "16"]
+      ]
+    },
+    "closingParagraphs": [
+      "In questo esempio, la spesa alimentare rappresenta l’importo più elevato. Anche se il caffè è stato acquistato più spesso, il suo impatto sull’importo totale è molto più basso."
+    ],
+    "listIntro": "L’ordinamento per importo è utile per:",
+    "items": [
+      "individuare i tipi di acquisto più costosi;",
+      "capire quali spese hanno inciso maggiormente sul saldo;",
+      "scegliere un tag da analizzare più nel dettaglio;",
+      "confrontare la struttura delle spese tra periodi diversi."
+    ],
+    "outroParagraphs": [
+      "Un importo elevato non significa automaticamente che una spesa fosse superflua. La spesa alimentare, ad esempio, può trovarsi al primo posto semplicemente perché rappresenta una voce importante del fondo selezionato.",
+      "Il report mostra dove è stato speso il denaro, ma la necessità di quelle spese dipende dallo scopo del fondo e dalla tua situazione."
+    ]
+  },
+  "sortByCount": {
+    "title": "Ordinamento per numero di transazioni",
+    "paragraphs": [
+      "Quando ordini per numero di transazioni, vengono mostrati per primi i tag utilizzati più spesso.",
+      "Questa modalità risponde a una domanda diversa:"
+    ],
+    "question": "Quali spese si verificano più regolarmente?",
+    "closingParagraphs": [
+      "Le transazioni frequenti non sono necessariamente quelle con l’importo più elevato. Possono però indicare un’abitudine ricorrente.",
+      "Nell’esempio precedente, il caffè è stato acquistato 16 volte — più spesso di qualsiasi altra spesa. L’importo totale era relativamente basso, quindi con l’ordinamento per importo questo tag apparirebbe più in basso nell’elenco."
+    ],
+    "listIntro": "L’ordinamento per numero di transazioni aiuta a individuare:",
+    "items": [
+      "acquisti che si ripetono spesso;",
+      "spese diventate abituali;",
+      "molte piccole transazioni;",
+      "situazioni in cui può essere più utile ridurre la frequenza degli acquisti piuttosto che l’importo di ogni singolo acquisto."
+    ],
+    "outroParagraphs": [
+      "Ad esempio, un acquisto da 500 è più evidente di dieci acquisti da 50. Tuttavia, la spesa totale è identica in entrambi i casi. Ordinare per numero di transazioni rende più facile individuare il secondo scenario."
+    ]
+  },
+  "progressBars": {
+    "title": "Come leggere le barre",
+    "paragraphs": [
+      "Accanto a ogni tag viene mostrata una barra che permette di confrontare visivamente gli importi spesi.",
+      "Il tag con la spesa più alta nel periodo selezionato viene considerato pari al 100%. Le altre barre vengono calcolate rispetto a questo valore."
+    ],
+    "exampleIntro": "Ad esempio:",
+    "exampleItems": [
+      "“Spesa alimentare” — 2 000;",
+      "“Consegna di cibo” — 1 000;",
+      "“Caffè” — 500."
+    ],
+    "resultIntro": "In questo caso:",
+    "resultItems": [
+      "la barra “Spesa alimentare” sarà completamente piena;",
+      "“Consegna di cibo” sarà piena circa a metà;",
+      "“Caffè” sarà piena circa per un quarto."
+    ],
+    "closingParagraphs": [
+      "La barra non mostra la quota del tag rispetto a tutte le spese. Una barra completamente piena non significa che il 100% delle spese sia associato a quel tag. Significa soltanto che quel tag ha l’importo più alto nel report attuale.",
+      "La visualizzazione si basa sempre sull’importo, anche quando l’elenco è ordinato per numero di transazioni.",
+      "Quando cambi il tipo di ordinamento, l’ordine dei tag può cambiare, ma la lunghezza delle barre rimane legata agli importi spesi."
+    ]
+  },
+  "tagSumMismatch": {
+    "title": "Perché il totale per tag può non coincidere con le spese complessive",
+    "paragraphs": [
+      "Una singola transazione può avere più tag. In questo caso, l’intero importo della transazione viene conteggiato separatamente per ogni tag selezionato."
+    ],
+    "exampleIntro": "Ad esempio, spendi 300 e aggiungi due tag alla transazione:",
+    "exampleTags": [
+      "“Spesa alimentare”;",
+      "“Ospiti”."
+    ],
+    "reportIntro": "Nel report, questa transazione aggiungerà:",
+    "reportItems": [
+      "300 al tag “Spesa alimentare”;",
+      "300 al tag “Ospiti”."
+    ],
+    "closingParagraphs": [
+      "In realtà dal fondo sono stati sottratti solo 300, ma la somma dei valori dei due tag sarà pari a 600.",
+      "Non si tratta né di un doppio addebito né di un errore di calcolo. Nell’app i tag sono attributi della transazione, non parti tra cui viene suddiviso il suo importo."
+    ],
+    "questionsIntro": "Un singolo acquisto può rispondere contemporaneamente a più domande:",
+    "questions": [
+      "<strong>cosa è stato acquistato?</strong> — generi alimentari;",
+      "<strong>per quale motivo?</strong> — per gli ospiti;",
+      "<strong>dove?</strong> — al mercato;",
+      "<strong>l’acquisto era pianificato?</strong> — non pianificato."
+    ],
+    "outroParagraphs": [
+      "Ogni tag permette di osservare la stessa transazione da una prospettiva diversa.",
+      "Per questo motivo, non dovresti sommare tutte le righe del report per calcolare le spese complessive."
+    ],
+    "fundsMovementLinkPrefix": "Per vedere l’importo effettivamente speso nel periodo, consulta il report ",
+    "fundsMovementLinkText": "“Movimento fondi”",
+    "fundsMovementLinkSuffix": "."
+  },
+  "compareAmountAndCount": {
+    "title": "Come confrontare importo e numero di transazioni",
+    "lead": "Le informazioni più utili emergono spesso osservando entrambi i valori insieme.",
+    "highAmountHighCount": {
+      "title": "Importo elevato e molte transazioni",
+      "paragraphs": [
+        "La spesa è allo stesso tempo elevata e ricorrente.",
+        "Ad esempio, i generi alimentari possono essere acquistati più volte alla settimana e rappresentare una parte significativa delle spese del fondo.",
+        "Questo non indica necessariamente un problema, ma mostra che eventuali cambiamenti in quest’area avrebbero il maggiore impatto sul saldo complessivo."
+      ]
+    },
+    "highAmountLowCount": {
+      "title": "Importo elevato e poche transazioni",
+      "paragraphs": [
+        "La maggior parte dell’importo deriva da uno o pochi acquisti importanti.",
+        "Ad esempio, il tag “Riparazioni” può essere stato utilizzato solo due volte e trovarsi comunque al primo posto per importo.",
+        "In questo caso è utile verificare se si trattava di spese una tantum. Se sì, un solo mese non è sufficiente per descrivere la tua struttura abituale delle spese."
+      ]
+    },
+    "lowAmountHighCount": {
+      "title": "Importo basso e molte transazioni",
+      "paragraphs": [
+        "La spesa si verifica spesso, ma ogni singola transazione è relativamente piccola.",
+        "Caffè, snack, trasporti o piccoli acquisti fatti tornando a casa possono avere questo aspetto.",
+        "Queste spese possono passare facilmente inosservate perché ogni singola transazione sembra poco significativa. Il report permette di vedere più chiaramente la loro frequenza complessiva e il loro impatto sul budget."
+      ]
+    },
+    "lowAmountLowCount": {
+      "title": "Importo basso e poche transazioni",
+      "paragraphs": [
+        "La spesa è stata rara e ha avuto poco impatto sul quadro generale.",
+        "Questi tag in genere non richiedono particolare attenzione, a meno che tu non stia monitorando volutamente una specifica abitudine o un obiettivo."
+      ]
+    }
+  },
+  "conclusions": {
+    "title": "Cosa puoi capire dal report",
+    "topSpending": {
+      "title": "Per cosa spendi più denaro",
+      "paragraphs": [
+        "L’ordinamento per importo mostra quali tipi di spesa hanno avuto il maggiore impatto sul saldo del fondo selezionato durante il mese.",
+        "Se un tag supera nettamente gli altri, valuta prima di tutto se questo è coerente con lo scopo del fondo. Ad esempio, una spesa elevata per generi alimentari può essere normale nel fondo “Necessità”, mentre un importo elevato nel tag “Consegna di cibo” può essere un motivo per verificare se le consegne sono diventate troppo frequenti o costose."
+      ],
+      "compareIntro": "Confronta l’importo con il numero di transazioni:",
+      "compareItems": [
+        "un importo elevato con poche transazioni indica solitamente alcuni acquisti importanti;",
+        "un importo elevato con molte transazioni indica spese ricorrenti che si sono accumulate nel corso del mese."
+      ],
+      "closingParagraphs": [
+        "Questo aiuta a capire cosa puoi effettivamente cambiare. Nel primo caso, verifica se l’acquisto importante era una tantum e pianificato. Nel secondo, valuta se puoi ridurre il costo medio di ogni acquisto oppure effettuarlo meno spesso.",
+        "Un importo elevato da solo non significa che hai speso troppo. Mostra quali tipi di spesa incidono maggiormente sul fondo e dove un cambiamento potrebbe produrre il risultato più evidente."
+      ]
+    },
+    "mostFrequent": {
+      "title": "Quali acquisti avvengono più spesso",
+      "paragraphs": [
+        "L’ordinamento per numero di transazioni può mettere in evidenza abitudini che non sono sempre visibili osservando soltanto l’importo totale.",
+        "Ad esempio, qualche consegna di cibo può costare più del caffè nel corso di un mese, ma acquistare caffè ogni giorno farà comparire quel tag più in alto per numero di transazioni.",
+        "A seconda del tuo obiettivo, può essere più utile analizzare il costo di un’abitudine oppure la sua frequenza."
+      ]
+    },
+    "largeOrSmall": {
+      "title": "Se le spese derivano da transazioni grandi o piccole",
+      "paragraphs": [
+        "L’importo e il numero di transazioni permettono di farsi un’idea approssimativa della natura delle spese."
+      ],
+      "exampleIntro": "Ad esempio:",
+      "exampleItems": [
+        "1 200 in 2 transazioni — probabilmente alcuni acquisti importanti;",
+        "1 200 in 24 transazioni — molti piccoli acquisti."
+      ],
+      "closingParagraphs": [
+        "Per un’analisi più dettagliata, puoi aprire i dettagli di un tag specifico. Qui vedrai l’importo totale, il numero di transazioni, la spesa media e la distribuzione delle spese nei diversi giorni del mese."
+      ]
+    },
+    "worthStudying": {
+      "title": "Quali spese vale la pena analizzare più da vicino",
+      "listIntro": "Possono meritare maggiore attenzione i tag che:",
+      "items": [
+        "si trovano ai primi posti per importo;",
+        "vengono utilizzati molto più spesso degli altri;",
+        "sono aumentati inaspettatamente rispetto al livello abituale;",
+        "hanno contemporaneamente un importo elevato e molte transazioni;",
+        "rappresentano acquisti facoltativi o non pianificati."
+      ],
+      "closingParagraphs": [
+        "Il report non stabilisce quali spese siano giuste o sbagliate. Aiuta a individuare le aree che può essere utile analizzare più da vicino."
+      ]
+    }
+  },
+  "compareMonths": {
+    "title": "Confronta mesi diversi",
+    "paragraphs": [
+      "Per individuare cambiamenti nelle tue spese, confronta i report di diversi mesi.",
+      "Durante il confronto, osserva sia l’importo sia il numero di transazioni. Un aumento delle spese associate a un tag può avere motivi diversi:"
+    ],
+    "reasons": [
+      "gli acquisti hanno iniziato a verificarsi più spesso;",
+      "il costo medio di ogni acquisto è aumentato;",
+      "durante il mese c’è stata una singola transazione importante;",
+      "hai iniziato a utilizzare il tag in modo più coerente."
+    ],
+    "eventsIntro": "Considera anche gli eventi che possono aver modificato temporaneamente le tue spese:",
+    "events": [
+      "festività;",
+      "vacanze;",
+      "un trasloco;",
+      "un acquisto importante;",
+      "la visita di ospiti;",
+      "un cambiamento temporaneo dello stile di vita."
+    ],
+    "closingParagraphs": [
+      "Un aumento delle spese in un solo mese non significa necessariamente che si sia formata una nuova abitudine. È più utile verificare se il cambiamento continua nei mesi successivi."
+    ]
+  },
+  "consistentTags": {
+    "title": "Usa i tag in modo coerente",
+    "paragraphs": [
+      "La qualità del report dipende da quanto coerentemente utilizzi i tag.",
+      "Se aggiungi un tag ad alcuni acquisti simili ma lasci gli altri senza tag, il report mostrerà solo una parte delle spese effettive.",
+      "Ad esempio, se vuoi monitorare le consegne di cibo, aggiungi il tag corrispondente a ogni transazione di questo tipo. In caso contrario, sia l’importo sia il numero di transazioni risulteranno inferiori al reale.",
+      "È utile decidere in anticipo cosa significa ogni tag."
+    ],
+    "examplesIntro": "Ad esempio:",
+    "examples": [
+      "“Bar e ristoranti” — tutti gli acquisti effettuati nei locali;",
+      "“Consegna di cibo” — solo gli ordini consegnati a casa;",
+      "“Snack” — piccoli acquisti di cibo non pianificati fuori casa."
+    ],
+    "closingParagraphs": [
+      "Più sono chiare le regole con cui utilizzi i tag, più sarà semplice confrontare i dati di periodi diversi.",
+      "Non è necessario aggiungere tag a ogni transazione. Usali quando vuoi realmente monitorare un particolare tipo di spesa, un’abitudine o il contesto di un acquisto."
+    ]
+  },
+  "analysisExample": {
+    "title": "Esempio di analisi del report",
+    "intro": "Supponiamo che il fondo “Svago” mostri i seguenti dati per il mese:",
+    "table": {
+      "headers": ["Tag", "Importo", "Numero"],
+      "rows": [
+        ["Uscite con gli amici", "1 800", "4"],
+        ["Consegna di cibo", "1 400", "7"],
+        ["Giochi", "1 000", "1"],
+        ["Caffè", "800", "16"]
+      ]
+    },
+    "closingParagraphs": [
+      "Con l’ordinamento per importo, si vede che la spesa maggiore è stata quella per le uscite con gli amici.",
+      "L’ordinamento per numero di transazioni mostra però un quadro diverso: gli acquisti con il tag “Caffè” sono stati i più frequenti."
+    ],
+    "conclusionsIntro": "Dal report si possono trarre diverse conclusioni:",
+    "conclusions": [
+      "le uscite con gli amici sono state la principale categoria di spesa;",
+      "l’acquisto di un gioco è stato importante ma occasionale;",
+      "le consegne di cibo si sono verificate regolarmente e si sono classificate al secondo posto per importo;",
+      "il caffè è stato acquistato più spesso, anche se l’importo totale era inferiore."
+    ],
+    "outroParagraphs": [
+      "Non esiste qui una singola spesa “sbagliata”. La conclusione dipende da ciò che vuoi capire.",
+      "Se vuoi ridurre rapidamente le spese, è più semplice iniziare dalle categorie più grandi. Se vuoi modificare un’abitudine quotidiana, può essere più utile concentrarti sulle transazioni frequenti."
+    ]
+  },
+  "summary": {
+    "title": "In sintesi",
+    "paragraphs": [
+      "Il report “Spese per tag” mostra le tue spese da due prospettive:"
+    ],
+    "items": [
+      "<strong>l’importo</strong> mostra l’impatto finanziario;",
+      "<strong>il numero di transazioni</strong> mostra la frequenza."
+    ],
+    "closingParagraphs": [
+      "L’ordinamento per importo aiuta a individuare i tipi di acquisto più costosi, mentre l’ordinamento per numero di transazioni mette in evidenza quelli più ricorrenti.",
+      "Quando una transazione ha più tag, la somma di tutti i valori associati ai tag può superare le spese effettive, perché l’intero importo della transazione viene conteggiato separatamente per ogni tag. Questo permette di analizzare lo stesso acquisto da prospettive diverse, ma significa anche che non dovresti sommare tutte le righe del report per calcolare le spese complessive.",
+      "Usa il report non per individuare automaticamente gli acquisti “inutili”, ma per trovare le aree di spesa che può essere utile analizzare più nel dettaglio."
+    ]
+  }
+}

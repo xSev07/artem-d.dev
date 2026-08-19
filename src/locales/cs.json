@@ -11,6 +11,9 @@
     "pages": {
       "privacy": "Zásady ochrany osobních údajů",
       "help": "Informace o chybě",
+      "reportFundsMovement": "Funds Movement Report",
+      "reportSpendingsByTags": "Spendings by Tags Report",
+      "reportTagDetails": "Tag Spending Details Report",
       "licenses": "Licence open source softwaru"
     }
   },
@@ -25,7 +28,9 @@
       "guide": "Metoda šesti fondů"
     },
     "footer": {
-      "label": "Informace o webu"
+      "label": "Informace o webu",
+      "guides": "Průvodce",
+      "information": "Informace"
     },
     "help": {
       "metaDescription": "Informace o chybě při provádění operace v aplikaci A.D.A.",

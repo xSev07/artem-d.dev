@@ -1,0 +1,408 @@
+{
+  "title": "Comment lire le rapport « Mouvements de fonds »",
+  "metaDescription": "Le rapport « Mouvements de fonds » montre comment le solde de l’enveloppe sélectionnée a évolué sur une période donnée.",
+  "intro": {
+    "paragraphs": [
+      "Le rapport « Mouvements de fonds » montre comment le solde de l’enveloppe sélectionnée a évolué sur une période donnée."
+    ],
+    "listIntro": "Il permet de voir :",
+    "items": [
+      "combien d’argent se trouvait dans l’enveloppe au début de la période ;",
+      "combien d’argent a été ajouté ;",
+      "combien a été dépensé ;",
+      "de combien le solde a changé ;",
+      "combien d’argent restait à la fin de la période ;",
+      "à quels moments des changements importants se sont produits."
+    ],
+    "closingParagraphs": [
+      "Le rapport est établi uniquement pour une enveloppe sélectionnée. Il faut donc le considérer non pas comme une vue d’ensemble de toutes vos finances, mais comme l’historique des mouvements d’argent dans une partie précise de votre budget."
+    ]
+  },
+  "overview": {
+    "title": "Sommaire",
+    "metrics": "Que signifient les indicateurs",
+    "readingChart": "Comment lire le graphique",
+    "sameResultDifferentMovement": "Un même résultat peut masquer des mouvements d’argent très différents",
+    "monthlyInsights": "Ce que le graphique peut montrer sur un mois",
+    "longTermInsights": "Ce que le graphique peut montrer sur plusieurs mois ou une année",
+    "differentJars": "Les différentes enveloppes doivent être évaluées différemment",
+    "whenToChangeShare": "Quand modifier la part d’une enveloppe",
+    "limitations": "Limites du rapport",
+    "questions": "Questions à vous poser"
+  },
+  "metrics": {
+    "title": "Que signifient les indicateurs",
+    "openingBalance": {
+      "title": "Solde initial",
+      "paragraphs": [
+        "Le solde initial est le montant qui se trouvait dans l’enveloppe au début de la période sélectionnée.",
+        "Il ne correspond pas nécessairement au montant du dernier ajout ni au solde actuel de l’enveloppe. Par exemple, s’il restait de l’argent du mois précédent au début du mois, il sera également inclus dans le solde initial."
+      ]
+    },
+    "deposits": {
+      "title": "Ajouts",
+      "paragraphs": [
+        "Les ajouts indiquent le montant total de tous les fonds ajoutés à l’enveloppe sélectionnée pendant la période."
+      ],
+      "listIntro": "Il peut s’agir :",
+      "items": [
+        "d’une part du revenu réparti ;",
+        "d’un ajout supplémentaire ;",
+        "d’un remboursement d’une dépense précédente ;",
+        "d’un transfert depuis une autre enveloppe."
+      ],
+      "closingParagraphs": [
+        "Le rapport indique le montant total des ajouts, mais pas leur origine. Pour savoir d’où provient un ajout précis, consultez la liste des transactions."
+      ]
+    },
+    "withdrawals": {
+      "title": "Dépenses",
+      "paragraphs": [
+        "Les dépenses indiquent le montant total de l’argent dépensé depuis l’enveloppe sélectionnée pendant la période.",
+        "Même si le solde a peu changé à la fin de la période, le montant total des dépenses peut être élevé. Cela signifie que l’argent a été activement dépensé, puis que l’enveloppe a été réapprovisionnée."
+      ]
+    },
+    "netChange": {
+      "title": "Variation nette",
+      "paragraphs": [
+        "La variation nette indique de combien le solde a augmenté ou diminué par rapport au début de la période.",
+        "Elle est calculée comme la différence entre les ajouts et les dépenses."
+      ],
+      "exampleIntro": "Par exemple :",
+      "exampleItems": [
+        "solde initial — 1 000 ;",
+        "ajouts — 2 000 ;",
+        "dépenses — 2 300 ;",
+        "variation nette — −300 ;",
+        "solde final — 700."
+      ],
+      "closingParagraphs": [
+        "Pour une enveloppe destinée aux dépenses courantes, on peut généralement considérer comme normale une variation nette proche de zéro ou un solde qui augmente progressivement sur une longue période.",
+        "Si la variation nette reste régulièrement négative, cela signifie que l’enveloppe dépense systématiquement plus qu’elle ne reçoit. Cela peut indiquer qu’une part trop faible du revenu lui est attribuée ou que les dépenses doivent être réexaminées."
+      ]
+    },
+    "closingBalance": {
+      "title": "Solde final",
+      "paragraphs": [
+        "Le solde final est le montant restant dans l’enveloppe à la fin de la période sélectionnée.",
+        "Il comprend le solde initial, tous les ajouts et toutes les dépenses.",
+        "Il ne faut pas confondre le solde final avec la variation nette. Le solde indique combien d’argent reste, tandis que la variation nette indique de combien ce montant diffère du solde initial."
+      ]
+    }
+  },
+  "readingChart": {
+    "title": "Comment lire le graphique",
+    "lead": "La ligne du graphique montre comment le solde de l’enveloppe a évolué pendant la période sélectionnée.",
+    "lineUp": {
+      "title": "La ligne monte",
+      "paragraphs": [
+        "Une ligne ascendante signifie que de l’argent a été ajouté à l’enveloppe.",
+        "Une hausse brusque correspond généralement à un ajout important, par exemple à la répartition d’un revenu ou à un transfert depuis une autre enveloppe.",
+        "Une hausse progressive ou par paliers peut correspondre à plusieurs ajouts distincts."
+      ]
+    },
+    "lineDown": {
+      "title": "La ligne descend",
+      "paragraphs": [
+        "Une ligne descendante signifie que de l’argent a été dépensé.",
+        "Une baisse progressive indique généralement que l’argent est dépensé petit à petit au cours de la période.",
+        "Une chute brusque correspond à une dépense importante ou à plusieurs dépenses effectuées sur une courte période.",
+        "Le graphique permet de voir quand le changement s’est produit, mais pas à quoi l’argent a été dépensé. Pour cela, consultez la liste des transactions ou le rapport par tags."
+      ]
+    },
+    "lineFlat": {
+      "title": "La ligne reste à peu près au même niveau",
+      "listIntro": "Cela peut signifier que :",
+      "items": [
+        "il n’y a presque pas eu de dépenses ;",
+        "les ajouts ont à peu près compensé les dépenses ;",
+        "de l’argent a été régulièrement dépensé puis ajouté de nouveau ;",
+        "l’enveloppe a été peu utilisée."
+      ],
+      "closingParagraphs": [
+        "Une ligne horizontale ne signifie donc pas forcément qu’il n’y a eu aucune activité. Il faut également regarder le montant total des ajouts et des dépenses."
+      ]
+    },
+    "balanceNearZero": {
+      "title": "Le solde reste proche de zéro",
+      "listIntro": "Si la ligne reste longtemps proche de zéro, plusieurs raisons sont possibles :",
+      "items": [
+        "la part de l’enveloppe correspond assez bien aux besoins réels ;",
+        "l’argent suffit tout juste ;",
+        "les fonds sont rapidement dépensés après chaque ajout ;",
+        "l’enveloppe doit régulièrement être réapprovisionnée depuis d’autres sources."
+      ],
+      "closingParagraphs": [
+        "Pour mieux comprendre la situation, comparez le graphique aux montants totaux des ajouts et des dépenses.",
+        "Si l’enveloppe reçoit régulièrement beaucoup plus d’argent que ce qui lui est normalement attribué lors de la répartition du revenu, elle dépend peut-être de transferts supplémentaires."
+      ]
+    },
+    "balanceNegative": {
+      "title": "Le solde passe sous zéro",
+      "paragraphs": [
+        "Un solde négatif signifie que davantage d’argent a été dépensé depuis l’enveloppe qu’elle n’en contenait.",
+        "Une situation ponctuelle peut être normale. Par exemple, un achat important peut avoir lieu peu avant le prochain revenu."
+      ],
+      "listIntro": "Si l’enveloppe passe régulièrement sous zéro, cela peut indiquer que :",
+      "items": [
+        "une part trop faible du revenu lui est attribuée ;",
+        "les dépenses liées à cette enveloppe ont augmenté ;",
+        "certaines dépenses peuvent être réduites ou reportées."
+      ],
+      "closingParagraphs": [
+        "L’application autorise un solde négatif. Lors du prochain ajout, le solde négatif sera d’abord compensé, ce qui laissera moins d’argent disponible pour la nouvelle période."
+      ]
+    },
+    "temporaryMinusNotVisible": {
+      "title": "Pourquoi un solde négatif temporaire peut ne pas apparaître sur le graphique",
+      "paragraphs": [
+        "Le graphique affiche l’évolution finale du solde pour chaque journée.",
+        "Si une enveloppe passe sous zéro puis est réapprovisionnée le même jour, le solde négatif intermédiaire peut ne pas apparaître. Le graphique affichera uniquement le solde final de la journée."
+      ],
+      "exampleIntro": "Par exemple :",
+      "orderedItems": [
+        "L’enveloppe contenait 100.",
+        "Vous dépensez 200 et le solde passe à −100.",
+        "Vous transférez ensuite 150 depuis une autre enveloppe.",
+        "Le solde final de la journée est de 50."
+      ],
+      "closingParagraphs": [
+        "Le graphique affichera un solde final positif, même si l’enveloppe a temporairement été en négatif pendant la journée.",
+        "Le graphique est donc utile pour analyser la tendance générale, mais il ne montre pas toujours tous les états intermédiaires."
+      ],
+      "borrowLinkPrefix": "Vous pouvez en savoir plus sur la manière d’emprunter temporairement de l’argent à vous-même entre vos enveloppes dans la ",
+      "borrowLinkText": "section consacrée à l’emprunt à soi-même",
+      "borrowLinkSuffix": "."
+    }
+  },
+  "sameResultDifferentMovement": {
+    "title": "Un même résultat peut masquer des mouvements d’argent très différents",
+    "openingParagraphs": [
+      "Il ne faut pas évaluer une période uniquement à partir de son solde final.",
+      "Imaginons deux mois."
+    ],
+    "firstMonthIntro": "Au cours du premier mois :",
+    "firstMonthItems": [
+      "ajouts — 2 000 ;",
+      "dépenses — 2 000 ;",
+      "variation nette — 0."
+    ],
+    "secondMonthIntro": "Au cours du deuxième mois :",
+    "secondMonthItems": [
+      "aucun ajout ;",
+      "aucune dépense ;",
+      "variation nette — 0."
+    ],
+    "closingParagraphs": [
+      "Dans les deux cas, le solde n’a pas changé, mais pendant le premier mois l’enveloppe a été activement utilisée, tandis que pendant le second il n’y a eu aucun mouvement d’argent."
+    ],
+    "summaryListIntro": "Il est donc utile d’examiner simultanément :",
+    "summaryItems": [
+      "le solde initial ;",
+      "les ajouts ;",
+      "les dépenses ;",
+      "la variation nette ;",
+      "la forme de la ligne sur le graphique."
+    ]
+  },
+  "monthlyInsights": {
+    "title": "Ce que le graphique peut montrer sur un mois",
+    "lead": "Sur une période courte, le rapport aide à comprendre comment l’argent évolue au cours du mois.",
+    "moneyRunsOutEarly": {
+      "title": "L’argent s’épuise trop tôt",
+      "paragraphs": [
+        "Si le solde se rapproche régulièrement de zéro bien avant le prochain ajout, la part actuelle de l’enveloppe est peut-être insuffisante.",
+        "Il est toutefois important de distinguer une tendance récurrente d’une situation ponctuelle. Un mois inhabituel ne signifie pas nécessairement qu’il faut modifier la répartition."
+      ]
+    },
+    "evenSpending": {
+      "title": "L’argent est dépensé régulièrement",
+      "paragraphs": [
+        "Si la ligne diminue progressivement tout au long du mois, les dépenses sont probablement réparties de manière assez régulière.",
+        "Pour une enveloppe destinée aux dépenses quotidiennes, cela peut être un comportement normal."
+      ]
+    },
+    "sharpDropAtStart": {
+      "title": "Une forte baisse se produit au début de la période",
+      "paragraphs": [
+        "Si une grande partie de l’argent est dépensée juste après un ajout, il est possible que des dépenses obligatoires importantes soient payées au début de la période.",
+        "Ce n’est pas forcément un problème. Mais s’il ne reste régulièrement pas assez d’argent pour le reste du mois, il peut être utile de revoir la répartition."
+      ]
+    },
+    "largeDrops": {
+      "title": "Le graphique montre des baisses importantes isolées",
+      "paragraphs": [
+        "Les fortes baisses permettent de repérer les dates des dépenses importantes."
+      ],
+      "listIntro": "Vous pouvez ensuite ouvrir les transactions et vérifier :",
+      "items": [
+        "ce qui a été acheté ;",
+        "si la dépense était prévue ;",
+        "si elle se répète régulièrement ;",
+        "s’il serait utile de réserver de l’argent à l’avance."
+      ]
+    }
+  },
+  "longTermInsights": {
+    "title": "Ce que le graphique peut montrer sur plusieurs mois ou une année",
+    "lead": "Sur une longue période, le graphique est particulièrement utile pour repérer des tendances durables.",
+    "introParagraphs": [
+      "Un seul mois peut être exceptionnel. Une évolution qui se répète indique davantage que les réglages de l’enveloppe ou la structure des dépenses peuvent devoir être ajustés."
+    ],
+    "balanceGrowing": {
+      "title": "Le solde augmente constamment",
+      "paragraphs": [
+        "Pour une enveloppe d’épargne, une croissance régulière est le résultat attendu.",
+        "Mais pour une enveloppe de dépenses courantes, une hausse constante peut signifier qu’elle reçoit davantage d’argent que nécessaire.",
+        "Dans ce cas, vous pouvez envisager de réduire sa part et de réaffecter la différence à d’autres enveloppes.",
+        "Avant toute modification, vérifiez si l’argent accumulé a une destination précise. Une dépense importante peut n’avoir lieu qu’occasionnellement et le solde actuel pourra être nécessaire plus tard."
+      ]
+    },
+    "balanceDeclining": {
+      "title": "Le solde diminue constamment",
+      "paragraphs": [
+        "Si la ligne baisse progressivement sur une longue période, les dépenses de l’enveloppe dépassent systématiquement ses ajouts.",
+        "Une baisse ponctuelle peut être liée à des dépenses exceptionnellement élevées. Mais si cette tendance se répète mois après mois, la répartition actuelle est probablement insuffisante."
+      ],
+      "listIntro": "Dans ce cas, vérifiez :",
+      "items": [
+        "si les dépenses habituelles correspondant à l’objectif de l’enveloppe ont augmenté ;",
+        "si des dépenses importantes mais rares ont eu lieu pendant la période sélectionnée ;",
+        "si vous devez régulièrement réapprovisionner l’enveloppe depuis d’autres enveloppes."
+      ],
+      "closingParagraphs": [
+        "Si la baisse est due à des dépenses nécessaires et récurrentes, vous pouvez augmenter la part de cette enveloppe au détriment d’autres.",
+        "Si elle est due à des dépenses importantes mais rares, il n’est pas forcément nécessaire de modifier la répartition habituelle. Il peut être plus pratique de mettre de l’argent de côté séparément à l’avance."
+      ]
+    },
+    "extraDeposits": {
+      "title": "L’enveloppe reçoit régulièrement des ajouts supplémentaires",
+      "paragraphs": [
+        "Si les ajouts habituels ne suffisent pas et que vous devez régulièrement transférer de l’argent depuis d’autres enveloppes, c’est un signal important.",
+        "Même si ces transferts empêchent le solde de rester longtemps négatif, ils montrent que les dépenses réelles sont supérieures à ce qui avait été prévu.",
+        "Les transferts entre enveloppes peuvent rendre le graphique moins évident. La ligne seule ne permet donc pas toujours de comprendre pourquoi le solde s’est rétabli. Mais des ajouts supplémentaires réguliers associés à des dépenses élevées constituent déjà une bonne raison de revoir la part de l’enveloppe."
+      ]
+    }
+  },
+  "differentJars": {
+    "title": "Les différentes enveloppes doivent être évaluées différemment",
+    "lead": "Une même forme de graphique peut avoir des significations différentes selon l’objectif de l’enveloppe.",
+    "spendingJar": {
+      "title": "Enveloppe de dépenses",
+      "listIntro": "Pour une enveloppe destinée aux dépenses quotidiennes, il est généralement normal qu’elle :",
+      "items": [
+        "diminue entre les ajouts ;",
+        "fluctue régulièrement ;",
+        "se rapproche de zéro vers la fin de la période ;",
+        "augmente de nouveau après la répartition du revenu."
+      ],
+      "closingParagraphs": [
+        "Le problème n’est généralement pas la baisse elle-même, mais un solde régulièrement très négatif ou la nécessité constante de transférer de l’argent depuis d’autres enveloppes."
+      ]
+    },
+    "savingsJar": {
+      "title": "Enveloppe d’épargne",
+      "listIntro": "Pour une enveloppe d’épargne, il est généralement normal qu’elle :",
+      "items": [
+        "augmente progressivement ;",
+        "reste longtemps sans dépenses ;",
+        "baisse fortement après avoir atteint un objectif et effectué un achat important."
+      ],
+      "closingParagraphs": [
+        "Si une enveloppe d’épargne diminue régulièrement à cause de dépenses quotidiennes, ses fonds sont peut-être utilisés pour autre chose que leur objectif prévu."
+      ]
+    },
+    "goalJar": {
+      "title": "Enveloppe pour un objectif important ou une obligation",
+      "paragraphs": [
+        "Une enveloppe distincte peut être utile lorsqu’il faut réserver de l’argent à l’avance pour un objectif ou une obligation précise."
+      ],
+      "examplesIntro": "Par exemple :",
+      "examples": [
+        "une assurance annuelle ;",
+        "des études ;",
+        "des vacances ;",
+        "des travaux ;",
+        "un abonnement coûteux ;",
+        "un paiement obligatoire important et récurrent."
+      ],
+      "benefitsIntro": "Une telle enveloppe permet de voir immédiatement :",
+      "benefits": [
+        "combien vous avez déjà mis de côté ;",
+        "si les ajouts réguliers sont suffisants ;",
+        "si vous avez dépassé le budget prévu ;",
+        "si vous devez ajouter de l’argent provenant d’autres parties du budget."
+      ],
+      "closingParagraphs": [
+        "Il n’est toutefois pas nécessaire de créer une enveloppe distincte pour chaque type de dépense récurrente.",
+        "Même des dépenses quotidiennes importantes mais variables, comme les courses alimentaires, sont généralement plus simples à gérer dans une enveloppe plus générale et à analyser à l’aide de tags.",
+        "Une enveloppe distincte est surtout utile pour un objectif indépendant ou une obligation nécessitant de réserver à l’avance un montant déterminé."
+      ]
+    }
+  },
+  "whenToChangeShare": {
+    "title": "Quand modifier la part d’une enveloppe",
+    "openingParagraphs": [
+      "Ne modifiez pas les pourcentages après un seul mois inhabituel.",
+      "Vérifiez d’abord si la même situation se répète sur plusieurs périodes."
+    ],
+    "increaseListIntro": "Augmenter la part peut être pertinent si :",
+    "increaseItems": [
+      "le solde passe régulièrement sous zéro ;",
+      "l’argent s’épuise bien avant le prochain revenu ;",
+      "l’enveloppe doit constamment recevoir des ajouts supplémentaires ;",
+      "les dépenses correspondant à son objectif sont réellement nécessaires."
+    ],
+    "decreaseListIntro": "Réduire la part peut être pertinent si :",
+    "decreaseItems": [
+      "le solde restant augmente constamment ;",
+      "l’argent accumulé n’a pas d’objectif d’épargne particulier ;",
+      "les dépenses réelles sont nettement inférieures au montant attribué ;",
+      "d’autres enveloppes manquent régulièrement d’argent."
+    ],
+    "closingParagraphs": [
+      "La méthode des 6 enveloppes n’impose pas de conserver les pourcentages initiaux pour toujours. La répartition peut et doit être adaptée aux dépenses réelles et aux changements de votre vie."
+    ]
+  },
+  "limitations": {
+    "title": "Limites du rapport",
+    "openingParagraphs": [
+      "Le rapport « Mouvements de fonds » montre clairement ce qui s’est passé avec le solde, mais n’explique pas toujours pourquoi il a changé."
+    ],
+    "canUnderstandIntro": "Il permet de comprendre :",
+    "canUnderstandItems": [
+      "si le solde a augmenté ou diminué ;",
+      "quand des changements importants se sont produits ;",
+      "si l’argent a suffi ;",
+      "si une tendance durable se forme ;",
+      "si l’enveloppe nécessite régulièrement des ajouts supplémentaires."
+    ],
+    "cannotDetermineIntro": "Mais le graphique seul ne permet pas toujours de déterminer :",
+    "cannotDetermineItems": [
+      "à quoi l’argent a précisément été dépensé ;",
+      "d’où provient un ajout ;",
+      "s’il s’agissait d’un transfert entre enveloppes ;",
+      "pourquoi les habitudes de dépenses ont changé ;",
+      "si le solde est passé sous zéro au cours de la journée."
+    ],
+    "closingParagraphs": [
+      "Pour une analyse plus détaillée, utilisez la liste des transactions et les rapports par tags."
+    ]
+  },
+  "questions": {
+    "title": "Questions à vous poser",
+    "listIntro": "Lorsque vous consultez le rapport, essayez de répondre à quelques questions :",
+    "items": [
+      "Y a-t-il assez d’argent dans l’enveloppe jusqu’au prochain ajout ?",
+      "À quel moment de la période le solde commence-t-il généralement à se rapprocher de zéro ?",
+      "Les fortes baisses se produisent-elles régulièrement aux mêmes dates ?",
+      "Dois-je régulièrement transférer ici de l’argent depuis d’autres enveloppes ?",
+      "Le solde restant continue-t-il d’augmenter sans objectif précis ?",
+      "La part actuelle de l’enveloppe correspond-elle à mes dépenses réelles ?",
+      "Les changements importants sont-ils ponctuels ou se répètent-ils mois après mois ?"
+    ],
+    "closingParagraphs": [
+      "L’objectif principal du rapport n’est pas seulement d’afficher une ligne représentant l’évolution du solde, mais de vous aider à repérer des tendances durables et à comprendre dans quelle mesure la part choisie pour l’enveloppe correspond à votre vie réelle."
+    ]
+  }
+}

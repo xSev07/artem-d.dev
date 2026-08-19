@@ -1,0 +1,341 @@
+{
+  "title": "Jak číst přehled „Výdaje podle štítků“",
+  "metaDescription": "Přehled „Výdaje podle štítků“ pomáhá zjistit, za co byly v daném období utraceny peníze z vybraného fondu.",
+  "intro": {
+    "paragraphs": [
+      "Přehled „Výdaje podle štítků“ pomáhá zjistit, za co byly v daném období utraceny peníze z vybraného fondu.",
+      "Na rozdíl od běžného seznamu transakcí seskupuje výdaje se stejnými štítky a zobrazuje:"
+    ],
+    "items": [
+      "celkovou částku výdajů pro každý štítek;",
+      "počet transakcí s daným štítkem;",
+      "vzájemné porovnání výdajů mezi jednotlivými štítky."
+    ],
+    "closingParagraphs": [
+      "Přehled vám pomůže najít nejen nejdražší typy výdajů, ale také časté drobné nákupy, které mohou samy o sobě působit nevýznamně."
+    ]
+  },
+  "overview": {
+    "title": "Obsah",
+    "whatItShows": "Co přehled ukazuje",
+    "sortByAmount": "Řazení podle částky",
+    "sortByCount": "Řazení podle počtu transakcí",
+    "progressBars": "Jak číst pruhy",
+    "tagSumMismatch": "Proč součet podle štítků nemusí odpovídat celkovým výdajům",
+    "compareAmountAndCount": "Jak porovnávat částku a počet transakcí",
+    "conclusions": "Jaké závěry lze z přehledu vyvodit",
+    "compareMonths": "Porovnávejte různé měsíce",
+    "consistentTags": "Používejte štítky konzistentně",
+    "analysisExample": "Příklad analýzy přehledu",
+    "summary": "To nejdůležitější"
+  },
+  "whatItShows": {
+    "title": "Co přehled ukazuje",
+    "paragraphs": [
+      "Přehled se vždy vytváří pouze pro jeden vybraný fond.",
+      "Pokud například vyberete fond „Nezbytnosti“, budou do přehledu zahrnuty pouze výdaje z tohoto fondu. Transakce z jiných fondů se nezapočítají, ani pokud používají stejné štítky."
+    ],
+    "metricsIntro": "U každého štítku se zobrazují dvě hodnoty:",
+    "metrics": [
+      "<strong>částka</strong> — kolik peněz bylo celkem utraceno v transakcích s tímto štítkem;",
+      "<strong>počet transakcí</strong> — kolikrát byl štítek použit u výdajů během vybraného období."
+    ],
+    "exampleIntro": "Pokud byl například štítek „Rozvoz jídla“ použit ve čtyřech transakcích v celkové hodnotě 650, přehled zobrazí:",
+    "exampleItems": [
+      "částku — 650;",
+      "počet transakcí — 4."
+    ],
+    "closingParagraphs": [
+      "Tyto hodnoty ukazují výdaje z různých úhlů. Vysoká celková částka může vzniknout jak jedním velkým nákupem, tak mnoha menšími."
+    ]
+  },
+  "sortByAmount": {
+    "title": "Řazení podle částky",
+    "paragraphs": [
+      "Při řazení podle částky se nahoře zobrazují štítky s nejvyššími celkovými výdaji.",
+      "Tento režim pomáhá odpovědět na otázku:"
+    ],
+    "question": "Které typy výdajů měly největší vliv na zůstatek fondu?",
+    "exampleIntro": "Měsíční přehled může například vypadat takto:",
+    "table": {
+      "headers": ["Štítek", "Částka", "Počet"],
+      "rows": [
+        ["Potraviny", "2 400", "12"],
+        ["Drogerie", "750", "3"],
+        ["Rozvoz jídla", "650", "4"],
+        ["Káva", "480", "16"]
+      ]
+    },
+    "closingParagraphs": [
+      "V tomto příkladu připadla největší část výdajů na potraviny. Přestože se káva kupovala častěji, její celkový vliv na výdaje byl výrazně menší."
+    ],
+    "listIntro": "Řazení podle částky je užitečné, když chcete:",
+    "items": [
+      "najít nejdražší typy nákupů;",
+      "zjistit, které výdaje nejvíce ovlivnily zůstatek;",
+      "vybrat štítek pro podrobnější analýzu;",
+      "porovnat strukturu výdajů mezi různými obdobími."
+    ],
+    "outroParagraphs": [
+      "Vysoká částka sama o sobě neznamená, že byl výdaj zbytečný. Potraviny mohou být například na prvním místě jednoduše proto, že představují hlavní výdaj ve vybraném fondu.",
+      "Přehled ukazuje, kam peníze odešly, ale posouzení nezbytnosti těchto výdajů závisí na účelu fondu a vaší vlastní situaci."
+    ]
+  },
+  "sortByCount": {
+    "title": "Řazení podle počtu transakcí",
+    "paragraphs": [
+      "Při řazení podle počtu transakcí se nahoře zobrazují nejčastěji používané štítky.",
+      "Tento režim odpovídá na jinou otázku:"
+    ],
+    "question": "Které výdaje se opakují nejčastěji?",
+    "closingParagraphs": [
+      "Časté transakce nemusí být zároveň nejvyšší podle částky. Mohou však ukazovat na pravidelný návyk.",
+      "V předchozím příkladu byla káva koupena 16krát — častěji než cokoli jiného. Celková částka však byla relativně nízká, takže při řazení podle částky by tento štítek byl níže v seznamu."
+    ],
+    "listIntro": "Řazení podle počtu transakcí pomáhá najít:",
+    "items": [
+      "často se opakující nákupy;",
+      "výdaje, které se staly návykem;",
+      "větší množství drobných transakcí;",
+      "oblasti, kde může být užitečnější snížit četnost nákupů než velikost jednotlivého nákupu."
+    ],
+    "outroParagraphs": [
+      "Například jeden nákup za 500 je nápadnější než deset nákupů po 50. V obou případech je ale výsledná částka stejná. Řazení podle počtu transakcí usnadňuje odhalit druhý scénář."
+    ]
+  },
+  "progressBars": {
+    "title": "Jak číst pruhy",
+    "paragraphs": [
+      "Vedle každého štítku se zobrazuje pruh, který vizuálně porovnává velikost výdajů.",
+      "Štítek s nejvyššími výdaji ve vybraném období se bere jako 100 %. Délka ostatních pruhů se počítá relativně vůči němu."
+    ],
+    "exampleIntro": "Například:",
+    "exampleItems": [
+      "„Potraviny“ — 2 000;",
+      "„Rozvoz jídla“ — 1 000;",
+      "„Káva“ — 500."
+    ],
+    "resultIntro": "V takovém případě:",
+    "resultItems": [
+      "pruh „Potraviny“ bude zaplněný celý;",
+      "„Rozvoz jídla“ přibližně z poloviny;",
+      "„Káva“ přibližně ze čtvrtiny."
+    ],
+    "closingParagraphs": [
+      "Pruh nezobrazuje podíl štítku na všech výdajích. Plně zaplněný pruh neznamená, že na tento štítek připadlo 100 % všech utracených peněz. Znamená pouze to, že jde o nejvyšší částku mezi štítky v aktuálním přehledu.",
+      "Vizualizace je vždy založena na částce, i když je seznam seřazen podle počtu transakcí.",
+      "Po změně řazení se tedy může změnit pořadí štítků, ale délka pruhů bude i nadále odpovídat výši výdajů."
+    ]
+  },
+  "tagSumMismatch": {
+    "title": "Proč součet podle štítků nemusí odpovídat celkovým výdajům",
+    "paragraphs": [
+      "Jedné transakci lze přiřadit více štítků. V takovém případě se celá částka transakce započítá samostatně ke každému z vybraných štítků."
+    ],
+    "exampleIntro": "Například utratíte 300 a k transakci přidáte dva štítky:",
+    "exampleTags": [
+      "„Potraviny“;",
+      "„Hosté“."
+    ],
+    "reportIntro": "V přehledu tato transakce přidá:",
+    "reportItems": [
+      "300 ke štítku „Potraviny“;",
+      "300 ke štítku „Hosté“."
+    ],
+    "closingParagraphs": [
+      "Z fondu bylo ve skutečnosti odečteno pouze 300, ale součet hodnot obou štítků bude 600.",
+      "Nejde o dvojí odečtení ani chybu ve výpočtu. Štítky v aplikaci fungují jako vlastnosti transakce, nikoli jako části, mezi které se její částka rozděluje."
+    ],
+    "questionsIntro": "Jeden nákup může současně odpovídat na několik otázek:",
+    "questions": [
+      "<strong>co bylo koupeno?</strong> — potraviny;",
+      "<strong>pro koho nebo za jakým účelem?</strong> — pro hosty;",
+      "<strong>kde?</strong> — na trhu;",
+      "<strong>byl nákup plánovaný?</strong> — neplánovaný."
+    ],
+    "outroParagraphs": [
+      "Každý štítek umožňuje podívat se na stejnou transakci z jiného úhlu.",
+      "Proto byste neměli sčítat všechny řádky přehledu, chcete-li zjistit celkové výdaje."
+    ],
+    "fundsMovementLinkPrefix": "Skutečnou částku výdajů za dané období je lepší sledovat v přehledu ",
+    "fundsMovementLinkText": "„Pohyb prostředků“",
+    "fundsMovementLinkSuffix": "."
+  },
+  "compareAmountAndCount": {
+    "title": "Jak porovnávat částku a počet transakcí",
+    "lead": "Nejužitečnější závěry často získáte tehdy, když sledujete oba údaje současně.",
+    "highAmountHighCount": {
+      "title": "Vysoká částka a mnoho transakcí",
+      "paragraphs": [
+        "Výdaj je zároveň vysoký a pravidelný.",
+        "Například potraviny můžete nakupovat několikrát týdně a mohou tvořit významnou část výdajů fondu.",
+        "Takový výsledek nemusí znamenat problém, ale ukazuje, že změny v této oblasti budou mít největší vliv na celkový zůstatek."
+      ]
+    },
+    "highAmountLowCount": {
+      "title": "Vysoká částka a málo transakcí",
+      "paragraphs": [
+        "Většinu částky tvoří jeden nebo několik velkých nákupů.",
+        "Například štítek „Opravy“ může být použit jen dvakrát, ale přesto být na prvním místě podle částky.",
+        "V takové situaci je vhodné ověřit, zda šlo o jednorázové výdaje. Pokud ano, jeden měsíc nemusí vypovídat o běžné struktuře výdajů."
+      ]
+    },
+    "lowAmountHighCount": {
+      "title": "Nízká částka a mnoho transakcí",
+      "paragraphs": [
+        "Výdaj se opakuje často, ale jednotlivé transakce jsou relativně malé.",
+        "Takto mohou vypadat výdaje za kávu, svačiny, dopravu nebo drobné nákupy cestou domů.",
+        "Tyto výdaje lze snadno přehlédnout, protože každá jednotlivá transakce působí nevýznamně. Přehled pomáhá vidět jejich celkovou četnost a dopad na rozpočet."
+      ]
+    },
+    "lowAmountLowCount": {
+      "title": "Nízká částka a málo transakcí",
+      "paragraphs": [
+        "Výdaj byl vzácný a měl jen malý vliv na celkový obraz.",
+        "Takové štítky obvykle nevyžadují zvláštní pozornost, pokud nesledujete konkrétní návyk nebo cíl."
+      ]
+    }
+  },
+  "conclusions": {
+    "title": "Jaké závěry lze z přehledu vyvodit",
+    "topSpending": {
+      "title": "Za co utrácíte nejvíce peněz",
+      "paragraphs": [
+        "Řazení podle částky ukazuje, které typy výdajů měly během měsíce největší vliv na zůstatek vybraného fondu.",
+        "Pokud jeden štítek výrazně převyšuje ostatní, nejprve zvažte, zda to odpovídá účelu fondu. Například vysoké výdaje za potraviny mohou být ve fondu „Nezbytnosti“ očekávané, zatímco vysoká částka u štítku „Rozvoz jídla“ může být důvodem zkontrolovat, zda se rozvoz nestal příliš častým nebo drahým."
+      ],
+      "compareIntro": "Porovnejte částku s počtem transakcí:",
+      "compareItems": [
+        "vysoká částka při malém počtu transakcí obvykle znamená několik velkých nákupů;",
+        "vysoká částka při velkém počtu transakcí ukazuje na pravidelné výdaje, které se v průběhu měsíce postupně nasčítaly."
+      ],
+      "closingParagraphs": [
+        "To pomáhá pochopit, co lze skutečně změnit. V prvním případě zkontrolujte, zda byl velký nákup jednorázový a plánovaný. Ve druhém zvažte, zda lze snížit průměrnou cenu jednoho nákupu nebo takové nákupy provádět méně často.",
+        "Vysoká částka sama o sobě neznamená nadměrné utrácení. Ukazuje, které typy výdajů mají na fond největší vliv a kde by změna měla nejvýraznější efekt."
+      ]
+    },
+    "mostFrequent": {
+      "title": "Které nákupy se opakují nejčastěji",
+      "paragraphs": [
+        "Řazení podle počtu transakcí může odhalit návyky, které nejsou z celkové částky vždy patrné.",
+        "Například občasný rozvoz jídla může za měsíc stát více než káva, ale každodenní káva bude výše podle počtu transakcí.",
+        "Podle cíle může být užitečnější sledovat buď cenu návyku, nebo jeho četnost."
+      ]
+    },
+    "largeOrSmall": {
+      "title": "Zda se výdaje skládají z velkých nebo malých transakcí",
+      "paragraphs": [
+        "Částka a počet transakcí umožňují přibližně odhadnout charakter výdajů."
+      ],
+      "exampleIntro": "Například:",
+      "exampleItems": [
+        "1 200 ve 2 transakcích — pravděpodobně několik velkých nákupů;",
+        "1 200 ve 24 transakcích — mnoho drobných nákupů."
+      ],
+      "closingParagraphs": [
+        "Pro podrobnější analýzu můžete otevřít detail konkrétního štítku. Uvidíte tam celkovou částku, počet transakcí, průměrnou výši výdaje a rozložení výdajů podle dnů v měsíci."
+      ]
+    },
+    "worthStudying": {
+      "title": "Které výdaje stojí za podrobnější prozkoumání",
+      "listIntro": "Větší pozornost mohou vyžadovat štítky, které:",
+      "items": [
+        "jsou vysoko v seznamu podle částky;",
+        "se používají znatelně častěji než ostatní;",
+        "neočekávaně vzrostly oproti obvyklé úrovni;",
+        "mají zároveň vysokou částku i vysoký počet transakcí;",
+        "označují volitelné nebo neplánované nákupy."
+      ],
+      "closingParagraphs": [
+        "Samotný přehled neurčuje, které výdaje jsou správné nebo špatné. Pomáhá najít oblasti, které stojí za podrobnější kontrolu."
+      ]
+    }
+  },
+  "compareMonths": {
+    "title": "Porovnávejte různé měsíce",
+    "paragraphs": [
+      "Chcete-li zaznamenat změny ve výdajích, porovnávejte přehledy z několika měsíců.",
+      "Při porovnávání sledujte nejen částku, ale i počet transakcí. Výdaje pod určitým štítkem mohou růst z různých důvodů:"
+    ],
+    "reasons": [
+      "nákupy se začaly opakovat častěji;",
+      "vzrostla průměrná cena jednoho nákupu;",
+      "během měsíce došlo k jedné velké transakci;",
+      "štítek jste začali používat konzistentněji."
+    ],
+    "eventsIntro": "Zohledněte také události, které mohly výdaje dočasně ovlivnit:",
+    "events": [
+      "svátky;",
+      "dovolenou;",
+      "stěhování;",
+      "velký nákup;",
+      "návštěvu hostů;",
+      "dočasnou změnu životního stylu."
+    ],
+    "closingParagraphs": [
+      "Nárůst výdajů během jednoho měsíce nemusí nutně znamenat vznik nového návyku. Užitečnější je sledovat, zda změna pokračuje i v dalších měsících."
+    ]
+  },
+  "consistentTags": {
+    "title": "Používejte štítky konzistentně",
+    "paragraphs": [
+      "Kvalita přehledu závisí na tom, jak konzistentně štítky používáte.",
+      "Pokud u některých podobných nákupů štítek použijete a u jiných ne, přehled zobrazí pouze část skutečných výdajů.",
+      "Pokud například chcete sledovat rozvoz jídla, přidávejte příslušný štítek ke každé takové transakci. Jinak budou částka i počet transakcí nižší než ve skutečnosti.",
+      "Je užitečné předem určit, co jednotlivé štítky znamenají."
+    ],
+    "examplesIntro": "Například:",
+    "examples": [
+      "„Kavárny a restaurace“ — všechny nákupy v podnicích;",
+      "„Rozvoz jídla“ — pouze objednávky domů;",
+      "„Svačiny“ — malé neplánované nákupy jídla mimo domov."
+    ],
+    "closingParagraphs": [
+      "Čím jasnější jsou pravidla používání štítků, tím snazší je porovnávat údaje mezi různými obdobími.",
+      "Není nutné přidávat štítky ke každé transakci. Používejte je tam, kde skutečně chcete sledovat konkrétní typ výdaje, návyk nebo okolnosti nákupu."
+    ]
+  },
+  "analysisExample": {
+    "title": "Příklad analýzy přehledu",
+    "intro": "Představme si, že fond „Zábava“ za měsíc ukazuje následující údaje:",
+    "table": {
+      "headers": ["Štítek", "Částka", "Počet"],
+      "rows": [
+        ["Setkání s přáteli", "1 800", "4"],
+        ["Rozvoz jídla", "1 400", "7"],
+        ["Hry", "1 000", "1"],
+        ["Káva", "800", "16"]
+      ]
+    },
+    "closingParagraphs": [
+      "Při řazení podle částky je vidět, že nejvíce peněz připadlo na setkání s přáteli.",
+      "Řazení podle počtu transakcí však ukazuje jiný obraz: nejčastěji se objevovaly nákupy se štítkem „Káva“."
+    ],
+    "conclusionsIntro": "Z přehledu lze vyvodit několik různých závěrů:",
+    "conclusions": [
+      "setkání s přáteli byla největší oblast výdajů;",
+      "nákup hry byl vysoký, ale jednorázový;",
+      "rozvoz jídla byl pravidelný a podle částky se umístil na druhém místě;",
+      "káva se kupovala nejčastěji, i když její celková částka byla nižší."
+    ],
+    "outroParagraphs": [
+      "Neexistuje zde jeden jediný „špatný“ výdaj. Závěr závisí na cíli analýzy.",
+      "Pokud chcete výdaje rychle snížit, je nejjednodušší začít u největších oblastí. Pokud chcete změnit každodenní návyk, může být užitečnější zaměřit se na časté transakce."
+    ]
+  },
+  "summary": {
+    "title": "To nejdůležitější",
+    "paragraphs": [
+      "Přehled „Výdaje podle štítků“ ukazuje výdaje ze dvou pohledů:"
+    ],
+    "items": [
+      "<strong>částka</strong> ukazuje finanční dopad;",
+      "<strong>počet transakcí</strong> ukazuje četnost."
+    ],
+    "closingParagraphs": [
+      "Řazení podle částky pomáhá najít nejdražší typy nákupů, zatímco řazení podle počtu transakcí zvýrazňuje ty nejčastější.",
+      "Pokud má transakce více štítků, součet všech hodnot může překročit skutečné výdaje, protože celá částka transakce se započítává samostatně ke každému štítku. Díky tomu lze jeden nákup analyzovat z více úhlů, ale zároveň není možné sečíst všechny řádky přehledu a získat tak celkové výdaje.",
+      "Používejte přehled nikoli k automatickému hledání „zbytečných“ nákupů, ale k nalezení oblastí výdajů, které stojí za podrobnější prozkoumání."
+    ]
+  }
+}

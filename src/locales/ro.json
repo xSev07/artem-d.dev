@@ -11,6 +11,9 @@
     "pages": {
       "privacy": "Politica de confidențialitate",
       "help": "Informații despre eroare",
+      "reportFundsMovement": "Funds Movement Report",
+      "reportSpendingsByTags": "Spendings by Tags Report",
+      "reportTagDetails": "Tag Spending Details Report",
       "licenses": "Licențe open source"
     }
   },
@@ -25,7 +28,9 @@
       "guide": "Metoda celor șase fonduri"
     },
     "footer": {
-      "label": "Informații despre site"
+      "label": "Informații despre site",
+      "guides": "Ghiduri",
+      "information": "Informații"
     },
     "help": {
       "metaDescription": "Informații despre o eroare la efectuarea unei operațiuni în aplicația A.D.A.",

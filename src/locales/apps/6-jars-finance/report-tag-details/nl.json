@@ -1,0 +1,401 @@
+{
+  "title": "Zo lees je het rapport ‘Uitgaven per tag in detail’",
+  "metaDescription": "Het rapport ‘Uitgaven per tag in detail’ helpt je begrijpen hoe uitgaven met een geselecteerde tag over de maand waren verdeeld.",
+  "intro": {
+    "paragraphs": [
+      "Het rapport ‘Uitgaven per tag in detail’ helpt je begrijpen hoe uitgaven met een geselecteerde tag over de maand waren verdeeld."
+    ],
+    "spendingsByTagsLinkPrefix": "Het is een aanvulling op het rapport ",
+    "spendingsByTagsLinkText": "‘Uitgaven per tag’",
+    "spendingsByTagsLinkSuffix": ". Eerst kun je zien welke tags voor de hoogste uitgaven zorgen of het vaakst voorkomen. Daarna kun je een tag openen om die verder te bekijken.",
+    "listIntro": "Het rapport wordt opgebouwd voor één geselecteerde pot en één tag. Het bevat alleen uitgaven:",
+    "items": [
+      "uit de geselecteerde pot;",
+      "uit de geselecteerde maand;",
+      "met de geselecteerde tag."
+    ]
+  },
+  "overview": {
+    "title": "Inhoud",
+    "whatItShows": "Wat het rapport laat zien",
+    "totalAmount": "Totale uitgaven",
+    "operationCount": "Aantal transacties",
+    "averageAmount": "Gemiddeld transactiebedrag",
+    "histogram": "Zo lees je het histogram",
+    "singlePeak": "Eén hoge balk",
+    "multiplePeaks": "Meerdere pieken",
+    "manySmallBars": "Veel kleine balken",
+    "evenDistribution": "Gelijkmatig verdeelde uitgaven",
+    "startOfMonth": "Uitgaven aan het begin van de maand",
+    "endOfMonth": "Uitgaven aan het einde van de maand",
+    "whyExpensesGrew": "Zo ontdek je waarom de uitgaven zijn gestegen",
+    "compareMonths": "Zo vergelijk je verschillende maanden",
+    "whatToChange": "Wat je kunt aanpassen op basis van het rapport",
+    "analysisExample": "Voorbeeld van een analyse",
+    "multipleTags": "Houd rekening met meerdere tags per transactie",
+    "summary": "Belangrijkste punten"
+  },
+  "whatItShows": {
+    "title": "Wat het rapport laat zien",
+    "metricsIntro": "Bovenaan het rapport staan drie waarden:",
+    "metrics": [
+      "totale uitgaven;",
+      "aantal transacties;",
+      "gemiddeld bedrag per transactie."
+    ],
+    "paragraphs": [
+      "Daaronder staat een histogram dat laat zien op welke dagen van de maand uitgaven plaatsvonden en hoeveel er op elke dag werd uitgegeven."
+    ],
+    "insightsIntro": "Deze gegevens helpen je niet alleen de totale uitgaven te begrijpen, maar ook het patroon erachter:",
+    "insights": [
+      "of het totaal uit één grote aankoop bestond;",
+      "of de uitgaven regelmatig plaatsvonden;",
+      "of er afzonderlijke dagen met duidelijke pieken waren;",
+      "of de uitgaven gelijkmatig over de maand waren verdeeld."
+    ]
+  },
+  "totalAmount": {
+    "title": "Totale uitgaven",
+    "paragraphs": [
+      "De totale uitgaven laten zien hoeveel geld gedurende de maand is uitgegeven in transacties met de geselecteerde tag.",
+      "Als de tag ‘Koffie’ bijvoorbeeld bij tien transacties met een totaalbedrag van 800 is gebruikt, toont het rapport 800.",
+      "Deze waarde helpt je de totale invloed van uitgaven met deze tag op het saldo van de geselecteerde pot in te schatten.",
+      "Het totaalbedrag alleen laat nog niet zien hoe het is opgebouwd. Dezelfde 800 kan betekenen:"
+    ],
+    "scenarios": [
+      "één grote aankoop;",
+      "vier transacties van 200;",
+      "twintig kleine aankopen van 40."
+    ],
+    "closingParagraphs": [
+      "Om het verschil tussen deze situaties te begrijpen, kun je het aantal transacties, het gemiddelde bedrag en het histogram samen bekijken."
+    ]
+  },
+  "operationCount": {
+    "title": "Aantal transacties",
+    "paragraphs": [
+      "Het aantal transacties laat zien hoeveel uitgaven met de geselecteerde tag gedurende de maand zijn gedaan.",
+      "Deze waarde helpt je bepalen hoe regelmatig de uitgaven voorkomen."
+    ],
+    "exampleIntro": "Bijvoorbeeld:",
+    "exampleItems": [
+      "1 200 verdeeld over 2 transacties betekent meestal een paar grote aankopen;",
+      "1 200 verdeeld over 20 transacties betekent veel kleine uitgaven."
+    ],
+    "closingParagraphs": [
+      "Een groot aantal transacties betekent niet automatisch dat je te veel uitgeeft. Het kan wel wijzen op een terugkerende gewoonte die moeilijk te herkennen is wanneer je alleen naar afzonderlijke transacties kijkt.",
+      "Elke koffieaankoop kan bijvoorbeeld op zichzelf onbeduidend lijken, terwijl het rapport laat zien hoe vaak die gedurende de maand voorkwam."
+    ]
+  },
+  "averageAmount": {
+    "title": "Gemiddeld transactiebedrag",
+    "paragraphs": [
+      "Het gemiddelde bedrag laat zien hoeveel er gemiddeld per uitgave met de geselecteerde tag werd besteed.",
+      "Het wordt berekend door de totale uitgaven te delen door het aantal transacties."
+    ],
+    "exampleIntro": "Bijvoorbeeld:",
+    "exampleItems": [
+      "totale uitgaven — 1 200;",
+      "aantal transacties — 8;",
+      "gemiddeld bedrag — 150."
+    ],
+    "closingParagraphs": [
+      "Het gemiddelde bedrag helpt je het karakter van uitgaven tussen verschillende maanden te vergelijken.",
+      "De totale uitgaven voor een tag kunnen bijvoorbeeld om twee verschillende redenen zijn gestegen:"
+    ],
+    "reasons": [
+      "aankopen vonden vaker plaats;",
+      "elke afzonderlijke aankoop werd duurder."
+    ],
+    "outroParagraphs": [
+      "Als het aantal transacties bijna gelijk bleef maar het gemiddelde bedrag steeg, zijn afzonderlijke aankopen waarschijnlijk groter geworden.",
+      "Als het gemiddelde bedrag ongeveer gelijk bleef maar het aantal transacties toenam, komt de stijging van de totale uitgaven vooral door een hogere frequentie.",
+      "Het gemiddelde bedrag laat echter niet het exacte bedrag van elke aankoop zien. Meerdere kleine transacties en één grote kunnen hetzelfde gemiddelde opleveren als meerdere vergelijkbare uitgaven. Daarom kun je deze waarde het beste samen met het histogram bekijken."
+    ]
+  },
+  "histogram": {
+    "title": "Zo lees je het histogram",
+    "paragraphs": [
+      "Op de horizontale as van het histogram staan de dagen van de maand.",
+      "Op de verticale as staat het uitgegeven bedrag.",
+      "Elke balk laat zien hoeveel geld er met de geselecteerde tag op een bepaalde dag in totaal is uitgegeven.",
+      "Als er op één dag meerdere transacties met deze tag zijn geweest, worden de bedragen bij elkaar opgeteld en als één balk weergegeven."
+    ],
+    "exampleIntro": "Als er bijvoorbeeld op de 10e twee aankopen waren:",
+    "exampleItems": [
+      "50;",
+      "120;"
+    ],
+    "closingParagraphs": [
+      "dan toont de grafiek voor die dag een balk van 170.",
+      "Als er op een bepaalde dag geen balk staat, waren er die dag geen uitgaven met de geselecteerde tag."
+    ]
+  },
+  "singlePeak": {
+    "title": "Eén hoge balk",
+    "paragraphs": [
+      "Eén duidelijke piek betekent meestal dat een aanzienlijk deel van de uitgaven op één dag plaatsvond."
+    ],
+    "listIntro": "Dat kan bijvoorbeeld zijn:",
+    "items": [
+      "één grote aankoop;",
+      "meerdere uitgaven op dezelfde dag;",
+      "een geplande gebeurtenis;",
+      "een onverwachte, ongeplande uitgave."
+    ],
+    "closingParagraphs": [
+      "Als bijna alle uitgaven met de tag ‘Kleding’ bijvoorbeeld op één dag vallen, gaat het waarschijnlijk om een eenmalige aankoop en niet om een terugkerende uitgave.",
+      "In zo’n situatie is één maand niet altijd voldoende om een blijvende gewoonte te herkennen. Het is nuttiger om dezelfde tag met andere maanden te vergelijken en te kijken of vergelijkbare pieken terugkomen."
+    ]
+  },
+  "multiplePeaks": {
+    "title": "Meerdere pieken",
+    "paragraphs": [
+      "Meerdere hoge balken laten zien dat grotere uitgaven op verschillende dagen plaatsvonden."
+    ],
+    "listIntro": "Als de pieken ongeveer met vaste tussenpozen verschijnen, kan dat wijzen op een terugkerend patroon:",
+    "items": [
+      "aankopen in het weekend;",
+      "wekelijkse bestellingen;",
+      "regelmatige ontmoetingen;",
+      "periodieke boodschappen."
+    ],
+    "closingParagraphs": [
+      "Uitgaven met de tag ‘Maaltijdbezorging’ op elke vrijdag kunnen bijvoorbeeld wijzen op een vaste wekelijkse gewoonte.",
+      "Als de pieken zonder duidelijke regelmaat verschijnen, kunnen de uitgaven eerder samenhangen met afzonderlijke gebeurtenissen dan met terugkerend gedrag."
+    ]
+  },
+  "manySmallBars": {
+    "title": "Veel kleine balken",
+    "paragraphs": [
+      "Een groot aantal lage balken betekent dat de uitgaven vaak plaatsvonden, maar dat de afzonderlijke bedragen relatief klein waren."
+    ],
+    "listIntro": "Zo zien uitgaven voor bijvoorbeeld het volgende er vaak uit:",
+    "items": [
+      "koffie;",
+      "snacks;",
+      "vervoer;",
+      "kleine huishoudelijke aankopen;",
+      "dagelijks vermaak."
+    ],
+    "closingParagraphs": [
+      "Dergelijke uitgaven zijn gemakkelijk te onderschatten wanneer je door een lijst met transacties kijkt. Elke aankoop lijkt klein, maar samen kunnen ze in een maand een aanzienlijk bedrag vormen."
+    ],
+    "actionsIntro": "In dit geval zijn er twee belangrijke manieren om het uitgavenpatroon te veranderen:",
+    "actions": [
+      "minder vaak aankopen doen;",
+      "het gemiddelde bedrag per aankoop verlagen."
+    ],
+    "outroParagraphs": [
+      "Aan de hand van het aantal transacties en het gemiddelde bedrag kun je bepalen welke aanpak het meest zinvol is."
+    ]
+  },
+  "evenDistribution": {
+    "title": "Gelijkmatig verdeelde uitgaven",
+    "paragraphs": [
+      "Als de balken zonder duidelijke pieken over de hele maand zijn verspreid, vinden de uitgaven relatief regelmatig plaats.",
+      "Zo kan een normaal patroon van dagelijkse uitgaven eruitzien, bijvoorbeeld voor boodschappen, vervoer of andere terugkerende aankopen.",
+      "Een gelijkmatige verdeling betekent op zichzelf niet dat de uitgaven te hoog zijn of juist onder controle zijn. Het laat alleen zien dat het totaal niet door één of enkele afzonderlijke aankopen is ontstaan."
+    ]
+  },
+  "startOfMonth": {
+    "title": "Uitgaven aan het begin van de maand",
+    "paragraphs": [
+      "Als de meeste balken aan het begin van de maand staan, wordt geld met de geselecteerde tag vooral kort na het aanvullen van de pot of na het ontvangen van inkomen uitgegeven.",
+      "Dat kan normaal zijn bij vaste boodschappen of noodzakelijke betalingen.",
+      "Een grote boodschappenronde aan het begin van de maand kan bijvoorbeeld gepland zijn. Bij optionele uitgaven kan dit patroon er echter toe leiden dat er voor de rest van de maand te weinig overblijft.",
+      "In dat geval is het nuttig om te controleren of het saldo van de pot tot het einde van de maand voldoende blijft en of vroege uitgaven later moeten worden gecompenseerd."
+    ]
+  },
+  "endOfMonth": {
+    "title": "Uitgaven aan het einde van de maand",
+    "listIntro": "Als de uitgaven vooral tegen het einde van de maand plaatsvinden, kunnen daar verschillende redenen voor zijn:",
+    "items": [
+      "aankopen worden regelmatig uitgesteld;",
+      "het resterende saldo in de pot wordt gezien als beschikbaar voor extra uitgaven;",
+      "geplande gebeurtenissen vinden aan het einde van de maand plaats;",
+      "uitgaven worden doorgeschoven tot de volgende aanvulling."
+    ],
+    "closingParagraphs": [
+      "Dit patroon betekent niet automatisch dat er een probleem is. Belangrijk is of het elke maand terugkomt en of het past bij het doel van de pot.",
+      "Het uitgeven van het resterende geld uit een pot ‘Vermaak’ aan het einde van de maand kan bijvoorbeeld een bewuste keuze zijn. Dezelfde gewoonte in een pot voor noodzakelijke uitgaven kan juist het risico vergroten dat er te weinig geld overblijft."
+    ]
+  },
+  "whyExpensesGrew": {
+    "title": "Zo ontdek je waarom de uitgaven zijn gestegen",
+    "lead": "Als de totale uitgaven voor een tag zijn gestegen, vergelijk dan drie waarden met eerdere maanden.",
+    "moreOperations": {
+      "title": "Het aantal transacties is gestegen",
+      "paragraphs": [
+        "Aankopen vinden vaker plaats.",
+        "Maaltijdbezorging werd bijvoorbeeld tien keer besteld in plaats van vier keer. Zelfs als de prijs per bestelling gelijk bleef, stijgt het totaalbedrag duidelijk.",
+        "In dit geval is de hogere frequentie de belangrijkste oorzaak van de stijging."
+      ]
+    },
+    "higherAverage": {
+      "title": "Het gemiddelde bedrag is gestegen",
+      "paragraphs": [
+        "Elke afzonderlijke aankoop is duurder geworden."
+      ],
+      "listIntro": "Mogelijke oorzaken zijn:",
+      "items": [
+        "prijsstijgingen;",
+        "veranderingen in je gebruikelijke keuzes;",
+        "grotere hoeveelheden kopen;",
+        "overstappen op duurdere producten of diensten."
+      ],
+      "closingParagraphs": [
+        "In dit geval is het verminderen van het aantal transacties niet de enige mogelijkheid. Je kunt ook het gemiddelde bedrag per uitgave verlagen."
+      ]
+    },
+    "largePeak": {
+      "title": "Er is één grote piek ontstaan",
+      "paragraphs": [
+        "De stijging werd veroorzaakt door één of enkele ongewoon grote aankopen.",
+        "Als zo’n uitgave eenmalig en gepland was, hoeft die niet direct aanleiding te zijn om je gewoonten te veranderen.",
+        "Als grote pieken echter elke maand terugkomen, kun je ze beter als een vast onderdeel van je uitgaven beschouwen."
+      ]
+    }
+  },
+  "compareMonths": {
+    "title": "Zo vergelijk je verschillende maanden",
+    "paragraphs": [
+      "Door meerdere maanden te vergelijken kun je een eenmalige gebeurtenis onderscheiden van een terugkerend patroon."
+    ],
+    "metricsIntro": "Let daarbij op:",
+    "metrics": [
+      "totale uitgaven;",
+      "aantal transacties;",
+      "gemiddeld bedrag;",
+      "waar de pieken liggen;",
+      "hoe de uitgaven over de maand zijn verdeeld."
+    ],
+    "closingParagraphs": [
+      "Hetzelfde totaalbedrag kan in twee maanden bijvoorbeeld een heel andere structuur hebben:"
+    ],
+    "structureItems": [
+      "in de ene maand één grote aankoop;",
+      "in de andere maand veel kleine, terugkerende uitgaven."
+    ],
+    "outroParagraphs": [
+      "Het financiële resultaat is hetzelfde, maar de oorzaken en mogelijke acties verschillen."
+    ],
+    "eventsIntro": "Houd ook rekening met gebeurtenissen die het patroon tijdelijk kunnen hebben veranderd:",
+    "events": [
+      "feestdagen;",
+      "vakantie;",
+      "bezoek van gasten;",
+      "een verhuizing;",
+      "een verbouwing of reparatie;",
+      "een eenmalige grote aankoop;",
+      "een tijdelijke verandering in je werkschema of levensstijl."
+    ]
+  },
+  "whatToChange": {
+    "title": "Wat je kunt aanpassen op basis van het rapport",
+    "openingParagraphs": [
+      "Het rapport bepaalt niet automatisch welke uitgaven onnodig zijn. Het helpt je begrijpen waaruit het totaalbedrag bestaat en waardoor het verandert.",
+      "Afhankelijk van het patroon kunnen verschillende acties zinvol zijn."
+    ],
+    "reduceFrequency": {
+      "title": "De frequentie verlagen",
+      "paragraphs": [
+        "Dit is vooral relevant bij uitgaven met veel transacties.",
+        "In plaats van elke dag koffie te kopen, kun je bijvoorbeeld vooraf bepalen hoe vaak per week je koffie wilt kopen."
+      ]
+    },
+    "reduceAverage": {
+      "title": "Het gemiddelde bedrag verlagen",
+      "paragraphs": [
+        "Dit is nuttig bij terugkerende uitgaven waarbij elke transactie te duur is geworden.",
+        "In plaats van volledig te stoppen met maaltijdbezorging kun je bijvoorbeeld goedkopere bestellingen kiezen."
+      ]
+    },
+    "planLargePurchases": {
+      "title": "Grote aankopen vooraf plannen",
+      "paragraphs": [
+        "Als het rapport losse grote pieken laat zien, kun je met zulke uitgaven rekening houden wanneer je geld over de potten verdeelt.",
+        "Dit is vooral nuttig als een grote aankoop periodiek terugkomt."
+      ]
+    },
+    "reallocateJars": {
+      "title": "Geld tussen potten herverdelen",
+      "paragraphs": [
+        "Als uitgaven met een bepaalde tag noodzakelijk zijn en regelmatig het beschikbare budget overschrijden, ligt het probleem mogelijk niet bij de aankopen zelf, maar bij onvoldoende geld in de pot.",
+        "In dat geval kun je het aandeel van deze pot verhogen door het aandeel van potten met een lagere prioriteit te verlagen.",
+        "Als optionele uitgaven juist een groot deel van het totaal vormen, kijk dan eerst naar hun frequentie en gemiddelde bedrag."
+      ]
+    }
+  },
+  "analysisExample": {
+    "title": "Voorbeeld van een analyse",
+    "firstExampleIntro": "Stel dat het rapport voor de tag ‘Maaltijdbezorging’ het volgende laat zien:",
+    "firstExampleMetrics": [
+      "totale uitgaven — 1 800;",
+      "aantal transacties — 9;",
+      "gemiddeld bedrag — 200."
+    ],
+    "firstExampleParagraphs": [
+      "Het histogram laat zien dat er twee of drie keer per week werd besteld, zonder één dominante piek.",
+      "Daaruit kun je afleiden dat het totaal door terugkerende uitgaven is ontstaan en niet door één eenmalige aankoop."
+    ],
+    "firstExampleActionsIntro": "Mogelijke acties:",
+    "firstExampleActions": [
+      "het aantal bestellingen verminderen;",
+      "de gemiddelde kosten per bestelling verlagen;",
+      "vooraf een vast bedrag voor bezorging reserveren;",
+      "de uitgaven ongewijzigd laten als ze bij je prioriteiten en budget passen."
+    ],
+    "secondExampleIntro": "Een ander voorbeeld:",
+    "secondExampleMetrics": [
+      "totale uitgaven — 1 800;",
+      "aantal transacties — 2;",
+      "gemiddeld bedrag — 900;",
+      "bijna het volledige bedrag valt op één dag."
+    ],
+    "closingParagraphs": [
+      "Hier is de oorzaak anders. Waarschijnlijk was er één grote aankoop of gebeurtenis. Minder vaak dagelijkse aankopen doen zou in deze situatie weinig verschil maken."
+    ]
+  },
+  "multipleTags": {
+    "title": "Houd rekening met meerdere tags per transactie",
+    "paragraphs": [
+      "Eén transactie kan meerdere tags hebben.",
+      "Als een uitgave van 300 zowel de tag ‘Maaltijdbezorging’ als ‘Gasten’ heeft, wordt het volledige bedrag opgenomen in de details van beide tags."
+    ],
+    "perspectivesIntro": "Hierdoor kun je dezelfde transactie vanuit verschillende invalshoeken analyseren:",
+    "perspectives": [
+      "wat er is gekocht;",
+      "onder welke omstandigheden;",
+      "met welk doel;",
+      "of de aankoop gepland was."
+    ],
+    "closingParagraphs": [
+      "Het bedrag wordt daarbij niet over de tags verdeeld.",
+      "Daarom moet je de totalen uit verschillende tagrapporten niet bij elkaar optellen om de totale uitgaven te berekenen."
+    ],
+    "fundsMovementLinkPrefix": "Voor het werkelijke bedrag dat in de maand is uitgegeven, kun je het beste het rapport ",
+    "fundsMovementLinkText": "‘Geldstroom’",
+    "fundsMovementLinkSuffix": " bekijken."
+  },
+  "summary": {
+    "title": "Belangrijkste punten",
+    "paragraphs": [
+      "Het rapport ‘Uitgaven per tag in detail’ helpt je niet alleen begrijpen hoeveel geld er is uitgegeven, maar ook hoe dat bedrag is ontstaan.",
+      "De totale uitgaven laten de financiële invloed van de uitgaven zien.",
+      "Het aantal transacties laat zien hoe vaak ze voorkwamen.",
+      "Het gemiddelde bedrag helpt je de typische omvang van één aankoop te begrijpen.",
+      "Het histogram laat zien hoe de uitgaven over de dagen van de maand zijn verdeeld en helpt onderscheid te maken tussen:"
+    ],
+    "histogramInsights": [
+      "een eenmalige grote aankoop;",
+      "terugkerende uitgaven;",
+      "veel kleine transacties;",
+      "terugkerende pieken;",
+      "uitgaven die vooral aan het begin of einde van de maand plaatsvinden."
+    ],
+    "closingParagraphs": [
+      "Bekijk deze waarden samen. Hetzelfde totaalbedrag kan het resultaat zijn van heel verschillend gedrag en daardoor om verschillende beslissingen vragen."
+    ]
+  }
+}

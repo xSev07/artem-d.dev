@@ -11,6 +11,9 @@
     "pages": {
       "privacy": "Política de privacidad",
       "help": "Información sobre el error",
+      "reportFundsMovement": "Funds Movement Report",
+      "reportSpendingsByTags": "Spendings by Tags Report",
+      "reportTagDetails": "Tag Spending Details Report",
       "licenses": "Licencias de código abierto"
     }
   },
@@ -25,7 +28,9 @@
       "guide": "Método de los seis fondos"
     },
     "footer": {
-      "label": "Información del sitio"
+      "label": "Información del sitio",
+      "guides": "Guías",
+      "information": "Información"
     },
     "help": {
       "metaDescription": "Información sobre un error al realizar una operación en la aplicación A.D.A.",
