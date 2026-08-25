@@ -5,6 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>{{ title }}</title>
   <meta name="description" content="{{ description }}" />
+  {% if langSwitchPath and not noindex %}
+  <link rel="canonical" href="{{ site.url }}/{{ lang }}{{ langSwitchPath }}" />
+  {% include "hreflang.njk" %}
+  {% endif %}
   {% if noindex %}
   <meta name="robots" content="noindex" />
   {% endif %}
