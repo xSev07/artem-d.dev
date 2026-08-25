@@ -82,6 +82,12 @@ export default (eleventyConfig) => {
   eleventyConfig.addPassthroughCopy({ "src/assets": "assets" });
   eleventyConfig.addPassthroughCopy({ "static/CNAME": "CNAME" });
   eleventyConfig.addPassthroughCopy({ "static/health.txt": "health.txt" });
+  eleventyConfig.addPassthroughCopy({ "static/favicon.ico": "favicon.ico" });
+  eleventyConfig.addPassthroughCopy({ "static/apple-touch-icon.png": "apple-touch-icon.png" });
+  eleventyConfig.addPassthroughCopy({ "static/favicon-16x16.png": "favicon-16x16.png" });
+  eleventyConfig.addPassthroughCopy({ "static/favicon-32x32.png": "favicon-32x32.png" });
+  eleventyConfig.addPassthroughCopy({ "static/favicon-48x48.png": "favicon-48x48.png" });
+  eleventyConfig.addPassthroughCopy({ "static/favicon-512.png": "favicon-512.png" });
   eleventyConfig.addPassthroughCopy("content/articles", {
     filter: (path) => !path.endsWith(".md"),
   });
