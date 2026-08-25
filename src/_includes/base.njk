@@ -5,6 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>{{ title }}</title>
   <meta name="description" content="{{ description }}" />
+  {% include "favicons.njk" %}
+  {% if langSwitchPath and not noindex %}
+  <link rel="canonical" href="{{ site.url }}/{{ lang }}{{ langSwitchPath }}" />
+  {% include "hreflang.njk" %}
+  {% endif %}
+  {% if noindex %}
+  <meta name="robots" content="noindex" />
+  {% endif %}
   {% if eleventy.env.runMode == "build" %}
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-F47WEEE9Q7"></script>

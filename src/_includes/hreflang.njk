@@ -1,0 +1,4 @@
+{% for language in languages %}
+<link rel="alternate" hreflang="{{ language.code }}" href="{{ site.url }}/{{ language.code }}{{ langSwitchPath }}" />
+{% endfor %}
+<link rel="alternate" hreflang="x-default" href="{{ site.url }}/en{{ langSwitchPath }}" />

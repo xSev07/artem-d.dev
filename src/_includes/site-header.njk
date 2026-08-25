@@ -1,9 +1,9 @@
 <header class="site-header">
   <div class="container site-header__inner">
-    <a class="site-header__brand" href="/">{{ "site.title" | t(lang) }}</a>
+    {% set downloadUrl = "/" + lang + "/apps/6-jars-finance/download/" %}
+    {% set guideUrl = "/" + lang + "/apps/6-jars-finance/articles/guide/" %}
+    <a class="site-header__brand" href="{{ downloadUrl }}">{{ "site.title" | t(lang) }}</a>
     <div class="site-header__aside">
-      {% set downloadUrl = "/" + lang + "/apps/6-jars-finance/download/" %}
-      {% set guideUrl = "/" + lang + "/apps/6-jars-finance/articles/guide/" %}
       <nav class="site-header__nav" aria-label="{{ 'site.nav.label' | t(lang) }}">
         <a
           class="site-header__link"
