@@ -1,0 +1,240 @@
+---
+layout: article.njk
+pagination:
+  data: languages
+  size: 1
+  alias: pageLang
+permalink: "/{{ pageLang.code }}/apps/6-jars-finance/articles/methods-comparison/"
+showLangSwitch: true
+langSwitchPath: "/apps/6-jars-finance/articles/methods-comparison/"
+year: 2026
+eleventyComputed:
+  title: "{{ 'apps.sixJarsFinance.articles.methodsComparison.title' | t(pageLang.code) }}"
+  description: "{{ 'apps.sixJarsFinance.articles.methodsComparison.metaDescription' | t(pageLang.code) }}"
+  lang: "{{ pageLang.code }}"
+---
+
+{% set langCode = pageLang.code %}
+{% set article = "apps.sixJarsFinance.articles.methodsComparison" | t(langCode) %}
+
+{% macro paragraphs(items) %}
+{% for item in items %}
+<p>{{ item | safe }}</p>
+{% endfor %}
+{% endmacro %}
+
+{% macro list(items) %}
+<ul>
+  {% for item in items %}
+  <li>{{ item | safe }}</li>
+  {% endfor %}
+</ul>
+{% endmacro %}
+
+{% macro table(tableData) %}
+<table>
+  <thead>
+    <tr>
+      {% for header in tableData.headers %}
+      <th>{{ header }}</th>
+      {% endfor %}
+    </tr>
+  </thead>
+  <tbody>
+    {% for row in tableData.rows %}
+    <tr>
+      {% for cell in row %}
+      <td>{{ cell }}</td>
+      {% endfor %}
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endmacro %}
+
+<h1>{{ article.title }}</h1>
+{{ paragraphs(article.intro.paragraphs) }}
+
+<nav class="article-overview" aria-labelledby="article-overview-title">
+  <h2 id="article-overview-title">{{ article.overview.title }}</h2>
+  <ol>
+    <li><a href="#common-ground">{{ article.overview.commonGround }}</a></li>
+    <li><a href="#rule-503020">{{ article.overview.rule503020 }}</a></li>
+    <li><a href="#six-jars-method">{{ article.overview.sixJarsMethod }}</a></li>
+    <li><a href="#envelope-method">{{ article.overview.envelopeMethod }}</a></li>
+    <li><a href="#detail-level">{{ article.overview.detailLevel }}</a></li>
+    <li><a href="#methods-comparison">{{ article.overview.methodsComparison }}</a></li>
+    <li><a href="#one-income">{{ article.overview.oneIncome }}</a></li>
+    <li><a href="#when-503020">{{ article.overview.when503020 }}</a></li>
+    <li><a href="#when-six-jars">{{ article.overview.whenSixJars }}</a></li>
+    <li><a href="#when-envelope">{{ article.overview.whenEnvelope }}</a></li>
+    <li><a href="#strict-percents">{{ article.overview.strictPercents }}</a></li>
+    <li><a href="#combine-methods">{{ article.overview.combineMethods }}</a></li>
+    <li><a href="#irregular-income">{{ article.overview.irregularIncome }}</a></li>
+    <li><a href="#final-choice">{{ article.overview.finalChoice }}</a></li>
+    <li><a href="#digital-only">{{ article.overview.digitalOnly }}</a></li>
+    <li><a href="#in-app">{{ article.overview.inApp }}</a></li>
+  </ol>
+</nav>
+
+<div class="article-section">
+<h2 id="common-ground">{{ article.commonGround.title }}</h2>
+{{ paragraphs(article.commonGround.paragraphs) }}
+<p>{{ article.commonGround.exampleIntro }}</p>
+{{ list(article.commonGround.exampleItems) }}
+{{ paragraphs(article.commonGround.closingParagraphs) }}
+
+<a class="article-cta button-primary" href="/{{ langCode }}/apps/6-jars-finance/download/" data-analytics-link="download" data-analytics-placement="methods_comparison_common_ground">{{ article.commonGround.cta }}</a>
+
+</div>
+
+<div class="article-section">
+<h2 id="rule-503020">{{ article.rule503020.title }}</h2>
+{{ paragraphs(article.rule503020.paragraphs) }}
+{{ list(article.rule503020.categories) }}
+{{ paragraphs(article.rule503020.closingParagraphs) }}
+<div class="article-subsection">
+<h3>{{ article.rule503020.strengths.title }}</h3>
+{{ paragraphs(article.rule503020.strengths.paragraphs) }}
+</div>
+<div class="article-subsection">
+<h3>{{ article.rule503020.weaknesses.title }}</h3>
+{{ paragraphs(article.rule503020.weaknesses.paragraphs) }}
+{{ list(article.rule503020.weaknesses.exampleItems) }}
+{{ paragraphs(article.rule503020.weaknesses.closingParagraphs) }}
+</div>
+</div>
+
+<div class="article-section">
+<h2 id="six-jars-method">{{ article.sixJarsMethod.title }}</h2>
+{{ paragraphs(article.sixJarsMethod.paragraphs) }}
+{{ table(article.sixJarsMethod.table) }}
+{{ paragraphs(article.sixJarsMethod.closingParagraphs) }}
+<div class="article-subsection">
+<h3>{{ article.sixJarsMethod.strengths.title }}</h3>
+{{ paragraphs(article.sixJarsMethod.strengths.paragraphs) }}
+{{ list(article.sixJarsMethod.strengths.items) }}
+<p>{{ article.sixJarsMethod.strengths.outro }}</p>
+</div>
+<div class="article-subsection">
+<h3>{{ article.sixJarsMethod.weaknesses.title }}</h3>
+{{ paragraphs(article.sixJarsMethod.weaknesses.paragraphs) }}
+</div>
+</div>
+
+<div class="article-section">
+<h2 id="envelope-method">{{ article.envelopeMethod.title }}</h2>
+{{ paragraphs(article.envelopeMethod.paragraphs) }}
+<p>{{ article.envelopeMethod.exampleIntro }}</p>
+{{ list(article.envelopeMethod.exampleItems) }}
+{{ paragraphs(article.envelopeMethod.closingParagraphs) }}
+<div class="article-subsection">
+<h3>{{ article.envelopeMethod.strengths.title }}</h3>
+{{ paragraphs(article.envelopeMethod.strengths.paragraphs) }}
+{{ list(article.envelopeMethod.strengths.items) }}
+<p>{{ article.envelopeMethod.strengths.outro }}</p>
+</div>
+<div class="article-subsection">
+<h3>{{ article.envelopeMethod.weaknesses.title }}</h3>
+{{ paragraphs(article.envelopeMethod.weaknesses.paragraphs) }}
+</div>
+</div>
+
+<div class="article-section">
+<h2 id="detail-level">{{ article.detailLevel.title }}</h2>
+{{ paragraphs(article.detailLevel.paragraphs) }}
+</div>
+
+<div class="article-section">
+<h2 id="methods-comparison">{{ article.methodsComparison.title }}</h2>
+{{ table(article.methodsComparison.table) }}
+{{ paragraphs(article.methodsComparison.closingParagraphs) }}
+</div>
+
+<div class="article-section">
+<h2 id="one-income">{{ article.oneIncome.title }}</h2>
+{{ paragraphs(article.oneIncome.paragraphs) }}
+<div class="article-subsection">
+<h3>{{ article.oneIncome.variant503020.title }}</h3>
+{{ table(article.oneIncome.variant503020.table) }}
+{{ paragraphs(article.oneIncome.variant503020.closingParagraphs) }}
+</div>
+<div class="article-subsection">
+<h3>{{ article.oneIncome.variantSixJars.title }}</h3>
+{{ table(article.oneIncome.variantSixJars.table) }}
+{{ paragraphs(article.oneIncome.variantSixJars.closingParagraphs) }}
+</div>
+<div class="article-subsection">
+<h3>{{ article.oneIncome.variantEnvelope.title }}</h3>
+{{ paragraphs(article.oneIncome.variantEnvelope.paragraphs) }}
+<p>{{ article.oneIncome.variantEnvelope.exampleIntro }}</p>
+{{ table(article.oneIncome.variantEnvelope.table) }}
+{{ paragraphs(article.oneIncome.variantEnvelope.closingParagraphs) }}
+</div>
+</div>
+
+<div class="article-section">
+<h2 id="when-503020">{{ article.when503020.title }}</h2>
+{{ paragraphs(article.when503020.paragraphs) }}
+{{ list(article.when503020.items) }}
+{{ paragraphs(article.when503020.closingParagraphs) }}
+</div>
+
+<div class="article-section">
+<h2 id="when-six-jars">{{ article.whenSixJars.title }}</h2>
+{{ paragraphs(article.whenSixJars.paragraphs) }}
+{{ list(article.whenSixJars.items) }}
+{{ paragraphs(article.whenSixJars.closingParagraphs) }}
+</div>
+
+<div class="article-section">
+<h2 id="when-envelope">{{ article.whenEnvelope.title }}</h2>
+{{ paragraphs(article.whenEnvelope.paragraphs) }}
+{{ list(article.whenEnvelope.items) }}
+{{ paragraphs(article.whenEnvelope.closingParagraphs) }}
+<p>{{ article.whenEnvelope.exampleTitle }}</p>
+<p>{{ article.whenEnvelope.example | safe }}</p>
+{{ paragraphs(article.whenEnvelope.outroParagraphs) }}
+</div>
+
+<div class="article-section">
+<h2 id="strict-percents">{{ article.strictPercents.title }}</h2>
+{{ paragraphs(article.strictPercents.paragraphs) }}
+</div>
+
+<div class="article-section">
+<h2 id="combine-methods">{{ article.combineMethods.title }}</h2>
+{{ paragraphs(article.combineMethods.paragraphs) }}
+{{ list(article.combineMethods.wantsItems) }}
+{{ paragraphs(article.combineMethods.middleParagraphs) }}
+{{ list(article.combineMethods.savingsItems) }}
+{{ paragraphs(article.combineMethods.closingParagraphs) }}
+</div>
+
+<div class="article-section">
+<h2 id="irregular-income">{{ article.irregularIncome.title }}</h2>
+{{ paragraphs(article.irregularIncome.paragraphs) }}
+</div>
+
+<div class="article-section">
+<h2 id="final-choice">{{ article.finalChoice.title }}</h2>
+{{ paragraphs(article.finalChoice.paragraphs) }}
+<p>{{ article.finalChoice.exampleIntro }}</p>
+<p>{{ article.finalChoice.example | safe }}</p>
+{{ paragraphs(article.finalChoice.closingParagraphs) }}
+</div>
+
+<div class="article-section">
+<h2 id="digital-only">{{ article.digitalOnly.title }}</h2>
+{{ paragraphs(article.digitalOnly.paragraphs) }}
+</div>
+
+<div class="article-section">
+<h2 id="in-app">{{ article.inApp.title }}</h2>
+{{ paragraphs(article.inApp.paragraphs) }}
+{{ list(article.inApp.items) }}
+{{ paragraphs(article.inApp.closingParagraphs) }}
+
+<a class="article-cta button-primary" href="/{{ langCode }}/apps/6-jars-finance/download/" data-analytics-link="download" data-analytics-placement="methods_comparison_final_cta">{{ article.inApp.cta }}</a>
+
+</div>

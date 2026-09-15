@@ -1,0 +1,478 @@
+{
+  "title": "50/30/20, metoda celor 6 borcane sau metoda plicurilor: ce metodă de bugetare ți se potrivește?",
+  "metaDescription": "Regula 50/30/20, metoda celor 6 borcane și metoda plicurilor rezolvă aceeași problemă: distribuirea venitului în categorii înainte de cheltuire. Comparăm cele trei abordări și te ajutăm să alegi.",
+  "intro": {
+    "paragraphs": [
+      "Există multe modalități de a gestiona un buget personal, dar unele dintre ele se bazează pe aceeași idee: <strong>mai întâi să atribui venitului un scop, iar apoi să cheltuiești banii</strong>.",
+      "Printre aceste abordări se numără regula 50/30/20, metoda celor 6 borcane și metoda plicurilor.",
+      "Fiecare metodă folosește propria terminologie. În metoda celor 6 borcane, banii sunt distribuiți între borcane, în metoda plicurilor între plicuri, iar în regula 50/30/20 între trei grupuri mari de cheltuieli.",
+      "Pentru a compara aceste abordări fără confuzii inutile, în continuarea articolului voi folosi termenul general <strong>„categorii”</strong>.",
+      "O categorie este o parte separată a bugetului destinată unui scop concret sau unui grup de cheltuieli, de exemplu necesităților, economiilor, divertismentului sau educației.",
+      "Privite astfel, cele trei metode sunt foarte asemănătoare.",
+      "Principala diferență dintre ele este <strong>nivelul de detaliere al bugetului</strong>.",
+      "Regula 50/30/20 folosește trei categorii largi. Metoda celor 6 borcane împarte banii mai detaliat. Metoda plicurilor îți permite să creezi câte categorii ai nevoie.",
+      "Să analizăm fiecare abordare în ordine — de la cea mai simplă la cea mai detaliată."
+    ]
+  },
+  "overview": {
+    "title": "Cuprins",
+    "commonGround": "Ce au în comun toate cele trei metode",
+    "rule503020": "Cum funcționează regula 50/30/20",
+    "sixJarsMethod": "Cum funcționează metoda celor 6 borcane",
+    "envelopeMethod": "Cum funcționează metoda plicurilor",
+    "detailLevel": "Nivelul de detaliere",
+    "methodsComparison": "Compararea metodelor",
+    "oneIncome": "Un venit — trei moduri de distribuire",
+    "when503020": "Când să alegi 50/30/20",
+    "whenSixJars": "Când să alegi metoda celor 6 borcane",
+    "whenEnvelope": "Când să alegi metoda plicurilor",
+    "strictPercents": "Trebuie respectate strict procentele?",
+    "combineMethods": "Pot fi combinate aceste metode?",
+    "irregularIncome": "Venit neregulat",
+    "finalChoice": "Ce metodă să alegi?",
+    "digitalOnly": "Nu ai nevoie de plicuri fizice",
+    "inApp": "Cum să folosești aceste metode în 6 Jars Finance"
+  },
+  "commonGround": {
+    "title": "Ce au în comun toate cele trei metode",
+    "paragraphs": [
+      "Urmărirea tradițională a cheltuielilor te ajută să răspunzi la întrebarea:",
+      "<strong>„Unde s-au dus deja banii mei?”</strong>",
+      "Înregistrezi cumpărăturile, analizezi cheltuielile și poți vedea cât ai cheltuit pe alimente, transport, divertisment și alte lucruri.",
+      "Regula 50/30/20, metoda celor 6 borcane și metoda plicurilor propun o abordare puțin diferită.",
+      "Ele te ajută să răspunzi dinainte la o altă întrebare:",
+      "<strong>„Pentru ce vreau să folosesc acest venit?”</strong>",
+      "Când primești un venit, îl distribui între mai multe categorii."
+    ],
+    "exampleIntro": "De exemplu:",
+    "exampleItems": [
+      "o parte din bani este destinată cheltuielilor zilnice;",
+      "o parte economiilor;",
+      "o parte timpului liber;",
+      "o parte viitoarelor achiziții importante."
+    ],
+    "closingParagraphs": [
+      "Astfel, soldul total al contului bancar nu mai pare o singură sumă disponibilă integral pentru cheltuieli.",
+      "Dacă ai 10.000 în cont, asta nu înseamnă că poți cheltui imediat toți cei 10.000. Poate că 5.000 sunt deja destinați cheltuielilor necesare, 2.000 economiilor și doar 1.000 divertismentului.",
+      "Toate cele trei metode te ajută să atribui banilor un scop înainte de a-i cheltui.",
+      "Ele diferă în principal prin <strong>cât de largi sau detaliate sunt categoriile și ce proporții recomandă</strong>."
+    ],
+    "cta": "Încearcă distribuirea bugetului cu 6 Jars Finance →"
+  },
+  "rule503020": {
+    "title": "Cum funcționează regula 50/30/20",
+    "paragraphs": [
+      "Regula 50/30/20 este cea mai simplă dintre cele trei abordări.",
+      "Venitul net este împărțit în doar trei categorii:"
+    ],
+    "categories": [
+      "<strong>50% — necesități;</strong>",
+      "<strong>30% — dorințe;</strong>",
+      "<strong>20% — economii și alte obiective financiare.</strong>"
+    ],
+    "closingParagraphs": [
+      "Necesitățile includ locuința, alimentele, utilitățile, transportul și alte cheltuieli de bază.",
+      "Categoria dorințelor include divertisment, restaurante, călătorii, hobby-uri, cumpărături opționale și alte cheltuieli fără de care te-ai putea descurca.",
+      "Ultimele 20% merg către economii, un fond de urgență, investiții, obiective importante sau rambursarea accelerată a datoriilor."
+    ],
+    "strengths": {
+      "title": "Punctul forte al regulii 50/30/20",
+      "paragraphs": [
+        "Principalul avantaj este simplitatea.",
+        "În loc să gestionezi multe categorii, trebuie să urmărești doar trei domenii mari.",
+        "Nu ai nevoie de limite separate pentru restaurante, jocuri, haine și călătorii. Toate aceste cheltuieli pot fi grupate în categoria dorințelor.",
+        "De aceea, este de obicei mai ușor să începi cu 50/30/20 decât cu sisteme mai detaliate.",
+        "Această abordare este potrivită mai ales dacă nu vrei să urmărești bugetul foarte detaliat și vrei doar să menții un echilibru general între viața de zi cu zi, cheltuielile opționale și obiectivele viitoare."
+      ]
+    },
+    "weaknesses": {
+      "title": "Punctul slab al regulii 50/30/20",
+      "paragraphs": [
+        "Trei categorii oferă puține informații despre ceea ce se întâmplă efectiv în interiorul bugetului.",
+        "Să presupunem că aloci 3.000 pentru dorințe.",
+        "Ai putea cheltui:"
+      ],
+      "exampleItems": [
+        "500 la restaurante;",
+        "500 pentru hobby-uri;",
+        "2.000 pentru electronice noi."
+      ],
+      "closingParagraphs": [
+        "Formal, regula este în continuare respectată.",
+        "Dar dacă vrei să controlezi separat diferite tipuri de cheltuieli, o singură categorie largă pentru dorințe poate să nu fie suficientă.",
+        "Procentele recomandate pot, de asemenea, să nu se potrivească situației tale reale.",
+        "Într-un oraș cu costuri mari pentru locuință, cheltuielile necesare pot depăși cu ușurință 50% din venit. De aceea, proporțiile 50/30/20 ar trebui privite ca un punct de plecare, nu ca o regulă strictă."
+      ]
+    }
+  },
+  "sixJarsMethod": {
+    "title": "Cum funcționează metoda celor 6 borcane",
+    "paragraphs": [
+      "Metoda celor 6 borcane folosește aceeași idee de bază, dar împarte bugetul mai detaliat.",
+      "În varianta clasică, fiecare venit este distribuit între șase categorii:"
+    ],
+    "table": {
+      "headers": ["Categorie", "Pondere"],
+      "rows": [
+        ["Cheltuieli necesare", "55%"],
+        ["Libertate financiară", "10%"],
+        ["Economii pe termen lung", "10%"],
+        ["Educație", "10%"],
+        ["Divertisment", "10%"],
+        ["Cadouri și ajutor", "5%"]
+      ]
+    },
+    "closingParagraphs": [
+      "Comparativ cu 50/30/20, bugetul este împărțit în mai multe domenii separate.",
+      "De exemplu, economiile nu mai sunt tratate ca o singură categorie largă. Banii destinați construirii capitalului sunt separați de economiile pe termen lung.",
+      "Divertismentul este separat de educație și de ajutorul oferit altora.",
+      "Astfel, diferitele obiective financiare concurează mai puțin pentru aceiași bani."
+    ],
+    "strengths": {
+      "title": "Punctul forte al metodei celor 6 borcane",
+      "paragraphs": [
+        "Metoda oferă o structură gata pregătită și, în același timp, mai multe detalii decât 50/30/20.",
+        "Nu trebuie să stabilești singur principalele categorii. Ele sunt deja definite.",
+        "În același timp, bugetul devine mai structurat.",
+        "Poți vedea separat banii destinați pentru:"
+      ],
+      "items": [
+        "viața de zi cu zi;",
+        "economii;",
+        "construirea capitalului;",
+        "educație;",
+        "divertisment;",
+        "ajutor pentru ceilalți."
+      ],
+      "outro": "Această abordare poate fi utilă dacă cele trei categorii din 50/30/20 nu mai oferă suficientă detaliere, dar nu vrei să construiești de la zero un întreg sistem de bugetare."
+    },
+    "weaknesses": {
+      "title": "Punctul slab al metodei celor 6 borcane",
+      "paragraphs": [
+        "Structura predefinită nu se potrivește la fel de bine tuturor.",
+        "Pentru o persoană, o categorie separată pentru educație poate fi importantă, în timp ce alta aproape că nu o folosește.",
+        "Unele persoane cumpără regulat cadouri sau donează bani, iar altele preferă să direcționeze acea parte din venit către alte obiective.",
+        "Prin urmare, procentele și categoriile clasice nu trebuie păstrate neschimbate.",
+        "Metoda poate fi adaptată propriei situații."
+      ]
+    }
+  },
+  "envelopeMethod": {
+    "title": "Cum funcționează metoda plicurilor",
+    "paragraphs": [
+      "Metoda plicurilor merge un pas mai departe și lasă aproape în totalitate structura bugetului la alegerea ta.",
+      "Îți creezi singur categoriile pentru cheltuielile și obiectivele pe care vrei să le controlezi."
+    ],
+    "exampleIntro": "De exemplu:",
+    "exampleItems": [
+      "locuință;",
+      "alimente;",
+      "transport;",
+      "restaurante;",
+      "divertisment;",
+      "vacanță;",
+      "electronice;",
+      "fond de urgență;",
+      "educație."
+    ],
+    "closingParagraphs": [
+      "Apoi atribui fiecărei categorii o anumită sumă.",
+      "Principiul de bază rămâne același:",
+      "<strong>fiecare parte din bani are un scop.</strong>",
+      "Dacă aloci 500 pentru restaurante, această sumă arată cât ai disponibil pentru restaurante, indiferent de soldul total al contului bancar.",
+      "Istoric, oamenii chiar distribuiau numerarul între plicuri fizice.",
+      "Astăzi, același sistem poate fi folosit digital, fără să separi fizic banii."
+    ],
+    "strengths": {
+      "title": "Punctul forte al metodei plicurilor",
+      "paragraphs": [
+        "Este cea mai flexibilă dintre cele trei abordări.",
+        "Tu decizi:"
+      ],
+      "items": [
+        "de câte categorii ai nevoie;",
+        "cât de detaliate trebuie să fie;",
+        "câți bani să aloci fiecăreia;",
+        "ce cheltuieli vrei să controlezi separat."
+      ],
+      "outro": "O persoană poate folosi patru categorii largi. Alta poate folosi cincisprezece sau douăzeci."
+    },
+    "weaknesses": {
+      "title": "Punctul slab al metodei plicurilor",
+      "paragraphs": [
+        "Cu cât un sistem oferă mai multă libertate, cu atât trebuie să iei mai multe decizii singur.",
+        "Trebuie să alegi categoriile, să stabilești sume rezonabile și să le reevaluezi din când în când.",
+        "Dacă creezi prea multe categorii, bugetul poate deveni mai complicat decât este necesar.",
+        "Un nivel ridicat de detaliere este util doar dacă te ajută efectiv să iei decizii mai bune."
+      ]
+    }
+  },
+  "detailLevel": {
+    "title": "Cele trei metode diferă în principal prin nivelul de detaliere",
+    "paragraphs": [
+      "Dacă ignorăm denumirile diferite, devine clar că toate cele trei abordări folosesc aproape același principiu de bază.",
+      "Venitul este distribuit dinainte între categorii, iar fiecare categorie corespunde unui anumit grup de cheltuieli sau obiective financiare.",
+      "Diferența constă în <strong>cât de detaliat este împărțit bugetul</strong>.",
+      "Regula 50/30/20 folosește trei categorii foarte largi.",
+      "Metoda celor 6 borcane folosește șase categorii mai specifice.",
+      "Metoda plicurilor îți permite să stabilești liber orice număr de categorii.",
+      "Le poți privi ca pe o progresie simplă:",
+      "<strong>50/30/20 → metoda celor 6 borcane → metoda plicurilor</strong>",
+      "De la cel mai mic la cel mai mare nivel de detaliere.",
+      "Totuși, mai multe categorii nu înseamnă automat un buget mai bun.",
+      "Cu cât sistemul este mai detaliat, cu atât oferă mai mult control — dar necesită și mai multă atenție."
+    ]
+  },
+  "methodsComparison": {
+    "title": "Compararea 50/30/20, metodei celor 6 borcane și metodei plicurilor",
+    "table": {
+      "headers": ["", "50/30/20", "Metoda celor 6 borcane", "Metoda plicurilor"],
+      "rows": [
+        ["Numărul de categorii", "3", "6 în versiunea clasică", "Personalizabil"],
+        ["Categorii predefinite", "Da", "Da", "Nu"],
+        ["Proporții recomandate", "Da", "Da", "Nu este obligatoriu"],
+        ["Pot fi modificate proporțiile?", "Da", "Da", "Da"],
+        ["Se pot crea categorii proprii?", "Da, prin adaptarea metodei", "Da, prin adaptarea metodei", "Da"],
+        ["Ușurința de a începe", "Foarte ridicată", "Ridicată", "Medie"],
+        ["Nivel de detaliere", "Scăzut", "Mediu", "Personalizabil"],
+        ["Flexibilitate", "Medie", "Ridicată", "Foarte ridicată"],
+        ["Potrivit pentru gestionare digitală", "Da", "Da", "Da"]
+      ]
+    },
+    "closingParagraphs": [
+      "Niciuna dintre aceste metode nu este obiectiv mai bună decât celelalte.",
+      "Ele rezolvă aceeași problemă cu niveluri diferite de detaliere."
+    ]
+  },
+  "oneIncome": {
+    "title": "Un venit — trei moduri diferite de distribuire",
+    "paragraphs": [
+      "Să presupunem că primești un venit de 10.000.",
+      "Să vedem cum ar putea fi distribuită aceeași sumă în fiecare sistem."
+    ],
+    "variant503020": {
+      "title": "Varianta 1: regula 50/30/20",
+      "table": {
+        "headers": ["Categorie", "Pondere", "Sumă"],
+        "rows": [
+          ["Necesități", "50%", "5.000"],
+          ["Dorințe", "30%", "3.000"],
+          ["Economii și obiective financiare", "20%", "2.000"]
+        ]
+      },
+      "closingParagraphs": [
+        "Știi cât poate merge către cheltuieli necesare, cât este disponibil pentru cumpărături opționale și cât ar trebui păstrat pentru viitor.",
+        "Dar în interiorul acestor categorii nu există o împărțire suplimentară."
+      ]
+    },
+    "variantSixJars": {
+      "title": "Varianta 2: metoda celor 6 borcane",
+      "table": {
+        "headers": ["Categorie", "Pondere", "Sumă"],
+        "rows": [
+          ["Cheltuieli necesare", "55%", "5.500"],
+          ["Libertate financiară", "10%", "1.000"],
+          ["Economii pe termen lung", "10%", "1.000"],
+          ["Educație", "10%", "1.000"],
+          ["Divertisment", "10%", "1.000"],
+          ["Cadouri și ajutor", "5%", "500"]
+        ]
+      },
+      "closingParagraphs": [
+        "Aici, aceiași 10.000 sunt distribuiți între scopuri mai precise.",
+        "De exemplu, banii pentru educație nu mai concurează direct cu divertismentul, iar economiile pe termen lung sunt separate de banii destinați construirii capitalului."
+      ]
+    },
+    "variantEnvelope": {
+      "title": "Varianta 3: metoda plicurilor",
+      "paragraphs": [
+        "Metoda plicurilor nu impune o distribuire fixă."
+      ],
+      "exampleIntro": "De exemplu:",
+      "table": {
+        "headers": ["Categorie", "Sumă"],
+        "rows": [
+          ["Locuință și utilități", "3.000"],
+          ["Alimente", "2.000"],
+          ["Transport", "800"],
+          ["Divertisment", "700"],
+          ["Restaurante", "500"],
+          ["Vacanță", "1.000"],
+          ["Fond de urgență", "1.500"],
+          ["Educație", "500"],
+          ["Total", "10.000"]
+        ]
+      },
+      "closingParagraphs": [
+        "Această abordare oferă mult mai mult control, dar trebuie să decizi singur de ce categorii ai cu adevărat nevoie."
+      ]
+    }
+  },
+  "when503020": {
+    "title": "Regula 50/30/20 este potrivită dacă vrei să începi cât mai simplu",
+    "paragraphs": [
+      "Dacă nu ai mai distribuit niciodată banii în avans, regula 50/30/20 poate fi un punct de plecare convenabil.",
+      "Nu trebuie să construiești un sistem complicat.",
+      "Trebuie doar să urmărești trei domenii:"
+    ],
+    "items": [
+      "necesități;",
+      "dorințe;",
+      "economii și obiective financiare."
+    ],
+    "closingParagraphs": [
+      "Chiar și această împărțire simplă te poate ajuta să nu mai privești întregul sold ca pe bani disponibili liber pentru cheltuieli.",
+      "50/30/20 este potrivit și pentru persoanele cărora nu le place urmărirea financiară detaliată.",
+      "Dacă nu este important pentru tine să știi exact cât cheltuiești pe jocuri, restaurante sau haine, nu trebuie să creezi categorii separate pentru acestea.",
+      "Poți gestiona toate aceste cheltuieli împreună."
+    ]
+  },
+  "whenSixJars": {
+    "title": "Metoda celor 6 borcane este potrivită dacă vrei o structură gata pregătită și mai detaliată",
+    "paragraphs": [
+      "Metoda celor 6 borcane se află aproximativ între 50/30/20 și un sistem complet personalizat de categorii.",
+      "Există suficiente categorii pentru a separa principalele obiective financiare, dar nu trebuie să construiești întreaga structură a bugetului de la zero.",
+      "Poate fi deosebit de utilă ideea de a susține mai multe priorități financiare în același timp.",
+      "De fiecare dată când primești un venit, o parte din bani merge nu doar către cheltuielile curente, ci și către:"
+    ],
+    "items": [
+      "viitor;",
+      "educație;",
+      "timp liber;",
+      "construirea capitalului;",
+      "alte obiective importante."
+    ],
+    "closingParagraphs": [
+      "Poți adapta treptat structura clasică la propriile nevoi.",
+      "De exemplu, poți modifica procentele, redenumi categoriile sau adăuga unele noi."
+    ]
+  },
+  "whenEnvelope": {
+    "title": "Metoda plicurilor este potrivită dacă vrei un control mai precis asupra anumitor cheltuieli",
+    "paragraphs": [
+      "Metoda plicurilor este deosebit de utilă atunci când problema nu este suma totală a cheltuielilor, ci anumite tipuri de cheltuieli.",
+      "De exemplu, te poți încadra în bugetul lunar total, dar să cheltuiești în mod regulat prea mult:"
+    ],
+    "items": [
+      "pe livrări de mâncare;",
+      "la restaurante;",
+      "pe jocuri;",
+      "pe haine;",
+      "pe taxiuri."
+    ],
+    "closingParagraphs": [
+      "În regula 50/30/20, toate aceste cheltuieli pot intra într-o singură categorie largă de dorințe.",
+      "Metoda plicurilor îți permite să separi fiecare domeniu important."
+    ],
+    "exampleTitle": "De exemplu:",
+    "example": "<strong>Restaurante — 500.</strong>",
+    "outroParagraphs": [
+      "Când banii din acea categorie se termină, vezi imediat că bugetul planificat a fost folosit.",
+      "Apoi poți opri cheltuielile din acea categorie până la următoarea distribuire sau poți ajusta conștient bugetul."
+    ]
+  },
+  "strictPercents": {
+    "title": "Trebuie respectate strict procentele?",
+    "paragraphs": [
+      "Nu.",
+      "Procentele sunt utile ca punct de plecare, dar respectarea lor exactă nu ar trebui să devină un scop în sine.",
+      "Dacă cheltuielile necesare reprezintă 65% din venit, regula 50/30/20 nu îți va face locuința mai ieftină.",
+      "La fel, nu are sens să cheltuiești artificial 10% din venit pentru educație doar pentru că metoda clasică a celor 6 borcane recomandă această proporție.",
+      "Este mai util să tratezi proporțiile recomandate ca pe un reper inițial și apoi să vezi cât de bine se potrivesc vieții tale reale.",
+      "Dacă într-o categorie rămâi regulat fără bani, iar în alta se acumulează constant un surplus mare, poți modifica distribuirea.",
+      "Bugetul trebuie să se adapteze vieții tale, nu invers."
+    ]
+  },
+  "combineMethods": {
+    "title": "Pot fi combinate aceste metode?",
+    "paragraphs": [
+      "Da.",
+      "Deoarece toate cele trei metode se bazează pe același principiu fundamental, limitele dintre ele sunt destul de flexibile.",
+      "De exemplu, poți începe cu regula 50/30/20 și apoi împărți categoria dorințelor în mai multe categorii detaliate:"
+    ],
+    "wantsItems": [
+      "restaurante;",
+      "divertisment;",
+      "hobby-uri;",
+      "călătorii."
+    ],
+    "middleParagraphs": [
+      "Astfel, sistemul devine mai apropiat de metoda plicurilor.",
+      "Poți folosi și metoda celor 6 borcane ca bază și împărți economiile pe termen lung între mai multe obiective:"
+    ],
+    "savingsItems": [
+      "vacanță;",
+      "electronice;",
+      "o mașină;",
+      "renovarea locuinței."
+    ],
+    "closingParagraphs": [
+      "Poți merge și în direcția opusă.",
+      "Dacă un sistem cu cincisprezece categorii devine prea complicat, cheltuielile similare pot fi combinate în câteva grupuri mai largi.",
+      "În timp, bugetul tău poate evolua într-un sistem care funcționează exact pentru tine.",
+      "Numele metodei contează mai puțin decât principiul de bază:",
+      "<strong>banii primesc un scop înainte de a fi cheltuiți.</strong>"
+    ]
+  },
+  "irregularIncome": {
+    "title": "Ce faci cu un venit neregulat?",
+    "paragraphs": [
+      "Toate cele trei abordări pot fi folosite și fără un salariu fix.",
+      "Dacă venitul vine în plăți separate, poți distribui fiecare plată imediat ce o primești.",
+      "De exemplu, după ce primești plata pentru un proiect, decizi imediat cât merge către cheltuieli necesare, economii și alte obiective.",
+      "Procentele fixe pot fi deosebit de practice în cazul unui venit neregulat, deoarece nu trebuie să cunoști dinainte valoarea exactă a venitului lunar.",
+      "Dacă primești 4.000, distribuie acei 4.000.",
+      "Dacă o săptămână mai târziu primești încă 2.000, distribuie și acei 2.000.",
+      "În metoda plicurilor poți folosi și o altă abordare: mai întâi alimentezi cele mai importante categorii până la sumele dorite, apoi distribui ceea ce rămâne."
+    ]
+  },
+  "finalChoice": {
+    "title": "Ce metodă să alegi?",
+    "paragraphs": [
+      "Dacă vrei un sistem cât mai simplu, poți începe cu <strong>regula 50/30/20</strong>.",
+      "Trei categorii sunt ușor de înțeles, reținut și gestionat.",
+      "Dacă vrei mai multă structură fără să construiești bugetul de la zero, <strong>metoda celor 6 borcane</strong> poate fi mai potrivită.",
+      "Șase categorii îți permit să separi cheltuielile curente, economiile, dezvoltarea personală, timpul liber și alte obiective financiare.",
+      "Dacă îți înțelegi deja bine cheltuielile și vrei să stabilești singur categoriile și sumele, <strong>metoda plicurilor</strong> poate fi cea mai bună alegere.",
+      "Alegerea ta nu trebuie să fie definitivă.",
+      "Poți începe cu trei categorii și adăuga treptat mai multă detaliere."
+    ],
+    "exampleIntro": "De exemplu:",
+    "example": "<strong>50/30/20 → metoda celor 6 borcane → propriul tău sistem de categorii.</strong>",
+    "closingParagraphs": [
+      "Sau poți merge în direcția opusă și simplifica un buget prea detaliat, combinând mai multe categorii în câteva mai largi.",
+      "O metodă bună de bugetare nu este cea care arată cel mai corect pe hârtie, ci cea pe care o poți folosi în mod constant."
+    ]
+  },
+  "digitalOnly": {
+    "title": "Nu ai nevoie de plicuri sau borcane fizice pentru a-ți distribui banii",
+    "paragraphs": [
+      "Toate cele trei metode se bazează pe atribuirea unui scop banilor în avans. Dar nu trebuie să îi păstrezi fizic separați.",
+      "Poți continua să folosești un singur cont bancar și să urmărești separat doar distribuirea internă.",
+      "De exemplu, poți avea 12.000 în contul bancar, în timp ce bugetul împarte această sumă între cheltuieli curente, economii, vacanță, divertisment și alte obiective.",
+      "Banca îți arată <strong>câți bani ai în total</strong>.",
+      "Sistemul tău de buget îți arată <strong>pentru ce sunt destinați acești bani</strong>.",
+      "De aceea, aceste metode funcționează bine în format digital: banii pot rămâne în contul bancar obișnuit, iar distribuirea internă este urmărită separat."
+    ]
+  },
+  "inApp": {
+    "title": "Cum să folosești diferite metode de bugetare în 6 Jars Finance",
+    "paragraphs": [
+      "Deși aplicația se numește <strong>6 Jars Finance</strong>, nu este limitată la metoda clasică a celor 6 borcane.",
+      "La prima deschidere a aplicației poți alege sistemul de bugetare care ți se potrivește:"
+    ],
+    "items": [
+      "regula 50/30/20;",
+      "metoda clasică a celor 6 borcane;",
+      "propriul sistem de categorii bazat pe metoda plicurilor."
+    ],
+    "closingParagraphs": [
+      "Sistemul ales devine punctul tău de plecare și poate fi adaptat ori de câte ori este necesar, modificând procentele, numele categoriilor sau numărul acestora.",
+      "Când primești un venit, aplicația îl distribuie între categorii conform proporțiilor alese. După o achiziție, scade doar soldul categoriei căreia îi aparține cheltuiala.",
+      "Banii rămân în contul tău bancar obișnuit. Aplicația nu se conectează la bancă și nu mută bani între conturi.",
+      "Astfel, poți continua să folosești cardul bancar obișnuit și, în același timp, să vezi ce parte din soldul total este deja destinată unor cheltuieli și obiective specifice.",
+      "Poți modifica oricând sistemul ales la configurare pentru a se potrivi mai bine cheltuielilor și obiectivelor tale reale."
+    ],
+    "cta": "Încearcă 6 Jars Finance →"
+  }
+}

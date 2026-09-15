@@ -1,0 +1,478 @@
+{
+  "title": "50/30/20, de 6 Jars-methode of enveloppenbudgettering: welke budgetmethode past bij jou?",
+  "metaDescription": "De 50/30/20-regel, de 6 Jars-methode en enveloppenbudgettering lossen hetzelfde probleem op: inkomen vooraf verdelen over categorieën. We vergelijken de drie methoden en helpen je kiezen.",
+  "intro": {
+    "paragraphs": [
+      "Er zijn veel manieren om een persoonlijk budget te beheren, maar sommige zijn gebaseerd op hetzelfde idee: <strong>eerst je inkomen een bestemming geven en het pas daarna uitgeven</strong>.",
+      "Tot deze aanpakken behoren de 50/30/20-regel, de 6 Jars-methode en enveloppenbudgettering.",
+      "Elke methode gebruikt haar eigen termen. Bij de 6 Jars-methode wordt geld verdeeld over potjes, bij enveloppenbudgettering over enveloppen en bij de 50/30/20-regel over drie brede groepen uitgaven.",
+      "Om deze aanpakken zonder onnodige verwarring te vergelijken, gebruik ik verder in dit artikel de algemene term <strong>‘categorieën’</strong>.",
+      "Een categorie is een apart deel van je budget dat bedoeld is voor een specifiek doel of een groep uitgaven, zoals noodzakelijke uitgaven, sparen, ontspanning of opleiding.",
+      "Als je de drie methoden zo bekijkt, blijken ze sterk op elkaar te lijken.",
+      "Het belangrijkste verschil is het <strong>detailniveau van het budget</strong>.",
+      "De 50/30/20-regel gebruikt drie brede categorieën. De 6 Jars-methode verdeelt geld gedetailleerder. Met enveloppenbudgettering kun je zoveel categorieën maken als je nodig hebt.",
+      "Laten we de drie aanpakken bekijken van de eenvoudigste tot de meest gedetailleerde."
+    ]
+  },
+  "overview": {
+    "title": "Inhoudsopgave",
+    "commonGround": "Wat de drie methoden gemeen hebben",
+    "rule503020": "Hoe de 50/30/20-regel werkt",
+    "sixJarsMethod": "Hoe de 6 Jars-methode werkt",
+    "envelopeMethod": "Hoe enveloppenbudgettering werkt",
+    "detailLevel": "Detailniveau",
+    "methodsComparison": "Vergelijking van de methoden",
+    "oneIncome": "Eén inkomen — drie manieren om het te verdelen",
+    "when503020": "Wanneer kies je voor 50/30/20?",
+    "whenSixJars": "Wanneer kies je voor de 6 Jars-methode?",
+    "whenEnvelope": "Wanneer kies je voor enveloppenbudgettering?",
+    "strictPercents": "Moet je de percentages strikt volgen?",
+    "combineMethods": "Kun je deze methoden combineren?",
+    "irregularIncome": "Onregelmatig inkomen",
+    "finalChoice": "Welke methode kies je?",
+    "digitalOnly": "Je hebt geen fysieke enveloppen nodig",
+    "inApp": "Deze methoden gebruiken in 6 Jars Finance"
+  },
+  "commonGround": {
+    "title": "Wat de drie methoden gemeen hebben",
+    "paragraphs": [
+      "Traditioneel uitgaven bijhouden helpt antwoord te geven op de vraag:",
+      "<strong>‘Waar is mijn geld al naartoe gegaan?’</strong>",
+      "Je registreert aankopen, bekijkt je uitgaven en ziet hoeveel je hebt besteed aan boodschappen, vervoer, ontspanning en andere uitgaven.",
+      "De 50/30/20-regel, de 6 Jars-methode en enveloppenbudgettering kiezen voor een iets andere aanpak.",
+      "Ze helpen je vooraf een andere vraag te beantwoorden:",
+      "<strong>‘Waar wil ik dit inkomen voor gebruiken?’</strong>",
+      "Wanneer je inkomen ontvangt, verdeel je het over verschillende categorieën."
+    ],
+    "exampleIntro": "Bijvoorbeeld:",
+    "exampleItems": [
+      "een deel van het geld is bestemd voor dagelijkse uitgaven;",
+      "een deel voor sparen;",
+      "een deel voor ontspanning;",
+      "een deel voor toekomstige grotere aankopen."
+    ],
+    "closingParagraphs": [
+      "Daardoor voelt je totale banksaldo niet langer als één volledig vrij besteedbaar bedrag.",
+      "Als er 10.000 op je rekening staat, betekent dat niet dat je die volledige 10.000 meteen kunt uitgeven. Misschien is 5.000 al bestemd voor noodzakelijke uitgaven, 2.000 voor sparen en slechts 1.000 voor ontspanning.",
+      "Alle drie de methoden helpen je om geld vooraf een bestemming te geven.",
+      "Ze verschillen vooral in <strong>hoe breed of gedetailleerd de categorieën zijn en welke verdeling ze voorstellen</strong>."
+    ],
+    "cta": "Probeer budgetverdeling met 6 Jars Finance →"
+  },
+  "rule503020": {
+    "title": "Hoe de 50/30/20-regel werkt",
+    "paragraphs": [
+      "De 50/30/20-regel is de eenvoudigste van de drie aanpakken.",
+      "Je netto-inkomen wordt verdeeld over slechts drie categorieën:"
+    ],
+    "categories": [
+      "<strong>50% — behoeften;</strong>",
+      "<strong>30% — wensen;</strong>",
+      "<strong>20% — sparen en andere financiële doelen.</strong>"
+    ],
+    "closingParagraphs": [
+      "Onder behoeften vallen wonen, boodschappen, nutsvoorzieningen, vervoer en andere basisuitgaven.",
+      "De categorie wensen omvat entertainment, restaurants, reizen, hobby’s, optionele aankopen en andere uitgaven waar je zonder zou kunnen.",
+      "De laatste 20% gaat naar sparen, een noodbuffer, beleggingen, grotere doelen of versnelde aflossing van schulden."
+    ],
+    "strengths": {
+      "title": "Sterk punt van de 50/30/20-regel",
+      "paragraphs": [
+        "Het grootste voordeel is de eenvoud.",
+        "In plaats van veel categorieën te beheren, hoef je maar drie brede gebieden in de gaten te houden.",
+        "Je hebt geen aparte limieten nodig voor restaurants, games, kleding en reizen. Al deze uitgaven kunnen samen in de categorie wensen.",
+        "Daardoor is het meestal eenvoudiger om met 50/30/20 te beginnen dan met gedetailleerdere systemen.",
+        "Deze aanpak is vooral handig als je geen uitgebreid budget wilt bijhouden, maar wel een algemene balans wilt bewaren tussen dagelijkse uitgaven, optionele uitgaven en toekomstige doelen."
+      ]
+    },
+    "weaknesses": {
+      "title": "Zwak punt van de 50/30/20-regel",
+      "paragraphs": [
+        "Drie categorieën geven weinig inzicht in wat er binnen je budget precies gebeurt.",
+        "Stel dat je 3.000 reserveert voor wensen.",
+        "Daarvan kun je bijvoorbeeld uitgeven:"
+      ],
+      "exampleItems": [
+        "500 aan restaurants;",
+        "500 aan hobby’s;",
+        "2.000 aan nieuwe elektronica."
+      ],
+      "closingParagraphs": [
+        "Formeel houd je je nog steeds aan de regel.",
+        "Maar als je verschillende soorten uitgaven afzonderlijk wilt beheren, kan één brede categorie voor wensen te grof zijn.",
+        "Ook passen de aanbevolen percentages niet altijd bij je werkelijke situatie.",
+        "In een stad met hoge woonkosten kunnen noodzakelijke uitgaven gemakkelijk meer dan 50% van je inkomen bedragen. Daarom kun je de 50/30/20-verdeling beter zien als uitgangspunt dan als strikte regel."
+      ]
+    }
+  },
+  "sixJarsMethod": {
+    "title": "Hoe de 6 Jars-methode werkt",
+    "paragraphs": [
+      "De 6 Jars-methode gebruikt hetzelfde basisidee, maar verdeelt het budget gedetailleerder.",
+      "In de klassieke versie wordt elk inkomen verdeeld over zes categorieën:"
+    ],
+    "table": {
+      "headers": ["Categorie", "Aandeel"],
+      "rows": [
+        ["Noodzakelijke uitgaven", "55%"],
+        ["Financiële vrijheid", "10%"],
+        ["Langetermijnsparen", "10%"],
+        ["Opleiding", "10%"],
+        ["Ontspanning", "10%"],
+        ["Geschenken en hulp", "5%"]
+      ]
+    },
+    "closingParagraphs": [
+      "Vergeleken met 50/30/20 ontstaan er meer afzonderlijke onderdelen van het budget.",
+      "Sparen wordt bijvoorbeeld niet langer als één brede categorie behandeld. Geld voor vermogensopbouw wordt gescheiden van langetermijnsparen.",
+      "Ontspanning wordt gescheiden van opleiding en hulp aan anderen.",
+      "Zo hoeven verschillende financiële doelen minder met elkaar om hetzelfde geld te concurreren."
+    ],
+    "strengths": {
+      "title": "Sterk punt van de 6 Jars-methode",
+      "paragraphs": [
+        "De methode biedt een kant-en-klare structuur en tegelijk meer detail dan 50/30/20.",
+        "Je hoeft de belangrijkste categorieën niet zelf te bedenken. Ze zijn al bepaald.",
+        "Tegelijk wordt je budget beter gestructureerd.",
+        "Je ziet afzonderlijk hoeveel geld bedoeld is voor:"
+      ],
+      "items": [
+        "het dagelijks leven;",
+        "sparen;",
+        "vermogensopbouw;",
+        "opleiding;",
+        "ontspanning;",
+        "hulp aan anderen."
+      ],
+      "outro": "Deze aanpak kan handig zijn als de drie categorieën van 50/30/20 niet meer genoeg detail bieden, maar je niet zelf een volledig budgetsysteem vanaf nul wilt opbouwen."
+    },
+    "weaknesses": {
+      "title": "Zwak punt van de 6 Jars-methode",
+      "paragraphs": [
+        "De vooraf bepaalde structuur past niet voor iedereen even goed.",
+        "Voor de ene persoon kan een aparte categorie voor opleiding belangrijk zijn, terwijl iemand anders die nauwelijks gebruikt.",
+        "Sommige mensen kopen regelmatig cadeaus of geven aan goede doelen, terwijl anderen dat deel van hun inkomen liever aan andere doelen besteden.",
+        "Je hoeft de klassieke percentages en categorieën daarom niet ongewijzigd te behouden.",
+        "De methode kan worden aangepast aan je eigen situatie."
+      ]
+    }
+  },
+  "envelopeMethod": {
+    "title": "Hoe enveloppenbudgettering werkt",
+    "paragraphs": [
+      "Enveloppenbudgettering gaat nog een stap verder en laat de structuur van je budget bijna volledig aan jou over.",
+      "Je maakt zelf categorieën voor de uitgaven en doelen die je wilt beheren."
+    ],
+    "exampleIntro": "Bijvoorbeeld:",
+    "exampleItems": [
+      "wonen;",
+      "boodschappen;",
+      "vervoer;",
+      "restaurants;",
+      "ontspanning;",
+      "vakantie;",
+      "elektronica;",
+      "noodbuffer;",
+      "opleiding."
+    ],
+    "closingParagraphs": [
+      "Vervolgens wijs je aan elke categorie een bepaald bedrag toe.",
+      "Het basisprincipe blijft hetzelfde:",
+      "<strong>elk deel van je geld heeft een bestemming.</strong>",
+      "Als je 500 reserveert voor restaurants, geeft dat bedrag aan hoeveel je daarvoor beschikbaar hebt, ongeacht je totale banksaldo.",
+      "Historisch werd contant geld daadwerkelijk over fysieke enveloppen verdeeld.",
+      "Tegenwoordig kun je hetzelfde systeem digitaal gebruiken zonder je geld fysiek te scheiden."
+    ],
+    "strengths": {
+      "title": "Sterk punt van enveloppenbudgettering",
+      "paragraphs": [
+        "Dit is de meest flexibele van de drie aanpakken.",
+        "Je bepaalt zelf:"
+      ],
+      "items": [
+        "hoeveel categorieën je nodig hebt;",
+        "hoe gedetailleerd ze moeten zijn;",
+        "hoeveel geld je aan elke categorie toewijst;",
+        "welke uitgaven je afzonderlijk wilt beheren."
+      ],
+      "outro": "De ene persoon kan vier brede categorieën gebruiken, terwijl een ander er vijftien of twintig gebruikt."
+    },
+    "weaknesses": {
+      "title": "Zwak punt van enveloppenbudgettering",
+      "paragraphs": [
+        "Hoe meer vrijheid een systeem biedt, hoe meer beslissingen je zelf moet nemen.",
+        "Je moet categorieën kiezen, redelijke bedragen bepalen en die van tijd tot tijd opnieuw bekijken.",
+        "Als je te veel categorieën maakt, kan je budget ingewikkelder worden dan nodig.",
+        "Een hoog detailniveau is alleen nuttig als het je daadwerkelijk helpt betere beslissingen te nemen."
+      ]
+    }
+  },
+  "detailLevel": {
+    "title": "De drie methoden verschillen vooral in detailniveau",
+    "paragraphs": [
+      "Als je de verschillende namen buiten beschouwing laat, zie je dat alle drie de aanpakken vrijwel hetzelfde basisprincipe gebruiken.",
+      "Inkomen wordt vooraf verdeeld over categorieën en elke categorie staat voor een bepaalde groep uitgaven of financiële doelen.",
+      "Het verschil zit in <strong>hoe gedetailleerd het budget wordt verdeeld</strong>.",
+      "De 50/30/20-regel gebruikt drie zeer brede categorieën.",
+      "De 6 Jars-methode gebruikt zes specifiekere categorieën.",
+      "Met enveloppenbudgettering kun je zelf elk gewenst aantal categorieën bepalen.",
+      "Je kunt ze zien als een eenvoudige schaal:",
+      "<strong>50/30/20 → 6 Jars-methode → enveloppenbudgettering</strong>",
+      "Van het minst tot het meest gedetailleerd.",
+      "Meer categorieën betekenen echter niet automatisch een beter budget.",
+      "Hoe gedetailleerder het systeem, hoe meer controle het biedt — maar ook hoe meer aandacht het vraagt."
+    ]
+  },
+  "methodsComparison": {
+    "title": "Vergelijking van 50/30/20, de 6 Jars-methode en enveloppenbudgettering",
+    "table": {
+      "headers": ["", "50/30/20", "6 Jars-methode", "Enveloppenbudgettering"],
+      "rows": [
+        ["Aantal categorieën", "3", "6 in de klassieke versie", "Vrij te bepalen"],
+        ["Categorieën vooraf bepaald", "Ja", "Ja", "Nee"],
+        ["Aanbevolen verdeling", "Ja", "Ja", "Niet verplicht"],
+        ["Kan de verdeling worden aangepast?", "Ja", "Ja", "Ja"],
+        ["Kun je eigen categorieën maken?", "Ja, bij aanpassing van de methode", "Ja, bij aanpassing van de methode", "Ja"],
+        ["Gemak om te beginnen", "Zeer hoog", "Hoog", "Gemiddeld"],
+        ["Detailniveau", "Laag", "Gemiddeld", "Vrij te bepalen"],
+        ["Flexibiliteit", "Gemiddeld", "Hoog", "Zeer hoog"],
+        ["Geschikt voor digitaal beheer", "Ja", "Ja", "Ja"]
+      ]
+    },
+    "closingParagraphs": [
+      "Geen van deze methoden is objectief beter dan de andere.",
+      "Ze lossen hetzelfde probleem op met een verschillend detailniveau."
+    ]
+  },
+  "oneIncome": {
+    "title": "Eén inkomen — drie verschillende manieren om het te verdelen",
+    "paragraphs": [
+      "Stel dat je een inkomen van 10.000 ontvangt.",
+      "Laten we bekijken hoe hetzelfde bedrag eruit kan zien binnen elk systeem."
+    ],
+    "variant503020": {
+      "title": "Optie 1: de 50/30/20-regel",
+      "table": {
+        "headers": ["Categorie", "Aandeel", "Bedrag"],
+        "rows": [
+          ["Behoeften", "50%", "5.000"],
+          ["Wensen", "30%", "3.000"],
+          ["Sparen en financiële doelen", "20%", "2.000"]
+        ]
+      },
+      "closingParagraphs": [
+        "Je weet hoeveel naar noodzakelijke uitgaven kan gaan, hoeveel beschikbaar is voor optionele aankopen en hoeveel voor de toekomst wordt bewaard.",
+        "Binnen deze categorieën is er echter geen verdere verdeling."
+      ]
+    },
+    "variantSixJars": {
+      "title": "Optie 2: de 6 Jars-methode",
+      "table": {
+        "headers": ["Categorie", "Aandeel", "Bedrag"],
+        "rows": [
+          ["Noodzakelijke uitgaven", "55%", "5.500"],
+          ["Financiële vrijheid", "10%", "1.000"],
+          ["Langetermijnsparen", "10%", "1.000"],
+          ["Opleiding", "10%", "1.000"],
+          ["Ontspanning", "10%", "1.000"],
+          ["Geschenken en hulp", "5%", "500"]
+        ]
+      },
+      "closingParagraphs": [
+        "Hier wordt dezelfde 10.000 verdeeld over specifiekere doelen.",
+        "Geld voor opleiding concurreert bijvoorbeeld niet meer rechtstreeks met ontspanning, terwijl langetermijnsparen wordt gescheiden van geld voor vermogensopbouw."
+      ]
+    },
+    "variantEnvelope": {
+      "title": "Optie 3: enveloppenbudgettering",
+      "paragraphs": [
+        "Enveloppenbudgettering vereist geen vaste verdeling."
+      ],
+      "exampleIntro": "Bijvoorbeeld:",
+      "table": {
+        "headers": ["Categorie", "Bedrag"],
+        "rows": [
+          ["Wonen en nutsvoorzieningen", "3.000"],
+          ["Boodschappen", "2.000"],
+          ["Vervoer", "800"],
+          ["Ontspanning", "700"],
+          ["Restaurants", "500"],
+          ["Vakantie", "1.000"],
+          ["Noodbuffer", "1.500"],
+          ["Opleiding", "500"],
+          ["Totaal", "10.000"]
+        ]
+      },
+      "closingParagraphs": [
+        "Deze aanpak geeft veel meer controle, maar je moet zelf bepalen welke categorieën je daadwerkelijk nodig hebt."
+      ]
+    }
+  },
+  "when503020": {
+    "title": "De 50/30/20-regel past bij je als je zo eenvoudig mogelijk wilt beginnen",
+    "paragraphs": [
+      "Als je geld nog nooit vooraf hebt verdeeld, kan de 50/30/20-regel een handig uitgangspunt zijn.",
+      "Je hoeft geen ingewikkeld systeem op te bouwen.",
+      "Je hoeft slechts drie gebieden bij te houden:"
+    ],
+    "items": [
+      "behoeften;",
+      "wensen;",
+      "sparen en financiële doelen."
+    ],
+    "closingParagraphs": [
+      "Zelfs deze eenvoudige verdeling kan helpen voorkomen dat je je volledige saldo als vrij besteedbaar geld ziet.",
+      "50/30/20 is ook geschikt voor mensen die niet van gedetailleerd financieel beheer houden.",
+      "Als het voor jou niet belangrijk is om precies te weten hoeveel je aan games, restaurants of kleding uitgeeft, hoef je daar geen aparte categorieën voor te maken.",
+      "Je kunt al deze uitgaven samen beheren."
+    ]
+  },
+  "whenSixJars": {
+    "title": "De 6 Jars-methode past bij je als je een gedetailleerdere kant-en-klare structuur wilt",
+    "paragraphs": [
+      "De 6 Jars-methode ligt ongeveer tussen 50/30/20 en een volledig eigen categoriesysteem in.",
+      "Er zijn genoeg categorieën om de belangrijkste financiële doelen van elkaar te scheiden, maar je hoeft je volledige budgetstructuur niet zelf vanaf nul op te bouwen.",
+      "Vooral het idee om meerdere financiële prioriteiten tegelijk te ondersteunen kan nuttig zijn.",
+      "Elke keer dat je inkomen ontvangt, gaat een deel niet alleen naar lopende uitgaven, maar ook naar:"
+    ],
+    "items": [
+      "de toekomst;",
+      "opleiding;",
+      "ontspanning;",
+      "vermogensopbouw;",
+      "andere belangrijke doelen."
+    ],
+    "closingParagraphs": [
+      "Je kunt de klassieke structuur geleidelijk aanpassen aan je eigen behoeften.",
+      "Je kunt bijvoorbeeld percentages wijzigen, categorieën hernoemen of nieuwe categorieën toevoegen."
+    ]
+  },
+  "whenEnvelope": {
+    "title": "Enveloppenbudgettering past bij je als je afzonderlijke uitgaven nauwkeuriger wilt controleren",
+    "paragraphs": [
+      "Enveloppenbudgettering is vooral nuttig wanneer niet je totale uitgaven het probleem zijn, maar specifieke soorten uitgaven.",
+      "Je kunt bijvoorbeeld binnen je totale maandbudget blijven, maar toch regelmatig te veel uitgeven aan:"
+    ],
+    "items": [
+      "maaltijdbezorging;",
+      "restaurants;",
+      "games;",
+      "kleding;",
+      "taxi’s."
+    ],
+    "closingParagraphs": [
+      "Binnen de 50/30/20-regel kunnen al deze uitgaven in één brede categorie wensen vallen.",
+      "Met enveloppenbudgettering kun je elk belangrijk gebied afzonderlijk beheren."
+    ],
+    "exampleTitle": "Bijvoorbeeld:",
+    "example": "<strong>Restaurants — 500.</strong>",
+    "outroParagraphs": [
+      "Zodra het geld in die categorie op is, zie je direct dat het geplande budget is verbruikt.",
+      "Je kunt dan stoppen met uitgeven in die categorie tot de volgende verdeling of bewust je budget aanpassen."
+    ]
+  },
+  "strictPercents": {
+    "title": "Moet je de percentages strikt volgen?",
+    "paragraphs": [
+      "Nee.",
+      "Percentages zijn handig als uitgangspunt, maar ze exact volgen moet geen doel op zich worden.",
+      "Als noodzakelijke uitgaven 65% van je inkomen innemen, maakt de 50/30/20-regel je woning niet goedkoper.",
+      "Het heeft ook weinig zin om kunstmatig 10% van je inkomen aan opleiding uit te geven alleen omdat de klassieke 6 Jars-methode dat percentage voorschrijft.",
+      "Het is nuttiger om de aanbevolen verhoudingen als eerste richtlijn te gebruiken en daarna te bekijken hoe goed ze bij je werkelijke leven passen.",
+      "Als één categorie regelmatig tekortkomt terwijl er in een andere steeds veel geld overblijft, kun je de verdeling aanpassen.",
+      "Je budget moet zich aanpassen aan je leven, niet andersom."
+    ]
+  },
+  "combineMethods": {
+    "title": "Kun je deze methoden combineren?",
+    "paragraphs": [
+      "Ja.",
+      "Omdat alle drie de methoden op hetzelfde basisprincipe zijn gebaseerd, zijn de grenzen ertussen vrij flexibel.",
+      "Je kunt bijvoorbeeld beginnen met de 50/30/20-regel en de categorie wensen later opdelen in meerdere gedetailleerdere categorieën:"
+    ],
+    "wantsItems": [
+      "restaurants;",
+      "ontspanning;",
+      "hobby’s;",
+      "reizen."
+    ],
+    "middleParagraphs": [
+      "Daardoor gaat het systeem meer op enveloppenbudgettering lijken.",
+      "Je kunt ook de 6 Jars-methode als basis gebruiken en langetermijnsparen verdelen over meerdere doelen:"
+    ],
+    "savingsItems": [
+      "vakantie;",
+      "elektronica;",
+      "een auto;",
+      "woningrenovatie."
+    ],
+    "closingParagraphs": [
+      "Je kunt ook de andere kant op gaan.",
+      "Als een systeem met vijftien categorieën te ingewikkeld wordt, kun je vergelijkbare uitgaven samenvoegen tot enkele bredere groepen.",
+      "Zo kan je budget zich geleidelijk ontwikkelen tot een systeem dat specifiek voor jou werkt.",
+      "De naam van de methode is minder belangrijk dan het onderliggende principe:",
+      "<strong>geld krijgt een bestemming voordat je het uitgeeft.</strong>"
+    ]
+  },
+  "irregularIncome": {
+    "title": "Wat doe je met onregelmatig inkomen?",
+    "paragraphs": [
+      "Alle drie de aanpakken kunnen ook zonder vast salaris worden gebruikt.",
+      "Als je inkomen in afzonderlijke betalingen binnenkomt, kun je elke nieuwe betaling direct verdelen.",
+      "Na betaling voor een project bepaal je bijvoorbeeld meteen hoeveel naar noodzakelijke uitgaven, sparen en andere doelen gaat.",
+      "Vaste percentages kunnen bij onregelmatig inkomen bijzonder handig zijn, omdat je je exacte maandinkomen niet vooraf hoeft te kennen.",
+      "Ontvang je 4.000, dan verdeel je die 4.000.",
+      "Ontvang je een week later nog eens 2.000, dan verdeel je ook die 2.000.",
+      "Bij enveloppenbudgettering kun je ook anders te werk gaan: vul eerst de belangrijkste categorieën aan tot het gewenste bedrag en verdeel daarna wat overblijft."
+    ]
+  },
+  "finalChoice": {
+    "title": "Welke methode kies je?",
+    "paragraphs": [
+      "Als je een zo eenvoudig mogelijk systeem wilt, kun je beginnen met de <strong>50/30/20-regel</strong>.",
+      "Drie categorieën zijn eenvoudig te begrijpen, onthouden en beheren.",
+      "Wil je meer structuur zonder zelf een volledig budget vanaf nul op te bouwen, dan kan de <strong>6 Jars-methode</strong> beter passen.",
+      "Zes categorieën maken het mogelijk om lopende uitgaven, sparen, persoonlijke ontwikkeling, ontspanning en andere financiële doelen afzonderlijk te beheren.",
+      "Als je je uitgaven al goed kent en zelf categorieën en bedragen wilt bepalen, kan <strong>enveloppenbudgettering</strong> de beste keuze zijn.",
+      "Je keuze hoeft niet definitief te zijn.",
+      "Je kunt met drie categorieën beginnen en later geleidelijk meer detail toevoegen."
+    ],
+    "exampleIntro": "Bijvoorbeeld:",
+    "example": "<strong>50/30/20 → 6 Jars-methode → je eigen categoriesysteem.</strong>",
+    "closingParagraphs": [
+      "Of je kunt de andere kant op gaan en een te gedetailleerd budget vereenvoudigen door veel categorieën samen te voegen tot enkele grotere.",
+      "Een goede budgetmethode is niet de methode die er op papier het beste uitziet, maar de methode die je consequent kunt gebruiken."
+    ]
+  },
+  "digitalOnly": {
+    "title": "Je hebt geen fysieke enveloppen of potjes nodig om geld te verdelen",
+    "paragraphs": [
+      "Alle drie de methoden zijn gebaseerd op het vooraf geven van een bestemming aan je geld. Je hoeft het daarvoor niet fysiek gescheiden te bewaren.",
+      "Je kunt één bankrekening blijven gebruiken en de interne verdeling apart bijhouden.",
+      "Je kunt bijvoorbeeld 12.000 op je bankrekening hebben, terwijl je budget dat bedrag verdeelt over lopende uitgaven, sparen, vakantie, ontspanning en andere doelen.",
+      "Je bank laat zien <strong>hoeveel geld je in totaal hebt</strong>.",
+      "Je budgetsysteem laat zien <strong>waar dat geld voor bedoeld is</strong>.",
+      "Daarom werken deze methoden goed digitaal: je geld kan op je gewone bankrekening blijven staan terwijl de interne verdeling apart wordt bijgehouden."
+    ]
+  },
+  "inApp": {
+    "title": "Verschillende budgetmethoden gebruiken in 6 Jars Finance",
+    "paragraphs": [
+      "Hoewel de app <strong>6 Jars Finance</strong> heet, is hij niet beperkt tot de klassieke 6 Jars-methode.",
+      "Wanneer je de app voor het eerst opent, kun je het budgetsysteem kiezen dat bij je past:"
+    ],
+    "items": [
+      "de 50/30/20-regel;",
+      "de klassieke 6 Jars-methode;",
+      "je eigen categoriesysteem op basis van enveloppenbudgettering."
+    ],
+    "closingParagraphs": [
+      "Het gekozen systeem wordt je uitgangspunt en kan wanneer nodig worden aangepast door percentages, categorienamen of het aantal categorieën te wijzigen.",
+      "Wanneer je inkomen ontvangt, verdeelt de app het volgens de gekozen verhoudingen over de categorieën. Na een aankoop daalt alleen het saldo van de categorie waartoe die uitgave behoort.",
+      "Het geld zelf blijft op je gewone bankrekening staan. De app maakt geen verbinding met je bank en verplaatst geen geld tussen rekeningen.",
+      "Zo kun je je gewone bankkaart blijven gebruiken en tegelijk zien welk deel van je totale saldo al bestemd is voor specifieke uitgaven en doelen.",
+      "Je kunt het systeem dat je tijdens de configuratie hebt gekozen op elk moment aanpassen zodat het beter aansluit bij je werkelijke uitgaven en doelen."
+    ],
+    "cta": "Probeer 6 Jars Finance →"
+  }
+}

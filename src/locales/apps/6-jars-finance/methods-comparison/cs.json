@@ -1,0 +1,478 @@
+{
+  "title": "50/30/20, metoda 6 sklenic nebo obálková metoda: který způsob rozpočtování je pro vás vhodný?",
+  "metaDescription": "Pravidlo 50/30/20, metoda 6 sklenic a obálková metoda řeší stejný problém — rozdělit příjem předem do kategorií. Porovnáváme tři přístupy a pomáháme vybrat ten správný.",
+  "intro": {
+    "paragraphs": [
+      "Existuje mnoho způsobů, jak spravovat osobní rozpočet, ale některé z nich vycházejí ze stejné myšlenky: <strong>nejprve rozdělit příjem podle jeho účelu a teprve potom peníze utrácet</strong>.",
+      "Mezi tyto přístupy patří pravidlo 50/30/20, metoda 6 sklenic a obálková metoda.",
+      "Každý z nich používá vlastní názvy. V metodě 6 sklenic se peníze rozdělují mezi sklenice, v obálkové metodě mezi obálky a v pravidle 50/30/20 mezi tři velké skupiny výdajů.",
+      "Aby bylo porovnání těchto přístupů přehlednější, budu v dalším textu používat obecný pojem <strong>„kategorie“</strong>.",
+      "Kategorie je samostatná část rozpočtu určená pro konkrétní účel nebo skupinu výdajů, například nezbytné výdaje, úspory, zábavu nebo vzdělávání.",
+      "Když se na všechny tři metody podíváme tímto způsobem, zjistíme, že jsou si velmi podobné.",
+      "Hlavní rozdíl mezi nimi spočívá v <strong>úrovni podrobnosti rozpočtu</strong>.",
+      "Pravidlo 50/30/20 používá tři široké kategorie. Metoda 6 sklenic rozděluje peníze podrobněji. Obálková metoda vám umožňuje vytvořit tolik kategorií, kolik potřebujete.",
+      "Podívejme se na jednotlivé přístupy postupně — od nejjednoduššího po nejpodrobnější."
+    ]
+  },
+  "overview": {
+    "title": "Obsah",
+    "commonGround": "Co mají všechny tři metody společné",
+    "rule503020": "Jak funguje pravidlo 50/30/20",
+    "sixJarsMethod": "Jak funguje metoda 6 sklenic",
+    "envelopeMethod": "Jak funguje obálková metoda",
+    "detailLevel": "Úroveň podrobnosti",
+    "methodsComparison": "Porovnání metod",
+    "oneIncome": "Jeden příjem — tři způsoby rozdělení",
+    "when503020": "Kdy zvolit 50/30/20",
+    "whenSixJars": "Kdy zvolit metodu 6 sklenic",
+    "whenEnvelope": "Kdy zvolit obálkovou metodu",
+    "strictPercents": "Je nutné přesně dodržovat procenta?",
+    "combineMethods": "Lze tyto metody kombinovat?",
+    "irregularIncome": "Nepravidelný příjem",
+    "finalChoice": "Kterou metodu zvolit?",
+    "digitalOnly": "Fyzické obálky nejsou potřeba",
+    "inApp": "Jak tyto metody používat v 6 Jars Finance"
+  },
+  "commonGround": {
+    "title": "Co mají všechny tři metody společné",
+    "paragraphs": [
+      "Běžné sledování výdajů pomáhá odpovědět na otázku:",
+      "<strong>„Kam už moje peníze odešly?“</strong>",
+      "Zaznamenáváte nákupy, sledujete výdaje a můžete zjistit, kolik jste utratili za potraviny, dopravu, zábavu a další potřeby.",
+      "Pravidlo 50/30/20, metoda 6 sklenic a obálková metoda nabízejí trochu jiný přístup.",
+      "Pomáhají předem odpovědět na jinou otázku:",
+      "<strong>„Na co chci svůj příjem použít?“</strong>",
+      "Když obdržíte příjem, rozdělíte ho mezi několik kategorií."
+    ],
+    "exampleIntro": "Například:",
+    "exampleItems": [
+      "část peněz je určena na každodenní výdaje;",
+      "část na úspory;",
+      "část na volný čas;",
+      "část na budoucí větší nákupy."
+    ],
+    "closingParagraphs": [
+      "Díky tomu přestane celkový zůstatek na bankovním účtu působit jako jedna plně dostupná částka.",
+      "Pokud máte na účtu 10 000, neznamená to, že můžete všech 10 000 ihned utratit. Možná je 5 000 už určeno na nezbytné výdaje, 2 000 na úspory a pouze 1 000 na zábavu.",
+      "Všechny tři metody pomáhají předem určit, k čemu budou peníze sloužit.",
+      "Liší se především tím, <strong>jak široké nebo podrobné jsou jejich kategorie a jaké poměry doporučují používat</strong>."
+    ],
+    "cta": "Vyzkoušet rozdělení rozpočtu v 6 Jars Finance →"
+  },
+  "rule503020": {
+    "title": "Jak funguje pravidlo 50/30/20",
+    "paragraphs": [
+      "Pravidlo 50/30/20 je nejjednodušší ze tří přístupů.",
+      "Čistý příjem se rozděluje pouze do tří kategorií:"
+    ],
+    "categories": [
+      "<strong>50 % — potřeby;</strong>",
+      "<strong>30 % — přání;</strong>",
+      "<strong>20 % — úspory a další finanční cíle.</strong>"
+    ],
+    "closingParagraphs": [
+      "Mezi potřeby patří bydlení, potraviny, energie, doprava a další základní výdaje.",
+      "Kategorie přání zahrnuje zábavu, restaurace, cestování, koníčky, volitelné nákupy a další výdaje, bez kterých se lze obejít.",
+      "Posledních 20 % jde na úspory, finanční rezervu, investice, větší cíle nebo rychlejší splácení dluhů."
+    ],
+    "strengths": {
+      "title": "Silná stránka pravidla 50/30/20",
+      "paragraphs": [
+        "Jeho hlavní výhodou je jednoduchost.",
+        "Místo mnoha kategorií stačí sledovat pouze tři široké oblasti.",
+        "Nemusíte stanovovat samostatné limity na restaurace, hry, oblečení a cestování. Všechny tyto výdaje lze spojit do jedné kategorie přání.",
+        "Začít s pravidlem 50/30/20 je proto obvykle jednodušší než s podrobnějšími systémy.",
+        "Tento přístup je vhodný zejména tehdy, pokud nechcete vést velmi podrobný rozpočet a chcete pouze zachovat obecnou rovnováhu mezi běžným životem, volitelnými výdaji a budoucími cíli."
+      ]
+    },
+    "weaknesses": {
+      "title": "Slabá stránka pravidla 50/30/20",
+      "paragraphs": [
+        "Tři kategorie poskytují jen málo informací o tom, co se uvnitř rozpočtu skutečně děje.",
+        "Předpokládejme, že na přání vyčleníte 3 000.",
+        "Můžete utratit:"
+      ],
+      "exampleItems": [
+        "500 za restaurace;",
+        "500 za koníčky;",
+        "2 000 za novou elektroniku."
+      ],
+      "closingParagraphs": [
+        "Formálně pravidlo stále dodržujete.",
+        "Pokud ale chcete různé typy výdajů kontrolovat samostatně, jedna široká kategorie přání nemusí stačit.",
+        "Doporučená procenta navíc nemusí odpovídat vaší skutečné situaci.",
+        "Ve městě s drahým bydlením mohou nezbytné výdaje snadno překročit 50 % příjmu. Poměry 50/30/20 je proto lepší chápat jako výchozí bod než jako striktní pravidlo."
+      ]
+    }
+  },
+  "sixJarsMethod": {
+    "title": "Jak funguje metoda 6 sklenic",
+    "paragraphs": [
+      "Metoda 6 sklenic vychází ze stejné základní myšlenky, ale rozděluje rozpočet podrobněji.",
+      "V klasické verzi se každý příjem rozdělí mezi šest kategorií:"
+    ],
+    "table": {
+      "headers": ["Kategorie", "Podíl"],
+      "rows": [
+        ["Nezbytné výdaje", "55 %"],
+        ["Finanční svoboda", "10 %"],
+        ["Dlouhodobé úspory", "10 %"],
+        ["Vzdělávání", "10 %"],
+        ["Zábava", "10 %"],
+        ["Dary a pomoc", "5 %"]
+      ]
+    },
+    "closingParagraphs": [
+      "Ve srovnání s 50/30/20 zde vzniká více samostatných oblastí rozpočtu.",
+      "Například úspory už nejsou jednou širokou kategorií. Peníze určené k budování kapitálu jsou oddělené od dlouhodobých úspor.",
+      "Zábava je oddělena od vzdělávání a pomoci ostatním.",
+      "Díky tomu různé finanční cíle nemusí soutěžit o stejné peníze."
+    ],
+    "strengths": {
+      "title": "Silná stránka metody 6 sklenic",
+      "paragraphs": [
+        "Metoda nabízí hotovou strukturu a zároveň více podrobností než 50/30/20.",
+        "Nemusíte sami vymýšlet hlavní kategorie. Jsou již předem definované.",
+        "Rozpočet je přitom strukturovanější.",
+        "Samostatně vidíte peníze určené na:"
+      ],
+      "items": [
+        "běžný život;",
+        "úspory;",
+        "budování kapitálu;",
+        "vzdělávání;",
+        "zábavu;",
+        "pomoc ostatním."
+      ],
+      "outro": "Tento přístup může být vhodný, pokud už vám tři kategorie 50/30/20 nestačí, ale nechcete vytvářet celý rozpočtový systém od začátku."
+    },
+    "weaknesses": {
+      "title": "Slabá stránka metody 6 sklenic",
+      "paragraphs": [
+        "Předem daná struktura nebude stejně dobře vyhovovat každému.",
+        "Pro jednoho člověka může být samostatná kategorie vzdělávání důležitá, zatímco jiný ji téměř nevyužije.",
+        "Někteří lidé pravidelně kupují dárky nebo přispívají na charitu, zatímco jiní raději tuto část příjmu využijí na jiné cíle.",
+        "Klasická procenta ani kategorie proto nemusíte ponechat beze změny.",
+        "Metodu lze přizpůsobit vlastní situaci."
+      ]
+    }
+  },
+  "envelopeMethod": {
+    "title": "Jak funguje obálková metoda",
+    "paragraphs": [
+      "Obálková metoda jde ještě o krok dál a nechává strukturu rozpočtu téměř úplně na vás.",
+      "Sami si vytváříte kategorie pro výdaje a cíle, které chcete sledovat."
+    ],
+    "exampleIntro": "Například:",
+    "exampleItems": [
+      "bydlení;",
+      "potraviny;",
+      "doprava;",
+      "restaurace;",
+      "zábava;",
+      "dovolená;",
+      "elektronika;",
+      "finanční rezerva;",
+      "vzdělávání."
+    ],
+    "closingParagraphs": [
+      "Každé kategorii poté přiřadíte určitou částku.",
+      "Základní princip zůstává stejný:",
+      "<strong>každá část peněz má svůj účel.</strong>",
+      "Pokud na restaurace vyčleníte 500, právě tato částka určuje, kolik můžete za restaurace utratit bez ohledu na celkový zůstatek na bankovním účtu.",
+      "Historicky lidé skutečně rozdělovali hotovost do fyzických obálek.",
+      "Dnes lze stejný systém používat digitálně bez fyzického oddělování peněz."
+    ],
+    "strengths": {
+      "title": "Silná stránka obálkové metody",
+      "paragraphs": [
+        "Je to nejflexibilnější ze tří přístupů.",
+        "Sami rozhodujete:"
+      ],
+      "items": [
+        "kolik kategorií potřebujete;",
+        "jak podrobné mají být;",
+        "kolik peněz do každé z nich přidělíte;",
+        "které výdaje chcete sledovat samostatně."
+      ],
+      "outro": "Jeden člověk může používat čtyři široké kategorie. Jiný patnáct nebo dvacet."
+    },
+    "weaknesses": {
+      "title": "Slabá stránka obálkové metody",
+      "paragraphs": [
+        "Čím více svobody systém nabízí, tím více rozhodnutí musíte dělat sami.",
+        "Musíte zvolit kategorie, určit rozumné částky a čas od času je upravit.",
+        "Pokud vytvoříte příliš mnoho kategorií, může být rozpočet zbytečně složitý.",
+        "Vysoká úroveň podrobnosti je užitečná jen tehdy, když skutečně pomáhá dělat lepší rozhodnutí."
+      ]
+    }
+  },
+  "detailLevel": {
+    "title": "Tři metody se liší především úrovní podrobnosti",
+    "paragraphs": [
+      "Pokud odhlédneme od různých názvů, je zřejmé, že všechny tři přístupy používají téměř stejný princip.",
+      "Příjem je předem rozdělen do kategorií a každá kategorie odpovídá za určitou skupinu výdajů nebo finančních cílů.",
+      "Rozdíl spočívá v tom, <strong>jak podrobný rozpočet je</strong>.",
+      "Pravidlo 50/30/20 používá tři velmi široké kategorie.",
+      "Metoda 6 sklenic používá šest konkrétnějších kategorií.",
+      "Obálková metoda umožňuje určit libovolný počet kategorií.",
+      "Můžete si je představit jako jednoduchou škálu:",
+      "<strong>50/30/20 → metoda 6 sklenic → obálková metoda</strong>",
+      "Od nejmenší po největší podrobnost.",
+      "Více kategorií ale automaticky neznamená lepší rozpočet.",
+      "Čím podrobnější systém je, tím větší kontrolu nabízí — ale tím více pozornosti vyžaduje."
+    ]
+  },
+  "methodsComparison": {
+    "title": "Porovnání 50/30/20, metody 6 sklenic a obálkové metody",
+    "table": {
+      "headers": ["", "50/30/20", "Metoda 6 sklenic", "Obálková metoda"],
+      "rows": [
+        ["Počet kategorií", "3", "6 v klasické verzi", "Libovolný"],
+        ["Kategorie jsou předem dané", "Ano", "Ano", "Ne"],
+        ["Doporučené poměry", "Ano", "Ano", "Nejsou nutné"],
+        ["Lze poměry měnit?", "Ano", "Ano", "Ano"],
+        ["Lze vytvářet vlastní kategorie?", "Ano, po úpravě metody", "Ano, po úpravě metody", "Ano"],
+        ["Snadnost začátku", "Velmi vysoká", "Vysoká", "Střední"],
+        ["Úroveň podrobnosti", "Nízká", "Střední", "Libovolná"],
+        ["Flexibilita", "Střední", "Vysoká", "Velmi vysoká"],
+        ["Vhodné pro digitální sledování", "Ano", "Ano", "Ano"]
+      ]
+    },
+    "closingParagraphs": [
+      "Neexistuje jedna metoda, která by byla objektivně lepší než ostatní.",
+      "Všechny řeší stejný problém s různou úrovní podrobnosti."
+    ]
+  },
+  "oneIncome": {
+    "title": "Jeden příjem — tři různé způsoby rozdělení",
+    "paragraphs": [
+      "Předpokládejme, že obdržíte příjem 10 000.",
+      "Podívejme se, jak může stejná částka vypadat v jednotlivých systémech."
+    ],
+    "variant503020": {
+      "title": "Varianta 1: pravidlo 50/30/20",
+      "table": {
+        "headers": ["Kategorie", "Podíl", "Částka"],
+        "rows": [
+          ["Potřeby", "50 %", "5 000"],
+          ["Přání", "30 %", "3 000"],
+          ["Úspory a finanční cíle", "20 %", "2 000"]
+        ]
+      },
+      "closingParagraphs": [
+        "Víte, kolik můžete použít na nezbytné výdaje, kolik máte k dispozici na volitelné nákupy a kolik si ponechat na budoucnost.",
+        "Uvnitř těchto kategorií ale není žádné další rozdělení."
+      ]
+    },
+    "variantSixJars": {
+      "title": "Varianta 2: metoda 6 sklenic",
+      "table": {
+        "headers": ["Kategorie", "Podíl", "Částka"],
+        "rows": [
+          ["Nezbytné výdaje", "55 %", "5 500"],
+          ["Finanční svoboda", "10 %", "1 000"],
+          ["Dlouhodobé úspory", "10 %", "1 000"],
+          ["Vzdělávání", "10 %", "1 000"],
+          ["Zábava", "10 %", "1 000"],
+          ["Dary a pomoc", "5 %", "500"]
+        ]
+      },
+      "closingParagraphs": [
+        "Zde je stejných 10 000 rozděleno mezi konkrétnější účely.",
+        "Například peníze na vzdělávání už přímo nekonkurují zábavě a dlouhodobé úspory jsou oddělené od peněz určených k budování kapitálu."
+      ]
+    },
+    "variantEnvelope": {
+      "title": "Varianta 3: obálková metoda",
+      "paragraphs": [
+        "Obálková metoda nevyžaduje pevně dané rozdělení."
+      ],
+      "exampleIntro": "Například:",
+      "table": {
+        "headers": ["Kategorie", "Částka"],
+        "rows": [
+          ["Bydlení a energie", "3 000"],
+          ["Potraviny", "2 000"],
+          ["Doprava", "800"],
+          ["Zábava", "700"],
+          ["Restaurace", "500"],
+          ["Dovolená", "1 000"],
+          ["Finanční rezerva", "1 500"],
+          ["Vzdělávání", "500"],
+          ["Celkem", "10 000"]
+        ]
+      },
+      "closingParagraphs": [
+        "Tento přístup nabízí mnohem větší kontrolu, ale musíte sami rozhodnout, které kategorie skutečně potřebujete."
+      ]
+    }
+  },
+  "when503020": {
+    "title": "Pravidlo 50/30/20 je vhodné, pokud chcete začít co nejjednodušeji",
+    "paragraphs": [
+      "Pokud jste dosud peníze předem vůbec nerozdělovali, pravidlo 50/30/20 může být vhodným výchozím bodem.",
+      "Nemusíte vytvářet složitý systém.",
+      "Stačí sledovat tři oblasti:"
+    ],
+    "items": [
+      "potřeby;",
+      "přání;",
+      "úspory a finanční cíle."
+    ],
+    "closingParagraphs": [
+      "I takto jednoduché rozdělení vám může pomoci přestat vnímat celý zůstatek jako peníze, které lze volně utratit.",
+      "50/30/20 je vhodné také pro lidi, kteří nemají rádi podrobné sledování financí.",
+      "Pokud pro vás není důležité přesně vědět, kolik utratíte za hry, restaurace nebo oblečení, nemusíte pro ně vytvářet samostatné kategorie.",
+      "Všechny tyto výdaje můžete spravovat společně."
+    ]
+  },
+  "whenSixJars": {
+    "title": "Metoda 6 sklenic je vhodná, pokud chcete podrobnější hotovou strukturu",
+    "paragraphs": [
+      "Metoda 6 sklenic se nachází přibližně mezi pravidlem 50/30/20 a zcela vlastním systémem kategorií.",
+      "Kategorií je dost na oddělení hlavních finančních cílů, ale nemusíte celou strukturu rozpočtu vytvářet od začátku.",
+      "Užitečná může být zejména samotná myšlenka současně podporovat několik finančních priorit.",
+      "Pokaždé, když obdržíte příjem, část peněz směřuje nejen na běžné výdaje, ale také na:"
+    ],
+    "items": [
+      "budoucnost;",
+      "vzdělávání;",
+      "odpočinek;",
+      "budování kapitálu;",
+      "další důležité cíle."
+    ],
+    "closingParagraphs": [
+      "Klasickou strukturu můžete postupně přizpůsobit svým potřebám.",
+      "Můžete například změnit procenta, přejmenovat kategorie nebo přidat nové."
+    ]
+  },
+  "whenEnvelope": {
+    "title": "Obálková metoda je vhodná, pokud chcete přesněji kontrolovat jednotlivé výdaje",
+    "paragraphs": [
+      "Obálková metoda je užitečná zejména tehdy, když problémem není celková výše výdajů, ale konkrétní typy výdajů.",
+      "Můžete například dodržovat celkový měsíční rozpočet, ale pravidelně utrácet příliš mnoho:"
+    ],
+    "items": [
+      "za rozvoz jídla;",
+      "restaurace;",
+      "hry;",
+      "oblečení;",
+      "taxi."
+    ],
+    "closingParagraphs": [
+      "V pravidle 50/30/20 mohou všechny tyto výdaje spadat do jedné široké kategorie přání.",
+      "Obálková metoda umožňuje každou důležitou oblast oddělit."
+    ],
+    "exampleTitle": "Například:",
+    "example": "<strong>Restaurace — 500.</strong>",
+    "outroParagraphs": [
+      "Jakmile peníze v této kategorii dojdou, ihned vidíte, že plánovaný rozpočet byl vyčerpán.",
+      "Poté můžete výdaje v této kategorii do dalšího rozdělení zastavit nebo rozpočet vědomě upravit."
+    ]
+  },
+  "strictPercents": {
+    "title": "Je nutné přesně dodržovat procenta?",
+    "paragraphs": [
+      "Ne.",
+      "Procenta jsou užitečným výchozím bodem, ale jejich přesné dodržování by se nemělo stát cílem samo o sobě.",
+      "Pokud nezbytné výdaje tvoří 65 % příjmu, pravidlo 50/30/20 vaše bydlení nezlevní.",
+      "Stejně tak nemá smysl uměle utrácet 10 % příjmu za vzdělávání jen proto, že klasická metoda 6 sklenic této kategorii přiděluje takový podíl.",
+      "Je praktičtější brát doporučené poměry jako počáteční vodítko a následně sledovat, jak dobře odpovídají vašemu skutečnému životu.",
+      "Pokud v jedné kategorii pravidelně peníze chybějí a v jiné stále zůstává velká rezerva, můžete rozdělení změnit.",
+      "Rozpočet by se měl přizpůsobovat vašemu životu, ne naopak."
+    ]
+  },
+  "combineMethods": {
+    "title": "Lze tyto metody kombinovat?",
+    "paragraphs": [
+      "Ano.",
+      "Protože všechny tři metody vycházejí ze stejného základního principu, hranice mezi nimi jsou poměrně flexibilní.",
+      "Můžete například začít s pravidlem 50/30/20 a poté rozdělit kategorii přání do několika podrobnějších kategorií:"
+    ],
+    "wantsItems": [
+      "restaurace;",
+      "zábava;",
+      "koníčky;",
+      "cestování."
+    ],
+    "middleParagraphs": [
+      "Tím se systém přiblíží obálkové metodě.",
+      "Můžete také použít metodu 6 sklenic jako základ a rozdělit dlouhodobé úspory mezi několik cílů:"
+    ],
+    "savingsItems": [
+      "dovolenou;",
+      "elektroniku;",
+      "auto;",
+      "rekonstrukci bydlení."
+    ],
+    "closingParagraphs": [
+      "Můžete postupovat i opačným směrem.",
+      "Pokud se systém s patnácti kategoriemi stane příliš složitým, podobné výdaje lze spojit do několika širších skupin.",
+      "Rozpočet se tak může časem vyvinout v systém, který bude fungovat právě pro vás.",
+      "Název konkrétní metody je méně důležitý než základní princip:",
+      "<strong>peníze dostanou svůj účel ještě předtím, než je utratíte.</strong>"
+    ]
+  },
+  "irregularIncome": {
+    "title": "Co dělat s nepravidelným příjmem",
+    "paragraphs": [
+      "Všechny tři přístupy lze používat i bez pevné mzdy.",
+      "Pokud příjem přichází v jednotlivých platbách, můžete každou z nich rozdělit hned po jejím obdržení.",
+      "Například po zaplacení za projekt ihned rozhodnete, kolik má jít na nezbytné výdaje, úspory a další cíle.",
+      "Pevná procenta mohou být při nepravidelném příjmu obzvlášť praktická, protože nemusíte předem znát přesnou měsíční částku.",
+      "Pokud obdržíte 4 000, rozdělte těchto 4 000.",
+      "Pokud o týden později obdržíte dalších 2 000, rozdělte i tuto částku.",
+      "U obálkové metody můžete použít i jiný přístup: nejprve naplnit nejdůležitější kategorie do cílových částek a teprve poté rozdělit zbytek."
+    ]
+  },
+  "finalChoice": {
+    "title": "Kterou metodu zvolit?",
+    "paragraphs": [
+      "Pokud chcete co nejjednodušší systém, můžete začít s <strong>pravidlem 50/30/20</strong>.",
+      "Tři kategorie se snadno chápou, pamatují a sledují.",
+      "Pokud chcete podrobnější strukturu bez nutnosti vytvářet celý rozpočet od začátku, může být vhodnější <strong>metoda 6 sklenic</strong>.",
+      "Šest kategorií umožňuje oddělit běžné výdaje, úspory, osobní rozvoj, volný čas a další finanční cíle.",
+      "Pokud už svým výdajům dobře rozumíte a chcete si sami určovat kategorie i částky, může být nejlepší volbou <strong>obálková metoda</strong>.",
+      "Vaše volba nemusí být konečná.",
+      "Můžete začít se třemi kategoriemi a postupně přidávat více podrobností."
+    ],
+    "exampleIntro": "Například:",
+    "example": "<strong>50/30/20 → metoda 6 sklenic → vlastní systém kategorií.</strong>",
+    "closingParagraphs": [
+      "Nebo můžete postupovat opačně a příliš podrobný rozpočet zjednodušit spojením mnoha kategorií do několika větších.",
+      "Dobrý způsob rozpočtování není ten, který vypadá nejlépe na papíře, ale ten, který dokážete používat pravidelně."
+    ]
+  },
+  "digitalOnly": {
+    "title": "K rozdělení peněz nepotřebujete fyzické obálky ani sklenice",
+    "paragraphs": [
+      "Všechny tři metody vycházejí z toho, že peníze dostanou svůj účel předem. Není ale nutné je fyzicky oddělovat.",
+      "Můžete dál používat jeden bankovní účet a vnitřní rozdělení sledovat samostatně.",
+      "Například na bankovním účtu můžete mít 12 000, zatímco v rozpočtu je tato částka rozdělena mezi běžné výdaje, úspory, dovolenou, zábavu a další cíle.",
+      "Banka ukazuje, <strong>kolik peněz máte celkem</strong>.",
+      "Rozpočtový systém ukazuje, <strong>k čemu jsou tyto peníze určeny</strong>.",
+      "Proto tyto metody dobře fungují digitálně: peníze mohou zůstat na vašem běžném bankovním účtu a jejich vnitřní rozdělení se sleduje samostatně."
+    ]
+  },
+  "inApp": {
+    "title": "Jak používat různé metody rozpočtování v 6 Jars Finance",
+    "paragraphs": [
+      "Přestože se aplikace jmenuje <strong>6 Jars Finance</strong>, není omezena pouze na klasickou metodu 6 sklenic.",
+      "Při prvním spuštění si můžete vybrat systém rozpočtování, který vám vyhovuje:"
+    ],
+    "items": [
+      "pravidlo 50/30/20;",
+      "klasickou metodu 6 sklenic;",
+      "vlastní systém kategorií založený na obálkové metodě."
+    ],
+    "closingParagraphs": [
+      "Vybraný systém se stane výchozím bodem a podle potřeby ho můžete přizpůsobit změnou procent, názvů kategorií nebo jejich počtu.",
+      "Když obdržíte příjem, aplikace ho rozdělí mezi kategorie podle zvolených poměrů. Po nákupu se sníží pouze zůstatek kategorie, ke které výdaj patří.",
+      "Samotné peníze zůstávají na vašem běžném bankovním účtu. Aplikace se nepřipojuje k bance a nepřesouvá peníze mezi účty.",
+      "Můžete tak dál používat svou běžnou bankovní kartu a zároveň vidět, jaká část celkového zůstatku je už určena na konkrétní výdaje a cíle.",
+      "Systém zvolený při nastavení můžete kdykoli změnit tak, aby lépe odpovídal vašim skutečným výdajům a cílům."
+    ],
+    "cta": "Vyzkoušet 6 Jars Finance →"
+  }
+}

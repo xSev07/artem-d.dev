@@ -1,0 +1,478 @@
+{
+  "title": "50/30/20, método de los 6 frascos o método de los sobres: ¿qué método de presupuesto te conviene?",
+  "metaDescription": "La regla 50/30/20, el método de los 6 frascos y el método de los sobres resuelven el mismo problema: distribuir los ingresos entre categorías por adelantado. Comparamos los tres enfoques para ayudarte a elegir.",
+  "intro": {
+    "paragraphs": [
+      "Hay muchas formas de gestionar un presupuesto personal, pero algunas se basan en la misma idea: <strong>asignar primero un propósito a los ingresos y gastarlos después</strong>.",
+      "Entre estos enfoques se encuentran la regla 50/30/20, el método de los 6 frascos y el método de los sobres.",
+      "Cada método utiliza su propia terminología. En el método de los 6 frascos, el dinero se reparte entre frascos; en el método de los sobres, entre sobres; y en la regla 50/30/20, entre tres grandes grupos de gastos.",
+      "Para comparar estos enfoques sin confusiones innecesarias, en el resto del artículo utilizaré el término general <strong>«categorías»</strong>.",
+      "Una categoría es una parte independiente del presupuesto destinada a un objetivo concreto o a un grupo de gastos, como necesidades, ahorro, ocio o formación.",
+      "Vistos de esta forma, los tres métodos son muy similares.",
+      "La principal diferencia entre ellos es el <strong>nivel de detalle del presupuesto</strong>.",
+      "La regla 50/30/20 utiliza tres categorías amplias. El método de los 6 frascos divide el dinero con más detalle. El método de los sobres permite crear tantas categorías como necesites.",
+      "Veamos cada enfoque en orden, desde el más sencillo hasta el más detallado."
+    ]
+  },
+  "overview": {
+    "title": "Índice",
+    "commonGround": "Qué tienen en común los tres métodos",
+    "rule503020": "Cómo funciona la regla 50/30/20",
+    "sixJarsMethod": "Cómo funciona el método de los 6 frascos",
+    "envelopeMethod": "Cómo funciona el método de los sobres",
+    "detailLevel": "Nivel de detalle",
+    "methodsComparison": "Comparación de los métodos",
+    "oneIncome": "Un ingreso — tres formas de distribuirlo",
+    "when503020": "Cuándo elegir 50/30/20",
+    "whenSixJars": "Cuándo elegir el método de los 6 frascos",
+    "whenEnvelope": "Cuándo elegir el método de los sobres",
+    "strictPercents": "¿Hay que seguir estrictamente los porcentajes?",
+    "combineMethods": "¿Se pueden combinar estos métodos?",
+    "irregularIncome": "Ingresos irregulares",
+    "finalChoice": "¿Qué método elegir?",
+    "digitalOnly": "No necesitas sobres físicos",
+    "inApp": "Cómo usar estos métodos en 6 Jars Finance"
+  },
+  "commonGround": {
+    "title": "Qué tienen en común los tres métodos",
+    "paragraphs": [
+      "El seguimiento tradicional de gastos ayuda a responder a la pregunta:",
+      "<strong>«¿Adónde se ha ido ya mi dinero?»</strong>",
+      "Registras las compras, revisas tus gastos y puedes ver cuánto has gastado en alimentación, transporte, ocio y otros conceptos.",
+      "La regla 50/30/20, el método de los 6 frascos y el método de los sobres plantean un enfoque ligeramente diferente.",
+      "Te ayudan a responder de antemano a otra pregunta:",
+      "<strong>«¿A qué quiero destinar estos ingresos?»</strong>",
+      "Cuando recibes ingresos, los distribuyes entre varias categorías."
+    ],
+    "exampleIntro": "Por ejemplo:",
+    "exampleItems": [
+      "una parte del dinero se destina a gastos cotidianos;",
+      "una parte al ahorro;",
+      "una parte al ocio;",
+      "una parte a futuras compras importantes."
+    ],
+    "closingParagraphs": [
+      "De este modo, el saldo total de tu cuenta bancaria deja de parecer una única cantidad completamente disponible.",
+      "Si tienes 10.000 en la cuenta, eso no significa que puedas gastar los 10.000 de inmediato. Puede que 5.000 ya estén destinados a gastos necesarios, 2.000 al ahorro y solo 1.000 al ocio.",
+      "Los tres métodos ayudan a asignar de antemano un propósito concreto al dinero.",
+      "Se diferencian principalmente en <strong>lo amplias o detalladas que son las categorías y las proporciones que proponen</strong>."
+    ],
+    "cta": "Prueba la distribución del presupuesto con 6 Jars Finance →"
+  },
+  "rule503020": {
+    "title": "Cómo funciona la regla 50/30/20",
+    "paragraphs": [
+      "La regla 50/30/20 es el más sencillo de los tres enfoques.",
+      "Los ingresos netos se dividen en solo tres categorías:"
+    ],
+    "categories": [
+      "<strong>50% — necesidades;</strong>",
+      "<strong>30% — deseos;</strong>",
+      "<strong>20% — ahorro y otros objetivos financieros.</strong>"
+    ],
+    "closingParagraphs": [
+      "Las necesidades incluyen vivienda, alimentación, suministros, transporte y otros gastos básicos.",
+      "La categoría de deseos incluye ocio, restaurantes, viajes, aficiones, compras opcionales y otros gastos de los que podrías prescindir.",
+      "El 20% restante se destina al ahorro, a un fondo de emergencia, inversiones, grandes objetivos o al pago acelerado de deudas."
+    ],
+    "strengths": {
+      "title": "Punto fuerte de la regla 50/30/20",
+      "paragraphs": [
+        "Su principal ventaja es la sencillez.",
+        "En lugar de gestionar muchas categorías, solo necesitas controlar tres grandes áreas.",
+        "No necesitas límites separados para restaurantes, videojuegos, ropa y viajes. Todos estos gastos pueden agruparse en la categoría de deseos.",
+        "Por eso, empezar con la regla 50/30/20 suele ser más fácil que con sistemas más detallados.",
+        "Este enfoque es especialmente útil si no quieres llevar un presupuesto muy detallado y simplemente deseas mantener un equilibrio general entre la vida cotidiana, los gastos opcionales y los objetivos futuros."
+      ]
+    },
+    "weaknesses": {
+      "title": "Punto débil de la regla 50/30/20",
+      "paragraphs": [
+        "Tres categorías ofrecen poca información sobre lo que ocurre realmente dentro del presupuesto.",
+        "Supongamos que destinas 3.000 a deseos.",
+        "Podrías gastar:"
+      ],
+      "exampleItems": [
+        "500 en restaurantes;",
+        "500 en aficiones;",
+        "2.000 en nuevos dispositivos electrónicos."
+      ],
+      "closingParagraphs": [
+        "Formalmente, sigues cumpliendo la regla.",
+        "Pero si quieres controlar por separado distintos tipos de gastos, una sola categoría amplia de deseos puede no ser suficiente.",
+        "Los porcentajes recomendados tampoco siempre se ajustan a tu situación real.",
+        "En una ciudad con vivienda cara, los gastos necesarios pueden superar fácilmente el 50% de los ingresos. Por eso es mejor considerar las proporciones 50/30/20 como un punto de partida y no como una regla estricta."
+      ]
+    }
+  },
+  "sixJarsMethod": {
+    "title": "Cómo funciona el método de los 6 frascos",
+    "paragraphs": [
+      "El método de los 6 frascos utiliza la misma idea básica, pero divide el presupuesto con mayor detalle.",
+      "En la versión clásica, cada ingreso se reparte entre seis categorías:"
+    ],
+    "table": {
+      "headers": ["Categoría", "Proporción"],
+      "rows": [
+        ["Gastos necesarios", "55%"],
+        ["Libertad financiera", "10%"],
+        ["Ahorro a largo plazo", "10%"],
+        ["Formación", "10%"],
+        ["Ocio", "10%"],
+        ["Regalos y ayuda", "5%"]
+      ]
+    },
+    "closingParagraphs": [
+      "En comparación con 50/30/20, aparecen más áreas separadas dentro del presupuesto.",
+      "Por ejemplo, el ahorro deja de tratarse como una sola categoría amplia. El dinero destinado a crear capital se separa del ahorro a largo plazo.",
+      "El ocio se separa de la formación y de la ayuda a otras personas.",
+      "Esto ayuda a evitar que distintos objetivos financieros compitan por el mismo dinero."
+    ],
+    "strengths": {
+      "title": "Punto fuerte del método de los 6 frascos",
+      "paragraphs": [
+        "El método ofrece una estructura ya preparada y, al mismo tiempo, más detalle que la regla 50/30/20.",
+        "No tienes que decidir desde cero cuáles deben ser las categorías principales. Ya están definidas.",
+        "Al mismo tiempo, el presupuesto se vuelve más estructurado.",
+        "Puedes ver por separado el dinero destinado a:"
+      ],
+      "items": [
+        "la vida cotidiana;",
+        "el ahorro;",
+        "la creación de capital;",
+        "la formación;",
+        "el ocio;",
+        "la ayuda a otras personas."
+      ],
+      "outro": "Este enfoque puede ser útil si las tres categorías de 50/30/20 ya no ofrecen suficiente detalle, pero no quieres crear todo un sistema presupuestario desde cero."
+    },
+    "weaknesses": {
+      "title": "Punto débil del método de los 6 frascos",
+      "paragraphs": [
+        "La estructura predefinida no se adapta igual de bien a todo el mundo.",
+        "Para una persona, una categoría separada de formación puede ser importante, mientras que otra apenas la utilizará.",
+        "Algunas personas compran regalos o hacen donaciones con frecuencia, mientras que otras prefieren destinar esa parte de sus ingresos a otros objetivos.",
+        "Por eso no es necesario mantener sin cambios los porcentajes ni las categorías clásicas.",
+        "El método puede adaptarse a tu situación personal."
+      ]
+    }
+  },
+  "envelopeMethod": {
+    "title": "Cómo funciona el método de los sobres",
+    "paragraphs": [
+      "El método de los sobres va un paso más allá y deja casi por completo en tus manos la estructura del presupuesto.",
+      "Tú mismo creas las categorías para los gastos y objetivos que deseas controlar."
+    ],
+    "exampleIntro": "Por ejemplo:",
+    "exampleItems": [
+      "vivienda;",
+      "alimentación;",
+      "transporte;",
+      "restaurantes;",
+      "ocio;",
+      "vacaciones;",
+      "electrónica;",
+      "fondo de emergencia;",
+      "formación."
+    ],
+    "closingParagraphs": [
+      "Después asignas una cantidad concreta a cada categoría.",
+      "El principio básico sigue siendo el mismo:",
+      "<strong>cada parte de tu dinero tiene un propósito.</strong>",
+      "Si destinas 500 a restaurantes, esa cantidad indica cuánto puedes gastar en restaurantes independientemente del saldo total de tu cuenta bancaria.",
+      "Históricamente, el dinero en efectivo se repartía realmente entre sobres físicos.",
+      "Hoy el mismo sistema puede utilizarse de forma digital sin separar físicamente el dinero."
+    ],
+    "strengths": {
+      "title": "Punto fuerte del método de los sobres",
+      "paragraphs": [
+        "Es el más flexible de los tres enfoques.",
+        "Tú decides:"
+      ],
+      "items": [
+        "cuántas categorías necesitas;",
+        "qué nivel de detalle deben tener;",
+        "cuánto dinero destinar a cada una;",
+        "qué gastos quieres controlar por separado."
+      ],
+      "outro": "Una persona puede utilizar cuatro categorías amplias. Otra puede utilizar quince o veinte."
+    },
+    "weaknesses": {
+      "title": "Punto débil del método de los sobres",
+      "paragraphs": [
+        "Cuanta más libertad ofrece un sistema, más decisiones tienes que tomar por tu cuenta.",
+        "Debes elegir las categorías, establecer cantidades razonables y revisarlas de vez en cuando.",
+        "Si creas demasiadas categorías, el presupuesto puede volverse más complicado de lo necesario.",
+        "Un alto nivel de detalle solo es útil cuando realmente te ayuda a tomar mejores decisiones."
+      ]
+    }
+  },
+  "detailLevel": {
+    "title": "Los tres métodos se diferencian principalmente por su nivel de detalle",
+    "paragraphs": [
+      "Si dejamos de lado los distintos nombres, queda claro que los tres enfoques utilizan prácticamente el mismo principio básico.",
+      "Los ingresos se distribuyen por adelantado entre categorías, y cada categoría corresponde a un grupo determinado de gastos u objetivos financieros.",
+      "La diferencia está en <strong>el nivel de detalle con el que se divide el presupuesto</strong>.",
+      "La regla 50/30/20 utiliza tres categorías muy amplias.",
+      "El método de los 6 frascos utiliza seis categorías más específicas.",
+      "El método de los sobres permite definir libremente cualquier número de categorías.",
+      "Puedes verlo como una progresión sencilla:",
+      "<strong>50/30/20 → método de los 6 frascos → método de los sobres</strong>",
+      "Del menor al mayor nivel de detalle.",
+      "Sin embargo, tener más categorías no significa automáticamente tener un presupuesto mejor.",
+      "Cuanto más detallado sea el sistema, más control ofrece — pero también exige más atención."
+    ]
+  },
+  "methodsComparison": {
+    "title": "Comparación entre 50/30/20, el método de los 6 frascos y el método de los sobres",
+    "table": {
+      "headers": ["", "50/30/20", "Método de los 6 frascos", "Método de los sobres"],
+      "rows": [
+        ["Número de categorías", "3", "6 en la versión clásica", "Personalizable"],
+        ["Categorías predefinidas", "Sí", "Sí", "No"],
+        ["Proporciones recomendadas", "Sí", "Sí", "No es obligatorio"],
+        ["¿Se pueden cambiar las proporciones?", "Sí", "Sí", "Sí"],
+        ["¿Se pueden crear categorías propias?", "Sí, adaptando el método", "Sí, adaptando el método", "Sí"],
+        ["Facilidad para empezar", "Muy alta", "Alta", "Media"],
+        ["Nivel de detalle", "Bajo", "Medio", "Personalizable"],
+        ["Flexibilidad", "Media", "Alta", "Muy alta"],
+        ["Adecuado para gestión digital", "Sí", "Sí", "Sí"]
+      ]
+    },
+    "closingParagraphs": [
+      "Ninguno de estos métodos es objetivamente mejor que los demás.",
+      "Resuelven el mismo problema con distintos niveles de detalle."
+    ]
+  },
+  "oneIncome": {
+    "title": "Un ingreso — tres formas diferentes de distribuirlo",
+    "paragraphs": [
+      "Supongamos que recibes unos ingresos de 10.000.",
+      "Veamos cómo podría distribuirse la misma cantidad en cada sistema."
+    ],
+    "variant503020": {
+      "title": "Opción 1: regla 50/30/20",
+      "table": {
+        "headers": ["Categoría", "Proporción", "Cantidad"],
+        "rows": [
+          ["Necesidades", "50%", "5.000"],
+          ["Deseos", "30%", "3.000"],
+          ["Ahorro y objetivos financieros", "20%", "2.000"]
+        ]
+      },
+      "closingParagraphs": [
+        "Sabes cuánto puede destinarse a gastos necesarios, cuánto está disponible para compras opcionales y cuánto debe reservarse para el futuro.",
+        "Pero no existe una división adicional dentro de estas categorías."
+      ]
+    },
+    "variantSixJars": {
+      "title": "Opción 2: método de los 6 frascos",
+      "table": {
+        "headers": ["Categoría", "Proporción", "Cantidad"],
+        "rows": [
+          ["Gastos necesarios", "55%", "5.500"],
+          ["Libertad financiera", "10%", "1.000"],
+          ["Ahorro a largo plazo", "10%", "1.000"],
+          ["Formación", "10%", "1.000"],
+          ["Ocio", "10%", "1.000"],
+          ["Regalos y ayuda", "5%", "500"]
+        ]
+      },
+      "closingParagraphs": [
+        "Aquí los mismos 10.000 se reparten entre objetivos más específicos.",
+        "Por ejemplo, el dinero destinado a formación ya no compite directamente con el ocio, mientras que el ahorro a largo plazo se mantiene separado del dinero destinado a crear capital."
+      ]
+    },
+    "variantEnvelope": {
+      "title": "Opción 3: método de los sobres",
+      "paragraphs": [
+        "El método de los sobres no exige una distribución fija."
+      ],
+      "exampleIntro": "Por ejemplo:",
+      "table": {
+        "headers": ["Categoría", "Cantidad"],
+        "rows": [
+          ["Vivienda y suministros", "3.000"],
+          ["Alimentación", "2.000"],
+          ["Transporte", "800"],
+          ["Ocio", "700"],
+          ["Restaurantes", "500"],
+          ["Vacaciones", "1.000"],
+          ["Fondo de emergencia", "1.500"],
+          ["Formación", "500"],
+          ["Total", "10.000"]
+        ]
+      },
+      "closingParagraphs": [
+        "Este enfoque ofrece mucho más control, pero debes decidir por tu cuenta qué categorías necesitas realmente."
+      ]
+    }
+  },
+  "when503020": {
+    "title": "La regla 50/30/20 es adecuada si quieres empezar de la forma más sencilla posible",
+    "paragraphs": [
+      "Si nunca has distribuido el dinero por adelantado, la regla 50/30/20 puede ser un buen punto de partida.",
+      "No necesitas crear un sistema complicado.",
+      "Solo tienes que controlar tres áreas:"
+    ],
+    "items": [
+      "necesidades;",
+      "deseos;",
+      "ahorro y objetivos financieros."
+    ],
+    "closingParagraphs": [
+      "Incluso una división tan sencilla puede ayudarte a dejar de ver todo tu saldo como dinero libre para gastar.",
+      "El 50/30/20 también es adecuado para quienes no disfrutan de un seguimiento financiero detallado.",
+      "Si no te importa saber exactamente cuánto gastas en videojuegos, restaurantes o ropa, no necesitas crear categorías separadas para ellos.",
+      "Puedes gestionar todos esos gastos juntos."
+    ]
+  },
+  "whenSixJars": {
+    "title": "El método de los 6 frascos es adecuado si quieres una estructura preparada y más detallada",
+    "paragraphs": [
+      "El método de los 6 frascos se sitúa aproximadamente entre el 50/30/20 y un sistema de categorías completamente personalizado.",
+      "Hay suficientes categorías para separar los principales objetivos financieros, pero no tienes que construir toda la estructura del presupuesto desde cero.",
+      "Puede ser especialmente útil la idea de mantener varias prioridades financieras al mismo tiempo.",
+      "Cada vez que recibes ingresos, una parte del dinero se destina no solo a gastos corrientes, sino también a:"
+    ],
+    "items": [
+      "el futuro;",
+      "la formación;",
+      "el ocio;",
+      "la creación de capital;",
+      "otros objetivos importantes."
+    ],
+    "closingParagraphs": [
+      "Puedes adaptar gradualmente la estructura clásica a tus necesidades.",
+      "Por ejemplo, puedes cambiar los porcentajes, renombrar categorías o añadir otras nuevas."
+    ]
+  },
+  "whenEnvelope": {
+    "title": "El método de los sobres es adecuado si quieres controlar con más precisión gastos concretos",
+    "paragraphs": [
+      "El método de los sobres es especialmente útil cuando el problema no es tu gasto total, sino determinados tipos de gastos.",
+      "Por ejemplo, puedes mantenerte dentro de tu presupuesto mensual general pero gastar demasiado con frecuencia:"
+    ],
+    "items": [
+      "en comida a domicilio;",
+      "en restaurantes;",
+      "en videojuegos;",
+      "en ropa;",
+      "en taxis."
+    ],
+    "closingParagraphs": [
+      "Con la regla 50/30/20, todos estos gastos pueden formar parte de una única categoría amplia de deseos.",
+      "El método de los sobres permite separar cada área importante."
+    ],
+    "exampleTitle": "Por ejemplo:",
+    "example": "<strong>Restaurantes — 500.</strong>",
+    "outroParagraphs": [
+      "Cuando se acaba el dinero de esa categoría, puedes ver inmediatamente que el presupuesto previsto ya se ha utilizado.",
+      "Entonces puedes dejar de gastar en esa categoría hasta la siguiente distribución o ajustar conscientemente tu presupuesto."
+    ]
+  },
+  "strictPercents": {
+    "title": "¿Hay que seguir estrictamente los porcentajes?",
+    "paragraphs": [
+      "No.",
+      "Los porcentajes son útiles como punto de partida, pero seguirlos exactamente no debería convertirse en un objetivo en sí mismo.",
+      "Si los gastos necesarios representan el 65% de tus ingresos, la regla 50/30/20 no hará que tu vivienda sea más barata.",
+      "Del mismo modo, no tiene sentido gastar artificialmente el 10% de tus ingresos en formación solo porque el método clásico de los 6 frascos asigna esa proporción.",
+      "Es más útil tratar las proporciones recomendadas como una primera referencia y después comprobar qué tan bien se adaptan a tu vida real.",
+      "Si una categoría se queda sin dinero con frecuencia mientras otra acumula constantemente un gran excedente, puedes cambiar la distribución.",
+      "Tu presupuesto debe adaptarse a tu vida, no al contrario."
+    ]
+  },
+  "combineMethods": {
+    "title": "¿Se pueden combinar estos métodos?",
+    "paragraphs": [
+      "Sí.",
+      "Como los tres métodos se basan en el mismo principio fundamental, los límites entre ellos son bastante flexibles.",
+      "Por ejemplo, puedes empezar con la regla 50/30/20 y después dividir la categoría de deseos en varias categorías más detalladas:"
+    ],
+    "wantsItems": [
+      "restaurantes;",
+      "ocio;",
+      "aficiones;",
+      "viajes."
+    ],
+    "middleParagraphs": [
+      "De este modo, el sistema se acerca más al método de los sobres.",
+      "También puedes usar el método de los 6 frascos como base y dividir el ahorro a largo plazo entre varios objetivos:"
+    ],
+    "savingsItems": [
+      "vacaciones;",
+      "electrónica;",
+      "un coche;",
+      "reformas del hogar."
+    ],
+    "closingParagraphs": [
+      "También puedes ir en la dirección contraria.",
+      "Si un sistema con quince categorías se vuelve demasiado complicado, puedes combinar gastos similares en unas pocas categorías más amplias.",
+      "Con el tiempo, tu presupuesto puede evolucionar hasta convertirse en un sistema que funcione específicamente para ti.",
+      "El nombre del método importa menos que el principio fundamental:",
+      "<strong>el dinero recibe un propósito antes de que lo gastes.</strong>"
+    ]
+  },
+  "irregularIncome": {
+    "title": "Qué hacer con ingresos irregulares",
+    "paragraphs": [
+      "Los tres enfoques pueden utilizarse incluso sin un salario fijo.",
+      "Si tus ingresos llegan en pagos separados, puedes distribuir cada nuevo pago en cuanto lo recibas.",
+      "Por ejemplo, después de recibir el pago por un proyecto, puedes decidir inmediatamente cuánto destinar a gastos necesarios, ahorro y otros objetivos.",
+      "Los porcentajes fijos pueden ser especialmente prácticos con ingresos irregulares, porque no necesitas conocer de antemano tus ingresos mensuales exactos.",
+      "Si recibes 4.000, distribuye esos 4.000.",
+      "Si una semana después recibes otros 2.000, distribuye también esos 2.000.",
+      "Con el método de los sobres también puedes utilizar otro enfoque: primero financia las categorías más importantes hasta alcanzar sus cantidades objetivo y después distribuye lo que quede."
+    ]
+  },
+  "finalChoice": {
+    "title": "¿Qué método elegir?",
+    "paragraphs": [
+      "Si quieres un sistema lo más sencillo posible, puedes empezar con la <strong>regla 50/30/20</strong>.",
+      "Tres categorías son fáciles de entender, recordar y gestionar.",
+      "Si quieres más estructura sin tener que crear un presupuesto desde cero, el <strong>método de los 6 frascos</strong> puede ser una mejor opción.",
+      "Seis categorías permiten separar los gastos corrientes, el ahorro, el desarrollo personal, el ocio y otros objetivos financieros.",
+      "Si ya conoces bien tus gastos y quieres definir personalmente las categorías y las cantidades, el <strong>método de los sobres</strong> puede ser la mejor opción.",
+      "Tu elección no tiene que ser definitiva.",
+      "Puedes empezar con tres categorías y añadir gradualmente más detalle."
+    ],
+    "exampleIntro": "Por ejemplo:",
+    "example": "<strong>50/30/20 → método de los 6 frascos → tu propio sistema de categorías.</strong>",
+    "closingParagraphs": [
+      "O puedes avanzar en la dirección opuesta y simplificar un presupuesto demasiado detallado combinando muchas categorías en unas pocas más amplias.",
+      "Un buen método de presupuesto no es el que parece más correcto sobre el papel, sino el que puedes utilizar de forma constante."
+    ]
+  },
+  "digitalOnly": {
+    "title": "No necesitas sobres ni frascos físicos para distribuir tu dinero",
+    "paragraphs": [
+      "Los tres métodos se basan en asignar un propósito al dinero por adelantado. Pero no necesitas mantenerlo físicamente separado.",
+      "Puedes seguir utilizando una sola cuenta bancaria y llevar por separado únicamente la distribución interna.",
+      "Por ejemplo, puedes tener 12.000 en tu cuenta bancaria mientras tu presupuesto divide esa cantidad entre gastos corrientes, ahorro, vacaciones, ocio y otros objetivos.",
+      "Tu banco muestra <strong>cuánto dinero tienes en total</strong>.",
+      "Tu sistema de presupuesto muestra <strong>para qué está destinado ese dinero</strong>.",
+      "Por eso estos métodos funcionan bien de forma digital: el dinero puede permanecer en tu cuenta bancaria habitual mientras la distribución interna se controla por separado."
+    ]
+  },
+  "inApp": {
+    "title": "Cómo usar distintos métodos de presupuesto en 6 Jars Finance",
+    "paragraphs": [
+      "Aunque la aplicación se llama <strong>6 Jars Finance</strong>, no está limitada al método clásico de los 6 frascos.",
+      "La primera vez que abras la aplicación podrás elegir el sistema de presupuesto que más te convenga:"
+    ],
+    "items": [
+      "la regla 50/30/20;",
+      "el método clásico de los 6 frascos;",
+      "tu propio sistema de categorías basado en el método de los sobres."
+    ],
+    "closingParagraphs": [
+      "El sistema elegido se convierte en tu punto de partida y puedes adaptarlo cuando sea necesario cambiando los porcentajes, los nombres de las categorías o el número de categorías.",
+      "Cuando recibes ingresos, la aplicación los distribuye entre las categorías según las proporciones elegidas. Después de una compra, solo disminuye el saldo de la categoría a la que pertenece ese gasto.",
+      "El dinero permanece en tu cuenta bancaria habitual. La aplicación no se conecta con tu banco ni mueve dinero entre cuentas.",
+      "Así puedes seguir utilizando tu tarjeta bancaria habitual y, al mismo tiempo, ver qué parte de tu saldo total ya está destinada a gastos y objetivos concretos.",
+      "Puedes cambiar en cualquier momento el sistema elegido durante la configuración para que se adapte mejor a tus gastos y objetivos reales."
+    ],
+    "cta": "Prueba 6 Jars Finance →"
+  }
+}

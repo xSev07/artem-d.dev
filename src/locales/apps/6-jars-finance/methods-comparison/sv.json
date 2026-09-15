@@ -1,0 +1,478 @@
+{
+  "title": "50/30/20, 6 Jars-metoden eller kuvertmetoden: vilken budgetmetod passar dig?",
+  "metaDescription": "50/30/20-regeln, 6 Jars-metoden och kuvertmetoden löser samma problem: att fördela inkomsten mellan kategorier i förväg. Vi jämför de tre metoderna och hjälper dig att välja.",
+  "intro": {
+    "paragraphs": [
+      "Det finns många sätt att hantera en personlig budget, men vissa bygger på samma idé: <strong>fördela inkomsten efter syfte först och spendera pengarna därefter</strong>.",
+      "Till dessa metoder hör 50/30/20-regeln, 6 Jars-metoden och kuvertmetoden.",
+      "Varje metod använder sina egna begrepp. I 6 Jars-metoden delas pengarna mellan burkar, i kuvertmetoden mellan kuvert och i 50/30/20-regeln mellan tre breda grupper av utgifter.",
+      "För att kunna jämföra metoderna utan onödig förvirring använder jag fortsättningsvis det gemensamma ordet <strong>”kategorier”</strong>.",
+      "En kategori är en separat del av budgeten som är avsedd för ett visst syfte eller en grupp utgifter, till exempel nödvändiga utgifter, sparande, nöjen eller utbildning.",
+      "Sett ur det perspektivet är de tre metoderna mycket lika.",
+      "Den viktigaste skillnaden mellan dem är <strong>hur detaljerad budgeten är</strong>.",
+      "50/30/20-regeln använder tre breda kategorier. 6 Jars-metoden delar upp pengarna mer detaljerat. Kuvertmetoden låter dig skapa så många kategorier som du behöver.",
+      "Låt oss gå igenom metoderna i ordning — från den enklaste till den mest detaljerade."
+    ]
+  },
+  "overview": {
+    "title": "Innehåll",
+    "commonGround": "Vad alla tre metoder har gemensamt",
+    "rule503020": "Så fungerar 50/30/20-regeln",
+    "sixJarsMethod": "Så fungerar 6 Jars-metoden",
+    "envelopeMethod": "Så fungerar kuvertmetoden",
+    "detailLevel": "Detaljeringsnivå",
+    "methodsComparison": "Jämförelse av metoderna",
+    "oneIncome": "En inkomst — tre sätt att fördela den",
+    "when503020": "När passar 50/30/20?",
+    "whenSixJars": "När passar 6 Jars-metoden?",
+    "whenEnvelope": "När passar kuvertmetoden?",
+    "strictPercents": "Måste procentsatserna följas exakt?",
+    "combineMethods": "Kan metoderna kombineras?",
+    "irregularIncome": "Oregelbunden inkomst",
+    "finalChoice": "Vilken metod ska du välja?",
+    "digitalOnly": "Du behöver inga fysiska kuvert",
+    "inApp": "Så använder du metoderna i 6 Jars Finance"
+  },
+  "commonGround": {
+    "title": "Vad alla tre metoder har gemensamt",
+    "paragraphs": [
+      "Traditionell utgiftsspårning hjälper dig att svara på frågan:",
+      "<strong>”Vart har mina pengar redan tagit vägen?”</strong>",
+      "Du registrerar köp, granskar dina utgifter och kan se hur mycket du har spenderat på mat, transport, nöjen och andra utgifter.",
+      "50/30/20-regeln, 6 Jars-metoden och kuvertmetoden använder ett något annorlunda angreppssätt.",
+      "De hjälper dig att besvara en annan fråga i förväg:",
+      "<strong>”Vad vill jag använda den här inkomsten till?”</strong>",
+      "När du får en inkomst fördelar du den mellan flera kategorier."
+    ],
+    "exampleIntro": "Till exempel:",
+    "exampleItems": [
+      "en del av pengarna avsätts för vardagliga utgifter;",
+      "en del för sparande;",
+      "en del för nöjen;",
+      "en del för framtida större inköp."
+    ],
+    "closingParagraphs": [
+      "På så sätt känns inte hela saldot på bankkontot längre som en enda summa som är helt fri att spendera.",
+      "Om du har 10 000 på kontot betyder det inte att du kan spendera hela summan direkt. Kanske är 5 000 redan avsatta för nödvändiga utgifter, 2 000 för sparande och bara 1 000 för nöjen.",
+      "Alla tre metoder hjälper dig att ge pengarna ett bestämt syfte i förväg.",
+      "De skiljer sig främst åt genom <strong>hur breda eller detaljerade kategorierna är och vilka proportioner som föreslås</strong>."
+    ],
+    "cta": "Prova budgetfördelning med 6 Jars Finance →"
+  },
+  "rule503020": {
+    "title": "Så fungerar 50/30/20-regeln",
+    "paragraphs": [
+      "50/30/20-regeln är den enklaste av de tre metoderna.",
+      "Nettoinkomsten delas upp i endast tre kategorier:"
+    ],
+    "categories": [
+      "<strong>50 % — behov;</strong>",
+      "<strong>30 % — önskemål;</strong>",
+      "<strong>20 % — sparande och andra ekonomiska mål.</strong>"
+    ],
+    "closingParagraphs": [
+      "Behov omfattar boende, mat, räkningar, transport och andra grundläggande utgifter.",
+      "Kategorin önskemål omfattar nöjen, restauranger, resor, hobbyer, valfria inköp och andra utgifter som du skulle kunna klara dig utan.",
+      "De sista 20 % går till sparande, buffert, investeringar, större mål eller snabbare återbetalning av skulder."
+    ],
+    "strengths": {
+      "title": "Styrkan med 50/30/20-regeln",
+      "paragraphs": [
+        "Den största fördelen är enkelheten.",
+        "I stället för att hantera många kategorier behöver du bara hålla koll på tre breda områden.",
+        "Du behöver inga separata gränser för restauranger, spel, kläder och resor. Alla dessa utgifter kan samlas i kategorin önskemål.",
+        "Därför är det vanligtvis enklare att börja med 50/30/20 än med mer detaljerade system.",
+        "Metoden passar särskilt bra om du inte vill följa budgeten i detalj utan främst vill hålla en övergripande balans mellan vardag, valfria utgifter och framtida mål."
+      ]
+    },
+    "weaknesses": {
+      "title": "Svagheten med 50/30/20-regeln",
+      "paragraphs": [
+        "Tre kategorier ger begränsad information om vad som faktiskt händer inom budgeten.",
+        "Anta att du avsätter 3 000 till önskemål.",
+        "Du skulle till exempel kunna spendera:"
+      ],
+      "exampleItems": [
+        "500 på restauranger;",
+        "500 på hobbyer;",
+        "2 000 på ny elektronik."
+      ],
+      "closingParagraphs": [
+        "Formellt följer du fortfarande regeln.",
+        "Men om du vill kontrollera olika typer av utgifter separat kan en enda bred kategori för önskemål vara otillräcklig.",
+        "De rekommenderade procentsatserna passar inte heller alltid din verkliga situation.",
+        "I en stad med höga boendekostnader kan nödvändiga utgifter lätt överstiga 50 % av inkomsten. Därför är det bättre att se 50/30/20-fördelningen som en utgångspunkt än som en strikt regel."
+      ]
+    }
+  },
+  "sixJarsMethod": {
+    "title": "Så fungerar 6 Jars-metoden",
+    "paragraphs": [
+      "6 Jars-metoden bygger på samma grundidé men delar upp budgeten mer detaljerat.",
+      "I den klassiska versionen fördelas varje inkomst mellan sex kategorier:"
+    ],
+    "table": {
+      "headers": ["Kategori", "Andel"],
+      "rows": [
+        ["Nödvändiga utgifter", "55 %"],
+        ["Ekonomisk frihet", "10 %"],
+        ["Långsiktigt sparande", "10 %"],
+        ["Utbildning", "10 %"],
+        ["Nöjen", "10 %"],
+        ["Gåvor och hjälp", "5 %"]
+      ]
+    },
+    "closingParagraphs": [
+      "Jämfört med 50/30/20 skapas fler separata delar av budgeten.",
+      "Sparande behandlas till exempel inte längre som en enda bred kategori. Pengar för kapitaluppbyggnad skiljs från långsiktigt sparande.",
+      "Nöjen skiljs från utbildning och hjälp till andra.",
+      "Det gör att olika ekonomiska mål inte behöver konkurrera lika mycket om samma pengar."
+    ],
+    "strengths": {
+      "title": "Styrkan med 6 Jars-metoden",
+      "paragraphs": [
+        "Metoden erbjuder en färdig struktur samtidigt som den ger mer detalj än 50/30/20.",
+        "Du behöver inte själv bestämma huvudkategorierna. De är redan definierade.",
+        "Samtidigt blir budgeten mer strukturerad.",
+        "Du kan separat se pengarna som är avsatta för:"
+      ],
+      "items": [
+        "vardagen;",
+        "sparande;",
+        "kapitaluppbyggnad;",
+        "utbildning;",
+        "nöjen;",
+        "hjälp till andra."
+      ],
+      "outro": "Det här kan passa om de tre kategorierna i 50/30/20 inte längre ger tillräckligt med detalj, men du inte vill bygga ett helt eget budgetsystem från grunden."
+    },
+    "weaknesses": {
+      "title": "Svagheten med 6 Jars-metoden",
+      "paragraphs": [
+        "Den färdiga strukturen passar inte alla lika bra.",
+        "För en person kan en separat kategori för utbildning vara viktig, medan någon annan nästan aldrig använder den.",
+        "Vissa köper regelbundet presenter eller skänker pengar till välgörenhet, medan andra hellre använder den delen av inkomsten till andra mål.",
+        "Du behöver därför inte behålla de klassiska procentsatserna eller kategorierna oförändrade.",
+        "Metoden kan anpassas efter din egen situation."
+      ]
+    }
+  },
+  "envelopeMethod": {
+    "title": "Så fungerar kuvertmetoden",
+    "paragraphs": [
+      "Kuvertmetoden går ett steg längre och låter dig nästan helt bestämma budgetens struktur själv.",
+      "Du skapar själv kategorier för de utgifter och mål som du vill kontrollera."
+    ],
+    "exampleIntro": "Till exempel:",
+    "exampleItems": [
+      "boende;",
+      "mat;",
+      "transport;",
+      "restauranger;",
+      "nöjen;",
+      "semester;",
+      "elektronik;",
+      "buffert;",
+      "utbildning."
+    ],
+    "closingParagraphs": [
+      "Därefter tilldelar du varje kategori ett visst belopp.",
+      "Grundprincipen är densamma:",
+      "<strong>varje del av pengarna har ett syfte.</strong>",
+      "Om du avsätter 500 till restauranger är det just den summan som visar hur mycket du kan använda där, oavsett det totala saldot på bankkontot.",
+      "Historiskt delades kontanter faktiskt upp mellan fysiska kuvert.",
+      "I dag kan samma system användas digitalt utan att pengarna behöver separeras fysiskt."
+    ],
+    "strengths": {
+      "title": "Styrkan med kuvertmetoden",
+      "paragraphs": [
+        "Det är den mest flexibla av de tre metoderna.",
+        "Du bestämmer själv:"
+      ],
+      "items": [
+        "hur många kategorier du behöver;",
+        "hur detaljerade de ska vara;",
+        "hur mycket pengar som ska tilldelas varje kategori;",
+        "vilka utgifter du vill kontrollera separat."
+      ],
+      "outro": "En person kan använda fyra breda kategorier. En annan kan använda femton eller tjugo."
+    },
+    "weaknesses": {
+      "title": "Svagheten med kuvertmetoden",
+      "paragraphs": [
+        "Ju mer frihet ett system ger, desto fler beslut behöver du fatta själv.",
+        "Du behöver välja kategorier, bestämma rimliga belopp och se över dem då och då.",
+        "Om du skapar för många kategorier kan budgeten bli mer komplicerad än nödvändigt.",
+        "En hög detaljnivå är bara användbar när den faktiskt hjälper dig att fatta bättre beslut."
+      ]
+    }
+  },
+  "detailLevel": {
+    "title": "De tre metoderna skiljer sig främst i detaljnivå",
+    "paragraphs": [
+      "Om man bortser från de olika namnen blir det tydligt att alla tre metoderna använder nästan samma grundprincip.",
+      "Inkomsten fördelas mellan kategorier i förväg och varje kategori motsvarar en viss grupp av utgifter eller ekonomiska mål.",
+      "Skillnaden är <strong>hur detaljerat budgeten delas upp</strong>.",
+      "50/30/20-regeln använder tre mycket breda kategorier.",
+      "6 Jars-metoden använder sex mer specifika kategorier.",
+      "Kuvertmetoden låter dig själv bestämma valfritt antal kategorier.",
+      "Du kan se dem som en enkel skala:",
+      "<strong>50/30/20 → 6 Jars-metoden → kuvertmetoden</strong>",
+      "Från minst till mest detaljerad.",
+      "Fler kategorier innebär dock inte automatiskt en bättre budget.",
+      "Ju mer detaljerat systemet är, desto mer kontroll ger det — men desto mer uppmärksamhet kräver det också."
+    ]
+  },
+  "methodsComparison": {
+    "title": "Jämförelse av 50/30/20, 6 Jars-metoden och kuvertmetoden",
+    "table": {
+      "headers": ["", "50/30/20", "6 Jars-metoden", "Kuvertmetoden"],
+      "rows": [
+        ["Antal kategorier", "3", "6 i den klassiska versionen", "Valfritt"],
+        ["Kategorier fördefinierade", "Ja", "Ja", "Nej"],
+        ["Rekommenderad fördelning", "Ja", "Ja", "Inte nödvändigt"],
+        ["Kan fördelningen ändras?", "Ja", "Ja", "Ja"],
+        ["Kan egna kategorier skapas?", "Ja, om metoden anpassas", "Ja, om metoden anpassas", "Ja"],
+        ["Hur lätt det är att komma igång", "Mycket lätt", "Lätt", "Medel"],
+        ["Detaljnivå", "Låg", "Medel", "Valfri"],
+        ["Flexibilitet", "Medel", "Hög", "Mycket hög"],
+        ["Passar för digital hantering", "Ja", "Ja", "Ja"]
+      ]
+    },
+    "closingParagraphs": [
+      "Ingen av dessa metoder är objektivt bättre än de andra.",
+      "De löser samma problem med olika detaljnivå."
+    ]
+  },
+  "oneIncome": {
+    "title": "En inkomst — tre olika sätt att fördela den",
+    "paragraphs": [
+      "Anta att du får en inkomst på 10 000.",
+      "Låt oss se hur samma summa kan se ut i de tre systemen."
+    ],
+    "variant503020": {
+      "title": "Alternativ 1: 50/30/20-regeln",
+      "table": {
+        "headers": ["Kategori", "Andel", "Belopp"],
+        "rows": [
+          ["Behov", "50 %", "5 000"],
+          ["Önskemål", "30 %", "3 000"],
+          ["Sparande och ekonomiska mål", "20 %", "2 000"]
+        ]
+      },
+      "closingParagraphs": [
+        "Du vet hur mycket som kan gå till nödvändiga utgifter, hur mycket som finns till valfria köp och hur mycket som ska sparas för framtiden.",
+        "Men det finns ingen ytterligare uppdelning inom kategorierna."
+      ]
+    },
+    "variantSixJars": {
+      "title": "Alternativ 2: 6 Jars-metoden",
+      "table": {
+        "headers": ["Kategori", "Andel", "Belopp"],
+        "rows": [
+          ["Nödvändiga utgifter", "55 %", "5 500"],
+          ["Ekonomisk frihet", "10 %", "1 000"],
+          ["Långsiktigt sparande", "10 %", "1 000"],
+          ["Utbildning", "10 %", "1 000"],
+          ["Nöjen", "10 %", "1 000"],
+          ["Gåvor och hjälp", "5 %", "500"]
+        ]
+      },
+      "closingParagraphs": [
+        "Här fördelas samma 10 000 mellan mer specifika syften.",
+        "Pengar till utbildning konkurrerar till exempel inte längre direkt med nöjen, medan långsiktigt sparande hålls separat från pengar för kapitaluppbyggnad."
+      ]
+    },
+    "variantEnvelope": {
+      "title": "Alternativ 3: kuvertmetoden",
+      "paragraphs": [
+        "Kuvertmetoden kräver ingen fast fördelning."
+      ],
+      "exampleIntro": "Till exempel:",
+      "table": {
+        "headers": ["Kategori", "Belopp"],
+        "rows": [
+          ["Boende och räkningar", "3 000"],
+          ["Mat", "2 000"],
+          ["Transport", "800"],
+          ["Nöjen", "700"],
+          ["Restauranger", "500"],
+          ["Semester", "1 000"],
+          ["Buffert", "1 500"],
+          ["Utbildning", "500"],
+          ["Totalt", "10 000"]
+        ]
+      },
+      "closingParagraphs": [
+        "Det här upplägget ger betydligt mer kontroll, men du behöver själv bestämma vilka kategorier du faktiskt behöver."
+      ]
+    }
+  },
+  "when503020": {
+    "title": "50/30/20-regeln passar om du vill börja så enkelt som möjligt",
+    "paragraphs": [
+      "Om du aldrig tidigare har fördelat pengar i förväg kan 50/30/20-regeln vara en bra utgångspunkt.",
+      "Du behöver inte bygga ett komplicerat system.",
+      "Du behöver bara hålla koll på tre områden:"
+    ],
+    "items": [
+      "behov;",
+      "önskemål;",
+      "sparande och ekonomiska mål."
+    ],
+    "closingParagraphs": [
+      "Även en så enkel uppdelning kan hjälpa dig att sluta se hela saldot som pengar som är fria att spendera.",
+      "50/30/20 passar också personer som inte gillar detaljerad ekonomisk uppföljning.",
+      "Om det inte är viktigt för dig att veta exakt hur mycket du spenderar på spel, restauranger eller kläder behöver du inte skapa separata kategorier för dem.",
+      "Du kan hantera alla dessa utgifter tillsammans."
+    ]
+  },
+  "whenSixJars": {
+    "title": "6 Jars-metoden passar om du vill ha en mer detaljerad färdig struktur",
+    "paragraphs": [
+      "6 Jars-metoden ligger ungefär mellan 50/30/20 och ett helt eget kategorisystem.",
+      "Det finns tillräckligt många kategorier för att skilja på de viktigaste ekonomiska målen, men du behöver inte bygga hela budgetstrukturen från grunden.",
+      "Särskilt användbar kan idén vara att stödja flera ekonomiska prioriteringar samtidigt.",
+      "Varje gång du får en inkomst går en del av pengarna inte bara till löpande utgifter utan också till:"
+    ],
+    "items": [
+      "framtiden;",
+      "utbildning;",
+      "avkoppling;",
+      "kapitaluppbyggnad;",
+      "andra viktiga mål."
+    ],
+    "closingParagraphs": [
+      "Den klassiska strukturen kan gradvis anpassas efter dina behov.",
+      "Du kan till exempel ändra procentsatser, byta namn på kategorier eller lägga till nya."
+    ]
+  },
+  "whenEnvelope": {
+    "title": "Kuvertmetoden passar om du vill ha mer exakt kontroll över enskilda utgifter",
+    "paragraphs": [
+      "Kuvertmetoden är särskilt användbar när problemet inte är dina totala utgifter utan vissa specifika utgiftsområden.",
+      "Du kan till exempel hålla dig inom hela månadsbudgeten men ändå regelbundet spendera för mycket på:"
+    ],
+    "items": [
+      "matleveranser;",
+      "restauranger;",
+      "spel;",
+      "kläder;",
+      "taxi."
+    ],
+    "closingParagraphs": [
+      "I 50/30/20-regeln kan alla dessa utgifter ligga i en enda bred kategori för önskemål.",
+      "Kuvertmetoden gör det möjligt att separera varje viktigt område."
+    ],
+    "exampleTitle": "Till exempel:",
+    "example": "<strong>Restauranger — 500.</strong>",
+    "outroParagraphs": [
+      "När pengarna i kategorin är slut ser du direkt att den planerade budgeten har använts.",
+      "Då kan du sluta spendera i kategorin fram till nästa fördelning eller medvetet justera budgeten."
+    ]
+  },
+  "strictPercents": {
+    "title": "Måste procentsatserna följas exakt?",
+    "paragraphs": [
+      "Nej.",
+      "Procentsatser är användbara som utgångspunkt, men det bör inte bli ett mål i sig att följa dem exakt.",
+      "Om nödvändiga utgifter tar 65 % av din inkomst kommer 50/30/20-regeln inte att göra ditt boende billigare.",
+      "På samma sätt finns det ingen anledning att artificiellt spendera 10 % av inkomsten på utbildning bara för att den klassiska 6 Jars-metoden anger den andelen.",
+      "Det är mer användbart att se de rekommenderade proportionerna som en första riktlinje och sedan bedöma hur väl de passar ditt verkliga liv.",
+      "Om en kategori regelbundet får slut på pengar medan en annan ständigt har ett stort överskott kan du ändra fördelningen.",
+      "Din budget ska anpassas efter ditt liv, inte tvärtom."
+    ]
+  },
+  "combineMethods": {
+    "title": "Kan metoderna kombineras?",
+    "paragraphs": [
+      "Ja.",
+      "Eftersom alla tre metoder bygger på samma grundprincip är gränserna mellan dem ganska flexibla.",
+      "Du kan till exempel börja med 50/30/20-regeln och sedan dela upp kategorin önskemål i flera mer detaljerade kategorier:"
+    ],
+    "wantsItems": [
+      "restauranger;",
+      "nöjen;",
+      "hobbyer;",
+      "resor."
+    ],
+    "middleParagraphs": [
+      "Då blir systemet mer likt kuvertmetoden.",
+      "Du kan också använda 6 Jars-metoden som grund och dela upp det långsiktiga sparandet mellan flera mål:"
+    ],
+    "savingsItems": [
+      "semester;",
+      "elektronik;",
+      "en bil;",
+      "renovering."
+    ],
+    "closingParagraphs": [
+      "Du kan också gå åt motsatt håll.",
+      "Om ett system med femton kategorier blir för komplicerat kan liknande utgifter slås ihop till några bredare grupper.",
+      "Med tiden kan budgeten utvecklas till ett system som fungerar specifikt för dig.",
+      "Namnet på metoden är mindre viktigt än grundprincipen:",
+      "<strong>pengarna får ett syfte innan du spenderar dem.</strong>"
+    ]
+  },
+  "irregularIncome": {
+    "title": "Vad gör man med oregelbunden inkomst?",
+    "paragraphs": [
+      "Alla tre metoder kan användas även utan fast lön.",
+      "Om inkomsten kommer i separata betalningar kan du fördela varje ny betalning när den kommer.",
+      "Efter betalning för ett projekt kan du till exempel direkt bestämma hur mycket som ska gå till nödvändiga utgifter, sparande och andra mål.",
+      "Fasta procentsatser kan vara särskilt praktiska vid oregelbunden inkomst eftersom du inte behöver känna till den exakta månadsinkomsten i förväg.",
+      "Om du får 4 000 fördelar du dessa 4 000.",
+      "Om du får ytterligare 2 000 en vecka senare fördelar du även dessa 2 000.",
+      "Med kuvertmetoden kan du också använda ett annat sätt: fyll först de viktigaste kategorierna upp till sina målbelopp och fördela sedan det som återstår."
+    ]
+  },
+  "finalChoice": {
+    "title": "Vilken metod ska du välja?",
+    "paragraphs": [
+      "Om du vill ha ett så enkelt system som möjligt kan du börja med <strong>50/30/20-regeln</strong>.",
+      "Tre kategorier är lätta att förstå, komma ihåg och hantera.",
+      "Om du vill ha mer struktur utan att bygga en budget från grunden kan <strong>6 Jars-metoden</strong> passa bättre.",
+      "Sex kategorier gör det möjligt att skilja på löpande utgifter, sparande, personlig utveckling, fritid och andra ekonomiska mål.",
+      "Om du redan har god förståelse för dina utgifter och vill bestämma kategorier och belopp själv kan <strong>kuvertmetoden</strong> vara det bästa alternativet.",
+      "Ditt val behöver inte vara permanent.",
+      "Du kan börja med tre kategorier och gradvis lägga till mer detalj."
+    ],
+    "exampleIntro": "Till exempel:",
+    "example": "<strong>50/30/20 → 6 Jars-metoden → ditt eget kategorisystem.</strong>",
+    "closingParagraphs": [
+      "Eller så kan du gå åt andra hållet och förenkla en alltför detaljerad budget genom att slå ihop många kategorier till några större.",
+      "En bra budgetmetod är inte den som ser mest korrekt ut på papper, utan den som du kan använda regelbundet."
+    ]
+  },
+  "digitalOnly": {
+    "title": "Du behöver inga fysiska kuvert eller burkar för att fördela pengarna",
+    "paragraphs": [
+      "Alla tre metoder bygger på att pengar får ett syfte i förväg. Men du behöver inte förvara dem fysiskt åtskilda.",
+      "Du kan fortsätta använda ett enda bankkonto och hålla den interna fördelningen separat.",
+      "Du kan till exempel ha 12 000 på bankkontot samtidigt som budgeten delar upp summan mellan löpande utgifter, sparande, semester, nöjen och andra mål.",
+      "Banken visar <strong>hur mycket pengar du har totalt</strong>.",
+      "Budgetsystemet visar <strong>vad pengarna är avsedda för</strong>.",
+      "Det är därför metoderna fungerar bra digitalt: pengarna kan ligga kvar på ditt vanliga bankkonto medan den interna fördelningen hanteras separat."
+    ]
+  },
+  "inApp": {
+    "title": "Så använder du olika budgetmetoder i 6 Jars Finance",
+    "paragraphs": [
+      "Trots att appen heter <strong>6 Jars Finance</strong> är den inte begränsad till den klassiska 6 Jars-metoden.",
+      "När du öppnar appen första gången kan du välja det budgetsystem som passar dig:"
+    ],
+    "items": [
+      "50/30/20-regeln;",
+      "den klassiska 6 Jars-metoden;",
+      "ett eget kategorisystem baserat på kuvertmetoden."
+    ],
+    "closingParagraphs": [
+      "Det valda systemet blir din utgångspunkt och kan vid behov anpassas genom att ändra procentsatser, kategorinamn eller antalet kategorier.",
+      "När du får en inkomst fördelar appen den mellan kategorierna enligt de valda proportionerna. Efter ett köp minskar endast saldot i den kategori som utgiften hör till.",
+      "Pengarna stannar på ditt vanliga bankkonto. Appen ansluter inte till din bank och flyttar inte pengar mellan konton.",
+      "På så sätt kan du fortsätta använda ditt vanliga bankkort och samtidigt se vilken del av det totala saldot som redan är avsatt för specifika utgifter och mål.",
+      "Du kan när som helst ändra systemet som du valde under konfigureringen så att det bättre passar dina faktiska utgifter och mål."
+    ],
+    "cta": "Prova 6 Jars Finance →"
+  }
+}
