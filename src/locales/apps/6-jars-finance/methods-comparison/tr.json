@@ -1,0 +1,478 @@
+{
+  "title": "50/30/20, 6 Kavanoz Yöntemi veya Zarf Yöntemi: Hangi bütçeleme yöntemi size uygun?",
+  "metaDescription": "50/30/20 kuralı, 6 Kavanoz Yöntemi ve Zarf Yöntemi aynı sorunu çözer: geliri önceden kategorilere dağıtmak. Üç yaklaşımı karşılaştırıyor ve size uygun olanı seçmenize yardımcı oluyoruz.",
+  "intro": {
+    "paragraphs": [
+      "Kişisel bütçeyi yönetmenin birçok yolu vardır, ancak bazıları aynı temel fikre dayanır: <strong>önce gelirinize bir amaç atamak, sonra harcamak</strong>.",
+      "Bu yaklaşımlar arasında 50/30/20 kuralı, 6 Kavanoz Yöntemi ve Zarf Yöntemi bulunur.",
+      "Her yöntem kendi terimlerini kullanır. 6 Kavanoz Yöntemi'nde para kavanozlara, Zarf Yöntemi'nde zarflara, 50/30/20 kuralında ise üç geniş harcama grubuna ayrılır.",
+      "Bu yaklaşımları gereksiz karışıklık olmadan karşılaştırmak için makalenin devamında genel olarak <strong>“kategoriler”</strong> terimini kullanacağım.",
+      "Kategori, bütçenin belirli bir amaç veya harcama grubu için ayrılmış bağımsız bir bölümüdür; örneğin temel ihtiyaçlar, birikim, eğlence veya eğitim.",
+      "Bu açıdan bakıldığında üç yöntem birbirine oldukça benzer.",
+      "Aralarındaki temel fark <strong>bütçenin ayrıntı düzeyidir</strong>.",
+      "50/30/20 kuralı üç geniş kategori kullanır. 6 Kavanoz Yöntemi parayı daha ayrıntılı böler. Zarf Yöntemi ise ihtiyacınız kadar kategori oluşturmanıza izin verir.",
+      "Şimdi yöntemleri en basitten en ayrıntılı olana doğru inceleyelim."
+    ]
+  },
+  "overview": {
+    "title": "İçindekiler",
+    "commonGround": "Üç yöntemin ortak noktaları",
+    "rule503020": "50/30/20 kuralı nasıl çalışır",
+    "sixJarsMethod": "6 Kavanoz Yöntemi nasıl çalışır",
+    "envelopeMethod": "Zarf Yöntemi nasıl çalışır",
+    "detailLevel": "Ayrıntı düzeyi",
+    "methodsComparison": "Yöntemlerin karşılaştırılması",
+    "oneIncome": "Tek gelir — üç farklı dağıtım şekli",
+    "when503020": "50/30/20 ne zaman seçilmeli",
+    "whenSixJars": "6 Kavanoz Yöntemi ne zaman seçilmeli",
+    "whenEnvelope": "Zarf Yöntemi ne zaman seçilmeli",
+    "strictPercents": "Yüzdelere sıkı sıkıya uymak gerekir mi?",
+    "combineMethods": "Bu yöntemler birleştirilebilir mi?",
+    "irregularIncome": "Düzensiz gelir",
+    "finalChoice": "Hangi yöntemi seçmelisiniz?",
+    "digitalOnly": "Fiziksel zarflara ihtiyacınız yok",
+    "inApp": "Bu yöntemleri 6 Jars Finance'te nasıl kullanabilirsiniz"
+  },
+  "commonGround": {
+    "title": "Üç yöntemin ortak noktaları",
+    "paragraphs": [
+      "Geleneksel harcama takibi şu soruya yanıt vermenize yardımcı olur:",
+      "<strong>“Param nereye gitti?”</strong>",
+      "Alışverişlerinizi kaydeder, harcamalarınızı inceler ve gıda, ulaşım, eğlence ve diğer giderlere ne kadar harcadığınızı görebilirsiniz.",
+      "50/30/20 kuralı, 6 Kavanoz Yöntemi ve Zarf Yöntemi biraz farklı bir yaklaşım sunar.",
+      "Bunlar önceden başka bir soruya yanıt vermenize yardımcı olur:",
+      "<strong>“Bu geliri ne için kullanmak istiyorum?”</strong>",
+      "Gelir elde ettiğinizde bunu birkaç kategori arasında dağıtırsınız."
+    ],
+    "exampleIntro": "Örneğin:",
+    "exampleItems": [
+      "paranın bir kısmı günlük harcamalara ayrılır;",
+      "bir kısmı birikime;",
+      "bir kısmı eğlenceye;",
+      "bir kısmı gelecekteki büyük alışverişlere."
+    ],
+    "closingParagraphs": [
+      "Böylece banka hesabınızdaki toplam bakiye tamamen harcanabilir tek bir para havuzu gibi görünmez.",
+      "Hesabınızda 10.000 olması, 10.000'in tamamını hemen harcayabileceğiniz anlamına gelmez. Belki 5.000 temel giderlere, 2.000 birikime ve yalnızca 1.000 eğlenceye ayrılmıştır.",
+      "Üç yöntem de paraya önceden belirli bir amaç vermenizi sağlar.",
+      "Temel olarak <strong>kategorilerin ne kadar geniş veya ayrıntılı olduğu ve hangi oranların önerildiği</strong> açısından birbirlerinden ayrılırlar."
+    ],
+    "cta": "6 Jars Finance ile bütçe dağıtımını deneyin →"
+  },
+  "rule503020": {
+    "title": "50/30/20 kuralı nasıl çalışır",
+    "paragraphs": [
+      "50/30/20 kuralı üç yaklaşımın en basitidir.",
+      "Net gelir yalnızca üç kategoriye ayrılır:"
+    ],
+    "categories": [
+      "<strong>%50 — ihtiyaçlar;</strong>",
+      "<strong>%30 — istekler;</strong>",
+      "<strong>%20 — birikim ve diğer finansal hedefler.</strong>"
+    ],
+    "closingParagraphs": [
+      "İhtiyaçlar; konut, gıda, faturalar, ulaşım ve diğer temel giderleri kapsar.",
+      "İstekler kategorisi; eğlence, restoranlar, seyahat, hobiler, isteğe bağlı alışverişler ve vazgeçilebilecek diğer giderleri kapsar.",
+      "Kalan %20 ise birikim, acil durum fonu, yatırımlar, büyük hedefler veya borçların daha hızlı kapatılması için kullanılır."
+    ],
+    "strengths": {
+      "title": "50/30/20 kuralının güçlü yanı",
+      "paragraphs": [
+        "En büyük avantajı basitliğidir.",
+        "Çok sayıda kategori yönetmek yerine yalnızca üç geniş alanı takip etmeniz yeterlidir.",
+        "Restoranlar, oyunlar, kıyafetler ve seyahat için ayrı limitler belirlemeniz gerekmez. Tüm bu giderler istekler kategorisinde toplanabilir.",
+        "Bu nedenle 50/30/20 ile başlamak genellikle daha ayrıntılı sistemlere göre daha kolaydır.",
+        "Bu yaklaşım, ayrıntılı bütçe takibi yapmak istemeyen ve yalnızca günlük yaşam, isteğe bağlı harcamalar ve gelecek hedefleri arasında genel bir denge kurmak isteyen kişiler için özellikle uygundur."
+      ]
+    },
+    "weaknesses": {
+      "title": "50/30/20 kuralının zayıf yanı",
+      "paragraphs": [
+        "Üç kategori, bütçenin içinde gerçekte neler olduğunu anlamak için sınırlı bilgi sunar.",
+        "İstekler için 3.000 ayırdığınızı düşünelim.",
+        "Şunları harcayabilirsiniz:"
+      ],
+      "exampleItems": [
+        "500 restoranlara;",
+        "500 hobilere;",
+        "2.000 yeni elektronik cihazlara."
+      ],
+      "closingParagraphs": [
+        "Teknik olarak hâlâ kurala uyuyorsunuz.",
+        "Ancak farklı harcama türlerini ayrı ayrı kontrol etmek istiyorsanız tek bir geniş istekler kategorisi yeterli olmayabilir.",
+        "Önerilen yüzdeler de her zaman gerçek yaşam durumunuza uymayabilir.",
+        "Konut maliyetlerinin yüksek olduğu bir şehirde temel giderler gelirin %50'sini kolayca aşabilir. Bu yüzden 50/30/20 oranlarını katı bir kuraldan çok başlangıç noktası olarak görmek daha iyidir."
+      ]
+    }
+  },
+  "sixJarsMethod": {
+    "title": "6 Kavanoz Yöntemi nasıl çalışır",
+    "paragraphs": [
+      "6 Kavanoz Yöntemi aynı temel fikri kullanır, ancak bütçeyi daha ayrıntılı böler.",
+      "Klasik versiyonda her gelir altı kategoriye dağıtılır:"
+    ],
+    "table": {
+      "headers": ["Kategori", "Pay"],
+      "rows": [
+        ["Temel giderler", "%55"],
+        ["Finansal özgürlük", "%10"],
+        ["Uzun vadeli birikim", "%10"],
+        ["Eğitim", "%10"],
+        ["Eğlence", "%10"],
+        ["Hediyeler ve yardım", "%5"]
+      ]
+    },
+    "closingParagraphs": [
+      "50/30/20 ile karşılaştırıldığında bütçe daha fazla ayrı alana bölünür.",
+      "Örneğin birikimler artık tek bir geniş kategori olarak ele alınmaz. Sermaye oluşturmak için ayrılan para uzun vadeli birikimden ayrılır.",
+      "Eğlence, eğitim ve başkalarına yardım kategorilerinden ayrılır.",
+      "Bu da farklı finansal hedeflerin aynı para için daha az rekabet etmesini sağlar."
+    ],
+    "strengths": {
+      "title": "6 Kavanoz Yöntemi'nin güçlü yanı",
+      "paragraphs": [
+        "Yöntem hazır bir yapı sunarken 50/30/20'ye göre daha fazla ayrıntı sağlar.",
+        "Ana kategorileri sıfırdan belirlemeniz gerekmez. Zaten tanımlanmışlardır.",
+        "Aynı zamanda bütçe daha düzenli hâle gelir.",
+        "Şunlar için ayrılmış parayı ayrı ayrı görebilirsiniz:"
+      ],
+      "items": [
+        "günlük yaşam;",
+        "birikim;",
+        "sermaye oluşturma;",
+        "eğitim;",
+        "eğlence;",
+        "başkalarına yardım."
+      ],
+      "outro": "50/30/20'nin üç kategorisi artık yeterince ayrıntılı gelmiyorsa ancak tüm bütçe sistemini sıfırdan kurmak istemiyorsanız bu yaklaşım uygun olabilir."
+    },
+    "weaknesses": {
+      "title": "6 Kavanoz Yöntemi'nin zayıf yanı",
+      "paragraphs": [
+        "Önceden belirlenmiş yapı herkese aynı ölçüde uygun değildir.",
+        "Bir kişi için ayrı bir eğitim kategorisi önemli olabilirken başka biri bunu neredeyse hiç kullanmayabilir.",
+        "Bazı kişiler düzenli olarak hediye alır veya bağış yaparken diğerleri gelirlerinin bu kısmını başka hedeflere yönlendirmeyi tercih edebilir.",
+        "Bu nedenle klasik yüzdeleri veya kategorileri değiştirmeden kullanmak zorunda değilsiniz.",
+        "Yöntem kendi koşullarınıza göre uyarlanabilir."
+      ]
+    }
+  },
+  "envelopeMethod": {
+    "title": "Zarf Yöntemi nasıl çalışır",
+    "paragraphs": [
+      "Zarf Yöntemi bir adım daha ileri gider ve bütçenin yapısını neredeyse tamamen size bırakır.",
+      "Kontrol etmek istediğiniz giderler ve hedefler için kendi kategorilerinizi oluşturursunuz."
+    ],
+    "exampleIntro": "Örneğin:",
+    "exampleItems": [
+      "konut;",
+      "gıda;",
+      "ulaşım;",
+      "restoranlar;",
+      "eğlence;",
+      "tatil;",
+      "elektronik;",
+      "acil durum fonu;",
+      "eğitim."
+    ],
+    "closingParagraphs": [
+      "Ardından her kategoriye belirli bir tutar ayırırsınız.",
+      "Temel ilke aynıdır:",
+      "<strong>paranızın her bölümünün bir amacı vardır.</strong>",
+      "Restoranlar için 500 ayırırsanız, banka hesabınızdaki toplam bakiyeden bağımsız olarak restoranlarda kullanabileceğiniz tutar budur.",
+      "Tarihsel olarak insanlar nakit parayı gerçekten fiziksel zarflara ayırıyordu.",
+      "Bugün aynı sistem, parayı fiziksel olarak ayırmadan dijital şekilde kullanılabilir."
+    ],
+    "strengths": {
+      "title": "Zarf Yöntemi'nin güçlü yanı",
+      "paragraphs": [
+        "Üç yaklaşım arasında en esnek olanıdır.",
+        "Şunlara siz karar verirsiniz:"
+      ],
+      "items": [
+        "kaç kategoriye ihtiyacınız olduğuna;",
+        "kategorilerin ne kadar ayrıntılı olacağına;",
+        "her kategoriye ne kadar para ayrılacağına;",
+        "hangi giderleri ayrı takip etmek istediğinize."
+      ],
+      "outro": "Bir kişi dört geniş kategori kullanabilir. Başka biri on beş veya yirmi kategori kullanabilir."
+    },
+    "weaknesses": {
+      "title": "Zarf Yöntemi'nin zayıf yanı",
+      "paragraphs": [
+        "Bir sistem ne kadar fazla özgürlük sunarsa, o kadar fazla kararı kendiniz vermeniz gerekir.",
+        "Kategorileri seçmeniz, makul tutarlar belirlemeniz ve bunları zaman zaman gözden geçirmeniz gerekir.",
+        "Çok fazla kategori oluşturursanız bütçe gereğinden fazla karmaşık hâle gelebilir.",
+        "Yüksek ayrıntı düzeyi yalnızca gerçekten daha iyi kararlar vermenize yardımcı oluyorsa faydalıdır."
+      ]
+    }
+  },
+  "detailLevel": {
+    "title": "Üç yöntem esas olarak ayrıntı düzeyi açısından farklıdır",
+    "paragraphs": [
+      "Farklı adları bir kenara bırakırsak üç yaklaşımın da neredeyse aynı temel prensibi kullandığını görürüz.",
+      "Gelir önceden kategorilere dağıtılır ve her kategori belirli bir gider grubu veya finansal hedefi temsil eder.",
+      "Fark, <strong>bütçenin ne kadar ayrıntılı bölündüğündedir</strong>.",
+      "50/30/20 kuralı üç çok geniş kategori kullanır.",
+      "6 Kavanoz Yöntemi altı daha spesifik kategori kullanır.",
+      "Zarf Yöntemi istediğiniz sayıda kategori belirlemenize izin verir.",
+      "Bunları basit bir ölçek gibi düşünebilirsiniz:",
+      "<strong>50/30/20 → 6 Kavanoz Yöntemi → Zarf Yöntemi</strong>",
+      "En az ayrıntılıdan en ayrıntılıya.",
+      "Ancak daha fazla kategori otomatik olarak daha iyi bir bütçe anlamına gelmez.",
+      "Sistem ne kadar ayrıntılıysa o kadar fazla kontrol sağlar — ancak o kadar fazla dikkat de gerektirir."
+    ]
+  },
+  "methodsComparison": {
+    "title": "50/30/20, 6 Kavanoz Yöntemi ve Zarf Yöntemi karşılaştırması",
+    "table": {
+      "headers": ["", "50/30/20", "6 Kavanoz Yöntemi", "Zarf Yöntemi"],
+      "rows": [
+        ["Kategori sayısı", "3", "Klasik versiyonda 6", "Özelleştirilebilir"],
+        ["Kategoriler önceden tanımlı", "Evet", "Evet", "Hayır"],
+        ["Önerilen oranlar", "Evet", "Evet", "Zorunlu değil"],
+        ["Oranlar değiştirilebilir mi?", "Evet", "Evet", "Evet"],
+        ["Kendi kategorilerinizi oluşturabilir misiniz?", "Evet, yöntem uyarlanırsa", "Evet, yöntem uyarlanırsa", "Evet"],
+        ["Başlangıç kolaylığı", "Çok yüksek", "Yüksek", "Orta"],
+        ["Ayrıntı düzeyi", "Düşük", "Orta", "Özelleştirilebilir"],
+        ["Esneklik", "Orta", "Yüksek", "Çok yüksek"],
+        ["Dijital kullanım için uygun", "Evet", "Evet", "Evet"]
+      ]
+    },
+    "closingParagraphs": [
+      "Bu yöntemlerden hiçbiri diğerlerinden objektif olarak daha iyi değildir.",
+      "Aynı sorunu farklı ayrıntı düzeyleriyle çözerler."
+    ]
+  },
+  "oneIncome": {
+    "title": "Tek gelir — üç farklı dağıtım şekli",
+    "paragraphs": [
+      "10.000 gelir elde ettiğinizi düşünelim.",
+      "Aynı tutarın her sistemde nasıl dağıtılabileceğine bakalım."
+    ],
+    "variant503020": {
+      "title": "Seçenek 1: 50/30/20 kuralı",
+      "table": {
+        "headers": ["Kategori", "Pay", "Tutar"],
+        "rows": [
+          ["İhtiyaçlar", "%50", "5.000"],
+          ["İstekler", "%30", "3.000"],
+          ["Birikim ve finansal hedefler", "%20", "2.000"]
+        ]
+      },
+      "closingParagraphs": [
+        "Temel giderlere ne kadar ayrılabileceğini, isteğe bağlı alışverişler için ne kadar kullanılabileceğini ve gelecek için ne kadar saklanacağını bilirsiniz.",
+        "Ancak bu kategorilerin içinde daha fazla ayrım yoktur."
+      ]
+    },
+    "variantSixJars": {
+      "title": "Seçenek 2: 6 Kavanoz Yöntemi",
+      "table": {
+        "headers": ["Kategori", "Pay", "Tutar"],
+        "rows": [
+          ["Temel giderler", "%55", "5.500"],
+          ["Finansal özgürlük", "%10", "1.000"],
+          ["Uzun vadeli birikim", "%10", "1.000"],
+          ["Eğitim", "%10", "1.000"],
+          ["Eğlence", "%10", "1.000"],
+          ["Hediyeler ve yardım", "%5", "500"]
+        ]
+      },
+      "closingParagraphs": [
+        "Burada aynı 10.000 daha spesifik amaçlara bölünür.",
+        "Örneğin eğitim için ayrılan para artık doğrudan eğlence ile rekabet etmez; uzun vadeli birikim de sermaye oluşturmak için ayrılan paradan ayrı tutulur."
+      ]
+    },
+    "variantEnvelope": {
+      "title": "Seçenek 3: Zarf Yöntemi",
+      "paragraphs": [
+        "Zarf Yöntemi sabit bir dağıtım gerektirmez."
+      ],
+      "exampleIntro": "Örneğin:",
+      "table": {
+        "headers": ["Kategori", "Tutar"],
+        "rows": [
+          ["Konut ve faturalar", "3.000"],
+          ["Gıda", "2.000"],
+          ["Ulaşım", "800"],
+          ["Eğlence", "700"],
+          ["Restoranlar", "500"],
+          ["Tatil", "1.000"],
+          ["Acil durum fonu", "1.500"],
+          ["Eğitim", "500"],
+          ["Toplam", "10.000"]
+        ]
+      },
+      "closingParagraphs": [
+        "Bu yaklaşım çok daha fazla kontrol sağlar, ancak gerçekten hangi kategorilere ihtiyacınız olduğuna kendiniz karar vermeniz gerekir."
+      ]
+    }
+  },
+  "when503020": {
+    "title": "Mümkün olduğunca basit başlamak istiyorsanız 50/30/20 kuralı uygundur",
+    "paragraphs": [
+      "Daha önce paranızı hiç önceden dağıtmadıysanız 50/30/20 kuralı iyi bir başlangıç noktası olabilir.",
+      "Karmaşık bir sistem kurmanız gerekmez.",
+      "Yalnızca üç alanı takip etmeniz yeterlidir:"
+    ],
+    "items": [
+      "ihtiyaçlar;",
+      "istekler;",
+      "birikim ve finansal hedefler."
+    ],
+    "closingParagraphs": [
+      "Bu kadar basit bir dağıtım bile toplam bakiyenizi tamamen harcanabilir para olarak görmemenize yardımcı olabilir.",
+      "50/30/20, ayrıntılı finans takibinden hoşlanmayan kişiler için de uygundur.",
+      "Oyunlara, restoranlara veya kıyafetlere tam olarak ne kadar harcadığınızı bilmek sizin için önemli değilse bunlar için ayrı kategoriler oluşturmanız gerekmez.",
+      "Tüm bu giderleri birlikte yönetebilirsiniz."
+    ]
+  },
+  "whenSixJars": {
+    "title": "Daha ayrıntılı hazır bir yapı istiyorsanız 6 Kavanoz Yöntemi uygundur",
+    "paragraphs": [
+      "6 Kavanoz Yöntemi, 50/30/20 ile tamamen kişiselleştirilmiş bir kategori sistemi arasında yer alır.",
+      "Ana finansal hedefleri ayırmak için yeterli kategori vardır, ancak tüm bütçe yapısını sıfırdan oluşturmanız gerekmez.",
+      "Birden fazla finansal önceliği aynı anda destekleme fikri özellikle faydalı olabilir.",
+      "Her gelir elde ettiğinizde paranın bir kısmı yalnızca mevcut giderlere değil, aynı zamanda şunlara da gider:"
+    ],
+    "items": [
+      "gelecek;",
+      "eğitim;",
+      "dinlenme;",
+      "sermaye oluşturma;",
+      "diğer önemli hedefler."
+    ],
+    "closingParagraphs": [
+      "Klasik yapıyı zamanla kendi ihtiyaçlarınıza göre uyarlayabilirsiniz.",
+      "Örneğin yüzdeleri değiştirebilir, kategorileri yeniden adlandırabilir veya yenilerini ekleyebilirsiniz."
+    ]
+  },
+  "whenEnvelope": {
+    "title": "Belirli harcamaları daha hassas kontrol etmek istiyorsanız Zarf Yöntemi uygundur",
+    "paragraphs": [
+      "Zarf Yöntemi özellikle sorun toplam harcama miktarı değil de belirli harcama türleri olduğunda faydalıdır.",
+      "Örneğin genel aylık bütçenizin içinde kalırken düzenli olarak şunlara fazla harcayabilirsiniz:"
+    ],
+    "items": [
+      "yemek teslimatına;",
+      "restoranlara;",
+      "oyunlara;",
+      "kıyafetlere;",
+      "taksiye."
+    ],
+    "closingParagraphs": [
+      "50/30/20 kuralında bu giderlerin tümü tek bir geniş istekler kategorisine girebilir.",
+      "Zarf Yöntemi her önemli alanı ayrı ayrı yönetmenize izin verir."
+    ],
+    "exampleTitle": "Örneğin:",
+    "example": "<strong>Restoranlar — 500.</strong>",
+    "outroParagraphs": [
+      "Bu kategorideki para bittiğinde planlanan bütçenin tükendiğini hemen görürsünüz.",
+      "Daha sonra bir sonraki dağıtıma kadar bu kategoride harcamayı durdurabilir veya bütçenizi bilinçli şekilde değiştirebilirsiniz."
+    ]
+  },
+  "strictPercents": {
+    "title": "Yüzdelere sıkı sıkıya uymak gerekir mi?",
+    "paragraphs": [
+      "Hayır.",
+      "Yüzdeler başlangıç noktası olarak faydalıdır, ancak bunlara tam olarak uymak başlı başına bir hedef hâline gelmemelidir.",
+      "Temel giderler gelirinizin %65'ini oluşturuyorsa 50/30/20 kuralı konutunuzu daha ucuz hâle getirmez.",
+      "Aynı şekilde klasik 6 Kavanoz Yöntemi bu oranı öneriyor diye gelirin %10'unu yapay şekilde eğitime harcamanın anlamı yoktur.",
+      "Önerilen oranları ilk rehber olarak kullanmak ve ardından gerçek yaşamınıza ne kadar uyduğunu değerlendirmek daha faydalıdır.",
+      "Bir kategoride düzenli olarak para biterken başka bir kategoride sürekli büyük bir fazlalık kalıyorsa dağılımı değiştirebilirsiniz.",
+      "Bütçeniz hayatınıza uyum sağlamalıdır, hayatınız bütçenize değil."
+    ]
+  },
+  "combineMethods": {
+    "title": "Bu yöntemler birleştirilebilir mi?",
+    "paragraphs": [
+      "Evet.",
+      "Üç yöntem de aynı temel prensibe dayandığı için aralarındaki sınırlar oldukça esnektir.",
+      "Örneğin 50/30/20 kuralıyla başlayıp istekler kategorisini daha ayrıntılı kategorilere bölebilirsiniz:"
+    ],
+    "wantsItems": [
+      "restoranlar;",
+      "eğlence;",
+      "hobiler;",
+      "seyahat."
+    ],
+    "middleParagraphs": [
+      "Böylece sistem Zarf Yöntemi'ne daha çok benzer.",
+      "Ayrıca 6 Kavanoz Yöntemi'ni temel alıp uzun vadeli birikimi birkaç hedef arasında bölebilirsiniz:"
+    ],
+    "savingsItems": [
+      "tatil;",
+      "elektronik;",
+      "araba;",
+      "ev yenileme."
+    ],
+    "closingParagraphs": [
+      "Ters yönde de ilerleyebilirsiniz.",
+      "On beş kategorili bir sistem fazla karmaşık hâle gelirse benzer giderleri birkaç daha geniş grupta birleştirebilirsiniz.",
+      "Zamanla bütçeniz size özel çalışan bir sisteme dönüşebilir.",
+      "Yöntemin adı, temel ilkeden daha az önemlidir:",
+      "<strong>para, harcanmadan önce bir amaç kazanır.</strong>"
+    ]
+  },
+  "irregularIncome": {
+    "title": "Düzensiz gelirle ne yapılmalı?",
+    "paragraphs": [
+      "Üç yaklaşım da sabit maaş olmadan kullanılabilir.",
+      "Geliriniz ayrı ödemeler hâlinde geliyorsa her yeni ödemeyi gelir gelir dağıtabilirsiniz.",
+      "Örneğin bir proje ödemesi aldıktan sonra ne kadarının temel giderlere, birikime ve diğer hedeflere gideceğine hemen karar verebilirsiniz.",
+      "Sabit yüzdeler düzensiz gelirde özellikle pratik olabilir çünkü aylık gelirin tam tutarını önceden bilmeniz gerekmez.",
+      "4.000 aldıysanız bu 4.000'i dağıtın.",
+      "Bir hafta sonra 2.000 daha aldıysanız onu da dağıtın.",
+      "Zarf Yöntemi'nde farklı bir yaklaşım da kullanabilirsiniz: önce en önemli kategorileri hedef tutarlara kadar doldurun, sonra kalan parayı dağıtın."
+    ]
+  },
+  "finalChoice": {
+    "title": "Hangi yöntemi seçmelisiniz?",
+    "paragraphs": [
+      "Mümkün olduğunca basit bir sistem istiyorsanız <strong>50/30/20 kuralıyla</strong> başlayabilirsiniz.",
+      "Üç kategoriyi anlamak, hatırlamak ve yönetmek kolaydır.",
+      "Bütçeyi sıfırdan oluşturmadan daha fazla yapı istiyorsanız <strong>6 Kavanoz Yöntemi</strong> daha uygun olabilir.",
+      "Altı kategori, mevcut giderleri, birikimleri, kişisel gelişimi, boş zamanı ve diğer finansal hedefleri ayrı ayrı yönetmenizi sağlar.",
+      "Harcamalarınızı zaten iyi anlıyor ve kategorileri ve tutarları kendiniz belirlemek istiyorsanız <strong>Zarf Yöntemi</strong> en iyi seçenek olabilir.",
+      "Seçiminizin kalıcı olması gerekmez.",
+      "Üç kategoriyle başlayıp zamanla daha fazla ayrıntı ekleyebilirsiniz."
+    ],
+    "exampleIntro": "Örneğin:",
+    "example": "<strong>50/30/20 → 6 Kavanoz Yöntemi → kendi kategori sisteminiz.</strong>",
+    "closingParagraphs": [
+      "Ya da tam tersine ilerleyip fazla ayrıntılı bir bütçeyi birçok kategoriyi birkaç geniş grupta birleştirerek basitleştirebilirsiniz.",
+      "İyi bir bütçeleme yöntemi, kâğıt üzerinde en doğru görünen değil, düzenli olarak kullanabildiğiniz yöntemdir."
+    ]
+  },
+  "digitalOnly": {
+    "title": "Paranızı dağıtmak için fiziksel zarf veya kavanozlara ihtiyacınız yok",
+    "paragraphs": [
+      "Üç yöntem de paraya önceden bir amaç vermeye dayanır. Ancak parayı fiziksel olarak ayrı tutmanız gerekmez.",
+      "Tek bir banka hesabını kullanmaya devam edip yalnızca iç dağılımı ayrı takip edebilirsiniz.",
+      "Örneğin banka hesabınızda 12.000 bulunurken bütçeniz bu tutarı mevcut giderler, birikim, tatil, eğlence ve diğer hedefler arasında bölebilir.",
+      "Bankanız <strong>toplamda ne kadar paranız olduğunu</strong> gösterir.",
+      "Bütçe sisteminiz ise <strong>bu paranın ne için ayrıldığını</strong> gösterir.",
+      "Bu nedenle yöntemler dijital olarak iyi çalışır: para normal banka hesabınızda kalabilir, iç dağılım ise ayrı şekilde takip edilir."
+    ]
+  },
+  "inApp": {
+    "title": "6 Jars Finance'te farklı bütçeleme yöntemleri nasıl kullanılır",
+    "paragraphs": [
+      "Uygulamanın adı <strong>6 Jars Finance</strong> olsa da yalnızca klasik 6 Kavanoz Yöntemi ile sınırlı değildir.",
+      "Uygulamayı ilk açtığınızda size uygun bütçeleme sistemini seçebilirsiniz:"
+    ],
+    "items": [
+      "50/30/20 kuralı;",
+      "klasik 6 Kavanoz Yöntemi;",
+      "Zarf Yöntemi'ne dayalı kendi kategori sisteminiz."
+    ],
+    "closingParagraphs": [
+      "Seçtiğiniz sistem başlangıç noktanız olur ve gerektiğinde yüzdeleri, kategori adlarını veya kategori sayısını değiştirerek uyarlayabilirsiniz.",
+      "Gelir elde ettiğinizde uygulama bunu seçtiğiniz oranlara göre kategorilere dağıtır. Bir alışverişten sonra yalnızca o giderin ait olduğu kategorinin bakiyesi azalır.",
+      "Paranın kendisi normal banka hesabınızda kalır. Uygulama bankanıza bağlanmaz ve hesaplar arasında para taşımaz.",
+      "Böylece normal banka kartınızı kullanmaya devam ederken toplam bakiyenizin hangi kısmının belirli gider ve hedefler için ayrılmış olduğunu görebilirsiniz.",
+      "Kurulum sırasında seçtiğiniz sistemi gerçek harcamalarınıza ve hedeflerinize daha iyi uyması için istediğiniz zaman değiştirebilirsiniz."
+    ],
+    "cta": "6 Jars Finance'i deneyin →"
+  }
+}

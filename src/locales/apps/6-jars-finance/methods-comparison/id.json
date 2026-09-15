@@ -1,0 +1,478 @@
+{
+  "title": "50/30/20, Metode 6 Toples, atau Metode Amplop: metode anggaran mana yang cocok untuk Anda?",
+  "metaDescription": "Aturan 50/30/20, Metode 6 Toples, dan Metode Amplop menyelesaikan masalah yang sama: membagi pendapatan ke dalam kategori sejak awal. Kami membandingkan ketiganya untuk membantu Anda memilih.",
+  "intro": {
+    "paragraphs": [
+      "Ada banyak cara untuk mengelola anggaran pribadi, tetapi beberapa di antaranya didasarkan pada gagasan yang sama: <strong>tentukan tujuan pendapatan terlebih dahulu, lalu belanjakan uangnya</strong>.",
+      "Pendekatan tersebut mencakup aturan 50/30/20, Metode 6 Toples, dan Metode Amplop.",
+      "Setiap metode menggunakan istilahnya sendiri. Dalam Metode 6 Toples, uang dibagi ke dalam toples; dalam Metode Amplop, ke dalam amplop; sedangkan dalam aturan 50/30/20, ke dalam tiga kelompok pengeluaran besar.",
+      "Agar ketiga pendekatan ini lebih mudah dibandingkan tanpa menimbulkan kebingungan, selanjutnya saya akan menggunakan istilah umum <strong>“kategori”</strong>.",
+      "Kategori adalah bagian terpisah dari anggaran yang ditujukan untuk tujuan tertentu atau kelompok pengeluaran tertentu, misalnya kebutuhan, tabungan, hiburan, atau pendidikan.",
+      "Jika dilihat dari sudut pandang ini, ketiga metode tersebut sangat mirip.",
+      "Perbedaan utamanya adalah <strong>tingkat detail anggaran</strong>.",
+      "Aturan 50/30/20 menggunakan tiga kategori besar. Metode 6 Toples membagi uang dengan lebih rinci. Metode Amplop memungkinkan Anda membuat sebanyak mungkin kategori yang diperlukan.",
+      "Mari kita bahas setiap pendekatan secara berurutan — dari yang paling sederhana hingga yang paling rinci."
+    ]
+  },
+  "overview": {
+    "title": "Daftar isi",
+    "commonGround": "Kesamaan ketiga metode",
+    "rule503020": "Cara kerja aturan 50/30/20",
+    "sixJarsMethod": "Cara kerja Metode 6 Toples",
+    "envelopeMethod": "Cara kerja Metode Amplop",
+    "detailLevel": "Tingkat detail",
+    "methodsComparison": "Perbandingan metode",
+    "oneIncome": "Satu pendapatan — tiga cara pembagian",
+    "when503020": "Kapan memilih 50/30/20",
+    "whenSixJars": "Kapan memilih Metode 6 Toples",
+    "whenEnvelope": "Kapan memilih Metode Amplop",
+    "strictPercents": "Apakah persentase harus diikuti dengan ketat?",
+    "combineMethods": "Bisakah metode-metode ini digabungkan?",
+    "irregularIncome": "Pendapatan tidak tetap",
+    "finalChoice": "Metode mana yang sebaiknya dipilih?",
+    "digitalOnly": "Anda tidak membutuhkan amplop fisik",
+    "inApp": "Cara menggunakan metode ini di 6 Jars Finance"
+  },
+  "commonGround": {
+    "title": "Kesamaan ketiga metode",
+    "paragraphs": [
+      "Pencatatan pengeluaran tradisional membantu menjawab pertanyaan:",
+      "<strong>“Ke mana uang saya sudah pergi?”</strong>",
+      "Anda mencatat pembelian, meninjau pengeluaran, dan dapat melihat berapa banyak yang telah dibelanjakan untuk makanan, transportasi, hiburan, dan kebutuhan lainnya.",
+      "Aturan 50/30/20, Metode 6 Toples, dan Metode Amplop menggunakan pendekatan yang sedikit berbeda.",
+      "Ketiganya membantu Anda menjawab pertanyaan lain sejak awal:",
+      "<strong>“Untuk apa saya ingin menggunakan pendapatan ini?”</strong>",
+      "Saat menerima pendapatan, Anda membaginya ke dalam beberapa kategori."
+    ],
+    "exampleIntro": "Misalnya:",
+    "exampleItems": [
+      "sebagian uang dialokasikan untuk pengeluaran sehari-hari;",
+      "sebagian untuk tabungan;",
+      "sebagian untuk hiburan;",
+      "sebagian untuk pembelian besar di masa depan."
+    ],
+    "closingParagraphs": [
+      "Dengan begitu, seluruh saldo rekening bank tidak lagi terlihat seperti satu jumlah yang sepenuhnya bebas dibelanjakan.",
+      "Jika Anda memiliki 10.000 di rekening, bukan berarti seluruh 10.000 dapat langsung dibelanjakan. Mungkin 5.000 sudah dialokasikan untuk kebutuhan pokok, 2.000 untuk tabungan, dan hanya 1.000 untuk hiburan.",
+      "Ketiga metode membantu memberi tujuan yang jelas pada uang sejak awal.",
+      "Perbedaannya terutama terletak pada <strong>seberapa luas atau rinci kategorinya dan proporsi seperti apa yang disarankan</strong>."
+    ],
+    "cta": "Coba pembagian anggaran dengan 6 Jars Finance →"
+  },
+  "rule503020": {
+    "title": "Cara kerja aturan 50/30/20",
+    "paragraphs": [
+      "Aturan 50/30/20 adalah yang paling sederhana dari ketiga pendekatan.",
+      "Pendapatan bersih dibagi hanya ke dalam tiga kategori:"
+    ],
+    "categories": [
+      "<strong>50% — kebutuhan;</strong>",
+      "<strong>30% — keinginan;</strong>",
+      "<strong>20% — tabungan dan tujuan keuangan lainnya.</strong>"
+    ],
+    "closingParagraphs": [
+      "Kebutuhan mencakup tempat tinggal, makanan, tagihan, transportasi, dan pengeluaran dasar lainnya.",
+      "Kategori keinginan mencakup hiburan, restoran, perjalanan, hobi, pembelian opsional, dan pengeluaran lain yang sebenarnya masih bisa dihindari.",
+      "Sisa 20% dialokasikan untuk tabungan, dana darurat, investasi, tujuan besar, atau pelunasan utang lebih cepat."
+    ],
+    "strengths": {
+      "title": "Kelebihan aturan 50/30/20",
+      "paragraphs": [
+        "Kelebihan utamanya adalah kesederhanaan.",
+        "Alih-alih mengelola banyak kategori, Anda hanya perlu memantau tiga area besar.",
+        "Anda tidak memerlukan batas terpisah untuk restoran, game, pakaian, dan perjalanan. Semua pengeluaran tersebut dapat digabungkan dalam kategori keinginan.",
+        "Karena itu, memulai dengan 50/30/20 biasanya lebih mudah dibandingkan sistem yang lebih rinci.",
+        "Pendekatan ini sangat cocok jika Anda tidak ingin mencatat anggaran secara detail dan hanya ingin menjaga keseimbangan umum antara kehidupan sehari-hari, pengeluaran opsional, dan tujuan masa depan."
+      ]
+    },
+    "weaknesses": {
+      "title": "Kekurangan aturan 50/30/20",
+      "paragraphs": [
+        "Tiga kategori memberikan sedikit informasi tentang apa yang sebenarnya terjadi di dalam anggaran.",
+        "Misalnya Anda mengalokasikan 3.000 untuk keinginan.",
+        "Anda dapat membelanjakan:"
+      ],
+      "exampleItems": [
+        "500 untuk restoran;",
+        "500 untuk hobi;",
+        "2.000 untuk perangkat elektronik baru."
+      ],
+      "closingParagraphs": [
+        "Secara teknis, Anda masih mengikuti aturan.",
+        "Namun, jika ingin mengontrol berbagai jenis pengeluaran secara terpisah, satu kategori keinginan yang luas mungkin tidak cukup.",
+        "Persentase yang disarankan juga tidak selalu sesuai dengan kondisi nyata Anda.",
+        "Di kota dengan biaya tempat tinggal tinggi, pengeluaran kebutuhan pokok dapat dengan mudah melebihi 50% pendapatan. Karena itu, proporsi 50/30/20 sebaiknya dianggap sebagai titik awal, bukan aturan yang kaku."
+      ]
+    }
+  },
+  "sixJarsMethod": {
+    "title": "Cara kerja Metode 6 Toples",
+    "paragraphs": [
+      "Metode 6 Toples menggunakan gagasan dasar yang sama, tetapi membagi anggaran dengan lebih rinci.",
+      "Dalam versi klasik, setiap pendapatan dibagi ke dalam enam kategori:"
+    ],
+    "table": {
+      "headers": ["Kategori", "Porsi"],
+      "rows": [
+        ["Kebutuhan pokok", "55%"],
+        ["Kebebasan finansial", "10%"],
+        ["Tabungan jangka panjang", "10%"],
+        ["Pendidikan", "10%"],
+        ["Hiburan", "10%"],
+        ["Hadiah dan bantuan", "5%"]
+      ]
+    },
+    "closingParagraphs": [
+      "Dibandingkan dengan 50/30/20, anggaran dibagi ke lebih banyak area terpisah.",
+      "Misalnya, tabungan tidak lagi dianggap sebagai satu kategori besar. Uang untuk membangun aset dipisahkan dari tabungan jangka panjang.",
+      "Hiburan dipisahkan dari pendidikan dan bantuan kepada orang lain.",
+      "Hal ini membantu agar berbagai tujuan keuangan tidak terlalu bersaing memperebutkan uang yang sama."
+    ],
+    "strengths": {
+      "title": "Kelebihan Metode 6 Toples",
+      "paragraphs": [
+        "Metode ini menyediakan struktur siap pakai sekaligus memberikan lebih banyak detail dibandingkan 50/30/20.",
+        "Anda tidak perlu menentukan kategori utama sendiri. Kategori tersebut sudah ditetapkan.",
+        "Pada saat yang sama, anggaran menjadi lebih terstruktur.",
+        "Anda dapat melihat secara terpisah uang yang ditujukan untuk:"
+      ],
+      "items": [
+        "kehidupan sehari-hari;",
+        "tabungan;",
+        "membangun aset;",
+        "pendidikan;",
+        "hiburan;",
+        "membantu orang lain."
+      ],
+      "outro": "Pendekatan ini cocok jika tiga kategori dalam 50/30/20 sudah tidak cukup rinci, tetapi Anda juga tidak ingin membangun seluruh sistem anggaran dari awal."
+    },
+    "weaknesses": {
+      "title": "Kekurangan Metode 6 Toples",
+      "paragraphs": [
+        "Struktur yang sudah ditentukan tidak akan sama cocoknya untuk semua orang.",
+        "Bagi seseorang, kategori khusus pendidikan mungkin penting, sementara orang lain hampir tidak menggunakannya.",
+        "Sebagian orang rutin membeli hadiah atau berdonasi, sementara yang lain lebih memilih mengarahkan bagian pendapatan tersebut ke tujuan lain.",
+        "Karena itu, persentase dan kategori klasik tidak harus dipertahankan tanpa perubahan.",
+        "Metode ini dapat disesuaikan dengan kondisi Anda sendiri."
+      ]
+    }
+  },
+  "envelopeMethod": {
+    "title": "Cara kerja Metode Amplop",
+    "paragraphs": [
+      "Metode Amplop melangkah lebih jauh dan menyerahkan hampir seluruh struktur anggaran kepada Anda.",
+      "Anda membuat sendiri kategori untuk pengeluaran dan tujuan yang ingin dikendalikan."
+    ],
+    "exampleIntro": "Misalnya:",
+    "exampleItems": [
+      "tempat tinggal;",
+      "makanan;",
+      "transportasi;",
+      "restoran;",
+      "hiburan;",
+      "liburan;",
+      "elektronik;",
+      "dana darurat;",
+      "pendidikan."
+    ],
+    "closingParagraphs": [
+      "Setelah itu, Anda menentukan jumlah tertentu untuk setiap kategori.",
+      "Prinsip dasarnya tetap sama:",
+      "<strong>setiap bagian dari uang Anda memiliki tujuan.</strong>",
+      "Jika Anda mengalokasikan 500 untuk restoran, jumlah itulah yang menunjukkan berapa banyak yang tersedia untuk restoran, terlepas dari total saldo rekening bank.",
+      "Secara historis, orang benar-benar membagi uang tunai ke dalam amplop fisik.",
+      "Saat ini, sistem yang sama dapat digunakan secara digital tanpa memisahkan uang secara fisik."
+    ],
+    "strengths": {
+      "title": "Kelebihan Metode Amplop",
+      "paragraphs": [
+        "Ini adalah pendekatan paling fleksibel dari ketiganya.",
+        "Anda sendiri yang menentukan:"
+      ],
+      "items": [
+        "berapa banyak kategori yang dibutuhkan;",
+        "seberapa rinci kategori tersebut;",
+        "berapa banyak uang yang dialokasikan ke masing-masing kategori;",
+        "pengeluaran mana yang ingin dikontrol secara terpisah."
+      ],
+      "outro": "Satu orang mungkin menggunakan empat kategori besar. Orang lain mungkin menggunakan lima belas atau dua puluh."
+    },
+    "weaknesses": {
+      "title": "Kekurangan Metode Amplop",
+      "paragraphs": [
+        "Semakin besar kebebasan yang diberikan sebuah sistem, semakin banyak keputusan yang harus Anda ambil sendiri.",
+        "Anda perlu memilih kategori, menentukan jumlah yang masuk akal, dan meninjaunya dari waktu ke waktu.",
+        "Jika membuat terlalu banyak kategori, anggaran bisa menjadi lebih rumit daripada yang diperlukan.",
+        "Tingkat detail yang tinggi hanya berguna jika benar-benar membantu Anda mengambil keputusan yang lebih baik."
+      ]
+    }
+  },
+  "detailLevel": {
+    "title": "Ketiga metode terutama berbeda dalam tingkat detail",
+    "paragraphs": [
+      "Jika kita mengabaikan perbedaan nama, terlihat jelas bahwa ketiga pendekatan menggunakan prinsip dasar yang hampir sama.",
+      "Pendapatan dibagi ke dalam kategori sejak awal, dan setiap kategori mewakili kelompok pengeluaran atau tujuan keuangan tertentu.",
+      "Perbedaannya terletak pada <strong>seberapa rinci anggaran dibagi</strong>.",
+      "Aturan 50/30/20 menggunakan tiga kategori yang sangat luas.",
+      "Metode 6 Toples menggunakan enam kategori yang lebih spesifik.",
+      "Metode Amplop memungkinkan Anda menentukan jumlah kategori sesuka hati.",
+      "Anda dapat melihatnya sebagai urutan sederhana:",
+      "<strong>50/30/20 → Metode 6 Toples → Metode Amplop</strong>",
+      "Dari tingkat detail paling rendah hingga paling tinggi.",
+      "Namun, lebih banyak kategori tidak otomatis berarti anggaran yang lebih baik.",
+      "Semakin rinci sistemnya, semakin besar kontrol yang diberikan — tetapi semakin banyak perhatian yang dibutuhkan."
+    ]
+  },
+  "methodsComparison": {
+    "title": "Perbandingan 50/30/20, Metode 6 Toples, dan Metode Amplop",
+    "table": {
+      "headers": ["", "50/30/20", "Metode 6 Toples", "Metode Amplop"],
+      "rows": [
+        ["Jumlah kategori", "3", "6 dalam versi klasik", "Dapat disesuaikan"],
+        ["Kategori sudah ditentukan", "Ya", "Ya", "Tidak"],
+        ["Proporsi yang disarankan", "Ya", "Ya", "Tidak wajib"],
+        ["Bisakah proporsi diubah?", "Ya", "Ya", "Ya"],
+        ["Bisakah membuat kategori sendiri?", "Ya, jika metode disesuaikan", "Ya, jika metode disesuaikan", "Ya"],
+        ["Kemudahan memulai", "Sangat tinggi", "Tinggi", "Sedang"],
+        ["Tingkat detail", "Rendah", "Sedang", "Dapat disesuaikan"],
+        ["Fleksibilitas", "Sedang", "Tinggi", "Sangat tinggi"],
+        ["Cocok untuk pengelolaan digital", "Ya", "Ya", "Ya"]
+      ]
+    },
+    "closingParagraphs": [
+      "Tidak ada satu pun metode yang secara objektif lebih baik daripada yang lain.",
+      "Ketiganya menyelesaikan masalah yang sama dengan tingkat detail yang berbeda."
+    ]
+  },
+  "oneIncome": {
+    "title": "Satu pendapatan — tiga cara berbeda untuk membaginya",
+    "paragraphs": [
+      "Misalkan Anda menerima pendapatan sebesar 10.000.",
+      "Mari kita lihat bagaimana jumlah yang sama dapat dibagi dalam masing-masing sistem."
+    ],
+    "variant503020": {
+      "title": "Pilihan 1: aturan 50/30/20",
+      "table": {
+        "headers": ["Kategori", "Porsi", "Jumlah"],
+        "rows": [
+          ["Kebutuhan", "50%", "5.000"],
+          ["Keinginan", "30%", "3.000"],
+          ["Tabungan dan tujuan keuangan", "20%", "2.000"]
+        ]
+      },
+      "closingParagraphs": [
+        "Anda tahu berapa banyak yang dapat dialokasikan untuk kebutuhan pokok, berapa banyak yang tersedia untuk pembelian opsional, dan berapa banyak yang harus disimpan untuk masa depan.",
+        "Namun, tidak ada pembagian lebih lanjut di dalam kategori tersebut."
+      ]
+    },
+    "variantSixJars": {
+      "title": "Pilihan 2: Metode 6 Toples",
+      "table": {
+        "headers": ["Kategori", "Porsi", "Jumlah"],
+        "rows": [
+          ["Kebutuhan pokok", "55%", "5.500"],
+          ["Kebebasan finansial", "10%", "1.000"],
+          ["Tabungan jangka panjang", "10%", "1.000"],
+          ["Pendidikan", "10%", "1.000"],
+          ["Hiburan", "10%", "1.000"],
+          ["Hadiah dan bantuan", "5%", "500"]
+        ]
+      },
+      "closingParagraphs": [
+        "Di sini, 10.000 yang sama dibagi ke dalam tujuan yang lebih spesifik.",
+        "Misalnya, uang untuk pendidikan tidak lagi bersaing langsung dengan hiburan, sementara tabungan jangka panjang dipisahkan dari uang untuk membangun aset."
+      ]
+    },
+    "variantEnvelope": {
+      "title": "Pilihan 3: Metode Amplop",
+      "paragraphs": [
+        "Metode Amplop tidak mengharuskan pembagian yang tetap."
+      ],
+      "exampleIntro": "Misalnya:",
+      "table": {
+        "headers": ["Kategori", "Jumlah"],
+        "rows": [
+          ["Tempat tinggal dan tagihan", "3.000"],
+          ["Makanan", "2.000"],
+          ["Transportasi", "800"],
+          ["Hiburan", "700"],
+          ["Restoran", "500"],
+          ["Liburan", "1.000"],
+          ["Dana darurat", "1.500"],
+          ["Pendidikan", "500"],
+          ["Total", "10.000"]
+        ]
+      },
+      "closingParagraphs": [
+        "Pendekatan ini memberikan kontrol yang jauh lebih besar, tetapi Anda harus menentukan sendiri kategori mana yang benar-benar dibutuhkan."
+      ]
+    }
+  },
+  "when503020": {
+    "title": "Aturan 50/30/20 cocok jika Anda ingin memulai sesederhana mungkin",
+    "paragraphs": [
+      "Jika sebelumnya Anda belum pernah membagi uang sejak awal, aturan 50/30/20 dapat menjadi titik awal yang baik.",
+      "Anda tidak perlu membangun sistem yang rumit.",
+      "Anda hanya perlu memantau tiga area:"
+    ],
+    "items": [
+      "kebutuhan;",
+      "keinginan;",
+      "tabungan dan tujuan keuangan."
+    ],
+    "closingParagraphs": [
+      "Bahkan pembagian sesederhana ini dapat membantu Anda berhenti melihat seluruh saldo sebagai uang yang bebas dibelanjakan.",
+      "50/30/20 juga cocok untuk orang yang tidak menyukai pencatatan keuangan yang terlalu rinci.",
+      "Jika Anda tidak perlu mengetahui dengan tepat berapa banyak yang dibelanjakan untuk game, restoran, atau pakaian, Anda tidak perlu membuat kategori terpisah untuk semuanya.",
+      "Semua pengeluaran tersebut dapat dikelola bersama."
+    ]
+  },
+  "whenSixJars": {
+    "title": "Metode 6 Toples cocok jika Anda ingin struktur siap pakai yang lebih rinci",
+    "paragraphs": [
+      "Metode 6 Toples berada kira-kira di antara 50/30/20 dan sistem kategori yang sepenuhnya dibuat sendiri.",
+      "Ada cukup banyak kategori untuk memisahkan tujuan keuangan utama, tetapi Anda tidak perlu membangun seluruh struktur anggaran dari awal.",
+      "Gagasan untuk menjaga beberapa prioritas keuangan sekaligus bisa sangat berguna.",
+      "Setiap kali menerima pendapatan, sebagian uang tidak hanya digunakan untuk pengeluaran saat ini, tetapi juga untuk:"
+    ],
+    "items": [
+      "masa depan;",
+      "pendidikan;",
+      "waktu santai;",
+      "membangun aset;",
+      "tujuan penting lainnya."
+    ],
+    "closingParagraphs": [
+      "Anda dapat menyesuaikan struktur klasik secara bertahap sesuai kebutuhan.",
+      "Misalnya, Anda dapat mengubah persentase, mengganti nama kategori, atau menambahkan kategori baru."
+    ]
+  },
+  "whenEnvelope": {
+    "title": "Metode Amplop cocok jika Anda ingin mengontrol pengeluaran tertentu dengan lebih tepat",
+    "paragraphs": [
+      "Metode Amplop sangat berguna ketika masalahnya bukan total pengeluaran, melainkan jenis pengeluaran tertentu.",
+      "Misalnya, Anda bisa tetap berada dalam anggaran bulanan secara keseluruhan tetapi secara rutin menghabiskan terlalu banyak untuk:"
+    ],
+    "items": [
+      "pesan antar makanan;",
+      "restoran;",
+      "game;",
+      "pakaian;",
+      "taksi."
+    ],
+    "closingParagraphs": [
+      "Dalam aturan 50/30/20, semua pengeluaran ini dapat masuk ke dalam satu kategori keinginan yang luas.",
+      "Metode Amplop memungkinkan Anda memisahkan setiap area penting."
+    ],
+    "exampleTitle": "Misalnya:",
+    "example": "<strong>Restoran — 500.</strong>",
+    "outroParagraphs": [
+      "Saat uang dalam kategori tersebut habis, Anda langsung dapat melihat bahwa anggaran yang direncanakan telah digunakan.",
+      "Setelah itu, Anda dapat menghentikan pengeluaran di kategori tersebut sampai pembagian berikutnya atau menyesuaikan anggaran secara sadar."
+    ]
+  },
+  "strictPercents": {
+    "title": "Apakah persentase harus diikuti dengan ketat?",
+    "paragraphs": [
+      "Tidak.",
+      "Persentase berguna sebagai titik awal, tetapi mengikuti semuanya secara tepat tidak seharusnya menjadi tujuan tersendiri.",
+      "Jika kebutuhan pokok menghabiskan 65% pendapatan Anda, aturan 50/30/20 tidak akan membuat biaya tempat tinggal menjadi lebih murah.",
+      "Demikian pula, tidak ada alasan untuk memaksakan 10% pendapatan ke pendidikan hanya karena Metode 6 Toples klasik menggunakan proporsi tersebut.",
+      "Lebih berguna menjadikan proporsi yang disarankan sebagai panduan awal, lalu melihat seberapa baik proporsi tersebut cocok dengan kehidupan nyata Anda.",
+      "Jika satu kategori secara rutin kehabisan uang sementara kategori lain terus memiliki kelebihan besar, Anda dapat mengubah pembagiannya.",
+      "Anggaran seharusnya menyesuaikan dengan hidup Anda, bukan sebaliknya."
+    ]
+  },
+  "combineMethods": {
+    "title": "Bisakah metode-metode ini digabungkan?",
+    "paragraphs": [
+      "Bisa.",
+      "Karena ketiga metode didasarkan pada prinsip inti yang sama, batas di antara mereka cukup fleksibel.",
+      "Misalnya, Anda dapat memulai dengan aturan 50/30/20 lalu membagi kategori keinginan menjadi beberapa kategori yang lebih rinci:"
+    ],
+    "wantsItems": [
+      "restoran;",
+      "hiburan;",
+      "hobi;",
+      "perjalanan."
+    ],
+    "middleParagraphs": [
+      "Dengan begitu, sistem menjadi lebih mirip dengan Metode Amplop.",
+      "Anda juga dapat menggunakan Metode 6 Toples sebagai dasar lalu membagi tabungan jangka panjang ke beberapa tujuan:"
+    ],
+    "savingsItems": [
+      "liburan;",
+      "elektronik;",
+      "mobil;",
+      "renovasi rumah."
+    ],
+    "closingParagraphs": [
+      "Anda juga bisa bergerak ke arah sebaliknya.",
+      "Jika sistem dengan lima belas kategori menjadi terlalu rumit, pengeluaran yang serupa dapat digabungkan ke dalam beberapa kelompok yang lebih luas.",
+      "Seiring waktu, anggaran Anda dapat berkembang menjadi sistem yang benar-benar sesuai untuk Anda.",
+      "Nama metode lebih tidak penting dibandingkan prinsip dasarnya:",
+      "<strong>uang diberi tujuan sebelum dibelanjakan.</strong>"
+    ]
+  },
+  "irregularIncome": {
+    "title": "Apa yang harus dilakukan dengan pendapatan tidak tetap?",
+    "paragraphs": [
+      "Ketiga pendekatan juga dapat digunakan tanpa gaji tetap.",
+      "Jika pendapatan datang dalam pembayaran terpisah, Anda dapat membagi setiap pembayaran baru saat menerimanya.",
+      "Misalnya, setelah menerima pembayaran proyek, Anda langsung menentukan berapa yang dialokasikan untuk kebutuhan pokok, tabungan, dan tujuan lainnya.",
+      "Persentase tetap dapat sangat praktis untuk pendapatan tidak tetap karena Anda tidak perlu mengetahui jumlah pendapatan bulanan secara pasti sejak awal.",
+      "Jika menerima 4.000, bagilah 4.000 tersebut.",
+      "Jika seminggu kemudian menerima tambahan 2.000, bagilah juga 2.000 tersebut.",
+      "Dalam Metode Amplop, Anda juga dapat menggunakan pendekatan lain: isi terlebih dahulu kategori yang paling penting hingga mencapai jumlah target, lalu distribusikan sisanya."
+    ]
+  },
+  "finalChoice": {
+    "title": "Metode mana yang sebaiknya dipilih?",
+    "paragraphs": [
+      "Jika Anda menginginkan sistem sesederhana mungkin, Anda dapat memulai dengan <strong>aturan 50/30/20</strong>.",
+      "Tiga kategori mudah dipahami, diingat, dan dikelola.",
+      "Jika menginginkan lebih banyak struktur tanpa membuat anggaran dari nol, <strong>Metode 6 Toples</strong> mungkin lebih cocok.",
+      "Enam kategori memungkinkan Anda memisahkan pengeluaran saat ini, tabungan, pengembangan diri, hiburan, dan tujuan keuangan lainnya.",
+      "Jika Anda sudah memahami pola pengeluaran sendiri dan ingin menentukan kategori serta jumlah secara mandiri, <strong>Metode Amplop</strong> mungkin menjadi pilihan terbaik.",
+      "Pilihan Anda tidak harus permanen.",
+      "Anda dapat memulai dengan tiga kategori dan secara bertahap menambahkan lebih banyak detail."
+    ],
+    "exampleIntro": "Misalnya:",
+    "example": "<strong>50/30/20 → Metode 6 Toples → sistem kategori Anda sendiri.</strong>",
+    "closingParagraphs": [
+      "Atau Anda dapat bergerak ke arah sebaliknya dan menyederhanakan anggaran yang terlalu rinci dengan menggabungkan banyak kategori menjadi beberapa kategori yang lebih besar.",
+      "Metode anggaran yang baik bukanlah yang terlihat paling benar di atas kertas, tetapi yang dapat Anda gunakan secara konsisten."
+    ]
+  },
+  "digitalOnly": {
+    "title": "Anda tidak membutuhkan amplop atau toples fisik untuk membagi uang",
+    "paragraphs": [
+      "Ketiga metode didasarkan pada pemberian tujuan kepada uang sejak awal. Namun, Anda tidak perlu menyimpannya secara fisik terpisah.",
+      "Anda tetap dapat menggunakan satu rekening bank dan mencatat pembagian internal secara terpisah.",
+      "Misalnya, Anda dapat memiliki 12.000 di rekening bank sementara anggaran membagi jumlah tersebut ke pengeluaran saat ini, tabungan, liburan, hiburan, dan tujuan lainnya.",
+      "Bank menunjukkan <strong>berapa banyak uang yang Anda miliki secara total</strong>.",
+      "Sistem anggaran menunjukkan <strong>untuk apa uang tersebut dialokasikan</strong>.",
+      "Itulah sebabnya metode ini cocok digunakan secara digital: uang dapat tetap berada di rekening bank biasa sementara pembagian internal dicatat secara terpisah."
+    ]
+  },
+  "inApp": {
+    "title": "Cara menggunakan berbagai metode anggaran di 6 Jars Finance",
+    "paragraphs": [
+      "Walaupun aplikasi ini bernama <strong>6 Jars Finance</strong>, penggunaannya tidak terbatas pada Metode 6 Toples klasik.",
+      "Saat pertama kali membuka aplikasi, Anda dapat memilih sistem anggaran yang paling sesuai:"
+    ],
+    "items": [
+      "aturan 50/30/20;",
+      "Metode 6 Toples klasik;",
+      "sistem kategori Anda sendiri berdasarkan Metode Amplop."
+    ],
+    "closingParagraphs": [
+      "Sistem yang dipilih menjadi titik awal dan dapat disesuaikan kapan saja dengan mengubah persentase, nama kategori, atau jumlah kategori.",
+      "Saat Anda menerima pendapatan, aplikasi membaginya ke dalam kategori sesuai proporsi yang dipilih. Setelah melakukan pembelian, hanya saldo kategori yang terkait dengan pengeluaran tersebut yang berkurang.",
+      "Uang tetap berada di rekening bank biasa. Aplikasi tidak terhubung ke bank Anda dan tidak memindahkan uang antar rekening.",
+      "Dengan begitu, Anda tetap dapat menggunakan kartu bank seperti biasa sambil melihat bagian mana dari total saldo yang sudah dialokasikan untuk pengeluaran dan tujuan tertentu.",
+      "Sistem yang dipilih saat pengaturan dapat diubah kapan saja agar lebih sesuai dengan pengeluaran dan tujuan nyata Anda."
+    ],
+    "cta": "Coba 6 Jars Finance →"
+  }
+}

@@ -1,0 +1,478 @@
+{
+  "title": "50/30/20, the 6 Jars Method, or Envelope Budgeting: Which Budgeting Method Is Right for You?",
+  "metaDescription": "The 50/30/20 rule, the 6 Jars Method, and Envelope Budgeting all solve the same problem — allocating income to categories in advance. We compare the three approaches and help you choose the right one.",
+  "intro": {
+    "paragraphs": [
+      "There are many ways to manage a personal budget, but some of them are based on the same idea: <strong>allocate your income before you start spending it</strong>.",
+      "These approaches include the 50/30/20 rule, the 6 Jars Method, and Envelope Budgeting.",
+      "Each method uses its own terminology. In the 6 Jars Method, money is divided between jars; in Envelope Budgeting, between envelopes; and in the 50/30/20 rule, between three broad groups of expenses.",
+      "To compare these approaches without unnecessary confusion, I will use the general term <strong>“categories”</strong> throughout this article.",
+      "A category is a separate part of your budget assigned to a specific purpose or group of expenses, such as necessities, savings, entertainment, or education.",
+      "When viewed this way, the three methods are very similar.",
+      "The main difference between them is the <strong>level of budget detail</strong>.",
+      "The 50/30/20 rule uses three broad categories. The 6 Jars Method divides money in more detail. Envelope Budgeting lets you create as many categories as you need.",
+      "Let’s look at each approach in order — from the simplest to the most detailed."
+    ]
+  },
+  "overview": {
+    "title": "Table of contents",
+    "commonGround": "What all three methods have in common",
+    "rule503020": "How the 50/30/20 rule works",
+    "sixJarsMethod": "How the 6 Jars Method works",
+    "envelopeMethod": "How Envelope Budgeting works",
+    "detailLevel": "Level of detail",
+    "methodsComparison": "Comparing the methods",
+    "oneIncome": "One income — three ways to allocate it",
+    "when503020": "When to choose 50/30/20",
+    "whenSixJars": "When to choose the 6 Jars Method",
+    "whenEnvelope": "When to choose Envelope Budgeting",
+    "strictPercents": "Do you need to follow the percentages strictly?",
+    "combineMethods": "Can you combine these methods?",
+    "irregularIncome": "Irregular income",
+    "finalChoice": "Which one should you choose?",
+    "digitalOnly": "You don't need physical envelopes",
+    "inApp": "How to use these methods in 6 Jars Finance"
+  },
+  "commonGround": {
+    "title": "What all three methods have in common",
+    "paragraphs": [
+      "Traditional expense tracking helps answer the question:",
+      "<strong>“Where has my money already gone?”</strong>",
+      "You record purchases, review your spending, and see how much you spent on groceries, transportation, entertainment, and other expenses.",
+      "The 50/30/20 rule, the 6 Jars Method, and Envelope Budgeting take a slightly different approach.",
+      "They help you answer another question in advance:",
+      "<strong>“What do I want to use this income for?”</strong>",
+      "When you receive income, you allocate it between several categories."
+    ],
+    "exampleIntro": "For example:",
+    "exampleItems": [
+      "some money is allocated to everyday expenses;",
+      "some to savings;",
+      "some to leisure;",
+      "some to future large purchases."
+    ],
+    "closingParagraphs": [
+      "This prevents your total bank balance from looking like one completely available pool of money.",
+      "If you have 10,000 in your account, that does not mean you can spend all 10,000 right now. Perhaps 5,000 is already allocated to essential expenses, 2,000 to savings, and only 1,000 to entertainment.",
+      "All three methods help you assign money to specific purposes in advance.",
+      "They differ mainly in <strong>how broad or detailed the categories are and what proportions they suggest using</strong>."
+    ],
+    "cta": "Try budget allocation with 6 Jars Finance →"
+  },
+  "rule503020": {
+    "title": "How the 50/30/20 rule works",
+    "paragraphs": [
+      "The 50/30/20 rule is the simplest of the three approaches.",
+      "Your after-tax income is divided into just three categories:"
+    ],
+    "categories": [
+      "<strong>50% — needs;</strong>",
+      "<strong>30% — wants;</strong>",
+      "<strong>20% — savings and other financial goals.</strong>"
+    ],
+    "closingParagraphs": [
+      "Needs include housing, groceries, utilities, transportation, and other basic expenses.",
+      "The wants category includes entertainment, restaurants, travel, hobbies, optional purchases, and other expenses you could live without.",
+      "The final 20% goes toward savings, an emergency fund, investments, major goals, or extra debt repayment."
+    ],
+    "strengths": {
+      "title": "Strength of the 50/30/20 rule",
+      "paragraphs": [
+        "Its main advantage is simplicity.",
+        "Instead of managing many categories, you only need to keep track of three broad areas.",
+        "You do not need separate limits for restaurants, games, clothing, and travel. All of these expenses can be grouped into the wants category.",
+        "That makes 50/30/20 easier to start with than more detailed systems.",
+        "This approach is especially useful if you do not want to track your budget in detail and simply want to maintain a general balance between everyday living, optional spending, and future goals."
+      ]
+    },
+    "weaknesses": {
+      "title": "Weakness of the 50/30/20 rule",
+      "paragraphs": [
+        "Three categories provide little information about what is happening inside your budget.",
+        "Suppose you allocate 3,000 to wants.",
+        "You might spend:"
+      ],
+      "exampleItems": [
+        "500 on restaurants;",
+        "500 on hobbies;",
+        "2,000 on new electronics."
+      ],
+      "closingParagraphs": [
+        "Technically, you are still following the rule.",
+        "But if you want to control different types of spending separately, one broad wants category may not be enough.",
+        "The suggested percentages may also not match your real-life situation.",
+        "In a city with expensive housing, essential expenses can easily exceed 50% of your income. That is why the 50/30/20 proportions are better treated as a starting point rather than a strict rule."
+      ]
+    }
+  },
+  "sixJarsMethod": {
+    "title": "How the 6 Jars Method works",
+    "paragraphs": [
+      "The 6 Jars Method uses the same basic idea but divides the budget in more detail.",
+      "In the classic version, each income payment is divided between six categories:"
+    ],
+    "table": {
+      "headers": ["Category", "Share"],
+      "rows": [
+        ["Necessities", "55%"],
+        ["Financial Freedom", "10%"],
+        ["Long-Term Savings", "10%"],
+        ["Education", "10%"],
+        ["Play", "10%"],
+        ["Give", "5%"]
+      ]
+    },
+    "closingParagraphs": [
+      "Compared with 50/30/20, this creates more separate areas of the budget.",
+      "For example, savings are no longer treated as one broad category. Money intended for building capital is separated from long-term savings.",
+      "Entertainment is separated from education and giving.",
+      "This helps keep different financial goals from competing for the same money."
+    ],
+    "strengths": {
+      "title": "Strength of the 6 Jars Method",
+      "paragraphs": [
+        "The method provides a ready-made structure while offering more detail than 50/30/20.",
+        "You do not have to decide on the main categories yourself. They are already defined.",
+        "At the same time, the budget becomes more structured.",
+        "You can separately see the money intended for:"
+      ],
+      "items": [
+        "everyday living;",
+        "savings;",
+        "building capital;",
+        "education;",
+        "entertainment;",
+        "giving."
+      ],
+      "outro": "This can be useful if the three categories of 50/30/20 are no longer detailed enough, but you do not want to build a complete budgeting system from scratch."
+    },
+    "weaknesses": {
+      "title": "Weakness of the 6 Jars Method",
+      "paragraphs": [
+        "The predefined structure will not suit everyone equally well.",
+        "For one person, a separate education category may be important, while another person may barely use it.",
+        "Some people regularly buy gifts or donate to charity, while others may prefer to direct that portion of their income toward different goals.",
+        "So you do not have to keep the classic percentages or categories unchanged.",
+        "The method can be adapted to your own circumstances."
+      ]
+    }
+  },
+  "envelopeMethod": {
+    "title": "How Envelope Budgeting works",
+    "paragraphs": [
+      "Envelope Budgeting goes a step further and leaves the structure of your budget almost entirely up to you.",
+      "You create your own categories for the expenses and goals you want to control."
+    ],
+    "exampleIntro": "For example:",
+    "exampleItems": [
+      "housing;",
+      "groceries;",
+      "transportation;",
+      "restaurants;",
+      "entertainment;",
+      "vacation;",
+      "electronics;",
+      "emergency fund;",
+      "education."
+    ],
+    "closingParagraphs": [
+      "You then assign a specific amount to each category.",
+      "The basic principle stays the same:",
+      "<strong>every part of your money has a purpose.</strong>",
+      "If you allocate 500 to restaurants, that amount tells you how much is available for restaurants regardless of the total balance in your bank account.",
+      "Historically, people actually divided cash between physical envelopes.",
+      "Today, the same system can be used digitally without physically separating your money."
+    ],
+    "strengths": {
+      "title": "Strength of Envelope Budgeting",
+      "paragraphs": [
+        "It is the most flexible of the three approaches.",
+        "You decide:"
+      ],
+      "items": [
+        "how many categories you need;",
+        "how detailed they should be;",
+        "how much money to allocate to each one;",
+        "which expenses you want to track separately."
+      ],
+      "outro": "One person might use four broad categories. Another might use fifteen or twenty."
+    },
+    "weaknesses": {
+      "title": "Weakness of Envelope Budgeting",
+      "paragraphs": [
+        "The more freedom a system gives you, the more decisions you have to make yourself.",
+        "You need to choose the categories, set reasonable amounts, and review them from time to time.",
+        "If you create too many categories, your budget can become more complicated than necessary.",
+        "High levels of detail are useful only when they actually help you make better decisions."
+      ]
+    }
+  },
+  "detailLevel": {
+    "title": "The three methods mainly differ in their level of detail",
+    "paragraphs": [
+      "If you ignore the different names, it becomes clear that all three approaches use almost the same principle.",
+      "Income is allocated to categories in advance, and each category is responsible for a particular group of expenses or financial goals.",
+      "The difference is <strong>how detailed the budget becomes</strong>.",
+      "The 50/30/20 rule uses three very broad categories.",
+      "The 6 Jars Method uses six more specific categories.",
+      "Envelope Budgeting lets you define any number of categories yourself.",
+      "You can think of them as a simple progression:",
+      "<strong>50/30/20 → 6 Jars Method → Envelope Budgeting</strong>",
+      "From the least detailed to the most detailed.",
+      "But having more categories does not automatically make a budget better.",
+      "The more detailed the system is, the more control it gives you — but the more attention it requires."
+    ]
+  },
+  "methodsComparison": {
+    "title": "Comparing 50/30/20, the 6 Jars Method, and Envelope Budgeting",
+    "table": {
+      "headers": ["", "50/30/20", "6 Jars Method", "Envelope Budgeting"],
+      "rows": [
+        ["Number of categories", "3", "6 in the classic version", "Custom"],
+        ["Categories predefined", "Yes", "Yes", "No"],
+        ["Suggested proportions", "Yes", "Yes", "Not required"],
+        ["Can proportions be changed?", "Yes", "Yes", "Yes"],
+        ["Can you create your own categories?", "Yes, if adapted", "Yes, if adapted", "Yes"],
+        ["Ease of getting started", "Very high", "High", "Medium"],
+        ["Level of detail", "Low", "Medium", "Flexible"],
+        ["Flexibility", "Medium", "High", "Very high"],
+        ["Suitable for digital tracking", "Yes", "Yes", "Yes"]
+      ]
+    },
+    "closingParagraphs": [
+      "There is no single method that is objectively better than the others.",
+      "They solve the same problem with different levels of detail."
+    ]
+  },
+  "oneIncome": {
+    "title": "One income — three different ways to allocate it",
+    "paragraphs": [
+      "Suppose you receive an income of 10,000.",
+      "Let’s see how the same amount might look under each system."
+    ],
+    "variant503020": {
+      "title": "Option 1: the 50/30/20 rule",
+      "table": {
+        "headers": ["Category", "Share", "Amount"],
+        "rows": [
+          ["Needs", "50%", "5,000"],
+          ["Wants", "30%", "3,000"],
+          ["Savings and financial goals", "20%", "2,000"]
+        ]
+      },
+      "closingParagraphs": [
+        "You know how much can go toward essential expenses, how much is available for optional purchases, and how much should be kept for the future.",
+        "But there is no further division within those categories."
+      ]
+    },
+    "variantSixJars": {
+      "title": "Option 2: the 6 Jars Method",
+      "table": {
+        "headers": ["Category", "Share", "Amount"],
+        "rows": [
+          ["Necessities", "55%", "5,500"],
+          ["Financial Freedom", "10%", "1,000"],
+          ["Long-Term Savings", "10%", "1,000"],
+          ["Education", "10%", "1,000"],
+          ["Play", "10%", "1,000"],
+          ["Give", "5%", "500"]
+        ]
+      },
+      "closingParagraphs": [
+        "Here, the same 10,000 is divided into more specific purposes.",
+        "For example, money for education no longer competes directly with entertainment, while long-term savings are separated from money intended for building capital."
+      ]
+    },
+    "variantEnvelope": {
+      "title": "Option 3: Envelope Budgeting",
+      "paragraphs": [
+        "Envelope Budgeting does not require a fixed allocation."
+      ],
+      "exampleIntro": "For example:",
+      "table": {
+        "headers": ["Category", "Amount"],
+        "rows": [
+          ["Housing and utilities", "3,000"],
+          ["Groceries", "2,000"],
+          ["Transportation", "800"],
+          ["Entertainment", "700"],
+          ["Restaurants", "500"],
+          ["Vacation", "1,000"],
+          ["Emergency fund", "1,500"],
+          ["Education", "500"],
+          ["Total", "10,000"]
+        ]
+      },
+      "closingParagraphs": [
+        "This approach gives you much more control, but you need to decide for yourself which categories you actually need."
+      ]
+    }
+  },
+  "when503020": {
+    "title": "The 50/30/20 rule is a good choice if you want to start as simply as possible",
+    "paragraphs": [
+      "If you have never allocated money in advance before, the 50/30/20 rule can be a convenient starting point.",
+      "You do not need to build a complicated system.",
+      "You only need to keep track of three areas:"
+    ],
+    "items": [
+      "needs;",
+      "wants;",
+      "savings and financial goals."
+    ],
+    "closingParagraphs": [
+      "Even this simple division can help you stop viewing your entire balance as money that is freely available to spend.",
+      "50/30/20 is also useful for people who do not like detailed financial tracking.",
+      "If you do not care exactly how much you spend on games, restaurants, or clothing, there is no need to create separate categories for them.",
+      "You can manage all of these expenses together."
+    ]
+  },
+  "whenSixJars": {
+    "title": "The 6 Jars Method is a good choice if you want a more detailed ready-made structure",
+    "paragraphs": [
+      "The 6 Jars Method sits roughly between 50/30/20 and a completely custom category system.",
+      "There are enough categories to separate your main financial goals, but you do not have to build the entire budget structure from scratch.",
+      "One particularly useful idea is maintaining several financial priorities at the same time.",
+      "Every time you receive income, part of it goes not only toward current expenses, but also toward:"
+    ],
+    "items": [
+      "the future;",
+      "education;",
+      "leisure;",
+      "building capital;",
+      "other important goals."
+    ],
+    "closingParagraphs": [
+      "You can gradually adapt the classic structure to suit your needs.",
+      "For example, you can change the percentages, rename categories, or add new ones."
+    ]
+  },
+  "whenEnvelope": {
+    "title": "Envelope Budgeting is a good choice if you want more precise control over individual expenses",
+    "paragraphs": [
+      "Envelope Budgeting is especially useful when the problem is not your total spending, but specific types of expenses.",
+      "For example, you might stay within your overall monthly budget but regularly spend too much:"
+    ],
+    "items": [
+      "on food delivery;",
+      "restaurants;",
+      "games;",
+      "clothing;",
+      "taxis."
+    ],
+    "closingParagraphs": [
+      "Under the 50/30/20 rule, all of these expenses may fall into one broad wants category.",
+      "Envelope Budgeting lets you separate each important area."
+    ],
+    "exampleTitle": "For example:",
+    "example": "<strong>Restaurants — 500.</strong>",
+    "outroParagraphs": [
+      "Once the money in that category is gone, you can immediately see that the planned budget has been used.",
+      "You can then stop spending in that category until the next allocation or consciously adjust your budget."
+    ]
+  },
+  "strictPercents": {
+    "title": "Do you need to follow the percentages strictly?",
+    "paragraphs": [
+      "No.",
+      "Percentages are useful as a starting point, but following them exactly should not become a goal in itself.",
+      "If essential expenses take up 65% of your income, the 50/30/20 rule will not make your housing cheaper.",
+      "Likewise, there is no reason to artificially spend 10% of your income on education just because the classic 6 Jars Method assigns that percentage to it.",
+      "It is more useful to treat the suggested proportions as an initial guideline and then see how well they match your actual life.",
+      "If one category regularly runs short while another consistently has a large surplus, you can change the allocation.",
+      "Your budget should adapt to your life, not the other way around."
+    ]
+  },
+  "combineMethods": {
+    "title": "Can you combine these methods?",
+    "paragraphs": [
+      "Yes.",
+      "Because all three methods are based on the same core principle, the boundaries between them are fairly flexible.",
+      "For example, you can start with the 50/30/20 rule and then split the wants category into several more detailed categories:"
+    ],
+    "wantsItems": [
+      "restaurants;",
+      "entertainment;",
+      "hobbies;",
+      "travel."
+    ],
+    "middleParagraphs": [
+      "This makes the system closer to Envelope Budgeting.",
+      "You can also use the 6 Jars Method as a foundation but divide long-term savings between several goals:"
+    ],
+    "savingsItems": [
+      "vacation;",
+      "electronics;",
+      "a car;",
+      "home repairs."
+    ],
+    "closingParagraphs": [
+      "You can also move in the opposite direction.",
+      "If a system with fifteen categories becomes too complicated, similar expenses can be combined into a few broader groups.",
+      "Over time, your budget can evolve into a system that works specifically for you.",
+      "The name of the method matters less than the underlying principle:",
+      "<strong>money gets a purpose before you spend it.</strong>"
+    ]
+  },
+  "irregularIncome": {
+    "title": "What to do with irregular income",
+    "paragraphs": [
+      "All three approaches can also work without a fixed salary.",
+      "If your income arrives in separate payments, you can allocate each new payment as it comes in.",
+      "For example, after receiving payment for a project, you immediately decide how much should go toward essential expenses, savings, and other goals.",
+      "Fixed percentages can be especially convenient with irregular income because you do not need to know your exact monthly income in advance.",
+      "If you receive 4,000, allocate that 4,000.",
+      "If you receive another 2,000 a week later, allocate that 2,000 as well.",
+      "With Envelope Budgeting, you can also use a different approach: first fund the most important categories up to their target amounts, then allocate whatever remains."
+    ]
+  },
+  "finalChoice": {
+    "title": "Which one should you choose?",
+    "paragraphs": [
+      "If you want the simplest possible system, you can start with the <strong>50/30/20 rule</strong>.",
+      "Three categories are easy to understand, remember, and manage.",
+      "If you want more structure without building a budget from scratch, the <strong>6 Jars Method</strong> may be a better fit.",
+      "Six categories let you separate current expenses, savings, personal development, leisure, and other financial goals.",
+      "If you already understand your spending well and want to define your own categories and amounts, <strong>Envelope Budgeting</strong> may be the best option.",
+      "Your choice does not have to be permanent.",
+      "You can start with three categories and gradually add more detail."
+    ],
+    "exampleIntro": "For example:",
+    "example": "<strong>50/30/20 → 6 Jars Method → your own category system.</strong>",
+    "closingParagraphs": [
+      "Or you can go in the opposite direction and simplify an overly detailed budget by combining many categories into a few larger ones.",
+      "A good budgeting method is not the one that looks most correct on paper, but the one you can use consistently."
+    ]
+  },
+  "digitalOnly": {
+    "title": "You don't need physical envelopes or jars to allocate your money",
+    "paragraphs": [
+      "All three methods are based on giving money a purpose in advance. But you do not need to physically keep the money separate.",
+      "You can continue using a single bank account and track the internal allocation separately.",
+      "For example, you may have 12,000 in your bank account, while your budget divides that amount between current expenses, savings, vacation, entertainment, and other goals.",
+      "Your bank shows <strong>how much money you have in total</strong>.",
+      "Your budgeting system shows <strong>what that money is meant for</strong>.",
+      "That is why these methods work well digitally: your money can stay in your usual bank account while its internal allocation is tracked separately."
+    ]
+  },
+  "inApp": {
+    "title": "How to use different budgeting methods in 6 Jars Finance",
+    "paragraphs": [
+      "Although the app is called <strong>6 Jars Finance</strong>, it is not limited to the classic 6 Jars Method.",
+      "When you first open the app, you can choose the budgeting system that suits you:"
+    ],
+    "items": [
+      "the 50/30/20 rule;",
+      "the classic 6 Jars Method;",
+      "your own category system based on Envelope Budgeting."
+    ],
+    "closingParagraphs": [
+      "The selected system becomes your starting point, and you can adapt it whenever necessary by changing percentages, category names, or the number of categories.",
+      "When you receive income, the app distributes it between categories according to your chosen proportions. When you make a purchase, only the balance of the category associated with that expense decreases.",
+      "The money itself remains in your regular bank account. The app does not connect to your bank or move money between accounts.",
+      "This lets you keep using your usual bank card while still seeing how much of your total balance is already assigned to specific expenses and goals.",
+      "You can change the system you selected during setup at any time to better match your actual spending and goals."
+    ],
+    "cta": "Try 6 Jars Finance →"
+  }
+}

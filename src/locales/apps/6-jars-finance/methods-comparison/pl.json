@@ -1,0 +1,478 @@
+{
+  "title": "50/30/20, metoda 6 słoików czy metoda kopertowa: który sposób budżetowania wybrać?",
+  "metaDescription": "Zasada 50/30/20, metoda 6 słoików i metoda kopertowa rozwiązują ten sam problem — pozwalają z góry podzielić dochód na kategorie. Porównujemy trzy podejścia i pomagamy wybrać odpowiednie.",
+  "intro": {
+    "paragraphs": [
+      "Istnieje wiele sposobów prowadzenia budżetu domowego, ale część z nich opiera się na tej samej zasadzie: <strong>najpierw przypisać otrzymanym pieniądzom konkretne przeznaczenie, a dopiero potem je wydawać</strong>.",
+      "Do takich podejść należą zasada 50/30/20, metoda 6 słoików i metoda kopertowa.",
+      "Każda z nich używa własnych nazw. W metodzie 6 słoików pieniądze dzieli się między słoiki, w metodzie kopertowej — między koperty, a w zasadzie 50/30/20 — między trzy duże grupy wydatków.",
+      "Aby porównywać te podejścia bez niepotrzebnego zamieszania, w dalszej części artykułu będę używać ogólnego określenia <strong>„kategorie”</strong>.",
+      "Kategoria to oddzielna część budżetu przeznaczona na konkretny cel lub grupę wydatków, na przykład potrzeby, oszczędności, rozrywkę albo edukację.",
+      "Z tej perspektywy wszystkie trzy metody okazują się bardzo podobne.",
+      "Główna różnica między nimi to <strong>poziom szczegółowości budżetu</strong>.",
+      "Zasada 50/30/20 korzysta z trzech szerokich kategorii. Metoda 6 słoików dzieli pieniądze bardziej szczegółowo. Metoda kopertowa pozwala utworzyć tyle kategorii, ile potrzebujesz.",
+      "Przyjrzyjmy się każdemu podejściu po kolei — od najprostszego do najbardziej szczegółowego."
+    ]
+  },
+  "overview": {
+    "title": "Spis treści",
+    "commonGround": "Co łączy wszystkie trzy metody",
+    "rule503020": "Jak działa zasada 50/30/20",
+    "sixJarsMethod": "Jak działa metoda 6 słoików",
+    "envelopeMethod": "Jak działa metoda kopertowa",
+    "detailLevel": "Poziom szczegółowości",
+    "methodsComparison": "Porównanie metod",
+    "oneIncome": "Jeden dochód — trzy sposoby podziału",
+    "when503020": "Kiedy wybrać 50/30/20",
+    "whenSixJars": "Kiedy wybrać metodę 6 słoików",
+    "whenEnvelope": "Kiedy wybrać metodę kopertową",
+    "strictPercents": "Czy trzeba ściśle trzymać się procentów?",
+    "combineMethods": "Czy można łączyć te metody?",
+    "irregularIncome": "Nieregularne dochody",
+    "finalChoice": "Którą metodę wybrać?",
+    "digitalOnly": "Nie potrzebujesz fizycznych kopert",
+    "inApp": "Jak korzystać z tych metod w 6 Jars Finance"
+  },
+  "commonGround": {
+    "title": "Co łączy wszystkie trzy metody",
+    "paragraphs": [
+      "Tradycyjne śledzenie wydatków pomaga odpowiedzieć na pytanie:",
+      "<strong>„Na co już wydałem swoje pieniądze?”</strong>",
+      "Zapisujesz zakupy, analizujesz wydatki i możesz zobaczyć, ile wydałeś na jedzenie, transport, rozrywkę i inne potrzeby.",
+      "Zasada 50/30/20, metoda 6 słoików i metoda kopertowa proponują nieco inne podejście.",
+      "Pomagają z góry odpowiedzieć na inne pytanie:",
+      "<strong>„Na co chcę przeznaczyć otrzymane pieniądze?”</strong>",
+      "Kiedy otrzymujesz dochód, dzielisz go między kilka kategorii."
+    ],
+    "exampleIntro": "Na przykład:",
+    "exampleItems": [
+      "część pieniędzy przeznaczasz na codzienne wydatki;",
+      "część na oszczędności;",
+      "część na rozrywkę;",
+      "część na przyszłe większe zakupy."
+    ],
+    "closingParagraphs": [
+      "Dzięki temu całe saldo konta bankowego przestaje wyglądać jak jedna w pełni dostępna kwota.",
+      "Jeśli masz na koncie 10 000, nie oznacza to, że możesz od razu wydać całe 10 000. Być może 5 000 jest już przeznaczone na niezbędne wydatki, 2 000 na oszczędności, a tylko 1 000 na rozrywkę.",
+      "Wszystkie trzy metody pomagają z góry nadać pieniądzom konkretne przeznaczenie.",
+      "Różnią się głównie tym, <strong>jak szerokie lub szczegółowe są kategorie oraz jakie proporcje sugerują</strong>."
+    ],
+    "cta": "Wypróbuj podział budżetu w 6 Jars Finance →"
+  },
+  "rule503020": {
+    "title": "Jak działa zasada 50/30/20",
+    "paragraphs": [
+      "Zasada 50/30/20 jest najprostszym z tych trzech podejść.",
+      "Dochód netto dzieli się tylko na trzy kategorie:"
+    ],
+    "categories": [
+      "<strong>50% — potrzeby;</strong>",
+      "<strong>30% — zachcianki;</strong>",
+      "<strong>20% — oszczędności i inne cele finansowe.</strong>"
+    ],
+    "closingParagraphs": [
+      "Do potrzeb zaliczają się mieszkanie, żywność, rachunki, transport i inne podstawowe wydatki.",
+      "Kategoria zachcianek obejmuje rozrywkę, restauracje, podróże, hobby, nieobowiązkowe zakupy i inne wydatki, bez których można się obejść.",
+      "Ostatnie 20% przeznacza się na oszczędności, fundusz awaryjny, inwestycje, większe cele lub szybszą spłatę zadłużenia."
+    ],
+    "strengths": {
+      "title": "Mocna strona zasady 50/30/20",
+      "paragraphs": [
+        "Jej największą zaletą jest prostota.",
+        "Zamiast zarządzać wieloma kategoriami, wystarczy kontrolować trzy szerokie obszary.",
+        "Nie trzeba ustalać osobnych limitów na restauracje, gry, ubrania i podróże. Wszystkie te wydatki mogą trafić do jednej kategorii zachcianek.",
+        "Dzięki temu rozpoczęcie korzystania z 50/30/20 jest zwykle łatwiejsze niż w przypadku bardziej szczegółowych systemów.",
+        "To podejście jest szczególnie wygodne, jeśli nie chcesz prowadzić bardzo dokładnego budżetu, a jedynie zachować ogólną równowagę między codziennym życiem, wydatkami opcjonalnymi i przyszłymi celami."
+      ]
+    },
+    "weaknesses": {
+      "title": "Słaba strona zasady 50/30/20",
+      "paragraphs": [
+        "Trzy kategorie dają niewiele informacji o tym, co dzieje się wewnątrz budżetu.",
+        "Załóżmy, że przeznaczasz 3 000 na zachcianki.",
+        "Możesz wydać:"
+      ],
+      "exampleItems": [
+        "500 na restauracje;",
+        "500 na hobby;",
+        "2 000 na nową elektronikę."
+      ],
+      "closingParagraphs": [
+        "Formalnie nadal przestrzegasz zasady.",
+        "Jeśli jednak chcesz osobno kontrolować różne typy wydatków, jedna szeroka kategoria zachcianek może nie wystarczyć.",
+        "Sugerowane proporcje mogą również nie pasować do twojej rzeczywistej sytuacji.",
+        "W mieście z wysokimi kosztami mieszkania niezbędne wydatki mogą z łatwością przekraczać 50% dochodu. Dlatego proporcje 50/30/20 lepiej traktować jako punkt wyjścia niż sztywną zasadę."
+      ]
+    }
+  },
+  "sixJarsMethod": {
+    "title": "Jak działa metoda 6 słoików",
+    "paragraphs": [
+      "Metoda 6 słoików opiera się na tej samej podstawowej idei, ale dzieli budżet bardziej szczegółowo.",
+      "W klasycznej wersji każdy dochód jest dzielony między sześć kategorii:"
+    ],
+    "table": {
+      "headers": ["Kategoria", "Udział"],
+      "rows": [
+        ["Niezbędne wydatki", "55%"],
+        ["Wolność finansowa", "10%"],
+        ["Oszczędności długoterminowe", "10%"],
+        ["Edukacja", "10%"],
+        ["Rozrywka", "10%"],
+        ["Prezenty i pomoc", "5%"]
+      ]
+    },
+    "closingParagraphs": [
+      "W porównaniu z 50/30/20 budżet zostaje podzielony na więcej oddzielnych obszarów.",
+      "Na przykład oszczędności nie są już traktowane jako jedna szeroka kategoria. Pieniądze przeznaczone na budowanie kapitału są oddzielone od oszczędności długoterminowych.",
+      "Rozrywka jest oddzielona od edukacji i pomocy innym.",
+      "Dzięki temu różne cele finansowe nie muszą konkurować o te same pieniądze."
+    ],
+    "strengths": {
+      "title": "Mocna strona metody 6 słoików",
+      "paragraphs": [
+        "Metoda oferuje gotową strukturę, a jednocześnie więcej szczegółów niż 50/30/20.",
+        "Nie musisz samodzielnie wymyślać głównych kategorii. Są już określone.",
+        "Budżet staje się jednocześnie bardziej uporządkowany.",
+        "Możesz osobno zobaczyć pieniądze przeznaczone na:"
+      ],
+      "items": [
+        "codzienne życie;",
+        "oszczędności;",
+        "budowanie kapitału;",
+        "edukację;",
+        "rozrywkę;",
+        "pomoc innym."
+      ],
+      "outro": "To podejście może być wygodne, jeśli trzy kategorie 50/30/20 nie są już wystarczająco szczegółowe, ale nie chcesz budować całego systemu budżetowego od zera."
+    },
+    "weaknesses": {
+      "title": "Słaba strona metody 6 słoików",
+      "paragraphs": [
+        "Gotowa struktura nie będzie równie dobrze pasować do każdego.",
+        "Dla jednej osoby osobna kategoria edukacji może być ważna, podczas gdy ktoś inny prawie wcale z niej nie korzysta.",
+        "Niektórzy regularnie kupują prezenty lub przekazują pieniądze na cele charytatywne, podczas gdy inni wolą przeznaczyć tę część dochodu na inne cele.",
+        "Dlatego nie trzeba zachowywać klasycznych procentów ani kategorii bez zmian.",
+        "Metodę można dostosować do własnej sytuacji."
+      ]
+    }
+  },
+  "envelopeMethod": {
+    "title": "Jak działa metoda kopertowa",
+    "paragraphs": [
+      "Metoda kopertowa idzie o krok dalej i pozostawia strukturę budżetu niemal całkowicie do twojej decyzji.",
+      "Samodzielnie tworzysz kategorie dla wydatków i celów, które chcesz kontrolować."
+    ],
+    "exampleIntro": "Na przykład:",
+    "exampleItems": [
+      "mieszkanie;",
+      "żywność;",
+      "transport;",
+      "restauracje;",
+      "rozrywka;",
+      "wakacje;",
+      "elektronika;",
+      "fundusz awaryjny;",
+      "edukacja."
+    ],
+    "closingParagraphs": [
+      "Następnie przypisujesz każdej kategorii określoną kwotę.",
+      "Podstawowa zasada pozostaje taka sama:",
+      "<strong>każda część pieniędzy ma swoje przeznaczenie.</strong>",
+      "Jeśli przeznaczysz 500 na restauracje, właśnie ta kwota pokazuje, ile możesz na nie wydać niezależnie od całkowitego salda konta bankowego.",
+      "Historycznie ludzie naprawdę dzielili gotówkę między fizyczne koperty.",
+      "Dziś ten sam system można stosować cyfrowo, bez fizycznego rozdzielania pieniędzy."
+    ],
+    "strengths": {
+      "title": "Mocna strona metody kopertowej",
+      "paragraphs": [
+        "To najbardziej elastyczne z trzech podejść.",
+        "Sam decydujesz:"
+      ],
+      "items": [
+        "ile kategorii potrzebujesz;",
+        "jak szczegółowe powinny być;",
+        "ile pieniędzy przeznaczyć na każdą z nich;",
+        "które wydatki chcesz kontrolować osobno."
+      ],
+      "outro": "Jedna osoba może korzystać z czterech szerokich kategorii. Inna z piętnastu lub dwudziestu."
+    },
+    "weaknesses": {
+      "title": "Słaba strona metody kopertowej",
+      "paragraphs": [
+        "Im więcej swobody daje system, tym więcej decyzji trzeba podejmować samodzielnie.",
+        "Trzeba wybrać kategorie, ustalić rozsądne kwoty i od czasu do czasu je przeglądać.",
+        "Jeśli utworzysz zbyt wiele kategorii, budżet może stać się bardziej skomplikowany, niż jest to potrzebne.",
+        "Duża szczegółowość jest przydatna tylko wtedy, gdy rzeczywiście pomaga podejmować lepsze decyzje."
+      ]
+    }
+  },
+  "detailLevel": {
+    "title": "Trzy metody różnią się przede wszystkim poziomem szczegółowości",
+    "paragraphs": [
+      "Jeśli pominąć różne nazwy, łatwo zauważyć, że wszystkie trzy podejścia opierają się na niemal tej samej zasadzie.",
+      "Dochód jest z góry dzielony między kategorie, a każda kategoria odpowiada za określoną grupę wydatków lub celów finansowych.",
+      "Różnica polega na tym, <strong>jak szczegółowy staje się budżet</strong>.",
+      "Zasada 50/30/20 wykorzystuje trzy bardzo szerokie kategorie.",
+      "Metoda 6 słoików wykorzystuje sześć bardziej szczegółowych kategorii.",
+      "Metoda kopertowa pozwala samodzielnie określić dowolną liczbę kategorii.",
+      "Można potraktować je jako prostą skalę:",
+      "<strong>50/30/20 → metoda 6 słoików → metoda kopertowa</strong>",
+      "Od najmniejszej do największej szczegółowości.",
+      "Większa liczba kategorii nie oznacza jednak automatycznie lepszego budżetu.",
+      "Im bardziej szczegółowy system, tym większą daje kontrolę — ale też wymaga więcej uwagi."
+    ]
+  },
+  "methodsComparison": {
+    "title": "Porównanie 50/30/20, metody 6 słoików i metody kopertowej",
+    "table": {
+      "headers": ["", "50/30/20", "Metoda 6 słoików", "Metoda kopertowa"],
+      "rows": [
+        ["Liczba kategorii", "3", "6 w klasycznej wersji", "Dowolna"],
+        ["Kategorie ustalone z góry", "Tak", "Tak", "Nie"],
+        ["Sugerowane proporcje", "Tak", "Tak", "Nie są wymagane"],
+        ["Czy można zmieniać proporcje?", "Tak", "Tak", "Tak"],
+        ["Czy można tworzyć własne kategorie?", "Tak, po dostosowaniu metody", "Tak, po dostosowaniu metody", "Tak"],
+        ["Łatwość rozpoczęcia", "Bardzo wysoka", "Wysoka", "Średnia"],
+        ["Poziom szczegółowości", "Niski", "Średni", "Dowolny"],
+        ["Elastyczność", "Średnia", "Wysoka", "Bardzo wysoka"],
+        ["Nadaje się do cyfrowego śledzenia", "Tak", "Tak", "Tak"]
+      ]
+    },
+    "closingParagraphs": [
+      "Nie istnieje jedna metoda, która byłaby obiektywnie lepsza od pozostałych.",
+      "Wszystkie rozwiązują ten sam problem, ale z różnym poziomem szczegółowości."
+    ]
+  },
+  "oneIncome": {
+    "title": "Jeden dochód — trzy różne sposoby podziału",
+    "paragraphs": [
+      "Załóżmy, że otrzymujesz dochód w wysokości 10 000.",
+      "Zobaczmy, jak ta sama kwota może wyglądać w każdym z systemów."
+    ],
+    "variant503020": {
+      "title": "Wariant 1: zasada 50/30/20",
+      "table": {
+        "headers": ["Kategoria", "Udział", "Kwota"],
+        "rows": [
+          ["Potrzeby", "50%", "5 000"],
+          ["Zachcianki", "30%", "3 000"],
+          ["Oszczędności i cele finansowe", "20%", "2 000"]
+        ]
+      },
+      "closingParagraphs": [
+        "Wiesz, ile możesz przeznaczyć na niezbędne wydatki, ile na zakupy opcjonalne i ile zachować na przyszłość.",
+        "Wewnątrz tych kategorii nie ma jednak dalszego podziału."
+      ]
+    },
+    "variantSixJars": {
+      "title": "Wariant 2: metoda 6 słoików",
+      "table": {
+        "headers": ["Kategoria", "Udział", "Kwota"],
+        "rows": [
+          ["Niezbędne wydatki", "55%", "5 500"],
+          ["Wolność finansowa", "10%", "1 000"],
+          ["Oszczędności długoterminowe", "10%", "1 000"],
+          ["Edukacja", "10%", "1 000"],
+          ["Rozrywka", "10%", "1 000"],
+          ["Prezenty i pomoc", "5%", "500"]
+        ]
+      },
+      "closingParagraphs": [
+        "Tutaj te same 10 000 zostaje podzielone na bardziej konkretne cele.",
+        "Na przykład pieniądze na edukację nie konkurują już bezpośrednio z rozrywką, a oszczędności długoterminowe są oddzielone od pieniędzy przeznaczonych na budowanie kapitału."
+      ]
+    },
+    "variantEnvelope": {
+      "title": "Wariant 3: metoda kopertowa",
+      "paragraphs": [
+        "Metoda kopertowa nie wymaga stałego podziału."
+      ],
+      "exampleIntro": "Na przykład:",
+      "table": {
+        "headers": ["Kategoria", "Kwota"],
+        "rows": [
+          ["Mieszkanie i rachunki", "3 000"],
+          ["Żywność", "2 000"],
+          ["Transport", "800"],
+          ["Rozrywka", "700"],
+          ["Restauracje", "500"],
+          ["Wakacje", "1 000"],
+          ["Fundusz awaryjny", "1 500"],
+          ["Edukacja", "500"],
+          ["Razem", "10 000"]
+        ]
+      },
+      "closingParagraphs": [
+        "To podejście daje znacznie większą kontrolę, ale wymaga samodzielnego określenia, których kategorii naprawdę potrzebujesz."
+      ]
+    }
+  },
+  "when503020": {
+    "title": "Zasada 50/30/20 sprawdzi się, jeśli chcesz zacząć możliwie najprościej",
+    "paragraphs": [
+      "Jeśli wcześniej w ogóle nie dzieliłeś pieniędzy z góry, zasada 50/30/20 może być wygodnym punktem wyjścia.",
+      "Nie musisz budować skomplikowanego systemu.",
+      "Wystarczy kontrolować trzy obszary:"
+    ],
+    "items": [
+      "potrzeby;",
+      "zachcianki;",
+      "oszczędności i cele finansowe."
+    ],
+    "closingParagraphs": [
+      "Nawet tak prosty podział pomaga przestać traktować całe saldo jako pieniądze dostępne do swobodnego wydania.",
+      "50/30/20 sprawdzi się także u osób, które nie lubią szczegółowego śledzenia finansów.",
+      "Jeśli nie ma dla ciebie znaczenia, ile dokładnie wydajesz na gry, restauracje czy ubrania, nie musisz tworzyć dla nich osobnych kategorii.",
+      "Możesz kontrolować wszystkie te wydatki razem."
+    ]
+  },
+  "whenSixJars": {
+    "title": "Metoda 6 słoików sprawdzi się, jeśli potrzebujesz bardziej szczegółowej gotowej struktury",
+    "paragraphs": [
+      "Metoda 6 słoików znajduje się mniej więcej pomiędzy 50/30/20 a całkowicie własnym systemem kategorii.",
+      "Kategorii jest wystarczająco dużo, aby rozdzielić główne cele finansowe, ale nie musisz budować całej struktury budżetu od zera.",
+      "Szczególnie przydatna może być sama idea równoczesnego dbania o kilka priorytetów finansowych.",
+      "Za każdym razem, gdy otrzymujesz dochód, część pieniędzy trafia nie tylko na bieżące wydatki, ale także na:"
+    ],
+    "items": [
+      "przyszłość;",
+      "edukację;",
+      "odpoczynek;",
+      "budowanie kapitału;",
+      "inne ważne cele."
+    ],
+    "closingParagraphs": [
+      "Klasyczną strukturę można stopniowo dostosować do własnych potrzeb.",
+      "Można na przykład zmienić procenty, nazwy kategorii lub dodać nowe."
+    ]
+  },
+  "whenEnvelope": {
+    "title": "Metoda kopertowa sprawdzi się, jeśli chcesz dokładniej kontrolować poszczególne wydatki",
+    "paragraphs": [
+      "Metoda kopertowa jest szczególnie przydatna, gdy problemem nie jest całkowita wysokość wydatków, lecz konkretne ich rodzaje.",
+      "Możesz na przykład mieścić się w całym miesięcznym budżecie, ale regularnie wydawać zbyt dużo:"
+    ],
+    "items": [
+      "na dostawę jedzenia;",
+      "restauracje;",
+      "gry;",
+      "ubrania;",
+      "taksówki."
+    ],
+    "closingParagraphs": [
+      "W zasadzie 50/30/20 wszystkie te wydatki mogą znajdować się w jednej szerokiej kategorii zachcianek.",
+      "Metoda kopertowa pozwala wydzielić każdy ważny obszar osobno."
+    ],
+    "exampleTitle": "Na przykład:",
+    "example": "<strong>Restauracje — 500.</strong>",
+    "outroParagraphs": [
+      "Gdy pieniądze w tej kategorii się skończą, od razu widać, że zaplanowany budżet został wykorzystany.",
+      "Możesz wtedy wstrzymać wydatki w tej kategorii do kolejnego podziału albo świadomie zmienić budżet."
+    ]
+  },
+  "strictPercents": {
+    "title": "Czy trzeba ściśle trzymać się procentów?",
+    "paragraphs": [
+      "Nie.",
+      "Procenty są przydatnym punktem wyjścia, ale ich dokładne przestrzeganie nie powinno stać się celem samym w sobie.",
+      "Jeśli niezbędne wydatki pochłaniają 65% dochodu, zasada 50/30/20 nie sprawi, że mieszkanie stanie się tańsze.",
+      "Podobnie nie ma sensu sztucznie wydawać 10% dochodu na edukację tylko dlatego, że klasyczna metoda 6 słoików przewiduje taki udział.",
+      "Lepiej potraktować sugerowane proporcje jako początkową wskazówkę, a następnie sprawdzić, jak dobrze pasują do twojego rzeczywistego życia.",
+      "Jeśli w jednej kategorii regularnie brakuje pieniędzy, a w innej stale zostaje duża nadwyżka, podział można zmienić.",
+      "Budżet powinien dostosowywać się do twojego życia, a nie odwrotnie."
+    ]
+  },
+  "combineMethods": {
+    "title": "Czy można łączyć te metody?",
+    "paragraphs": [
+      "Tak.",
+      "Ponieważ wszystkie trzy metody opierają się na tej samej podstawowej zasadzie, granice między nimi są dość elastyczne.",
+      "Możesz na przykład zacząć od zasady 50/30/20, a następnie podzielić kategorię zachcianek na kilka bardziej szczegółowych kategorii:"
+    ],
+    "wantsItems": [
+      "restauracje;",
+      "rozrywka;",
+      "hobby;",
+      "podróże."
+    ],
+    "middleParagraphs": [
+      "W efekcie system stanie się bardziej podobny do metody kopertowej.",
+      "Możesz również wykorzystać metodę 6 słoików jako podstawę, ale podzielić oszczędności długoterminowe między kilka celów:"
+    ],
+    "savingsItems": [
+      "wakacje;",
+      "elektronikę;",
+      "samochód;",
+      "remont mieszkania."
+    ],
+    "closingParagraphs": [
+      "Można również pójść w przeciwnym kierunku.",
+      "Jeśli system z piętnastoma kategoriami staje się zbyt skomplikowany, podobne wydatki można połączyć w kilka większych grup.",
+      "Z czasem budżet może przekształcić się w system dopasowany właśnie do ciebie.",
+      "Nazwa konkretnej metody ma mniejsze znaczenie niż podstawowa zasada:",
+      "<strong>pieniądze otrzymują swoje przeznaczenie, zanim je wydasz.</strong>"
+    ]
+  },
+  "irregularIncome": {
+    "title": "Co robić przy nieregularnych dochodach",
+    "paragraphs": [
+      "Wszystkie trzy podejścia można stosować również bez stałej pensji.",
+      "Jeśli dochód wpływa w oddzielnych płatnościach, każdą z nich można podzielić od razu po otrzymaniu.",
+      "Na przykład po otrzymaniu zapłaty za projekt od razu decydujesz, ile przeznaczyć na niezbędne wydatki, oszczędności i inne cele.",
+      "Stałe procenty mogą być szczególnie wygodne przy nieregularnych dochodach, ponieważ nie musisz z góry znać dokładnego miesięcznego dochodu.",
+      "Jeśli otrzymasz 4 000, podziel te 4 000.",
+      "Jeśli tydzień później otrzymasz kolejne 2 000, podziel również tę kwotę.",
+      "W metodzie kopertowej można też zastosować inne podejście: najpierw zasilić najważniejsze kategorie do docelowych kwot, a dopiero potem rozdzielić pozostałe pieniądze."
+    ]
+  },
+  "finalChoice": {
+    "title": "Którą metodę wybrać?",
+    "paragraphs": [
+      "Jeśli chcesz możliwie najprostszego systemu, możesz zacząć od <strong>zasady 50/30/20</strong>.",
+      "Trzy kategorie są łatwe do zrozumienia, zapamiętania i kontrolowania.",
+      "Jeśli chcesz bardziej rozbudowanej struktury bez konieczności budowania budżetu od zera, lepszym wyborem może być <strong>metoda 6 słoików</strong>.",
+      "Sześć kategorii pozwala osobno uwzględniać bieżące wydatki, oszczędności, rozwój, odpoczynek i inne cele finansowe.",
+      "Jeśli dobrze znasz już swoje wydatki i chcesz samodzielnie ustalać kategorie oraz kwoty, najlepszym rozwiązaniem może być <strong>metoda kopertowa</strong>.",
+      "Twój wybór nie musi być ostateczny.",
+      "Możesz zacząć od trzech kategorii i stopniowo zwiększać poziom szczegółowości."
+    ],
+    "exampleIntro": "Na przykład:",
+    "example": "<strong>50/30/20 → metoda 6 słoików → własny system kategorii.</strong>",
+    "closingParagraphs": [
+      "Możesz też pójść w przeciwną stronę i uprościć zbyt szczegółowy budżet, łącząc wiele kategorii w kilka większych.",
+      "Dobry sposób budżetowania to nie ten, który najlepiej wygląda na papierze, lecz ten, z którego jesteś w stanie regularnie korzystać."
+    ]
+  },
+  "digitalOnly": {
+    "title": "Do dzielenia pieniędzy nie potrzebujesz fizycznych kopert ani słoików",
+    "paragraphs": [
+      "Wszystkie trzy metody opierają się na nadawaniu pieniądzom przeznaczenia z wyprzedzeniem. Nie musisz jednak fizycznie przechowywać ich osobno.",
+      "Możesz nadal korzystać z jednego konta bankowego i prowadzić wewnętrzny podział oddzielnie.",
+      "Na przykład na koncie możesz mieć 12 000, podczas gdy w budżecie ta kwota jest podzielona między bieżące wydatki, oszczędności, wakacje, rozrywkę i inne cele.",
+      "Bank pokazuje, <strong>ile pieniędzy masz łącznie</strong>.",
+      "System budżetowy pokazuje, <strong>do czego te pieniądze są przeznaczone</strong>.",
+      "Dlatego te metody dobrze sprawdzają się w formie cyfrowej: pieniądze mogą pozostać na zwykłym koncie bankowym, a ich wewnętrzny podział jest śledzony osobno."
+    ]
+  },
+  "inApp": {
+    "title": "Jak korzystać z różnych metod budżetowania w 6 Jars Finance",
+    "paragraphs": [
+      "Choć aplikacja nazywa się <strong>6 Jars Finance</strong>, nie ogranicza się do klasycznej metody 6 słoików.",
+      "Przy pierwszym uruchomieniu możesz wybrać system budżetowania, który ci odpowiada:"
+    ],
+    "items": [
+      "zasadę 50/30/20;",
+      "klasyczną metodę 6 słoików;",
+      "własny system kategorii oparty na metodzie kopertowej."
+    ],
+    "closingParagraphs": [
+      "Wybrany system staje się punktem wyjścia i w razie potrzeby można go dostosować, zmieniając procenty, nazwy kategorii lub ich liczbę.",
+      "Gdy otrzymujesz dochód, aplikacja rozdziela go między kategorie zgodnie z wybranymi proporcjami. Po dokonaniu zakupu zmniejsza się tylko saldo kategorii, do której należy dany wydatek.",
+      "Same pieniądze pozostają na twoim zwykłym koncie bankowym. Aplikacja nie łączy się z bankiem i nie przenosi środków między kontami.",
+      "Możesz więc nadal korzystać ze swojej zwykłej karty bankowej, a jednocześnie widzieć, jaka część całego salda jest już przeznaczona na konkretne wydatki i cele.",
+      "System wybrany podczas konfiguracji możesz w dowolnym momencie zmienić tak, aby lepiej odpowiadał twoim rzeczywistym wydatkom i celom."
+    ],
+    "cta": "Wypróbuj 6 Jars Finance →"
+  }
+}

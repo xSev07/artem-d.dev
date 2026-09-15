@@ -1,0 +1,478 @@
+{
+  "title": "50/30/20, metodo dei 6 barattoli o metodo delle buste: quale metodo di budgeting fa per te?",
+  "metaDescription": "La regola 50/30/20, il metodo dei 6 barattoli e il metodo delle buste risolvono lo stesso problema: distribuire il reddito tra categorie in anticipo. Confrontiamo i tre approcci per aiutarti a scegliere.",
+  "intro": {
+    "paragraphs": [
+      "Esistono molti modi per gestire un budget personale, ma alcuni si basano sulla stessa idea: <strong>assegnare prima una destinazione al reddito e solo dopo spenderlo</strong>.",
+      "Tra questi approcci rientrano la regola 50/30/20, il metodo dei 6 barattoli e il metodo delle buste.",
+      "Ogni metodo usa una terminologia propria. Nel metodo dei 6 barattoli il denaro viene distribuito tra i barattoli, nel metodo delle buste tra le buste e nella regola 50/30/20 tra tre grandi gruppi di spese.",
+      "Per confrontare questi approcci senza creare confusione inutile, nel resto dell’articolo userò il termine generale <strong>“categorie”</strong>.",
+      "Una categoria è una parte separata del budget destinata a uno scopo specifico o a un gruppo di spese, come le necessità, i risparmi, lo svago o la formazione.",
+      "Da questo punto di vista, i tre metodi sono molto simili.",
+      "La principale differenza tra loro è il <strong>livello di dettaglio del budget</strong>.",
+      "La regola 50/30/20 utilizza tre categorie ampie. Il metodo dei 6 barattoli divide il denaro in modo più dettagliato. Il metodo delle buste consente di creare tutte le categorie di cui hai bisogno.",
+      "Vediamo ogni approccio in ordine, dal più semplice al più dettagliato."
+    ]
+  },
+  "overview": {
+    "title": "Indice",
+    "commonGround": "Cosa hanno in comune i tre metodi",
+    "rule503020": "Come funziona la regola 50/30/20",
+    "sixJarsMethod": "Come funziona il metodo dei 6 barattoli",
+    "envelopeMethod": "Come funziona il metodo delle buste",
+    "detailLevel": "Livello di dettaglio",
+    "methodsComparison": "Confronto tra i metodi",
+    "oneIncome": "Un reddito — tre modi per distribuirlo",
+    "when503020": "Quando scegliere il 50/30/20",
+    "whenSixJars": "Quando scegliere il metodo dei 6 barattoli",
+    "whenEnvelope": "Quando scegliere il metodo delle buste",
+    "strictPercents": "È necessario seguire rigorosamente le percentuali?",
+    "combineMethods": "È possibile combinare questi metodi?",
+    "irregularIncome": "Reddito irregolare",
+    "finalChoice": "Quale metodo scegliere?",
+    "digitalOnly": "Non servono buste fisiche",
+    "inApp": "Come usare questi metodi in 6 Jars Finance"
+  },
+  "commonGround": {
+    "title": "Cosa hanno in comune i tre metodi",
+    "paragraphs": [
+      "Il tradizionale monitoraggio delle spese aiuta a rispondere alla domanda:",
+      "<strong>“Dove sono già finiti i miei soldi?”</strong>",
+      "Registri gli acquisti, analizzi le spese e puoi vedere quanto hai speso per alimentari, trasporti, svago e altre necessità.",
+      "La regola 50/30/20, il metodo dei 6 barattoli e il metodo delle buste adottano un approccio leggermente diverso.",
+      "Ti aiutano a rispondere in anticipo a un’altra domanda:",
+      "<strong>“A cosa voglio destinare questo reddito?”</strong>",
+      "Quando ricevi un reddito, lo distribuisci tra diverse categorie."
+    ],
+    "exampleIntro": "Per esempio:",
+    "exampleItems": [
+      "una parte del denaro viene destinata alle spese quotidiane;",
+      "una parte ai risparmi;",
+      "una parte allo svago;",
+      "una parte ai futuri acquisti importanti."
+    ],
+    "closingParagraphs": [
+      "In questo modo, il saldo totale del conto bancario smette di sembrare un’unica somma completamente disponibile.",
+      "Se hai 10.000 sul conto, non significa che puoi spendere subito tutti i 10.000. Forse 5.000 sono già destinati alle spese necessarie, 2.000 ai risparmi e solo 1.000 allo svago.",
+      "Tutti e tre i metodi aiutano ad assegnare in anticipo uno scopo preciso al denaro.",
+      "Si differenziano soprattutto per <strong>quanto sono ampie o dettagliate le categorie e quali proporzioni suggeriscono</strong>."
+    ],
+    "cta": "Prova la distribuzione del budget con 6 Jars Finance →"
+  },
+  "rule503020": {
+    "title": "Come funziona la regola 50/30/20",
+    "paragraphs": [
+      "La regola 50/30/20 è il più semplice dei tre approcci.",
+      "Il reddito netto viene diviso in sole tre categorie:"
+    ],
+    "categories": [
+      "<strong>50% — necessità;</strong>",
+      "<strong>30% — desideri;</strong>",
+      "<strong>20% — risparmi e altri obiettivi finanziari.</strong>"
+    ],
+    "closingParagraphs": [
+      "Tra le necessità rientrano casa, alimentari, utenze, trasporti e altre spese di base.",
+      "La categoria dei desideri comprende svago, ristoranti, viaggi, hobby, acquisti facoltativi e altre spese di cui si potrebbe fare a meno.",
+      "Il restante 20% viene destinato ai risparmi, a un fondo di emergenza, agli investimenti, a obiettivi importanti o al rimborso più rapido dei debiti."
+    ],
+    "strengths": {
+      "title": "Punto di forza della regola 50/30/20",
+      "paragraphs": [
+        "Il vantaggio principale è la semplicità.",
+        "Invece di gestire molte categorie, devi tenere sotto controllo solo tre grandi aree.",
+        "Non servono limiti separati per ristoranti, videogiochi, abbigliamento e viaggi. Tutte queste spese possono essere riunite nella categoria dei desideri.",
+        "Per questo iniziare con il 50/30/20 è generalmente più semplice rispetto a sistemi più dettagliati.",
+        "Questo approccio è particolarmente adatto se non vuoi tenere un budget molto dettagliato e preferisci semplicemente mantenere un equilibrio generale tra vita quotidiana, spese facoltative e obiettivi futuri."
+      ]
+    },
+    "weaknesses": {
+      "title": "Punto debole della regola 50/30/20",
+      "paragraphs": [
+        "Tre categorie forniscono poche informazioni su ciò che accade davvero all’interno del budget.",
+        "Supponiamo che tu destini 3.000 ai desideri.",
+        "Potresti spendere:"
+      ],
+      "exampleItems": [
+        "500 in ristoranti;",
+        "500 in hobby;",
+        "2.000 in nuovi dispositivi elettronici."
+      ],
+      "closingParagraphs": [
+        "Formalmente, la regola viene comunque rispettata.",
+        "Ma se vuoi controllare separatamente diversi tipi di spesa, una sola categoria ampia dedicata ai desideri potrebbe non bastare.",
+        "Anche le percentuali suggerite potrebbero non adattarsi alla tua situazione reale.",
+        "In una città con costi abitativi elevati, le spese necessarie possono facilmente superare il 50% del reddito. Per questo è meglio considerare le proporzioni 50/30/20 come un punto di partenza, non come una regola rigida."
+      ]
+    }
+  },
+  "sixJarsMethod": {
+    "title": "Come funziona il metodo dei 6 barattoli",
+    "paragraphs": [
+      "Il metodo dei 6 barattoli utilizza la stessa idea di base, ma divide il budget in modo più dettagliato.",
+      "Nella versione classica, ogni entrata viene suddivisa tra sei categorie:"
+    ],
+    "table": {
+      "headers": ["Categoria", "Quota"],
+      "rows": [
+        ["Spese necessarie", "55%"],
+        ["Libertà finanziaria", "10%"],
+        ["Risparmi a lungo termine", "10%"],
+        ["Formazione", "10%"],
+        ["Svago", "10%"],
+        ["Regali e aiuto", "5%"]
+      ]
+    },
+    "closingParagraphs": [
+      "Rispetto al 50/30/20, il budget viene suddiviso in più aree separate.",
+      "Per esempio, i risparmi non vengono più trattati come un’unica categoria ampia. Il denaro destinato alla costruzione di capitale viene separato dai risparmi a lungo termine.",
+      "Lo svago viene separato dalla formazione e dall’aiuto agli altri.",
+      "Questo aiuta a evitare che diversi obiettivi finanziari competano per lo stesso denaro."
+    ],
+    "strengths": {
+      "title": "Punto di forza del metodo dei 6 barattoli",
+      "paragraphs": [
+        "Il metodo offre una struttura già pronta e allo stesso tempo un livello di dettaglio maggiore rispetto al 50/30/20.",
+        "Non devi decidere da zero quali debbano essere le categorie principali. Sono già definite.",
+        "Allo stesso tempo, il budget diventa più strutturato.",
+        "Puoi vedere separatamente il denaro destinato a:"
+      ],
+      "items": [
+        "vita quotidiana;",
+        "risparmi;",
+        "costruzione di capitale;",
+        "formazione;",
+        "svago;",
+        "aiuto agli altri."
+      ],
+      "outro": "Questo approccio può essere utile se le tre categorie del 50/30/20 non sono più abbastanza dettagliate, ma non vuoi costruire un intero sistema di budget da zero."
+    },
+    "weaknesses": {
+      "title": "Punto debole del metodo dei 6 barattoli",
+      "paragraphs": [
+        "La struttura predefinita non si adatta allo stesso modo a tutti.",
+        "Per una persona una categoria separata per la formazione può essere importante, mentre un’altra potrebbe usarla molto poco.",
+        "Alcune persone acquistano regolarmente regali o fanno beneficenza, mentre altre preferiscono destinare quella parte del reddito ad altri obiettivi.",
+        "Non è quindi necessario mantenere invariati le percentuali e le categorie classiche.",
+        "Il metodo può essere adattato alla propria situazione."
+      ]
+    }
+  },
+  "envelopeMethod": {
+    "title": "Come funziona il metodo delle buste",
+    "paragraphs": [
+      "Il metodo delle buste fa un ulteriore passo avanti e lascia quasi completamente a te la struttura del budget.",
+      "Crei personalmente le categorie per le spese e gli obiettivi che vuoi controllare."
+    ],
+    "exampleIntro": "Per esempio:",
+    "exampleItems": [
+      "casa;",
+      "alimentari;",
+      "trasporti;",
+      "ristoranti;",
+      "svago;",
+      "vacanze;",
+      "elettronica;",
+      "fondo di emergenza;",
+      "formazione."
+    ],
+    "closingParagraphs": [
+      "Successivamente assegni un importo preciso a ogni categoria.",
+      "Il principio di base rimane lo stesso:",
+      "<strong>ogni parte del tuo denaro ha una destinazione.</strong>",
+      "Se destini 500 ai ristoranti, quella cifra indica quanto puoi spendere in ristoranti indipendentemente dal saldo totale del conto bancario.",
+      "Storicamente il denaro contante veniva davvero diviso tra buste fisiche.",
+      "Oggi lo stesso sistema può essere utilizzato in formato digitale senza separare fisicamente il denaro."
+    ],
+    "strengths": {
+      "title": "Punto di forza del metodo delle buste",
+      "paragraphs": [
+        "È il più flessibile dei tre approcci.",
+        "Decidi tu:"
+      ],
+      "items": [
+        "quante categorie ti servono;",
+        "quanto dettagliate devono essere;",
+        "quanto denaro destinare a ciascuna;",
+        "quali spese vuoi controllare separatamente."
+      ],
+      "outro": "Una persona potrebbe usare quattro categorie ampie. Un’altra potrebbe usarne quindici o venti."
+    },
+    "weaknesses": {
+      "title": "Punto debole del metodo delle buste",
+      "paragraphs": [
+        "Più libertà offre un sistema, più decisioni devi prendere da solo.",
+        "Devi scegliere le categorie, stabilire importi ragionevoli e rivederli di tanto in tanto.",
+        "Se crei troppe categorie, il budget può diventare più complicato del necessario.",
+        "Un elevato livello di dettaglio è utile solo quando aiuta davvero a prendere decisioni migliori."
+      ]
+    }
+  },
+  "detailLevel": {
+    "title": "I tre metodi differiscono soprattutto per il livello di dettaglio",
+    "paragraphs": [
+      "Se si ignorano i nomi diversi, diventa evidente che tutti e tre gli approcci utilizzano quasi lo stesso principio di base.",
+      "Il reddito viene distribuito in anticipo tra categorie, e ogni categoria corrisponde a un determinato gruppo di spese o obiettivi finanziari.",
+      "La differenza sta in <strong>quanto viene dettagliato il budget</strong>.",
+      "La regola 50/30/20 utilizza tre categorie molto ampie.",
+      "Il metodo dei 6 barattoli utilizza sei categorie più specifiche.",
+      "Il metodo delle buste consente di stabilire liberamente qualsiasi numero di categorie.",
+      "Puoi immaginarli come una semplice progressione:",
+      "<strong>50/30/20 → metodo dei 6 barattoli → metodo delle buste</strong>",
+      "Dal livello di dettaglio minimo a quello massimo.",
+      "Tuttavia, un numero maggiore di categorie non significa automaticamente un budget migliore.",
+      "Più il sistema è dettagliato, maggiore è il controllo che offre — ma maggiore è anche l’attenzione che richiede."
+    ]
+  },
+  "methodsComparison": {
+    "title": "Confronto tra 50/30/20, metodo dei 6 barattoli e metodo delle buste",
+    "table": {
+      "headers": ["", "50/30/20", "Metodo dei 6 barattoli", "Metodo delle buste"],
+      "rows": [
+        ["Numero di categorie", "3", "6 nella versione classica", "Personalizzabile"],
+        ["Categorie predefinite", "Sì", "Sì", "No"],
+        ["Proporzioni consigliate", "Sì", "Sì", "Non obbligatorie"],
+        ["Le proporzioni possono essere modificate?", "Sì", "Sì", "Sì"],
+        ["Si possono creare categorie personalizzate?", "Sì, adattando il metodo", "Sì, adattando il metodo", "Sì"],
+        ["Facilità di avvio", "Molto alta", "Alta", "Media"],
+        ["Livello di dettaglio", "Basso", "Medio", "Personalizzabile"],
+        ["Flessibilità", "Media", "Alta", "Molto alta"],
+        ["Adatto alla gestione digitale", "Sì", "Sì", "Sì"]
+      ]
+    },
+    "closingParagraphs": [
+      "Nessuno di questi metodi è oggettivamente migliore degli altri.",
+      "Risolvono lo stesso problema con livelli di dettaglio diversi."
+    ]
+  },
+  "oneIncome": {
+    "title": "Un reddito — tre modi diversi per distribuirlo",
+    "paragraphs": [
+      "Supponiamo che tu riceva un reddito di 10.000.",
+      "Vediamo come potrebbe essere distribuita la stessa somma in ciascun sistema."
+    ],
+    "variant503020": {
+      "title": "Opzione 1: regola 50/30/20",
+      "table": {
+        "headers": ["Categoria", "Quota", "Importo"],
+        "rows": [
+          ["Necessità", "50%", "5.000"],
+          ["Desideri", "30%", "3.000"],
+          ["Risparmi e obiettivi finanziari", "20%", "2.000"]
+        ]
+      },
+      "closingParagraphs": [
+        "Sai quanto può essere destinato alle spese necessarie, quanto è disponibile per acquisti facoltativi e quanto dovrebbe essere conservato per il futuro.",
+        "All’interno di queste categorie, però, non c’è un’ulteriore suddivisione."
+      ]
+    },
+    "variantSixJars": {
+      "title": "Opzione 2: metodo dei 6 barattoli",
+      "table": {
+        "headers": ["Categoria", "Quota", "Importo"],
+        "rows": [
+          ["Spese necessarie", "55%", "5.500"],
+          ["Libertà finanziaria", "10%", "1.000"],
+          ["Risparmi a lungo termine", "10%", "1.000"],
+          ["Formazione", "10%", "1.000"],
+          ["Svago", "10%", "1.000"],
+          ["Regali e aiuto", "5%", "500"]
+        ]
+      },
+      "closingParagraphs": [
+        "Qui gli stessi 10.000 vengono suddivisi tra obiettivi più specifici.",
+        "Per esempio, il denaro destinato alla formazione non compete più direttamente con quello per lo svago, mentre i risparmi a lungo termine sono separati dal denaro destinato alla costruzione di capitale."
+      ]
+    },
+    "variantEnvelope": {
+      "title": "Opzione 3: metodo delle buste",
+      "paragraphs": [
+        "Il metodo delle buste non richiede una distribuzione fissa."
+      ],
+      "exampleIntro": "Per esempio:",
+      "table": {
+        "headers": ["Categoria", "Importo"],
+        "rows": [
+          ["Casa e utenze", "3.000"],
+          ["Alimentari", "2.000"],
+          ["Trasporti", "800"],
+          ["Svago", "700"],
+          ["Ristoranti", "500"],
+          ["Vacanze", "1.000"],
+          ["Fondo di emergenza", "1.500"],
+          ["Formazione", "500"],
+          ["Totale", "10.000"]
+        ]
+      },
+      "closingParagraphs": [
+        "Questo approccio offre molto più controllo, ma richiede di decidere autonomamente quali categorie ti servono davvero."
+      ]
+    }
+  },
+  "when503020": {
+    "title": "La regola 50/30/20 è adatta se vuoi iniziare nel modo più semplice possibile",
+    "paragraphs": [
+      "Se non hai mai distribuito il denaro in anticipo, la regola 50/30/20 può essere un buon punto di partenza.",
+      "Non devi costruire un sistema complicato.",
+      "Devi semplicemente monitorare tre aree:"
+    ],
+    "items": [
+      "necessità;",
+      "desideri;",
+      "risparmi e obiettivi finanziari."
+    ],
+    "closingParagraphs": [
+      "Anche una suddivisione così semplice può aiutarti a non considerare più l’intero saldo come denaro liberamente spendibile.",
+      "Il 50/30/20 è adatto anche a chi non ama una gestione finanziaria troppo dettagliata.",
+      "Se non ti interessa sapere esattamente quanto spendi in videogiochi, ristoranti o abbigliamento, non è necessario creare categorie separate.",
+      "Puoi gestire tutte queste spese insieme."
+    ]
+  },
+  "whenSixJars": {
+    "title": "Il metodo dei 6 barattoli è adatto se vuoi una struttura pronta e più dettagliata",
+    "paragraphs": [
+      "Il metodo dei 6 barattoli si colloca più o meno a metà strada tra il 50/30/20 e un sistema di categorie completamente personalizzato.",
+      "Ci sono abbastanza categorie per separare i principali obiettivi finanziari, ma non devi costruire tutta la struttura del budget da zero.",
+      "Può essere particolarmente utile l’idea di sostenere contemporaneamente più priorità finanziarie.",
+      "Ogni volta che ricevi un reddito, una parte del denaro viene destinata non solo alle spese correnti, ma anche a:"
+    ],
+    "items": [
+      "futuro;",
+      "formazione;",
+      "svago;",
+      "costruzione di capitale;",
+      "altri obiettivi importanti."
+    ],
+    "closingParagraphs": [
+      "Puoi adattare gradualmente la struttura classica alle tue esigenze.",
+      "Per esempio, puoi modificare le percentuali, rinominare le categorie o aggiungerne di nuove."
+    ]
+  },
+  "whenEnvelope": {
+    "title": "Il metodo delle buste è adatto se vuoi controllare più precisamente singole spese",
+    "paragraphs": [
+      "Il metodo delle buste è particolarmente utile quando il problema non è la spesa totale, ma alcuni specifici tipi di spesa.",
+      "Per esempio, potresti rispettare il budget mensile complessivo ma spendere regolarmente troppo:"
+    ],
+    "items": [
+      "per consegne di cibo;",
+      "nei ristoranti;",
+      "in videogiochi;",
+      "in abbigliamento;",
+      "in taxi."
+    ],
+    "closingParagraphs": [
+      "Con la regola 50/30/20, tutte queste spese possono rientrare in un’unica ampia categoria dei desideri.",
+      "Il metodo delle buste permette di separare ogni area importante."
+    ],
+    "exampleTitle": "Per esempio:",
+    "example": "<strong>Ristoranti — 500.</strong>",
+    "outroParagraphs": [
+      "Quando il denaro della categoria finisce, puoi vedere subito che il budget previsto è stato utilizzato.",
+      "A quel punto puoi interrompere le spese in quella categoria fino alla successiva distribuzione oppure modificare consapevolmente il budget."
+    ]
+  },
+  "strictPercents": {
+    "title": "È necessario seguire rigorosamente le percentuali?",
+    "paragraphs": [
+      "No.",
+      "Le percentuali sono utili come punto di partenza, ma seguirle esattamente non dovrebbe diventare un obiettivo fine a sé stesso.",
+      "Se le spese necessarie rappresentano il 65% del reddito, la regola 50/30/20 non renderà più economica la tua casa.",
+      "Allo stesso modo, non ha senso spendere artificialmente il 10% del reddito in formazione solo perché il metodo classico dei 6 barattoli prevede quella quota.",
+      "È più utile considerare le proporzioni suggerite come una prima linea guida e poi verificare quanto si adattino alla tua vita reale.",
+      "Se una categoria rimane regolarmente senza denaro mentre un’altra accumula costantemente un grande surplus, puoi modificare la distribuzione.",
+      "Il budget dovrebbe adattarsi alla tua vita, non il contrario."
+    ]
+  },
+  "combineMethods": {
+    "title": "È possibile combinare questi metodi?",
+    "paragraphs": [
+      "Sì.",
+      "Poiché tutti e tre i metodi si basano sullo stesso principio fondamentale, i confini tra loro sono piuttosto flessibili.",
+      "Per esempio, puoi iniziare con la regola 50/30/20 e poi dividere la categoria dei desideri in diverse categorie più dettagliate:"
+    ],
+    "wantsItems": [
+      "ristoranti;",
+      "svago;",
+      "hobby;",
+      "viaggi."
+    ],
+    "middleParagraphs": [
+      "In questo modo il sistema diventa più simile al metodo delle buste.",
+      "Puoi anche usare il metodo dei 6 barattoli come base e dividere i risparmi a lungo termine tra diversi obiettivi:"
+    ],
+    "savingsItems": [
+      "vacanze;",
+      "elettronica;",
+      "automobile;",
+      "ristrutturazione della casa."
+    ],
+    "closingParagraphs": [
+      "Puoi anche muoverti nella direzione opposta.",
+      "Se un sistema con quindici categorie diventa troppo complicato, puoi unire le spese simili in poche categorie più ampie.",
+      "Con il tempo, il budget può evolversi in un sistema che funziona davvero per te.",
+      "Il nome del metodo conta meno del principio fondamentale:",
+      "<strong>il denaro riceve una destinazione prima di essere speso.</strong>"
+    ]
+  },
+  "irregularIncome": {
+    "title": "Cosa fare con un reddito irregolare",
+    "paragraphs": [
+      "Tutti e tre gli approcci possono essere utilizzati anche senza uno stipendio fisso.",
+      "Se il reddito arriva attraverso pagamenti separati, puoi distribuire ogni nuovo pagamento appena lo ricevi.",
+      "Per esempio, dopo aver ricevuto il pagamento per un progetto, puoi decidere subito quanto destinare alle spese necessarie, ai risparmi e agli altri obiettivi.",
+      "Le percentuali fisse possono essere particolarmente comode con un reddito irregolare, perché non è necessario conoscere in anticipo l’importo esatto del reddito mensile.",
+      "Se ricevi 4.000, distribuisci quei 4.000.",
+      "Se una settimana dopo ricevi altri 2.000, distribuisci anche quei 2.000.",
+      "Con il metodo delle buste puoi anche adottare un altro approccio: prima finanzia le categorie più importanti fino agli importi desiderati, poi distribuisci ciò che rimane."
+    ]
+  },
+  "finalChoice": {
+    "title": "Quale metodo scegliere?",
+    "paragraphs": [
+      "Se vuoi un sistema il più semplice possibile, puoi iniziare con la <strong>regola 50/30/20</strong>.",
+      "Tre categorie sono facili da capire, ricordare e gestire.",
+      "Se vuoi una maggiore struttura senza costruire un budget da zero, il <strong>metodo dei 6 barattoli</strong> potrebbe essere più adatto.",
+      "Sei categorie permettono di separare spese correnti, risparmi, sviluppo personale, svago e altri obiettivi finanziari.",
+      "Se conosci già bene le tue spese e vuoi definire personalmente categorie e importi, il <strong>metodo delle buste</strong> potrebbe essere la scelta migliore.",
+      "La tua scelta non deve essere definitiva.",
+      "Puoi iniziare con tre categorie e aggiungere gradualmente più dettaglio."
+    ],
+    "exampleIntro": "Per esempio:",
+    "example": "<strong>50/30/20 → metodo dei 6 barattoli → il tuo sistema di categorie.</strong>",
+    "closingParagraphs": [
+      "Oppure puoi procedere nella direzione opposta e semplificare un budget troppo dettagliato unendo molte categorie in poche categorie più ampie.",
+      "Un buon metodo di budgeting non è quello che sembra più corretto sulla carta, ma quello che riesci a utilizzare con costanza."
+    ]
+  },
+  "digitalOnly": {
+    "title": "Non servono buste o barattoli fisici per distribuire il denaro",
+    "paragraphs": [
+      "Tutti e tre i metodi si basano sull’assegnare in anticipo una destinazione al denaro. Ma non è necessario conservarlo fisicamente separato.",
+      "Puoi continuare a utilizzare un unico conto bancario e tenere separata solo la distribuzione interna.",
+      "Per esempio, potresti avere 12.000 sul conto bancario mentre il tuo budget divide quella somma tra spese correnti, risparmi, vacanze, svago e altri obiettivi.",
+      "La banca mostra <strong>quanto denaro hai in totale</strong>.",
+      "Il tuo sistema di budget mostra <strong>a cosa è destinato quel denaro</strong>.",
+      "Per questo questi metodi funzionano bene in formato digitale: il denaro può rimanere sul tuo normale conto bancario mentre la distribuzione interna viene gestita separatamente."
+    ]
+  },
+  "inApp": {
+    "title": "Come usare diversi metodi di budgeting in 6 Jars Finance",
+    "paragraphs": [
+      "Anche se l’app si chiama <strong>6 Jars Finance</strong>, non è limitata al classico metodo dei 6 barattoli.",
+      "Al primo avvio puoi scegliere il sistema di budgeting più adatto a te:"
+    ],
+    "items": [
+      "la regola 50/30/20;",
+      "il classico metodo dei 6 barattoli;",
+      "un sistema personalizzato di categorie basato sul metodo delle buste."
+    ],
+    "closingParagraphs": [
+      "Il sistema scelto diventa il tuo punto di partenza e può essere adattato quando necessario modificando percentuali, nomi delle categorie o numero di categorie.",
+      "Quando ricevi un reddito, l’app lo distribuisce tra le categorie secondo le proporzioni scelte. Dopo un acquisto, diminuisce solo il saldo della categoria a cui appartiene quella spesa.",
+      "Il denaro rimane sul tuo normale conto bancario. L’app non si collega alla banca e non sposta denaro tra conti.",
+      "In questo modo puoi continuare a usare la tua normale carta bancaria e allo stesso tempo vedere quale parte del saldo totale è già destinata a spese e obiettivi specifici.",
+      "Puoi modificare in qualsiasi momento il sistema scelto durante la configurazione affinché si adatti meglio alle tue spese e ai tuoi obiettivi reali."
+    ],
+    "cta": "Prova 6 Jars Finance →"
+  }
+}

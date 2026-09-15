@@ -1,0 +1,478 @@
+{
+  "title": "50/30/20, die 6-Gläser-Methode oder das Umschlagprinzip: Welche Budgetmethode passt zu Ihnen?",
+  "metaDescription": "Die 50/30/20-Regel, die 6-Gläser-Methode und das Umschlagprinzip lösen dasselbe Problem: Einkommen wird im Voraus auf Kategorien verteilt. Wir vergleichen die drei Ansätze und helfen bei der Auswahl.",
+  "intro": {
+    "paragraphs": [
+      "Es gibt viele Möglichkeiten, ein persönliches Budget zu verwalten. Einige davon beruhen jedoch auf derselben Idee: <strong>das Einkommen zuerst nach seinem Zweck aufzuteilen und es erst danach auszugeben</strong>.",
+      "Zu diesen Ansätzen gehören die 50/30/20-Regel, die 6-Gläser-Methode und das Umschlagprinzip.",
+      "Jede Methode verwendet ihre eigenen Begriffe. Bei der 6-Gläser-Methode wird das Geld auf Gläser verteilt, beim Umschlagprinzip auf Umschläge und bei der 50/30/20-Regel auf drei große Ausgabengruppen.",
+      "Damit sich diese Ansätze leichter vergleichen lassen, verwende ich im weiteren Artikel den allgemeinen Begriff <strong>„Kategorien“</strong>.",
+      "Eine Kategorie ist ein eigener Teil des Budgets, der für einen bestimmten Zweck oder eine Gruppe von Ausgaben vorgesehen ist, zum Beispiel notwendige Ausgaben, Ersparnisse, Freizeit oder Bildung.",
+      "Aus dieser Perspektive sind sich alle drei Methoden sehr ähnlich.",
+      "Der wichtigste Unterschied zwischen ihnen ist der <strong>Detaillierungsgrad des Budgets</strong>.",
+      "Die 50/30/20-Regel verwendet drei große Kategorien. Die 6-Gläser-Methode unterteilt das Geld genauer. Beim Umschlagprinzip können Sie so viele Kategorien erstellen, wie Sie benötigen.",
+      "Sehen wir uns die drei Ansätze der Reihe nach an — vom einfachsten bis zum detailliertesten."
+    ]
+  },
+  "overview": {
+    "title": "Inhaltsverzeichnis",
+    "commonGround": "Was alle drei Methoden gemeinsam haben",
+    "rule503020": "So funktioniert die 50/30/20-Regel",
+    "sixJarsMethod": "So funktioniert die 6-Gläser-Methode",
+    "envelopeMethod": "So funktioniert das Umschlagprinzip",
+    "detailLevel": "Detaillierungsgrad",
+    "methodsComparison": "Vergleich der Methoden",
+    "oneIncome": "Ein Einkommen — drei Möglichkeiten der Aufteilung",
+    "when503020": "Wann 50/30/20 sinnvoll ist",
+    "whenSixJars": "Wann die 6-Gläser-Methode sinnvoll ist",
+    "whenEnvelope": "Wann das Umschlagprinzip sinnvoll ist",
+    "strictPercents": "Müssen die Prozentsätze genau eingehalten werden?",
+    "combineMethods": "Lassen sich die Methoden kombinieren?",
+    "irregularIncome": "Unregelmäßiges Einkommen",
+    "finalChoice": "Welche Methode sollten Sie wählen?",
+    "digitalOnly": "Physische Umschläge sind nicht notwendig",
+    "inApp": "So nutzen Sie diese Methoden in 6 Jars Finance"
+  },
+  "commonGround": {
+    "title": "Was alle drei Methoden gemeinsam haben",
+    "paragraphs": [
+      "Die klassische Ausgabenerfassung hilft bei der Beantwortung der Frage:",
+      "<strong>„Wofür habe ich mein Geld bereits ausgegeben?“</strong>",
+      "Sie erfassen Ihre Einkäufe, überprüfen Ihre Ausgaben und sehen, wie viel Sie für Lebensmittel, Transport, Freizeit und andere Dinge ausgegeben haben.",
+      "Die 50/30/20-Regel, die 6-Gläser-Methode und das Umschlagprinzip verfolgen einen etwas anderen Ansatz.",
+      "Sie helfen dabei, im Voraus eine andere Frage zu beantworten:",
+      "<strong>„Wofür möchte ich mein Einkommen verwenden?“</strong>",
+      "Wenn Sie Einkommen erhalten, verteilen Sie es auf mehrere Kategorien."
+    ],
+    "exampleIntro": "Zum Beispiel:",
+    "exampleItems": [
+      "ein Teil des Geldes ist für alltägliche Ausgaben vorgesehen;",
+      "ein Teil für Ersparnisse;",
+      "ein Teil für Freizeit;",
+      "ein Teil für zukünftige größere Anschaffungen."
+    ],
+    "closingParagraphs": [
+      "Dadurch wirkt das gesamte Guthaben auf dem Bankkonto nicht mehr wie eine einzige frei verfügbare Summe.",
+      "Wenn sich 10.000 auf Ihrem Konto befinden, bedeutet das nicht, dass Sie die gesamten 10.000 sofort ausgeben können. Vielleicht sind 5.000 bereits für notwendige Ausgaben vorgesehen, 2.000 für Ersparnisse und nur 1.000 für Freizeit.",
+      "Alle drei Methoden helfen dabei, dem Geld bereits im Voraus einen Zweck zuzuweisen.",
+      "Sie unterscheiden sich hauptsächlich darin, <strong>wie grob oder detailliert die Kategorien sind und welche Aufteilung empfohlen wird</strong>."
+    ],
+    "cta": "Budgetaufteilung mit 6 Jars Finance ausprobieren →"
+  },
+  "rule503020": {
+    "title": "So funktioniert die 50/30/20-Regel",
+    "paragraphs": [
+      "Die 50/30/20-Regel ist der einfachste der drei Ansätze.",
+      "Das Nettoeinkommen wird auf nur drei Kategorien verteilt:"
+    ],
+    "categories": [
+      "<strong>50 % — Bedürfnisse;</strong>",
+      "<strong>30 % — Wünsche;</strong>",
+      "<strong>20 % — Ersparnisse und andere finanzielle Ziele.</strong>"
+    ],
+    "closingParagraphs": [
+      "Zu den Bedürfnissen gehören Wohnen, Lebensmittel, Nebenkosten, Transport und andere grundlegende Ausgaben.",
+      "Die Kategorie Wünsche umfasst Unterhaltung, Restaurants, Reisen, Hobbys, optionale Einkäufe und andere Ausgaben, auf die man verzichten könnte.",
+      "Die letzten 20 % fließen in Ersparnisse, einen Notgroschen, Investitionen, größere Ziele oder eine schnellere Schuldentilgung."
+    ],
+    "strengths": {
+      "title": "Stärke der 50/30/20-Regel",
+      "paragraphs": [
+        "Der größte Vorteil ist die Einfachheit.",
+        "Statt viele Kategorien zu verwalten, müssen Sie nur drei große Bereiche im Blick behalten.",
+        "Sie brauchen keine separaten Limits für Restaurants, Spiele, Kleidung und Reisen. All diese Ausgaben können in einer gemeinsamen Wunsch-Kategorie zusammengefasst werden.",
+        "Dadurch ist der Einstieg in 50/30/20 meist einfacher als bei detaillierteren Systemen.",
+        "Dieser Ansatz eignet sich besonders, wenn Sie kein sehr detailliertes Budget führen möchten, sondern nur ein allgemeines Gleichgewicht zwischen Alltag, optionalen Ausgaben und zukünftigen Zielen halten wollen."
+      ]
+    },
+    "weaknesses": {
+      "title": "Schwäche der 50/30/20-Regel",
+      "paragraphs": [
+        "Drei Kategorien liefern nur wenige Informationen darüber, was innerhalb des Budgets tatsächlich passiert.",
+        "Angenommen, Sie planen 3.000 für Wünsche ein.",
+        "Davon könnten Sie ausgeben:"
+      ],
+      "exampleItems": [
+        "500 für Restaurants;",
+        "500 für Hobbys;",
+        "2.000 für neue Elektronik."
+      ],
+      "closingParagraphs": [
+        "Formal halten Sie die Regel weiterhin ein.",
+        "Wenn Sie verschiedene Arten von Ausgaben jedoch getrennt kontrollieren möchten, reicht eine einzige große Wunsch-Kategorie möglicherweise nicht aus.",
+        "Auch die empfohlenen Prozentsätze passen nicht immer zur tatsächlichen Lebenssituation.",
+        "In einer Stadt mit hohen Wohnkosten können notwendige Ausgaben leicht mehr als 50 % des Einkommens ausmachen. Daher sollten die 50/30/20-Anteile eher als Ausgangspunkt und nicht als starre Regel verstanden werden."
+      ]
+    }
+  },
+  "sixJarsMethod": {
+    "title": "So funktioniert die 6-Gläser-Methode",
+    "paragraphs": [
+      "Die 6-Gläser-Methode basiert auf derselben Grundidee, unterteilt das Budget aber detaillierter.",
+      "In der klassischen Variante wird jedes Einkommen auf sechs Kategorien verteilt:"
+    ],
+    "table": {
+      "headers": ["Kategorie", "Anteil"],
+      "rows": [
+        ["Notwendige Ausgaben", "55 %"],
+        ["Finanzielle Freiheit", "10 %"],
+        ["Langfristige Ersparnisse", "10 %"],
+        ["Bildung", "10 %"],
+        ["Freizeit", "10 %"],
+        ["Geschenke und Hilfe", "5 %"]
+      ]
+    },
+    "closingParagraphs": [
+      "Im Vergleich zu 50/30/20 entstehen dadurch mehr getrennte Bereiche im Budget.",
+      "Ersparnisse werden zum Beispiel nicht mehr als eine einzige große Kategorie behandelt. Geld zum Vermögensaufbau wird von langfristigen Ersparnissen getrennt.",
+      "Freizeit ist von Bildung und Hilfe für andere getrennt.",
+      "Dadurch konkurrieren verschiedene finanzielle Ziele weniger um dasselbe Geld."
+    ],
+    "strengths": {
+      "title": "Stärke der 6-Gläser-Methode",
+      "paragraphs": [
+        "Die Methode bietet eine fertige Struktur und gleichzeitig mehr Details als 50/30/20.",
+        "Sie müssen die wichtigsten Kategorien nicht selbst festlegen. Sie sind bereits vorgegeben.",
+        "Gleichzeitig wird das Budget strukturierter.",
+        "Sie sehen getrennt, wie viel Geld vorgesehen ist für:"
+      ],
+      "items": [
+        "den Alltag;",
+        "Ersparnisse;",
+        "Vermögensaufbau;",
+        "Bildung;",
+        "Freizeit;",
+        "Hilfe für andere."
+      ],
+      "outro": "Dieser Ansatz kann sinnvoll sein, wenn Ihnen die drei Kategorien von 50/30/20 nicht mehr detailliert genug sind, Sie aber kein vollständiges Budgetsystem von Grund auf erstellen möchten."
+    },
+    "weaknesses": {
+      "title": "Schwäche der 6-Gläser-Methode",
+      "paragraphs": [
+        "Die vorgegebene Struktur passt nicht für alle Menschen gleich gut.",
+        "Für eine Person kann eine eigene Kategorie für Bildung wichtig sein, während eine andere sie kaum nutzt.",
+        "Manche Menschen kaufen regelmäßig Geschenke oder spenden, während andere diesen Teil ihres Einkommens lieber für andere Ziele einsetzen.",
+        "Die klassischen Prozentsätze und Kategorien müssen daher nicht unverändert bleiben.",
+        "Die Methode kann an die eigene Situation angepasst werden."
+      ]
+    }
+  },
+  "envelopeMethod": {
+    "title": "So funktioniert das Umschlagprinzip",
+    "paragraphs": [
+      "Das Umschlagprinzip geht noch einen Schritt weiter und überlässt die Struktur des Budgets fast vollständig Ihnen.",
+      "Sie erstellen selbst Kategorien für die Ausgaben und Ziele, die Sie kontrollieren möchten."
+    ],
+    "exampleIntro": "Zum Beispiel:",
+    "exampleItems": [
+      "Wohnen;",
+      "Lebensmittel;",
+      "Transport;",
+      "Restaurants;",
+      "Freizeit;",
+      "Urlaub;",
+      "Elektronik;",
+      "Notgroschen;",
+      "Bildung."
+    ],
+    "closingParagraphs": [
+      "Anschließend weisen Sie jeder Kategorie einen bestimmten Betrag zu.",
+      "Das Grundprinzip bleibt dasselbe:",
+      "<strong>Jeder Teil Ihres Geldes hat einen bestimmten Zweck.</strong>",
+      "Wenn Sie 500 für Restaurants einplanen, zeigt genau dieser Betrag, wie viel dafür verfügbar ist — unabhängig vom gesamten Kontostand.",
+      "Ursprünglich wurde Bargeld tatsächlich auf physische Umschläge verteilt.",
+      "Heute lässt sich dasselbe System digital nutzen, ohne das Geld physisch voneinander zu trennen."
+    ],
+    "strengths": {
+      "title": "Stärke des Umschlagprinzips",
+      "paragraphs": [
+        "Es ist der flexibelste der drei Ansätze.",
+        "Sie entscheiden selbst:"
+      ],
+      "items": [
+        "wie viele Kategorien Sie benötigen;",
+        "wie detailliert diese sein sollen;",
+        "wie viel Geld Sie jeder Kategorie zuweisen;",
+        "welche Ausgaben Sie getrennt kontrollieren möchten."
+      ],
+      "outro": "Eine Person kann vier große Kategorien verwenden, eine andere fünfzehn oder zwanzig."
+    },
+    "weaknesses": {
+      "title": "Schwäche des Umschlagprinzips",
+      "paragraphs": [
+        "Je mehr Freiheit ein System bietet, desto mehr Entscheidungen müssen Sie selbst treffen.",
+        "Sie müssen Kategorien auswählen, sinnvolle Beträge festlegen und diese regelmäßig überprüfen.",
+        "Wenn Sie zu viele Kategorien anlegen, kann das Budget komplizierter werden als nötig.",
+        "Ein hoher Detaillierungsgrad ist nur dann sinnvoll, wenn er tatsächlich dabei hilft, bessere Entscheidungen zu treffen."
+      ]
+    }
+  },
+  "detailLevel": {
+    "title": "Die drei Methoden unterscheiden sich vor allem im Detaillierungsgrad",
+    "paragraphs": [
+      "Wenn man die unterschiedlichen Bezeichnungen außer Acht lässt, wird deutlich, dass alle drei Ansätze fast dasselbe Grundprinzip verwenden.",
+      "Das Einkommen wird im Voraus auf Kategorien verteilt, und jede Kategorie steht für eine bestimmte Gruppe von Ausgaben oder finanziellen Zielen.",
+      "Der Unterschied liegt darin, <strong>wie detailliert das Budget aufgeteilt wird</strong>.",
+      "Die 50/30/20-Regel verwendet drei sehr große Kategorien.",
+      "Die 6-Gläser-Methode verwendet sechs konkretere Kategorien.",
+      "Beim Umschlagprinzip können Sie selbst eine beliebige Anzahl von Kategorien festlegen.",
+      "Man kann sie sich als einfache Abstufung vorstellen:",
+      "<strong>50/30/20 → 6-Gläser-Methode → Umschlagprinzip</strong>",
+      "Vom geringsten bis zum höchsten Detaillierungsgrad.",
+      "Mehr Kategorien bedeuten jedoch nicht automatisch ein besseres Budget.",
+      "Je detaillierter das System ist, desto mehr Kontrolle bietet es — aber desto mehr Aufmerksamkeit erfordert es auch."
+    ]
+  },
+  "methodsComparison": {
+    "title": "Vergleich von 50/30/20, der 6-Gläser-Methode und dem Umschlagprinzip",
+    "table": {
+      "headers": ["", "50/30/20", "6-Gläser-Methode", "Umschlagprinzip"],
+      "rows": [
+        ["Anzahl der Kategorien", "3", "6 in der klassischen Variante", "Frei wählbar"],
+        ["Kategorien vorgegeben", "Ja", "Ja", "Nein"],
+        ["Empfohlene Aufteilung", "Ja", "Ja", "Nicht erforderlich"],
+        ["Kann die Aufteilung geändert werden?", "Ja", "Ja", "Ja"],
+        ["Können eigene Kategorien erstellt werden?", "Ja, bei Anpassung der Methode", "Ja, bei Anpassung der Methode", "Ja"],
+        ["Einfacher Einstieg", "Sehr hoch", "Hoch", "Mittel"],
+        ["Detaillierungsgrad", "Niedrig", "Mittel", "Frei wählbar"],
+        ["Flexibilität", "Mittel", "Hoch", "Sehr hoch"],
+        ["Für digitale Verwaltung geeignet", "Ja", "Ja", "Ja"]
+      ]
+    },
+    "closingParagraphs": [
+      "Keine dieser Methoden ist objektiv besser als die anderen.",
+      "Sie lösen dieselbe Aufgabe mit unterschiedlichem Detaillierungsgrad."
+    ]
+  },
+  "oneIncome": {
+    "title": "Ein Einkommen — drei verschiedene Möglichkeiten der Aufteilung",
+    "paragraphs": [
+      "Angenommen, Sie erhalten ein Einkommen von 10.000.",
+      "Sehen wir uns an, wie derselbe Betrag in den drei Systemen aussehen kann."
+    ],
+    "variant503020": {
+      "title": "Variante 1: die 50/30/20-Regel",
+      "table": {
+        "headers": ["Kategorie", "Anteil", "Betrag"],
+        "rows": [
+          ["Bedürfnisse", "50 %", "5.000"],
+          ["Wünsche", "30 %", "3.000"],
+          ["Ersparnisse und finanzielle Ziele", "20 %", "2.000"]
+        ]
+      },
+      "closingParagraphs": [
+        "Sie wissen, wie viel für notwendige Ausgaben verwendet werden kann, wie viel für optionale Käufe verfügbar ist und wie viel für die Zukunft zurückgelegt werden soll.",
+        "Innerhalb dieser Kategorien gibt es jedoch keine weitere Unterteilung."
+      ]
+    },
+    "variantSixJars": {
+      "title": "Variante 2: die 6-Gläser-Methode",
+      "table": {
+        "headers": ["Kategorie", "Anteil", "Betrag"],
+        "rows": [
+          ["Notwendige Ausgaben", "55 %", "5.500"],
+          ["Finanzielle Freiheit", "10 %", "1.000"],
+          ["Langfristige Ersparnisse", "10 %", "1.000"],
+          ["Bildung", "10 %", "1.000"],
+          ["Freizeit", "10 %", "1.000"],
+          ["Geschenke und Hilfe", "5 %", "500"]
+        ]
+      },
+      "closingParagraphs": [
+        "Hier werden dieselben 10.000 auf konkretere Zwecke verteilt.",
+        "Geld für Bildung konkurriert zum Beispiel nicht mehr direkt mit Freizeit, und langfristige Ersparnisse sind von Geld zum Vermögensaufbau getrennt."
+      ]
+    },
+    "variantEnvelope": {
+      "title": "Variante 3: das Umschlagprinzip",
+      "paragraphs": [
+        "Beim Umschlagprinzip gibt es keine verpflichtende feste Aufteilung."
+      ],
+      "exampleIntro": "Zum Beispiel:",
+      "table": {
+        "headers": ["Kategorie", "Betrag"],
+        "rows": [
+          ["Wohnen und Nebenkosten", "3.000"],
+          ["Lebensmittel", "2.000"],
+          ["Transport", "800"],
+          ["Freizeit", "700"],
+          ["Restaurants", "500"],
+          ["Urlaub", "1.000"],
+          ["Notgroschen", "1.500"],
+          ["Bildung", "500"],
+          ["Gesamt", "10.000"]
+        ]
+      },
+      "closingParagraphs": [
+        "Dieser Ansatz bietet deutlich mehr Kontrolle, erfordert aber, dass Sie selbst entscheiden, welche Kategorien Sie tatsächlich benötigen."
+      ]
+    }
+  },
+  "when503020": {
+    "title": "Die 50/30/20-Regel eignet sich, wenn Sie möglichst einfach starten möchten",
+    "paragraphs": [
+      "Wenn Sie Ihr Geld bisher überhaupt nicht im Voraus aufgeteilt haben, kann die 50/30/20-Regel ein guter Ausgangspunkt sein.",
+      "Sie müssen kein kompliziertes System aufbauen.",
+      "Es reicht, drei Bereiche im Blick zu behalten:"
+    ],
+    "items": [
+      "Bedürfnisse;",
+      "Wünsche;",
+      "Ersparnisse und finanzielle Ziele."
+    ],
+    "closingParagraphs": [
+      "Schon diese einfache Aufteilung kann dabei helfen, nicht mehr das gesamte Guthaben als frei verfügbares Geld zu betrachten.",
+      "50/30/20 eignet sich auch für Menschen, die keine detaillierte Finanzverwaltung mögen.",
+      "Wenn es für Sie nicht wichtig ist, genau zu wissen, wie viel Sie für Spiele, Restaurants oder Kleidung ausgeben, müssen Sie dafür keine eigenen Kategorien anlegen.",
+      "Sie können all diese Ausgaben gemeinsam verwalten."
+    ]
+  },
+  "whenSixJars": {
+    "title": "Die 6-Gläser-Methode eignet sich, wenn Sie eine detailliertere fertige Struktur möchten",
+    "paragraphs": [
+      "Die 6-Gläser-Methode liegt ungefähr zwischen 50/30/20 und einem vollständig individuellen Kategoriensystem.",
+      "Es gibt genügend Kategorien, um die wichtigsten finanziellen Ziele zu trennen, aber Sie müssen die gesamte Budgetstruktur nicht selbst von Grund auf entwickeln.",
+      "Besonders hilfreich kann die Idee sein, mehrere finanzielle Prioritäten gleichzeitig zu berücksichtigen.",
+      "Bei jedem Einkommen fließt ein Teil des Geldes nicht nur in laufende Ausgaben, sondern auch in:"
+    ],
+    "items": [
+      "die Zukunft;",
+      "Bildung;",
+      "Erholung;",
+      "Vermögensaufbau;",
+      "andere wichtige Ziele."
+    ],
+    "closingParagraphs": [
+      "Die klassische Struktur kann schrittweise an Ihre Bedürfnisse angepasst werden.",
+      "Sie können zum Beispiel Prozentsätze ändern, Kategorien umbenennen oder neue hinzufügen."
+    ]
+  },
+  "whenEnvelope": {
+    "title": "Das Umschlagprinzip eignet sich, wenn Sie einzelne Ausgaben genauer kontrollieren möchten",
+    "paragraphs": [
+      "Das Umschlagprinzip ist besonders sinnvoll, wenn nicht die Gesamthöhe Ihrer Ausgaben das Problem ist, sondern einzelne Ausgabenbereiche.",
+      "Sie können beispielsweise insgesamt innerhalb Ihres Monatsbudgets bleiben, aber regelmäßig zu viel ausgeben für:"
+    ],
+    "items": [
+      "Essenslieferungen;",
+      "Restaurants;",
+      "Spiele;",
+      "Kleidung;",
+      "Taxis."
+    ],
+    "closingParagraphs": [
+      "Bei der 50/30/20-Regel können all diese Ausgaben in einer einzigen großen Wunsch-Kategorie liegen.",
+      "Das Umschlagprinzip ermöglicht es, jeden wichtigen Bereich separat zu behandeln."
+    ],
+    "exampleTitle": "Zum Beispiel:",
+    "example": "<strong>Restaurants — 500.</strong>",
+    "outroParagraphs": [
+      "Wenn das Geld in dieser Kategorie aufgebraucht ist, sehen Sie sofort, dass das geplante Budget ausgeschöpft wurde.",
+      "Danach können Sie die Ausgaben in dieser Kategorie bis zur nächsten Zuweisung stoppen oder Ihr Budget bewusst anpassen."
+    ]
+  },
+  "strictPercents": {
+    "title": "Müssen die Prozentsätze genau eingehalten werden?",
+    "paragraphs": [
+      "Nein.",
+      "Prozentsätze sind als Ausgangspunkt hilfreich, aber ihre exakte Einhaltung sollte kein Selbstzweck sein.",
+      "Wenn notwendige Ausgaben 65 % Ihres Einkommens ausmachen, macht die 50/30/20-Regel Ihre Wohnung nicht günstiger.",
+      "Ebenso wenig ist es sinnvoll, künstlich 10 % des Einkommens für Bildung auszugeben, nur weil die klassische 6-Gläser-Methode diesen Anteil vorsieht.",
+      "Sinnvoller ist es, die empfohlenen Anteile als ersten Orientierungspunkt zu nutzen und anschließend zu prüfen, wie gut sie zu Ihrem tatsächlichen Leben passen.",
+      "Wenn in einer Kategorie regelmäßig Geld fehlt, während in einer anderen ständig ein großer Überschuss bleibt, können Sie die Verteilung anpassen.",
+      "Ihr Budget sollte sich Ihrem Leben anpassen — nicht umgekehrt."
+    ]
+  },
+  "combineMethods": {
+    "title": "Lassen sich die Methoden kombinieren?",
+    "paragraphs": [
+      "Ja.",
+      "Da alle drei Methoden auf demselben Grundprinzip beruhen, sind die Grenzen zwischen ihnen recht flexibel.",
+      "Sie können beispielsweise mit der 50/30/20-Regel beginnen und die Wunsch-Kategorie später in mehrere detailliertere Kategorien unterteilen:"
+    ],
+    "wantsItems": [
+      "Restaurants;",
+      "Freizeit;",
+      "Hobbys;",
+      "Reisen."
+    ],
+    "middleParagraphs": [
+      "Dadurch nähert sich das System dem Umschlagprinzip an.",
+      "Sie können auch die 6-Gläser-Methode als Grundlage verwenden und die langfristigen Ersparnisse auf mehrere Ziele verteilen:"
+    ],
+    "savingsItems": [
+      "Urlaub;",
+      "Elektronik;",
+      "ein Auto;",
+      "Renovierungen."
+    ],
+    "closingParagraphs": [
+      "Sie können auch in die entgegengesetzte Richtung gehen.",
+      "Wenn ein System mit fünfzehn Kategorien zu kompliziert wird, lassen sich ähnliche Ausgaben zu einigen größeren Gruppen zusammenfassen.",
+      "So kann sich Ihr Budget mit der Zeit zu einem System entwickeln, das genau zu Ihnen passt.",
+      "Der Name der Methode ist weniger wichtig als das Grundprinzip:",
+      "<strong>Das Geld erhält einen Zweck, bevor Sie es ausgeben.</strong>"
+    ]
+  },
+  "irregularIncome": {
+    "title": "Was tun bei unregelmäßigem Einkommen?",
+    "paragraphs": [
+      "Alle drei Ansätze können auch ohne festes Gehalt verwendet werden.",
+      "Wenn Ihr Einkommen in einzelnen Zahlungen eingeht, können Sie jede neue Zahlung direkt nach Erhalt verteilen.",
+      "Nach einer Projektzahlung entscheiden Sie zum Beispiel sofort, wie viel für notwendige Ausgaben, Ersparnisse und andere Ziele vorgesehen ist.",
+      "Feste Prozentsätze können bei unregelmäßigem Einkommen besonders praktisch sein, weil Sie Ihr genaues Monatseinkommen nicht im Voraus kennen müssen.",
+      "Wenn Sie 4.000 erhalten, verteilen Sie diese 4.000.",
+      "Wenn eine Woche später weitere 2.000 eingehen, verteilen Sie auch diese 2.000.",
+      "Beim Umschlagprinzip können Sie auch anders vorgehen: Zuerst werden die wichtigsten Kategorien bis zu den gewünschten Beträgen aufgefüllt, anschließend wird der Rest verteilt."
+    ]
+  },
+  "finalChoice": {
+    "title": "Welche Methode sollten Sie wählen?",
+    "paragraphs": [
+      "Wenn Sie ein möglichst einfaches System möchten, können Sie mit der <strong>50/30/20-Regel</strong> beginnen.",
+      "Drei Kategorien sind leicht zu verstehen, zu merken und zu verwalten.",
+      "Wenn Sie mehr Struktur möchten, ohne Ihr Budget von Grund auf selbst aufzubauen, kann die <strong>6-Gläser-Methode</strong> besser passen.",
+      "Sechs Kategorien ermöglichen es, laufende Ausgaben, Ersparnisse, persönliche Entwicklung, Freizeit und weitere finanzielle Ziele getrennt zu betrachten.",
+      "Wenn Sie Ihre Ausgaben bereits gut kennen und Kategorien sowie Beträge selbst festlegen möchten, kann das <strong>Umschlagprinzip</strong> die beste Wahl sein.",
+      "Ihre Entscheidung muss nicht dauerhaft sein.",
+      "Sie können mit drei Kategorien beginnen und später schrittweise mehr Details hinzufügen."
+    ],
+    "exampleIntro": "Zum Beispiel:",
+    "example": "<strong>50/30/20 → 6-Gläser-Methode → eigenes Kategoriensystem.</strong>",
+    "closingParagraphs": [
+      "Oder Sie gehen in die andere Richtung und vereinfachen ein zu detailliertes Budget, indem Sie viele Kategorien zu einigen größeren zusammenfassen.",
+      "Eine gute Budgetmethode ist nicht diejenige, die auf dem Papier am besten aussieht, sondern diejenige, die Sie regelmäßig nutzen können."
+    ]
+  },
+  "digitalOnly": {
+    "title": "Für die Geldaufteilung brauchen Sie keine physischen Umschläge oder Gläser",
+    "paragraphs": [
+      "Alle drei Methoden basieren darauf, Geld im Voraus einen Zweck zu geben. Dafür müssen Sie es jedoch nicht physisch getrennt aufbewahren.",
+      "Sie können weiterhin ein einziges Bankkonto nutzen und die interne Aufteilung separat verwalten.",
+      "Auf Ihrem Bankkonto können sich zum Beispiel 12.000 befinden, während Ihr Budget diesen Betrag auf laufende Ausgaben, Ersparnisse, Urlaub, Freizeit und andere Ziele verteilt.",
+      "Ihre Bank zeigt, <strong>wie viel Geld Sie insgesamt haben</strong>.",
+      "Ihr Budgetsystem zeigt, <strong>wofür dieses Geld vorgesehen ist</strong>.",
+      "Deshalb lassen sich diese Methoden gut digital nutzen: Das Geld bleibt auf Ihrem gewohnten Bankkonto, während die interne Aufteilung separat erfasst wird."
+    ]
+  },
+  "inApp": {
+    "title": "So nutzen Sie verschiedene Budgetmethoden in 6 Jars Finance",
+    "paragraphs": [
+      "Obwohl die App <strong>6 Jars Finance</strong> heißt, ist sie nicht auf die klassische 6-Gläser-Methode beschränkt.",
+      "Beim ersten Start können Sie das Budgetsystem auswählen, das zu Ihnen passt:"
+    ],
+    "items": [
+      "die 50/30/20-Regel;",
+      "die klassische 6-Gläser-Methode;",
+      "ein eigenes Kategoriensystem nach dem Umschlagprinzip."
+    ],
+    "closingParagraphs": [
+      "Das gewählte System dient als Ausgangspunkt und kann bei Bedarf angepasst werden, indem Sie Prozentsätze, Kategorienamen oder die Anzahl der Kategorien ändern.",
+      "Wenn Sie Einkommen erhalten, verteilt die App es entsprechend den gewählten Anteilen auf die Kategorien. Nach einem Einkauf verringert sich nur der Saldo der Kategorie, zu der die Ausgabe gehört.",
+      "Das Geld selbst bleibt auf Ihrem normalen Bankkonto. Die App verbindet sich nicht mit Ihrer Bank und verschiebt kein Geld zwischen Konten.",
+      "So können Sie weiterhin Ihre gewohnte Bankkarte verwenden und gleichzeitig sehen, welcher Teil Ihres Gesamtguthabens bereits für bestimmte Ausgaben und Ziele vorgesehen ist.",
+      "Das bei der Einrichtung gewählte System können Sie jederzeit ändern, damit es besser zu Ihren tatsächlichen Ausgaben und Zielen passt."
+    ],
+    "cta": "6 Jars Finance ausprobieren →"
+  }
+}

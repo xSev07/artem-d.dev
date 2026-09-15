@@ -1,0 +1,478 @@
+{
+  "title": "50/30/20, método dos 6 potes ou método dos envelopes: qual método de orçamento combina com você?",
+  "metaDescription": "A regra 50/30/20, o método dos 6 potes e o método dos envelopes resolvem o mesmo problema: distribuir a renda entre categorias com antecedência. Comparamos as três abordagens para ajudar você a escolher.",
+  "intro": {
+    "paragraphs": [
+      "Existem muitas formas de organizar um orçamento pessoal, mas algumas delas se baseiam na mesma ideia: <strong>primeiro dar um destino à renda e só depois gastar o dinheiro</strong>.",
+      "Entre essas abordagens estão a regra 50/30/20, o método dos 6 potes e o método dos envelopes.",
+      "Cada método usa sua própria terminologia. No método dos 6 potes, o dinheiro é distribuído entre potes; no método dos envelopes, entre envelopes; e na regra 50/30/20, entre três grandes grupos de despesas.",
+      "Para comparar essas abordagens sem criar confusão desnecessária, ao longo deste artigo vou usar o termo geral <strong>“categorias”</strong>.",
+      "Uma categoria é uma parte separada do orçamento destinada a um objetivo específico ou a um grupo de despesas, como necessidades, poupança, lazer ou educação.",
+      "Quando vistos dessa forma, os três métodos são muito parecidos.",
+      "A principal diferença entre eles é o <strong>nível de detalhamento do orçamento</strong>.",
+      "A regra 50/30/20 usa três categorias amplas. O método dos 6 potes divide o dinheiro de forma mais detalhada. O método dos envelopes permite criar quantas categorias você precisar.",
+      "Vamos analisar cada abordagem em ordem — da mais simples à mais detalhada."
+    ]
+  },
+  "overview": {
+    "title": "Índice",
+    "commonGround": "O que os três métodos têm em comum",
+    "rule503020": "Como funciona a regra 50/30/20",
+    "sixJarsMethod": "Como funciona o método dos 6 potes",
+    "envelopeMethod": "Como funciona o método dos envelopes",
+    "detailLevel": "Nível de detalhamento",
+    "methodsComparison": "Comparação dos métodos",
+    "oneIncome": "Uma renda — três formas de distribuí-la",
+    "when503020": "Quando escolher o 50/30/20",
+    "whenSixJars": "Quando escolher o método dos 6 potes",
+    "whenEnvelope": "Quando escolher o método dos envelopes",
+    "strictPercents": "É preciso seguir as porcentagens à risca?",
+    "combineMethods": "É possível combinar esses métodos?",
+    "irregularIncome": "Renda irregular",
+    "finalChoice": "Qual método escolher?",
+    "digitalOnly": "Você não precisa de envelopes físicos",
+    "inApp": "Como usar esses métodos no 6 Jars Finance"
+  },
+  "commonGround": {
+    "title": "O que os três métodos têm em comum",
+    "paragraphs": [
+      "O acompanhamento tradicional de despesas ajuda a responder à pergunta:",
+      "<strong>“Para onde meu dinheiro já foi?”</strong>",
+      "Você registra compras, analisa seus gastos e consegue ver quanto gastou com alimentação, transporte, lazer e outras despesas.",
+      "A regra 50/30/20, o método dos 6 potes e o método dos envelopes adotam uma abordagem um pouco diferente.",
+      "Eles ajudam você a responder antecipadamente a outra pergunta:",
+      "<strong>“Para que quero usar esta renda?”</strong>",
+      "Quando recebe uma renda, você a distribui entre várias categorias."
+    ],
+    "exampleIntro": "Por exemplo:",
+    "exampleItems": [
+      "uma parte do dinheiro é destinada às despesas do dia a dia;",
+      "uma parte à poupança;",
+      "uma parte ao lazer;",
+      "uma parte a futuras compras maiores."
+    ],
+    "closingParagraphs": [
+      "Com isso, o saldo total da conta bancária deixa de parecer uma única quantia totalmente disponível para gastar.",
+      "Se você tem 10.000 na conta, isso não significa que pode gastar os 10.000 imediatamente. Talvez 5.000 já estejam destinados às despesas essenciais, 2.000 à poupança e apenas 1.000 ao lazer.",
+      "Os três métodos ajudam a dar um destino específico ao dinheiro com antecedência.",
+      "Eles diferem principalmente em <strong>quão amplas ou detalhadas são as categorias e quais proporções sugerem</strong>."
+    ],
+    "cta": "Experimente distribuir seu orçamento com o 6 Jars Finance →"
+  },
+  "rule503020": {
+    "title": "Como funciona a regra 50/30/20",
+    "paragraphs": [
+      "A regra 50/30/20 é a mais simples das três abordagens.",
+      "A renda líquida é dividida em apenas três categorias:"
+    ],
+    "categories": [
+      "<strong>50% — necessidades;</strong>",
+      "<strong>30% — desejos;</strong>",
+      "<strong>20% — poupança e outros objetivos financeiros.</strong>"
+    ],
+    "closingParagraphs": [
+      "As necessidades incluem moradia, alimentação, contas, transporte e outras despesas básicas.",
+      "A categoria de desejos inclui lazer, restaurantes, viagens, hobbies, compras opcionais e outras despesas das quais você poderia abrir mão.",
+      "Os 20% restantes vão para poupança, reserva de emergência, investimentos, grandes objetivos ou pagamento antecipado de dívidas."
+    ],
+    "strengths": {
+      "title": "Ponto forte da regra 50/30/20",
+      "paragraphs": [
+        "A principal vantagem é a simplicidade.",
+        "Em vez de administrar muitas categorias, você precisa acompanhar apenas três grandes áreas.",
+        "Não é necessário definir limites separados para restaurantes, jogos, roupas e viagens. Todas essas despesas podem ficar juntas na categoria de desejos.",
+        "Por isso, começar com o 50/30/20 costuma ser mais fácil do que usar sistemas mais detalhados.",
+        "Essa abordagem é especialmente útil se você não quer acompanhar o orçamento em detalhes e prefere apenas manter um equilíbrio geral entre a vida cotidiana, os gastos opcionais e os objetivos futuros."
+      ]
+    },
+    "weaknesses": {
+      "title": "Ponto fraco da regra 50/30/20",
+      "paragraphs": [
+        "Três categorias oferecem pouca informação sobre o que realmente acontece dentro do orçamento.",
+        "Suponha que você reserve 3.000 para desejos.",
+        "Você poderia gastar:"
+      ],
+      "exampleItems": [
+        "500 em restaurantes;",
+        "500 em hobbies;",
+        "2.000 em novos eletrônicos."
+      ],
+      "closingParagraphs": [
+        "Formalmente, você ainda está seguindo a regra.",
+        "Mas se quiser controlar diferentes tipos de gasto separadamente, uma única categoria ampla de desejos pode não ser suficiente.",
+        "As porcentagens sugeridas também podem não corresponder à sua realidade.",
+        "Em uma cidade com custo de moradia elevado, as despesas essenciais podem facilmente ultrapassar 50% da renda. Por isso, é melhor considerar as proporções 50/30/20 como um ponto de partida, e não como uma regra rígida."
+      ]
+    }
+  },
+  "sixJarsMethod": {
+    "title": "Como funciona o método dos 6 potes",
+    "paragraphs": [
+      "O método dos 6 potes usa a mesma ideia básica, mas divide o orçamento de forma mais detalhada.",
+      "Na versão clássica, cada entrada de renda é distribuída entre seis categorias:"
+    ],
+    "table": {
+      "headers": ["Categoria", "Parcela"],
+      "rows": [
+        ["Despesas essenciais", "55%"],
+        ["Liberdade financeira", "10%"],
+        ["Poupança de longo prazo", "10%"],
+        ["Educação", "10%"],
+        ["Lazer", "10%"],
+        ["Presentes e ajuda", "5%"]
+      ]
+    },
+    "closingParagraphs": [
+      "Em comparação com o 50/30/20, o orçamento passa a ter mais áreas separadas.",
+      "Por exemplo, a poupança deixa de ser tratada como uma única categoria ampla. O dinheiro destinado à formação de patrimônio fica separado da poupança de longo prazo.",
+      "O lazer fica separado da educação e da ajuda a outras pessoas.",
+      "Isso evita que diferentes objetivos financeiros disputem o mesmo dinheiro."
+    ],
+    "strengths": {
+      "title": "Ponto forte do método dos 6 potes",
+      "paragraphs": [
+        "O método oferece uma estrutura pronta e, ao mesmo tempo, mais detalhes do que o 50/30/20.",
+        "Você não precisa decidir sozinho quais serão as principais categorias. Elas já estão definidas.",
+        "Ao mesmo tempo, o orçamento fica mais estruturado.",
+        "Você consegue ver separadamente o dinheiro destinado a:"
+      ],
+      "items": [
+        "vida cotidiana;",
+        "poupança;",
+        "formação de patrimônio;",
+        "educação;",
+        "lazer;",
+        "ajuda a outras pessoas."
+      ],
+      "outro": "Essa abordagem pode ser útil se as três categorias do 50/30/20 já não oferecem detalhes suficientes, mas você não quer criar um sistema de orçamento inteiro do zero."
+    },
+    "weaknesses": {
+      "title": "Ponto fraco do método dos 6 potes",
+      "paragraphs": [
+        "A estrutura predefinida não funciona igualmente bem para todo mundo.",
+        "Para uma pessoa, uma categoria separada para educação pode ser importante, enquanto outra quase não a utiliza.",
+        "Algumas pessoas compram presentes ou fazem doações regularmente, enquanto outras preferem direcionar essa parte da renda para outros objetivos.",
+        "Por isso, não é necessário manter as porcentagens nem as categorias clássicas sem alterações.",
+        "O método pode ser adaptado à sua situação."
+      ]
+    }
+  },
+  "envelopeMethod": {
+    "title": "Como funciona o método dos envelopes",
+    "paragraphs": [
+      "O método dos envelopes vai um passo além e deixa a estrutura do orçamento quase totalmente nas suas mãos.",
+      "Você cria suas próprias categorias para as despesas e os objetivos que deseja controlar."
+    ],
+    "exampleIntro": "Por exemplo:",
+    "exampleItems": [
+      "moradia;",
+      "alimentação;",
+      "transporte;",
+      "restaurantes;",
+      "lazer;",
+      "férias;",
+      "eletrônicos;",
+      "reserva de emergência;",
+      "educação."
+    ],
+    "closingParagraphs": [
+      "Depois disso, você atribui um valor específico a cada categoria.",
+      "O princípio básico continua o mesmo:",
+      "<strong>cada parte do seu dinheiro tem um destino.</strong>",
+      "Se você reservar 500 para restaurantes, esse valor mostra quanto está disponível para restaurantes independentemente do saldo total da sua conta bancária.",
+      "Historicamente, as pessoas realmente distribuíam dinheiro em espécie entre envelopes físicos.",
+      "Hoje, o mesmo sistema pode ser usado digitalmente sem separar fisicamente o dinheiro."
+    ],
+    "strengths": {
+      "title": "Ponto forte do método dos envelopes",
+      "paragraphs": [
+        "É a mais flexível das três abordagens.",
+        "Você decide:"
+      ],
+      "items": [
+        "quantas categorias precisa;",
+        "quão detalhadas elas devem ser;",
+        "quanto dinheiro destinar a cada uma;",
+        "quais despesas deseja controlar separadamente."
+      ],
+      "outro": "Uma pessoa pode usar quatro categorias amplas. Outra pode usar quinze ou vinte."
+    },
+    "weaknesses": {
+      "title": "Ponto fraco do método dos envelopes",
+      "paragraphs": [
+        "Quanto mais liberdade um sistema oferece, mais decisões você precisa tomar por conta própria.",
+        "É necessário escolher categorias, definir valores razoáveis e revisá-los de tempos em tempos.",
+        "Se você criar categorias demais, o orçamento pode ficar mais complicado do que o necessário.",
+        "Um alto nível de detalhamento só é útil quando realmente ajuda você a tomar decisões melhores."
+      ]
+    }
+  },
+  "detailLevel": {
+    "title": "Os três métodos diferem principalmente no nível de detalhamento",
+    "paragraphs": [
+      "Se ignorarmos os nomes diferentes, fica claro que as três abordagens usam praticamente o mesmo princípio básico.",
+      "A renda é distribuída antecipadamente entre categorias, e cada categoria representa um determinado grupo de despesas ou objetivos financeiros.",
+      "A diferença está em <strong>quão detalhadamente o orçamento é dividido</strong>.",
+      "A regra 50/30/20 usa três categorias muito amplas.",
+      "O método dos 6 potes usa seis categorias mais específicas.",
+      "O método dos envelopes permite definir livremente qualquer número de categorias.",
+      "Você pode pensar neles como uma progressão simples:",
+      "<strong>50/30/20 → método dos 6 potes → método dos envelopes</strong>",
+      "Do menor para o maior nível de detalhamento.",
+      "No entanto, ter mais categorias não significa automaticamente ter um orçamento melhor.",
+      "Quanto mais detalhado for o sistema, mais controle ele oferece — mas mais atenção também exige."
+    ]
+  },
+  "methodsComparison": {
+    "title": "Comparação entre 50/30/20, método dos 6 potes e método dos envelopes",
+    "table": {
+      "headers": ["", "50/30/20", "Método dos 6 potes", "Método dos envelopes"],
+      "rows": [
+        ["Número de categorias", "3", "6 na versão clássica", "Personalizável"],
+        ["Categorias predefinidas", "Sim", "Sim", "Não"],
+        ["Proporções recomendadas", "Sim", "Sim", "Não obrigatório"],
+        ["As proporções podem ser alteradas?", "Sim", "Sim", "Sim"],
+        ["É possível criar categorias próprias?", "Sim, adaptando o método", "Sim, adaptando o método", "Sim"],
+        ["Facilidade para começar", "Muito alta", "Alta", "Média"],
+        ["Nível de detalhamento", "Baixo", "Médio", "Personalizável"],
+        ["Flexibilidade", "Média", "Alta", "Muito alta"],
+        ["Adequado para uso digital", "Sim", "Sim", "Sim"]
+      ]
+    },
+    "closingParagraphs": [
+      "Nenhum desses métodos é objetivamente melhor do que os outros.",
+      "Eles resolvem o mesmo problema com diferentes níveis de detalhamento."
+    ]
+  },
+  "oneIncome": {
+    "title": "Uma renda — três formas diferentes de distribuí-la",
+    "paragraphs": [
+      "Suponha que você receba uma renda de 10.000.",
+      "Vamos ver como o mesmo valor poderia ser distribuído em cada sistema."
+    ],
+    "variant503020": {
+      "title": "Opção 1: regra 50/30/20",
+      "table": {
+        "headers": ["Categoria", "Parcela", "Valor"],
+        "rows": [
+          ["Necessidades", "50%", "5.000"],
+          ["Desejos", "30%", "3.000"],
+          ["Poupança e objetivos financeiros", "20%", "2.000"]
+        ]
+      },
+      "closingParagraphs": [
+        "Você sabe quanto pode ser destinado às despesas essenciais, quanto está disponível para compras opcionais e quanto deve ser reservado para o futuro.",
+        "Mas não há uma subdivisão adicional dentro dessas categorias."
+      ]
+    },
+    "variantSixJars": {
+      "title": "Opção 2: método dos 6 potes",
+      "table": {
+        "headers": ["Categoria", "Parcela", "Valor"],
+        "rows": [
+          ["Despesas essenciais", "55%", "5.500"],
+          ["Liberdade financeira", "10%", "1.000"],
+          ["Poupança de longo prazo", "10%", "1.000"],
+          ["Educação", "10%", "1.000"],
+          ["Lazer", "10%", "1.000"],
+          ["Presentes e ajuda", "5%", "500"]
+        ]
+      },
+      "closingParagraphs": [
+        "Aqui, os mesmos 10.000 são distribuídos entre objetivos mais específicos.",
+        "Por exemplo, o dinheiro para educação deixa de competir diretamente com o lazer, enquanto a poupança de longo prazo fica separada do dinheiro destinado à formação de patrimônio."
+      ]
+    },
+    "variantEnvelope": {
+      "title": "Opção 3: método dos envelopes",
+      "paragraphs": [
+        "O método dos envelopes não exige uma distribuição fixa."
+      ],
+      "exampleIntro": "Por exemplo:",
+      "table": {
+        "headers": ["Categoria", "Valor"],
+        "rows": [
+          ["Moradia e contas", "3.000"],
+          ["Alimentação", "2.000"],
+          ["Transporte", "800"],
+          ["Lazer", "700"],
+          ["Restaurantes", "500"],
+          ["Férias", "1.000"],
+          ["Reserva de emergência", "1.500"],
+          ["Educação", "500"],
+          ["Total", "10.000"]
+        ]
+      },
+      "closingParagraphs": [
+        "Essa abordagem oferece muito mais controle, mas exige que você decida por conta própria quais categorias realmente precisa."
+      ]
+    }
+  },
+  "when503020": {
+    "title": "A regra 50/30/20 é adequada se você quer começar da forma mais simples possível",
+    "paragraphs": [
+      "Se você nunca distribuiu o dinheiro antecipadamente, a regra 50/30/20 pode ser um bom ponto de partida.",
+      "Você não precisa criar um sistema complicado.",
+      "Basta acompanhar três áreas:"
+    ],
+    "items": [
+      "necessidades;",
+      "desejos;",
+      "poupança e objetivos financeiros."
+    ],
+    "closingParagraphs": [
+      "Mesmo uma divisão simples como essa pode ajudar você a deixar de enxergar todo o saldo como dinheiro livre para gastar.",
+      "O 50/30/20 também é adequado para quem não gosta de acompanhar as finanças em detalhes.",
+      "Se não é importante para você saber exatamente quanto gasta com jogos, restaurantes ou roupas, não é necessário criar categorias separadas para isso.",
+      "Você pode administrar todas essas despesas em conjunto."
+    ]
+  },
+  "whenSixJars": {
+    "title": "O método dos 6 potes é adequado se você quer uma estrutura pronta e mais detalhada",
+    "paragraphs": [
+      "O método dos 6 potes fica aproximadamente entre o 50/30/20 e um sistema de categorias totalmente personalizado.",
+      "Há categorias suficientes para separar os principais objetivos financeiros, mas você não precisa criar toda a estrutura do orçamento do zero.",
+      "A ideia de manter várias prioridades financeiras ao mesmo tempo pode ser especialmente útil.",
+      "Sempre que você recebe uma renda, parte do dinheiro vai não apenas para as despesas atuais, mas também para:"
+    ],
+    "items": [
+      "o futuro;",
+      "educação;",
+      "lazer;",
+      "formação de patrimônio;",
+      "outros objetivos importantes."
+    ],
+    "closingParagraphs": [
+      "Você pode adaptar gradualmente a estrutura clássica às suas necessidades.",
+      "Por exemplo, pode alterar as porcentagens, renomear categorias ou adicionar novas."
+    ]
+  },
+  "whenEnvelope": {
+    "title": "O método dos envelopes é adequado se você quer controlar despesas específicas com mais precisão",
+    "paragraphs": [
+      "O método dos envelopes é especialmente útil quando o problema não está no total dos gastos, mas em determinados tipos de despesa.",
+      "Por exemplo, você pode ficar dentro do orçamento mensal total e ainda assim gastar demais com frequência:"
+    ],
+    "items": [
+      "delivery de comida;",
+      "restaurantes;",
+      "jogos;",
+      "roupas;",
+      "táxis."
+    ],
+    "closingParagraphs": [
+      "Na regra 50/30/20, todas essas despesas podem ficar dentro de uma única categoria ampla de desejos.",
+      "O método dos envelopes permite separar cada área importante."
+    ],
+    "exampleTitle": "Por exemplo:",
+    "example": "<strong>Restaurantes — 500.</strong>",
+    "outroParagraphs": [
+      "Quando o dinheiro dessa categoria acaba, você consegue ver imediatamente que o orçamento planejado já foi utilizado.",
+      "A partir daí, pode interromper os gastos nessa categoria até a próxima distribuição ou ajustar conscientemente o orçamento."
+    ]
+  },
+  "strictPercents": {
+    "title": "É preciso seguir as porcentagens à risca?",
+    "paragraphs": [
+      "Não.",
+      "As porcentagens são úteis como ponto de partida, mas segui-las exatamente não deve se tornar um objetivo por si só.",
+      "Se as despesas essenciais representam 65% da sua renda, a regra 50/30/20 não vai tornar sua moradia mais barata.",
+      "Da mesma forma, não faz sentido gastar artificialmente 10% da renda em educação apenas porque o método clássico dos 6 potes prevê essa proporção.",
+      "É mais útil tratar as proporções sugeridas como uma primeira referência e depois avaliar quanto elas combinam com sua vida real.",
+      "Se uma categoria fica sem dinheiro com frequência enquanto outra acumula um grande excedente, você pode alterar a distribuição.",
+      "Seu orçamento deve se adaptar à sua vida, e não o contrário."
+    ]
+  },
+  "combineMethods": {
+    "title": "É possível combinar esses métodos?",
+    "paragraphs": [
+      "Sim.",
+      "Como os três métodos se baseiam no mesmo princípio fundamental, os limites entre eles são bastante flexíveis.",
+      "Por exemplo, você pode começar com a regra 50/30/20 e depois dividir a categoria de desejos em várias categorias mais detalhadas:"
+    ],
+    "wantsItems": [
+      "restaurantes;",
+      "lazer;",
+      "hobbies;",
+      "viagens."
+    ],
+    "middleParagraphs": [
+      "Com isso, o sistema fica mais próximo do método dos envelopes.",
+      "Você também pode usar o método dos 6 potes como base e dividir a poupança de longo prazo entre vários objetivos:"
+    ],
+    "savingsItems": [
+      "férias;",
+      "eletrônicos;",
+      "um carro;",
+      "reforma da casa."
+    ],
+    "closingParagraphs": [
+      "Também é possível seguir na direção contrária.",
+      "Se um sistema com quinze categorias ficar complicado demais, despesas semelhantes podem ser agrupadas em algumas categorias mais amplas.",
+      "Com o tempo, seu orçamento pode evoluir para um sistema que funcione especificamente para você.",
+      "O nome do método importa menos do que o princípio fundamental:",
+      "<strong>o dinheiro recebe um destino antes de ser gasto.</strong>"
+    ]
+  },
+  "irregularIncome": {
+    "title": "O que fazer com uma renda irregular",
+    "paragraphs": [
+      "As três abordagens também podem ser usadas sem um salário fixo.",
+      "Se sua renda chega em pagamentos separados, você pode distribuir cada novo pagamento assim que recebê-lo.",
+      "Por exemplo, depois de receber o pagamento por um projeto, você decide imediatamente quanto vai para despesas essenciais, poupança e outros objetivos.",
+      "Porcentagens fixas podem ser especialmente práticas com renda irregular, porque você não precisa saber antecipadamente qual será sua renda mensal exata.",
+      "Se receber 4.000, distribua esses 4.000.",
+      "Se receber mais 2.000 uma semana depois, distribua também esses 2.000.",
+      "Com o método dos envelopes, você também pode usar outra abordagem: primeiro complete as categorias mais importantes até os valores desejados e depois distribua o que sobrar."
+    ]
+  },
+  "finalChoice": {
+    "title": "Qual método escolher?",
+    "paragraphs": [
+      "Se você quer um sistema o mais simples possível, pode começar com a <strong>regra 50/30/20</strong>.",
+      "Três categorias são fáceis de entender, lembrar e administrar.",
+      "Se quer mais estrutura sem precisar criar um orçamento do zero, o <strong>método dos 6 potes</strong> pode ser uma opção melhor.",
+      "Seis categorias permitem separar despesas atuais, poupança, desenvolvimento pessoal, lazer e outros objetivos financeiros.",
+      "Se você já conhece bem seus gastos e quer definir suas próprias categorias e valores, o <strong>método dos envelopes</strong> pode ser a melhor opção.",
+      "Sua escolha não precisa ser definitiva.",
+      "Você pode começar com três categorias e adicionar mais detalhes aos poucos."
+    ],
+    "exampleIntro": "Por exemplo:",
+    "example": "<strong>50/30/20 → método dos 6 potes → seu próprio sistema de categorias.</strong>",
+    "closingParagraphs": [
+      "Ou você pode seguir na direção contrária e simplificar um orçamento detalhado demais agrupando várias categorias em algumas maiores.",
+      "Um bom método de orçamento não é aquele que parece mais correto no papel, mas aquele que você consegue usar de forma consistente."
+    ]
+  },
+  "digitalOnly": {
+    "title": "Você não precisa de envelopes ou potes físicos para distribuir seu dinheiro",
+    "paragraphs": [
+      "Os três métodos se baseiam em dar um destino ao dinheiro com antecedência. Mas você não precisa mantê-lo fisicamente separado.",
+      "Pode continuar usando uma única conta bancária e acompanhar apenas a distribuição interna separadamente.",
+      "Por exemplo, você pode ter 12.000 na conta bancária enquanto seu orçamento divide esse valor entre despesas atuais, poupança, férias, lazer e outros objetivos.",
+      "Seu banco mostra <strong>quanto dinheiro você tem no total</strong>.",
+      "Seu sistema de orçamento mostra <strong>para que esse dinheiro está destinado</strong>.",
+      "Por isso, esses métodos funcionam bem de forma digital: o dinheiro pode permanecer na sua conta bancária habitual enquanto a distribuição interna é acompanhada separadamente."
+    ]
+  },
+  "inApp": {
+    "title": "Como usar diferentes métodos de orçamento no 6 Jars Finance",
+    "paragraphs": [
+      "Embora o aplicativo se chame <strong>6 Jars Finance</strong>, ele não se limita ao método clássico dos 6 potes.",
+      "Na primeira vez que abrir o aplicativo, você poderá escolher o sistema de orçamento que mais combina com você:"
+    ],
+    "items": [
+      "a regra 50/30/20;",
+      "o método clássico dos 6 potes;",
+      "seu próprio sistema de categorias baseado no método dos envelopes."
+    ],
+    "closingParagraphs": [
+      "O sistema escolhido se torna seu ponto de partida e pode ser adaptado sempre que necessário, alterando porcentagens, nomes das categorias ou a quantidade de categorias.",
+      "Quando você recebe uma renda, o aplicativo a distribui entre as categorias de acordo com as proporções escolhidas. Depois de uma compra, apenas o saldo da categoria relacionada àquela despesa diminui.",
+      "O dinheiro continua na sua conta bancária habitual. O aplicativo não se conecta ao seu banco e não movimenta dinheiro entre contas.",
+      "Assim, você pode continuar usando seu cartão bancário normalmente e, ao mesmo tempo, ver qual parte do saldo total já está destinada a despesas e objetivos específicos.",
+      "Você pode alterar a qualquer momento o sistema escolhido durante a configuração para que ele combine melhor com seus gastos e objetivos reais."
+    ],
+    "cta": "Experimente o 6 Jars Finance →"
+  }
+}

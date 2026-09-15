@@ -1,0 +1,478 @@
+{
+  "title": "50/30/20, méthode des 6 jarres ou méthode des enveloppes : quelle méthode budgétaire vous convient ?",
+  "metaDescription": "La règle 50/30/20, la méthode des 6 jarres et la méthode des enveloppes répondent au même besoin : répartir les revenus entre des catégories à l’avance. Nous comparons les trois approches pour vous aider à choisir.",
+  "intro": {
+    "paragraphs": [
+      "Il existe de nombreuses façons de gérer un budget personnel, mais certaines reposent sur la même idée : <strong>attribuer d’abord une destination à ses revenus, puis les dépenser</strong>.",
+      "Parmi ces approches figurent la règle 50/30/20, la méthode des 6 jarres et la méthode des enveloppes.",
+      "Chaque méthode utilise son propre vocabulaire. Dans la méthode des 6 jarres, l’argent est réparti entre des jarres ; dans la méthode des enveloppes, entre des enveloppes ; et avec la règle 50/30/20, entre trois grands groupes de dépenses.",
+      "Pour comparer ces approches sans créer de confusion inutile, j’utiliserai dans la suite de cet article le terme général <strong>« catégories »</strong>.",
+      "Une catégorie est une partie distincte du budget destinée à un objectif précis ou à un groupe de dépenses, par exemple les dépenses essentielles, l’épargne, les loisirs ou la formation.",
+      "Vue sous cet angle, les trois méthodes sont très similaires.",
+      "La principale différence entre elles est le <strong>niveau de détail du budget</strong>.",
+      "La règle 50/30/20 utilise trois grandes catégories. La méthode des 6 jarres répartit l’argent de façon plus détaillée. La méthode des enveloppes permet de créer autant de catégories que nécessaire.",
+      "Examinons chaque approche dans l’ordre — de la plus simple à la plus détaillée."
+    ]
+  },
+  "overview": {
+    "title": "Sommaire",
+    "commonGround": "Ce que les trois méthodes ont en commun",
+    "rule503020": "Comment fonctionne la règle 50/30/20",
+    "sixJarsMethod": "Comment fonctionne la méthode des 6 jarres",
+    "envelopeMethod": "Comment fonctionne la méthode des enveloppes",
+    "detailLevel": "Niveau de détail",
+    "methodsComparison": "Comparaison des méthodes",
+    "oneIncome": "Un revenu — trois façons de le répartir",
+    "when503020": "Quand choisir la règle 50/30/20",
+    "whenSixJars": "Quand choisir la méthode des 6 jarres",
+    "whenEnvelope": "Quand choisir la méthode des enveloppes",
+    "strictPercents": "Faut-il respecter strictement les pourcentages ?",
+    "combineMethods": "Peut-on combiner ces méthodes ?",
+    "irregularIncome": "Revenus irréguliers",
+    "finalChoice": "Quelle méthode choisir ?",
+    "digitalOnly": "Les enveloppes physiques ne sont pas nécessaires",
+    "inApp": "Comment utiliser ces méthodes dans 6 Jars Finance"
+  },
+  "commonGround": {
+    "title": "Ce que les trois méthodes ont en commun",
+    "paragraphs": [
+      "Le suivi traditionnel des dépenses permet de répondre à la question :",
+      "<strong>« Où mon argent est-il déjà parti ? »</strong>",
+      "Vous enregistrez vos achats, analysez vos dépenses et pouvez voir combien vous avez dépensé en alimentation, transport, loisirs et autres postes.",
+      "La règle 50/30/20, la méthode des 6 jarres et la méthode des enveloppes proposent une approche légèrement différente.",
+      "Elles vous aident à répondre à une autre question à l’avance :",
+      "<strong>« À quoi est-ce que je veux consacrer ce revenu ? »</strong>",
+      "Lorsque vous recevez un revenu, vous le répartissez entre plusieurs catégories."
+    ],
+    "exampleIntro": "Par exemple :",
+    "exampleItems": [
+      "une partie de l’argent est destinée aux dépenses du quotidien ;",
+      "une partie à l’épargne ;",
+      "une partie aux loisirs ;",
+      "une partie aux futurs achats importants."
+    ],
+    "closingParagraphs": [
+      "Ainsi, le solde total de votre compte bancaire ne ressemble plus à une seule somme entièrement disponible.",
+      "Si vous avez 10 000 sur votre compte, cela ne signifie pas que vous pouvez dépenser les 10 000 immédiatement. Peut-être que 5 000 sont déjà réservés aux dépenses essentielles, 2 000 à l’épargne et seulement 1 000 aux loisirs.",
+      "Les trois méthodes permettent d’attribuer à l’avance une destination précise à votre argent.",
+      "Elles diffèrent surtout par <strong>le niveau de détail des catégories et les proportions recommandées</strong>."
+    ],
+    "cta": "Essayer la répartition du budget avec 6 Jars Finance →"
+  },
+  "rule503020": {
+    "title": "Comment fonctionne la règle 50/30/20",
+    "paragraphs": [
+      "La règle 50/30/20 est la plus simple des trois approches.",
+      "Votre revenu net est réparti entre seulement trois catégories :"
+    ],
+    "categories": [
+      "<strong>50 % — besoins ;</strong>",
+      "<strong>30 % — envies ;</strong>",
+      "<strong>20 % — épargne et autres objectifs financiers.</strong>"
+    ],
+    "closingParagraphs": [
+      "Les besoins comprennent le logement, l’alimentation, les factures, les transports et les autres dépenses essentielles.",
+      "La catégorie des envies comprend les loisirs, les restaurants, les voyages, les loisirs personnels, les achats facultatifs et les autres dépenses dont vous pourriez vous passer.",
+      "Les 20 % restants sont consacrés à l’épargne, à un fonds d’urgence, aux investissements, aux grands objectifs ou au remboursement accéléré des dettes."
+    ],
+    "strengths": {
+      "title": "Point fort de la règle 50/30/20",
+      "paragraphs": [
+        "Son principal avantage est sa simplicité.",
+        "Au lieu de gérer de nombreuses catégories, vous n’avez que trois grands domaines à surveiller.",
+        "Vous n’avez pas besoin de fixer des limites distinctes pour les restaurants, les jeux, les vêtements ou les voyages. Toutes ces dépenses peuvent être regroupées dans la catégorie des envies.",
+        "Il est donc généralement plus facile de commencer avec la règle 50/30/20 qu’avec des systèmes plus détaillés.",
+        "Cette approche est particulièrement adaptée si vous ne souhaitez pas suivre votre budget dans les moindres détails et voulez simplement maintenir un équilibre général entre les dépenses quotidiennes, les dépenses facultatives et les objectifs futurs."
+      ]
+    },
+    "weaknesses": {
+      "title": "Point faible de la règle 50/30/20",
+      "paragraphs": [
+        "Trois catégories donnent peu d’informations sur ce qui se passe réellement à l’intérieur de votre budget.",
+        "Supposons que vous réserviez 3 000 aux envies.",
+        "Vous pourriez dépenser :"
+      ],
+      "exampleItems": [
+        "500 au restaurant ;",
+        "500 pour vos loisirs ;",
+        "2 000 pour de nouveaux appareils électroniques."
+      ],
+      "closingParagraphs": [
+        "Techniquement, vous respectez toujours la règle.",
+        "Mais si vous souhaitez contrôler séparément différents types de dépenses, une seule grande catégorie d’envies peut ne pas suffire.",
+        "Les pourcentages recommandés peuvent également ne pas correspondre à votre situation réelle.",
+        "Dans une ville où le logement est cher, les dépenses essentielles peuvent facilement dépasser 50 % du revenu. Il vaut donc mieux considérer les proportions 50/30/20 comme un point de départ plutôt que comme une règle stricte."
+      ]
+    }
+  },
+  "sixJarsMethod": {
+    "title": "Comment fonctionne la méthode des 6 jarres",
+    "paragraphs": [
+      "La méthode des 6 jarres repose sur la même idée de base, mais répartit le budget de manière plus détaillée.",
+      "Dans sa version classique, chaque revenu est réparti entre six catégories :"
+    ],
+    "table": {
+      "headers": ["Catégorie", "Part"],
+      "rows": [
+        ["Dépenses essentielles", "55 %"],
+        ["Liberté financière", "10 %"],
+        ["Épargne à long terme", "10 %"],
+        ["Formation", "10 %"],
+        ["Loisirs", "10 %"],
+        ["Cadeaux et aide", "5 %"]
+      ]
+    },
+    "closingParagraphs": [
+      "Par rapport à la règle 50/30/20, le budget est réparti entre davantage de domaines distincts.",
+      "Par exemple, l’épargne n’est plus traitée comme une seule grande catégorie. L’argent destiné à constituer un capital est séparé de l’épargne à long terme.",
+      "Les loisirs sont séparés de la formation et de l’aide aux autres.",
+      "Cela évite que différents objectifs financiers se disputent le même argent."
+    ],
+    "strengths": {
+      "title": "Point fort de la méthode des 6 jarres",
+      "paragraphs": [
+        "La méthode propose une structure prête à l’emploi tout en offrant plus de détails que la règle 50/30/20.",
+        "Vous n’avez pas à définir vous-même les principales catégories. Elles sont déjà prévues.",
+        "Le budget devient en même temps plus structuré.",
+        "Vous pouvez voir séparément l’argent destiné à :"
+      ],
+      "items": [
+        "la vie quotidienne ;",
+        "l’épargne ;",
+        "la constitution d’un capital ;",
+        "la formation ;",
+        "les loisirs ;",
+        "l’aide aux autres."
+      ],
+      "outro": "Cette approche peut être utile si les trois catégories de la règle 50/30/20 ne sont plus assez détaillées, mais que vous ne souhaitez pas construire tout un système budgétaire à partir de zéro."
+    },
+    "weaknesses": {
+      "title": "Point faible de la méthode des 6 jarres",
+      "paragraphs": [
+        "La structure prédéfinie ne conviendra pas de la même manière à tout le monde.",
+        "Pour une personne, une catégorie distincte consacrée à la formation peut être importante, tandis qu’une autre l’utilisera très peu.",
+        "Certaines personnes achètent régulièrement des cadeaux ou font des dons, tandis que d’autres préfèrent consacrer cette partie de leur revenu à d’autres objectifs.",
+        "Il n’est donc pas nécessaire de conserver les pourcentages ou les catégories classiques sans modification.",
+        "La méthode peut être adaptée à votre propre situation."
+      ]
+    }
+  },
+  "envelopeMethod": {
+    "title": "Comment fonctionne la méthode des enveloppes",
+    "paragraphs": [
+      "La méthode des enveloppes va encore plus loin et vous laisse presque entièrement définir la structure de votre budget.",
+      "Vous créez vous-même les catégories correspondant aux dépenses et aux objectifs que vous souhaitez contrôler."
+    ],
+    "exampleIntro": "Par exemple :",
+    "exampleItems": [
+      "logement ;",
+      "alimentation ;",
+      "transport ;",
+      "restaurants ;",
+      "loisirs ;",
+      "vacances ;",
+      "électronique ;",
+      "fonds d’urgence ;",
+      "formation."
+    ],
+    "closingParagraphs": [
+      "Vous attribuez ensuite un montant précis à chaque catégorie.",
+      "Le principe de base reste le même :",
+      "<strong>chaque partie de votre argent a une destination.</strong>",
+      "Si vous réservez 500 aux restaurants, ce montant indique combien vous pouvez y dépenser, indépendamment du solde total de votre compte bancaire.",
+      "À l’origine, les gens répartissaient réellement l’argent liquide entre des enveloppes physiques.",
+      "Aujourd’hui, le même système peut être utilisé sous forme numérique sans séparer physiquement l’argent."
+    ],
+    "strengths": {
+      "title": "Point fort de la méthode des enveloppes",
+      "paragraphs": [
+        "C’est l’approche la plus flexible des trois.",
+        "Vous décidez vous-même :"
+      ],
+      "items": [
+        "du nombre de catégories dont vous avez besoin ;",
+        "de leur niveau de détail ;",
+        "du montant à attribuer à chacune ;",
+        "des dépenses que vous souhaitez suivre séparément."
+      ],
+      "outro": "Une personne peut utiliser quatre grandes catégories, tandis qu’une autre peut en utiliser quinze ou vingt."
+    },
+    "weaknesses": {
+      "title": "Point faible de la méthode des enveloppes",
+      "paragraphs": [
+        "Plus un système offre de liberté, plus vous devez prendre de décisions vous-même.",
+        "Vous devez choisir les catégories, définir des montants raisonnables et les réévaluer de temps à autre.",
+        "Si vous créez trop de catégories, votre budget peut devenir plus compliqué que nécessaire.",
+        "Un niveau de détail élevé n’est utile que s’il vous aide réellement à prendre de meilleures décisions."
+      ]
+    }
+  },
+  "detailLevel": {
+    "title": "Les trois méthodes se distinguent surtout par leur niveau de détail",
+    "paragraphs": [
+      "Si l’on met de côté les différents noms, on constate que les trois approches reposent presque sur le même principe.",
+      "Le revenu est réparti à l’avance entre des catégories, et chaque catégorie correspond à un groupe de dépenses ou d’objectifs financiers.",
+      "La différence réside dans <strong>le niveau de détail du budget</strong>.",
+      "La règle 50/30/20 utilise trois catégories très larges.",
+      "La méthode des 6 jarres utilise six catégories plus précises.",
+      "La méthode des enveloppes vous permet de définir librement le nombre de catégories.",
+      "On peut les voir comme une progression simple :",
+      "<strong>50/30/20 → méthode des 6 jarres → méthode des enveloppes</strong>",
+      "Du niveau de détail le plus faible au plus élevé.",
+      "Cependant, avoir davantage de catégories ne signifie pas automatiquement avoir un meilleur budget.",
+      "Plus le système est détaillé, plus il offre de contrôle — mais plus il demande d’attention."
+    ]
+  },
+  "methodsComparison": {
+    "title": "Comparaison entre 50/30/20, la méthode des 6 jarres et la méthode des enveloppes",
+    "table": {
+      "headers": ["", "50/30/20", "Méthode des 6 jarres", "Méthode des enveloppes"],
+      "rows": [
+        ["Nombre de catégories", "3", "6 dans la version classique", "Libre"],
+        ["Catégories définies à l’avance", "Oui", "Oui", "Non"],
+        ["Proportions recommandées", "Oui", "Oui", "Pas obligatoire"],
+        ["Les proportions peuvent-elles être modifiées ?", "Oui", "Oui", "Oui"],
+        ["Peut-on créer ses propres catégories ?", "Oui, en adaptant la méthode", "Oui, en adaptant la méthode", "Oui"],
+        ["Facilité de prise en main", "Très élevée", "Élevée", "Moyenne"],
+        ["Niveau de détail", "Faible", "Moyen", "Libre"],
+        ["Flexibilité", "Moyenne", "Élevée", "Très élevée"],
+        ["Adapté à une gestion numérique", "Oui", "Oui", "Oui"]
+      ]
+    },
+    "closingParagraphs": [
+      "Aucune de ces méthodes n’est objectivement meilleure que les autres.",
+      "Elles répondent au même besoin avec des niveaux de détail différents."
+    ]
+  },
+  "oneIncome": {
+    "title": "Un revenu — trois façons différentes de le répartir",
+    "paragraphs": [
+      "Supposons que vous receviez un revenu de 10 000.",
+      "Voyons à quoi cette même somme pourrait ressembler avec chaque système."
+    ],
+    "variant503020": {
+      "title": "Option 1 : la règle 50/30/20",
+      "table": {
+        "headers": ["Catégorie", "Part", "Montant"],
+        "rows": [
+          ["Besoins", "50 %", "5 000"],
+          ["Envies", "30 %", "3 000"],
+          ["Épargne et objectifs financiers", "20 %", "2 000"]
+        ]
+      },
+      "closingParagraphs": [
+        "Vous savez combien peut être consacré aux dépenses essentielles, combien est disponible pour les achats facultatifs et combien doit être conservé pour l’avenir.",
+        "Mais il n’y a pas de subdivision supplémentaire à l’intérieur de ces catégories."
+      ]
+    },
+    "variantSixJars": {
+      "title": "Option 2 : la méthode des 6 jarres",
+      "table": {
+        "headers": ["Catégorie", "Part", "Montant"],
+        "rows": [
+          ["Dépenses essentielles", "55 %", "5 500"],
+          ["Liberté financière", "10 %", "1 000"],
+          ["Épargne à long terme", "10 %", "1 000"],
+          ["Formation", "10 %", "1 000"],
+          ["Loisirs", "10 %", "1 000"],
+          ["Cadeaux et aide", "5 %", "500"]
+        ]
+      },
+      "closingParagraphs": [
+        "Ici, les mêmes 10 000 sont répartis entre des objectifs plus précis.",
+        "Par exemple, l’argent consacré à la formation ne concurrence plus directement celui destiné aux loisirs, tandis que l’épargne à long terme est séparée de l’argent destiné à constituer un capital."
+      ]
+    },
+    "variantEnvelope": {
+      "title": "Option 3 : la méthode des enveloppes",
+      "paragraphs": [
+        "La méthode des enveloppes n’impose aucune répartition fixe."
+      ],
+      "exampleIntro": "Par exemple :",
+      "table": {
+        "headers": ["Catégorie", "Montant"],
+        "rows": [
+          ["Logement et charges", "3 000"],
+          ["Alimentation", "2 000"],
+          ["Transport", "800"],
+          ["Loisirs", "700"],
+          ["Restaurants", "500"],
+          ["Vacances", "1 000"],
+          ["Fonds d’urgence", "1 500"],
+          ["Formation", "500"],
+          ["Total", "10 000"]
+        ]
+      },
+      "closingParagraphs": [
+        "Cette approche offre beaucoup plus de contrôle, mais vous devez décider vous-même des catégories dont vous avez réellement besoin."
+      ]
+    }
+  },
+  "when503020": {
+    "title": "La règle 50/30/20 est adaptée si vous voulez commencer le plus simplement possible",
+    "paragraphs": [
+      "Si vous n’avez jamais réparti votre argent à l’avance, la règle 50/30/20 peut être un bon point de départ.",
+      "Vous n’avez pas besoin de construire un système complexe.",
+      "Il suffit de suivre trois domaines :"
+    ],
+    "items": [
+      "les besoins ;",
+      "les envies ;",
+      "l’épargne et les objectifs financiers."
+    ],
+    "closingParagraphs": [
+      "Même cette répartition simple peut vous aider à ne plus considérer l’ensemble de votre solde comme de l’argent librement disponible.",
+      "La règle 50/30/20 convient également aux personnes qui n’aiment pas suivre leurs finances dans le détail.",
+      "Si vous n’avez pas besoin de savoir exactement combien vous dépensez en jeux, restaurants ou vêtements, il n’est pas nécessaire de créer des catégories distinctes.",
+      "Vous pouvez gérer toutes ces dépenses ensemble."
+    ]
+  },
+  "whenSixJars": {
+    "title": "La méthode des 6 jarres est adaptée si vous souhaitez une structure prête à l’emploi plus détaillée",
+    "paragraphs": [
+      "La méthode des 6 jarres se situe à peu près entre la règle 50/30/20 et un système de catégories entièrement personnalisé.",
+      "Il y a suffisamment de catégories pour séparer les principaux objectifs financiers, sans avoir à construire toute la structure du budget à partir de zéro.",
+      "L’idée de gérer plusieurs priorités financières en même temps peut être particulièrement utile.",
+      "Chaque fois que vous recevez un revenu, une partie de l’argent est consacrée non seulement aux dépenses courantes, mais aussi à :"
+    ],
+    "items": [
+      "l’avenir ;",
+      "la formation ;",
+      "les loisirs ;",
+      "la constitution d’un capital ;",
+      "d’autres objectifs importants."
+    ],
+    "closingParagraphs": [
+      "Vous pouvez progressivement adapter la structure classique à vos besoins.",
+      "Par exemple, vous pouvez modifier les pourcentages, renommer les catégories ou en ajouter de nouvelles."
+    ]
+  },
+  "whenEnvelope": {
+    "title": "La méthode des enveloppes est adaptée si vous souhaitez mieux contrôler certaines dépenses",
+    "paragraphs": [
+      "La méthode des enveloppes est particulièrement utile lorsque le problème ne vient pas du montant total de vos dépenses, mais de certains types de dépenses.",
+      "Par exemple, vous pouvez respecter votre budget mensuel global tout en dépensant régulièrement trop :"
+    ],
+    "items": [
+      "en livraison de repas ;",
+      "au restaurant ;",
+      "en jeux ;",
+      "en vêtements ;",
+      "en taxis."
+    ],
+    "closingParagraphs": [
+      "Avec la règle 50/30/20, toutes ces dépenses peuvent appartenir à une seule grande catégorie d’envies.",
+      "La méthode des enveloppes permet de séparer chaque domaine important."
+    ],
+    "exampleTitle": "Par exemple :",
+    "example": "<strong>Restaurants — 500.</strong>",
+    "outroParagraphs": [
+      "Lorsque l’argent de cette catégorie est épuisé, vous voyez immédiatement que le budget prévu a été utilisé.",
+      "Vous pouvez alors arrêter les dépenses dans cette catégorie jusqu’à la prochaine répartition ou ajuster consciemment votre budget."
+    ]
+  },
+  "strictPercents": {
+    "title": "Faut-il respecter strictement les pourcentages ?",
+    "paragraphs": [
+      "Non.",
+      "Les pourcentages sont utiles comme point de départ, mais les respecter exactement ne doit pas devenir un objectif en soi.",
+      "Si les dépenses essentielles représentent 65 % de votre revenu, la règle 50/30/20 ne rendra pas votre logement moins cher.",
+      "De même, il n’y a aucune raison de dépenser artificiellement 10 % de votre revenu en formation simplement parce que la méthode classique des 6 jarres prévoit cette proportion.",
+      "Il est plus utile de considérer les proportions recommandées comme une première référence, puis de vérifier dans quelle mesure elles correspondent à votre vie réelle.",
+      "Si une catégorie manque régulièrement d’argent tandis qu’une autre accumule constamment un excédent important, vous pouvez modifier la répartition.",
+      "Votre budget doit s’adapter à votre vie, et non l’inverse."
+    ]
+  },
+  "combineMethods": {
+    "title": "Peut-on combiner ces méthodes ?",
+    "paragraphs": [
+      "Oui.",
+      "Comme les trois méthodes reposent sur le même principe de base, les frontières entre elles sont assez flexibles.",
+      "Vous pouvez par exemple commencer avec la règle 50/30/20, puis diviser la catégorie des envies en plusieurs catégories plus détaillées :"
+    ],
+    "wantsItems": [
+      "restaurants ;",
+      "loisirs ;",
+      "hobbies ;",
+      "voyages."
+    ],
+    "middleParagraphs": [
+      "Le système se rapproche alors de la méthode des enveloppes.",
+      "Vous pouvez également utiliser la méthode des 6 jarres comme base et répartir l’épargne à long terme entre plusieurs objectifs :"
+    ],
+    "savingsItems": [
+      "vacances ;",
+      "électronique ;",
+      "voiture ;",
+      "travaux dans le logement."
+    ],
+    "closingParagraphs": [
+      "Vous pouvez aussi aller dans l’autre sens.",
+      "Si un système comportant quinze catégories devient trop compliqué, vous pouvez regrouper les dépenses similaires dans quelques catégories plus larges.",
+      "Avec le temps, votre budget peut évoluer vers un système qui vous convient réellement.",
+      "Le nom de la méthode compte moins que le principe de base :",
+      "<strong>l’argent reçoit une destination avant d’être dépensé.</strong>"
+    ]
+  },
+  "irregularIncome": {
+    "title": "Que faire avec des revenus irréguliers ?",
+    "paragraphs": [
+      "Les trois approches peuvent également fonctionner sans salaire fixe.",
+      "Si vos revenus arrivent sous forme de paiements séparés, vous pouvez répartir chaque nouveau paiement dès sa réception.",
+      "Par exemple, après avoir été payé pour un projet, vous décidez immédiatement quelle part sera consacrée aux dépenses essentielles, à l’épargne et aux autres objectifs.",
+      "Des pourcentages fixes peuvent être particulièrement pratiques avec des revenus irréguliers, car vous n’avez pas besoin de connaître à l’avance votre revenu mensuel exact.",
+      "Si vous recevez 4 000, répartissez ces 4 000.",
+      "Si vous recevez 2 000 supplémentaires une semaine plus tard, répartissez également ces 2 000.",
+      "Avec la méthode des enveloppes, vous pouvez aussi procéder autrement : commencez par alimenter les catégories les plus importantes jusqu’au montant souhaité, puis répartissez ce qui reste."
+    ]
+  },
+  "finalChoice": {
+    "title": "Quelle méthode choisir ?",
+    "paragraphs": [
+      "Si vous voulez un système aussi simple que possible, vous pouvez commencer par la <strong>règle 50/30/20</strong>.",
+      "Trois catégories sont faciles à comprendre, à retenir et à gérer.",
+      "Si vous souhaitez davantage de structure sans construire un budget à partir de zéro, la <strong>méthode des 6 jarres</strong> peut être plus adaptée.",
+      "Six catégories permettent de distinguer les dépenses courantes, l’épargne, le développement personnel, les loisirs et les autres objectifs financiers.",
+      "Si vous connaissez déjà bien vos dépenses et souhaitez définir vous-même les catégories et les montants, la <strong>méthode des enveloppes</strong> peut être le meilleur choix.",
+      "Votre choix n’a pas besoin d’être définitif.",
+      "Vous pouvez commencer avec trois catégories et ajouter progressivement plus de détails."
+    ],
+    "exampleIntro": "Par exemple :",
+    "example": "<strong>50/30/20 → méthode des 6 jarres → votre propre système de catégories.</strong>",
+    "closingParagraphs": [
+      "Vous pouvez aussi aller dans l’autre sens et simplifier un budget trop détaillé en regroupant plusieurs catégories en quelques catégories plus larges.",
+      "Une bonne méthode budgétaire n’est pas celle qui paraît la plus correcte sur le papier, mais celle que vous pouvez utiliser régulièrement."
+    ]
+  },
+  "digitalOnly": {
+    "title": "Vous n’avez pas besoin d’enveloppes ou de jarres physiques pour répartir votre argent",
+    "paragraphs": [
+      "Les trois méthodes reposent sur le fait d’attribuer une destination à l’argent à l’avance. Mais vous n’avez pas besoin de le conserver physiquement séparé.",
+      "Vous pouvez continuer à utiliser un seul compte bancaire et suivre séparément la répartition interne.",
+      "Vous pouvez par exemple avoir 12 000 sur votre compte bancaire, tandis que votre budget répartit cette somme entre les dépenses courantes, l’épargne, les vacances, les loisirs et d’autres objectifs.",
+      "Votre banque indique <strong>combien d’argent vous avez au total</strong>.",
+      "Votre système budgétaire indique <strong>à quoi cet argent est destiné</strong>.",
+      "C’est pourquoi ces méthodes fonctionnent bien sous forme numérique : l’argent peut rester sur votre compte bancaire habituel tandis que sa répartition interne est suivie séparément."
+    ]
+  },
+  "inApp": {
+    "title": "Comment utiliser différentes méthodes budgétaires dans 6 Jars Finance",
+    "paragraphs": [
+      "Même si l’application s’appelle <strong>6 Jars Finance</strong>, elle ne se limite pas à la méthode classique des 6 jarres.",
+      "Lors du premier lancement, vous pouvez choisir le système budgétaire qui vous convient :"
+    ],
+    "items": [
+      "la règle 50/30/20 ;",
+      "la méthode classique des 6 jarres ;",
+      "votre propre système de catégories basé sur la méthode des enveloppes."
+    ],
+    "closingParagraphs": [
+      "Le système choisi devient votre point de départ et peut être adapté si nécessaire en modifiant les pourcentages, les noms des catégories ou leur nombre.",
+      "Lorsque vous recevez un revenu, l’application le répartit entre les catégories selon les proportions choisies. Après un achat, seul le solde de la catégorie correspondante diminue.",
+      "L’argent lui-même reste sur votre compte bancaire habituel. L’application ne se connecte pas à votre banque et ne transfère pas d’argent entre vos comptes.",
+      "Vous pouvez ainsi continuer à utiliser votre carte bancaire habituelle tout en voyant quelle partie de votre solde total est déjà destinée à certaines dépenses et à certains objectifs.",
+      "Vous pouvez modifier à tout moment le système choisi lors de la configuration afin qu’il corresponde mieux à vos dépenses et à vos objectifs réels."
+    ],
+    "cta": "Essayer 6 Jars Finance →"
+  }
+}
