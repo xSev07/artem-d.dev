@@ -68,6 +68,7 @@
   "apps": {
     "sixJarsFinance": {
       "privacy": {
+        "privacyPolicy": "Política de Privacidade do 6 Jars Finance",
         "lastUpdated": "03.07.2026",
         "metaDescription": "Política de Privacidade do app Artem D Apps.",
         "sections": {

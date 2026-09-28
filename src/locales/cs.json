@@ -68,6 +68,7 @@
   "apps": {
     "sixJarsFinance": {
       "privacy": {
+        "privacyPolicy": "Zásady ochrany osobních údajů 6 Jars Finance",
         "lastUpdated": "03.07.2026",
         "metaDescription": "Zásady ochrany osobních údajů aplikace Artem D Apps.",
         "sections": {
