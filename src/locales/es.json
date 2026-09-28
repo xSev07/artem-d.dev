@@ -15,7 +15,8 @@
       "reportSpendingsByTags": "Spendings by Tags Report",
       "reportTagDetails": "Tag Spending Details Report",
       "methodsComparison": "Comparar métodos de presupuesto",
-      "licenses": "Licencias de código abierto"
+      "licenses": "Licencias de código abierto",
+      "sitePrivacyPolicy": "Política de privacidad del sitio web"
     }
   },
   "article": {
@@ -60,6 +61,124 @@
             "versión de Android",
             "versión de la aplicación",
             "qué acción estabas realizando antes de que apareciera el error"
+          ]
+        }
+      }
+    },
+    "privacyPolicy": {
+      "lastUpdated": "28 de septiembre de 2026",
+      "metaDescription": "Política de privacidad de artem-d.dev",
+      "intro": "Esta Política de privacidad describe qué datos pueden procesarse al utilizar el sitio web artem-d.dev, con qué fines se utilizan y qué derechos pueden tener los visitantes del sitio.",
+      "sections": {
+        "controller": {
+          "title": "1. Quién es responsable del tratamiento de los datos",
+          "paragraphs": [
+            "El propietario y operador del sitio web artem-d.dev es Artem D.",
+            "Para cuestiones relacionadas con la privacidad y el tratamiento de datos personales, puede ponerse en contacto conmigo utilizando los datos de contacto indicados en el sitio web."
+          ]
+        },
+        "dataProcessed": {
+          "title": "2. Qué datos pueden tratarse",
+          "paragraphs": [
+            "El sitio web no requiere registro y actualmente no ofrece formularios para la recopilación directa de datos personales."
+          ],
+          "listIntro": "Al visitar el sitio web, algunos datos técnicos pueden tratarse automáticamente, entre ellos:",
+          "items": [
+            "dirección IP;",
+            "tipo y versión del navegador;",
+            "tipo de dispositivo y sistema operativo;",
+            "ubicación aproximada determinada a partir de la dirección IP;",
+            "páginas visitadas;",
+            "fuente desde la que llegó al sitio web;",
+            "fecha y hora de la visita;",
+            "datos sobre la interacción con el sitio web."
+          ],
+          "outro": "Estos datos pueden tratarse mediante servicios de analítica web."
+        },
+        "googleAnalytics": {
+          "title": "3. Google Analytics",
+          "paragraphs": [
+            "El sitio web utiliza Google Analytics, un servicio de analítica web proporcionado por Google.",
+            "Google Analytics se utiliza para analizar el tráfico del sitio web, las fuentes de tráfico y la forma en que los visitantes interactúan con sus páginas.",
+            "Para ello, Google Analytics puede utilizar cookies y tecnologías similares.",
+            "Los datos tratados pueden incluir información técnica sobre el dispositivo y el navegador, la dirección IP, información sobre las páginas visitadas, la fuente de tráfico y las interacciones con el sitio web.",
+            "El tratamiento de datos por parte de Google se realiza de conformidad con sus propios términos y su política de privacidad.",
+            "Cuando la legislación aplicable exige el consentimiento del usuario para el uso de tecnologías de analítica, Google Analytics se activa únicamente después de obtener dicho consentimiento."
+          ]
+        },
+        "cookies": {
+          "title": "4. Cookies y elección del usuario",
+          "paragraphs": [
+            "El sitio web puede utilizar cookies y tecnologías similares.",
+            "Las tecnologías necesarias para el funcionamiento del sitio web pueden utilizarse sin consentimiento adicional cuando así lo permita la legislación aplicable.",
+            "Las tecnologías opcionales, incluidas las cookies de analítica, se utilizan después de obtener el consentimiento del usuario cuando dicho consentimiento sea necesario.",
+            "La elección realizada por el usuario se guarda en el navegador.",
+            "El usuario puede cambiar en cualquier momento una elección realizada anteriormente. Para ello, puede utilizar el enlace «Restablecer la configuración de privacidad» situado en la parte inferior del sitio web. Después del restablecimiento, el sitio volverá a solicitar al usuario que elija respecto al uso de tecnologías opcionales."
+          ]
+        },
+        "purposes": {
+          "title": "5. Finalidades del tratamiento de datos",
+          "intro": "Los datos sobre el uso del sitio web pueden tratarse para las siguientes finalidades:",
+          "items": [
+            "analizar el tráfico del sitio web;",
+            "analizar las fuentes de tráfico;",
+            "comprender qué páginas y contenidos son los más solicitados;",
+            "analizar cómo interactúan los visitantes con el sitio web;",
+            "mejorar la estructura, el contenido y el funcionamiento del sitio web;",
+            "detectar problemas técnicos."
+          ],
+          "outro": "Los datos no se utilizan para tomar decisiones automatizadas que produzcan efectos jurídicos o efectos de importancia similar para el usuario."
+        },
+        "legalBasis": {
+          "title": "6. Bases jurídicas del tratamiento",
+          "intro": "Dependiendo de la naturaleza de los datos y de la legislación aplicable, el tratamiento puede realizarse:",
+          "items": [
+            "sobre la base del consentimiento del usuario;",
+            "para garantizar la seguridad y el funcionamiento técnico del sitio web;",
+            "sobre la base de un interés legítimo en mantener y mejorar el sitio web, cuando dicha base jurídica esté permitida por la legislación aplicable;",
+            "cuando el tratamiento sea necesario para cumplir requisitos legales."
+          ],
+          "outro": "Cuando el tratamiento se base en el consentimiento, el usuario puede retirarlo en cualquier momento."
+        },
+        "thirdParties": {
+          "title": "7. Comunicación de datos a terceros",
+          "paragraphs": [
+            "Los datos pueden comunicarse a proveedores de servicios técnicos utilizados para el funcionamiento del sitio web y para fines de analítica.",
+            "En particular, Google puede tratar datos en relación con el uso de Google Analytics.",
+            "Algunos proveedores de servicios pueden tratar datos fuera del país de residencia del usuario, incluso fuera del Espacio Económico Europeo.",
+            "En esos casos, el tratamiento y la transferencia de datos se realizan utilizando las garantías previstas por la legislación aplicable."
+          ]
+        },
+        "retention": {
+          "title": "8. Plazo de conservación de los datos",
+          "paragraphs": [
+            "Los datos a nivel de usuario y de evento recopilados mediante Google Analytics se conservan durante 14 meses de acuerdo con la configuración de Google Analytics.",
+            "Una vez finalizado el plazo de conservación correspondiente, los datos se eliminan o dejan de estar disponibles a nivel de usuarios y eventos individuales de acuerdo con las reglas de Google Analytics.",
+            "Algunos datos estadísticos agregados pueden conservarse durante más tiempo."
+          ]
+        },
+        "rights": {
+          "title": "9. Derechos de los usuarios",
+          "paragraphs": [
+            "Dependiendo de la legislación aplicable y de la naturaleza del tratamiento de datos personales, el usuario puede tener derecho a acceder, rectificar o eliminar sus datos, limitar el tratamiento, oponerse al tratamiento y retirar un consentimiento otorgado previamente.",
+            "Para ejercer estos derechos, el usuario puede ponerse en contacto conmigo utilizando los datos de contacto indicados en el sitio web. Cada solicitud se evalúa teniendo en cuenta la naturaleza de los datos tratados y los requisitos de la legislación aplicable.",
+            "Dado que el sitio web no requiere registro ni almacena perfiles de usuario, en algunos casos puede no ser posible vincular los datos de analítica con una persona concreta sin información adicional."
+          ]
+        },
+        "externalLinks": {
+          "title": "10. Enlaces a sitios web y servicios de terceros",
+          "paragraphs": [
+            "El sitio web puede contener enlaces a sitios web y servicios de terceros, por ejemplo, Google Play.",
+            "Al acceder a un recurso de terceros, el tratamiento de datos se rige por la política de privacidad y las condiciones del servicio correspondiente.",
+            "No controlo el tratamiento de datos realizado por sitios web de terceros después de que el usuario abandone este sitio web."
+          ]
+        },
+        "changes": {
+          "title": "11. Cambios en esta Política de privacidad",
+          "paragraphs": [
+            "Esta Política de privacidad puede actualizarse debido a cambios en la funcionalidad del sitio web, en los servicios utilizados o en los requisitos legales.",
+            "La versión vigente de la Política se publica siempre en esta página.",
+            "Si en el futuro el sitio web comienza a recopilar datos personales adicionales, como direcciones de correo electrónico, esta Política de privacidad se actualizará antes de que comience dicho tratamiento."
           ]
         }
       }

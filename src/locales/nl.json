@@ -15,7 +15,8 @@
       "reportSpendingsByTags": "Spendings by Tags Report",
       "reportTagDetails": "Tag Spending Details Report",
       "methodsComparison": "Budgetmethoden vergelijken",
-      "licenses": "Open-sourcelicenties"
+      "licenses": "Open-sourcelicenties",
+      "sitePrivacyPolicy": "Privacybeleid van de website"
     }
   },
   "article": {
@@ -60,6 +61,124 @@
             "Android-versie",
             "appversie",
             "welke handeling je uitvoerde voordat de fout optrad"
+          ]
+        }
+      }
+    },
+    "privacyPolicy": {
+      "lastUpdated": "28 september 2026",
+      "metaDescription": "Privacybeleid voor artem-d.dev",
+      "intro": "Dit Privacybeleid beschrijft welke gegevens kunnen worden verwerkt bij het gebruik van de website artem-d.dev, voor welke doeleinden deze worden gebruikt en welke rechten bezoekers van de website kunnen hebben.",
+      "sections": {
+        "controller": {
+          "title": "1. Wie verantwoordelijk is voor de gegevensverwerking",
+          "paragraphs": [
+            "De eigenaar en beheerder van de website artem-d.dev is Artem D.",
+            "Voor vragen over privacy en de verwerking van persoonsgegevens kunt u contact met mij opnemen via de contactgegevens die op de website zijn vermeld."
+          ]
+        },
+        "dataProcessed": {
+          "title": "2. Welke gegevens kunnen worden verwerkt",
+          "paragraphs": [
+            "De website vereist geen registratie en biedt momenteel geen formulieren voor het rechtstreeks verzamelen van persoonsgegevens."
+          ],
+          "listIntro": "Wanneer u de website bezoekt, kunnen bepaalde technische gegevens automatisch worden verwerkt, waaronder:",
+          "items": [
+            "IP-adres;",
+            "type en versie van de browser;",
+            "type apparaat en besturingssysteem;",
+            "globale locatie bepaald op basis van het IP-adres;",
+            "bezochte pagina's;",
+            "bron vanwaar u op de website bent terechtgekomen;",
+            "datum en tijd van het bezoek;",
+            "gegevens over interacties met de website."
+          ],
+          "outro": "Deze gegevens kunnen worden verwerkt met behulp van webanalysediensten."
+        },
+        "googleAnalytics": {
+          "title": "3. Google Analytics",
+          "paragraphs": [
+            "De website gebruikt Google Analytics, een webanalysedienst van Google.",
+            "Google Analytics wordt gebruikt om websiteverkeer, verkeersbronnen en de manier waarop bezoekers met de pagina's van de website omgaan te analyseren.",
+            "Voor dit doel kan Google Analytics cookies en vergelijkbare technologieën gebruiken.",
+            "De verwerkte gegevens kunnen technische informatie over het apparaat en de browser, het IP-adres, informatie over bezochte pagina's, de verkeersbron en interacties met de website omvatten.",
+            "De verwerking van gegevens door Google vindt plaats in overeenstemming met de eigen voorwaarden en het privacybeleid van Google.",
+            "Wanneer de toepasselijke wetgeving toestemming van de gebruiker vereist voor het gebruik van analysetechnologieën, wordt Google Analytics pas geactiveerd nadat deze toestemming is verkregen."
+          ]
+        },
+        "cookies": {
+          "title": "4. Cookies en keuzes van de gebruiker",
+          "paragraphs": [
+            "De website kan cookies en vergelijkbare technologieën gebruiken.",
+            "Technologieën die noodzakelijk zijn voor de werking van de website kunnen zonder aanvullende toestemming worden gebruikt wanneer dit volgens de toepasselijke wetgeving is toegestaan.",
+            "Optionele technologieën, waaronder analytische cookies, worden gebruikt nadat toestemming van de gebruiker is verkregen wanneer deze toestemming vereist is.",
+            "De keuze van de gebruiker wordt in de browser opgeslagen.",
+            "De gebruiker kan een eerder gemaakte keuze op elk moment wijzigen. Hiervoor kan de link “Privacy-instellingen resetten” onderaan de website worden gebruikt. Na het resetten zal de website de gebruiker opnieuw vragen een keuze te maken met betrekking tot het gebruik van optionele technologieën."
+          ]
+        },
+        "purposes": {
+          "title": "5. Doeleinden van gegevensverwerking",
+          "intro": "Gegevens over het gebruik van de website kunnen voor de volgende doeleinden worden verwerkt:",
+          "items": [
+            "het analyseren van websiteverkeer;",
+            "het analyseren van verkeersbronnen;",
+            "begrijpen welke pagina's en inhoud het meest worden bekeken;",
+            "het analyseren van de manier waarop bezoekers met de website omgaan;",
+            "het verbeteren van de structuur, inhoud en werking van de website;",
+            "het opsporen van technische problemen."
+          ],
+          "outro": "De gegevens worden niet gebruikt voor geautomatiseerde besluitvorming die juridische of vergelijkbaar aanzienlijke gevolgen voor de gebruiker heeft."
+        },
+        "legalBasis": {
+          "title": "6. Rechtsgronden voor verwerking",
+          "intro": "Afhankelijk van de aard van de gegevens en de toepasselijke wetgeving kan de verwerking plaatsvinden:",
+          "items": [
+            "op basis van toestemming van de gebruiker;",
+            "om de veiligheid en technische werking van de website te waarborgen;",
+            "op basis van een gerechtvaardigd belang bij het onderhouden en verbeteren van de website, wanneer deze rechtsgrond volgens de wet is toegestaan;",
+            "wanneer verwerking noodzakelijk is om aan wettelijke verplichtingen te voldoen."
+          ],
+          "outro": "Wanneer de verwerking is gebaseerd op toestemming, kan de gebruiker deze toestemming op elk moment intrekken."
+        },
+        "thirdParties": {
+          "title": "7. Delen van gegevens met derden",
+          "paragraphs": [
+            "Gegevens kunnen worden gedeeld met aanbieders van technische diensten die worden gebruikt voor de werking van de website en voor analytische doeleinden.",
+            "In het bijzonder kunnen gegevens door Google worden verwerkt in verband met het gebruik van Google Analytics.",
+            "Sommige dienstverleners kunnen gegevens verwerken buiten het land waar de gebruiker woont, waaronder buiten de Europese Economische Ruimte.",
+            "In dergelijke gevallen worden de verwerking en overdracht van gegevens uitgevoerd met behulp van beschermingsmechanismen die door de toepasselijke wetgeving worden voorgeschreven."
+          ]
+        },
+        "retention": {
+          "title": "8. Bewaartermijn van gegevens",
+          "paragraphs": [
+            "Gebruikers- en gebeurtenisgegevens die via Google Analytics worden verzameld, worden gedurende 14 maanden bewaard in overeenstemming met de instellingen van Google Analytics.",
+            "Na afloop van de betreffende bewaartermijn worden de gegevens verwijderd of zijn ze niet langer beschikbaar op het niveau van individuele gebruikers en gebeurtenissen, overeenkomstig de regels van Google Analytics.",
+            "Bepaalde geaggregeerde statistische gegevens kunnen langer worden bewaard."
+          ]
+        },
+        "rights": {
+          "title": "9. Rechten van gebruikers",
+          "paragraphs": [
+            "Afhankelijk van de toepasselijke wetgeving en de aard van de verwerking van persoonsgegevens kan de gebruiker het recht hebben op inzage in, correctie of verwijdering van zijn gegevens, beperking van de verwerking, bezwaar tegen de verwerking en intrekking van eerder gegeven toestemming.",
+            "Om deze rechten uit te oefenen, kan de gebruiker contact met mij opnemen via de contactgegevens die op de website zijn vermeld. Elk verzoek wordt beoordeeld met inachtneming van de aard van de verwerkte gegevens en de vereisten van de toepasselijke wetgeving.",
+            "Omdat de website geen registratie vereist en geen gebruikersprofielen opslaat, is het in sommige gevallen mogelijk niet mogelijk om analytische gegevens zonder aanvullende informatie aan een specifieke persoon te koppelen."
+          ]
+        },
+        "externalLinks": {
+          "title": "10. Links naar websites en diensten van derden",
+          "paragraphs": [
+            "De website kan links bevatten naar websites en diensten van derden, bijvoorbeeld Google Play.",
+            "Wanneer u een link naar een externe dienst volgt, wordt de gegevensverwerking beheerst door het privacybeleid en de voorwaarden van de betreffende dienst.",
+            "Ik heb geen controle over de gegevensverwerking door websites van derden nadat de gebruiker deze website heeft verlaten."
+          ]
+        },
+        "changes": {
+          "title": "11. Wijzigingen in dit Privacybeleid",
+          "paragraphs": [
+            "Dit Privacybeleid kan worden bijgewerkt als gevolg van wijzigingen in de functionaliteit van de website, de gebruikte diensten of wettelijke vereisten.",
+            "De actuele versie van het Privacybeleid wordt altijd op deze pagina gepubliceerd.",
+            "Als de website in de toekomst aanvullende persoonsgegevens gaat verzamelen, zoals e-mailadressen, zal dit Privacybeleid worden bijgewerkt voordat met die verwerking wordt begonnen."
           ]
         }
       }

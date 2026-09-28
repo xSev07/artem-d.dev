@@ -1,0 +1,101 @@
+---
+layout: base.njk
+pagination:
+  data: languages
+  size: 1
+  alias: lang
+permalink: "/{{ lang.code }}/privacy-policy/"
+showLangSwitch: true
+langSwitchPath: "/privacy-policy/"
+year: 2026
+eleventyComputed:
+  title: "{{ 'common.pages.sitePrivacyPolicy' | t(lang.code) }}"
+  description: "{{ 'site.privacyPolicy.metaDescription' | t(lang.code) }}"
+  lang: "{{ lang.code }}"
+---
+
+<div class="article-container">
+{% set p = "site.privacyPolicy" %}
+{% set s = p ~ ".sections" %}
+{% set introKey = p ~ ".intro" %}
+{% set intro = introKey | t(lang) %}
+{% if intro and intro != introKey %}
+
+<h1>{{ "common.pages.sitePrivacyPolicy" | t(lang) }}</h1>
+
+<p><strong>{{ "common.labels.lastUpdated" | t(lang) }}</strong> {{ (p ~ ".lastUpdated") | t(lang) }}</p>
+
+<p>{{ intro }}</p>
+
+<h2>{{ (s ~ ".controller.title") | t(lang) }}</h2>
+{% for paragraph in (s ~ ".controller.paragraphs") | t(lang) %}
+<p>{{ paragraph }}</p>
+{% endfor %}
+
+<h2>{{ (s ~ ".dataProcessed.title") | t(lang) }}</h2>
+{% for paragraph in (s ~ ".dataProcessed.paragraphs") | t(lang) %}
+<p>{{ paragraph }}</p>
+{% endfor %}
+<p>{{ (s ~ ".dataProcessed.listIntro") | t(lang) }}</p>
+<ul>
+  {% for item in (s ~ ".dataProcessed.items") | t(lang) %}
+  <li>{{ item }}</li>
+  {% endfor %}
+</ul>
+<p>{{ (s ~ ".dataProcessed.outro") | t(lang) }}</p>
+
+<h2>{{ (s ~ ".googleAnalytics.title") | t(lang) }}</h2>
+{% for paragraph in (s ~ ".googleAnalytics.paragraphs") | t(lang) %}
+<p>{{ paragraph }}</p>
+{% endfor %}
+
+<h2>{{ (s ~ ".cookies.title") | t(lang) }}</h2>
+{% for paragraph in (s ~ ".cookies.paragraphs") | t(lang) %}
+<p>{{ paragraph }}</p>
+{% endfor %}
+
+<h2>{{ (s ~ ".purposes.title") | t(lang) }}</h2>
+<p>{{ (s ~ ".purposes.intro") | t(lang) }}</p>
+<ul>
+  {% for item in (s ~ ".purposes.items") | t(lang) %}
+  <li>{{ item }}</li>
+  {% endfor %}
+</ul>
+<p>{{ (s ~ ".purposes.outro") | t(lang) }}</p>
+
+<h2>{{ (s ~ ".legalBasis.title") | t(lang) }}</h2>
+<p>{{ (s ~ ".legalBasis.intro") | t(lang) }}</p>
+<ul>
+  {% for item in (s ~ ".legalBasis.items") | t(lang) %}
+  <li>{{ item }}</li>
+  {% endfor %}
+</ul>
+<p>{{ (s ~ ".legalBasis.outro") | t(lang) }}</p>
+
+<h2>{{ (s ~ ".thirdParties.title") | t(lang) }}</h2>
+{% for paragraph in (s ~ ".thirdParties.paragraphs") | t(lang) %}
+<p>{{ paragraph }}</p>
+{% endfor %}
+
+<h2>{{ (s ~ ".retention.title") | t(lang) }}</h2>
+{% for paragraph in (s ~ ".retention.paragraphs") | t(lang) %}
+<p>{{ paragraph }}</p>
+{% endfor %}
+
+<h2>{{ (s ~ ".rights.title") | t(lang) }}</h2>
+{% for paragraph in (s ~ ".rights.paragraphs") | t(lang) %}
+<p>{{ paragraph }}</p>
+{% endfor %}
+
+<h2>{{ (s ~ ".externalLinks.title") | t(lang) }}</h2>
+{% for paragraph in (s ~ ".externalLinks.paragraphs") | t(lang) %}
+<p>{{ paragraph }}</p>
+{% endfor %}
+
+<h2>{{ (s ~ ".changes.title") | t(lang) }}</h2>
+{% for paragraph in (s ~ ".changes.paragraphs") | t(lang) %}
+<p>{{ paragraph }}</p>
+{% endfor %}
+
+{% endif %}
+</div>

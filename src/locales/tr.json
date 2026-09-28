@@ -15,7 +15,8 @@
       "reportSpendingsByTags": "Spendings by Tags Report",
       "reportTagDetails": "Tag Spending Details Report",
       "methodsComparison": "Bütçeleme Yöntemlerini Karşılaştır",
-      "licenses": "Açık Kaynak Lisansları"
+      "licenses": "Açık Kaynak Lisansları",
+      "sitePrivacyPolicy": "Web Sitesi Gizlilik Politikası"
     }
   },
   "article": {
@@ -63,7 +64,125 @@
           ]
         }
       }
+    },
+    "privacyPolicy": {
+  "lastUpdated": "28 Eylül 2026",
+  "metaDescription": "artem-d.dev için Gizlilik Politikası",
+  "intro": "Bu Gizlilik Politikası, artem-d.dev web sitesi kullanılırken hangi verilerin işlenebileceğini, bu verilerin hangi amaçlarla kullanıldığını ve site ziyaretçilerinin sahip olabileceği hakları açıklar.",
+  "sections": {
+    "controller": {
+      "title": "1. Veri işlemeden kim sorumludur",
+      "paragraphs": [
+        "artem-d.dev web sitesinin sahibi ve işletmecisi Artem D.'dir.",
+        "Gizlilik ve kişisel verilerin işlenmesiyle ilgili sorular için web sitesinde belirtilen iletişim bilgilerini kullanarak benimle iletişime geçebilirsiniz."
+      ]
+    },
+    "dataProcessed": {
+      "title": "2. Hangi veriler işlenebilir",
+      "paragraphs": [
+        "Web sitesi kayıt gerektirmez ve şu anda kişisel verilerin doğrudan toplanmasına yönelik formlar sunmamaktadır."
+      ],
+      "listIntro": "Web sitesini ziyaret ettiğinizde bazı teknik veriler otomatik olarak işlenebilir. Bunlar şunları içerebilir:",
+      "items": [
+        "IP adresi;",
+        "tarayıcı türü ve sürümü;",
+        "cihaz türü ve işletim sistemi;",
+        "IP adresine göre belirlenen yaklaşık konum;",
+        "ziyaret edilen sayfalar;",
+        "web sitesine hangi kaynaktan geldiğiniz;",
+        "ziyaret tarihi ve saati;",
+        "web sitesiyle etkileşimlere ilişkin veriler."
+      ],
+      "outro": "Bu veriler web analitiği hizmetleri kullanılarak işlenebilir."
+    },
+    "googleAnalytics": {
+      "title": "3. Google Analytics",
+      "paragraphs": [
+        "Web sitesi, Google tarafından sağlanan bir web analitiği hizmeti olan Google Analytics'i kullanır.",
+        "Google Analytics, web sitesi trafiğini, trafik kaynaklarını ve ziyaretçilerin site sayfalarıyla nasıl etkileşim kurduğunu analiz etmek için kullanılır.",
+        "Google Analytics bu amaçla çerezler ve benzer teknolojiler kullanabilir.",
+        "İşlenen veriler; cihaz ve tarayıcıyla ilgili teknik bilgileri, IP adresini, ziyaret edilen sayfalara ilişkin bilgileri, trafik kaynağını ve web sitesiyle etkileşimleri içerebilir.",
+        "Google tarafından gerçekleştirilen veri işleme, Google'ın kendi koşulları ve gizlilik politikası doğrultusunda yapılır.",
+        "Uygulanabilir mevzuatın analitik teknolojilerin kullanımı için kullanıcı onayı gerektirdiği durumlarda Google Analytics yalnızca bu onay alındıktan sonra etkinleştirilir."
+      ]
+    },
+    "cookies": {
+      "title": "4. Çerezler ve kullanıcı tercihleri",
+      "paragraphs": [
+        "Web sitesi çerezler ve benzer teknolojiler kullanabilir.",
+        "Web sitesinin çalışması için gerekli olan teknolojiler, uygulanabilir mevzuatın izin verdiği durumlarda ek onay alınmadan kullanılabilir.",
+        "Analitik çerezler dahil olmak üzere isteğe bağlı teknolojiler, gerekli olduğu durumlarda kullanıcı onayı alındıktan sonra kullanılır.",
+        "Kullanıcının yaptığı tercih tarayıcıda saklanır.",
+        "Kullanıcı daha önce yaptığı tercihi istediği zaman değiştirebilir. Bunun için web sitesinin alt kısmındaki “Gizlilik ayarlarını sıfırla” bağlantısı kullanılabilir. Sıfırlamanın ardından web sitesi, isteğe bağlı teknolojilerin kullanımıyla ilgili tercihi yeniden soracaktır."
+      ]
+    },
+    "purposes": {
+      "title": "5. Veri işlemenin amaçları",
+      "intro": "Web sitesinin kullanımına ilişkin veriler aşağıdaki amaçlarla işlenebilir:",
+      "items": [
+        "web sitesi trafiğini analiz etmek;",
+        "trafik kaynaklarını analiz etmek;",
+        "hangi sayfaların ve içeriklerin daha fazla ilgi gördüğünü anlamak;",
+        "ziyaretçilerin web sitesiyle nasıl etkileşim kurduğunu analiz etmek;",
+        "web sitesinin yapısını, içeriğini ve işleyişini geliştirmek;",
+        "teknik sorunları tespit etmek."
+      ],
+      "outro": "Veriler, kullanıcı açısından hukuki veya benzer şekilde önemli sonuçlar doğuran otomatik karar alma süreçlerinde kullanılmaz."
+    },
+    "legalBasis": {
+      "title": "6. Veri işlemenin hukuki dayanakları",
+      "intro": "Verilerin niteliğine ve uygulanabilir mevzuata bağlı olarak işleme şu temellere dayanabilir:",
+      "items": [
+        "kullanıcının onayı;",
+        "web sitesinin güvenliğini ve teknik olarak çalışmasını sağlamak;",
+        "mevzuatın izin verdiği durumlarda web sitesini sürdürme ve geliştirmeye yönelik meşru menfaat;",
+        "işlemenin yasal gerekliliklere uymak için gerekli olması."
+      ],
+      "outro": "İşleme onaya dayanıyorsa kullanıcı bu onayı istediği zaman geri çekebilir."
+    },
+    "thirdParties": {
+      "title": "7. Verilerin üçüncü taraflarla paylaşılması",
+      "paragraphs": [
+        "Veriler, web sitesinin çalışması ve analitik amaçlar için kullanılan teknik hizmet sağlayıcılarla paylaşılabilir.",
+        "Özellikle, Google Analytics kullanımı kapsamında veriler Google tarafından işlenebilir.",
+        "Bazı hizmet sağlayıcıları verileri kullanıcının ikamet ettiği ülkenin dışında, Avrupa Ekonomik Alanı dışındaki ülkeler dahil olmak üzere işleyebilir.",
+        "Bu durumlarda verilerin işlenmesi ve aktarılması, uygulanabilir mevzuatta öngörülen koruma mekanizmaları kullanılarak gerçekleştirilir."
+      ]
+    },
+    "retention": {
+      "title": "8. Veri saklama süresi",
+      "paragraphs": [
+        "Google Analytics aracılığıyla toplanan kullanıcı düzeyindeki ve etkinlik düzeyindeki veriler, Google Analytics ayarlarına uygun olarak 14 ay boyunca saklanır.",
+        "İlgili saklama süresi sona erdikten sonra veriler silinir veya Google Analytics kurallarına uygun olarak bireysel kullanıcı ve etkinlik düzeyinde artık erişilebilir olmaz.",
+        "Bazı toplu istatistiksel veriler daha uzun süre saklanabilir."
+      ]
+    },
+    "rights": {
+      "title": "9. Kullanıcı hakları",
+      "paragraphs": [
+        "Uygulanabilir mevzuata ve kişisel verilerin işlenme niteliğine bağlı olarak kullanıcı; verilerine erişme, verilerini düzeltme veya sildirme, işlemeyi kısıtlama, işlemeye itiraz etme ve daha önce verdiği onayı geri çekme hakkına sahip olabilir.",
+        "Bu hakları kullanmak için kullanıcı, web sitesinde belirtilen iletişim bilgilerini kullanarak benimle iletişime geçebilir. Her talep, işlenen verilerin niteliği ve uygulanabilir mevzuatın gereklilikleri dikkate alınarak değerlendirilir.",
+        "Web sitesi kayıt gerektirmediği ve kullanıcı profilleri saklamadığı için bazı durumlarda analitik verileri ek bilgi olmadan belirli bir kişiyle ilişkilendirmek mümkün olmayabilir."
+      ]
+    },
+    "externalLinks": {
+      "title": "10. Üçüncü taraf web sitelerine ve hizmetlere bağlantılar",
+      "paragraphs": [
+        "Web sitesi, örneğin Google Play gibi üçüncü taraf web sitelerine ve hizmetlere bağlantılar içerebilir.",
+        "Üçüncü taraf bir kaynağa geçildiğinde veri işleme, ilgili hizmetin gizlilik politikası ve kullanım koşullarına tabi olur.",
+        "Kullanıcı bu web sitesinden ayrıldıktan sonra üçüncü taraf web sitelerinin gerçekleştirdiği veri işlemeyi kontrol etmiyorum."
+      ]
+    },
+    "changes": {
+      "title": "11. Bu Gizlilik Politikasındaki değişiklikler",
+      "paragraphs": [
+        "Bu Gizlilik Politikası, web sitesinin işlevlerinde, kullanılan hizmetlerde veya yasal gerekliliklerde meydana gelen değişiklikler nedeniyle güncellenebilir.",
+        "Politikanın güncel sürümü her zaman bu sayfada yayımlanır.",
+        "Web sitesi gelecekte e-posta adresleri gibi ek kişisel veriler toplamaya başlarsa bu Gizlilik Politikası, söz konusu veri işleme başlamadan önce güncellenecektir."
+      ]
     }
+  }
+}
   },
   "apps": {
     "sixJarsFinance": {

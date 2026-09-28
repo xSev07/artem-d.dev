@@ -15,7 +15,8 @@
       "reportSpendingsByTags": "Spendings by Tags Report",
       "reportTagDetails": "Tag Spending Details Report",
       "methodsComparison": "Porovnat metody rozpočtování",
-      "licenses": "Licence open source softwaru"
+      "licenses": "Licence open source softwaru",
+      "sitePrivacyPolicy": "Zásady ochrany osobních údajů webu"
     }
   },
   "article": {
@@ -60,6 +61,124 @@
             "verzi systému Android",
             "verzi aplikace",
             "jakou činnost jste prováděli před vznikem chyby"
+          ]
+        }
+      }
+    },
+    "privacyPolicy": {
+      "lastUpdated": "28. září 2026",
+      "metaDescription": "Zásady ochrany osobních údajů webu artem-d.dev",
+      "intro": "Tyto Zásady ochrany osobních údajů popisují, jaké údaje mohou být zpracovávány při používání webu artem-d.dev, k jakým účelům jsou používány a jaká práva mohou mít návštěvníci webu.",
+      "sections": {
+        "controller": {
+          "title": "1. Kdo odpovídá za zpracování údajů",
+          "paragraphs": [
+            "Vlastníkem a provozovatelem webu artem-d.dev je Artem D.",
+            "V případě dotazů týkajících se ochrany soukromí a zpracování osobních údajů mě můžete kontaktovat prostřednictvím kontaktních údajů uvedených na webu."
+          ]
+        },
+        "dataProcessed": {
+          "title": "2. Jaké údaje mohou být zpracovávány",
+          "paragraphs": [
+            "Web nevyžaduje registraci a v současné době neposkytuje formuláře pro přímé shromažďování osobních údajů."
+          ],
+          "listIntro": "Při návštěvě webu mohou být automaticky zpracovávány některé technické údaje, včetně:",
+          "items": [
+            "IP adresy;",
+            "typu a verze prohlížeče;",
+            "typu zařízení a operačního systému;",
+            "přibližné polohy určené na základě IP adresy;",
+            "navštívených stránek;",
+            "zdroje, ze kterého jste na web přišli;",
+            "data a času návštěvy;",
+            "údajů o interakci s webem."
+          ],
+          "outro": "Tyto údaje mohou být zpracovávány pomocí služeb webové analytiky."
+        },
+        "googleAnalytics": {
+          "title": "3. Google Analytics",
+          "paragraphs": [
+            "Web používá Google Analytics, službu webové analytiky poskytovanou společností Google.",
+            "Google Analytics se používá k analýze návštěvnosti webu, zdrojů návštěvnosti a způsobu, jakým návštěvníci interagují s jednotlivými stránkami webu.",
+            "Za tímto účelem může Google Analytics používat soubory cookie a podobné technologie.",
+            "Zpracovávané údaje mohou zahrnovat technické informace o zařízení a prohlížeči, IP adresu, informace o navštívených stránkách, zdroji návštěvnosti a interakcích s webem.",
+            "Zpracování údajů společností Google probíhá v souladu s jejími vlastními podmínkami a zásadami ochrany osobních údajů.",
+            "V případech, kdy platné právní předpisy vyžadují souhlas uživatele s používáním analytických technologií, je Google Analytics aktivována až po získání takového souhlasu."
+          ]
+        },
+        "cookies": {
+          "title": "4. Soubory cookie a volba uživatele",
+          "paragraphs": [
+            "Web může používat soubory cookie a podobné technologie.",
+            "Technologie nezbytné pro fungování webu mohou být používány bez dalšího souhlasu v případech, kdy to umožňují platné právní předpisy.",
+            "Volitelné technologie, včetně analytických souborů cookie, jsou používány po získání souhlasu uživatele v případech, kdy je takový souhlas vyžadován.",
+            "Volba uživatele je uložena v prohlížeči.",
+            "Uživatel může svou dříve provedenou volbu kdykoli změnit. K tomu může použít odkaz „Obnovit nastavení soukromí“ ve spodní části webu. Po obnovení web uživatele znovu vyzve k volbě ohledně používání volitelných technologií."
+          ]
+        },
+        "purposes": {
+          "title": "5. Účely zpracování údajů",
+          "intro": "Údaje o používání webu mohou být zpracovávány pro následující účely:",
+          "items": [
+            "analýzu návštěvnosti webu;",
+            "analýzu zdrojů návštěvnosti;",
+            "zjištění, které stránky a materiály jsou nejžádanější;",
+            "analýzu způsobu, jakým návštěvníci interagují s webem;",
+            "zlepšování struktury, obsahu a fungování webu;",
+            "odhalování technických problémů."
+          ],
+          "outro": "Údaje nejsou používány k automatizovanému rozhodování, které by pro uživatele mělo právní nebo obdobně významné důsledky."
+        },
+        "legalBasis": {
+          "title": "6. Právní základy zpracování",
+          "intro": "V závislosti na povaze údajů a platných právních předpisech může být zpracování prováděno:",
+          "items": [
+            "na základě souhlasu uživatele;",
+            "za účelem zajištění bezpečnosti a technického fungování webu;",
+            "na základě oprávněného zájmu na údržbě a zlepšování webu, pokud je takový právní základ povolen právními předpisy;",
+            "v případech, kdy je zpracování nezbytné ke splnění zákonných požadavků."
+          ],
+          "outro": "Pokud je zpracování založeno na souhlasu, může uživatel tento souhlas kdykoli odvolat."
+        },
+        "thirdParties": {
+          "title": "7. Předávání údajů třetím stranám",
+          "paragraphs": [
+            "Údaje mohou být předávány poskytovatelům technických služeb používaných pro provoz webu a analytiku.",
+            "Údaje mohou být zejména zpracovávány společností Google v souvislosti s používáním Google Analytics.",
+            "Někteří poskytovatelé služeb mohou zpracovávat údaje mimo zemi bydliště uživatele, včetně zemí mimo Evropský hospodářský prostor.",
+            "V takových případech se zpracování a předávání údajů provádí s využitím ochranných mechanismů stanovených platnými právními předpisy."
+          ]
+        },
+        "retention": {
+          "title": "8. Doba uchovávání údajů",
+          "paragraphs": [
+            "Údaje na úrovni uživatelů a událostí shromažďované prostřednictvím Google Analytics jsou uchovávány po dobu 14 měsíců v souladu s nastavením Google Analytics.",
+            "Po uplynutí příslušné doby uchovávání jsou údaje odstraněny nebo již nejsou dostupné na úrovni jednotlivých uživatelů a událostí v souladu s pravidly Google Analytics.",
+            "Některé agregované statistické údaje mohou být uchovávány déle."
+          ]
+        },
+        "rights": {
+          "title": "9. Práva uživatelů",
+          "paragraphs": [
+            "V závislosti na platných právních předpisech a povaze zpracování osobních údajů může mít uživatel právo na přístup ke svým údajům, jejich opravu nebo výmaz, omezení zpracování, vznesení námitky proti zpracování a odvolání dříve uděleného souhlasu.",
+            "Za účelem uplatnění těchto práv mě může uživatel kontaktovat prostřednictvím kontaktních údajů uvedených na webu. Každá žádost je posuzována s ohledem na povahu zpracovávaných údajů a požadavky platných právních předpisů.",
+            "Protože web nevyžaduje registraci a neukládá uživatelské profily, nemusí být v některých případech možné propojit analytické údaje s konkrétní osobou bez dalších informací."
+          ]
+        },
+        "externalLinks": {
+          "title": "10. Odkazy na weby a služby třetích stran",
+          "paragraphs": [
+            "Web může obsahovat odkazy na weby a služby třetích stran, například Google Play.",
+            "Po přechodu na zdroj třetí strany se zpracování údajů řídí zásadami ochrany osobních údajů a podmínkami příslušné služby.",
+            "Po opuštění tohoto webu nekontroluji zpracování údajů prováděné weby třetích stran."
+          ]
+        },
+        "changes": {
+          "title": "11. Změny těchto Zásad ochrany osobních údajů",
+          "paragraphs": [
+            "Tyto Zásady ochrany osobních údajů mohou být aktualizovány v souvislosti se změnami funkcí webu, používaných služeb nebo právních požadavků.",
+            "Aktuální verze Zásad je vždy zveřejněna na této stránce.",
+            "Pokud web v budoucnu začne shromažďovat další osobní údaje, například e-mailové adresy, budou tyto Zásady ochrany osobních údajů aktualizovány před zahájením takového zpracování."
           ]
         }
       }

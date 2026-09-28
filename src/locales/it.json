@@ -15,7 +15,8 @@
       "reportSpendingsByTags": "Spendings by Tags Report",
       "reportTagDetails": "Tag Spending Details Report",
       "methodsComparison": "Confronta i metodi di gestione del budget",
-      "licenses": "Licenze open source"
+      "licenses": "Licenze open source",
+      "sitePrivacyPolicy": "Informativa sulla privacy del sito"
     }
   },
   "article": {
@@ -60,6 +61,124 @@
             "versione di Android",
             "versione dell’app",
             "quale azione stavi eseguendo prima che si verificasse l’errore"
+          ]
+        }
+      }
+    },
+    "privacyPolicy": {
+      "lastUpdated": "28 settembre 2026",
+      "metaDescription": "Informativa sulla privacy del sito artem-d.dev",
+      "intro": "La presente Informativa sulla privacy descrive quali dati possono essere trattati durante l’utilizzo del sito artem-d.dev, per quali finalità vengono utilizzati e quali diritti possono avere i visitatori del sito.",
+      "sections": {
+        "controller": {
+          "title": "1. Chi è responsabile del trattamento dei dati",
+          "paragraphs": [
+            "Il proprietario e gestore del sito artem-d.dev è Artem D.",
+            "Per domande relative alla privacy e al trattamento dei dati personali, è possibile contattarmi utilizzando i recapiti indicati sul sito."
+          ]
+        },
+        "dataProcessed": {
+          "title": "2. Quali dati possono essere trattati",
+          "paragraphs": [
+            "Il sito non richiede la registrazione e attualmente non mette a disposizione moduli per la raccolta diretta di dati personali."
+          ],
+          "listIntro": "Durante la visita del sito, alcuni dati tecnici possono essere trattati automaticamente, tra cui:",
+          "items": [
+            "indirizzo IP;",
+            "tipo e versione del browser;",
+            "tipo di dispositivo e sistema operativo;",
+            "posizione approssimativa determinata in base all’indirizzo IP;",
+            "pagine visitate;",
+            "fonte da cui si è arrivati al sito;",
+            "data e ora della visita;",
+            "dati relativi alle interazioni con il sito."
+          ],
+          "outro": "Questi dati possono essere trattati mediante servizi di analisi web."
+        },
+        "googleAnalytics": {
+          "title": "3. Google Analytics",
+          "paragraphs": [
+            "Il sito utilizza Google Analytics, un servizio di analisi web fornito da Google.",
+            "Google Analytics viene utilizzato per analizzare il traffico del sito, le fonti di traffico e il modo in cui i visitatori interagiscono con le sue pagine.",
+            "A tal fine, Google Analytics può utilizzare cookie e tecnologie simili.",
+            "I dati trattati possono includere informazioni tecniche sul dispositivo e sul browser, l’indirizzo IP, informazioni sulle pagine visitate, la fonte del traffico e le interazioni con il sito.",
+            "Il trattamento dei dati da parte di Google avviene in conformità con i propri termini e la propria informativa sulla privacy.",
+            "Nei casi in cui la normativa applicabile richieda il consenso dell’utente per l’utilizzo di tecnologie di analisi, Google Analytics viene attivato solo dopo aver ottenuto tale consenso."
+          ]
+        },
+        "cookies": {
+          "title": "4. Cookie e scelte dell’utente",
+          "paragraphs": [
+            "Il sito può utilizzare cookie e tecnologie simili.",
+            "Le tecnologie necessarie al funzionamento del sito possono essere utilizzate senza ulteriore consenso nei casi consentiti dalla normativa applicabile.",
+            "Le tecnologie facoltative, inclusi i cookie analitici, vengono utilizzate dopo aver ottenuto il consenso dell’utente nei casi in cui tale consenso sia richiesto.",
+            "La scelta effettuata dall’utente viene memorizzata nel browser.",
+            "L’utente può modificare in qualsiasi momento una scelta effettuata in precedenza. Per farlo, può utilizzare il link «Reimposta le impostazioni sulla privacy» nella parte inferiore del sito. Dopo il ripristino, il sito chiederà nuovamente all’utente di effettuare una scelta in merito all’utilizzo delle tecnologie facoltative."
+          ]
+        },
+        "purposes": {
+          "title": "5. Finalità del trattamento dei dati",
+          "intro": "I dati relativi all’utilizzo del sito possono essere trattati per le seguenti finalità:",
+          "items": [
+            "analizzare il traffico del sito;",
+            "analizzare le fonti di traffico;",
+            "comprendere quali pagine e contenuti sono maggiormente richiesti;",
+            "analizzare il modo in cui i visitatori interagiscono con il sito;",
+            "migliorare la struttura, i contenuti e il funzionamento del sito;",
+            "individuare problemi tecnici."
+          ],
+          "outro": "I dati non vengono utilizzati per decisioni automatizzate che producano effetti giuridici o effetti analogamente significativi per l’utente."
+        },
+        "legalBasis": {
+          "title": "6. Basi giuridiche del trattamento",
+          "intro": "A seconda della natura dei dati e della normativa applicabile, il trattamento può essere effettuato:",
+          "items": [
+            "sulla base del consenso dell’utente;",
+            "per garantire la sicurezza e il funzionamento tecnico del sito;",
+            "sulla base di un legittimo interesse alla manutenzione e al miglioramento del sito, ove tale base giuridica sia consentita dalla legge;",
+            "nei casi in cui il trattamento sia necessario per adempiere a obblighi di legge."
+          ],
+          "outro": "Quando il trattamento si basa sul consenso, l’utente può revocarlo in qualsiasi momento."
+        },
+        "thirdParties": {
+          "title": "7. Comunicazione dei dati a terzi",
+          "paragraphs": [
+            "I dati possono essere comunicati a fornitori di servizi tecnici utilizzati per il funzionamento del sito e per finalità di analisi.",
+            "In particolare, i dati possono essere trattati da Google in relazione all’utilizzo di Google Analytics.",
+            "Alcuni fornitori di servizi possono trattare i dati al di fuori del Paese di residenza dell’utente, compresi Paesi al di fuori dello Spazio economico europeo.",
+            "In tali casi, il trattamento e il trasferimento dei dati avvengono utilizzando le misure di protezione previste dalla normativa applicabile."
+          ]
+        },
+        "retention": {
+          "title": "8. Periodo di conservazione dei dati",
+          "paragraphs": [
+            "I dati a livello di utente e di evento raccolti tramite Google Analytics vengono conservati per 14 mesi, in conformità con le impostazioni di Google Analytics.",
+            "Al termine del relativo periodo di conservazione, i dati vengono eliminati o non sono più disponibili a livello di singolo utente e singolo evento, in conformità con le regole di Google Analytics.",
+            "Alcuni dati statistici aggregati possono essere conservati più a lungo."
+          ]
+        },
+        "rights": {
+          "title": "9. Diritti degli utenti",
+          "paragraphs": [
+            "A seconda della normativa applicabile e della natura del trattamento dei dati personali, l’utente può avere il diritto di accedere ai propri dati, rettificarli o cancellarli, limitare il trattamento, opporsi al trattamento e revocare un consenso precedentemente prestato.",
+            "Per esercitare tali diritti, l’utente può contattarmi utilizzando i recapiti indicati sul sito. Ogni richiesta viene valutata tenendo conto della natura dei dati trattati e dei requisiti della normativa applicabile.",
+            "Poiché il sito non richiede la registrazione e non memorizza profili utente, in alcuni casi potrebbe non essere possibile associare i dati analitici a una persona specifica senza informazioni aggiuntive."
+          ]
+        },
+        "externalLinks": {
+          "title": "10. Link a siti e servizi di terze parti",
+          "paragraphs": [
+            "Il sito può contenere link a siti e servizi di terze parti, ad esempio Google Play.",
+            "Quando si accede a una risorsa di terze parti, il trattamento dei dati è regolato dall’informativa sulla privacy e dai termini del relativo servizio.",
+            "Non controllo il trattamento dei dati effettuato da siti di terze parti dopo che l’utente ha lasciato questo sito."
+          ]
+        },
+        "changes": {
+          "title": "11. Modifiche alla presente Informativa sulla privacy",
+          "paragraphs": [
+            "La presente Informativa sulla privacy può essere aggiornata in seguito a modifiche delle funzionalità del sito, dei servizi utilizzati o dei requisiti di legge.",
+            "La versione aggiornata dell’Informativa è sempre pubblicata su questa pagina.",
+            "Se in futuro il sito inizierà a raccogliere ulteriori dati personali, ad esempio indirizzi e-mail, la presente Informativa sulla privacy verrà aggiornata prima dell’inizio di tale trattamento."
           ]
         }
       }

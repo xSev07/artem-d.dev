@@ -15,7 +15,8 @@
       "reportSpendingsByTags": "Spendings by Tags Report",
       "reportTagDetails": "Tag Spending Details Report",
       "methodsComparison": "Compară metodele de bugetare",
-      "licenses": "Licențe open source"
+      "licenses": "Licențe open source",
+      "sitePrivacyPolicy": "Politica de confidențialitate a site-ului"
     }
   },
   "article": {
@@ -63,7 +64,125 @@
           ]
         }
       }
+    },
+    "privacyPolicy": {
+  "lastUpdated": "28 septembrie 2026",
+  "metaDescription": "Politica de confidențialitate a site-ului artem-d.dev",
+  "intro": "Această Politică de confidențialitate descrie ce date pot fi prelucrate atunci când utilizați site-ul artem-d.dev, în ce scopuri sunt utilizate și ce drepturi pot avea vizitatorii site-ului.",
+  "sections": {
+    "controller": {
+      "title": "1. Cine este responsabil pentru prelucrarea datelor",
+      "paragraphs": [
+        "Proprietarul și operatorul site-ului artem-d.dev este Artem D.",
+        "Pentru întrebări legate de confidențialitate și prelucrarea datelor cu caracter personal, mă puteți contacta folosind datele de contact indicate pe site."
+      ]
+    },
+    "dataProcessed": {
+      "title": "2. Ce date pot fi prelucrate",
+      "paragraphs": [
+        "Site-ul nu necesită înregistrare și în prezent nu oferă formulare pentru colectarea directă a datelor cu caracter personal."
+      ],
+      "listIntro": "Atunci când vizitați site-ul, anumite date tehnice pot fi prelucrate automat, inclusiv:",
+      "items": [
+        "adresa IP;",
+        "tipul și versiunea browserului;",
+        "tipul dispozitivului și sistemul de operare;",
+        "locația aproximativă determinată pe baza adresei IP;",
+        "paginile vizitate;",
+        "sursa din care ați ajuns pe site;",
+        "data și ora vizitei;",
+        "date privind interacțiunile cu site-ul."
+      ],
+      "outro": "Aceste date pot fi prelucrate cu ajutorul serviciilor de analiză web."
+    },
+    "googleAnalytics": {
+      "title": "3. Google Analytics",
+      "paragraphs": [
+        "Site-ul utilizează Google Analytics, un serviciu de analiză web furnizat de Google.",
+        "Google Analytics este utilizat pentru a analiza traficul site-ului, sursele de trafic și modul în care vizitatorii interacționează cu paginile acestuia.",
+        "În acest scop, Google Analytics poate utiliza cookie-uri și tehnologii similare.",
+        "Datele prelucrate pot include informații tehnice despre dispozitiv și browser, adresa IP, informații despre paginile vizitate, sursa traficului și interacțiunile cu site-ul.",
+        "Prelucrarea datelor de către Google se desfășoară în conformitate cu propriile condiții și politica sa de confidențialitate.",
+        "În cazurile în care legislația aplicabilă impune consimțământul utilizatorului pentru utilizarea tehnologiilor de analiză, Google Analytics este activat numai după obținerea acestui consimțământ."
+      ]
+    },
+    "cookies": {
+      "title": "4. Cookie-uri și opțiunile utilizatorului",
+      "paragraphs": [
+        "Site-ul poate utiliza cookie-uri și tehnologii similare.",
+        "Tehnologiile necesare pentru funcționarea site-ului pot fi utilizate fără consimțământ suplimentar atunci când acest lucru este permis de legislația aplicabilă.",
+        "Tehnologiile opționale, inclusiv cookie-urile de analiză, sunt utilizate după obținerea consimțământului utilizatorului atunci când un astfel de consimțământ este necesar.",
+        "Opțiunea aleasă de utilizator este salvată în browser.",
+        "Utilizatorul poate modifica în orice moment o opțiune aleasă anterior. Pentru aceasta, poate utiliza linkul „Resetează setările de confidențialitate” din partea de jos a site-ului. După resetare, site-ul va solicita din nou utilizatorului să aleagă în privința utilizării tehnologiilor opționale."
+      ]
+    },
+    "purposes": {
+      "title": "5. Scopurile prelucrării datelor",
+      "intro": "Datele privind utilizarea site-ului pot fi prelucrate în următoarele scopuri:",
+      "items": [
+        "analizarea traficului site-ului;",
+        "analizarea surselor de trafic;",
+        "înțelegerea paginilor și materialelor care prezintă cel mai mare interes;",
+        "analizarea modului în care vizitatorii interacționează cu site-ul;",
+        "îmbunătățirea structurii, conținutului și funcționării site-ului;",
+        "identificarea problemelor tehnice."
+      ],
+      "outro": "Datele nu sunt utilizate pentru luarea unor decizii automatizate care produc efecte juridice sau efecte similare semnificative asupra utilizatorului."
+    },
+    "legalBasis": {
+      "title": "6. Temeiurile juridice ale prelucrării",
+      "intro": "În funcție de natura datelor și de legislația aplicabilă, prelucrarea poate fi efectuată:",
+      "items": [
+        "pe baza consimțământului utilizatorului;",
+        "pentru a asigura securitatea și funcționarea tehnică a site-ului;",
+        "pe baza unui interes legitim pentru întreținerea și îmbunătățirea site-ului, atunci când un astfel de temei juridic este permis de lege;",
+        "atunci când prelucrarea este necesară pentru respectarea cerințelor legale."
+      ],
+      "outro": "Atunci când prelucrarea se bazează pe consimțământ, utilizatorul își poate retrage consimțământul în orice moment."
+    },
+    "thirdParties": {
+      "title": "7. Transmiterea datelor către terți",
+      "paragraphs": [
+        "Datele pot fi transmise furnizorilor de servicii tehnice utilizați pentru funcționarea site-ului și pentru analiză.",
+        "În special, datele pot fi prelucrate de Google în legătură cu utilizarea Google Analytics.",
+        "Unii furnizori de servicii pot prelucra date în afara țării de reședință a utilizatorului, inclusiv în afara Spațiului Economic European.",
+        "În astfel de cazuri, prelucrarea și transferul datelor se realizează folosind mecanismele de protecție prevăzute de legislația aplicabilă."
+      ]
+    },
+    "retention": {
+      "title": "8. Perioada de păstrare a datelor",
+      "paragraphs": [
+        "Datele la nivel de utilizator și de eveniment colectate prin Google Analytics sunt păstrate timp de 14 luni, în conformitate cu setările Google Analytics.",
+        "După expirarea perioadei de păstrare aplicabile, datele sunt șterse sau nu mai sunt disponibile la nivelul utilizatorilor și evenimentelor individuale, în conformitate cu regulile Google Analytics.",
+        "Unele date statistice agregate pot fi păstrate pentru o perioadă mai lungă."
+      ]
+    },
+    "rights": {
+      "title": "9. Drepturile utilizatorilor",
+      "paragraphs": [
+        "În funcție de legislația aplicabilă și de natura prelucrării datelor cu caracter personal, utilizatorul poate avea dreptul de acces, rectificare sau ștergere a datelor sale, restricționarea prelucrării, opoziția față de prelucrare și retragerea consimțământului acordat anterior.",
+        "Pentru exercitarea acestor drepturi, utilizatorul mă poate contacta folosind datele de contact indicate pe site. Fiecare solicitare este analizată ținând cont de natura datelor prelucrate și de cerințele legislației aplicabile.",
+        "Deoarece site-ul nu necesită înregistrare și nu stochează profiluri de utilizator, în unele cazuri poate să nu fie posibilă asocierea datelor analitice cu o anumită persoană fără informații suplimentare."
+      ]
+    },
+    "externalLinks": {
+      "title": "10. Linkuri către site-uri și servicii terțe",
+      "paragraphs": [
+        "Site-ul poate conține linkuri către site-uri și servicii terțe, de exemplu Google Play.",
+        "Atunci când accesați o resursă terță, prelucrarea datelor este reglementată de politica de confidențialitate și condițiile serviciului respectiv.",
+        "Nu controlez prelucrarea datelor efectuată de site-uri terțe după ce utilizatorul părăsește acest site."
+      ]
+    },
+    "changes": {
+      "title": "11. Modificări ale acestei Politici de confidențialitate",
+      "paragraphs": [
+        "Această Politică de confidențialitate poate fi actualizată ca urmare a modificărilor funcționalității site-ului, serviciilor utilizate sau cerințelor legale.",
+        "Versiunea actuală a Politicii este întotdeauna publicată pe această pagină.",
+        "Dacă în viitor site-ul va începe să colecteze date cu caracter personal suplimentare, de exemplu adrese de e-mail, această Politică de confidențialitate va fi actualizată înainte de începerea unei astfel de prelucrări."
+      ]
     }
+  }
+}
   },
   "apps": {
     "sixJarsFinance": {
