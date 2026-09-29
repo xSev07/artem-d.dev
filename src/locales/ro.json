@@ -27,11 +27,12 @@
     "nav": {
       "label": "Navigarea pe site",
       "download": "Descarcă aplicația",
-      "guide": "Metoda celor șase fonduri"
+      "compareMethods": "Compară metodele"
     },
     "footer": {
       "label": "Informații despre site",
       "guides": "Ghiduri",
+      "guide": "Metoda celor șase fonduri",
       "information": "Informații",
       "resetPrivacySettings": "Resetează setările de confidențialitate"
     },

@@ -27,11 +27,12 @@
     "nav": {
       "label": "Site navigasyonu",
       "download": "Uygulamayı indir",
-      "guide": "Altı Kavanoz Yöntemi"
+      "compareMethods": "Yöntemleri karşılaştır"
     },
     "footer": {
       "label": "Site bilgileri",
       "guides": "Rehberler",
+      "guide": "Altı Kavanoz Yöntemi",
       "information": "Bilgi",
       "resetPrivacySettings": "Gizlilik ayarlarını sıfırla"
     },

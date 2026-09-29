@@ -27,11 +27,12 @@
     "nav": {
       "label": "Navigasi situs",
       "download": "Unduh aplikasi",
-      "guide": "Metode Enam Pos"
+      "compareMethods": "Bandingkan metode"
     },
     "footer": {
       "label": "Informasi situs",
       "guides": "Panduan",
+      "guide": "Metode Enam Pos",
       "information": "Informasi",
       "resetPrivacySettings": "Atur ulang pengaturan privasi"
     },

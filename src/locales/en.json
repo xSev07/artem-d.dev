@@ -27,11 +27,12 @@
     "nav": {
       "label": "Site navigation",
       "download": "Get the App",
-      "guide": "Six Jars Method"
+      "compareMethods": "Compare Methods"
     },
     "footer": {
       "label": "Site information",
       "guides": "Guides",
+      "guide": "Six Jars Method",
       "information": "Information",
       "resetPrivacySettings": "Reset privacy settings"
     },

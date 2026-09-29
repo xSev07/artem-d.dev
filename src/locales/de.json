@@ -27,11 +27,12 @@
     "nav": {
       "label": "Seitennavigation",
       "download": "App herunterladen",
-      "guide": "Sechs-Töpfe-Methode"
+      "compareMethods": "Methoden vergleichen"
     },
     "footer": {
       "label": "Informationen zur Website",
       "guides": "Anleitungen",
+      "guide": "Sechs-Töpfe-Methode",
       "information": "Informationen",
       "resetPrivacySettings": "Datenschutzeinstellungen zurücksetzen"
     },

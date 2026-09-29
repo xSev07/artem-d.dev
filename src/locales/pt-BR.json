@@ -27,11 +27,12 @@
     "nav": {
       "label": "Navegação do site",
       "download": "Baixar o app",
-      "guide": "Método das seis reservas"
+      "compareMethods": "Comparar métodos"
     },
     "footer": {
       "label": "Informações sobre o site",
       "guides": "Guias",
+      "guide": "Método das seis reservas",
       "information": "Informações",
       "resetPrivacySettings": "Redefinir configurações de privacidade"
     },
