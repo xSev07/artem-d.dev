@@ -27,11 +27,12 @@
     "nav": {
       "label": "Nawigacja strony",
       "download": "Pobierz aplikację",
-      "guide": "Metoda sześciu słoików"
+      "compareMethods": "Porównaj metody"
     },
     "footer": {
       "label": "Informacje o stronie",
       "guides": "Przewodniki",
+      "guide": "Metoda sześciu słoików",
       "information": "Informacje",
       "resetPrivacySettings": "Zresetuj ustawienia prywatności"
     },

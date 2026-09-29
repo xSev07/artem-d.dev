@@ -1,9 +1,9 @@
 {
-  "title": "6 Jars Finance — anggaran dengan metode enam pos",
-  "metaDescription": "Bagi gaji Anda untuk kebutuhan sehari-hari, tabungan, dan tujuan keuangan sebelum mulai membelanjakannya.",
+  "title": "6 Jars Finance — metode enam pos, 50/30/20, dan sistem amplop",
+  "metaDescription": "Bagi gaji Anda untuk kebutuhan sehari-hari, tabungan, dan tujuan keuangan sebelum mulai membelanjakannya. Gunakan metode enam pos, aturan 50/30/20, sistem amplop, atau skema Anda sendiri.",
   "hero": {
     "title": "Kendalikan pengeluaran hari ini dan hadapi masa depan dengan lebih tenang",
-    "lead": "6 Jars Finance membantu Anda membagi gaji sejak awal: mengetahui berapa banyak yang bisa digunakan untuk kafe dan hiburan, menyisihkan uang untuk liburan atau pembelian besar, serta secara bertahap membangun dana cadangan untuk pengeluaran tak terduga.",
+    "lead": "6 Jars Finance membantu Anda membagi gaji sejak awal: mengetahui berapa banyak yang bisa digunakan untuk kafe dan hiburan, menyisihkan uang untuk liburan atau pembelian besar, serta secara bertahap membangun dana cadangan untuk pengeluaran tak terduga. Anda dapat menggunakan metode enam pos, aturan 50/30/20, sistem amplop, atau membuat skema sendiri.",
     "screenshotAlt": "Layar utama 6 Jars Finance dengan enam pos dan saldonya"
   },
   "benefits": [
@@ -26,19 +26,23 @@
       "Nama saya Artem D. Saya bekerja secara profesional di bidang pengembangan perangkat lunak sejak 2017 dan membuat 6 Jars Finance.",
       "Saya telah menggunakan metode enam pos selama lebih dari 10 tahun. Berkat metode ini, saya tidak perlu terus memikirkan apakah saya mampu membeli permainan papan baru atau pergi ke kafe, apakah uang saya cukup untuk liburan, atau apakah saya dapat membayar sewa tepat waktu jika gaji terlambat.",
       "Selama bertahun-tahun, saya mencoba berbagai aplikasi yang menggunakan metode enam pos. Hal yang paling mengganggu saya adalah jumlah pos selalu dibatasi secara kaku menjadi enam. Tidak ada cara untuk menambahkan pos ketujuh atau menghapus pos yang tidak dibutuhkan.",
-      "Karena itu saya membuat 6 Jars Finance, tempat sistem pos dapat disesuaikan seiring perubahan keadaan hidup dan prioritas keuangan Anda. Saya sendiri menggunakan aplikasi ini secara rutin, jadi saya terus menambahkan fitur baru dan membuatnya lebih mudah digunakan."
+      "Karena itu saya membuat 6 Jars Finance, tempat sistem pos dapat disesuaikan seiring perubahan keadaan hidup dan prioritas keuangan Anda. Seiring waktu, aplikasi ini berkembang untuk mendukung bukan hanya metode enam pos, tetapi juga aturan 50/30/20, sistem amplop, dan skema pembagian uang yang dapat disesuaikan. Saya sendiri menggunakan aplikasi ini secara rutin, jadi saya terus menambahkan fitur baru dan membuatnya lebih mudah digunakan."
     ]
   },
   "faq": {
     "title": "Pertanyaan yang sering diajukan",
     "items": [
       {
-        "question": "Apakah saya harus mengikuti pembagian klasik enam pos secara ketat?",
-        "answer": "Tidak. Pembagian klasik adalah titik awal yang siap digunakan, bukan seperangkat aturan wajib."
+        "question": "Metode anggaran apa saja yang bisa saya gunakan?",
+        "answer": "Anda dapat menggunakan metode enam pos, aturan 50/30/20, sistem amplop, atau membuat skema pembagian uang sendiri."
+      },
+      {
+        "question": "Apakah saya harus mengikuti skema yang sudah tersedia secara ketat?",
+        "answer": "Tidak. Setiap skema yang sudah tersedia hanyalah titik awal, bukan seperangkat aturan wajib."
       },
       {
         "question": "Apakah aplikasi bisa disesuaikan dengan kebutuhan saya?",
-        "answer": "Ya. Anda dapat mengganti nama enam pos dasar, menghapus pos yang tidak diperlukan, dan memilih persentase yang berbeda. Jika perlu, Anda juga dapat membuat pos tambahan."
+        "answer": "Ya. Anda dapat mengganti nama pos dan kategori, menghapus yang tidak diperlukan, dan memilih persentase yang berbeda. Jika perlu, Anda juga dapat membuat yang baru."
       },
       {
         "question": "Apakah saya harus mencatat setiap pembelian secara terpisah?",
@@ -55,12 +59,12 @@
     ]
   },
   "guide": {
-    "title": "Ingin memahami metode ini lebih dalam?",
-    "text": "Jika Anda ragu apakah bisa menerapkan metode enam pos atau belum sepenuhnya memahami cara kerjanya, baca panduan lengkapnya. Di sana saya menjelaskan cara menggunakan metode ini dalam kehidupan nyata melalui contoh praktis dan berdasarkan pengalaman saya sendiri.",
-    "button": "Pelajari metode lebih lanjut"
+    "title": "Metode anggaran mana yang sebaiknya dipilih?",
+    "text": "Jika Anda belum yakin pendekatan mana yang paling sesuai, bandingkan metode enam pos, aturan 50/30/20, dan sistem amplop. Artikel ini menjelaskan perbedaan utama di antara ketiganya dan menunjukkan bagaimana masing-masing metode bekerja dalam praktik.",
+    "button": "Bandingkan metode"
   },
   "cta": {
-    "title": "Mulai gunakan metode enam pos",
+    "title": "Mulai bagi uang Anda dengan sistem yang sesuai untuk Anda",
     "text": "Gratis dan tanpa iklan"
   },
   "modal": {

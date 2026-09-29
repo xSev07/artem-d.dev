@@ -27,11 +27,12 @@
     "nav": {
       "label": "Sitenavigatie",
       "download": "App downloaden",
-      "guide": "Zes-pottenmethode"
+      "compareMethods": "Methoden vergelijken"
     },
     "footer": {
       "label": "Informatie over de site",
       "guides": "Handleidingen",
+      "guide": "Zes-pottenmethode",
       "information": "Informatie",
       "resetPrivacySettings": "Privacy-instellingen resetten"
     },

@@ -27,11 +27,12 @@
     "nav": {
       "label": "Navegación del sitio",
       "download": "Descargar la app",
-      "guide": "Método de los seis fondos"
+      "compareMethods": "Comparar métodos"
     },
     "footer": {
       "label": "Información del sitio",
       "guides": "Guías",
+      "guide": "Método de los seis fondos",
       "information": "Información",
       "resetPrivacySettings": "Restablecer la configuración de privacidad"
     },

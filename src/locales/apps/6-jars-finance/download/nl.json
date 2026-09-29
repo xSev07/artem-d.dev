@@ -1,9 +1,9 @@
 {
-  "title": "6 Jars Finance — budgetteren met de zes-pottenmethode",
-  "metaDescription": "Verdeel je salaris over dagelijkse uitgaven, spaargeld en financiële doelen voordat je begint met uitgeven.",
+  "title": "6 Jars Finance — zes potten, 50/30/20 en de enveloppenmethode",
+  "metaDescription": "Verdeel je salaris over dagelijkse uitgaven, spaargeld en financiële doelen voordat je begint met uitgeven. Gebruik de zes-pottenmethode, de 50/30/20-regel, de enveloppenmethode of je eigen systeem.",
   "hero": {
     "title": "Houd grip op je uitgaven van vandaag en heb meer zekerheid over morgen",
-    "lead": "6 Jars Finance helpt je om je salaris vooraf te verdelen: je ziet hoeveel je kunt uitgeven aan cafés en entertainment, zet geld opzij voor een vakantie of een grote aankoop en bouwt geleidelijk een reserve op voor onverwachte uitgaven.",
+    "lead": "6 Jars Finance helpt je om je salaris vooraf te verdelen: je ziet hoeveel je kunt uitgeven aan cafés en entertainment, zet geld opzij voor een vakantie of een grote aankoop en bouwt geleidelijk een reserve op voor onverwachte uitgaven. Je kunt de zes-pottenmethode, de 50/30/20-regel, de enveloppenmethode of je eigen systeem gebruiken.",
     "screenshotAlt": "Startscherm van 6 Jars Finance met zes potten en hun saldi"
   },
   "benefits": [
@@ -26,19 +26,23 @@
       "Mijn naam is Artem D. Ik werk sinds 2017 professioneel als softwareontwikkelaar en heb 6 Jars Finance gemaakt.",
       "Ik gebruik de zes-pottenmethode al meer dan 10 jaar. Daardoor hoef ik niet telkens na te denken of ik me een nieuw bordspel of een bezoek aan een café kan veroorloven, of ik genoeg geld heb voor een vakantie en of ik de huur op tijd kan betalen als mijn salaris vertraagd is.",
       "Door de jaren heen heb ik verschillende apps voor de zes-pottenmethode geprobeerd. Wat me het meest stoorde, was dat het aantal potten altijd strikt beperkt was tot zes. Je kon geen zevende pot toevoegen en ook geen overbodige pot verwijderen.",
-      "Daarom heb ik 6 Jars Finance gemaakt, waarin je het systeem van potten kunt aanpassen wanneer je levenssituatie en financiële prioriteiten veranderen. Ik gebruik de app zelf regelmatig, dus ik blijf nieuwe functies toevoegen en de app gebruiksvriendelijker maken."
+      "Daarom heb ik 6 Jars Finance gemaakt, waarin je het systeem van potten kunt aanpassen wanneer je levenssituatie en financiële prioriteiten veranderen. In de loop van de tijd is de app uitgebreid met ondersteuning voor niet alleen de zes-pottenmethode, maar ook de 50/30/20-regel, de enveloppenmethode en eigen verdeelsystemen. Ik gebruik de app zelf regelmatig, dus ik blijf nieuwe functies toevoegen en de app gebruiksvriendelijker maken."
     ]
   },
   "faq": {
     "title": "Veelgestelde vragen",
     "items": [
       {
-        "question": "Moet ik de klassieke verdeling over zes potten precies volgen?",
-        "answer": "Nee. De klassieke verdeling is een kant-en-klaar uitgangspunt, geen verplichte set regels."
+        "question": "Welke budgetmethoden kan ik gebruiken?",
+        "answer": "Je kunt de zes-pottenmethode, de 50/30/20-regel, de enveloppenmethode of je eigen verdeelsysteem gebruiken."
+      },
+      {
+        "question": "Moet ik een vooraf ingestelde verdeling precies volgen?",
+        "answer": "Nee. Elke vooraf ingestelde verdeling is een uitgangspunt, geen verplichte set regels."
       },
       {
         "question": "Kan ik de app aan mijn eigen situatie aanpassen?",
-        "answer": "Ja. Je kunt de zes standaardpotten hernoemen, potten verwijderen die je niet nodig hebt en andere percentages instellen. Indien nodig kun je ook extra potten maken."
+        "answer": "Ja. Je kunt potten en categorieën hernoemen, verwijderen wat je niet nodig hebt en andere percentages instellen. Indien nodig kun je ook extra potten of categorieën maken."
       },
       {
         "question": "Moet ik elke aankoop apart invoeren?",
@@ -55,12 +59,12 @@
     ]
   },
   "guide": {
-    "title": "Wil je de methode beter begrijpen?",
-    "text": "Als je niet zeker weet of de zes-pottenmethode voor jou werkt of nog niet helemaal begrijpt hoe ze werkt, lees dan de uitgebreide handleiding. Daarin leg ik aan de hand van praktische voorbeelden en mijn eigen ervaring uit hoe je de methode in het dagelijks leven kunt gebruiken.",
-    "button": "Meer over de methode"
+    "title": "Welke budgetmethode past het beste bij je?",
+    "text": "Als je niet zeker weet welke aanpak het beste bij je past, vergelijk dan de zes-pottenmethode, de 50/30/20-regel en de enveloppenmethode. In het artikel worden de belangrijkste verschillen uitgelegd en zie je hoe elke methode in de praktijk werkt.",
+    "button": "Methoden vergelijken"
   },
   "cta": {
-    "title": "Begin met de zes-pottenmethode",
+    "title": "Begin met het verdelen van je geld volgens een systeem dat bij je past",
     "text": "Gratis en zonder advertenties"
   },
   "modal": {

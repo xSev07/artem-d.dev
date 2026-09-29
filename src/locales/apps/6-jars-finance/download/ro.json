@@ -1,9 +1,9 @@
 {
-  "title": "6 Jars Finance — buget după metoda celor șase fonduri",
-  "metaDescription": "Împarte salariul între cheltuielile de zi cu zi, economii și obiective financiare înainte să începi să cheltuiești.",
+  "title": "6 Jars Finance — șase fonduri, regula 50/30/20 și metoda plicurilor",
+  "metaDescription": "Împarte salariul între cheltuielile de zi cu zi, economii și obiective financiare înainte să începi să cheltuiești. Folosește metoda celor șase fonduri, regula 50/30/20, metoda plicurilor sau propriul sistem.",
   "hero": {
     "title": "Ține sub control cheltuielile de azi și privește viitorul cu mai multă siguranță",
-    "lead": "6 Jars Finance te ajută să îți împarți salariul din timp: să știi cât poți cheltui la cafenele și pentru divertisment, să pui bani deoparte pentru o vacanță sau o achiziție importantă și să construiești treptat o rezervă pentru cheltuieli neprevăzute.",
+    "lead": "6 Jars Finance te ajută să îți împarți salariul din timp: să știi cât poți cheltui la cafenele și pentru divertisment, să pui bani deoparte pentru o vacanță sau o achiziție importantă și să construiești treptat o rezervă pentru cheltuieli neprevăzute. Poți folosi metoda celor șase fonduri, regula 50/30/20, metoda plicurilor sau îți poți crea propriul sistem.",
     "screenshotAlt": "Ecranul principal al aplicației 6 Jars Finance cu șase fonduri și soldurile lor"
   },
   "benefits": [
@@ -26,19 +26,23 @@
       "Mă numesc Artem D. Lucrez profesionist în dezvoltarea de software din 2017 și am creat 6 Jars Finance.",
       "Folosesc metoda celor șase fonduri de peste 10 ani. Datorită ei, nu trebuie să mă întreb de fiecare dată dacă îmi permit să cumpăr un joc de societate nou sau să merg la o cafenea, dacă voi avea suficienți bani pentru o vacanță sau dacă voi putea plăti chiria la timp în cazul în care salariul întârzie.",
       "De-a lungul anilor am încercat diferite aplicații bazate pe metoda celor șase fonduri. Cel mai mult mă deranja faptul că numărul fondurilor era întotdeauna limitat strict la șase. Nu puteai adăuga un al șaptelea fond și nici elimina unul de care nu aveai nevoie.",
-      "De aceea am creat 6 Jars Finance, unde sistemul de fonduri poate fi adaptat pe măsură ce se schimbă circumstanțele vieții și prioritățile financiare. Folosesc și eu aplicația în mod regulat, așa că continui să adaug funcții noi și să o fac mai ușor de folosit."
+      "De aceea am creat 6 Jars Finance, unde sistemul de fonduri poate fi adaptat pe măsură ce se schimbă circumstanțele vieții și prioritățile financiare. În timp, aplicația a ajuns să ofere suport nu doar pentru metoda celor șase fonduri, ci și pentru regula 50/30/20, metoda plicurilor și sisteme personalizate de împărțire a banilor. Folosesc și eu aplicația în mod regulat, așa că continui să adaug funcții noi și să o fac mai ușor de folosit."
     ]
   },
   "faq": {
     "title": "Întrebări frecvente",
     "items": [
       {
-        "question": "Trebuie să urmez strict împărțirea clasică în șase fonduri?",
-        "answer": "Nu. Schema clasică este un punct de plecare gata făcut, nu un set obligatoriu de reguli."
+        "question": "Ce metode de bugetare pot folosi?",
+        "answer": "Poți folosi metoda celor șase fonduri, regula 50/30/20, metoda plicurilor sau îți poți crea propriul sistem de împărțire a banilor."
+      },
+      {
+        "question": "Trebuie să urmez strict o schemă prestabilită?",
+        "answer": "Nu. Orice schemă prestabilită este un punct de plecare, nu un set obligatoriu de reguli."
       },
       {
         "question": "Pot adapta aplicația la nevoile mele?",
-        "answer": "Da. Poți redenumi cele șase fonduri de bază, le poți elimina pe cele de care nu ai nevoie și poți alege alte procente. Dacă este necesar, poți crea și fonduri suplimentare."
+        "answer": "Da. Poți redenumi fondurile și categoriile, le poți elimina pe cele de care nu ai nevoie și poți alege alte procente. Dacă este necesar, poți crea și altele."
       },
       {
         "question": "Trebuie să înregistrez fiecare cumpărătură separat?",
@@ -55,12 +59,12 @@
     ]
   },
   "guide": {
-    "title": "Vrei să înțelegi mai bine metoda?",
-    "text": "Dacă nu ești sigur că vei putea aplica metoda celor șase fonduri sau încă nu înțelegi pe deplin cum funcționează, citește ghidul detaliat. În el explic, prin exemple practice și pe baza propriei experiențe, cum poate fi folosită metoda în viața reală.",
-    "button": "Află mai multe despre metodă"
+    "title": "Ce metodă de bugetare să alegi?",
+    "text": "Dacă nu ești sigur ce abordare ți se potrivește cel mai bine, compară metoda celor șase fonduri, regula 50/30/20 și metoda plicurilor. Articolul explică principalele diferențe dintre ele și arată cum funcționează fiecare metodă în practică.",
+    "button": "Compară metodele"
   },
   "cta": {
-    "title": "Începe să folosești metoda celor șase fonduri",
+    "title": "Începe să îți împarți banii după un sistem potrivit pentru tine",
     "text": "Gratuit și fără reclame"
   },
   "modal": {

@@ -27,11 +27,12 @@
     "nav": {
       "label": "Navigazione del sito",
       "download": "Scarica l’app",
-      "guide": "Metodo dei sei fondi"
+      "compareMethods": "Confronta metodi"
     },
     "footer": {
       "label": "Informazioni sul sito",
       "guides": "Guide",
+      "guide": "Metodo dei sei fondi",
       "information": "Informazioni",
       "resetPrivacySettings": "Reimposta le impostazioni sulla privacy"
     },

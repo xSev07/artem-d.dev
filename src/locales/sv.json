@@ -27,11 +27,12 @@
     "nav": {
       "label": "Webbplatsnavigering",
       "download": "Ladda ner appen",
-      "guide": "Sex-pottarsmetoden"
+      "compareMethods": "Jämför metoder"
     },
     "footer": {
       "label": "Information om webbplatsen",
       "guides": "Guider",
+      "guide": "Sex-pottarsmetoden",
       "information": "Information",
       "resetPrivacySettings": "Återställ sekretessinställningar"
     },

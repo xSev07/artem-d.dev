@@ -1,9 +1,9 @@
 {
-  "title": "6 Jars Finance — orçamento com o método das seis reservas",
-  "metaDescription": "Divida seu salário entre despesas do dia a dia, economia e objetivos financeiros antes de começar a gastar.",
+  "title": "6 Jars Finance — seis reservas, regra 50/30/20 e método dos envelopes",
+  "metaDescription": "Divida seu salário entre despesas do dia a dia, economia e objetivos financeiros antes de começar a gastar. Use o método das seis reservas, a regra 50/30/20, o método dos envelopes ou seu próprio sistema.",
   "hero": {
     "title": "Mantenha o controle dos gastos de hoje e tenha mais tranquilidade em relação ao futuro",
-    "lead": "O 6 Jars Finance ajuda você a dividir seu salário com antecedência: saber quanto pode gastar com cafés e lazer, reservar dinheiro para uma viagem ou uma compra importante e criar aos poucos uma reserva para despesas imprevistas.",
+    "lead": "O 6 Jars Finance ajuda você a dividir seu salário com antecedência: saber quanto pode gastar com cafés e lazer, reservar dinheiro para uma viagem ou uma compra importante e criar aos poucos uma reserva para despesas imprevistas. Você pode usar o método das seis reservas, a regra 50/30/20, o método dos envelopes ou criar seu próprio sistema.",
     "screenshotAlt": "Tela inicial do 6 Jars Finance com seis reservas e seus saldos"
   },
   "benefits": [
@@ -26,19 +26,23 @@
       "Meu nome é Artem D. Trabalho profissionalmente com desenvolvimento de software desde 2017 e criei o 6 Jars Finance.",
       "Uso o método das seis reservas há mais de 10 anos. Graças a ele, não preciso ficar pensando toda vez se posso comprar um jogo de tabuleiro novo ou ir a um café, se vou ter dinheiro suficiente para uma viagem ou se conseguirei pagar o aluguel em dia caso meu salário atrase.",
       "Ao longo dos anos, experimentei diferentes aplicativos baseados no método das seis reservas. O que mais me incomodava era que a quantidade de reservas sempre ficava rigidamente limitada a seis. Não era possível adicionar uma sétima reserva nem excluir uma que eu não precisasse.",
-      "Por isso criei o 6 Jars Finance, onde você pode adaptar o sistema de reservas conforme suas circunstâncias de vida e prioridades financeiras mudam. Eu mesmo uso o aplicativo regularmente, por isso continuo adicionando novas funções e tornando-o mais fácil de usar."
+      "Por isso criei o 6 Jars Finance, onde você pode adaptar o sistema de reservas conforme suas circunstâncias de vida e prioridades financeiras mudam. Com o tempo, o aplicativo passou a oferecer suporte não só ao método das seis reservas, mas também à regra 50/30/20, ao método dos envelopes e a sistemas personalizados de distribuição do dinheiro. Eu mesmo uso o aplicativo regularmente, por isso continuo adicionando novas funções e tornando-o mais fácil de usar."
     ]
   },
   "faq": {
     "title": "Perguntas frequentes",
     "items": [
       {
-        "question": "Preciso seguir exatamente a divisão clássica entre seis reservas?",
-        "answer": "Não. A divisão clássica é um ponto de partida pronto, não um conjunto obrigatório de regras."
+        "question": "Quais métodos de orçamento posso usar?",
+        "answer": "Você pode usar o método das seis reservas, a regra 50/30/20, o método dos envelopes ou criar seu próprio sistema de distribuição do dinheiro."
+      },
+      {
+        "question": "Preciso seguir exatamente uma divisão pronta?",
+        "answer": "Não. Qualquer divisão pronta é apenas um ponto de partida, não um conjunto obrigatório de regras."
       },
       {
         "question": "Posso adaptar o aplicativo às minhas necessidades?",
-        "answer": "Sim. Você pode renomear as seis reservas básicas, excluir as que não precisa e escolher outros percentuais. Se necessário, também pode criar reservas adicionais."
+        "answer": "Sim. Você pode renomear reservas e categorias, excluir as que não precisa e escolher outros percentuais. Se necessário, também pode criar novas."
       },
       {
         "question": "Preciso registrar cada compra separadamente?",
@@ -55,12 +59,12 @@
     ]
   },
   "guide": {
-    "title": "Quer entender melhor o método?",
-    "text": "Se você não tem certeza se conseguirá aplicar o método das seis reservas ou ainda não entende completamente como ele funciona, leia o guia detalhado. Nele, explico com exemplos práticos e com base na minha própria experiência como usar o método na vida real.",
-    "button": "Saiba mais sobre o método"
+    "title": "Qual método de orçamento escolher?",
+    "text": "Se você não tem certeza de qual abordagem combina mais com você, compare o método das seis reservas, a regra 50/30/20 e o método dos envelopes. O artigo explica as principais diferenças entre eles e mostra como cada método funciona na prática.",
+    "button": "Comparar métodos"
   },
   "cta": {
-    "title": "Comece a usar o método das seis reservas",
+    "title": "Comece a distribuir seu dinheiro com um sistema que funcione para você",
     "text": "Grátis e sem anúncios"
   },
   "modal": {

@@ -27,11 +27,12 @@
     "nav": {
       "label": "Navigation du site",
       "download": "Télécharger l’application",
-      "guide": "Méthode des six enveloppes"
+      "compareMethods": "Comparer les méthodes"
     },
     "footer": {
       "label": "Informations sur le site",
       "guides": "Guides",
+      "guide": "Méthode des six enveloppes",
       "information": "Informations",
       "resetPrivacySettings": "Réinitialiser les paramètres de confidentialité"
     },

@@ -27,11 +27,12 @@
     "nav": {
       "label": "Navigace webu",
       "download": "Stáhnout aplikaci",
-      "guide": "Metoda šesti fondů"
+      "compareMethods": "Porovnat metody"
     },
     "footer": {
       "label": "Informace o webu",
       "guides": "Průvodce",
+      "guide": "Metoda šesti fondů",
       "information": "Informace",
       "resetPrivacySettings": "Obnovit nastavení soukromí"
     },
