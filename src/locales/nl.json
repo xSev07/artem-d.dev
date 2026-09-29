@@ -32,7 +32,15 @@
     "footer": {
       "label": "Informatie over de site",
       "guides": "Handleidingen",
-      "information": "Informatie"
+      "information": "Informatie",
+      "resetPrivacySettings": "Privacy-instellingen resetten"
+    },
+    "consent": {
+      "title": "Wij respecteren uw privacy",
+      "description": "We gebruiken cookies en vergelijkbare technologieën om het websiteverkeer te analyseren. U kunt analytische cookies toestaan of zonder deze doorgaan. Lees meer in ons",
+      "privacyPolicyLink": "privacybeleid",
+      "acceptAll": "Analytische cookies toestaan",
+      "necessaryOnly": "Doorgaan zonder cookies"
     },
     "help": {
       "metaDescription": "Informatie over een fout bij het uitvoeren van een bewerking in de A.D.A-app.",

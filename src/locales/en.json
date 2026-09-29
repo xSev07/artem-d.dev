@@ -32,7 +32,15 @@
     "footer": {
       "label": "Site information",
       "guides": "Guides",
-      "information": "Information"
+      "information": "Information",
+      "resetPrivacySettings": "Reset privacy settings"
+    },
+    "consent": {
+      "title": "We value your privacy",
+      "description": "We use cookies and similar technologies to analyze website traffic. You can allow analytics cookies or continue without them. Learn more in our",
+      "privacyPolicyLink": "privacy policy",
+      "acceptAll": "Allow analytics cookies",
+      "necessaryOnly": "Continue without them"
     },
     "help": {
       "metaDescription": "Information about an operation error in the A.D.A app.",

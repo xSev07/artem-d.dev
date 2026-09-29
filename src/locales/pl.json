@@ -32,7 +32,15 @@
     "footer": {
       "label": "Informacje o stronie",
       "guides": "Przewodniki",
-      "information": "Informacje"
+      "information": "Informacje",
+      "resetPrivacySettings": "Zresetuj ustawienia prywatności"
+    },
+    "consent": {
+      "title": "Cenimy Twoją prywatność",
+      "description": "Używamy plików cookie i podobnych technologii do analizowania ruchu w witrynie. Możesz zezwolić na analityczne pliki cookie lub kontynuować bez nich. Więcej informacji znajdziesz w naszej",
+      "privacyPolicyLink": "polityce prywatności",
+      "acceptAll": "Zezwól na analityczne pliki cookie",
+      "necessaryOnly": "Kontynuuj bez nich"
     },
     "help": {
       "metaDescription": "Informacje o błędzie podczas wykonywania operacji w aplikacji A.D.A.",

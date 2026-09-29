@@ -32,7 +32,15 @@
     "footer": {
       "label": "Site bilgileri",
       "guides": "Rehberler",
-      "information": "Bilgi"
+      "information": "Bilgi",
+      "resetPrivacySettings": "Gizlilik ayarlarını sıfırla"
+    },
+    "consent": {
+      "title": "Gizliliğinize önem veriyoruz",
+      "description": "Site trafiğini analiz etmek için çerezler ve benzer teknolojiler kullanıyoruz. Analitik çerezlere izin verebilir veya bunlar olmadan devam edebilirsiniz. Daha fazla bilgi için",
+      "privacyPolicyLink": "gizlilik politikamızı",
+      "acceptAll": "Analitik çerezlere izin ver",
+      "necessaryOnly": "Bunlar olmadan devam et"
     },
     "help": {
       "metaDescription": "A.D.A uygulamasında bir işlem yürütülürken oluşan hata hakkında bilgi.",

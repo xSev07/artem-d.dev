@@ -32,7 +32,15 @@
     "footer": {
       "label": "Informasi situs",
       "guides": "Panduan",
-      "information": "Informasi"
+      "information": "Informasi",
+      "resetPrivacySettings": "Atur ulang pengaturan privasi"
+    },
+    "consent": {
+      "title": "Kami menghargai privasi Anda",
+      "description": "Kami menggunakan cookie dan teknologi serupa untuk menganalisis lalu lintas situs. Anda dapat mengizinkan cookie analitik atau melanjutkan tanpa cookie tersebut. Pelajari lebih lanjut dalam",
+      "privacyPolicyLink": "kebijakan privasi kami",
+      "acceptAll": "Izinkan cookie analitik",
+      "necessaryOnly": "Lanjutkan tanpa cookie tersebut"
     },
     "help": {
       "metaDescription": "Informasi tentang kesalahan saat menjalankan operasi di aplikasi A.D.A.",

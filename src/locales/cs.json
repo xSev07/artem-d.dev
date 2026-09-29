@@ -32,7 +32,15 @@
     "footer": {
       "label": "Informace o webu",
       "guides": "Průvodce",
-      "information": "Informace"
+      "information": "Informace",
+      "resetPrivacySettings": "Obnovit nastavení soukromí"
+    },
+    "consent": {
+      "title": "Vážíme si vašeho soukromí",
+      "description": "Používáme soubory cookie a podobné technologie k analýze návštěvnosti webu. Můžete povolit analytické soubory cookie nebo pokračovat bez nich. Více informací najdete v našich",
+      "privacyPolicyLink": "zásadách ochrany osobních údajů",
+      "acceptAll": "Povolit analytické soubory cookie",
+      "necessaryOnly": "Pokračovat bez nich"
     },
     "help": {
       "metaDescription": "Informace o chybě při provádění operace v aplikaci A.D.A.",

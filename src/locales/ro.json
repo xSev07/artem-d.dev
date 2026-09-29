@@ -32,7 +32,15 @@
     "footer": {
       "label": "Informații despre site",
       "guides": "Ghiduri",
-      "information": "Informații"
+      "information": "Informații",
+      "resetPrivacySettings": "Resetează setările de confidențialitate"
+    },
+    "consent": {
+      "title": "Respectăm confidențialitatea ta",
+      "description": "Folosim cookie-uri și tehnologii similare pentru a analiza traficul site-ului. Poți permite cookie-urile analitice sau poți continua fără ele. Află mai multe în",
+      "privacyPolicyLink": "politica noastră de confidențialitate",
+      "acceptAll": "Permite cookie-urile analitice",
+      "necessaryOnly": "Continuă fără ele"
     },
     "help": {
       "metaDescription": "Informații despre o eroare la efectuarea unei operațiuni în aplicația A.D.A.",
