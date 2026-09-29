@@ -1,0 +1,28 @@
+<div
+  class="consent-banner"
+  data-consent-banner
+  role="dialog"
+  aria-modal="true"
+  aria-labelledby="consent-banner-title"
+  aria-describedby="consent-banner-description"
+  aria-hidden="true"
+  hidden
+>
+  <div class="consent-banner__inner container">
+    <div class="consent-banner__content">
+      <h2 class="consent-banner__title" id="consent-banner-title">{{ "site.consent.title" | t(lang) }}</h2>
+      <p class="consent-banner__description" id="consent-banner-description">
+        {{ "site.consent.description" | t(lang) }}
+        <a class="consent-banner__link" href="/{{ lang }}/privacy-policy/">{{ "site.consent.privacyPolicyLink" | t(lang) }}</a>
+      </p>
+    </div>
+    <div class="consent-banner__actions">
+      <button type="button" class="button-secondary consent-banner__button" data-consent-necessary-only>
+        {{ "site.consent.necessaryOnly" | t(lang) }}
+      </button>
+      <button type="button" class="button-primary consent-banner__button" data-consent-accept-all>
+        {{ "site.consent.acceptAll" | t(lang) }}
+      </button>
+    </div>
+  </div>
+</div>

@@ -15,7 +15,8 @@
       "reportSpendingsByTags": "Spendings by Tags Report",
       "reportTagDetails": "Tag Spending Details Report",
       "methodsComparison": "Comparer les méthodes budgétaires",
-      "licenses": "Licences open source"
+      "licenses": "Licences open source",
+      "sitePrivacyPolicy": "Politique de confidentialité du site"
     }
   },
   "article": {
@@ -31,7 +32,15 @@
     "footer": {
       "label": "Informations sur le site",
       "guides": "Guides",
-      "information": "Informations"
+      "information": "Informations",
+      "resetPrivacySettings": "Réinitialiser les paramètres de confidentialité"
+    },
+    "consent": {
+      "title": "Nous respectons votre vie privée",
+      "description": "Nous utilisons des cookies et des technologies similaires pour analyser la fréquentation du site. Vous pouvez autoriser les cookies analytiques ou continuer sans eux. Pour en savoir plus, consultez notre",
+      "privacyPolicyLink": "politique de confidentialité",
+      "acceptAll": "Autoriser les cookies analytiques",
+      "necessaryOnly": "Continuer sans eux"
     },
     "help": {
       "metaDescription": "Informations sur une erreur lors de l’exécution d’une opération dans l’application A.D.A.",
@@ -63,11 +72,130 @@
           ]
         }
       }
+    },
+    "privacyPolicy": {
+      "lastUpdated": "28 septembre 2026",
+      "metaDescription": "Politique de confidentialité du site artem-d.dev",
+      "intro": "La présente Politique de confidentialité décrit les données qui peuvent être traitées lors de l’utilisation du site artem-d.dev, les finalités pour lesquelles elles sont utilisées et les droits dont peuvent disposer les visiteurs du site.",
+      "sections": {
+        "controller": {
+          "title": "1. Responsable du traitement des données",
+          "paragraphs": [
+            "Le propriétaire et exploitant du site artem-d.dev est Artem D.",
+            "Pour toute question relative à la confidentialité et au traitement des données personnelles, vous pouvez me contacter à l’aide des coordonnées indiquées sur le site."
+          ]
+        },
+        "dataProcessed": {
+          "title": "2. Données pouvant être traitées",
+          "paragraphs": [
+            "Le site ne nécessite aucune inscription et ne propose actuellement aucun formulaire permettant de collecter directement des données personnelles."
+          ],
+          "listIntro": "Lors de la visite du site, certaines données techniques peuvent être traitées automatiquement, notamment :",
+          "items": [
+            "l’adresse IP ;",
+            "le type et la version du navigateur ;",
+            "le type d’appareil et le système d’exploitation ;",
+            "la localisation approximative déterminée à partir de l’adresse IP ;",
+            "les pages consultées ;",
+            "la source depuis laquelle vous êtes arrivé sur le site ;",
+            "la date et l’heure de la visite ;",
+            "les données relatives aux interactions avec le site."
+          ],
+          "outro": "Ces données peuvent être traitées à l’aide de services d’analyse web."
+        },
+        "googleAnalytics": {
+          "title": "3. Google Analytics",
+          "paragraphs": [
+            "Le site utilise Google Analytics, un service d’analyse web fourni par Google.",
+            "Google Analytics est utilisé pour analyser le trafic du site, les sources de trafic et la manière dont les visiteurs interagissent avec ses pages.",
+            "À cette fin, Google Analytics peut utiliser des cookies et des technologies similaires.",
+            "Les données traitées peuvent inclure des informations techniques sur l’appareil et le navigateur, l’adresse IP, des informations sur les pages consultées, la source du trafic et les interactions avec le site.",
+            "Le traitement des données par Google est effectué conformément à ses propres conditions et à sa politique de confidentialité.",
+            "Lorsque la législation applicable exige le consentement de l’utilisateur pour l’utilisation de technologies d’analyse, Google Analytics n’est activé qu’après l’obtention de ce consentement."
+          ]
+        },
+        "cookies": {
+          "title": "4. Cookies et choix de l’utilisateur",
+          "paragraphs": [
+            "Le site peut utiliser des cookies et des technologies similaires.",
+            "Les technologies nécessaires au fonctionnement du site peuvent être utilisées sans consentement supplémentaire lorsque la législation applicable le permet.",
+            "Les technologies facultatives, notamment les cookies d’analyse, sont utilisées après obtention du consentement de l’utilisateur lorsque ce consentement est requis.",
+            "Le choix effectué par l’utilisateur est enregistré dans le navigateur.",
+            "L’utilisateur peut modifier à tout moment un choix effectué précédemment. Pour cela, il peut utiliser le lien « Réinitialiser les paramètres de confidentialité » situé en bas du site. Après la réinitialisation, le site demandera à nouveau à l’utilisateur de faire un choix concernant l’utilisation des technologies facultatives."
+          ]
+        },
+        "purposes": {
+          "title": "5. Finalités du traitement des données",
+          "intro": "Les données relatives à l’utilisation du site peuvent être traitées aux fins suivantes :",
+          "items": [
+            "analyser le trafic du site ;",
+            "analyser les sources de trafic ;",
+            "comprendre quelles pages et quels contenus sont les plus consultés ;",
+            "analyser la manière dont les visiteurs interagissent avec le site ;",
+            "améliorer la structure, le contenu et le fonctionnement du site ;",
+            "identifier les problèmes techniques."
+          ],
+          "outro": "Les données ne sont pas utilisées pour prendre des décisions automatisées produisant des effets juridiques ou des effets d’importance similaire pour l’utilisateur."
+        },
+        "legalBasis": {
+          "title": "6. Bases juridiques du traitement",
+          "intro": "Selon la nature des données et la législation applicable, le traitement peut être effectué :",
+          "items": [
+            "sur la base du consentement de l’utilisateur ;",
+            "afin d’assurer la sécurité et le bon fonctionnement technique du site ;",
+            "sur la base d’un intérêt légitime à maintenir et améliorer le site, lorsque cette base juridique est autorisée par la législation ;",
+            "lorsque le traitement est nécessaire au respect d’obligations légales."
+          ],
+          "outro": "Lorsque le traitement repose sur le consentement, l’utilisateur peut retirer ce consentement à tout moment."
+        },
+        "thirdParties": {
+          "title": "7. Transmission des données à des tiers",
+          "paragraphs": [
+            "Les données peuvent être transmises à des prestataires de services techniques utilisés pour le fonctionnement du site et à des fins d’analyse.",
+            "En particulier, certaines données peuvent être traitées par Google dans le cadre de l’utilisation de Google Analytics.",
+            "Certains prestataires de services peuvent traiter les données en dehors du pays de résidence de l’utilisateur, y compris en dehors de l’Espace économique européen.",
+            "Dans ce cas, le traitement et le transfert des données sont effectués à l’aide des mécanismes de protection prévus par la législation applicable."
+          ]
+        },
+        "retention": {
+          "title": "8. Durée de conservation des données",
+          "paragraphs": [
+            "Les données au niveau des utilisateurs et des événements collectées à l’aide de Google Analytics sont conservées pendant 14 mois conformément aux paramètres de Google Analytics.",
+            "À l’expiration de la durée de conservation applicable, les données sont supprimées ou ne sont plus disponibles au niveau des utilisateurs et événements individuels, conformément aux règles de Google Analytics.",
+            "Certaines données statistiques agrégées peuvent être conservées plus longtemps."
+          ]
+        },
+        "rights": {
+          "title": "9. Droits des utilisateurs",
+          "paragraphs": [
+            "Selon la législation applicable et la nature du traitement des données personnelles, l’utilisateur peut disposer du droit d’accéder à ses données, de les rectifier ou de les supprimer, de limiter le traitement, de s’opposer au traitement et de retirer un consentement précédemment donné.",
+            "Pour exercer ces droits, l’utilisateur peut me contacter à l’aide des coordonnées indiquées sur le site. Chaque demande est examinée en tenant compte de la nature des données traitées et des exigences de la législation applicable.",
+            "Étant donné que le site ne nécessite pas d’inscription et ne conserve pas de profils utilisateur, il peut dans certains cas être impossible d’associer les données d’analyse à une personne précise sans informations supplémentaires."
+          ]
+        },
+        "externalLinks": {
+          "title": "10. Liens vers des sites et services tiers",
+          "paragraphs": [
+            "Le site peut contenir des liens vers des sites et services tiers, par exemple Google Play.",
+            "Lorsque vous accédez à une ressource tierce, le traitement des données est régi par la politique de confidentialité et les conditions du service concerné.",
+            "Je ne contrôle pas le traitement des données effectué par les sites tiers après que l’utilisateur a quitté ce site."
+          ]
+        },
+        "changes": {
+          "title": "11. Modifications de la présente Politique de confidentialité",
+          "paragraphs": [
+            "La présente Politique de confidentialité peut être mise à jour en raison de modifications des fonctionnalités du site, des services utilisés ou des exigences légales.",
+            "La version actuelle de la Politique est toujours publiée sur cette page.",
+            "Si le site commence à collecter à l’avenir des données personnelles supplémentaires, par exemple des adresses e-mail, la présente Politique de confidentialité sera mise à jour avant le début de ce traitement."
+          ]
+        }
+      }
     }
   },
   "apps": {
     "sixJarsFinance": {
       "privacy": {
+        "privacyPolicy": "Politique de confidentialité de 6 Jars Finance",
         "lastUpdated": "03.07.2026",
         "metaDescription": "Politique de confidentialité de l’application Artem D Apps.",
         "sections": {

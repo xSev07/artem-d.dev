@@ -15,7 +15,8 @@
       "reportSpendingsByTags": "Spendings by Tags Report",
       "reportTagDetails": "Tag Spending Details Report",
       "methodsComparison": "Compare Budgeting Methods",
-      "licenses": "Open Source Licenses"
+      "licenses": "Open Source Licenses",
+      "sitePrivacyPolicy": "Website Privacy Policy"
     }
   },
   "article": {
@@ -31,7 +32,15 @@
     "footer": {
       "label": "Site information",
       "guides": "Guides",
-      "information": "Information"
+      "information": "Information",
+      "resetPrivacySettings": "Reset privacy settings"
+    },
+    "consent": {
+      "title": "We value your privacy",
+      "description": "We use cookies and similar technologies to analyze website traffic. You can allow analytics cookies or continue without them. Learn more in our",
+      "privacyPolicyLink": "privacy policy",
+      "acceptAll": "Allow analytics cookies",
+      "necessaryOnly": "Continue without them"
     },
     "help": {
       "metaDescription": "Information about an operation error in the A.D.A app.",
@@ -63,11 +72,130 @@
           ]
         }
       }
+    },
+    "privacyPolicy": {
+      "lastUpdated": "September 28, 2026",
+      "metaDescription": "Privacy Policy for artem-d.dev",
+      "intro": "This Privacy Policy describes what data may be processed when using the artem-d.dev website, the purposes for which it is used, and the rights that website visitors may have.",
+      "sections": {
+        "controller": {
+          "title": "1. Who is responsible for data processing",
+          "paragraphs": [
+            "The owner and operator of the artem-d.dev website is Artem D.",
+            "For questions related to privacy and the processing of personal data, you can contact me using the contact details provided on the website."
+          ]
+        },
+        "dataProcessed": {
+          "title": "2. What data may be processed",
+          "paragraphs": [
+            "The website does not require registration and currently does not provide forms for the direct collection of personal data."
+          ],
+          "listIntro": "When you visit the website, certain technical data may be processed automatically, including:",
+          "items": [
+            "IP address;",
+            "browser type and version;",
+            "device type and operating system;",
+            "approximate location determined based on the IP address;",
+            "pages visited;",
+            "source from which you arrived at the website;",
+            "date and time of the visit;",
+            "data about interactions with the website."
+          ],
+          "outro": "This data may be processed using web analytics services."
+        },
+        "googleAnalytics": {
+          "title": "3. Google Analytics",
+          "paragraphs": [
+            "The website uses Google Analytics, a web analytics service provided by Google.",
+            "Google Analytics is used to analyze website traffic, traffic sources, and how visitors interact with the website's pages.",
+            "For this purpose, Google Analytics may use cookies and similar technologies.",
+            "The data processed may include technical information about the device and browser, IP address, information about pages visited, traffic source, and interactions with the website.",
+            "Data processing by Google is carried out in accordance with Google's own terms and privacy policy.",
+            "Where applicable law requires user consent for the use of analytics technologies, Google Analytics is activated only after such consent has been obtained."
+          ]
+        },
+        "cookies": {
+          "title": "4. Cookies and user choices",
+          "paragraphs": [
+            "The website may use cookies and similar technologies.",
+            "Technologies necessary for the operation of the website may be used without additional consent where permitted by applicable law.",
+            "Optional technologies, including analytics cookies, are used after obtaining user consent where such consent is required.",
+            "The user's choice is stored in the browser.",
+            "The user may change a previously made choice at any time. To do so, use the “Reset privacy settings” link at the bottom of the website. After the reset, the website will ask the user to make a choice regarding the use of optional technologies again."
+          ]
+        },
+        "purposes": {
+          "title": "5. Purposes of data processing",
+          "intro": "Website usage data may be processed for the following purposes:",
+          "items": [
+            "analyzing website traffic;",
+            "analyzing traffic sources;",
+            "understanding which pages and materials are most in demand;",
+            "analyzing how visitors interact with the website;",
+            "improving the structure, content, and operation of the website;",
+            "identifying technical issues."
+          ],
+          "outro": "The data is not used for automated decision-making that produces legal or similarly significant effects for the user."
+        },
+        "legalBasis": {
+          "title": "6. Legal bases for processing",
+          "intro": "Depending on the nature of the data and applicable law, processing may be carried out:",
+          "items": [
+            "based on the user's consent;",
+            "to ensure the security and technical operation of the website;",
+            "based on a legitimate interest in maintaining and improving the website, where such a legal basis is permitted by law;",
+            "where processing is necessary to comply with legal requirements."
+          ],
+          "outro": "Where processing is based on consent, the user may withdraw that consent at any time."
+        },
+        "thirdParties": {
+          "title": "7. Sharing data with third parties",
+          "paragraphs": [
+            "Data may be shared with providers of technical services used for the operation of the website and analytics.",
+            "In particular, data may be processed by Google in connection with the use of Google Analytics.",
+            "Some service providers may process data outside the user's country of residence, including outside the European Economic Area.",
+            "In such cases, data processing and transfers are carried out using safeguards provided for by applicable law."
+          ]
+        },
+        "retention": {
+          "title": "8. Data retention period",
+          "paragraphs": [
+            "User-level and event-level data collected through Google Analytics is retained for 14 months in accordance with the Google Analytics settings.",
+            "After the relevant retention period expires, the data is deleted or is no longer available at the individual user and event level in accordance with Google Analytics rules.",
+            "Some aggregated statistical data may be retained for a longer period."
+          ]
+        },
+        "rights": {
+          "title": "9. User rights",
+          "paragraphs": [
+            "Depending on applicable law and the nature of the processing of personal data, the user may have the right to access, correct or delete their data, restrict processing, object to processing, and withdraw previously given consent.",
+            "To exercise these rights, the user may contact me using the contact details provided on the website. Each request is considered taking into account the nature of the data processed and the requirements of applicable law.",
+            "Because the website does not require registration and does not store user profiles, in some cases it may not be possible to link analytics data to a specific individual without additional information."
+          ]
+        },
+        "externalLinks": {
+          "title": "10. Links to third-party websites and services",
+          "paragraphs": [
+            "The website may contain links to third-party websites and services, such as Google Play.",
+            "When you follow a link to a third-party resource, data processing is governed by the privacy policy and terms of the relevant service.",
+            "I do not control the processing of data by third-party websites after the user leaves this website."
+          ]
+        },
+        "changes": {
+          "title": "11. Changes to this Privacy Policy",
+          "paragraphs": [
+            "This Privacy Policy may be updated due to changes in the website's functionality, the services used, or legal requirements.",
+            "The current version of the Policy is always published on this page.",
+            "If the website begins collecting additional personal data in the future, such as email addresses, this Privacy Policy will be updated before such processing begins."
+          ]
+        }
+      }
     }
   },
   "apps": {
     "sixJarsFinance": {
       "privacy": {
+        "privacyPolicy": "6 Jars Finance Privacy Policy",
         "lastUpdated": "03.07.2026",
         "metaDescription": "Privacy Policy for the application Artem D Apps",
         "sections": {

@@ -15,7 +15,8 @@
       "reportSpendingsByTags": "Spendings by Tags Report",
       "reportTagDetails": "Tag Spending Details Report",
       "methodsComparison": "Jämför budgetmetoder",
-      "licenses": "Licenser för öppen källkod"
+      "licenses": "Licenser för öppen källkod",
+      "sitePrivacyPolicy": "Webbplatsens integritetspolicy"
     }
   },
   "article": {
@@ -31,7 +32,15 @@
     "footer": {
       "label": "Information om webbplatsen",
       "guides": "Guider",
-      "information": "Information"
+      "information": "Information",
+      "resetPrivacySettings": "Återställ sekretessinställningar"
+    },
+    "consent": {
+      "title": "Vi värnar om din integritet",
+      "description": "Vi använder cookies och liknande tekniker för att analysera trafiken på webbplatsen. Du kan tillåta analyscookies eller fortsätta utan dem. Läs mer i vår",
+      "privacyPolicyLink": "integritetspolicy",
+      "acceptAll": "Tillåt analyscookies",
+      "necessaryOnly": "Fortsätt utan dem"
     },
     "help": {
       "metaDescription": "Information om ett fel vid utförande av en åtgärd i A.D.A-appen.",
@@ -63,11 +72,130 @@
           ]
         }
       }
+    },
+    "privacyPolicy": {
+  "lastUpdated": "28 september 2026",
+  "metaDescription": "Integritetspolicy för artem-d.dev",
+  "intro": "Denna integritetspolicy beskriver vilka uppgifter som kan behandlas när webbplatsen artem-d.dev används, för vilka ändamål de används och vilka rättigheter webbplatsens besökare kan ha.",
+  "sections": {
+    "controller": {
+      "title": "1. Vem som ansvarar för behandlingen av uppgifter",
+      "paragraphs": [
+        "Ägare och operatör av webbplatsen artem-d.dev är Artem D.",
+        "För frågor som rör integritet och behandling av personuppgifter kan du kontakta mig via de kontaktuppgifter som anges på webbplatsen."
+      ]
+    },
+    "dataProcessed": {
+      "title": "2. Vilka uppgifter som kan behandlas",
+      "paragraphs": [
+        "Webbplatsen kräver ingen registrering och tillhandahåller för närvarande inga formulär för direkt insamling av personuppgifter."
+      ],
+      "listIntro": "När du besöker webbplatsen kan vissa tekniska uppgifter behandlas automatiskt, inklusive:",
+      "items": [
+        "IP-adress;",
+        "webbläsartyp och webbläsarversion;",
+        "enhetstyp och operativsystem;",
+        "ungefärlig plats som fastställs utifrån IP-adressen;",
+        "besökta sidor;",
+        "källan som ledde dig till webbplatsen;",
+        "datum och tid för besöket;",
+        "uppgifter om interaktioner med webbplatsen."
+      ],
+      "outro": "Dessa uppgifter kan behandlas med hjälp av webbanalystjänster."
+    },
+    "googleAnalytics": {
+      "title": "3. Google Analytics",
+      "paragraphs": [
+        "Webbplatsen använder Google Analytics, en webbanalystjänst som tillhandahålls av Google.",
+        "Google Analytics används för att analysera webbplatstrafik, trafikkällor och hur besökare interagerar med webbplatsens sidor.",
+        "För detta ändamål kan Google Analytics använda cookies och liknande tekniker.",
+        "De uppgifter som behandlas kan omfatta teknisk information om enheten och webbläsaren, IP-adress, information om besökta sidor, trafikkälla och interaktioner med webbplatsen.",
+        "Googles behandling av uppgifter sker i enlighet med Googles egna villkor och integritetspolicy.",
+        "När tillämplig lagstiftning kräver användarens samtycke för användning av analysteknik aktiveras Google Analytics först efter att sådant samtycke har erhållits."
+      ]
+    },
+    "cookies": {
+      "title": "4. Cookies och användarens val",
+      "paragraphs": [
+        "Webbplatsen kan använda cookies och liknande tekniker.",
+        "Tekniker som är nödvändiga för webbplatsens funktion kan användas utan ytterligare samtycke när detta är tillåtet enligt tillämplig lagstiftning.",
+        "Valfria tekniker, inklusive analyscookies, används efter att användarens samtycke har inhämtats när sådant samtycke krävs.",
+        "Användarens val sparas i webbläsaren.",
+        "Användaren kan när som helst ändra ett tidigare gjort val. För att göra detta kan länken ”Återställ integritetsinställningar” längst ned på webbplatsen användas. Efter återställningen kommer webbplatsen på nytt att be användaren att göra ett val om användningen av valfria tekniker."
+      ]
+    },
+    "purposes": {
+      "title": "5. Ändamål med behandlingen av uppgifter",
+      "intro": "Uppgifter om användningen av webbplatsen kan behandlas för följande ändamål:",
+      "items": [
+        "analys av webbplatstrafik;",
+        "analys av trafikkällor;",
+        "förståelse för vilka sidor och vilket innehåll som är mest efterfrågat;",
+        "analys av hur besökare interagerar med webbplatsen;",
+        "förbättring av webbplatsens struktur, innehåll och funktion;",
+        "identifiering av tekniska problem."
+      ],
+      "outro": "Uppgifterna används inte för automatiserat beslutsfattande som medför rättsliga eller liknande betydande konsekvenser för användaren."
+    },
+    "legalBasis": {
+      "title": "6. Rättsliga grunder för behandling",
+      "intro": "Beroende på uppgifternas art och tillämplig lagstiftning kan behandlingen ske:",
+      "items": [
+        "med stöd av användarens samtycke;",
+        "för att säkerställa webbplatsens säkerhet och tekniska funktion;",
+        "med stöd av ett berättigat intresse av att underhålla och förbättra webbplatsen, när en sådan rättslig grund är tillåten enligt lag;",
+        "när behandlingen är nödvändig för att uppfylla rättsliga krav."
+      ],
+      "outro": "När behandlingen grundar sig på samtycke kan användaren när som helst återkalla sitt samtycke."
+    },
+    "thirdParties": {
+      "title": "7. Delning av uppgifter med tredje part",
+      "paragraphs": [
+        "Uppgifter kan delas med leverantörer av tekniska tjänster som används för webbplatsens drift och för analys.",
+        "I synnerhet kan uppgifter behandlas av Google i samband med användningen av Google Analytics.",
+        "Vissa tjänsteleverantörer kan behandla uppgifter utanför användarens bosättningsland, inklusive utanför Europeiska ekonomiska samarbetsområdet.",
+        "I sådana fall sker behandlingen och överföringen av uppgifter med hjälp av skyddsåtgärder som föreskrivs i tillämplig lagstiftning."
+      ]
+    },
+    "retention": {
+      "title": "8. Lagringstid för uppgifter",
+      "paragraphs": [
+        "Uppgifter på användar- och händelsenivå som samlas in via Google Analytics lagras i 14 månader i enlighet med inställningarna i Google Analytics.",
+        "Efter att den tillämpliga lagringstiden har löpt ut raderas uppgifterna eller är inte längre tillgängliga på nivån för enskilda användare och händelser i enlighet med reglerna för Google Analytics.",
+        "Vissa aggregerade statistiska uppgifter kan lagras längre."
+      ]
+    },
+    "rights": {
+      "title": "9. Användarnas rättigheter",
+      "paragraphs": [
+        "Beroende på tillämplig lagstiftning och typen av behandling av personuppgifter kan användaren ha rätt att få tillgång till sina uppgifter, rätta eller radera dem, begränsa behandlingen, invända mot behandlingen och återkalla ett tidigare lämnat samtycke.",
+        "För att utöva dessa rättigheter kan användaren kontakta mig via de kontaktuppgifter som anges på webbplatsen. Varje begäran bedöms med hänsyn till arten av de uppgifter som behandlas och kraven i tillämplig lagstiftning.",
+        "Eftersom webbplatsen inte kräver registrering och inte lagrar användarprofiler kan det i vissa fall vara omöjligt att koppla analysdata till en viss person utan ytterligare information."
+      ]
+    },
+    "externalLinks": {
+      "title": "10. Länkar till tredje parts webbplatser och tjänster",
+      "paragraphs": [
+        "Webbplatsen kan innehålla länkar till tredje parts webbplatser och tjänster, till exempel Google Play.",
+        "När du följer en länk till en extern resurs regleras behandlingen av uppgifter av den aktuella tjänstens integritetspolicy och villkor.",
+        "Jag kontrollerar inte hur tredje parts webbplatser behandlar uppgifter efter att användaren har lämnat denna webbplats."
+      ]
+    },
+    "changes": {
+      "title": "11. Ändringar av denna integritetspolicy",
+      "paragraphs": [
+        "Denna integritetspolicy kan uppdateras på grund av ändringar i webbplatsens funktionalitet, de tjänster som används eller rättsliga krav.",
+        "Den aktuella versionen av policyn publiceras alltid på denna sida.",
+        "Om webbplatsen i framtiden börjar samla in ytterligare personuppgifter, till exempel e-postadresser, kommer denna integritetspolicy att uppdateras innan sådan behandling påbörjas."
+      ]
     }
+  }
+}
   },
   "apps": {
     "sixJarsFinance": {
       "privacy": {
+        "privacyPolicy": "Integritetspolicy för 6 Jars Finance",
         "lastUpdated": "03.07.2026",
         "metaDescription": "Integritetspolicy för appen från Artem D Apps.",
         "sections": {

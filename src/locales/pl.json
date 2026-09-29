@@ -15,7 +15,8 @@
       "reportSpendingsByTags": "Spendings by Tags Report",
       "reportTagDetails": "Tag Spending Details Report",
       "methodsComparison": "Porównaj metody budżetowania",
-      "licenses": "Licencje oprogramowania open source"
+      "licenses": "Licencje oprogramowania open source",
+      "sitePrivacyPolicy": "Polityka prywatności serwisu"
     }
   },
   "article": {
@@ -31,7 +32,15 @@
     "footer": {
       "label": "Informacje o stronie",
       "guides": "Przewodniki",
-      "information": "Informacje"
+      "information": "Informacje",
+      "resetPrivacySettings": "Zresetuj ustawienia prywatności"
+    },
+    "consent": {
+      "title": "Cenimy Twoją prywatność",
+      "description": "Używamy plików cookie i podobnych technologii do analizowania ruchu w witrynie. Możesz zezwolić na analityczne pliki cookie lub kontynuować bez nich. Więcej informacji znajdziesz w naszej",
+      "privacyPolicyLink": "polityce prywatności",
+      "acceptAll": "Zezwól na analityczne pliki cookie",
+      "necessaryOnly": "Kontynuuj bez nich"
     },
     "help": {
       "metaDescription": "Informacje o błędzie podczas wykonywania operacji w aplikacji A.D.A.",
@@ -63,11 +72,130 @@
           ]
         }
       }
+    },
+    "privacyPolicy": {
+      "lastUpdated": "28 września 2026",
+      "metaDescription": "Polityka prywatności serwisu artem-d.dev",
+      "intro": "Niniejsza Polityka prywatności opisuje, jakie dane mogą być przetwarzane podczas korzystania z serwisu artem-d.dev, w jakich celach są wykorzystywane oraz jakie prawa mogą przysługiwać odwiedzającym serwis.",
+      "sections": {
+        "controller": {
+          "title": "1. Kto odpowiada za przetwarzanie danych",
+          "paragraphs": [
+            "Właścicielem i operatorem serwisu artem-d.dev jest Artem D.",
+            "W sprawach związanych z prywatnością i przetwarzaniem danych osobowych można skontaktować się ze mną za pomocą danych kontaktowych podanych w serwisie."
+          ]
+        },
+        "dataProcessed": {
+          "title": "2. Jakie dane mogą być przetwarzane",
+          "paragraphs": [
+            "Serwis nie wymaga rejestracji i obecnie nie udostępnia formularzy służących do bezpośredniego zbierania danych osobowych."
+          ],
+          "listIntro": "Podczas odwiedzania serwisu niektóre dane techniczne mogą być przetwarzane automatycznie, w tym:",
+          "items": [
+            "adres IP;",
+            "typ i wersja przeglądarki;",
+            "typ urządzenia i system operacyjny;",
+            "przybliżona lokalizacja określana na podstawie adresu IP;",
+            "odwiedzone strony;",
+            "źródło, z którego użytkownik trafił do serwisu;",
+            "data i godzina wizyty;",
+            "dane dotyczące interakcji z serwisem."
+          ],
+          "outro": "Dane te mogą być przetwarzane z wykorzystaniem usług analityki internetowej."
+        },
+        "googleAnalytics": {
+          "title": "3. Google Analytics",
+          "paragraphs": [
+            "Serwis korzysta z Google Analytics, usługi analityki internetowej świadczonej przez Google.",
+            "Google Analytics jest wykorzystywany do analizowania ruchu w serwisie, źródeł ruchu oraz sposobu, w jaki odwiedzający korzystają z jego stron.",
+            "W tym celu Google Analytics może wykorzystywać pliki cookie i podobne technologie.",
+            "Przetwarzane dane mogą obejmować informacje techniczne o urządzeniu i przeglądarce, adres IP, informacje o odwiedzonych stronach, źródle ruchu oraz interakcjach z serwisem.",
+            "Przetwarzanie danych przez Google odbywa się zgodnie z własnymi warunkami i polityką prywatności Google.",
+            "Jeżeli obowiązujące przepisy wymagają zgody użytkownika na korzystanie z technologii analitycznych, Google Analytics jest aktywowany dopiero po uzyskaniu takiej zgody."
+          ]
+        },
+        "cookies": {
+          "title": "4. Pliki cookie i wybór użytkownika",
+          "paragraphs": [
+            "Serwis może korzystać z plików cookie i podobnych technologii.",
+            "Technologie niezbędne do działania serwisu mogą być wykorzystywane bez dodatkowej zgody w przypadkach dozwolonych przez obowiązujące przepisy.",
+            "Opcjonalne technologie, w tym analityczne pliki cookie, są wykorzystywane po uzyskaniu zgody użytkownika, jeżeli taka zgoda jest wymagana.",
+            "Wybór dokonany przez użytkownika jest zapisywany w przeglądarce.",
+            "Użytkownik może w dowolnym momencie zmienić wcześniej dokonany wybór. W tym celu może skorzystać z linku „Zresetuj ustawienia prywatności” znajdującego się w dolnej części serwisu. Po zresetowaniu serwis ponownie poprosi użytkownika o dokonanie wyboru dotyczącego korzystania z opcjonalnych technologii."
+          ]
+        },
+        "purposes": {
+          "title": "5. Cele przetwarzania danych",
+          "intro": "Dane dotyczące korzystania z serwisu mogą być przetwarzane w następujących celach:",
+          "items": [
+            "analizowania ruchu w serwisie;",
+            "analizowania źródeł ruchu;",
+            "ustalania, które strony i treści cieszą się największym zainteresowaniem;",
+            "analizowania sposobu, w jaki odwiedzający korzystają z serwisu;",
+            "ulepszania struktury, treści i działania serwisu;",
+            "wykrywania problemów technicznych."
+          ],
+          "outro": "Dane nie są wykorzystywane do podejmowania zautomatyzowanych decyzji wywołujących skutki prawne lub podobnie istotne skutki dla użytkownika."
+        },
+        "legalBasis": {
+          "title": "6. Podstawy prawne przetwarzania",
+          "intro": "W zależności od charakteru danych i obowiązujących przepisów przetwarzanie może odbywać się:",
+          "items": [
+            "na podstawie zgody użytkownika;",
+            "w celu zapewnienia bezpieczeństwa i prawidłowego działania technicznego serwisu;",
+            "na podstawie prawnie uzasadnionego interesu polegającego na utrzymaniu i ulepszaniu serwisu, jeżeli taka podstawa prawna jest dozwolona przez przepisy;",
+            "gdy przetwarzanie jest niezbędne do spełnienia wymogów prawnych."
+          ],
+          "outro": "Jeżeli przetwarzanie odbywa się na podstawie zgody, użytkownik może ją w dowolnym momencie wycofać."
+        },
+        "thirdParties": {
+          "title": "7. Udostępnianie danych stronom trzecim",
+          "paragraphs": [
+            "Dane mogą być przekazywane dostawcom usług technicznych wykorzystywanych do działania serwisu i celów analitycznych.",
+            "W szczególności dane mogą być przetwarzane przez Google w związku z korzystaniem z Google Analytics.",
+            "Niektórzy dostawcy usług mogą przetwarzać dane poza krajem zamieszkania użytkownika, w tym poza Europejskim Obszarem Gospodarczym.",
+            "W takich przypadkach przetwarzanie i przekazywanie danych odbywa się z wykorzystaniem mechanizmów ochronnych przewidzianych przez obowiązujące przepisy."
+          ]
+        },
+        "retention": {
+          "title": "8. Okres przechowywania danych",
+          "paragraphs": [
+            "Dane na poziomie użytkowników i zdarzeń zbierane za pośrednictwem Google Analytics są przechowywane przez 14 miesięcy zgodnie z ustawieniami Google Analytics.",
+            "Po upływie odpowiedniego okresu przechowywania dane są usuwane lub przestają być dostępne na poziomie poszczególnych użytkowników i zdarzeń zgodnie z zasadami Google Analytics.",
+            "Niektóre zagregowane dane statystyczne mogą być przechowywane dłużej."
+          ]
+        },
+        "rights": {
+          "title": "9. Prawa użytkowników",
+          "paragraphs": [
+            "W zależności od obowiązujących przepisów i charakteru przetwarzania danych osobowych użytkownik może mieć prawo do dostępu do swoich danych, ich sprostowania lub usunięcia, ograniczenia przetwarzania, wniesienia sprzeciwu wobec przetwarzania oraz wycofania wcześniej udzielonej zgody.",
+            "Aby skorzystać z tych praw, użytkownik może skontaktować się ze mną za pomocą danych kontaktowych podanych w serwisie. Każdy wniosek jest rozpatrywany z uwzględnieniem charakteru przetwarzanych danych oraz wymogów obowiązujących przepisów.",
+            "Ponieważ serwis nie wymaga rejestracji i nie przechowuje profili użytkowników, w niektórych przypadkach powiązanie danych analitycznych z konkretną osobą bez dodatkowych informacji może nie być możliwe."
+          ]
+        },
+        "externalLinks": {
+          "title": "10. Linki do zewnętrznych stron i usług",
+          "paragraphs": [
+            "Serwis może zawierać linki do zewnętrznych stron i usług, na przykład Google Play.",
+            "Po przejściu do zasobu strony trzeciej przetwarzanie danych podlega polityce prywatności i warunkom odpowiedniej usługi.",
+            "Nie kontroluję przetwarzania danych przez strony trzecie po opuszczeniu przez użytkownika tego serwisu."
+          ]
+        },
+        "changes": {
+          "title": "11. Zmiany niniejszej Polityki prywatności",
+          "paragraphs": [
+            "Niniejsza Polityka prywatności może być aktualizowana w związku ze zmianami funkcjonalności serwisu, wykorzystywanych usług lub wymogów prawnych.",
+            "Aktualna wersja Polityki jest zawsze publikowana na tej stronie.",
+            "Jeżeli w przyszłości serwis zacznie zbierać dodatkowe dane osobowe, na przykład adresy e-mail, niniejsza Polityka prywatności zostanie zaktualizowana przed rozpoczęciem takiego przetwarzania."
+          ]
+        }
+      }
     }
   },
   "apps": {
     "sixJarsFinance": {
       "privacy": {
+        "privacyPolicy": "Polityka prywatności 6 Jars Finance",
         "lastUpdated": "03.07.2026",
         "metaDescription": "Polityka prywatności aplikacji Artem D Apps.",
         "sections": {

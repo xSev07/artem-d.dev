@@ -14,13 +14,30 @@
   <meta name="robots" content="noindex" />
   {% endif %}
   {% if eleventy.env.runMode == "build" %}
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-F47WEEE9Q7"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
 
+    gtag('consent', 'default', {
+      'analytics_storage': 'denied',
+      'ad_storage': 'denied',
+      'ad_user_data': 'denied',
+      'ad_personalization': 'denied'
+    });
+
+    try {
+      if (localStorage.getItem('privacy-consent') === 'all') {
+        gtag('consent', 'update', {
+          'analytics_storage': 'granted'
+        });
+      }
+    } catch (e) {}
+
+    gtag('js', new Date());
+  </script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-F47WEEE9Q7"></script>
+  <script>
     gtag('config', 'G-F47WEEE9Q7');
   </script>
   {% endif %}
@@ -39,9 +56,11 @@
   </main>
 
   {% include "site-footer.njk" %}
+  {% include "consent-banner.njk" %}
   {% if extraScripts %}
   {% include extraScripts %}
   {% endif %}
+  <script src="/assets/js/consent.js" defer></script>
   <script src="/assets/js/analytics.js" defer></script>
 </body>
 </html>

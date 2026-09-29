@@ -15,7 +15,8 @@
       "reportSpendingsByTags": "Spendings by Tags Report",
       "reportTagDetails": "Tag Spending Details Report",
       "methodsComparison": "Budgetmethoden vergleichen",
-      "licenses": "Open-Source-Lizenzen"
+      "licenses": "Open-Source-Lizenzen",
+      "sitePrivacyPolicy": "Datenschutzerklärung der Website"
     }
   },
   "article": {
@@ -31,7 +32,15 @@
     "footer": {
       "label": "Informationen zur Website",
       "guides": "Anleitungen",
-      "information": "Informationen"
+      "information": "Informationen",
+      "resetPrivacySettings": "Datenschutzeinstellungen zurücksetzen"
+    },
+    "consent": {
+      "title": "Wir respektieren Ihre Privatsphäre",
+      "description": "Wir verwenden Cookies und ähnliche Technologien, um die Nutzung unserer Website zu analysieren. Sie können Analyse-Cookies zulassen oder ohne sie fortfahren. Weitere Informationen finden Sie in unserer",
+      "privacyPolicyLink": "Datenschutzerklärung",
+      "acceptAll": "Analyse-Cookies zulassen",
+      "necessaryOnly": "Ohne sie fortfahren"
     },
     "help": {
       "metaDescription": "Informationen zu einem Fehler bei der Ausführung eines Vorgangs in der A.D.A-App.",
@@ -63,11 +72,130 @@
           ]
         }
       }
+    },
+    "privacyPolicy": {
+      "lastUpdated": "28. September 2026",
+      "metaDescription": "Datenschutzerklärung für artem-d.dev",
+      "intro": "Diese Datenschutzerklärung beschreibt, welche Daten bei der Nutzung der Website artem-d.dev verarbeitet werden können, zu welchen Zwecken sie verwendet werden und welche Rechte Besucher der Website haben können.",
+      "sections": {
+        "controller": {
+          "title": "1. Verantwortlicher für die Datenverarbeitung",
+          "paragraphs": [
+            "Eigentümer und Betreiber der Website artem-d.dev ist Artem D.",
+            "Bei Fragen zum Datenschutz und zur Verarbeitung personenbezogener Daten können Sie mich über die auf der Website angegebenen Kontaktdaten erreichen."
+          ]
+        },
+        "dataProcessed": {
+          "title": "2. Welche Daten verarbeitet werden können",
+          "paragraphs": [
+            "Die Website erfordert keine Registrierung und stellt derzeit keine Formulare zur direkten Erhebung personenbezogener Daten bereit."
+          ],
+          "listIntro": "Beim Besuch der Website können bestimmte technische Daten automatisch verarbeitet werden, darunter:",
+          "items": [
+            "IP-Adresse;",
+            "Browsertyp und Browserversion;",
+            "Gerätetyp und Betriebssystem;",
+            "ungefährer Standort, der anhand der IP-Adresse bestimmt wird;",
+            "besuchte Seiten;",
+            "Quelle, über die Sie auf die Website gelangt sind;",
+            "Datum und Uhrzeit des Besuchs;",
+            "Daten über Interaktionen mit der Website."
+          ],
+          "outro": "Diese Daten können mithilfe von Webanalyse-Diensten verarbeitet werden."
+        },
+        "googleAnalytics": {
+          "title": "3. Google Analytics",
+          "paragraphs": [
+            "Die Website verwendet Google Analytics, einen von Google bereitgestellten Webanalyse-Dienst.",
+            "Google Analytics wird verwendet, um den Website-Traffic, die Traffic-Quellen und die Interaktionen der Besucher mit den Seiten der Website zu analysieren.",
+            "Zu diesem Zweck kann Google Analytics Cookies und ähnliche Technologien verwenden.",
+            "Die verarbeiteten Daten können technische Informationen über das Gerät und den Browser, die IP-Adresse, Informationen über besuchte Seiten, die Traffic-Quelle und Interaktionen mit der Website umfassen.",
+            "Die Datenverarbeitung durch Google erfolgt gemäß den eigenen Bedingungen und Datenschutzbestimmungen von Google.",
+            "Soweit das anwendbare Recht die Einwilligung des Nutzers für den Einsatz von Analysetechnologien verlangt, wird Google Analytics erst nach Erteilung einer solchen Einwilligung aktiviert."
+          ]
+        },
+        "cookies": {
+          "title": "4. Cookies und Nutzerauswahl",
+          "paragraphs": [
+            "Die Website kann Cookies und ähnliche Technologien verwenden.",
+            "Technologien, die für den Betrieb der Website erforderlich sind, können ohne zusätzliche Einwilligung verwendet werden, soweit dies nach anwendbarem Recht zulässig ist.",
+            "Optionale Technologien, einschließlich Analyse-Cookies, werden nach Einholung der Einwilligung des Nutzers verwendet, sofern eine solche Einwilligung erforderlich ist.",
+            "Die vom Nutzer getroffene Auswahl wird im Browser gespeichert.",
+            "Der Nutzer kann eine zuvor getroffene Auswahl jederzeit ändern. Dazu kann der Link „Datenschutzeinstellungen zurücksetzen“ im unteren Bereich der Website verwendet werden. Nach dem Zurücksetzen fordert die Website den Nutzer erneut auf, eine Auswahl bezüglich der Verwendung optionaler Technologien zu treffen."
+          ]
+        },
+        "purposes": {
+          "title": "5. Zwecke der Datenverarbeitung",
+          "intro": "Daten über die Nutzung der Website können zu folgenden Zwecken verarbeitet werden:",
+          "items": [
+            "Analyse des Website-Traffics;",
+            "Analyse der Traffic-Quellen;",
+            "Ermittlung, welche Seiten und Inhalte am stärksten nachgefragt werden;",
+            "Analyse der Interaktionen der Besucher mit der Website;",
+            "Verbesserung der Struktur, Inhalte und Funktionsweise der Website;",
+            "Erkennung technischer Probleme."
+          ],
+          "outro": "Die Daten werden nicht für automatisierte Entscheidungen verwendet, die rechtliche oder ähnlich erhebliche Auswirkungen auf den Nutzer haben."
+        },
+        "legalBasis": {
+          "title": "6. Rechtsgrundlagen der Verarbeitung",
+          "intro": "Abhängig von der Art der Daten und dem anwendbaren Recht kann die Verarbeitung erfolgen:",
+          "items": [
+            "auf Grundlage der Einwilligung des Nutzers;",
+            "zur Gewährleistung der Sicherheit und technischen Funktionsfähigkeit der Website;",
+            "auf Grundlage eines berechtigten Interesses an der Wartung und Verbesserung der Website, soweit eine solche Rechtsgrundlage gesetzlich zulässig ist;",
+            "wenn die Verarbeitung zur Erfüllung gesetzlicher Anforderungen erforderlich ist."
+          ],
+          "outro": "Soweit die Verarbeitung auf einer Einwilligung beruht, kann der Nutzer diese Einwilligung jederzeit widerrufen."
+        },
+        "thirdParties": {
+          "title": "7. Weitergabe von Daten an Dritte",
+          "paragraphs": [
+            "Daten können an Anbieter technischer Dienste weitergegeben werden, die für den Betrieb der Website und für Analysezwecke eingesetzt werden.",
+            "Insbesondere können Daten im Zusammenhang mit der Nutzung von Google Analytics von Google verarbeitet werden.",
+            "Einige Dienstleister können Daten außerhalb des Wohnsitzlandes des Nutzers verarbeiten, einschließlich außerhalb des Europäischen Wirtschaftsraums.",
+            "In solchen Fällen erfolgen die Verarbeitung und Übermittlung der Daten unter Verwendung der nach anwendbarem Recht vorgesehenen Schutzmechanismen."
+          ]
+        },
+        "retention": {
+          "title": "8. Speicherdauer",
+          "paragraphs": [
+            "Nutzer- und ereignisbezogene Daten, die über Google Analytics erhoben werden, werden gemäß den Einstellungen von Google Analytics für einen Zeitraum von 14 Monaten gespeichert.",
+            "Nach Ablauf der jeweiligen Speicherdauer werden die Daten gemäß den Regeln von Google Analytics gelöscht oder sind auf Ebene einzelner Nutzer und Ereignisse nicht mehr verfügbar.",
+            "Einige aggregierte statistische Daten können länger gespeichert werden."
+          ]
+        },
+        "rights": {
+          "title": "9. Rechte der Nutzer",
+          "paragraphs": [
+            "Je nach anwendbarem Recht und Art der Verarbeitung personenbezogener Daten kann der Nutzer das Recht auf Auskunft, Berichtigung oder Löschung seiner Daten, Einschränkung der Verarbeitung, Widerspruch gegen die Verarbeitung und Widerruf einer zuvor erteilten Einwilligung haben.",
+            "Zur Ausübung dieser Rechte kann der Nutzer mich über die auf der Website angegebenen Kontaktdaten kontaktieren. Jede Anfrage wird unter Berücksichtigung der Art der verarbeiteten Daten und der Anforderungen des anwendbaren Rechts geprüft.",
+            "Da die Website keine Registrierung erfordert und keine Nutzerprofile speichert, kann es in einigen Fällen ohne zusätzliche Informationen möglicherweise nicht möglich sein, Analysedaten einer bestimmten Person zuzuordnen."
+          ]
+        },
+        "externalLinks": {
+          "title": "10. Links zu Websites und Diensten Dritter",
+          "paragraphs": [
+            "Die Website kann Links zu Websites und Diensten Dritter enthalten, beispielsweise zu Google Play.",
+            "Wenn Sie einem Link zu einem externen Dienst folgen, richtet sich die Datenverarbeitung nach der Datenschutzerklärung und den Bedingungen des jeweiligen Dienstes.",
+            "Ich habe keinen Einfluss auf die Datenverarbeitung durch Websites Dritter, nachdem der Nutzer diese Website verlassen hat."
+          ]
+        },
+        "changes": {
+          "title": "11. Änderungen dieser Datenschutzerklärung",
+          "paragraphs": [
+            "Diese Datenschutzerklärung kann aufgrund von Änderungen der Website-Funktionalität, der verwendeten Dienste oder gesetzlicher Anforderungen aktualisiert werden.",
+            "Die jeweils aktuelle Version dieser Datenschutzerklärung wird immer auf dieser Seite veröffentlicht.",
+            "Falls die Website künftig zusätzliche personenbezogene Daten erhebt, beispielsweise E-Mail-Adressen, wird diese Datenschutzerklärung vor Beginn einer solchen Verarbeitung aktualisiert."
+          ]
+        }
+      }
     }
   },
   "apps": {
     "sixJarsFinance": {
       "privacy": {
+        "privacyPolicy": "Datenschutzerklärung für 6 Jars Finance",
         "lastUpdated": "03.07.2026",
         "metaDescription": "Datenschutzerklärung für die App von Artem D Apps.",
         "sections": {

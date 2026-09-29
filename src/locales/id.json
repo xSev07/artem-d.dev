@@ -15,7 +15,8 @@
       "reportSpendingsByTags": "Spendings by Tags Report",
       "reportTagDetails": "Tag Spending Details Report",
       "methodsComparison": "Bandingkan Cara Mengatur Anggaran",
-      "licenses": "Lisensi Sumber Terbuka"
+      "licenses": "Lisensi Sumber Terbuka",
+      "sitePrivacyPolicy": "Kebijakan Privasi Situs Web"
     }
   },
   "article": {
@@ -31,7 +32,15 @@
     "footer": {
       "label": "Informasi situs",
       "guides": "Panduan",
-      "information": "Informasi"
+      "information": "Informasi",
+      "resetPrivacySettings": "Atur ulang pengaturan privasi"
+    },
+    "consent": {
+      "title": "Kami menghargai privasi Anda",
+      "description": "Kami menggunakan cookie dan teknologi serupa untuk menganalisis lalu lintas situs. Anda dapat mengizinkan cookie analitik atau melanjutkan tanpa cookie tersebut. Pelajari lebih lanjut dalam",
+      "privacyPolicyLink": "kebijakan privasi kami",
+      "acceptAll": "Izinkan cookie analitik",
+      "necessaryOnly": "Lanjutkan tanpa cookie tersebut"
     },
     "help": {
       "metaDescription": "Informasi tentang kesalahan saat menjalankan operasi di aplikasi A.D.A.",
@@ -63,11 +72,130 @@
           ]
         }
       }
+    },
+    "privacyPolicy": {
+      "lastUpdated": "28 September 2026",
+      "metaDescription": "Kebijakan Privasi untuk artem-d.dev",
+      "intro": "Kebijakan Privasi ini menjelaskan data apa saja yang dapat diproses saat menggunakan situs web artem-d.dev, tujuan penggunaan data tersebut, serta hak yang mungkin dimiliki oleh pengunjung situs.",
+      "sections": {
+        "controller": {
+          "title": "1. Pihak yang bertanggung jawab atas pemrosesan data",
+          "paragraphs": [
+            "Pemilik dan pengelola situs web artem-d.dev adalah Artem D.",
+            "Untuk pertanyaan terkait privasi dan pemrosesan data pribadi, Anda dapat menghubungi saya melalui informasi kontak yang tercantum di situs web."
+          ]
+        },
+        "dataProcessed": {
+          "title": "2. Data yang dapat diproses",
+          "paragraphs": [
+            "Situs web tidak memerlukan pendaftaran dan saat ini tidak menyediakan formulir untuk pengumpulan langsung data pribadi."
+          ],
+          "listIntro": "Saat mengunjungi situs web, beberapa data teknis dapat diproses secara otomatis, termasuk:",
+          "items": [
+            "alamat IP;",
+            "jenis dan versi browser;",
+            "jenis perangkat dan sistem operasi;",
+            "perkiraan lokasi yang ditentukan berdasarkan alamat IP;",
+            "halaman yang dikunjungi;",
+            "sumber yang mengarahkan Anda ke situs web;",
+            "tanggal dan waktu kunjungan;",
+            "data mengenai interaksi dengan situs web."
+          ],
+          "outro": "Data ini dapat diproses menggunakan layanan analitik web."
+        },
+        "googleAnalytics": {
+          "title": "3. Google Analytics",
+          "paragraphs": [
+            "Situs web menggunakan Google Analytics, layanan analitik web yang disediakan oleh Google.",
+            "Google Analytics digunakan untuk menganalisis lalu lintas situs web, sumber lalu lintas, dan cara pengunjung berinteraksi dengan halaman-halaman situs.",
+            "Untuk tujuan ini, Google Analytics dapat menggunakan cookie dan teknologi serupa.",
+            "Data yang diproses dapat mencakup informasi teknis tentang perangkat dan browser, alamat IP, informasi tentang halaman yang dikunjungi, sumber lalu lintas, dan interaksi dengan situs web.",
+            "Pemrosesan data oleh Google dilakukan sesuai dengan ketentuan dan kebijakan privasi Google sendiri.",
+            "Jika hukum yang berlaku mewajibkan persetujuan pengguna untuk penggunaan teknologi analitik, Google Analytics hanya diaktifkan setelah persetujuan tersebut diperoleh."
+          ]
+        },
+        "cookies": {
+          "title": "4. Cookie dan pilihan pengguna",
+          "paragraphs": [
+            "Situs web dapat menggunakan cookie dan teknologi serupa.",
+            "Teknologi yang diperlukan untuk pengoperasian situs web dapat digunakan tanpa persetujuan tambahan jika diizinkan oleh hukum yang berlaku.",
+            "Teknologi opsional, termasuk cookie analitik, digunakan setelah memperoleh persetujuan pengguna jika persetujuan tersebut diwajibkan.",
+            "Pilihan yang dibuat oleh pengguna disimpan di browser.",
+            "Pengguna dapat mengubah pilihan yang sebelumnya dibuat kapan saja. Untuk melakukannya, gunakan tautan “Atur ulang pengaturan privasi” di bagian bawah situs web. Setelah diatur ulang, situs web akan kembali meminta pengguna untuk menentukan pilihan terkait penggunaan teknologi opsional."
+          ]
+        },
+        "purposes": {
+          "title": "5. Tujuan pemrosesan data",
+          "intro": "Data penggunaan situs web dapat diproses untuk tujuan berikut:",
+          "items": [
+            "menganalisis lalu lintas situs web;",
+            "menganalisis sumber lalu lintas;",
+            "memahami halaman dan materi mana yang paling banyak diminati;",
+            "menganalisis cara pengunjung berinteraksi dengan situs web;",
+            "meningkatkan struktur, konten, dan pengoperasian situs web;",
+            "mengidentifikasi masalah teknis."
+          ],
+          "outro": "Data tidak digunakan untuk pengambilan keputusan otomatis yang menimbulkan akibat hukum atau dampak signifikan serupa bagi pengguna."
+        },
+        "legalBasis": {
+          "title": "6. Dasar hukum pemrosesan",
+          "intro": "Tergantung pada sifat data dan hukum yang berlaku, pemrosesan dapat dilakukan:",
+          "items": [
+            "berdasarkan persetujuan pengguna;",
+            "untuk memastikan keamanan dan pengoperasian teknis situs web;",
+            "berdasarkan kepentingan yang sah dalam memelihara dan meningkatkan situs web, jika dasar hukum tersebut diizinkan oleh hukum;",
+            "jika pemrosesan diperlukan untuk memenuhi persyaratan hukum."
+          ],
+          "outro": "Jika pemrosesan didasarkan pada persetujuan, pengguna dapat menarik persetujuan tersebut kapan saja."
+        },
+        "thirdParties": {
+          "title": "7. Pembagian data dengan pihak ketiga",
+          "paragraphs": [
+            "Data dapat dibagikan kepada penyedia layanan teknis yang digunakan untuk pengoperasian situs web dan keperluan analitik.",
+            "Secara khusus, data dapat diproses oleh Google sehubungan dengan penggunaan Google Analytics.",
+            "Beberapa penyedia layanan dapat memproses data di luar negara tempat tinggal pengguna, termasuk di luar Wilayah Ekonomi Eropa.",
+            "Dalam kasus tersebut, pemrosesan dan pemindahan data dilakukan menggunakan mekanisme perlindungan yang ditetapkan oleh hukum yang berlaku."
+          ]
+        },
+        "retention": {
+          "title": "8. Periode penyimpanan data",
+          "paragraphs": [
+            "Data tingkat pengguna dan tingkat peristiwa yang dikumpulkan melalui Google Analytics disimpan selama 14 bulan sesuai dengan pengaturan Google Analytics.",
+            "Setelah periode penyimpanan yang berlaku berakhir, data dihapus atau tidak lagi tersedia pada tingkat pengguna dan peristiwa individual sesuai dengan ketentuan Google Analytics.",
+            "Beberapa data statistik agregat dapat disimpan lebih lama."
+          ]
+        },
+        "rights": {
+          "title": "9. Hak pengguna",
+          "paragraphs": [
+            "Tergantung pada hukum yang berlaku dan sifat pemrosesan data pribadi, pengguna mungkin memiliki hak untuk mengakses, memperbaiki atau menghapus data mereka, membatasi pemrosesan, menolak pemrosesan, dan menarik persetujuan yang sebelumnya diberikan.",
+            "Untuk menggunakan hak-hak tersebut, pengguna dapat menghubungi saya melalui informasi kontak yang tercantum di situs web. Setiap permintaan akan dipertimbangkan dengan memperhatikan sifat data yang diproses dan persyaratan hukum yang berlaku.",
+            "Karena situs web tidak memerlukan pendaftaran dan tidak menyimpan profil pengguna, dalam beberapa kasus data analitik mungkin tidak dapat dikaitkan dengan individu tertentu tanpa informasi tambahan."
+          ]
+        },
+        "externalLinks": {
+          "title": "10. Tautan ke situs web dan layanan pihak ketiga",
+          "paragraphs": [
+            "Situs web dapat berisi tautan ke situs web dan layanan pihak ketiga, misalnya Google Play.",
+            "Saat mengikuti tautan ke sumber daya pihak ketiga, pemrosesan data diatur oleh kebijakan privasi dan ketentuan layanan terkait.",
+            "Saya tidak mengendalikan pemrosesan data yang dilakukan oleh situs web pihak ketiga setelah pengguna meninggalkan situs ini."
+          ]
+        },
+        "changes": {
+          "title": "11. Perubahan terhadap Kebijakan Privasi ini",
+          "paragraphs": [
+            "Kebijakan Privasi ini dapat diperbarui sehubungan dengan perubahan fungsi situs web, layanan yang digunakan, atau persyaratan hukum.",
+            "Versi terbaru dari Kebijakan ini selalu dipublikasikan di halaman ini.",
+            "Jika di masa mendatang situs web mulai mengumpulkan data pribadi tambahan, seperti alamat email, Kebijakan Privasi ini akan diperbarui sebelum pemrosesan tersebut dimulai."
+          ]
+        }
+      }
     }
   },
   "apps": {
     "sixJarsFinance": {
       "privacy": {
+        "privacyPolicy": "Kebijakan Privasi 6 Jars Finance",
         "lastUpdated": "03.07.2026",
         "metaDescription": "Kebijakan Privasi untuk aplikasi Artem D Apps.",
         "sections": {
