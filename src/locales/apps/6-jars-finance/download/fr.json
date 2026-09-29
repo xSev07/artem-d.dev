@@ -1,9 +1,9 @@
 {
-  "title": "6 Jars Finance — budget avec la méthode des six enveloppes",
-  "metaDescription": "Répartissez votre salaire entre les dépenses du quotidien, l'épargne et vos objectifs financiers avant de commencer à le dépenser.",
+  "title": "6 Jars Finance — six enveloppes, règle 50/30/20 et méthode des enveloppes",
+  "metaDescription": "Répartissez votre salaire entre les dépenses du quotidien, l'épargne et vos objectifs financiers avant de commencer à le dépenser. Utilisez la méthode des six enveloppes, la règle 50/30/20, la méthode des enveloppes ou votre propre système.",
   "hero": {
     "title": "Gardez le contrôle sur vos dépenses d'aujourd'hui et avancez plus sereinement vers demain",
-    "lead": "6 Jars Finance vous aide à répartir votre salaire à l'avance : vous savez combien vous pouvez dépenser dans les cafés et pour vos loisirs, mettre de côté pour des vacances ou un achat important et constituer progressivement une réserve pour les dépenses imprévues.",
+    "lead": "6 Jars Finance vous aide à répartir votre salaire à l'avance : vous savez combien vous pouvez dépenser dans les cafés et pour vos loisirs, mettre de côté pour des vacances ou un achat important et constituer progressivement une réserve pour les dépenses imprévues. Vous pouvez utiliser la méthode des six enveloppes, la règle 50/30/20, la méthode des enveloppes ou créer votre propre système.",
     "screenshotAlt": "Écran d'accueil de 6 Jars Finance avec six enveloppes et leurs soldes"
   },
   "benefits": [
@@ -26,19 +26,23 @@
       "Je m'appelle Artem D. Je travaille professionnellement dans le développement logiciel depuis 2017 et j'ai créé 6 Jars Finance.",
       "J'utilise la méthode des six enveloppes depuis plus de 10 ans. Grâce à elle, je n'ai pas besoin de me demander à chaque fois si je peux m'acheter un jeu de société ou aller au café, si j'aurai assez d'argent pour partir en vacances ou si je pourrai payer mon loyer à temps en cas de retard de salaire.",
       "Au fil des années, j'ai essayé différentes applications basées sur la méthode des six enveloppes. Ce qui m'agaçait le plus, c'est que le nombre d'enveloppes était toujours strictement limité à six. Il était impossible d'en ajouter une septième ou de supprimer celles dont je n'avais pas besoin.",
-      "C'est pour cela que j'ai créé 6 Jars Finance, où le système d'enveloppes peut évoluer avec vos changements de situation et de priorités financières. J'utilise moi-même régulièrement l'application, donc je continue à ajouter de nouvelles fonctionnalités et à la rendre plus pratique."
+      "C'est pour cela que j'ai créé 6 Jars Finance, où le système d'enveloppes peut évoluer avec vos changements de situation et de priorités financières. Avec le temps, l'application a évolué pour prendre en charge non seulement la méthode des six enveloppes, mais aussi la règle 50/30/20, la méthode des enveloppes et des systèmes de répartition personnalisés. J'utilise moi-même régulièrement l'application, donc je continue à ajouter de nouvelles fonctionnalités et à la rendre plus pratique."
     ]
   },
   "faq": {
     "title": "Questions fréquentes",
     "items": [
       {
-        "question": "Faut-il suivre strictement la répartition classique entre six enveloppes ?",
-        "answer": "Non. La répartition classique est un point de départ prêt à l'emploi, pas un ensemble de règles obligatoires."
+        "question": "Quelles méthodes de budgétisation puis-je utiliser ?",
+        "answer": "Vous pouvez utiliser la méthode des six enveloppes, la règle 50/30/20, la méthode des enveloppes ou créer votre propre système de répartition."
+      },
+      {
+        "question": "Dois-je suivre strictement une répartition prédéfinie ?",
+        "answer": "Non. Toute répartition prédéfinie est un point de départ, pas un ensemble de règles obligatoires."
       },
       {
         "question": "Puis-je adapter l'application à mes besoins ?",
-        "answer": "Oui. Vous pouvez renommer les six enveloppes de base, supprimer celles dont vous n'avez pas besoin et choisir d'autres pourcentages. Vous pouvez également créer des enveloppes supplémentaires si nécessaire."
+        "answer": "Oui. Vous pouvez renommer les enveloppes et les catégories, supprimer celles dont vous n'avez pas besoin et choisir d'autres pourcentages. Vous pouvez également en créer d'autres si nécessaire."
       },
       {
         "question": "Dois-je enregistrer chaque achat séparément ?",
@@ -55,12 +59,12 @@
     ]
   },
   "guide": {
-    "title": "Vous voulez mieux comprendre la méthode ?",
-    "text": "Si vous doutez de pouvoir appliquer la méthode des six enveloppes ou si vous ne comprenez pas encore parfaitement son fonctionnement, consultez le guide détaillé. J'y explique, à l'aide d'exemples concrets et de mon expérience personnelle, comment utiliser la méthode dans la vie quotidienne.",
-    "button": "En savoir plus sur la méthode"
+    "title": "Quelle méthode de budgétisation choisir ?",
+    "text": "Si vous ne savez pas quelle approche vous convient le mieux, comparez la méthode des six enveloppes, la règle 50/30/20 et la méthode des enveloppes. L'article explique les principales différences entre elles et montre comment chaque méthode fonctionne dans la pratique.",
+    "button": "Comparer les méthodes"
   },
   "cta": {
-    "title": "Commencez à utiliser la méthode des six enveloppes",
+    "title": "Commencez à répartir votre argent avec un système qui vous convient",
     "text": "Gratuit et sans publicité"
   },
   "modal": {

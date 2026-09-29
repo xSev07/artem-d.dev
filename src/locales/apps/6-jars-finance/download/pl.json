@@ -1,9 +1,9 @@
 {
-  "title": "6 Jars Finance — budżet metodą sześciu słoików",
-  "metaDescription": "Podziel swoją pensję między codzienne wydatki, oszczędności i cele finansowe, zanim zaczniesz ją wydawać.",
+  "title": "6 Jars Finance — sześć słoików, 50/30/20 i metoda kopertowa",
+  "metaDescription": "Podziel swoją pensję między codzienne wydatki, oszczędności i cele finansowe, zanim zaczniesz ją wydawać. Korzystaj z metody sześciu słoików, zasady 50/30/20, metody kopertowej lub własnego schematu.",
   "hero": {
     "title": "Kontrola nad bieżącymi wydatkami i spokój o przyszłość",
-    "lead": "6 Jars Finance pomaga z góry podzielić pensję, aby wiedzieć, ile możesz wydać na kawiarnie i rozrywkę, odłożyć pieniądze na wakacje lub większy zakup oraz stopniowo zbudować rezerwę na nieprzewidziane wydatki.",
+    "lead": "6 Jars Finance pomaga z góry podzielić pensję, aby wiedzieć, ile możesz wydać na kawiarnie i rozrywkę, odłożyć pieniądze na wakacje lub większy zakup oraz stopniowo zbudować rezerwę na nieprzewidziane wydatki. Możesz korzystać z metody sześciu słoików, zasady 50/30/20, metody kopertowej lub stworzyć własny schemat.",
     "screenshotAlt": "Ekran główny aplikacji 6 Jars Finance z sześcioma słoikami i ich saldami"
   },
   "benefits": [
@@ -26,19 +26,23 @@
       "Nazywam się Artem D. Od 2017 roku zawodowo zajmuję się tworzeniem oprogramowania i stworzyłem 6 Jars Finance.",
       "Z metody sześciu słoików korzystam od ponad 10 lat. Dzięki niej nie muszę za każdym razem zastanawiać się, czy mogę sobie pozwolić na nową grę planszową lub wyjście do kawiarni, czy wystarczy mi pieniędzy na wakacje ani czy będę w stanie na czas zapłacić czynsz, jeśli wypłata się opóźni.",
       "Przez te lata wypróbowałem różne aplikacje oparte na metodzie sześciu słoików. Najbardziej irytowało mnie to, że liczba słoików zawsze była sztywno ograniczona do sześciu. Nie można było dodać siódmego słoika ani usunąć niepotrzebnego.",
-      "Dlatego stworzyłem 6 Jars Finance, w którym system słoików można dostosowywać wraz ze zmianą sytuacji życiowej i priorytetów finansowych. Sam regularnie korzystam z aplikacji, dlatego nadal dodaję nowe funkcje i poprawiam jej wygodę."
+      "Dlatego stworzyłem 6 Jars Finance, w którym system słoików można dostosowywać wraz ze zmianą sytuacji życiowej i priorytetów finansowych. Z czasem aplikacja zaczęła obsługiwać nie tylko metodę sześciu słoików, ale także zasadę 50/30/20, metodę kopertową i własne schematy podziału pieniędzy. Sam regularnie korzystam z aplikacji, dlatego nadal dodaję nowe funkcje i poprawiam jej wygodę."
     ]
   },
   "faq": {
     "title": "Najczęściej zadawane pytania",
     "items": [
       {
-        "question": "Czy trzeba ściśle trzymać się klasycznego podziału na sześć słoików?",
-        "answer": "Nie. Klasyczny schemat to gotowy punkt wyjścia, a nie obowiązkowy zestaw zasad."
+        "question": "Z jakich metod budżetowania mogę korzystać?",
+        "answer": "Możesz korzystać z metody sześciu słoików, zasady 50/30/20, metody kopertowej lub stworzyć własny schemat podziału pieniędzy."
+      },
+      {
+        "question": "Czy trzeba ściśle trzymać się gotowego schematu?",
+        "answer": "Nie. Każdy gotowy schemat to punkt wyjścia, a nie obowiązkowy zestaw zasad."
       },
       {
         "question": "Czy mogę dostosować aplikację do swoich potrzeb?",
-        "answer": "Tak. Możesz zmienić nazwy sześciu podstawowych słoików, usunąć te, których nie potrzebujesz, i ustawić inne wartości procentowe. W razie potrzeby możesz też tworzyć dodatkowe słoiki."
+        "answer": "Tak. Możesz zmieniać nazwy słoików i kategorii, usuwać te, których nie potrzebujesz, oraz ustawiać inne wartości procentowe. W razie potrzeby możesz też tworzyć dodatkowe."
       },
       {
         "question": "Czy muszę zapisywać każdy zakup osobno?",
@@ -55,12 +59,12 @@
     ]
   },
   "guide": {
-    "title": "Chcesz lepiej zrozumieć tę metodę?",
-    "text": "Jeśli nie masz pewności, czy metoda sześciu słoików sprawdzi się u Ciebie, albo nie do końca rozumiesz, jak działa, przeczytaj szczegółowy poradnik. Na praktycznych przykładach i na podstawie własnego doświadczenia wyjaśniam w nim, jak stosować tę metodę w codziennym życiu.",
-    "button": "Więcej o metodzie"
+    "title": "Którą metodę budżetowania wybrać?",
+    "text": "Jeśli nie masz pewności, które podejście najlepiej do Ciebie pasuje, porównaj metodę sześciu słoików, zasadę 50/30/20 i metodę kopertową. W artykule opisano najważniejsze różnice między nimi i pokazano, jak każda z tych metod działa w praktyce.",
+    "button": "Porównaj metody"
   },
   "cta": {
-    "title": "Zacznij korzystać z metody sześciu słoików",
+    "title": "Zacznij dzielić pieniądze według schematu, który Ci odpowiada",
     "text": "Bezpłatnie i bez reklam"
   },
   "modal": {

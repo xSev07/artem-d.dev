@@ -1,9 +1,9 @@
 {
-  "title": "6 Jars Finance — presupuesto con el método de los seis fondos",
-  "metaDescription": "Distribuye tu sueldo entre gastos cotidianos, ahorros y objetivos financieros antes de empezar a gastarlo.",
+  "title": "6 Jars Finance — seis fondos, 50/30/20 y método de sobres",
+  "metaDescription": "Distribuye tu sueldo entre gastos cotidianos, ahorros y objetivos financieros antes de empezar a gastarlo. Utiliza el método de los seis fondos, la regla 50/30/20, el método de sobres o tu propio sistema.",
   "hero": {
     "title": "Controla tus gastos de hoy y afronta el futuro con más tranquilidad",
-    "lead": "6 Jars Finance te ayuda a distribuir tu sueldo por adelantado: sabes cuánto puedes gastar en cafeterías y ocio, apartar dinero para unas vacaciones o una compra importante y crear poco a poco una reserva para gastos imprevistos.",
+    "lead": "6 Jars Finance te ayuda a distribuir tu sueldo por adelantado: sabes cuánto puedes gastar en cafeterías y ocio, apartar dinero para unas vacaciones o una compra importante y crear poco a poco una reserva para gastos imprevistos. Puedes utilizar el método de los seis fondos, la regla 50/30/20, el método de sobres o crear tu propio sistema.",
     "screenshotAlt": "Pantalla principal de 6 Jars Finance con seis fondos y sus saldos"
   },
   "benefits": [
@@ -26,19 +26,23 @@
       "Me llamo Artem D. Trabajo profesionalmente en desarrollo de software desde 2017 y creé 6 Jars Finance.",
       "Llevo más de 10 años utilizando el método de los seis fondos. Gracias a él, no tengo que preguntarme cada vez si puedo permitirme comprar un juego de mesa nuevo o ir a una cafetería, si tendré suficiente dinero para unas vacaciones o si podré pagar el alquiler a tiempo si se retrasa mi sueldo.",
       "A lo largo de los años probé distintas aplicaciones basadas en el método de los seis fondos. Lo que más me molestaba era que el número de fondos siempre estuviera estrictamente limitado a seis. No se podía añadir un séptimo fondo ni eliminar uno que no fuera necesario.",
-      "Por eso creé 6 Jars Finance, donde puedes adaptar el sistema de fondos a medida que cambian tus circunstancias y tus prioridades financieras. Yo mismo utilizo la aplicación con regularidad, así que sigo añadiendo nuevas funciones y mejorando su facilidad de uso."
+      "Por eso creé 6 Jars Finance, donde puedes adaptar el sistema de fondos a medida que cambian tus circunstancias y tus prioridades financieras. Con el tiempo, la aplicación pasó a admitir no solo el método de los seis fondos, sino también la regla 50/30/20, el método de sobres y sistemas de distribución personalizados. Yo mismo utilizo la aplicación con regularidad, así que sigo añadiendo nuevas funciones y mejorando su facilidad de uso."
     ]
   },
   "faq": {
     "title": "Preguntas frecuentes",
     "items": [
       {
-        "question": "¿Tengo que seguir estrictamente la distribución clásica entre seis fondos?",
-        "answer": "No. La distribución clásica es un punto de partida ya preparado, no un conjunto de reglas obligatorias."
+        "question": "¿Qué métodos de presupuesto puedo utilizar?",
+        "answer": "Puedes utilizar el método de los seis fondos, la regla 50/30/20, el método de sobres o crear tu propio sistema de distribución."
+      },
+      {
+        "question": "¿Tengo que seguir estrictamente una distribución predefinida?",
+        "answer": "No. Cualquier distribución predefinida es un punto de partida, no un conjunto de reglas obligatorias."
       },
       {
         "question": "¿Puedo adaptar la aplicación a mis necesidades?",
-        "answer": "Sí. Puedes cambiar el nombre de los seis fondos básicos, eliminar los que no necesites y elegir otros porcentajes. Si lo necesitas, también puedes crear fondos adicionales."
+        "answer": "Sí. Puedes cambiar el nombre de los fondos y categorías, eliminar los que no necesites y elegir otros porcentajes. Si lo necesitas, también puedes crear otros adicionales."
       },
       {
         "question": "¿Tengo que registrar cada compra por separado?",
@@ -55,12 +59,12 @@
     ]
   },
   "guide": {
-    "title": "¿Quieres entender mejor el método?",
-    "text": "Si no estás seguro de poder aplicar el método de los seis fondos o todavía no entiendes del todo cómo funciona, consulta la guía detallada. En ella explico, con ejemplos prácticos y basándome en mi propia experiencia, cómo utilizar el método en la vida real.",
-    "button": "Más información sobre el método"
+    "title": "¿Qué método de presupuesto elegir?",
+    "text": "Si no tienes claro qué enfoque se adapta mejor a ti, compara el método de los seis fondos, la regla 50/30/20 y el método de sobres. El artículo explica las principales diferencias entre ellos y muestra cómo funciona cada método en la práctica.",
+    "button": "Comparar métodos"
   },
   "cta": {
-    "title": "Empieza a utilizar el método de los seis fondos",
+    "title": "Empieza a distribuir tu dinero con un sistema que se adapte a ti",
     "text": "Gratis y sin publicidad"
   },
   "modal": {

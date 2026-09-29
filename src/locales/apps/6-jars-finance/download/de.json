@@ -1,9 +1,9 @@
 {
-  "title": "6 Jars Finance — Budget nach der Sechs-Töpfe-Methode",
-  "metaDescription": "Teilen Sie Ihr Gehalt auf alltägliche Ausgaben, Ersparnisse und finanzielle Ziele auf, bevor Sie anfangen, Geld auszugeben.",
+  "title": "6 Jars Finance — Sechs Töpfe, 50/30/20 und Umschlagmethode",
+  "metaDescription": "Teilen Sie Ihr Gehalt auf alltägliche Ausgaben, Ersparnisse und finanzielle Ziele auf, bevor Sie anfangen, Geld auszugeben. Nutzen Sie die Sechs-Töpfe-Methode, die 50/30/20-Regel, die Umschlagmethode oder Ihr eigenes System.",
   "hero": {
     "title": "Behalten Sie Ihre aktuellen Ausgaben im Griff und blicken Sie sicherer in die Zukunft",
-    "lead": "6 Jars Finance hilft Ihnen, Ihr Gehalt im Voraus aufzuteilen: Sie sehen, wie viel Sie für Cafés und Freizeit ausgeben können, legen Geld für einen Urlaub oder eine größere Anschaffung zurück und bauen nach und nach eine Reserve für unerwartete Ausgaben auf.",
+    "lead": "6 Jars Finance hilft Ihnen, Ihr Gehalt im Voraus aufzuteilen: Sie sehen, wie viel Sie für Cafés und Freizeit ausgeben können, legen Geld für einen Urlaub oder eine größere Anschaffung zurück und bauen nach und nach eine Reserve für unerwartete Ausgaben auf. Sie können die Sechs-Töpfe-Methode, die 50/30/20-Regel, die Umschlagmethode oder ein eigenes System verwenden.",
     "screenshotAlt": "Startbildschirm von 6 Jars Finance mit sechs Töpfen und ihren Guthaben"
   },
   "benefits": [
@@ -26,19 +26,23 @@
       "Mein Name ist Artem D. Ich arbeite seit 2017 professionell als Softwareentwickler und habe 6 Jars Finance entwickelt.",
       "Ich nutze die Sechs-Töpfe-Methode seit mehr als 10 Jahren. Dank dieser Methode muss ich nicht jedes Mal überlegen, ob ich mir ein neues Brettspiel oder einen Cafébesuch leisten kann, ob das Geld für einen Urlaub reicht oder ob ich bei einer verspäteten Gehaltszahlung die Miete rechtzeitig bezahlen kann.",
       "Im Laufe der Jahre habe ich verschiedene Apps für die Sechs-Töpfe-Methode ausprobiert. Am meisten störte mich, dass die Anzahl der Töpfe immer strikt auf sechs begrenzt war. Man konnte weder einen siebten Topf hinzufügen noch einen nicht benötigten entfernen.",
-      "Deshalb habe ich 6 Jars Finance entwickelt. Hier lässt sich das System der Töpfe an veränderte Lebensumstände und finanzielle Prioritäten anpassen. Ich nutze die App selbst regelmäßig und füge deshalb weiterhin neue Funktionen hinzu und verbessere ihre Bedienung."
+      "Deshalb habe ich 6 Jars Finance entwickelt. Hier lässt sich das System der Töpfe an veränderte Lebensumstände und finanzielle Prioritäten anpassen. Mit der Zeit unterstützt die App nicht nur die Sechs-Töpfe-Methode, sondern auch die 50/30/20-Regel, die Umschlagmethode und eigene Aufteilungssysteme. Ich nutze die App selbst regelmäßig und füge deshalb weiterhin neue Funktionen hinzu und verbessere ihre Bedienung."
     ]
   },
   "faq": {
     "title": "Häufige Fragen",
     "items": [
       {
-        "question": "Muss ich mich genau an die klassische Aufteilung auf sechs Töpfe halten?",
-        "answer": "Nein. Die klassische Aufteilung ist ein fertiger Ausgangspunkt und kein verbindliches Regelwerk."
+        "question": "Welche Budgetierungsmethoden kann ich verwenden?",
+        "answer": "Sie können die Sechs-Töpfe-Methode, die 50/30/20-Regel, die Umschlagmethode oder ein eigenes System zur Geldaufteilung verwenden."
+      },
+      {
+        "question": "Muss ich mich genau an eine vorgegebene Aufteilung halten?",
+        "answer": "Nein. Jede vorgegebene Aufteilung ist ein Ausgangspunkt und kein verbindliches Regelwerk."
       },
       {
         "question": "Kann ich die App an meine Bedürfnisse anpassen?",
-        "answer": "Ja. Sie können die sechs standardmäßigen Töpfe umbenennen, nicht benötigte entfernen und andere Prozentsätze festlegen. Bei Bedarf können Sie auch zusätzliche Töpfe erstellen."
+        "answer": "Ja. Sie können Töpfe und Kategorien umbenennen, nicht benötigte entfernen und andere Prozentsätze festlegen. Bei Bedarf können Sie auch zusätzliche erstellen."
       },
       {
         "question": "Muss ich jeden Einkauf einzeln erfassen?",
@@ -55,12 +59,12 @@
     ]
   },
   "guide": {
-    "title": "Möchten Sie die Methode genauer verstehen?",
-    "text": "Wenn Sie unsicher sind, ob Sie die Sechs-Töpfe-Methode anwenden können, oder noch nicht genau verstehen, wie sie funktioniert, lesen Sie den ausführlichen Leitfaden. Darin erkläre ich anhand praktischer Beispiele und meiner eigenen Erfahrung, wie sich die Methode im Alltag anwenden lässt.",
-    "button": "Mehr über die Methode"
+    "title": "Welche Budgetierungsmethode passt zu Ihnen?",
+    "text": "Wenn Sie nicht sicher sind, welcher Ansatz am besten zu Ihnen passt, vergleichen Sie die Sechs-Töpfe-Methode, die 50/30/20-Regel und die Umschlagmethode. Der Artikel erklärt die wichtigsten Unterschiede und zeigt, wie die einzelnen Methoden in der Praxis funktionieren.",
+    "button": "Methoden vergleichen"
   },
   "cta": {
-    "title": "Beginnen Sie mit der Sechs-Töpfe-Methode",
+    "title": "Beginnen Sie, Ihr Geld nach einem System aufzuteilen, das zu Ihnen passt",
     "text": "Kostenlos und ohne Werbung"
   },
   "modal": {

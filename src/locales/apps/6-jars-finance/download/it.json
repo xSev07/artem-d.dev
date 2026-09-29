@@ -1,9 +1,9 @@
 {
-  "title": "6 Jars Finance — budget con il metodo dei sei fondi",
-  "metaDescription": "Dividi lo stipendio tra spese quotidiane, risparmi e obiettivi finanziari prima di iniziare a spenderlo.",
+  "title": "6 Jars Finance — sei fondi, regola 50/30/20 e metodo delle buste",
+  "metaDescription": "Dividi lo stipendio tra spese quotidiane, risparmi e obiettivi finanziari prima di iniziare a spenderlo. Usa il metodo dei sei fondi, la regola 50/30/20, il metodo delle buste o un sistema personalizzato.",
   "hero": {
     "title": "Tieni sotto controllo le spese di oggi e affronta il futuro con più tranquillità",
-    "lead": "6 Jars Finance ti aiuta a dividere lo stipendio in anticipo: sai quanto puoi spendere per bar e svago, puoi mettere da parte denaro per una vacanza o un acquisto importante e creare gradualmente una riserva per le spese impreviste.",
+    "lead": "6 Jars Finance ti aiuta a dividere lo stipendio in anticipo: sai quanto puoi spendere per bar e svago, puoi mettere da parte denaro per una vacanza o un acquisto importante e creare gradualmente una riserva per le spese impreviste. Puoi usare il metodo dei sei fondi, la regola 50/30/20, il metodo delle buste o creare un sistema personalizzato.",
     "screenshotAlt": "Schermata principale di 6 Jars Finance con sei fondi e i relativi saldi"
   },
   "benefits": [
@@ -26,19 +26,23 @@
       "Mi chiamo Artem D. Lavoro professionalmente nello sviluppo software dal 2017 e ho creato 6 Jars Finance.",
       "Uso il metodo dei sei fondi da più di 10 anni. Grazie a questo metodo non devo chiedermi ogni volta se posso permettermi un nuovo gioco da tavolo o andare al bar, se avrò abbastanza soldi per una vacanza o se riuscirò a pagare l'affitto in tempo in caso di ritardo dello stipendio.",
       "Nel corso degli anni ho provato diverse app basate sul metodo dei sei fondi. Quello che mi infastidiva di più era che il numero di fondi fosse sempre rigidamente limitato a sei. Non era possibile aggiungerne un settimo o eliminare quelli inutili.",
-      "Per questo ho creato 6 Jars Finance, dove il sistema dei fondi può essere adattato quando cambiano le circostanze della vita e le priorità finanziarie. Uso regolarmente l'app in prima persona, quindi continuo ad aggiungere nuove funzionalità e a renderla più comoda da usare."
+      "Per questo ho creato 6 Jars Finance, dove il sistema dei fondi può essere adattato quando cambiano le circostanze della vita e le priorità finanziarie. Nel tempo, l'app ha iniziato a supportare non solo il metodo dei sei fondi, ma anche la regola 50/30/20, il metodo delle buste e sistemi di suddivisione personalizzati. Uso regolarmente l'app in prima persona, quindi continuo ad aggiungere nuove funzionalità e a renderla più comoda da usare."
     ]
   },
   "faq": {
     "title": "Domande frequenti",
     "items": [
       {
-        "question": "Devo seguire rigorosamente la suddivisione classica in sei fondi?",
-        "answer": "No. La suddivisione classica è un punto di partenza già pronto, non un insieme di regole obbligatorie."
+        "question": "Quali metodi di budgeting posso utilizzare?",
+        "answer": "Puoi usare il metodo dei sei fondi, la regola 50/30/20, il metodo delle buste o creare un sistema di suddivisione personalizzato."
+      },
+      {
+        "question": "Devo seguire rigorosamente una suddivisione predefinita?",
+        "answer": "No. Qualsiasi suddivisione predefinita è un punto di partenza, non un insieme di regole obbligatorie."
       },
       {
         "question": "Posso personalizzare l'app in base alle mie esigenze?",
-        "answer": "Sì. Puoi rinominare i sei fondi di base, eliminare quelli che non ti servono e scegliere percentuali diverse. Se necessario, puoi anche creare fondi aggiuntivi."
+        "answer": "Sì. Puoi rinominare fondi e categorie, eliminare quelli che non ti servono e scegliere percentuali diverse. Se necessario, puoi anche crearne di nuovi."
       },
       {
         "question": "Devo registrare ogni acquisto separatamente?",
@@ -55,12 +59,12 @@
     ]
   },
   "guide": {
-    "title": "Vuoi capire meglio il metodo?",
-    "text": "Se non sei sicuro di riuscire ad applicare il metodo dei sei fondi o non hai ancora capito bene come funziona, leggi la guida dettagliata. Al suo interno spiego, con esempi pratici e sulla base della mia esperienza personale, come utilizzare il metodo nella vita reale.",
-    "button": "Scopri di più sul metodo"
+    "title": "Quale metodo di budgeting scegliere?",
+    "text": "Se non sei sicuro di quale approccio sia più adatto a te, confronta il metodo dei sei fondi, la regola 50/30/20 e il metodo delle buste. L'articolo spiega le principali differenze tra questi approcci e mostra come funziona ciascun metodo nella pratica.",
+    "button": "Confronta i metodi"
   },
   "cta": {
-    "title": "Inizia a usare il metodo dei sei fondi",
+    "title": "Inizia a distribuire il tuo denaro con un sistema adatto a te",
     "text": "Gratis e senza pubblicità"
   },
   "modal": {
