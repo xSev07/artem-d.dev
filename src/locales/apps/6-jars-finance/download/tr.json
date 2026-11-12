@@ -70,6 +70,20 @@
   "modal": {
     "title": "Uygulama henüz App Store'da mevcut değil",
     "text": "iPhone sürümü şu anda geliştiriliyor.",
-    "button": "Anladım"
+    "button": "Anladım",
+    "waitlist": {
+      "title": "iOS sürümü çıktığında haberdar olun",
+      "description": "6 Jars Finance yakında App Store'da olacak. E-posta adresinizi bırakın, uygulama kullanıma sunulduğunda sizi bilgilendirelim.",
+      "emailLabel": "E-posta",
+      "emailPlaceholder": "siz@ornek.com",
+      "subscribeButton": "Bana haber ver",
+      "sending": "Gönderiliyor...",
+      "successTitle": "E-postanızı kontrol edin",
+      "successDescription": "E-posta adresiniz henüz doğrulanmadıysa iOS bekleme listesine katılmanız için bir doğrulama bağlantısı alacaksınız.",
+      "successButton": "Anladım",
+      "closeLabel": "Kapat",
+      "errorInvalidEmail": "Geçerli bir e-posta adresi girin.",
+      "errorGeneric": "Bir sorun oluştu. Lütfen daha sonra tekrar deneyin."
+    }
   }
 }

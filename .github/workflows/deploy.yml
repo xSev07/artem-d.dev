@@ -26,6 +26,8 @@ jobs:
 
       - run: npm ci
       - run: npm run build
+        env:
+          API_BASE_URL: https://api.artem-d.dev
 
       - uses: actions/upload-pages-artifact@v3
         with:

@@ -70,6 +70,20 @@
   "modal": {
     "title": "Die App ist noch nicht im App Store verfügbar",
     "text": "Die iPhone-Version befindet sich in Entwicklung.",
-    "button": "Verstanden"
+    "button": "Verstanden",
+    "waitlist": {
+      "title": "Zum iOS-Start benachrichtigt werden",
+      "description": "6 Jars Finance kommt bald in den App Store. Hinterlasse deine E-Mail-Adresse und wir informieren dich, sobald die App verfügbar ist.",
+      "emailLabel": "E-Mail",
+      "emailPlaceholder": "du@beispiel.de",
+      "subscribeButton": "Benachrichtige mich",
+      "sending": "Wird gesendet...",
+      "successTitle": "Prüfe deine E-Mails",
+      "successDescription": "Falls deine E-Mail-Adresse noch nicht bestätigt ist, erhältst du einen Bestätigungslink, um dich für die iOS-Warteliste anzumelden.",
+      "successButton": "Verstanden",
+      "closeLabel": "Schließen",
+      "errorInvalidEmail": "Gib eine gültige E-Mail-Adresse ein.",
+      "errorGeneric": "Etwas ist schiefgelaufen. Bitte versuche es später erneut."
+    }
   }
 }

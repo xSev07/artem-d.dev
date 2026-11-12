@@ -70,6 +70,20 @@
   "modal": {
     "title": "De app is nog niet beschikbaar in de App Store",
     "text": "De iPhone-versie is in ontwikkeling.",
-    "button": "Begrepen"
+    "button": "Begrepen",
+    "waitlist": {
+      "title": "Ontvang bericht bij de lancering op iOS",
+      "description": "6 Jars Finance komt binnenkort naar de App Store. Laat je e-mailadres achter en we laten het weten zodra de app beschikbaar is.",
+      "emailLabel": "E-mail",
+      "emailPlaceholder": "jij@voorbeeld.nl",
+      "subscribeButton": "Houd me op de hoogte",
+      "sending": "Verzenden...",
+      "successTitle": "Controleer je e-mail",
+      "successDescription": "Als je e-mailadres nog niet is bevestigd, ontvang je een bevestigingslink om je aan te melden voor de iOS-wachtlijst.",
+      "successButton": "Begrepen",
+      "closeLabel": "Sluiten",
+      "errorInvalidEmail": "Voer een geldig e-mailadres in.",
+      "errorGeneric": "Er is iets misgegaan. Probeer het later opnieuw."
+    }
   }
 }

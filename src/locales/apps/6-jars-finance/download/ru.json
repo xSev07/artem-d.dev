@@ -70,6 +70,20 @@
   "modal": {
     "title": "Приложение пока недоступно в App Store",
     "text": "Версия для iPhone находится в разработке.",
-    "button": "Понятно"
+    "button": "Понятно",
+    "waitlist": {
+      "title": "Узнайте о выходе версии для iOS",
+      "description": "6 Jars Finance скоро появится в App Store. Оставьте свой email, и мы сообщим, когда приложение станет доступно.",
+      "emailLabel": "Email",
+      "emailPlaceholder": "you@example.com",
+      "subscribeButton": "Уведомить меня",
+      "sending": "Отправка...",
+      "successTitle": "Проверьте почту",
+      "successDescription": "Если ваш email ещё не подтверждён, вы получите письмо со ссылкой для подтверждения записи в список ожидания iOS.",
+      "successButton": "Понятно",
+      "closeLabel": "Закрыть",
+      "errorInvalidEmail": "Введите корректный адрес электронной почты.",
+      "errorGeneric": "Не удалось отправить запрос. Попробуйте позже."
+    }
   }
 }
