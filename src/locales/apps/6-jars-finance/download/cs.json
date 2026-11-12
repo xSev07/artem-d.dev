@@ -70,6 +70,20 @@
   "modal": {
     "title": "Aplikace zatím není dostupná v App Store",
     "text": "Verze pro iPhone je ve vývoji.",
-    "button": "Rozumím"
+    "button": "Rozumím",
+    "waitlist": {
+      "title": "Nechte se upozornit na vydání pro iOS",
+      "description": "6 Jars Finance brzy dorazí do App Storu. Zadejte svůj e-mail a dáme vám vědět, až bude aplikace dostupná.",
+      "emailLabel": "E-mail",
+      "emailPlaceholder": "vas@email.cz",
+      "subscribeButton": "Upozornit mě",
+      "sending": "Odesílání...",
+      "successTitle": "Zkontrolujte svůj e-mail",
+      "successDescription": "Pokud vaše e-mailová adresa ještě není potvrzená, obdržíte potvrzovací odkaz pro připojení k čekací listině pro iOS.",
+      "successButton": "Rozumím",
+      "closeLabel": "Zavřít",
+      "errorInvalidEmail": "Zadejte platnou e-mailovou adresu.",
+      "errorGeneric": "Něco se pokazilo. Zkuste to prosím později."
+    }
   }
 }

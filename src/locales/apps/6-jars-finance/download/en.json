@@ -70,6 +70,20 @@
   "modal": {
     "title": "The app is not yet available on the App Store",
     "text": "The iPhone version is currently in development.",
-    "button": "Got it"
+    "button": "Got it",
+    "waitlist": {
+      "title": "Get notified when we launch on iOS",
+      "description": "6 Jars Finance is coming to the App Store. Leave your email and we'll let you know when it's available.",
+      "emailLabel": "Email",
+      "emailPlaceholder": "you@example.com",
+      "subscribeButton": "Notify me",
+      "sending": "Sending...",
+      "successTitle": "Check your email",
+      "successDescription": "If your email isn't already confirmed, you'll receive a confirmation link to join the iOS waitlist",
+      "successButton": "Got it",
+      "closeLabel": "Close",
+      "errorInvalidEmail": "Enter a valid email address.",
+      "errorGeneric": "Something went wrong. Please try again later."
+    }
   }
 }

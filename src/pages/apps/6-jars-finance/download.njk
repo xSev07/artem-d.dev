@@ -15,6 +15,7 @@ eleventyComputed:
 ---
 
 {% set d = "apps.sixJarsFinance.download" %}
+{% set waitlistSubscribeButton = (d ~ ".modal.waitlist.subscribeButton") | t(lang) %}
 {% set screenshotsPath = "articles/six-jars/screenshots" %}
 {% set playStoreUrl = "https://play.google.com/store/apps/details?id=com.artemd.jars_finance&utm_source=artem-d.dev&utm_campaign=website" %}
 
@@ -153,61 +154,74 @@ eleventyComputed:
   hidden
 >
   <div
-    class="modal"
+    class="modal{% if waitlistSubscribeButton %} modal--waitlist{% endif %}"
     role="dialog"
     aria-labelledby="app-store-modal-title"
     aria-modal="true"
   >
+    {% if waitlistSubscribeButton %}
+    <button
+      class="modal__close"
+      type="button"
+      data-close-app-store-modal
+      aria-label="{{ (d ~ '.modal.waitlist.closeLabel') | t(lang) }}"
+    >
+      <svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true">
+        <path fill="currentColor" d="M18.3 5.71a1 1 0 0 0-1.41 0L12 10.59 7.11 5.7A1 1 0 0 0 5.7 7.11L10.59 12l-4.89 4.89a1 1 0 1 0 1.41 1.41L12 13.41l4.89 4.89a1 1 0 0 0 1.41-1.41L13.41 12l4.89-4.89a1 1 0 0 0 0-1.4z"/>
+      </svg>
+    </button>
+    <div
+      class="modal__waitlist"
+      data-ios-waitlist
+      data-api-url="{{ site.apiBaseUrl }}/waitlist"
+      data-msg-invalid="{{ (d ~ '.modal.waitlist.errorInvalidEmail') | t(lang) }}"
+      data-msg-error="{{ (d ~ '.modal.waitlist.errorGeneric') | t(lang) }}"
+      data-msg-sending="{{ (d ~ '.modal.waitlist.sending') | t(lang) }}"
+    >
+      <div class="modal__waitlist-form-view" data-ios-waitlist-form-view>
+        <h2 class="modal__title" id="app-store-modal-title">{{ (d ~ ".modal.waitlist.title") | t(lang) }}</h2>
+        <p class="modal__text modal__text--waitlist">{{ (d ~ ".modal.waitlist.description") | t(lang) }}</p>
+        <form class="modal__form" data-ios-waitlist-form novalidate>
+          <label class="modal__field">
+            <span class="modal__field-label">{{ (d ~ ".modal.waitlist.emailLabel") | t(lang) }}</span>
+            <input
+              class="modal__input"
+              type="email"
+              name="email"
+              autocomplete="email"
+              inputmode="email"
+              required
+              placeholder="{{ (d ~ '.modal.waitlist.emailPlaceholder') | t(lang) }}"
+              data-ios-waitlist-email
+            />
+          </label>
+          <p class="modal__message modal__message--error" data-ios-waitlist-error hidden role="alert"></p>
+          <button class="button-primary modal__button-full" type="submit" data-ios-waitlist-submit data-label-default="{{ waitlistSubscribeButton }}">{{ waitlistSubscribeButton }}</button>
+        </form>
+      </div>
+      <div class="modal__waitlist-success" data-ios-waitlist-success hidden>
+        <div class="modal__waitlist-icon" aria-hidden="true">
+          <svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="36" cy="36" r="36" fill="var(--color-brand-soft)"/>
+            <path d="M18 26.5l18 12 18-12v19.5a2.5 2.5 0 0 1-2.5 2.5h-31a2.5 2.5 0 0 1-2.5-2.5V26.5z" stroke="var(--color-brand)" stroke-width="2" stroke-linejoin="round"/>
+            <path d="M18 26.5 36 38.5l18-12" stroke="var(--color-brand)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="50" cy="22" r="12" fill="var(--color-brand)"/>
+            <path d="M45.5 22.5 48.5 25.5l6.5-6.5" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <h2 class="modal__title modal__title--success">{{ (d ~ ".modal.waitlist.successTitle") | t(lang) }}</h2>
+        <p class="modal__text modal__text--success">{{ (d ~ ".modal.waitlist.successDescription") | t(lang) }}</p>
+        <button class="button-primary modal__button-full" type="button" data-close-app-store-modal>{{ (d ~ ".modal.waitlist.successButton") | t(lang) }}</button>
+      </div>
+    </div>
+    {% else %}
     <h2 class="modal__title" id="app-store-modal-title">{{ (d ~ ".modal.title") | t(lang) }}</h2>
     <p class="modal__text">{{ (d ~ ".modal.text") | t(lang) }}</p>
     <div class="modal__actions">
       <button class="button-primary" type="button" data-close-app-store-modal>{{ (d ~ ".modal.button") | t(lang) }}</button>
     </div>
+    {% endif %}
   </div>
 </div>
 
-<script>
-  document.addEventListener("DOMContentLoaded", () => {
-    const modal = document.getElementById("app-store-modal");
-
-    if (!modal) {
-      return;
-    }
-
-    const openButtons = document.querySelectorAll("[data-open-app-store-modal]");
-    const closeButton = modal.querySelector("[data-close-app-store-modal]");
-
-    const openModal = () => {
-      modal.hidden = false;
-      modal.setAttribute("aria-hidden", "false");
-      modal.classList.add("is-open");
-      document.body.style.overflow = "hidden";
-      closeButton?.focus();
-    };
-
-    const closeModal = () => {
-      modal.classList.remove("is-open");
-      modal.setAttribute("aria-hidden", "true");
-      document.body.style.overflow = "";
-      modal.hidden = true;
-    };
-
-    openButtons.forEach((button) => {
-      button.addEventListener("click", openModal);
-    });
-
-    closeButton?.addEventListener("click", closeModal);
-
-    modal.addEventListener("click", (event) => {
-      if (event.target === modal) {
-        closeModal();
-      }
-    });
-
-    document.addEventListener("keydown", (event) => {
-      if (event.key === "Escape" && modal.classList.contains("is-open")) {
-        closeModal();
-      }
-    });
-  });
-</script>
+<script src="/assets/js/ios-waitlist.js" defer></script>

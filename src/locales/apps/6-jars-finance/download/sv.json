@@ -70,6 +70,20 @@
   "modal": {
     "title": "Appen finns ännu inte i App Store",
     "text": "iPhone-versionen är under utveckling.",
-    "button": "Jag förstår"
+    "button": "Jag förstår",
+    "waitlist": {
+      "title": "Få ett meddelande när vi lanserar på iOS",
+      "description": "6 Jars Finance kommer snart till App Store. Ange din e-postadress så meddelar vi dig när appen finns tillgänglig.",
+      "emailLabel": "E-post",
+      "emailPlaceholder": "du@exempel.se",
+      "subscribeButton": "Meddela mig",
+      "sending": "Skickar...",
+      "successTitle": "Kolla din e-post",
+      "successDescription": "Om din e-postadress inte redan är bekräftad får du en bekräftelselänk för att gå med på väntelistan för iOS.",
+      "successButton": "Jag förstår",
+      "closeLabel": "Stäng",
+      "errorInvalidEmail": "Ange en giltig e-postadress.",
+      "errorGeneric": "Något gick fel. Försök igen senare."
+    }
   }
 }

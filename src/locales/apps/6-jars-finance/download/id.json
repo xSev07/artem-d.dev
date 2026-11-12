@@ -70,6 +70,20 @@
   "modal": {
     "title": "Aplikasi belum tersedia di App Store",
     "text": "Versi iPhone sedang dalam pengembangan.",
-    "button": "Mengerti"
+    "button": "Mengerti",
+    "waitlist": {
+      "title": "Dapatkan pemberitahuan saat kami meluncurkan aplikasi di iOS",
+      "description": "6 Jars Finance akan segera hadir di App Store. Masukkan email Anda dan kami akan memberi tahu Anda saat aplikasi tersedia.",
+      "emailLabel": "Email",
+      "emailPlaceholder": "anda@contoh.com",
+      "subscribeButton": "Beri tahu saya",
+      "sending": "Mengirim...",
+      "successTitle": "Periksa email Anda",
+      "successDescription": "Jika email Anda belum dikonfirmasi, Anda akan menerima tautan konfirmasi untuk bergabung dalam daftar tunggu iOS.",
+      "successButton": "Mengerti",
+      "closeLabel": "Tutup",
+      "errorInvalidEmail": "Masukkan alamat email yang valid.",
+      "errorGeneric": "Terjadi kesalahan. Silakan coba lagi nanti."
+    }
   }
 }

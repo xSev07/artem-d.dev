@@ -70,6 +70,20 @@
   "modal": {
     "title": "Aplicația nu este încă disponibilă în App Store",
     "text": "Versiunea pentru iPhone este în curs de dezvoltare.",
-    "button": "Am înțeles"
+    "button": "Am înțeles",
+    "waitlist": {
+      "title": "Primește o notificare la lansarea pe iOS",
+      "description": "6 Jars Finance va fi disponibil în curând în App Store. Lasă-ne adresa ta de e-mail și te vom anunța când aplicația va fi disponibilă.",
+      "emailLabel": "E-mail",
+      "emailPlaceholder": "tu@exemplu.ro",
+      "subscribeButton": "Anunță-mă",
+      "sending": "Se trimite...",
+      "successTitle": "Verifică-ți e-mailul",
+      "successDescription": "Dacă adresa ta de e-mail nu este încă confirmată, vei primi un link de confirmare pentru a te înscrie pe lista de așteptare iOS.",
+      "successButton": "Am înțeles",
+      "closeLabel": "Închide",
+      "errorInvalidEmail": "Introdu o adresă de e-mail validă.",
+      "errorGeneric": "Ceva nu a mers bine. Încearcă din nou mai târziu."
+    }
   }
 }
