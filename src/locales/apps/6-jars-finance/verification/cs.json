@@ -1,0 +1,13 @@
+{
+  "metaTitle": "Ověření e-mailu — 6 Jars Finance",
+  "metaDescription": "Potvrďte svůj e-mail a připojte se k čekací listině 6 Jars Finance pro iOS.",
+  "success": {
+    "title": "E-mail potvrzen",
+    "text": "Váš e-mail byl potvrzen. Dáme vám vědět, až bude 6 Jars Finance dostupné pro iOS."
+  },
+  "error": {
+    "title": "Ověření se nezdařilo",
+    "text": "Tento ověřovací odkaz je neplatný nebo jeho platnost vypršela."
+  },
+  "backButton": "Zpět na 6 Jars Finance"
+}

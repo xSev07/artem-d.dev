@@ -1,0 +1,13 @@
+{
+  "metaTitle": "Подтверждение email — 6 Jars Finance",
+  "metaDescription": "Подтвердите свой email, чтобы записаться в список ожидания 6 Jars Finance для iOS.",
+  "success": {
+    "title": "Email подтверждён",
+    "text": "Ваш email подтверждён. Мы сообщим вам, когда 6 Jars Finance выйдет на iOS."
+  },
+  "error": {
+    "title": "Ошибка подтверждения",
+    "text": "Ссылка для подтверждения недействительна или срок её действия истёк."
+  },
+  "backButton": "Вернуться к 6 Jars Finance"
+}

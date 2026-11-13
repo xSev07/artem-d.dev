@@ -1213,6 +1213,69 @@ button.button-store {
   text-align: center;
 }
 
+body:has(.verification-page) {
+  display: flex;
+  min-height: 100dvh;
+  flex-direction: column;
+}
+
+.verification-main {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  min-height: 0;
+}
+
+.verification-main > .container {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  justify-content: center;
+  padding-block: clamp(16px, 4vw, 32px);
+}
+
+.verification-page {
+  display: flex;
+  width: 100%;
+  flex: 1 1 auto;
+  align-items: center;
+  justify-content: center;
+  padding-block: 0;
+}
+
+.verification-page__card {
+  width: 100%;
+  max-width: 520px;
+  margin-inline: auto;
+  text-align: center;
+}
+
+.verification-page__card .hero__title {
+  font-size: clamp(24px, 3vw, 32px);
+}
+
+.verification-page__card .hero__lead {
+  max-width: none;
+  margin-top: 12px;
+  margin-bottom: 28px;
+  font-size: 17px;
+}
+
+.verification-page__icon[hidden] {
+  display: none;
+}
+
+.verification-page__icon:not([hidden]) {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.verification-page__button {
+  display: inline-flex;
+  min-width: min(100%, 280px);
+  justify-content: center;
+}
 
 [data-close-app-store-modal] {
   border: none;

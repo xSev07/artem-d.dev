@@ -1,0 +1,13 @@
+{
+  "metaTitle": "Verifikasi email — 6 Jars Finance",
+  "metaDescription": "Konfirmasikan email Anda untuk bergabung dengan daftar tunggu 6 Jars Finance di iOS.",
+  "success": {
+    "title": "Email berhasil dikonfirmasi",
+    "text": "Email Anda telah dikonfirmasi. Kami akan memberi tahu Anda saat 6 Jars Finance diluncurkan di iOS."
+  },
+  "error": {
+    "title": "Verifikasi gagal",
+    "text": "Tautan verifikasi ini tidak valid atau sudah kedaluwarsa."
+  },
+  "backButton": "Kembali ke 6 Jars Finance"
+}
