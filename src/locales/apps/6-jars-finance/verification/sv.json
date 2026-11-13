@@ -1,0 +1,13 @@
+{
+  "metaTitle": "E-postverifiering — 6 Jars Finance",
+  "metaDescription": "Bekräfta din e-postadress för att gå med på väntelistan för 6 Jars Finance på iOS.",
+  "success": {
+    "title": "E-postadressen bekräftad",
+    "text": "Din e-postadress har bekräftats. Vi meddelar dig när 6 Jars Finance lanseras för iOS."
+  },
+  "error": {
+    "title": "Verifieringen misslyckades",
+    "text": "Den här verifieringslänken är ogiltig eller har gått ut."
+  },
+  "backButton": "Tillbaka till 6 Jars Finance"
+}

@@ -21,6 +21,7 @@ const PAGE_FOLDER_KEYS = {
     "report-spendings-by-tags": ["articles", "reportSpendingsByTags"],
     "report-tag-details": ["articles", "reportTagDetails"],
     "budgeting-methods-comparison": ["articles", "methodsComparison"],
+    verification: ["verification"],
   },
 };
 

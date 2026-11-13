@@ -1,0 +1,13 @@
+{
+  "metaTitle": "E-Mail-Bestätigung — 6 Jars Finance",
+  "metaDescription": "Bestätige deine E-Mail-Adresse, um dich für die iOS-Warteliste von 6 Jars Finance anzumelden.",
+  "success": {
+    "title": "E-Mail bestätigt",
+    "text": "Deine E-Mail-Adresse wurde bestätigt. Wir benachrichtigen dich, sobald 6 Jars Finance für iOS erscheint."
+  },
+  "error": {
+    "title": "Bestätigung fehlgeschlagen",
+    "text": "Dieser Bestätigungslink ist ungültig oder abgelaufen."
+  },
+  "backButton": "Zurück zu 6 Jars Finance"
+}

@@ -1,0 +1,13 @@
+{
+  "metaTitle": "E-mailverificatie — 6 Jars Finance",
+  "metaDescription": "Bevestig je e-mailadres om je aan te melden voor de iOS-wachtlijst van 6 Jars Finance.",
+  "success": {
+    "title": "E-mailadres bevestigd",
+    "text": "Je e-mailadres is bevestigd. We laten het je weten zodra 6 Jars Finance voor iOS beschikbaar is."
+  },
+  "error": {
+    "title": "Verificatie mislukt",
+    "text": "Deze verificatielink is ongeldig of verlopen."
+  },
+  "backButton": "Terug naar 6 Jars Finance"
+}

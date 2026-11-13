@@ -1,0 +1,13 @@
+{
+  "metaTitle": "Verificación de correo electrónico — 6 Jars Finance",
+  "metaDescription": "Confirma tu correo electrónico para unirte a la lista de espera de 6 Jars Finance para iOS.",
+  "success": {
+    "title": "Correo electrónico confirmado",
+    "text": "Tu correo electrónico ha sido confirmado. Te avisaremos cuando 6 Jars Finance se lance para iOS."
+  },
+  "error": {
+    "title": "Error de verificación",
+    "text": "Este enlace de verificación no es válido o ha caducado."
+  },
+  "backButton": "Volver a 6 Jars Finance"
+}

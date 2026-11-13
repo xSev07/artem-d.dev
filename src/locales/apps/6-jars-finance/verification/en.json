@@ -1,0 +1,13 @@
+{
+  "metaTitle": "Email verification — 6 Jars Finance",
+  "metaDescription": "Confirm your email to join the 6 Jars Finance iOS waitlist.",
+  "success": {
+    "title": "Email confirmed",
+    "text": "Your email has been confirmed. We'll notify you when 6 Jars Finance launches on iOS."
+  },
+  "error": {
+    "title": "Verification failed",
+    "text": "This verification link is invalid or has expired."
+  },
+  "backButton": "Back to 6 Jars Finance"
+}

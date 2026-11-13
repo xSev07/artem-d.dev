@@ -1,0 +1,60 @@
+---
+layout: base.njk
+sitemap: false
+noindex: true
+pagination:
+  data: languages
+  size: 1
+  alias: lang
+permalink: "/{{ lang.code }}/apps/6-jars-finance/verification/"
+showLangSwitch: true
+langSwitchPath: "/apps/6-jars-finance/verification/"
+mainClass: verification-main
+year: 2026
+eleventyComputed:
+  title: "{{ 'apps.sixJarsFinance.verification.metaTitle' | t(lang.code) }}"
+  description: "{{ 'apps.sixJarsFinance.verification.metaDescription' | t(lang.code) }}"
+  lang: "{{ lang.code }}"
+---
+
+{% set d = "apps.sixJarsFinance.verification" %}
+
+<section
+  class="hero landing-section verification-page"
+  data-ios-verification
+  data-msg-success-title="{{ (d ~ '.success.title') | t(lang) }}"
+  data-msg-success-text="{{ (d ~ '.success.text') | t(lang) }}"
+  data-msg-error-title="{{ (d ~ '.error.title') | t(lang) }}"
+  data-msg-error-text="{{ (d ~ '.error.text') | t(lang) }}"
+>
+  <div class="hero__card verification-page__card">
+    <div class="verification-page__icon verification-page__icon--success" data-ios-verification-icon-success hidden aria-hidden="true">
+      <svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="36" cy="36" r="36" fill="var(--color-brand-soft)"/>
+        <path d="M18 26.5l18 12 18-12v19.5a2.5 2.5 0 0 1-2.5 2.5h-31a2.5 2.5 0 0 1-2.5-2.5V26.5z" stroke="var(--color-brand)" stroke-width="2" stroke-linejoin="round"/>
+        <path d="M18 26.5 36 38.5l18-12" stroke="var(--color-brand)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="50" cy="22" r="12" fill="var(--color-brand)"/>
+        <path d="M45.5 22.5 48.5 25.5l6.5-6.5" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </div>
+    <div class="verification-page__icon verification-page__icon--error" data-ios-verification-icon-error aria-hidden="true">
+      <svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="36" cy="36" r="36" fill="var(--color-brand-soft)"/>
+        <path d="M18 26.5l18 12 18-12v19.5a2.5 2.5 0 0 1-2.5 2.5h-31a2.5 2.5 0 0 1-2.5-2.5V26.5z" stroke="var(--color-brand)" stroke-width="2" stroke-linejoin="round"/>
+        <path d="M18 26.5 36 38.5l18-12" stroke="var(--color-brand)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="50" cy="22" r="12" fill="#B42318"/>
+        <path d="M46 18.5l8 8M54 18.5l-8 8" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+      </svg>
+    </div>
+    <h1 class="hero__title verification-page__title" data-ios-verification-title>{{ (d ~ ".error.title") | t(lang) }}</h1>
+    <p class="hero__lead verification-page__text" data-ios-verification-text>{{ (d ~ ".error.text") | t(lang) }}</p>
+    <a
+      class="button-primary verification-page__button"
+      href="/{{ lang }}/apps/6-jars-finance/download/"
+      data-analytics-link="download"
+      data-analytics-placement="ios_waitlist_verification"
+    >{{ (d ~ ".backButton") | t(lang) }}</a>
+  </div>
+</section>
+
+<script src="/assets/js/ios-waitlist-verification.js" defer></script>

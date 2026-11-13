@@ -1,0 +1,13 @@
+{
+  "metaTitle": "E-posta doğrulama — 6 Jars Finance",
+  "metaDescription": "6 Jars Finance iOS bekleme listesine katılmak için e-posta adresinizi doğrulayın.",
+  "success": {
+    "title": "E-posta doğrulandı",
+    "text": "E-posta adresiniz doğrulandı. 6 Jars Finance iOS için yayınlandığında sizi bilgilendireceğiz."
+  },
+  "error": {
+    "title": "Doğrulama başarısız",
+    "text": "Bu doğrulama bağlantısı geçersiz veya süresi dolmuş."
+  },
+  "backButton": "6 Jars Finance'e dön"
+}

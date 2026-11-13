@@ -1,0 +1,13 @@
+{
+  "metaTitle": "Verificarea adresei de e-mail — 6 Jars Finance",
+  "metaDescription": "Confirmă-ți adresa de e-mail pentru a te înscrie pe lista de așteptare 6 Jars Finance pentru iOS.",
+  "success": {
+    "title": "Adresă de e-mail confirmată",
+    "text": "Adresa ta de e-mail a fost confirmată. Te vom anunța când 6 Jars Finance va fi lansată pe iOS."
+  },
+  "error": {
+    "title": "Verificarea a eșuat",
+    "text": "Acest link de verificare este invalid sau a expirat."
+  },
+  "backButton": "Înapoi la 6 Jars Finance"
+}
